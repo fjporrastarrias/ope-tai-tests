@@ -749,12 +749,29 @@
             endTime: null,
             tiempoRestante: 90 * 60, // 90 minutos en segundos
             timerInterval: null,
-            history: []
+            history: [],
+            temas: {} // Nombres de los temas desde JSON
         };
 
         // ============================================
         // FUNCIONES DE DATOS
         // ============================================
+        async function cargarTemas() {
+            try {
+                const response = await fetch('json/temas.json');
+                if (response.ok) {
+                    state.temas = await response.json();
+                }
+            } catch (error) {
+                console.warn('No se pudieron cargar los nombres de temas:', error.message);
+                state.temas = {};
+            }
+        }
+
+        function obtenerNombreTema(numeroTema) {
+            return state.temas[numeroTema] || `Tema ${String(numeroTema).padStart(2, '0')}`;
+        }
+
         async function cargarBloquesDisponibles() {
             state.bloquesDisponibles = [];
 
@@ -982,6 +999,7 @@
                     const seleccionado = esSeleccionado(tema, bloque.bloque);
                     const puedeSelec = puedeSeleccionar(tema, bloque.bloque);
                     const clases = `bloque-btn ${seleccionado ? 'selected' : ''} ${!puedeSelec ? 'disabled' : ''}`;
+                    const nombreTema = obtenerNombreTema(tema);
 
                     html += `
                         <button
@@ -989,7 +1007,7 @@
                             onclick="seleccionarBloque(${tema}, ${bloque.bloque})"
                             ${!puedeSelec && !seleccionado ? 'disabled' : ''}
                         >
-                            <span class="bloque-tema">Tema ${String(tema).padStart(2, '0')}</span>
+                            <span class="bloque-tema">${nombreTema}</span>
                             <span class="bloque-numero">Bloque ${bloque.bloque}</span>
                         </button>
                     `;
@@ -1279,6 +1297,9 @@
             try {
                 mostrarEstado('Cargando historial...');
                 cargarHistorial();
+
+                mostrarEstado('Cargando nombres de temas...');
+                await cargarTemas();
 
                 mostrarEstado('Generando lista de bloques...');
                 await cargarBloquesDisponibles();
