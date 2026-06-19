@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Como regla general, ¿cuándo comenzará la eficacia de un acto administrativo?",
+    "o": [
+      "A los 20 días de su publicación en el Boletín Oficial de la Provincia.",
+      "Desde la fecha en que se dicte, salvo que en él se disponga otra cosa.",
+      "En el momento en que el interesado firme el acuse de recibo físico.",
+      "Al mes de su aprobación por la Junta de Gobierno Local."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 39.3 de la Ley 39/2015, ¿en qué caso se puede otorgar eficacia retroactiva a un acto administrativo?",
+    "o": [
+      "Cuando dicte sanciones de carácter económico de gran cuantía.",
+      "Cuando se dicten en sustitución de actos anulados, o produzcan efectos favorables al interesado, cumpliendo ciertos requisitos.",
+      "Siempre que lo decida unilateralmente el órgano instructor para agilizar el expediente.",
+      "Únicamente cuando el interesado sea una entidad pública local."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Toda notificación de un acto administrativo deberá ser cursada por la Administración en el plazo de:",
+    "o": [
+      "5 días hábiles a partir de la fecha en que el acto haya sido dictado.",
+      "10 días a partir de la fecha en que el acto haya sido dictado.",
+      "15 días naturales contados desde el día siguiente a su firma.",
+      "30 días hábiles obligatoriamente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de los siguientes contenidos NO es obligatorio en una notificación administrativa formal?",
+    "o": [
+      "El texto íntegro del acto.",
+      "Indicación de si pone fin o no a la vía administrativa.",
+      "Los recursos que procedan, órgano ante el que interponerlos y plazo.",
+      "El nombre y apellidos de todos los funcionarios que han intervenido en la tramitación previa."
+    ],
+    "a": 3
+  },
+  {
+    "q": "Las notificaciones que conteniendo el texto íntegro del acto omitiesen alguno de los otros requisitos esenciales:",
+    "o": [
+      "Son plenamente eficaces desde el momento en que se realizan de cara al interesado.",
+      "Surtirán efecto a partir de la fecha en que el interesado realice actuaciones que supongan el conocimiento del contenido.",
+      "Son nulas de pleno derecho de forma automática e insubsanable.",
+      "Obligan a reiniciar por completo todo el procedimiento administrativo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Las notificaciones por medios electrónicos se entenderán rechazadas cuando hayan transcurrido:",
+    "o": [
+      "3 días naturales desde la puesta a disposición sin que se acceda a su contenido.",
+      "5 días hábiles desde el envío del aviso al correo electrónico del interesado.",
+      "10 días naturales desde la puesta a disposición en la sede electrónica sin que se acceda a su contenido.",
+      "15 días hábiles desde el ingreso del documento en el buzón electrónico."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según el artículo 45, ¿en qué supuesto se debe publicar un acto administrativo en lugar de notificarlo individualmente?",
+    "o": [
+      "Cuando el acto tenga por destinatario a una pluralidad indeterminada de personas.",
+      "Cuando el interesado lo solicite de forma expresa en su instancia inicial.",
+      "Cuando el acto contenga datos de carácter estrictamente confidencial.",
+      "Cuando la cuantía económica asociada al acto supere los 100.000 euros."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Cuando una notificación individual resulte infructuosa tras los intentos legales correspondientes, la Administración debe:",
+    "o": [
+      "Archivar de inmediato las actuaciones por desistimiento tácito.",
+      "Publicar un anuncio en el Boletín Oficial del Estado.",
+      "Remitir el expediente al Juzgado de lo Contencioso-Administrativo.",
+      "Llamar por teléfono al interesado en horario nocturno."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Con carácter general, los intentos de notificación física en el domicilio que resulten infructuosos requerirán:",
+    "o": [
+      "Un solo intento en cualquier hora del día.",
+      "Dos intentos efectuados en días distintos y en horarios diferentes con un margen de tres horas entre ambos.",
+      "Tres intentos en el mismo día separados por una hora.",
+      "Cinco intentos a lo largo de un mes natural."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La publicación de un acto administrativo en un procedimiento de concurrencia competitiva:",
+    "o": [
+      "Es opcional si la Administración prefiere la llamada telefónica.",
+      "Sustituye plenamente a la notificación individual surtiendo los mismos efectos.",
+      "No abre en ningún caso el plazo para la interposición de recursos.",
+      "Es un trámite meramente informativo que carece de efectos jurídicos de eficacia."
+    ],
+    "a": 1
+  }
+]

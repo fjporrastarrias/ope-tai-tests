@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué tipo de discriminación se configura cuando un criterio aparentemente neutro sitúa a las personas de un sexo en desventaja particular frente al otro?",
+    "o": [
+      "Discriminación directa.",
+      "Discriminación indirecta.",
+      "Discriminación inversa.",
+      "Acción positiva desproporcionada."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el objetivo primordial de la implantación de un Plan de Igualdad en el Ayuntamiento?",
+    "o": [
+      "Reducir los costes globales de la plantilla de personal.",
+      "Alcanzar la igualdad real y efectiva entre mujeres y hombres y eliminar la discriminación por razón de sexo.",
+      "Eliminar la negociación colectiva con las organizaciones sindicales.",
+      "Establecer la rotación semanal obligatoria en la jefatura de los servicios técnicos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el empleo público local, las medidas encaminadas a la conciliación de la vida personal, familiar y laboral deben:",
+    "o": [
+      "Suponer una penalización automática en los procesos de promoción interna.",
+      "Fomentar la asunción equilibrada de las responsabilidades familiares mediante la corresponsabilidad.",
+      "Otorgarse de manera exclusiva al personal femenino de la corporación.",
+      "Quedar suspendidas permanentemente si el departamento presenta acumulación de tareas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El acoso por razón de sexo se define legalmente en la L.O. 3/2007 como:",
+    "o": [
+      "Cualquier conflicto de carácter puramente laboral entre empleados de distinto sexo.",
+      "Cualquier comportamiento realizado en función del sexo de una persona, con el propósito o el efecto de atentar contra su dignidad y crear un entorno intimidatorio, degradante u ofensivo.",
+      "Una discrepancia salarial fundamentada estrictamente en el complemento de antigüedad.",
+      "La libre asignación de turnos de trabajo por motivos puramente organizativos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En la tramitación de un Plan de Igualdad en la Administración Local, la fase de diagnóstico previo:",
+    "o": [
+      "Es de carácter potestativo y puede omitirse si hay acuerdo unánime.",
+      "Es una fase obligatoria e indispensable para fundamentar las medidas del plan.",
+      "Puede sustituirse por una declaración jurada de la Jefatura de Personal.",
+      "Solo se realiza si el Ayuntamiento cuenta con presupuestos deficitarios."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el rango normativo de la Ley 3/2007, de 22 de marzo, reguladora de la igualdad efectiva?",
+    "o": [
+      "Real Decreto Legislativo.",
+      "Ley Orgánica.",
+      "Ley Ordinaria.",
+      "Decreto-ley autonómico."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Al aplicar el rango de presencia equilibrada en un tribunal de oposición, los porcentajes límites permitidos de representación son:",
+    "o": [
+      "Entre el 45% y el 55%.",
+      "Entre el 40% y el 60%.",
+      "Entre el 35% y el 65%.",
+      "Exactamente el 50% de cada sexo de forma invariable."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Al organizar cursos de capacitación interna en informática (TAI), la perspectiva de género exige:",
+    "o": [
+      "Impedir la participación de hombres en cursos sobre administración de sistemas.",
+      "Analizar las necesidades y garantizar un acceso igualitario eliminando barreras de horarios y conciliación.",
+      "Exentar de las pruebas de evaluación final al personal del sexo subrepresented.",
+      "Dar prioridad únicamente a los empleados públicos en situación de interinidad."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Las medidas de acción positiva adoptadas para hacer efectivo el derecho constitucional de igualdad:",
+    "o": [
+      "Tienen carácter permanente e indefinido dentro de la estructura administrativa.",
+      "Son aplicables en tanto subsistan las situaciones patentes de desigualdad de hecho, debiendo ser razonables y proporcionadas.",
+      "Están prohibidas por vulnerar de forma directa el artículo 14 de la Constitución.",
+      "Se aplican de forma exclusiva en el sector laboral privado, quedando prohibidas en el público."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué calificación jurídica reciben las disposiciones o actos administrativos del Ayuntamiento que constituyan una discriminación por razón de sexo?",
+    "o": [
+      "Son plenamente válidos si cuentan con informe favorable de Intervención.",
+      "Son nulos de pleno derecho.",
+      "Son anulables, disponiendo la Administración de cuatro años para convalidarlos.",
+      "Dan lugar únicamente a una corrección disciplinaria de carácter leve."
+    ],
+    "a": 1
+  }
+]

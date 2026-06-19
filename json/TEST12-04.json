@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cómo se conoce a la parte central o núcleo de un Sistema Operativo encargado de interactuar directamente con el hardware?",
+    "o": [
+      "Interfaz Gráfica de Usuario (GUI).",
+      "Kernel o Núcleo.",
+      "Sistema de Archivos jerárquico.",
+      "Intérprete de comandos o Shell."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Para evitar que los programas de usuario dañen el sistema o accedan a recursos críticos de hardware, los Sistemas Operativos ejecutan su núcleo en un modo del procesador denominado:",
+    "o": [
+      "Modo Usuario desprotegido.",
+      "Modo Privilegiado, Supervisor o Modo Kernel.",
+      "Modo Libre de Interrupciones.",
+      "Modo Virtual Asíncrono."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué función del Sistema Operativo se encarga de adjudicar el tiempo de uso del microprocesador entre los diferentes programas abiertos?",
+    "o": [
+      "Gestión de Archivos.",
+      "Gestión de Procesos o Planificación de la CPU.",
+      "Gestión de la Memoria Virtual segmentada.",
+      "Gestión de los drivers de Entrada/Salida."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué técnica permite al Sistema Operativo simular una extensión de la memoria RAM utilizando espacio físico libre del disco duro o unidad SSD?",
+    "o": [
+      "Memoria Caché L3 de ráfaga.",
+      "Memoria Virtual (espacio de paginación o swap).",
+      "Acceso Directo a Memoria (DMA).",
+      "Fragmentación indexada del almacenamiento."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La estructura y lógica que utiliza un Sistema Operativo para organizar, nombrar, almacenar y recuperar ficheros dentro de las unidades de almacenamiento es el:",
+    "o": [
+      "Kernel operativo.",
+      "Sistema de Archivos (File System).",
+      "Administrador de microcódigos.",
+      "Planificador de hilos de ejecución."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La capacidad de un Sistema Operativo para ejecutar o dar la apariencia de ejecución simultánea de varios procesos o programas al mismo tiempo se denomina:",
+    "o": [
+      "Multitarea (Multitasking).",
+      "Multiprocesamiento asimétrico exclusivo.",
+      "Monoprogramación concurrente.",
+      "Segmentación secuencial de instrucciones."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes elementos NO es una de las funciones principales de un Sistema Operativo?",
+    "o": [
+      "La asignación y control de la memoria RAM para las aplicaciones.",
+      "El control de accesos, usuarios y la seguridad del sistema local.",
+      "El diseño de bases de datos relacionales y redacción de documentos de texto.",
+      "La gestión de las operaciones de Entrada/Salida de los periféricos."
+    ],
+    "a": 2
+  },
+  {
+    "q": "El entorno de software orientado a comandos de texto que permite al usuario interactuar con el sistema operativo escribiendo órdenes directas se denomina:",
+    "o": [
+      "Interfaz Gráfica de Usuario (GUI).",
+      "Interfaz de Línea de Comandos (CLI) o Shell.",
+      "Sistema de archivos planos indexados.",
+      "Núcleo monolítico modular."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando afirmamos que un Sistema Operativo es 'Multiusuario', significa que:",
+    "o": [
+      "Solo puede ser instalado en ordenadores que tengan varias CPU físicas.",
+      "Permite que múltiples usuarios ejecuten programas de forma simultánea o concurrente compartiendo de forma segura los mismos recursos de hardware.",
+      "Obliga a que todos los trabajadores municipales utilicen la misma contraseña.",
+      "El sistema solo ejecuta una aplicación ofimática compartida a través de la web."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de los siguientes es un ejemplo de Sistema Operativo comúnmente empleado en servidores de la infraestructura corporativa local?",
+    "o": [
+      "Microsoft Word Server.",
+      "GNU/Linux (por ejemplo, Red Hat Enterprise o Debian).",
+      "Adobe Acrobat Enterprise Edition.",
+      "Google Chrome OS Enterprise Server."
+    ],
+    "a": 1
+  }
+]

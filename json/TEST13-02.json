@@ -1,0 +1,116 @@
+{
+  "tema": "13",
+  "bloque": "02",
+  "preguntas": [
+    {
+      "id": 11,
+      "pregunta": "¿Qué componente tecnológico sustituyó a las válvulas de vacío y dio inicio a la Segunda Generación de ordenadores?",
+      "opciones": {
+        "a": "El circuito integrado",
+        "b": "El microprocesador",
+        "c": "El transistor",
+        "d": "El relé"
+      },
+      "correcta": "c"
+    },
+    {
+      "id": 12,
+      "pregunta": "¿Cuál de las siguientes es una ventaja clave del transistor frente a las válvulas de vacío?",
+      "opciones": {
+        "a": "Mayor consumo de energía",
+        "b": "Mayor tamaño físico",
+        "c": "Menor generación de calor y mayor fiabilidad",
+        "d": "Uso exclusivo de lógica analógica"
+      },
+      "correcta": "c"
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Qué lenguajes de programación de alto nivel surgieron durante la Segunda Generación de ordenadores?",
+      "opciones": {
+        "a": "C y C++",
+        "b": "FORTRAN y COBOL",
+        "c": "Java y Python",
+        "d": "Assembler puramente"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 14,
+      "pregunta": "¿Qué tipo de memoria de almacenamiento interno se popularizó sustancialmente en la Segunda Generación?",
+      "opciones": {
+        "a": "Memorias de núcleos magnéticos",
+        "b": "Memorias ópticas (CD-ROM)",
+        "c": "Memorias Flash",
+        "d": "Líneas de retardo de mercurio"
+      },
+      "correcta": "a"
+    },
+    {
+      "id": 15,
+      "pregunta": "¿Qué elemento tecnológico define inequívocamente a la Tercera Generación de ordenadores (1964-1971)?",
+      "opciones": {
+        "a": "El microprocesador monochip",
+        "b": "El circuito integrado (chip de silicio)",
+        "c": "El disco duro magnético externo de tambor",
+        "d": "La válvula de vacío miniaturizada"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 16,
+      "pregunta": "¿Qué mítica familia de ordenadores de IBM, lanzada en 1964, marcó la era de la Tercera Generación por su compatibilidad de software?",
+      "opciones": {
+        "a": "IBM PC 5150",
+        "b": "IBM System/360",
+        "c": "IBM ENIAC II",
+        "d": "IBM PDP-11"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 17,
+      "pregunta": "¿Qué avance a nivel de software de sistema se consolidó durante la Tercera Generación de ordenadores?",
+      "opciones": {
+        "a": "La multiprogramación y los primeros sistemas operativos primitivos",
+        "b": "Los entornos gráficos de usuario basados en ventanas (GUI)",
+        "c": "Los navegadores web multimedia",
+        "d": "La inteligencia artificial generativa"
+      },
+      "correcta": "a"
+    },
+    {
+      "id": 18,
+      "pregunta": "¿Qué permitió la invención de los circuitos integrados respecto a la fabricación de ordenadores?",
+      "opciones": {
+        "a": "El aumento masivo del tamaño físico",
+        "b": "La agrupación de miles de componentes electrónicos en una pequeña pastilla de silicio",
+        "c": "La eliminación total del uso de electricidad",
+        "d": "La obsolescencia inmediata de los lenguajes de programación"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 19,
+      "pregunta": "¿Cuál fue el primer ordenador comercial que utilizó masivamente válvulas de vacío y se empleó para procesar el censo estadounidense de 1950?",
+      "opciones": {
+        "a": "UNIVAC I",
+        "b": "EDVAC",
+        "c": "MARK I",
+        "d": "Intel 4004"
+      },
+      "correcta": "a"
+    },
+    {
+      "id": 20,
+      "pregunta": "¿Qué laboratorio fue la cuna de la invención del transistor en diciembre de 1947?",
+      "opciones": {
+        "a": "Xerox PARC",
+        "b": "Bell Laboratories",
+        "c": "MIT",
+        "d": "IBM Research"
+      },
+      "correcta": "b"
+    }
+  ]
+}

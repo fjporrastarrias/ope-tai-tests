@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es el objeto principal de la Ley 19/2013, de 9 de diciembre?",
+    "o": [
+      "Regular exclusivamente el régimen de los funcionarios locales.",
+      "Incrementar y reforzar la transparencia de la actividad pública, regular y garantizar el derecho de acceso a la información y establecer las obligaciones de buen gobierno.",
+      "Sustituir íntegramente a la Ley de Procedimiento Administrativo Común en el ámbito local.",
+      "Regular únicamente la contratación electrónica y los suministros de equipos informáticos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según la Ley 1/2014, de Transparencia Pública de Andalucía, ¿cuál es el plazo máximo ordinario para resolver y notificar una solicitud de acceso a la información pública?",
+    "o": [
+      "Un mes natural contado de fecha a fecha.",
+      "20 días naturales ininterrumpidos.",
+      "20 días hábiles desde la recepción de la solicitud por el órgano competente.",
+      "10 días hábiles improrrogables."
+    ],
+    "a": 2
+  },
+  {
+    "q": "El silencio administrativo en los procedimientos de solicitud de acceso a la información pública tiene carácter:",
+    "o": [
+      "Positivo en todo caso, otorgando acceso inmediato.",
+      "Negativo, entendiéndose desestimada la solicitud.",
+      "Positivo, salvo que la información afecte de forma directa al presupuesto municipal.",
+      "Negativo solo si afecta a la seguridad nacional; en el resto de materias es positivo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Ante qué órgano independiente se interpone la reclamación potestativa previa a la vía judicial en el ámbito local de Andalucía?",
+    "o": [
+      "Ante el Consejo de Transparencia y Buen Gobierno del Estado.",
+      "Ante el Alcalde-Presidente del Ayuntamiento de la localidad correspondiente.",
+      "Ante el Consejo de Transparencia de Andalucía.",
+      "Ante el Tribunal Contencioso-Administrativo de la capital de provincia."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Es necesario motivar una solicitud de acceso a la información pública según la legislación básica estatal?",
+    "o": [
+      "Sí, es un requisito formal de obligado cumplimiento.",
+      "No es necesario motivar la solicitud, aunque el solicitante puede exponer las razones que justifican su petición.",
+      "Sí, pero únicamente si la información solicitada pertenece al ámbito económico o fiscal.",
+      "No, pero si no se motiva, la Administración está facultada para cobrar una tasa de penalización."
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con el artículo 14 de la Ley 19/2013, el derecho de acceso podrá ser limitado si supone un perjuicio para:",
+    "o": [
+      "La comodidad del personal técnico o administrativo de la corporación local.",
+      "La prevención, investigación y persecución de los ilícitos penales, administrativos o disciplinarios.",
+      "Las peticiones masivas formuladas por un único ciudadano en un mismo año natural.",
+      "Los intereses y estrategias puramente políticas del equipo de gobierno municipal."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si la información solicitada contiene datos personales que revelen la ideología, afiliación sindical, religión o creencias de un tercero:",
+    "o": [
+      "Se concederá el acceso inmediato debido al principio de transparencia absoluta.",
+      "El acceso requerirá el consentimiento expreso y por escrito del afectado, salvo que este hubiese hecho públicos dichos datos de forma manifiesta.",
+      "Se denegará el acceso de forma absoluta sin posibilidad alguna de ponderación ni de consentimiento diferido.",
+      "Se anonimizará únicamente el segundo apellido del afectado, permitiendo la visualización del resto de campos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Las obligaciones de publicidad activa reguladas en la Ley 19/2013 se aplican de forma obligatoria a:",
+    "o": [
+      "Únicamente a los Ministerios integrantes del Gobierno de España.",
+      "A todas las Administraciones Públicas, incluyendo de forma expresa a las Entidades Locales como el Ayuntamiento de Priego de Córdoba.",
+      "Exclusivamente a las corporaciones privadas con facturación superior a diez millones de euros.",
+      "Solo a los órganos de carácter constitucional y estatutario del Estado."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el marco de la publicidad activa, ¿con qué frecuencia debe actualizarse la información publicada en los portales de transparencia?",
+    "o": [
+      "Únicamente cada cuatro años coincidiendo con la finalización de la legislatura municipal.",
+      "De forma periódica y de modo que se asegure la vigencia de la misma.",
+      "Una sola vez al año, fijándose el límite el día 31 de diciembre de cada ejercicio.",
+      "Exclusivamente cuando lo ordene mediante requerimiento formal la Junta de Andalucía."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el plazo legal para interponer la reclamación potestativa ante el Consejo de Transparencia de Andalucía frente a una resolución expresa denegatoria?",
+    "o": [
+      "Quince días hábiles desde el día del registro de entrada.",
+      "Un mes a contar desde el día siguiente al de la notificación del acto impugnado.",
+      "Tres meses a contar desde el día en que se dictó la resolución en el Pleno.",
+      "Dos meses improrrogables en todo caso."
+    ],
+    "a": 1
+  }
+]

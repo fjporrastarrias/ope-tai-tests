@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué artículo de la Ley 40/2015 define conceptualmente la Sede Electrónica?",
+    "o": [
+      "Artículo 37",
+      "Artículo 38",
+      "Artículo 39",
+      "Artículo 40"
+    ],
+    "a": 1
+  },
+  {
+    "q": "La responsabilidad sobre la integridad, veracidad y actualización de la información de una sede electrónica corresponde a:",
+    "o": [
+      "El ciudadano que realiza el trámite administrativo.",
+      "El titular de la misma, ya sea una Administración, órgano o entidad.",
+      "Exclusivamente a la Fábrica Nacional de Moneda y Timbre como proveedora.",
+      "Al Ministerio de Transformación Digital de forma centralizada."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 39 de la Ley 40/2015, ¿cuál es la definición exacta de un portal de internet?",
+    "o": [
+      "Una dirección electrónica segura protegida por una infraestructura de clave pública.",
+      "El punto de acceso electrónico cuya titularidad corresponde a una Administración Pública, que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente.",
+      "Un repositorio único donde se almacenan exclusivamente todos los expedientes administrativos finalizados.",
+      "El sistema criptográfico utilizado para la firma electrónica del personal directivo público."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Para su identificación electrónica, ¿cuáles son los sistemas que pueden utilizar las Administraciones Públicas según el artículo 40?",
+    "o": [
+      "Únicamente firma electrónica con certificado de persona física.",
+      "Sello electrónico basado en certificado cualificado y sistemas de Código Seguro de Verificación.",
+      "Usuario, contraseña avanzada y biometría facial.",
+      "Cualquier sistema criptográfico simétrico acordado por el Pleno."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los sellos electrónicos admisibles para la identificación de las Administraciones Públicas deben fundamentarse en:",
+    "o": [
+      "Un certificado simple emitido por una autoridad local no acreditada.",
+      "Un certificado cualificado que reúna los requisitos de la legislación de firma electrónica.",
+      "Un algoritmo simétrico de clave privada compartida.",
+      "Un cifrado César con rotación dinámica de bits."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El Código Seguro de Verificación (CSV) debe garantizar, en todo caso, la posibilidad de realizar la siguiente acción:",
+    "o": [
+      "Cifrar el correo electrónico del empleado que emitió el trámite.",
+      "Contrastar la autenticidad del documento accediendo a la sede electrónica correspondiente.",
+      "Eliminar el documento de forma automática pasados cinco años.",
+      "Modificar el contenido del documento una vez impreso."
+    ],
+    "a": 1
+  },
+  {
+    "q": "A diferencia de una sede electrónica, un portal de internet de una Administración Pública posee de manera principal una función de:",
+    "o": [
+      "Tramitación oficial con plena validez jurídica directa.",
+      "Acceso a información corporativa y difusión de carácter general.",
+      "Fe pública y custodia estricta de documentos confidenciales.",
+      "Identificación forzosa de los habilitados estatales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El establecimiento de una sede electrónica por parte de una Administración Pública requiere obligatoriamente de:",
+    "o": [
+      "Una autorización previa del Consejo de Ministros.",
+      "La determinación de las condiciones de su creación mediante la norma o acto de publicación oficial correspondiente.",
+      "Un dictamen favorable de la Unión Europea sobre interoperabilidad.",
+      "Un presupuesto mínimo auditado por el Tribunal de Cuentas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los certificados digitales empleados para dotar de identidad a los sellos electrónicos pueden ser de nivel:",
+    "o": [
+      "Únicamente avanzado sin necesidad de soporte seguro.",
+      "Avanzado o cualificado, según determine la legislación de firma electrónica.",
+      "Exclusivamente de nivel simple o básico.",
+      "Criptografía cuántica autogenerada por el propio servidor."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La Sede Electrónica del Ayuntamiento de Priego de Córdoba garantiza a los usuarios que interactúan con ella:",
+    "o": [
+      "El anonimato absoluto en cualquier procedimiento de sanción.",
+      "La integridad, veracidad y actualización de los servicios y la información disponibles.",
+      "El acceso a bases de datos de carácter privado de otras corporaciones locales sin control.",
+      "El soporte de hardware dedicado de forma física en su propio domicilio."
+    ],
+    "a": 1
+  }
+]

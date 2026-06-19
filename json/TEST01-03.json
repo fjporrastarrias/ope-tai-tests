@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Según el artículo 53.2 de la CE, ¿qué conjunto de derechos fundamenta un procedimiento basado en los principios de preferencia y sumariedad ante los tribunales comunes?",
+    "o": [
+      "El artículo 14 y la Sección 1ª del Capítulo II del Título I",
+      "Los artículos recogidos exclusivamente en el Capítulo III del Título I",
+      "La totalidad de los artículos de la Sección 2ª del Capítulo II",
+      "Todos los preceptos del Título I, del artículo 10 al 55"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué derechos y libertades son susceptibles de recurso de amparo constitucional ante el Tribunal Constitucional?",
+    "o": [
+      "El artículo 14, la Sección 1ª del Capítulo II del Título I, y la objeción de conciencia del artículo 30",
+      "Todos los derechos del Capítulo II y del Capítulo III del Título I sin excepción",
+      "Únicamente los comprendidos estrictamente entre los artículos 15 y 29",
+      "Exclusivamente el principio de igualdad del artículo 14"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Los principios rectores de la política social y económica enunciados en el Capítulo III del Título I:",
+    "o": [
+      "Son directamente exigibles mediante recurso de amparo ante el Tribunal Constitucional",
+      "Informarán la legislación positiva, la práctica judicial y la actuación de los poderes públicos",
+      "Pueden aplicarse directamente por cualquier juzgado de instancia obviando las leyes de desarrollo",
+      "Carecen de valor normativo y no vinculan en modo alguno a los órganos de la Administración"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Quién es el alto comisionado de las Cortes Generales encargado de defender los derechos del Título I de la Constitución?",
+    "o": [
+      "El Presidente del Tribunal Supremo",
+      "El Fiscal General del Estado",
+      "El Defensor del Pueblo",
+      "El Delegado del Gobierno en la Comunidad Autónoma"
+    ],
+    "a": 2
+  },
+  {
+    "q": "A tenor del artículo 55.1 de la Constitución, ¿cuándo se podrán suspender de forma general determinados derechos de los ciudadanos?",
+    "o": [
+      "Cuando se acuerde la declaración del estado de alarma",
+      "Cuando se declare el estado de excepción o el de sitio",
+      "Mediante Real Decreto del Presidente del Gobierno por urgencia sanitaria",
+      "Durante la declaración de huelgas de carácter general de la función pública"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de los siguientes derechos fundamentales NO puede ser suspendido de forma general bajo un estado de excepción?",
+    "o": [
+      "El derecho a la libertad y seguridad (Artículo 17)",
+      "El derecho a la inviolabilidad del domicilio (Artículo 18.2)",
+      "El derecho a la vida y a la integridad física (Artículo 15)",
+      "La libertad de residencia y circulación (Artículo 19)"
+    ],
+    "a": 2
+  },
+  {
+    "q": "La suspensión de carácter individual de derechos (artículo 55.2) en la investigación de bandas armadas o terroristas afecta a:",
+    "o": [
+      "Los derechos de asociación, reunión y libre sindicación",
+      "La duración de la detención preventiva, la inviolabilidad del domicilio y el secreto de las comunicaciones",
+      "El derecho al sufragio activo y pasivo en corporaciones locales",
+      "El derecho a la educación pública y a la libre cátedra universitaria"
+    ],
+    "a": 1
+  },
+  {
+    "q": "La utilización injustificada o abusiva de las facultades de suspensión individual de derechos regulada en el artículo 55.2 producirá:",
+    "o": [
+      "Únicamente responsabilidades de carácter disciplinario administrativo",
+      "Responsabilidad penal, como violación de los derechos y libertades reconocidos por las leyes",
+      "La anulación automática de las actuaciones sumariales del Ministerio del Interior",
+      "La disolución del cuerpo de seguridad actuante por mandato directo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "El artículo 29 de la Constitución regula el derecho de petición. Este puede ejercerse de la siguiente forma:",
+    "o": [
+      "Únicamente de modo colectivo ante las Cortes Generales",
+      "De forma individual y colectiva, por escrito, con arreglo a lo que determine la ley",
+      "Exclusivamente por los funcionarios locales de manera corporativa",
+      "Solo de manera verbal ante las autoridades judiciales y notariales"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los miembros de las Fuerzas o Institutos Armados o de los Cuerpos sometidos a disciplina militar, respecto al derecho de petición:",
+    "o": [
+      "Están totalmente privados del ejercicio de este derecho por su condición",
+      "Podrán ejercer este derecho sólo individualmente y con arreglo a lo dispuesto en su legislación específica",
+      "Pueden ejercerlo tanto de forma individual como colectiva sin limitación alguna",
+      "Lo tramitarán obligatoriamente a través del sindicato representativo"
+    ],
+    "a": 1
+  }
+]

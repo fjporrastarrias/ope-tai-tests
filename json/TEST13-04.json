@@ -1,0 +1,116 @@
+{
+  "tema": "13",
+  "bloque": "04",
+  "preguntas": [
+    {
+      "id": 31,
+      "pregunta": "En la evolución de las memorias, ¿qué diferencia estructural supuso el paso de las líneas de retardo a los núcleos de ferrita?",
+      "opciones": {
+        "a": "El almacenamiento pasó a ser puramente secuencial e inestable",
+        "b": "Permitió un acceso aleatorio (RAM) mucho más rápido y no volátil mecánicamente",
+        "c": "Obligó a usar exclusivamente lógica decimal",
+        "d": "Hizo que los ordenadores consumieran diez veces más energía"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 32,
+      "pregunta": "¿Cuál de las siguientes opciones describe el orden cronológico correcto de la tecnología base (de 1ª a 4ª generación)?",
+      "opciones": {
+        "a": "Transistor -> Válvula -> Circuito Integrado -> Microprocesador",
+        "b": "Válvula -> Transistor -> Circuito Integrado -> Microprocesador",
+        "c": "Válvula -> Circuito Integrado -> Transistor -> Microprocesador",
+        "d": "Microprocesador -> Circuito Integrado -> Transistor -> Válvula"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 33,
+      "pregunta": "¿Qué ordenador de la primera generación fue diseñado originalmente para calcular tablas de tiro de artillería en la Segunda Guerra Mundial?",
+      "opciones": {
+        "a": "UNIVAC I",
+        "b": "ENIAC",
+        "c": "IBM 360",
+        "d": "Altair 8800"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 34,
+      "pregunta": "¿Qué se entiende por 'Ley de Moore', formulada en la era de los circuitos integrados?",
+      "opciones": {
+        "a": "Que el número de transistores en un circuito integrado se duplica aproximadamente cada dos años",
+        "b": "Que la velocidad de internet se reduce a la mitad cada año",
+        "c": "Que el software siempre se ralentiza el doble que el hardware",
+        "d": "Que el coste de los ordenadores aumenta exponencialmente"
+      },
+      "correcta": "a"
+    },
+    {
+      "id": 35,
+      "pregunta": "¿Qué máquina electromecánica construida por Konrad Zuse entre 1938 y 1941 en Alemania es considerada una de las primeras máquinas de computación programables automáticas?",
+      "opciones": {
+        "a": "Z3",
+        "b": "Colossus",
+        "c": "Harvard Mark I",
+        "d": "Pascalina"
+      },
+      "correcta": "a"
+    },
+    {
+      "id": 36,
+      "pregunta": "¿Cuál de los siguientes hitos NO pertenece a la evolución de los ordenadores personales de los años 70 y 80?",
+      "opciones": {
+        "a": "Altair 8800",
+        "b": "Apple II",
+        "c": "EDVAC",
+        "d": "Commodore 64"
+      },
+      "correcta": "c"
+    },
+    {
+      "id": 37,
+      "pregunta": "¿Qué nombre recibe el elemento de la arquitectura Von Neumann encargado de realizar las operaciones aritméticas y lógicas?",
+      "opciones": {
+        "a": "Unidad de Control (UC)",
+        "b": "Unidad Aritmético Lógica (ALU)",
+        "c": "Memoria Principal",
+        "d": "Subsistema de Entrada/Salida"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 38,
+      "pregunta": "¿Qué componente de la arquitectura de Von Neumann se encarga de secuenciar, decodificar y coordinar la ejecución de las instrucciones?",
+      "opciones": {
+        "a": "La ALU",
+        "b": "La Unidad de Control (UC)",
+        "c": "El bus de datos",
+        "d": "El registro de estado"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 39,
+      "pregunta": "¿Qué aportación de Gottfried Leibniz a finales del siglo XVII es fundamental para la lógica de los ordenadores modernos?",
+      "opciones": {
+        "a": "El desarrollo de la teoría de circuitos integrados",
+        "b": "El perfeccionamiento del sistema binario",
+        "c": "La invención de las tarjetas perforadas magnéticas",
+        "d": "La creación de la primera válvula de vacío termoiónica"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 40,
+      "pregunta": "En el contexto de la evolución tecnológica, ¿cuál fue el principal factor que propició la aparición de los Sistemas Operativos?",
+      "opciones": {
+        "a": "La necesidad de automatizar y optimizar el uso del costoso tiempo de CPU de la Tercera Generación mediante multiprogramación",
+        "b": "La aparición de internet de banda ancha",
+        "c": "La invención de la interfaz táctil",
+        "d": "El desuso total de las arquitecturas basadas en Von Neumann"
+      },
+      "correcta": "a"
+    }
+  ]
+}

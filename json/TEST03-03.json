@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la circunscripción electoral determinada para las elecciones al Parlamento de Andalucía?",
+    "o": [
+      "El Municipio",
+      "La Provincia",
+      "La Comunidad Autónoma en circunscripción única",
+      "La Comarca"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Por qué período de tiempo son elegidos los diputados y diputadas del Parlamento andaluz?",
+    "o": [
+      "Tres años",
+      "Cuatro años",
+      "Cinco años",
+      "Seis años"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Con respecto a la distribución de diputados por provincias, el artículo 104 establece que:",
+    "o": [
+      "Cada provincia tendrá idéntico número de parlamentarios sin importar su censo",
+      "Ninguna provincia tendrá más del doble de diputados que otra",
+      "La provincia que albergue la capital tendrá el triple de representación",
+      "Viene determinada única y exclusivamente por los kilómetros de costa"
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con el artículo 102, ¿de qué tipo de autonomía goza de forma plena el Parlamento de Andalucía?",
+    "o": [
+      "Únicamente de autonomía presupuestaria",
+      "De plena autonomía reglamentaria, presupuestaria, administrativa y disciplinaria",
+      "Autonomía tutelada y ratificada de forma ordinaria por las Cortes Generales",
+      "No dispone de autonomía, depende del Consejo de Gobierno de la Junta"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de mayoría se requiere en el Parlamento para la aprobación o reforma de su Reglamento propio?",
+    "o": [
+      "Mayoría simple de los Diputados presentes",
+      "Mayoría de dos tercios de la Cámara",
+      "Mayoría absoluta de los Diputados",
+      "Unanimidad de todos los grupos representados"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué órganos de control y dirección interna elige el Parlamento de entre sus propios miembros?",
+    "o": [
+      "Al Presidente o Presidenta, la Mesa y la Diputación Permanente",
+      "Al Consejo Consultivo y los Directores Generales",
+      "A los Consejeros de la Presidencia de la Junta",
+      "A los Magistrados de la Sala de lo Contencioso del TSJA"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuántos períodos ordinarios de sesiones celebra anualmente el Parlamento de Andalucía conforme al artículo 103?",
+    "o": [
+      "Un único período continuo de 9 meses",
+      "Dos períodos por año, con una duración total de ocho meses como mínimo",
+      "Tres períodos distribuidos por cuatrimestres",
+      "Cuatro períodos breves de sesiones de dos meses cada uno"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿En qué meses del año se inician formalmente los dos períodos ordinarios de sesiones parlamentarias?",
+    "o": [
+      "El primero en enero y el segundo en julio",
+      "El primero en septiembre y el segundo en febrero",
+      "El primero en octubre y el segundo en marzo",
+      "El primero en noviembre y el segundo en mayo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Dentro de cuántos días siguientes a las elecciones deben ser convocados los diputados electos para la sesión constitutiva?",
+    "o": [
+      "Dentro de los 15 días siguientes",
+      "Dentro de los 25 días siguientes",
+      "Dentro de los 30 días siguientes",
+      "Dentro de los 45 días siguientes"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Quién se encarga de proponer formalmente un candidato a Presidente de la Junta, previa consulta a los Portavoces parlamentarios?",
+    "o": [
+      "El Rey de España",
+      "El Presidente del Parlamento de Andalucía",
+      "El Delegado del Gobierno en la Comunidad Autónoma",
+      "El Consejo Económico y Social"
+    ],
+    "a": 1
+  }
+]

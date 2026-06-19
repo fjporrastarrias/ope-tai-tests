@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Tienen los menores de edad capacidad de obrar ante las Administraciones Públicas según la Ley 39/2015?",
+    "o": [
+      "No, en ningún caso; requieren siempre de la asistencia de sus tutores legales.",
+      "Sí, exclusivamente si son mayores de 16 años.",
+      "Sí, para el ejercicio y defensa de aquellos de sus derechos e intereses cuya actuación esté permitida por el ordenamiento jurídico sin la asistencia de la persona que ejerza la patria potestad, tutela o curatela.",
+      "Sí, pero solo en los procedimientos de carácter sancionador en materia de educación."
+    ],
+    "a": 2
+  },
+  {
+    "q": "De acuerdo con el artículo 4 de la Ley 39/2015, ¿en qué momento pueden personarse en el procedimiento los interesados que tengan intereses legítimos que puedan resultar afectados por la resolución?",
+    "o": [
+      "Únicamente en el trámite de audiencia previa.",
+      "En tanto no haya recaído resolución definitiva.",
+      "En los primeros diez días desde la iniciación del expediente.",
+      "Solamente tras la interposición del recurso de alzada."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Para cuál de los siguientes actos NO se exige obligatoriamente acreditar la representación del interesado de forma fidedigna?",
+    "o": [
+      "Para formular solicitudes en nombre de otra persona.",
+      "Para la realización de actos y gestiones de mero trámite.",
+      "Para interponer recursos administrativos.",
+      "Para desistir de acciones o renunciar a derechos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si se presenta un acto administrativo y se detecta una falta o insuficiente acreditación de la representación, ¿de qué plazo dispone el interesado para subsanar dicho defecto?",
+    "o": [
+      "De 5 días hábiles prorrogables.",
+      "De 10 días hábiles o un plazo superior cuando las circunstancias del caso lo requieran.",
+      "De 15 días naturales improrrogables.",
+      "De un mes, a contar desde la fecha de recepción de la notificación."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el plazo máximo de validez que puede tener un poder inscrito en el Registro Electrónico de Apoderamientos según la Ley 39/2015?",
+    "o": [
+      "2 años.",
+      "3 años.",
+      "5 años.",
+      "Tiene vigencia indefinida mientras no sea revocado expresamente."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Los poderes inscritos en el Registro Electrónico de Apoderamientos podrán ser prorrogados antes de su vencimiento por periodos sucesivos que no superen un plazo máximo de:",
+    "o": [
+      "1 año.",
+      "3 años.",
+      "5 años.",
+      "10 años."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Un poder que faculta al apoderado para realizar cualquier actuación administrativa ante cualquier Administración Pública se clasifica como:",
+    "o": [
+      "Poder de tipo A.",
+      "Poder de tipo B.",
+      "Poder de tipo C.",
+      "Poder de tipo Especial."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Un poder otorgado válidamente para realizar únicamente determinados trámites especificados en el propio documento de apoderamiento se clasifica como:",
+    "o": [
+      "Poder de tipo A.",
+      "Poder de tipo B.",
+      "Poder de tipo C.",
+      "Poder de tipo General."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Cuando en una solicitud firmada conjuntamente figuren varios interesados, ¿con quién se efectuarán de forma ordinaria las actuaciones si no se señala expresamente un representante?",
+    "o": [
+      "Con todos y cada uno de ellos de forma simultánea y obligatoria.",
+      "Con el interesado que figure en primer término.",
+      "Con el interesado de mayor edad civil.",
+      "El procedimiento quedará suspendido hasta que designen formalmente a un único interlocutor."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si durante la tramitación de un procedimiento se advierte la existencia de personas que ostentan la condición de interesados y que no han comparecido en él:",
+    "o": [
+      "Se procederá al archivo provisional de las actuaciones.",
+      "Se les comunicará formalmente la tramitación de dicho procedimiento.",
+      "Se les tendrá por desistidos de sus derechos de forma automática.",
+      "Se continuará el procedimiento sin realizar ninguna acción, al haber precluido su derecho."
+    ],
+    "a": 1
+  }
+]

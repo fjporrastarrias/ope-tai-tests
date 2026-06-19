@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Desde una perspectiva técnica e informática, ¿qué es un programa?",
+    "o": [
+      "El diseño estético de las ventanas de un sistema de base de datos.",
+      "Una secuencia organizada de instrucciones lógicas legibles por una máquina, destinadas a ejecutar una tarea o resolver un problema específico.",
+      "El manual impreso en papel que describe las funciones de un ordenador.",
+      "Un dispositivo físico integrado dentro de los circuitos del chipset del puente norte."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El código escrito originalmente por el programador utilizando un lenguaje de programación de alto nivel se conoce como:",
+    "o": [
+      "Código Objeto.",
+      "Código Máquina o binario.",
+      "Código Fuente.",
+      "Código Exec (ejecutable directo)."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la función primordial de un compilador?",
+    "o": [
+      "Ejecutar un código fuente línea por línea sin traducirlo previamente.",
+      "Traducir un programa completo en código fuente de alto nivel a código máquina de una sola vez, generando un archivo ejecutable.",
+      "Limpiar el polvo acumulado en las tarjetas electrónicas del equipo.",
+      "Administrar los permisos de acceso de los usuarios del Ayuntamiento."
+    ],
+    "a": 1
+  },
+  {
+    "q": "A diferencia de un compilador, un software intérprete se caracteriza por:",
+    "o": [
+      "Traducir y ejecutar el código fuente línea por línea o instrucción por instrucción directamente en tiempo de ejecución.",
+      "Generar siempre un archivo binario independiente con extensión .exe.",
+      "Trabajar exclusivamente con componentes tangibles del hardware.",
+      "No requerir memoria RAM para realizar sus funciones de traducción."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿En qué categoría de software se clasifican los procesadores de texto, las hojas de cálculo y las herramientas de gestión municipal?",
+    "o": [
+      "Software de Sistema.",
+      "Software de Aplicación.",
+      "Software de Programación o Desarrollo.",
+      "Sistemas Operativos de red distribuidos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de software comprende los entornos de desarrollo integrados (IDE), compiladores, depuradores e intérpretes?",
+    "o": [
+      "Software de Aplicación de usuario final.",
+      "Software de Sistema operativo embebido.",
+      "Software de Programación.",
+      "Firmware de bajo nivel de la placa base."
+    ],
+    "a": 2
+  },
+  {
+    "q": "El único lenguaje que los circuitos integrados de la CPU comprenden de forma directa, compuesto exclusivamente por secuencias de ceros y unos, es el:",
+    "o": [
+      "Lenguaje de Alto Nivel.",
+      "Lenguaje de Marcado de Hipertexto (HTML).",
+      "Lenguaje Máquina (o Binario).",
+      "Lenguaje Ensamblador puro."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿A qué se refiere el término 'Firmware'?",
+    "o": [
+      "A un programa de aplicación comercial de coste muy elevado.",
+      "Al software de base grabado de forma permanente o semipermanente en una memoria no volátil que controla los circuitos electrónicos de un dispositivo específico.",
+      "A los componentes metálicos rígidos que protegen los servidores del CPD.",
+      "Al software de edición gráfica utilizado en las áreas de comunicación corporativa."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El software encargado de servir de interfaz directa entre los programas de aplicación y el hardware del ordenador, gestionando los recursos base, se denomina:",
+    "o": [
+      "Software de Sistema (como el Sistema Operativo).",
+      "Software de Productividad personal.",
+      "Sistema de gestión de bases de datos distribuidas.",
+      "Compilador optimizado multitarea."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Los pequeños programas que enseñan al Sistema Operativo cómo comunicarse e interactuar con un periférico concreto (como una impresora nueva) se denominan:",
+    "o": [
+      "Firmwares de expansión de datos.",
+      "Controladores de dispositivo o Drivers.",
+      "Compiladores dinámicos cruzados.",
+      "Aplicaciones ofimáticas locales."
+    ],
+    "a": 1
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Conforme al artículo 14 de la LPRL, el derecho a una protección eficaz frente a los riesgos laborales supone:",
+    "o": [
+      "La facultad de exigir complementos salariales en metálico en sustitución de las medidas preventivas.",
+      "La existencia de un correlativo deber del empresario o administración pública de proteger a sus trabajadores.",
+      "El derecho a no acudir al centro de trabajo si la temperatura exterior supera los 30 grados.",
+      "La obligación del empleado de costear sus propios reconocimientos médicos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Quién debe asumir el coste de las medidas de seguridad y salud laboral según el artículo 14.5 de la ley?",
+    "o": [
+      "Se financiará al 50% entre el Ayuntamiento de Priego de Córdoba y el empleado.",
+      "Deberá ser cubierto por las aportaciones voluntarias de los sindicatos del centro.",
+      "El coste de las medidas en ningún caso podrá recaer sobre los trabajadores.",
+      "El trabajador lo abonará mensualmente mediante detracción directa de su complemento específico."
+    ],
+    "a": 2
+  },
+  {
+    "q": "En virtud del derecho de información (Art. 18), ¿sobre qué aspectos debe el Ayuntamiento informar a los empleados?",
+    "o": [
+      "Solo sobre el organigrama político y las retribuciones de los concejales.",
+      "Sobre los riesgos para la seguridad y salud, las medidas de protección y prevención aplicables, y las medidas de emergencia.",
+      "Únicamente sobre los expedientes disciplinarios abiertos en otras entidades locales.",
+      "Sobre la vida laboral detallada del técnico de prevención de la mutua colaboradora."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El derecho a la formación en materia preventiva (Art. 19) exige que el Ayuntamiento garantice que esta formación sea:",
+    "o": [
+      "Exclusivamente teórica y generalista, sin guardar relación con las funciones reales.",
+      "Teórica y práctica, suficiente y adecuada, centrada específicamente en el puesto de trabajo o función.",
+      "Impartida obligatoriamente los fines de semana a cuenta de los días de asuntos propios del trabajador.",
+      "Sustituida por una declaración firmada donde el trabajador declare que conoce los riesgos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿En qué momento debe impartirse al personal del Ayuntamiento la formación preventiva obligatoria?",
+    "o": [
+      "Solamente una vez que el empleado acumule más de cinco años de antigüedad.",
+      "En el momento de su contratación y cuando se produzcan cambios en sus funciones o se introduzcan nuevas tecnologías.",
+      "Únicamente cuando ocurra un accidente grave dentro de su propio despacho.",
+      "Cada vez que se celebren elecciones municipales de forma invariable."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 21, ante una situación de riesgo grave e inminente, ¿qué derecho asiste al trabajador?",
+    "o": [
+      "Exigir un traslado definitivo de municipio de forma automática.",
+      "Interrumpir su actividad y, si fuera necesario, abandonar el lugar de trabajo.",
+      "Proceder al apagado general e irreversible de todos los servidores municipales sin previo aviso.",
+      "Presentar una demanda penal contra sus compañeros de sección."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué mayoría se requiere para que los Representantes de los Trabajadores puedan acordar la paralización de una actividad por riesgo grave e inminente si el empresario no actúa?",
+    "o": [
+      "Unanimidad absoluta de todos los trabajadores de la plantilla.",
+      "Acuerdo por mayoría de los miembros de la representación legal o de los Delegados de Prevención.",
+      "Aprobación por un tercio de la Junta de Gobierno Local.",
+      "Voto favorable de al menos dos técnicos del Servicio Andaluz de Salud."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Con carácter general, la vigilancia de la salud de los trabajadores mediante reconocimientos médicos es:",
+    "o": [
+      "Siempre obligatoria en todos los puestos y sectores sin excepción alguna.",
+      "Completamente ilegal si no interviene un mandato judicial expreso.",
+      "Voluntaria para el trabajador, requiriendo su consentimiento previo, salvo las excepciones legales.",
+      "Obligatoria únicamente para el personal directivo y de alta gestión."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿En cuál de las siguientes situaciones la vigilancia de la salud se vuelve OBLIGATORIA para el trabajador?",
+    "o": [
+      "Cuando el trabajador cumpla el período de prácticas de su oposición.",
+      "Cuando sea imprescindible para evaluar los efectos de las condiciones de trabajo o verificar si su estado de salud puede constituir un peligro para él mismo o terceros.",
+      "Siempre que se apruebe una modificación presupuestaria en el pleno municipal.",
+      "Cuando lo solicite por escrito un sindicato que no tenga representación en el Comité."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Quiénes tienen acceso directo a los datos médicos detallados e historiales clínicos resultantes de la vigilancia de la salud?",
+    "o": [
+      "El Alcalde y el Jefe de Personal para organizar los cuadrantes de trabajo.",
+      "El personal médico y las autoridades sanitarias que realicen las pruebas, sin que puedan facilitarse al empresario.",
+      "Todos los miembros del Comité de Seguridad y Salud en formato abierto.",
+      "Se publican en el tablón de anuncios electrónico del Ayuntamiento de Priego de Córdoba."
+    ],
+    "a": 1
+  }
+]

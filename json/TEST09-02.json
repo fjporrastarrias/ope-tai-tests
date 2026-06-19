@@ -1,0 +1,102 @@
+[
+  {
+    "q": "El personal directivo profesional en las Administraciones Públicas se rige por:",
+    "o": [
+      "Los principios de mérito, capacidad, idoneidad y publicidad.",
+      "La libre designación sin necesidad de publicidad previa.",
+      "Los criterios exclusivos del Estatuto de los Trabajadores sin excepciones.",
+      "Un nombramiento de carácter político determinado por el Alcalde."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes derechos se clasifica explícitamente como un derecho individual de los empleados públicos en el artículo 14 del TREBEP?",
+    "o": [
+      "La libertad sindical.",
+      "El derecho a la huelga.",
+      "A la inamovilidad en la condición de funcionario de carrera.",
+      "El planteamiento de conflictos colectivos."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál de los siguientes se clasifica como un derecho individual ejercido de forma colectiva en el artículo 15 del TREBEP?",
+    "o": [
+      "A percibir las retribuciones e indemnizaciones por razón del servicio.",
+      "A la negociación colectiva y participación en la determinación de condiciones de trabajo.",
+      "A la adopción de medidas que favorezcan la conciliación de la vida personal.",
+      "Al respeto de su intimidad y dignidad en el trabajo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El derecho a la progresión en la carrera profesional y promoción interna se basa en los principios de:",
+    "o": [
+      "Igualdad, mérito y capacidad.",
+      "Publicidad, celeridad y gratuidad.",
+      "Antigüedad absoluta y rotación voluntaria.",
+      "Confianza, idoneidad política y discrecionalidad."
+    ],
+    "a": 0
+  },
+  {
+    "q": "De acuerdo con el TREBEP, ¿tienen derecho los empleados públicos a la protección eficaz en materia de seguridad y salud en el trabajo?",
+    "o": [
+      "No, ya que la Ley de Prevención de Riesgos Laborales no les afecta.",
+      "Sí, es un derecho individual reconocido expresamente en el artículo 14.",
+      "Solo el personal laboral, quedando excluidos los funcionarios.",
+      "Solo si está contemplado expresamente en los presupuestos locales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿En qué artículo del TREBEP se establece la enumeración general de los derechos individuales de los empleados públicos?",
+    "o": [
+      "Artículo 9.",
+      "Artículo 14.",
+      "Artículo 53.",
+      "Artículo 54."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El derecho de reunión de los empleados públicos está catalogado dentro del TREBEP como un:",
+    "o": [
+      "Derecho individual de carácter absoluto.",
+      "Derecho reservado exclusivamente al personal laboral.",
+      "Derecho individual ejercido colectivamente.",
+      "Deber fundamental del Código de Conducta."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Los empleados públicos tienen derecho a percibir retribuciones e indemnizaciones por razón del servicio. ¿A cuál de las siguientes categorías pertenece este derecho?",
+    "o": [
+      "Derechos individuales.",
+      "Derechos colectivos de carácter sindical.",
+      "Derechos sociales transferibles.",
+      "Principios éticos de conducta."
+    ],
+    "a": 0
+  },
+  {
+    "q": "La inamovilidad en la condición de funcionario de carrera constituye:",
+    "o": [
+      "Un derecho absoluto a no ser sancionado bajo ningún concepto.",
+      "Un derecho individual recogido en el artículo 14 del TREBEP.",
+      "Un privilegio exclusivo del personal de confianza.",
+      "Un derecho aplicable de igual manera al personal laboral temporal."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El derecho a la no discriminación de los empleados públicos por razón de nacimiento, raza o sexo está garantizado como:",
+    "o": [
+      "Un principio ético que no genera derechos subjetivos directos.",
+      "Un derecho individual del empleado público.",
+      "Un derecho exclusivo del personal funcionario de carrera.",
+      "Un derecho ejercido únicamente de manera colectiva."
+    ],
+    "a": 1
+  }
+]

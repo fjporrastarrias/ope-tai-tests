@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Conforme al artículo 137 de la Constitución Española, el Estado se organiza territorialmente en:",
+    "o": [
+      "Municipios, provincias y regiones históricas exclusivamente.",
+      "Municipios, comarcas y Comunidades Autónomas.",
+      "Municipios, provincias y en las Comunidades Autónomas que se constituyan.",
+      "Diputaciones, mancomunidades y Comunidades Autónomas."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según la CE, todas las entidades en las que se organiza territorialmente el Estado gozan de:",
+    "o": [
+      "Soberanía compartida con el pueblo español.",
+      "Autonomía para la gestión de sus respectivos intereses.",
+      "Independencia legislativa absoluta.",
+      "Autodeterminación administrativa coordinada."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El principio de solidaridad entre todas las nacionalidades y regiones de España se consagra explícitamente en el artículo:",
+    "o": [
+      "Artículo 1 de la Constitución Española.",
+      "Artículo 2 de la Constitución Española.",
+      "Artículo 137 de la Constitución Española.",
+      "Artículo 149 de la Constitución Española."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué artículo de la Constitución Española detalla de forma exhaustiva las competencias exclusivas del Estado?",
+    "o": [
+      "Artículo 147.",
+      "Artículo 148.",
+      "Artículo 149.1.",
+      "Artículo 150."
+    ],
+    "a": 2
+  },
+  {
+    "q": "De acuerdo con el artículo 149.1.18.ª de la CE, ¿cuál de las siguientes materias es competencia exclusiva del Estado?",
+    "o": [
+      "La asistencia social de las corporaciones locales.",
+      "Las bases del régimen jurídico de las Administraciones Públicas y el procedimiento administrativo común.",
+      "La ordenación del territorio y el urbanismo municipal.",
+      "Las ferias de carácter interior que se celebren en los municipios."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Las competencias en materia de 'correos y telecomunicaciones' corresponden, según la Constitución Española, de forma exclusiva a:",
+    "o": [
+      "El Estado.",
+      "Las Comunidades Autónomas.",
+      "Las Diputaciones Provinciales de forma delegada.",
+      "Los Ayuntamientos de más de 50.000 habitantes."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Si una materia no ha sido recogida o asumida expresamente por el Estatuto de Autonomía de una Comunidad Autónoma, la competencia sobre la misma:",
+    "o": [
+      "Queda en suspenso hasta que dictamine el Tribunal Supremo.",
+      "Corresponde de forma automática a los Ayuntamientos.",
+      "Corresponde al Estado.",
+      "Pasa a depender directamente de la Unión Europea."
+    ],
+    "a": 2
+  },
+  {
+    "q": "En caso de conflicto normativo sobre materias que no estén atribuidas a la exclusiva competencia de las Comunidades Autónomas, las normas del Estado:",
+    "o": [
+      "Serán nulas de pleno derecho frente a las autonómicas.",
+      "Prevalecerán sobre las de las Comunidades Autónomas.",
+      "Se integrarán en el reglamento municipal preferente.",
+      "Quedarán subordinadas a lo que determine la Diputación Provincial."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según establece el artículo 149.3 de la Constitución Española, el derecho estatal respecto al de las Comunidades Autónomas será, en todo caso:",
+    "o": [
+      "Secundario.",
+      "Supletorio.",
+      "Alternativo.",
+      "Inaplicable."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Mediante qué instrumento normativo puede el Estado transferir o delegar en las Comunidades Autónomas facultades correspondientes a materias de titularidad estatal?",
+    "o": [
+      "Mediante Real Decreto del Consejo de Ministros.",
+      "Mediante Ley de Bases.",
+      "Mediante Ley Orgánica.",
+      "Mediante Orden Ministerial conjunta."
+    ],
+    "a": 2
+  }
+]

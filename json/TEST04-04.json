@@ -1,0 +1,102 @@
+[
+  {
+    "q": "31. Las competencias asignadas a los municipios por leyes del Estado o de las Comunidades Autónomas, ejercidas con autonomía y responsabilidad, se denominan:",
+    "o": [
+      "Competencias propias",
+      "Competencias delegadas",
+      "Competencias compartidas con el Estado",
+      "Competencias extraordinarias"
+    ],
+    "a": 0
+  },
+  {
+    "q": "32. ¿Qué artículo de la LRBRL detalla los ámbitos en los que la ley estatal o autonómica debe atribuir competencias propias a los municipios?",
+    "o": [
+      "Artículo 10",
+      "Artículo 20",
+      "Artículo 25",
+      "Artículo 45"
+    ],
+    "a": 2
+  },
+  {
+    "q": "33. ¿Cuál de los siguientes servicios mínimos es obligatorio para TODOS los municipios sin importar su cifra de población?",
+    "o": [
+      "Biblioteca pública y parque público",
+      "Prevención y extinción de incendios",
+      "Alumbrado público, cementerio, recogida de residuos y limpieza viaria",
+      "Transporte urbano colectivo"
+    ],
+    "a": 2
+  },
+  {
+    "q": "34. Además de los servicios básicos comunes, ¿qué servicios específicos debe prestar obligatoriamente un municipio de más de 5.000 habitantes como Priego de Córdoba?",
+    "o": [
+      "Parque público, biblioteca pública y tratamiento de residuos",
+      "Policía local y protección civil",
+      "Matadero municipal y mercado central",
+      "Instalaciones deportivas de uso público"
+    ],
+    "a": 0
+  },
+  {
+    "q": "35. Al superar Priego de Córdoba los 20.000 habitantes, ¿cuál de los siguientes conjuntos de servicios pasa a ser una competencia mínima obligatoria?",
+    "o": [
+      "Protección civil, evaluación de situaciones de necesidad social, prevención y extinción de incendios e instalaciones deportivas de uso público",
+      "Transporte colectivo urbano de viajeros y protección del medio ambiente urbano",
+      "Recogida selectiva automatizada y red wifi municipal gratuita",
+      "Tráfico y control de vertidos industriales"
+    ],
+    "a": 0
+  },
+  {
+    "q": "36. ¿A partir de qué umbral de población es obligatorio por ley el servicio de transporte colectivo urbano de viajeros?",
+    "o": [
+      "Superior a 10.000 habitantes",
+      "Superior a 20.000 habitantes",
+      "Superior a 50.000 habitantes",
+      "Superior a 100.000 habitantes"
+    ],
+    "a": 2
+  },
+  {
+    "q": "37. Cuando el Estado o una Comunidad Autónoma delega el ejercicio de una competencia en un municipio, esta delegación debe acompañarse obligatoriamente de:",
+    "o": [
+      "La transferencia de los medios financieros, materiales o personales necesarios",
+      "Un cambio en el término municipal",
+      "La disolución de la Junta de Gobierno Local",
+      "La aprobación por referéndum local"
+    ],
+    "a": 0
+  },
+  {
+    "q": "38. Para que un municipio pueda ejercer competencias distintas de las propias y de las delegadas (artículo 7.4 LRBRL), se requiere:",
+    "o": [
+      "Autorización judicial previa",
+      "Informes vinculantes que acrediten la inexistencia de duplicidades y la sostenibilidad financiera",
+      "Aprobación por mayoría de tres quintos del Senado",
+      "Que el municipio sea capital de provincia"
+    ],
+    "a": 1
+  },
+  {
+    "q": "39. ¿Quién ostenta la atribución de presidir las sesiones del Pleno municipal en el régimen ordinario local?",
+    "o": [
+      "El Concejal de mayor edad",
+      "El Secretario del Ayuntamiento",
+      "El Alcalde",
+      "El Subdelegado del Gobierno"
+    ],
+    "a": 2
+  },
+  {
+    "q": "40. Conforme a la legislación de régimen local, ¿qué documento administrativo acredita fehacientemente la residencia y el domicilio habitual en el municipio?",
+    "o": [
+      "La escritura de propiedad de la vivienda",
+      "El Padrón Municipal",
+      "El Documento Nacional de Identidad (DNI)",
+      "El recibo del Impuesto sobre Bienes Inmuebles (IBI)"
+    ],
+    "a": 1
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Según la Ley 19/2013, la resolución que determine la ampliación del plazo máximo para contestar a una solicitud de acceso:",
+    "o": [
+      "Puede ser objeto de recurso administrativo ordinario de forma independiente.",
+      "Debe ser notificada al solicitante y no es susceptible de recurso de forma independiente.",
+      "No requiere de notificación formal, bastando con su publicación interna en el portal.",
+      "Requiere el visado y aprobación por mayoría absoluta del Pleno de la Corporación."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué procedimiento debe seguir el órgano administrativo si la solicitud se refiere a información que no obra en su poder por no ser de su competencia?",
+    "o": [
+      "Desestimar la solicitud por silencio positivo simulado.",
+      "Archivar el expediente sin realizar trámite ni comunicación alguna al ciudadano.",
+      "Remitir la solicitud al órgano competente, si lo conoce, y notificar esta circunstancia al solicitante.",
+      "Iniciar un expediente sancionador contra el solicitante por error de dirección administrativa."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Dentro del bloque de publicidad activa económica, la información relativa a los contratos menores del Ayuntamiento debe publicarse:",
+    "o": [
+      "Ocultando la identidad de los adjudicatarios finales en todo caso.",
+      "Al menos trimestralmente, detallando objeto, duración, importe de adjudicación e identidad del adjudicatario.",
+      "Cada cuatro años mediante inserción en el Boletín Oficial de la Provincia.",
+      "Está exenta de cualquier tipo de publicación en el portal debido a su baja cuantía."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el marco del régimen de Buen Gobierno regulado en la Ley 19/2013, las infracciones tipificadas como muy graves prescriben a los:",
+    "o": [
+      "Seis meses ordinarios.",
+      "Doce meses naturales.",
+      "Tres años.",
+      "Cinco años ininterrumpidos."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué sanción principal lleva aparejada la comisión de una infracción calificada como muy grave en materia de buen gobierno?",
+    "o": [
+      "Una amonestación verbal privada emitida por el Alcalde del municipio.",
+      "La destitución del cargo público y la declaración de no poder ser nombrado para ocupar cargos similares durante un período de entre 5 y 10 años.",
+      "Una multa económica equivalente a una jornada ordinaria de sueldo base.",
+      "La suspensión temporal del ejercicio de funciones por un máximo de quince días."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando una solicitud de acceso a la información pública sea admitida pero afecte de forma directa a derechos de terceros plenamente identificados:",
+    "o": [
+      "Se concederá el acceso omitiendo por completo la opinión de dichos terceros.",
+      "Se dará traslado de la solicitud a los terceros afectados para que formulen alegaciones en un plazo de quince días.",
+      "Se denegará de forma automática el acceso por aplicación del principio de cautela.",
+      "Se paralizará el procedimiento administrativo por un tiempo mínimo de un año."
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con el modelo básico de la Ley 19/2013, la competencia para resolver las solicitudes de acceso en las Entidades Locales corresponde a:",
+    "o": [
+      "El Secretario General del Ayuntamiento de forma exclusiva e indelegable.",
+      "Los órganos de gobierno de las Entidades Locales que determinen sus propias normas organizativas.",
+      "El Delegado del Gobierno del Estado en la respectiva Comunidad Autónoma.",
+      "El Interventor de Fondos de la corporación local."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La Ley 1/2014 de Andalucía establece que las entidades locales deben publicar de forma obligatoria las retribuciones percibidas anualmente por:",
+    "o": [
+      "Todo el personal laboral con funciones de mantenimiento informático básico.",
+      "Los altos cargos y máximos responsables de las entidades incluidas en su ámbito de aplicación.",
+      "Exclusivamente las empresas contratistas externas del municipio.",
+      "Ningún miembro de la corporación por colisionar con el derecho a la privacidad laboral."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La aplicación de los límites al derecho de acceso recogidos en el artículo 14 de la Ley 19/2013 se realizará de forma:",
+    "o": [
+      "Arbitraria según las directrices políticas de la Junta de Gobierno Local.",
+      "Justificada y proporcionada a su objeto y finalidad de protección.",
+      "Automática y extensiva, impidiendo siempre cualquier tipo de acceso parcial.",
+      "Discrecional sin necesidad de motivación técnica en la resolución final."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si el Ayuntamiento deniega el acceso a una información amparándose en un límite legal, la resolución:",
+    "o": [
+      "Deberá ser motivada expresamente, detallando las causas concretas de la restricción.",
+      "Podrá consistir en un documento genérico normalizado sin justificación circunstanciada.",
+      "No requiere notificación formal, siendo suficiente la producción del silencio negativo.",
+      "Debe contar con el visto bueno y firma del Ministerio de la Presidencia del Estado."
+    ],
+    "a": 0
+  }
+]

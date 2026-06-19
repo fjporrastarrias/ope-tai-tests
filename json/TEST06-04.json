@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué artículo de la Ley 39/2015 recoge de forma expresa los derechos de los interesados en el procedimiento administrativo?",
+    "o": [
+      "Artículo 24.",
+      "Artículo 35.",
+      "Artículo 47.",
+      "Artículo 53."
+    ],
+    "a": 3
+  },
+  {
+    "q": "Los interesados en un procedimiento administrativo tienen derecho a no presentar documentos que:",
+    "o": [
+      "Sean de carácter privado o familiar.",
+      "Hayan sido elaborados por cualquier Administración Pública o ya obren en poder de estas.",
+      "Tengan un coste de obtención superior a los 50 euros.",
+      "Estén redactados en una lengua cooficial de otra Comunidad Autónoma."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El derecho a identificar a las autoridades y al personal bajo cuya responsabilidad se tramiten los procedimientos constituye:",
+    "o": [
+      "Una facultad potestativa que la Administración puede denegar por seguridad.",
+      "Una garantía esencial del interesado regulada en el artículo 53 de la Ley 39/2015.",
+      "Un derecho exclusivo de los funcionarios públicos de carrera.",
+      "Un trámite que sólo puede ejercerse una vez finalizado el procedimiento."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿En qué momento del procedimiento pueden los interesados formular alegaciones y aportar documentos según las garantías generales?",
+    "o": [
+      "Únicamente en el primer día del plazo de presentación de instancias.",
+      "En cualquier fase del procedimiento anterior al trámite de audiencia.",
+      "Sólo después de que se haya dictado la resolución definitiva.",
+      "Exclusivamente cuando el órgano instructor les requiera formalmente para ello."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La obligación de la Administración de dictar resolución expresa y notificarla se extiende a:",
+    "o": [
+      "Únicamente los procedimientos iniciados a solicitud del interesado.",
+      "Todos los procedimientos, cualquiera que sea su forma de iniciación.",
+      "Los expedientes que no superen los 3 meses de tramitación.",
+      "Procedimientos de carácter sancionador de forma exclusiva."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Constituye una garantía del interesado el derecho a obtener copia sellada de los documentos que presente, lo cual actualmente se traduce en:",
+    "o": [
+      "Un sello físico de tinta en papel timbrado obligatoriamente.",
+      "Un recibo electrónico que acredite la presentación, emitido automáticamente por el registro electrónico.",
+      "Una firma manuscrita del Alcalde en el documento aportado.",
+      "La grabación en vídeo del momento de la entrega en la oficina de atención."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando un interesado actúe en el procedimiento asistido por asesor, dicha asistencia se considera:",
+    "o": [
+      "Prohibida salvo autorización expresa del Consejo de Gobierno Local.",
+      "Un derecho o garantía del interesado para la mejor defensa de sus intereses.",
+      "Obligatoria en todos los casos para personas físicas.",
+      "Un motivo de suspensión automática de los plazos de tramitación."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El derecho a utilizar las lenguas oficiales en el territorio de su Comunidad Autónoma se ejerce de acuerdo con:",
+    "o": [
+      "Lo previsto en la Ley 39/2015 y la legislación aplicable en cada caso.",
+      "La decisión discrecional del funcionario que atienda la mesa de registro.",
+      "El criterio fijado anualmente por el Ministerio de Cultura.",
+      "Ninguna es correcta, en la Administración Local sólo se puede usar el castellano."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Las garantías del procedimiento administrativo impiden que la Administración exija a los ciudadanos:",
+    "o": [
+      "El cumplimiento de los plazos legalmente establecidos.",
+      "La presentación de datos y documentos no exigidos por la normativa aplicable.",
+      "La identificación mediante firma electrónica en trámites obligatorios.",
+      "El abono de tasas legítimamente aprobadas por ordenanza fiscal."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El cumplimiento estricto del trámite de audiencia al interesado antes de redactar la propuesta de resolución es una garantía cuya omisión puede generar:",
+    "o": [
+      "Una simple falta leve del funcionario sin trascendencia en el acto.",
+      "La anulabilidad del acto administrativo si produce indefensión real al interesado.",
+      "La prórroga automática del presupuesto municipal de Priego de Córdoba.",
+      "La conversión inmediata del procedimiento en un contrato menor."
+    ],
+    "a": 1
+  }
+]

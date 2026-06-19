@@ -1,0 +1,102 @@
+[
+  {
+    "q": "21. Desde una perspectiva informática (TAI), ¿quién es el responsable de la formación, mantenimiento, revisión y custodia del Padrón Municipal?",
+    "o": [
+      "El Ayuntamiento",
+      "El Instituto Nacional de Estadística (INE)",
+      "La Junta de Andalucía",
+      "La Fábrica Nacional de Moneda y Timbre"
+    ],
+    "a": 0
+  },
+  {
+    "q": "22. ¿Con qué organismo nacional coordinan los Ayuntamientos sus datos padronales de forma informatizada mensualmente?",
+    "o": [
+      "Con la Agencia Tributaria",
+      "Con la Dirección General de Tráfico",
+      "Con el Instituto Nacional de Estadística (INE)",
+      "Con la Seguridad Social"
+    ],
+    "a": 2
+  },
+  {
+    "q": "23. ¿Qué órgano colegiado técnico dictamina y coordina las relaciones entre el INE y los Ayuntamientos en materia de padrón?",
+    "o": [
+      "La Junta de Gobierno Local",
+      "El Consejo de Empadronamiento",
+      "La Comisión de Informática Local",
+      "El Pleno Municipal"
+    ],
+    "a": 1
+  },
+  {
+    "q": "24. En el Régimen Común de la LRBRL, ¿cuáles son los tres órganos obligatorios en TODOS los Ayuntamientos?",
+    "o": [
+      "Alcalde, Junta de Gobierno Local y Pleno",
+      "Alcalde, Concejales Delegados y Comisión Especial de Cuentas",
+      "Alcalde, Tenientes de Alcalde y Junta de Gobierno Local",
+      "Alcalde, Tenientes de Alcalde y Pleno"
+    ],
+    "a": 3
+  },
+  {
+    "q": "25. ¿A partir de qué cifra de población es obligatoria la existencia de la Junta de Gobierno Local en los municipios de régimen común?",
+    "o": [
+      "Municipios con población superior a 5.000 habitantes",
+      "Municipios con población superior a 20.000 habitantes",
+      "Municipios con población superior a 50.000 habitantes",
+      "Es obligatoria en todos los municipios sin importar su población"
+    ],
+    "a": 0
+  },
+  {
+    "q": "26. Sabiendo que Priego de Córdoba cuenta con aproximadamente 21.764 habitantes (INE 2025), ¿es obligatoria la Junta de Gobierno Local?",
+    "o": [
+      "No, solo es obligatoria en capitales de provincia",
+      "Sí, por ser un municipio con población superior a 5.000 habitantes",
+      "No, al no alcanzar los 50.000 habitantes es meramente facultativa",
+      "Sí, pero solo si el Pleno lo aprueba por mayoría absoluta"
+    ],
+    "a": 1
+  },
+  {
+    "q": "27. ¿Cuál es el límite máximo de Concejales que pueden integrar la Junta de Gobierno Local?",
+    "o": [
+      "La mitad del número legal de Concejales del Pleno",
+      "Un número fijo de 5 Concejales",
+      "No superior al tercio del número legal de miembros del Pleno",
+      "El 25% del número legal de miembros del Pleno"
+    ],
+    "a": 2
+  },
+  {
+    "q": "28. ¿Quién nombra y separa libremente a los miembros de la Junta de Gobierno Local y a los Tenientes de Alcalde?",
+    "o": [
+      "El Alcalde",
+      "El Pleno por mayoría de dos tercios",
+      "El Gobernador Civil / Subdelegado del Gobierno",
+      "Los propios vecinos mediante consulta"
+    ],
+    "a": 0
+  },
+  {
+    "q": "29. ¿Qué órgano municipal de existencia preceptiva tiene como función el examen, estudio e informe de las cuentas anuales antes del Pleno?",
+    "o": [
+      "La Junta de Gobierno Local",
+      "El Consejo Económico y Social",
+      "La Intervención General del Estado",
+      "La Comisión Especial de Cuentas"
+    ],
+    "a": 3
+  },
+  {
+    "q": "30. Los Tenientes de Alcalde sustituyen al Alcalde en casos de vacante, ausencia o enfermedad, y son nombrados de entre:",
+    "o": [
+      "Cualquier persona residente en el municipio",
+      "Los miembros de la Junta de Gobierno Local (o Concejales si esta no existe)",
+      "Los Concejales de la oposición en régimen de rotación",
+      "Los funcionarios habilitados nacionales del Ayuntamiento"
+    ],
+    "a": 1
+  }
+]

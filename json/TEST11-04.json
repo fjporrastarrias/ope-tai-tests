@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cómo define el artículo 31 de la LPRL a los 'Servicios de Prevención'?",
+    "o": [
+      "Unidades externas destinadas a abonar las prestaciones económicas de incapacidad.",
+      "El conjunto de medios humanos y materiales necesarios para realizar las actividades preventivas a fin de garantizar la adecuada protección.",
+      "Comisiones de concejales destinadas a tramitar las bajas por enfermedad del personal.",
+      "Un cuerpo policial autonómico con funciones sancionadoras directas en los centros."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿A partir de qué número de trabajadores es obligatorio constituir un Servicio de Prevención Propio con carácter general (RD 39/1997)?",
+    "o": [
+      "Más de 50 trabajadores de plantilla.",
+      "Más de 100 trabajadores de plantilla.",
+      "Más de 500 trabajadores de plantilla.",
+      "Más de 1.000 trabajadores de plantilla."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Quiénes son los Delegados de Prevención de acuerdo con el artículo 35 de la Ley 31/1995?",
+    "o": [
+      "Técnicos externos contratados para auditar las dependencias municipales.",
+      "Los representantes de los trabajadores con funciones específicas en materia de prevención de riesgos en el trabajo.",
+      "Los Jefes de Sección encargados de custodiar los partes de accidentes.",
+      "Inspectores de la Junta de Andalucía comisionados en la entidad local."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿De qué manera son elegidos los Delegados de Prevención en el ámbito de la representación laboral?",
+    "o": [
+      "Por sorteo público realizado por el Secretario General de la corporación.",
+      "Por y entre los representantes del personal (Delegados de Personal, Comité de Empresa o Junta de Personal).",
+      "Por nombramiento directo y libre del Alcalde-Presidente.",
+      "Mediante sufragio universal de los vecinos del municipio en elecciones locales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En un centro de trabajo del Ayuntamiento que cuente con una plantilla de entre 50 y 100 trabajadores, ¿cuántos Delegados de Prevención corresponderían?",
+    "o": [
+      "1 Delegado de Prevención.",
+      "2 Delegados de Prevención.",
+      "3 Delegados de Prevención.",
+      "4 Delegados de Prevención."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el Comité de Seguridad y Salud según el artículo 38 de la LPRL?",
+    "o": [
+      "Un tribunal sancionador para expedientes disciplinarios de personal.",
+      "El órgano colegiado y paritario de participación destinado a la consulta regular y periódica de las actuaciones en materia de prevención.",
+      "Una asociación benéfica de empleados públicos del Ayuntamiento.",
+      "Una comisión informativa municipal integrada exclusivamente por miembros electos de la corporación."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿A partir de qué número de trabajadores es obligatoria la constitución de un Comité de Seguridad y Salud en un centro de trabajo o empresa?",
+    "o": [
+      "A partir de 10 trabajadores.",
+      "A partir de 25 trabajadores.",
+      "A partir de 50 trabajadores.",
+      "A partir de 250 trabajadores."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la composición estructural del Comité de Seguridad y Salud?",
+    "o": [
+      "Está formado exclusivamente por técnicos del Servicio de Prevención Ajeno.",
+      "Está constituido por los Delegados de Prevención, de una parte, y por el empresario y/o sus representantes en igual número, de la otra.",
+      "Está integrado obligatoriamente por el Alcalde, el Interventor y el Tesorero municipal.",
+      "Está compuesto por representantes designados por la Consejería de Empleo de la Junta de Andalucía."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Con qué frecuencia mínima ordinaria debe reunirse el Comité de Seguridad y Salud (Art. 38.3)?",
+    "o": [
+      "Una vez al mes de forma obligatoria.",
+      "Trimestralmente como mínimo, y siempre que lo solicite alguna de las representaciones en él integradas.",
+      "Una vez al año coincidiendo con la aprobación de los presupuestos.",
+      "Solo cuando acontezca un accidente laboral de gravedad mortal en el municipio."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué órgano paritario tiene la competencia de conocer directamente los planos, memorias y la situación preventiva del centro, así como proponer mejoras en las condiciones?",
+    "o": [
+      "El Pleno de la Corporación Local de forma exclusiva.",
+      "El Comité de Seguridad y Salud.",
+      "La Junta de Gobierno Local actuando de manera unilateral.",
+      "El Consejo Andaluz de Relaciones Laborales de forma directa."
+    ],
+    "a": 1
+  }
+]

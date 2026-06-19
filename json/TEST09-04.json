@@ -1,0 +1,102 @@
+[
+  {
+    "q": "La condición de funcionario de carrera se pierde por alguna de las causas establecidas en el TREBEP, entre las que NO se incluye:",
+    "o": [
+      "La renuncia voluntaria.",
+      "La jubilación total.",
+      "El cambio de color político en la corporación municipal.",
+      "La sanción disciplinaria de separación del servicio."
+    ],
+    "a": 2
+  },
+  {
+    "q": "El personal laboral al servicio de las Administraciones Públicas se rige, además de por el TREBEP y las leyes de función pública, por:",
+    "o": [
+      "La legislación laboral y los convenios colectivos aplicables.",
+      "El Código Civil exclusivamente.",
+      "Las directrices del personal eventual de confianza.",
+      "El reglamento de los funcionarios de carrera de forma idéntica."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué principio del Código de Conducta exige velar por la conservación de los recursos y bienes públicos, evitando su despilfarro?",
+    "o": [
+      "Un principio ético del artículo 53.",
+      "Un principio de conducta del artículo 54.",
+      "Un derecho individual del personal laboral.",
+      "Una competencia exclusiva del Interventor municipal."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué norma estatal aprueba el Texto Refundido de la Ley del Estatuto Básico del Empleado Público vigente?",
+    "o": [
+      "La Ley 39/2015, de 1 de octubre.",
+      "El Real Decreto Legislativo 5/2015, de 30 de octubre.",
+      "La Ley 7/1985, de 2 de abril.",
+      "El Real Decreto 364/1995, de 10 de marzo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El trato esmerado, deferente y respetuoso a los ciudadanos es una obligación clasificada como:",
+    "o": [
+      "Derecho individual prestacional.",
+      "Principio ético estructural.",
+      "Principio de conducta del empleado público.",
+      "Recomendación no vinculante del Defensor del Pueblo."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Puede el personal eventual ocupar puestos de trabajo reservados con exclusividad a los funcionarios de carrera?",
+    "o": [
+      "Sí, siempre que lo decida el Pleno de la corporación local.",
+      "No, sus funciones se limitan a la confianza o asesoramiento especial.",
+      "Sí, provisionalmente si hay acumulación de tareas.",
+      "Sí, si posee la titulación informática correspondiente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La promoción interna de los funcionarios de carrera consiste en:",
+    "o": [
+      "El ascenso desde cuerpos de un Subgrupo profesional a otro inmediato superior.",
+      "El traslado horizontal a otra Administración Pública de la misma provincia.",
+      "El aumento automático del sueldo por cumplir trienios.",
+      "La libre designación para puestos directivos sin realizar pruebas."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué colectivo del sector público tiene una relación regulada por el Derecho Laboral en vez del Derecho Administrativo?",
+    "o": [
+      "Los funcionarios de carrera.",
+      "Los funcionarios interinos.",
+      "El personal laboral.",
+      "El personal eventual."
+    ],
+    "a": 2
+  },
+  {
+    "q": "La imparcialidad y la objetividad de los empleados públicos son principios rectores que buscan garantizar:",
+    "o": [
+      "La rentabilidad financiera de los servicios públicos locales.",
+      "La sumisión a las directrices de los partidos políticos de la oposición.",
+      "La satisfacción de los intereses generales de los ciudadanos sin favoritismos.",
+      "El beneficio exclusivo del personal directivo profesional."
+    ],
+    "a": 2
+  },
+  {
+    "q": "El cese de los funcionarios interinos se producirá cuando ocurra alguna de las siguientes causas, EXCEPTO:",
+    "o": [
+      "Por la cobertura de la plaza por un funcionario de carrera.",
+      "Por la amortización de la plaza vacante correspondiente.",
+      "Por decisión discrecional y libre del Alcalde sin motivar.",
+      "Por el cumplimiento del plazo máximo establecido en su nombramiento."
+    ],
+    "a": 2
+  }
+]

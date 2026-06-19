@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cómo define la Ley 40/2015 una actuación administrativa automatizada en su artículo 41?",
+    "o": [
+      "Cualquier trámite resuelto por un funcionario público desde su terminal empleando una hoja de cálculo.",
+      "Un acto o actuación realizada íntegramente a través de un sistema de información adecuadamente programado sin necesidad de intervención directa de una persona física.",
+      "La digitalización por escáner de un documento firmado originalmente en papel.",
+      "Un proceso de resolución de conflictos mediante un tribunal electrónico interactivo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el desarrollo de una actuación administrativa automatizada, ¿cuál de los siguientes elementos debe determinarse de forma previa y obligatoria?",
+    "o": [
+      "La marca del procesador del servidor web empleado.",
+      "El órgano o órganos competentes para la definición de especificaciones, programación, mantenimiento y supervisión, así como el responsable a efectos de impugnación.",
+      "El lenguaje de programación exacto usado en el backend.",
+      "El nombre del programador informático que codificó las líneas de control."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 42, ¿qué sistemas de firma se consideran admisibles para la realización de una actuación administrativa automatizada?",
+    "o": [
+      "Solo firmas manuscritas digitalizadas en formato JPG.",
+      "Sello electrónico del órgano o entidad basado en certificado cualificado y sistemas de Código Seguro de Verificación (CSV).",
+      "Cualquier sistema de clave concertada temporal sin certificación oficial.",
+      "Únicamente firma electrónica con el DNIe del Alcalde de la Corporación."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La firma electrónica del personal al servicio de las Administraciones Públicas regulada en el artículo 43 se fundamentará en:",
+    "o": [
+      "Un certificado simple basado en clave pública PGP.",
+      "Un certificado cualificado que incorpore la identificación del empleado y el desempeño de sus funciones.",
+      "Un código pin de tres dígitos enviado por mensajería instantánea.",
+      "La dirección MAC de la tarjeta de red asignada al puesto de trabajo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con el artículo 43, ¿es lícito el empleo de un pseudónimo en los certificados de firma electrónica del personal público?",
+    "o": [
+      "No, está radicalmente prohibido en el ámbito del sector público.",
+      "Sí, cuando se trate de proteger la identidad del empleado por razones de seguridad pública o por mandatos legales.",
+      "Sí, pero únicamente si el funcionario es de carácter eventual o interino.",
+      "No, la ley exige siempre nombre, apellidos y número completo de la Seguridad Social visibles."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los certificados de firma electrónica del personal al servicio de las Administraciones Públicas de qué naturaleza quedan excluidos:",
+    "o": [
+      "De su uso en actividades privadas o ajenas a las funciones propias del cargo o puesto.",
+      "De su utilización en procedimientos de contratación pública interna.",
+      "De incorporar el puesto de trabajo desempeñado por el titular.",
+      "De ser emitidos por prestadores de servicios de confianza cualificados."
+    ],
+    "a": 0
+  },
+  {
+    "q": "En la actuación administrativa automatizada, el sistema de Código Seguro de Verificación (CSV) debe vincularse directamente con:",
+    "o": [
+      "El ciudadano que inicia el trámite exclusivamente.",
+      "La Administración, órgano o entidad, garantizando de esta forma la integridad del documento.",
+      "La dirección IP pública del enrutador de salida del ayuntamiento.",
+      "Un servidor proxy inverso externo a la Unión Europea."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El control de calidad y la supervisión de los sistemas informáticos programados para una actuación automatizada corresponde a:",
+    "o": [
+      "Cualquier ciudadano que ejercite la acción pública de revisión.",
+      "El órgano o órganos que hayan sido determinados previamente por cada Administración Pública.",
+      "Al interventor general del Estado de forma exclusiva.",
+      "A la empresa auditora externa proveedora del software base."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La firma basada en certificado de sello electrónico para actuaciones automatizadas garantiza:",
+    "o": [
+      "Que un empleado físico concreto ha revisado visualmente el documento antes de enviarlo.",
+      "La identidad del sistema automatizado, del órgano o de la entidad emisora, junto con la integridad del documento.",
+      "La exención de pago de tasas fiscales del procedimiento en curso.",
+      "El cifrado permanente de los datos de tráfico de la red troncal."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los sistemas de información empleados para la actuación administrativa automatizada deben someterse a:",
+    "o": [
+      "Ningún control especial una vez aprobada su puesta en marcha.",
+      "Controles y auditorías de supervisión que garanticen el cumplimiento de las especificaciones y la calidad del sistema.",
+      "La validación obligatoria en sede parlamentaria autonómica.",
+      "Un borrado completo y reprogramación cada doce meses de explotación."
+    ],
+    "a": 1
+  }
+]

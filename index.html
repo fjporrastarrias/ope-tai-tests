@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Tests OPE - TAI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+            padding: 16px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 24px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        main {
+            flex: 1;
+            padding: 24px;
+            overflow-y: auto;
+        }
+
+        .view {
+            display: none;
+        }
+
+        .view.active {
+            display: block;
+        }
+
+        /* VISTA INICIO */
+        .bloques-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .bloque-btn {
+            padding: 16px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 500;
+            text-align: center;
+            min-height: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .bloque-btn:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .bloque-btn.selected {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .bloque-btn.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .bloque-tema {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        .bloque-numero {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .controles-inicio {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 24px;
+        }
+
+        .contador-seleccion {
+            padding: 12px 16px;
+            background: #f0f0f0;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* VISTA TEST */
+        .test-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .test-info {
+            display: flex;
+            gap: 24px;
+            font-size: 14px;
+            flex-wrap: wrap;
+        }
+
+        .test-info-item {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .test-info-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .test-info-value {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .contador-tiempo {
+            padding: 12px 16px;
+            background: #667eea;
+            color: white;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 16px;
+            min-width: 100px;
+            text-align: center;
+        }
+
+        .contador-tiempo.warning {
+            background: #f59e0b;
+        }
+
+        .contador-tiempo.danger {
+            background: #ef4444;
+        }
+
+        .pregunta-container {
+            margin-bottom: 24px;
+        }
+
+        .pregunta-numero {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .pregunta-texto {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .opciones {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .opcion {
+            padding: 16px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 15px;
+            position: relative;
+            padding-left: 44px;
+        }
+
+        .opcion:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .opcion.selected {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .opcion::before {
+            content: '';
+            position: absolute;
+            left: 16px;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #ddd;
+            border-radius: 50%;
+            background: white;
+        }
+
+        .opcion.selected::before {
+            background: white;
+            border-color: white;
+            box-shadow: inset 0 0 0 4px #667eea;
+        }
+
+        .navegacion-test {
+            display: flex;
+            gap: 12px;
+            margin-top: 24px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* VISTA RESULTADOS */
+        .resultados-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .resultado-titulo {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 24px;
+            text-align: center;
+            color: #667eea;
+        }
+
+        .resultados-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .resultado-item {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .resultado-item-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .resultado-item-valor {
+            font-size: 28px;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .puntuacion-final {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 24px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .puntuacion-label {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+
+        .puntuacion-valor {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .controles-resultados {
+            display: flex;
+            gap: 12px;
+            flex-direction: column;
+        }
+
+        /* VISTA REVISIÓN */
+        .revision-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .revision-lista {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .revision-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            background: #fafafa;
+        }
+
+        .revision-numero {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .revision-pregunta {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #333;
+        }
+
+        .revision-opciones {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .revision-opcion {
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            border-left: 4px solid transparent;
+        }
+
+        .revision-opcion.correcta {
+            background: #dcfce7;
+            border-left-color: #22c55e;
+            color: #166534;
+        }
+
+        .revision-opcion.elegida-correcta {
+            background: #dcfce7;
+            border-left-color: #22c55e;
+            color: #166534;
+        }
+
+        .revision-opcion.elegida-incorrecta {
+            background: #fee2e2;
+            border-left-color: #ef4444;
+            color: #7f1d1d;
+        }
+
+        .revision-opcion.no-elegida {
+            opacity: 0.6;
+        }
+
+        .revision-indicador {
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+
+        /* BOTONES */
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+            border: 1px solid #ddd;
+        }
+
+        .btn-secondary:hover:not(:disabled) {
+            background: #e8e8e8;
+        }
+
+        .btn-danger {
+            background: #ef4444;
+            color: white;
+        }
+
+        .btn-danger:hover:not(:disabled) {
+            background: #dc2626;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+                min-height: 100vh;
+            }
+
+            header {
+                padding: 16px;
+            }
+
+            header h1 {
+                font-size: 20px;
+            }
+
+            main {
+                padding: 16px;
+            }
+
+            .bloques-grid {
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+                gap: 8px;
+            }
+
+            .bloque-btn {
+                padding: 12px;
+                min-height: 70px;
+                font-size: 12px;
+            }
+
+            .test-header {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .test-info {
+                justify-content: space-around;
+            }
+
+            .contador-tiempo {
+                align-self: stretch;
+                text-align: center;
+            }
+
+            .pregunta-texto {
+                font-size: 16px;
+            }
+
+            .opcion {
+                font-size: 14px;
+                padding: 14px;
+                padding-left: 40px;
+            }
+
+            .navegacion-test {
+                flex-direction: column;
+            }
+
+            button {
+                padding: 12px 16px;
+                width: 100%;
+            }
+
+            .controles-inicio {
+                flex-direction: column;
+            }
+
+            .contador-seleccion {
+                width: 100%;
+                text-align: center;
+            }
+
+            .resultados-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .resultado-item-valor {
+                font-size: 24px;
+            }
+
+            .puntuacion-valor {
+                font-size: 36px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+            }
+
+            header {
+                padding: 12px;
+            }
+
+            header h1 {
+                font-size: 18px;
+            }
+
+            main {
+                padding: 12px;
+            }
+
+            .bloques-grid {
+                grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+            }
+
+            .bloque-btn {
+                padding: 10px;
+                min-height: 65px;
+                font-size: 11px;
+            }
+
+            .test-info {
+                gap: 12px;
+                font-size: 12px;
+            }
+
+            .test-info-value {
+                font-size: 16px;
+            }
+
+            .pregunta-texto {
+                font-size: 14px;
+            }
+
+            .resultado-item {
+                padding: 16px 12px;
+            }
+
+            .resultado-item-valor {
+                font-size: 20px;
+            }
+
+            .puntuacion-valor {
+                font-size: 28px;
+            }
+
+            .revision-item {
+                padding: 12px;
+            }
+
+            .revision-pregunta {
+                font-size: 14px;
+            }
+        }
+
+        /* UTILIDADES */
+        .error-message {
+            background: #fee2e2;
+            color: #7f1d1d;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .success-message {
+            background: #dcfce7;
+            color: #166534;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sistema de Tests OPE - TAI</h1>
+            <p>Preparación para la oposición de Técnico en Administración e Informática</p>
+        </header>
+
+        <main>
+            <!-- VISTA INICIO -->
+            <section id="vista-inicio" class="view active">
+                <h2 style="margin-bottom: 20px;">Selecciona los bloques de preguntas</h2>
+                <p style="color: #666; margin-bottom: 16px; font-size: 14px;">Puedes seleccionar un máximo de 8 bloques. Cada bloque contiene 10 preguntas.</p>
+
+                <div id="estado-carga" style="display: none; padding: 16px; background: #e0e7ff; border-radius: 8px; margin-bottom: 16px; color: #4338ca; font-size: 14px;">
+                    <strong>Estado:</strong> <span id="estado-texto">Inicializando...</span>
+                </div>
+
+                <div id="bloques-container" class="bloques-grid loading">
+                    Cargando bloques disponibles...
+                </div>
+
+                <div class="controles-inicio">
+                    <div class="contador-seleccion">
+                        <span id="contador-bloques">0 / 8</span> bloques seleccionados
+                    </div>
+                    <button id="btn-comenzar" class="btn-primary" disabled>Comenzar Test</button>
+                    <button id="btn-ver-historial" class="btn-secondary">Ver Historial</button>
+                </div>
+
+                <div id="historial-container" style="margin-top: 24px; display: none;">
+                    <h3 style="margin-bottom: 12px;">Historial de intentos</h3>
+                    <div id="historial-lista" style="display: flex; flex-direction: column; gap: 8px;"></div>
+                </div>
+            </section>
+
+            <!-- VISTA TEST -->
+            <section id="vista-test" class="view">
+                <div class="test-header">
+                    <div class="test-info">
+                        <div class="test-info-item">
+                            <span class="test-info-label">Pregunta</span>
+                            <span class="test-info-value"><span id="pregunta-actual">1</span> / <span id="total-preguntas">10</span></span>
+                        </div>
+                        <div class="test-info-item">
+                            <span class="test-info-label">Respondidas</span>
+                            <span class="test-info-value"><span id="respondidas">0</span></span>
+                        </div>
+                    </div>
+                    <div id="contador-regresivo" class="contador-tiempo">90:00</div>
+                </div>
+
+                <div class="pregunta-container">
+                    <div class="pregunta-numero" id="pregunta-etiqueta">Pregunta 1 de 10</div>
+                    <div class="pregunta-texto" id="pregunta-texto">Cargando pregunta...</div>
+                    <div class="opciones" id="opciones-container"></div>
+                </div>
+
+                <div class="navegacion-test">
+                    <button id="btn-anterior" class="btn-secondary" disabled>← Anterior</button>
+                    <button id="btn-siguiente" class="btn-secondary">Siguiente →</button>
+                    <button id="btn-finalizar" class="btn-danger">Finalizar Test</button>
+                </div>
+            </section>
+
+            <!-- VISTA RESULTADOS -->
+            <section id="vista-resultados" class="view">
+                <div class="resultados-container">
+                    <div class="resultado-titulo">Resultados del Test</div>
+
+                    <div class="resultados-grid">
+                        <div class="resultado-item">
+                            <div class="resultado-item-label">Tiempo</div>
+                            <div class="resultado-item-valor" id="resultado-tiempo">0:00</div>
+                        </div>
+                        <div class="resultado-item">
+                            <div class="resultado-item-label">Preguntas</div>
+                            <div class="resultado-item-valor" id="resultado-preguntas">0</div>
+                        </div>
+                        <div class="resultado-item">
+                            <div class="resultado-item-label">Correctas</div>
+                            <div class="resultado-item-valor" style="color: #22c55e;" id="resultado-correctas">0</div>
+                        </div>
+                        <div class="resultado-item">
+                            <div class="resultado-item-label">Incorrectas</div>
+                            <div class="resultado-item-valor" style="color: #ef4444;" id="resultado-incorrectas">0</div>
+                        </div>
+                    </div>
+
+                    <div class="puntuacion-final">
+                        <div class="puntuacion-label">PUNTUACIÓN FINAL</div>
+                        <div class="puntuacion-valor" id="resultado-puntuacion">0.000</div>
+                    </div>
+
+                    <div class="controles-resultados">
+                        <button id="btn-revisar" class="btn-primary">Revisar Respuestas</button>
+                        <button id="btn-volver-inicio" class="btn-secondary">Volver al Inicio</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VISTA REVISIÓN -->
+            <section id="vista-revision" class="view">
+                <div class="revision-container">
+                    <h2 style="margin-bottom: 20px;">Revisión de Respuestas</h2>
+                    <div class="revision-lista" id="revision-lista">
+                        Cargando revisión...
+                    </div>
+                    <div style="margin-top: 24px;">
+                        <button id="btn-volver-resultados" class="btn-secondary" style="width: 100%;">Volver a Resultados</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // ============================================
+        // ESTADO GLOBAL
+        // ============================================
+        const state = {
+            currentView: 'inicio',
+            bloques: [],
+            bloquesDisponibles: [],
+            selectedBlocks: [],
+            questions: [],
+            answers: {},
+            currentQuestion: 0,
+            startTime: null,
+            endTime: null,
+            tiempoRestante: 90 * 60, // 90 minutos en segundos
+            timerInterval: null,
+            history: []
+        };
+
+        // ============================================
+        // FUNCIONES DE DATOS
+        // ============================================
+        async function cargarBloquesDisponibles() {
+            state.bloquesDisponibles = [];
+
+            // Asumir 39 temas con 4 bloques cada uno
+            // La verificación de existencia se hace al cargar el test
+            for (let tema = 1; tema <= 39; tema++) {
+                for (let bloque = 1; bloque <= 4; bloque++) {
+                    const nombreTema = String(tema).padStart(2, '0');
+                    const nombreBloque = String(bloque).padStart(2, '0');
+                    const nombreArchivo = `TEST${nombreTema}-${nombreBloque}.json`;
+
+                    state.bloquesDisponibles.push({
+                        archivo: nombreArchivo,
+                        tema: tema,
+                        bloque: bloque,
+                        nombre: `Tema ${String(tema).padStart(2, '0')} - Bloque ${bloque}`
+                    });
+                }
+            }
+
+            return state.bloquesDisponibles;
+        }
+
+        async function cargarBloques(bloques) {
+            state.questions = [];
+            const bloquesNoEncontrados = [];
+
+            for (const bloque of bloques) {
+                try {
+                    const response = await fetch(`json/${bloque.archivo}`);
+                    if (!response.ok) {
+                        bloquesNoEncontrados.push(bloque.nombre);
+                        continue;
+                    }
+
+                    const data = await response.json();
+
+                    data.forEach((pregunta, idx) => {
+                        const id = state.questions.length;
+                        state.questions.push({
+                            id: id,
+                            q: pregunta.q,
+                            o: pregunta.o,
+                            a: pregunta.a,
+                            bloque: bloque.nombre
+                        });
+                    });
+                } catch (error) {
+                    console.error(`Error cargando ${bloque.archivo}:`, error);
+                    bloquesNoEncontrados.push(bloque.nombre);
+                }
+            }
+
+            if (bloquesNoEncontrados.length > 0) {
+                console.warn(`Bloques no encontrados: ${bloquesNoEncontrados.join(', ')}`);
+            }
+
+            if (state.questions.length === 0) {
+                alert('Error: No se pudieron cargar las preguntas. Verifica que los archivos JSON existan en la carpeta json/');
+                renderizarVista('inicio');
+                return false;
+            }
+
+            // Guardar mapeo de preguntas
+            state.answers = {};
+            state.currentQuestion = 0;
+            return true;
+        }
+
+        // ============================================
+        // FUNCIONES DE LÓGICA
+        // ============================================
+        function seleccionarBloque(tema, bloque) {
+            const bloqueObj = state.bloquesDisponibles.find(
+                b => b.tema === tema && b.bloque === bloque
+            );
+
+            if (!bloqueObj) return;
+
+            const index = state.selectedBlocks.findIndex(
+                b => b.tema === tema && b.bloque === bloque
+            );
+
+            if (index >= 0) {
+                state.selectedBlocks.splice(index, 1);
+            } else {
+                if (state.selectedBlocks.length < 8) {
+                    state.selectedBlocks.push(bloqueObj);
+                }
+            }
+
+            renderizarVista('inicio');
+        }
+
+        function esSeleccionado(tema, bloque) {
+            return state.selectedBlocks.some(b => b.tema === tema && b.bloque === bloque);
+        }
+
+        function puedeSeleccionar(tema, bloque) {
+            return state.selectedBlocks.length < 8 || esSeleccionado(tema, bloque);
+        }
+
+        function aleatorizar(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        function obtenerRespuestaActual() {
+            return state.answers[state.currentQuestion] || null;
+        }
+
+        function guardarRespuesta(indiceRespuesta) {
+            state.answers[state.currentQuestion] = indiceRespuesta;
+        }
+
+        function calcularResultados() {
+            const preguntasContestadas = Object.keys(state.answers).length;
+            let correctas = 0;
+
+            Object.keys(state.answers).forEach(idx => {
+                const pregunta = state.questions[idx];
+                if (state.answers[idx] === pregunta.a) {
+                    correctas++;
+                }
+            });
+
+            const incorrectas = preguntasContestadas - correctas;
+            const puntuacion = (correctas * 0.125) - (incorrectas * 0.05);
+
+            return {
+                preguntasContestadas,
+                correctas,
+                incorrectas,
+                puntuacion: Math.round(puntuacion * 1000) / 1000
+            };
+        }
+
+        function iniciarTemporizador() {
+            state.tiempoRestante = 90 * 60;
+            state.startTime = Date.now();
+
+            state.timerInterval = setInterval(() => {
+                state.tiempoRestante--;
+                actualizarTemporizador();
+
+                if (state.tiempoRestante <= 0) {
+                    finalizarTest();
+                }
+            }, 1000);
+        }
+
+        function detenerTemporizador() {
+            if (state.timerInterval) {
+                clearInterval(state.timerInterval);
+                state.timerInterval = null;
+            }
+        }
+
+        function formatoTiempo(segundos) {
+            const minutos = Math.floor(segundos / 60);
+            const secs = segundos % 60;
+            return `${minutos}:${String(secs).padStart(2, '0')}`;
+        }
+
+        function calcularTiempoTranscurrido() {
+            if (!state.startTime) return '0:00';
+            const elapsed = Math.floor((Date.now() - state.startTime) / 1000);
+            return formatoTiempo(elapsed);
+        }
+
+        // ============================================
+        // FUNCIONES DE RENDERIZADO
+        // ============================================
+        function renderizarVista(vista) {
+            // Ocultar todas
+            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+
+            // Mostrar la solicitada
+            document.getElementById(`vista-${vista}`).classList.add('active');
+            state.currentView = vista;
+
+            switch (vista) {
+                case 'inicio':
+                    renderizarInicio();
+                    break;
+                case 'test':
+                    renderizarTest();
+                    break;
+                case 'resultados':
+                    renderizarResultados();
+                    break;
+                case 'revision':
+                    renderizarRevision();
+                    break;
+            }
+        }
+
+        function renderizarInicio() {
+            const container = document.getElementById('bloques-container');
+
+            if (state.bloquesDisponibles.length === 0) {
+                container.innerHTML = '<div class="error-message">No se encontraron bloques disponibles</div>';
+                return;
+            }
+
+            // Agrupar por tema
+            const temaMap = new Map();
+            state.bloquesDisponibles.forEach(bloque => {
+                if (!temaMap.has(bloque.tema)) {
+                    temaMap.set(bloque.tema, []);
+                }
+                temaMap.get(bloque.tema).push(bloque);
+            });
+
+            let html = '';
+            temaMap.forEach((bloques, tema) => {
+                bloques.forEach(bloque => {
+                    const seleccionado = esSeleccionado(tema, bloque.bloque);
+                    const puedeSelec = puedeSeleccionar(tema, bloque.bloque);
+                    const clases = `bloque-btn ${seleccionado ? 'selected' : ''} ${!puedeSelec ? 'disabled' : ''}`;
+
+                    html += `
+                        <button
+                            class="${clases}"
+                            onclick="seleccionarBloque(${tema}, ${bloque.bloque})"
+                            ${!puedeSelec && !seleccionado ? 'disabled' : ''}
+                        >
+                            <span class="bloque-tema">Tema ${String(tema).padStart(2, '0')}</span>
+                            <span class="bloque-numero">Bloque ${bloque.bloque}</span>
+                        </button>
+                    `;
+                });
+            });
+
+            container.innerHTML = html;
+            document.getElementById('contador-bloques').textContent = `${state.selectedBlocks.length} / 8`;
+
+            // Habilitar/deshabilitar botón comenzar
+            document.getElementById('btn-comenzar').disabled = state.selectedBlocks.length === 0;
+        }
+
+        function renderizarTest() {
+            const pregunta = state.questions[state.currentQuestion];
+
+            // Actualizar info
+            document.getElementById('pregunta-actual').textContent = state.currentQuestion + 1;
+            document.getElementById('total-preguntas').textContent = state.questions.length;
+            document.getElementById('respondidas').textContent = Object.keys(state.answers).length;
+            document.getElementById('pregunta-etiqueta').textContent =
+                `Pregunta ${state.currentQuestion + 1} de ${state.questions.length}`;
+            document.getElementById('pregunta-texto').textContent = pregunta.q;
+
+            // Aleatorizar respuestas (pero guardar el índice correcto original)
+            const respuestasOriginales = pregunta.o.map((texto, idx) => ({ texto, idx }));
+            const respuestasMezcladas = aleatorizar(respuestasOriginales);
+
+            // Renderizar opciones
+            let html = '';
+            respuestasMezcladas.forEach((resp, posicion) => {
+                const seleccionada = obtenerRespuestaActual() === resp.idx;
+                const clases = `opcion ${seleccionada ? 'selected' : ''}`;
+
+                html += `
+                    <button
+                        class="${clases}"
+                        onclick="seleccionarOpcion(${resp.idx})"
+                    >
+                        ${resp.texto}
+                    </button>
+                `;
+            });
+
+            document.getElementById('opciones-container').innerHTML = html;
+
+            // Actualizar botones de navegación
+            document.getElementById('btn-anterior').disabled = state.currentQuestion === 0;
+            document.getElementById('btn-siguiente').disabled = state.currentQuestion === state.questions.length - 1;
+        }
+
+        function renderizarResultados() {
+            const resultados = calcularResultados();
+            const tiempoTotal = calcularTiempoTranscurrido();
+
+            document.getElementById('resultado-tiempo').textContent = tiempoTotal;
+            document.getElementById('resultado-preguntas').textContent = state.questions.length;
+            document.getElementById('resultado-correctas').textContent = resultados.correctas;
+            document.getElementById('resultado-incorrectas').textContent = resultados.incorrectas;
+            document.getElementById('resultado-puntuacion').textContent = resultados.puntuacion.toFixed(3);
+
+            // Guardar en historial
+            guardarEnHistorial(resultados, tiempoTotal);
+        }
+
+        function renderizarRevision() {
+            let html = '';
+
+            state.questions.forEach((pregunta, idx) => {
+                const respuestaUsuario = state.answers[idx];
+                const esCorrecta = respuestaUsuario === pregunta.a;
+
+                let htmlOpciones = '';
+                pregunta.o.forEach((opcion, idxOpcion) => {
+                    let clases = 'revision-opcion';
+                    let indicador = '';
+
+                    if (idxOpcion === pregunta.a) {
+                        clases += ' correcta';
+                        if (respuestaUsuario === undefined) {
+                            indicador = '✓ Respuesta correcta';
+                        } else if (esCorrecta) {
+                            indicador = '✓ Tu respuesta (Correcta)';
+                            clases = 'revision-opcion elegida-correcta';
+                        }
+                    } else if (idxOpcion === respuestaUsuario) {
+                        clases += ' elegida-incorrecta';
+                        indicador = '✗ Tu respuesta (Incorrecta)';
+                    } else if (respuestaUsuario === undefined && idxOpcion === pregunta.a) {
+                        indicador = '✓ Respuesta correcta';
+                    } else {
+                        clases += ' no-elegida';
+                    }
+
+                    htmlOpciones += `
+                        <div class="${clases}">
+                            ${opcion}
+                            ${indicador ? '<span class="revision-indicador">' + indicador + '</span>' : ''}
+                        </div>
+                    `;
+                });
+
+                html += `
+                    <div class="revision-item">
+                        <div class="revision-numero">Pregunta ${idx + 1}</div>
+                        <div class="revision-pregunta">${pregunta.q}</div>
+                        <div class="revision-opciones">
+                            ${htmlOpciones}
+                        </div>
+                    </div>
+                `;
+            });
+
+            document.getElementById('revision-lista').innerHTML = html;
+        }
+
+        function actualizarTemporizador() {
+            const elemento = document.getElementById('contador-regresivo');
+            const tiempo = formatoTiempo(state.tiempoRestante);
+            elemento.textContent = tiempo;
+
+            elemento.classList.remove('warning', 'danger');
+            if (state.tiempoRestante <= 300) { // 5 minutos
+                elemento.classList.add('danger');
+            } else if (state.tiempoRestante <= 900) { // 15 minutos
+                elemento.classList.add('warning');
+            }
+        }
+
+        // ============================================
+        // FUNCIONES DE NAVEGACIÓN
+        // ============================================
+        function seleccionarOpcion(indiceOpcion) {
+            guardarRespuesta(indiceOpcion);
+            renderizarTest();
+        }
+
+        function irAnterior() {
+            if (state.currentQuestion > 0) {
+                state.currentQuestion--;
+                renderizarTest();
+            }
+        }
+
+        function irSiguiente() {
+            if (state.currentQuestion < state.questions.length - 1) {
+                state.currentQuestion++;
+                renderizarTest();
+            }
+        }
+
+        async function comenzarTest() {
+            if (state.selectedBlocks.length === 0) return;
+
+            detenerTemporizador();
+            const cargaExitosa = await cargarBloques(state.selectedBlocks);
+
+            if (!cargaExitosa) return;
+
+            state.currentQuestion = 0;
+            state.answers = {};
+
+            iniciarTemporizador();
+            renderizarVista('test');
+        }
+
+        function finalizarTest() {
+            detenerTemporizador();
+            state.endTime = Date.now();
+            renderizarVista('resultados');
+        }
+
+        function irARevision() {
+            renderizarVista('revision');
+        }
+
+        function volverAlInicio() {
+            detenerTemporizador();
+            state.currentQuestion = 0;
+            state.answers = {};
+            state.selectedBlocks = [];
+            renderizarVista('inicio');
+        }
+
+        // ============================================
+        // FUNCIONES DE PERSISTENCIA
+        // ============================================
+        function guardarEnHistorial(resultados, tiempoTotal) {
+            const entrada = {
+                fecha: new Date().toLocaleDateString('es-ES'),
+                hora: new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' }),
+                bloques: state.selectedBlocks.map(b => `T${String(b.tema).padStart(2, '0')}-B${b.bloque}`).join(', '),
+                correctas: resultados.correctas,
+                incorrectas: resultados.incorrectas,
+                contestadas: resultados.preguntasContestadas,
+                total: state.questions.length,
+                puntuacion: resultados.puntuacion,
+                tiempo: tiempoTotal
+            };
+
+            state.history.unshift(entrada);
+            state.history = state.history.slice(0, 50); // Guardar últimos 50
+
+            try {
+                localStorage.setItem('testHistory', JSON.stringify(state.history));
+            } catch (error) {
+                console.warn('No se pudo guardar historial en localStorage:', error.message);
+            }
+        }
+
+        function cargarHistorial() {
+            try {
+                const guardado = localStorage.getItem('testHistory');
+                if (guardado) {
+                    state.history = JSON.parse(guardado);
+                }
+            } catch (error) {
+                console.warn('localStorage no disponible:', error.message);
+                state.history = [];
+            }
+        }
+
+        function renderizarHistorial() {
+            const container = document.getElementById('historial-lista');
+
+            if (state.history.length === 0) {
+                container.innerHTML = '<p style="color: #666; font-size: 14px;">No hay intentos anteriores</p>';
+                return;
+            }
+
+            let html = '';
+            state.history.slice(0, 10).forEach((entrada, idx) => {
+                html += `
+                    <div style="padding: 12px; background: #f9f9f9; border-radius: 6px; border-left: 4px solid #667eea;">
+                        <div style="font-size: 12px; color: #666; margin-bottom: 6px;">
+                            ${entrada.fecha} - ${entrada.hora}
+                        </div>
+                        <div style="font-size: 13px; margin-bottom: 4px;">
+                            <strong>${entrada.bloques}</strong>
+                        </div>
+                        <div style="font-size: 12px; color: #666;">
+                            ${entrada.correctas}/${entrada.total} correctas |
+                            Puntuación: <strong>${entrada.puntuacion.toFixed(3)}</strong> |
+                            Tiempo: ${entrada.tiempo}
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        function toggleHistorial() {
+            const container = document.getElementById('historial-container');
+            if (container.style.display === 'none') {
+                container.style.display = 'block';
+                renderizarHistorial();
+            } else {
+                container.style.display = 'none';
+            }
+        }
+
+        // ============================================
+        // EVENT LISTENERS
+        // ============================================
+        document.getElementById('btn-comenzar').addEventListener('click', comenzarTest);
+        document.getElementById('btn-anterior').addEventListener('click', irAnterior);
+        document.getElementById('btn-siguiente').addEventListener('click', irSiguiente);
+        document.getElementById('btn-finalizar').addEventListener('click', finalizarTest);
+        document.getElementById('btn-revisar').addEventListener('click', irARevision);
+        document.getElementById('btn-volver-inicio').addEventListener('click', volverAlInicio);
+        document.getElementById('btn-volver-resultados').addEventListener('click', () => renderizarVista('resultados'));
+        document.getElementById('btn-ver-historial').addEventListener('click', toggleHistorial);
+
+        // ============================================
+        // INICIALIZACIÓN
+        // ============================================
+        function mostrarEstado(texto) {
+            const elem = document.getElementById('estado-texto');
+            if (elem) {
+                elem.textContent = texto;
+                console.log('Estado:', texto);
+            }
+        }
+
+        async function inicializar() {
+            try {
+                mostrarEstado('Cargando historial...');
+                cargarHistorial();
+
+                mostrarEstado('Generando lista de bloques...');
+                await cargarBloquesDisponibles();
+                console.log('Bloques cargados:', state.bloquesDisponibles.length);
+                mostrarEstado(`✓ ${state.bloquesDisponibles.length} bloques cargados correctamente`);
+
+                setTimeout(() => {
+                    document.getElementById('estado-carga').style.display = 'none';
+                    renderizarVista('inicio');
+                }, 500);
+            } catch (error) {
+                console.error('Error en inicialización:', error);
+                mostrarEstado('❌ Error: ' + error.message);
+                alert('Error al inicializar la aplicación: ' + error.message);
+            }
+        }
+
+        // Iniciar cuando el DOM esté listo
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', inicializar);
+        } else {
+            inicializar();
+        }
+    </script>
+</body>
+</html>

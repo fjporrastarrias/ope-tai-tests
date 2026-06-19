@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué Título de la Constitución Española se encarga de regular de manera exclusiva 'De la reforma constitucional'?",
+    "o": [
+      "Título VIII",
+      "Título IX",
+      "Título X",
+      "Título XI"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿A cuál de los siguientes sujetos NO corresponde la iniciativa de reforma constitucional según el artículo 166?",
+    "o": [
+      "Al Gobierno de la Nación",
+      "Al Congreso de los Diputados y al Senado",
+      "A las Asambleas Legislativas de las Comunidades Autónomas",
+      "A los ciudadanos mediante la iniciativa legislativa popular"
+    ],
+    "a": 3
+  },
+  {
+    "q": "En el procedimiento ordinario de reforma constitucional (artículo 167), ¿qué mayoría se exige en cada Cámara para la aprobación del proyecto?",
+    "o": [
+      "Mayoría absoluta de sus miembros",
+      "Mayoría de tres quintos (3/5) de cada una de las Cámaras",
+      "Mayoría de dos tercios (2/3) del Congreso de los Diputados",
+      "Mayoría simple de los miembros presentes en la votación"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el procedimiento ordinario de reforma, de no existir acuerdo entre Congreso y Senado, ¿qué órgano se constituye formalmente para intentar resolverlo?",
+    "o": [
+      "Un comité ad hoc de sabios nombrado por el Consejo de Ministros",
+      "Una Comisión Mixta de composición paritaria de Diputados y Senadores",
+      "Una mesa arbitral vinculante presidida por el Tribunal Constitucional",
+      "Se somete de inmediato a deliberación del Pleno del Tribunal Supremo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el procedimiento ordinario, si el proyecto obtiene el voto de la mayoría absoluta del Senado, ¿con qué mayoría puede el Congreso aprobar la reforma por sí mismo?",
+    "o": [
+      "Mayoría de tres quintos (3/5)",
+      "Mayoría de dos tercios (2/3)",
+      "Mayoría absoluta de sus diputados",
+      "Mayoría de cuatro quintos (4/5)"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Aprobada una reforma constitucional por la vía ordinaria, ¿dentro de qué plazo debe ser solicitada su sumisión a referéndum por una décima parte de los miembros de cualquiera de las Cámaras?",
+    "o": [
+      "Dentro de los 15 días siguientes a su aprobación",
+      "Dentro de los 30 días posteriores a la sanción real",
+      "En el plazo improrrogable de 10 días tras su publicación en el BOE",
+      "Durante los dos meses posteriores a la disolución de la Comisión Mixta"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuándo resulta de obligado cumplimiento la aplicación del procedimiento agravado de reforma recogido en el artículo 168?",
+    "o": [
+      "Cuando afecte de forma directa a las competencias informáticas locales",
+      "Cuando se proponga la revisión total de la Constitución o una parcial que afecte al Título Preliminar, al Capítulo II, Sección 1ª del Título I, o al Título II",
+      "Cuando se pretenda reformar de manera exclusiva la planta judicial y el Título VI",
+      "Siempre que sea decidido libremente por mayoría del Consejo de Ministros"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el procedimiento agravado de reforma, una vez aprobado el principio de reforma por mayoría de dos tercios en cada Cámara, ¿qué paso sigue obligatoriamente?",
+    "o": [
+      "La celebración de un referéndum consultivo preliminar del cuerpo electoral",
+      "La disolución inmediata de las Cortes Generales",
+      "La sanción por parte del Rey y posterior publicación directa en el BOE",
+      "La ratificación unánime por las Asambleas de todas las Comunidades Autónomas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "El nuevo texto constitucional elaborado conforme al procedimiento agravado (artículo 168), tras ser aprobado por las nuevas Cámaras por mayoría de dos tercios, deberá ser:",
+    "o": [
+      "Sometido a dictamen de idoneidad no vinculante del Tribunal de Cuentas",
+      "Sometido a referéndum para su ratificación de forma obligatoria",
+      "Sancionado únicamente por el Presidente del Congreso de los Diputados",
+      "Ratificado por mayoría cualificada de las Diputaciones Provinciales"
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con el artículo 169 de la Constitución, ¿en qué supuestos concretos se prohíbe de forma absoluta el inicio de una reforma constitucional?",
+    "o": [
+      "En periodos de prórroga presupuestaria general del Estado",
+      "En tiempo de guerra o estando vigentes alguno de los estados de alarma, excepción o sitio",
+      "Durante el transcurso de campañas electorales a corporaciones locales",
+      "En los últimos seis meses de mandato parlamentario ordinario de las Cortes"
+    ],
+    "a": 1
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué componente de la Unidad Central de Procesamiento (CPU) se encarga de realizar operaciones matemáticas y comparaciones lógicas?",
+    "o": [
+      "La Unidad de Control (UC).",
+      "La Unidad Aritmético-Lógica (ALU).",
+      "La memoria caché L1 de solo lectura.",
+      "El bus de direcciones físicas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con la Arquitectura clásica de Von Neumann, ¿cuál es la función de la Unidad de Control?",
+    "o": [
+      "Suministrar energía eléctrica a los ventiladores del equipo.",
+      "Almacenar permanentemente los documentos ofimáticos del usuario.",
+      "Coordinar, dirigir y secuenciar el flujo de instrucciones y datos en el ordenador.",
+      "Realizar sumas binarias y operaciones booleanas de tipo AND/OR."
+    ],
+    "a": 2
+  },
+  {
+    "q": "La memoria RAM de un equipo informático se caracteriza fundamentalmente por ser:",
+    "o": [
+      "Una memoria de tipo no volátil y de solo lectura de fábrica.",
+      "Una memoria volátil, cuyo contenido se pierde al interrumpir el suministro eléctrico.",
+      "Un periférico de almacenamiento secuencial óptico.",
+      "Un registro interno exclusivo de la Unidad Aritmético-Lógica."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué elemento físico del hardware interconecta los principales componentes como la CPU, la memoria y las ranuras de expansión?",
+    "o": [
+      "La fuente de alimentación conmutada.",
+      "El disco duro secundario.",
+      "La placa base o placa madre (Motherboard).",
+      "El monitor de video plano."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué tipo de bus determina la cantidad máxima de memoria que el microprocesador puede direccionar directamente?",
+    "o": [
+      "Bus de datos.",
+      "Bus de direcciones.",
+      "Bus de control.",
+      "Bus de alimentación."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Dónde se guardan de forma permanente las instrucciones iniciales necesarias para el arranque del equipo (como el firmware BIOS o UEFI)?",
+    "o": [
+      "En la memoria ROM.",
+      "En el archivo de paginación del disco duro.",
+      "En la memoria caché L2.",
+      "En los registros de datos de la ALU."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes elementos del hardware se clasifica estrictamente como un periférico de Entrada/Salida simultáneo?",
+    "o": [
+      "Un teclado estándar por cable USB.",
+      "Una pantalla táctil.",
+      "Un ratón óptico inalámbrico.",
+      "Un altavoz multimedia."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los registros del procesador son:",
+    "o": [
+      "Dispositivos de almacenamiento óptico de alta capacidad externa.",
+      "Pequeñas celdas de memoria de muy alta velocidad internas de la CPU para almacenar datos temporales de uso inmediato.",
+      "Estructuras lógicas gestionadas exclusivamente por la base de datos municipal.",
+      "Los formularios físicos donde se anotan las incidencias de hardware."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué componente retiene los datos de configuración de la BIOS (fecha, hora, secuencia de arranque) cuando el equipo está completamente apagado?",
+    "o": [
+      "La memoria RAM estática del sistema.",
+      "La memoria CMOS, alimentada por una pila o batería interna.",
+      "El sector de arranque principal del disco SSD.",
+      "Los registros del acumulador de la ALU."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los soportes físicos como los discos duros magnéticos (HDD) y las unidades de estado sólido (SSD) se engloban dentro de la categoría de:",
+    "o": [
+      "Memoria principal volátil.",
+      "Almacenamiento o memoria secundaria no volátil.",
+      "Unidades lógicas de control secuencial directo.",
+      "Software de base empotrado."
+    ],
+    "a": 1
+  }
+]

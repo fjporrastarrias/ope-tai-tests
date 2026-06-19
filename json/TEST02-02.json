@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Las leyes por las cuales las Cortes Generales atribuyen a las Comunidades Autónomas la facultad de dictar normas legislativas en el marco de los principios fijados por una ley estatal son llamadas:",
+    "o": [
+      "Leyes de Armonización.",
+      "Leyes Marco.",
+      "Leyes de Transferencia y Control.",
+      "Leyes de Delegación Ejecutiva."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Para armonizar las disposiciones normativas de las Comunidades Autónomas cuando así lo exija el interés general, el Estado podrá dictar:",
+    "o": [
+      "Leyes de Armonización.",
+      "Leyes de Bases Interautonómicas.",
+      "Decretos-Leyes de Urgencia.",
+      "Reglamentos de Coordinación Local."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué órgano del Estado y con qué mayoría debe apreciar la necesidad de dictar una Ley de Armonización?",
+    "o": [
+      "El Gobierno de la Nación por mayoría de dos tercios.",
+      "El Tribunal Constitucional por unanimidad de sus miembros.",
+      "Las Cortes Generales, por mayoría absoluta de cada Cámara.",
+      "El Senado por mayoría simple a propuesta autonómica."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según el artículo 148.2 de la CE, transcurridos cinco años y mediante la reforma de sus Estatutos, las CC.AA. pueden:",
+    "o": [
+      "Suprimir de forma definitiva las provincias de su territorio.",
+      "Ampliar sucesivamente sus competencias dentro del marco del artículo 149.",
+      "Reclamar la soberanía fiscal absoluta sobre los municipios.",
+      "Modificar unilateralmente las leyes de procedimiento administrativo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La norma institucional básica de cada Comunidad Autónoma, que el Estado reconocerá y amparará como parte integrante de su ordenamiento jurídico, es:",
+    "o": [
+      "El Reglamento de la Asamblea Autonómica.",
+      "La Ley de Organización Territorial.",
+      "El Estatuto de Autonomía.",
+      "El fuero histórico verificado."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Los Estatutos de Autonomía deben ser aprobados por las Cortes Generales mediante:",
+    "o": [
+      "Ley Ordinaria.",
+      "Ley Orgánica.",
+      "Real Decreto Legislativo.",
+      "Resolución Vinculante Permanente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 148.1 de la CE, ¿cuál de las siguientes materias puede ser asumida por una Comunidad Autónoma?",
+    "o": [
+      "Las Relaciones Internacionales.",
+      "La Administración de Justicia de forma troncal.",
+      "La asistencia social.",
+      "La defensa y las Fuerzas Armadas."
+    ],
+    "a": 2
+  },
+  {
+    "q": "La competencia exclusiva sobre la radiocomunicación y los cables submarinos corresponde a:",
+    "o": [
+      "Las Comunidades Autónomas por delegación forzosa.",
+      "Los Consorcios Provinciales de Redes.",
+      "El Estado.",
+      "La Entidad Local donde se ubiquen las infraestructuras."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué principio del artículo 138 de la CE impide que las diferencias entre los Estatutos de las distintas Comunidades Autónomas supongan ventajas discriminatorias?",
+    "o": [
+      "El principio de uniformidad absoluta.",
+      "La prohibición de implicar, en ningún caso, privilegios económicos o sociales.",
+      "El principio de centralización de recursos.",
+      "La cláusula de sumisión jerárquica municipal."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Las Leyes Marco previstas en el artículo 150.1 de la CE determinan un sistema de:",
+    "o": [
+      "Delegación puramente administrativa de ventanilla.",
+      "Facultad de dictar normas legislativas autonómicas bajo directrices estatales.",
+      "Cesión completa y definitiva de la titularidad de la materia.",
+      "Descentralización forzosa controlada por los Ayuntamientos."
+    ],
+    "a": 1
+  }
+]

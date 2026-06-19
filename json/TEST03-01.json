@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Mediante qué norma se aprobó la reforma del Estatuto de Autonomía para Andalucía vigente?",
+    "o": [
+      "Ley Orgánica 6/1981, de 30 de diciembre",
+      "Ley Orgánica 2/2007, de 19 de marzo",
+      "Ley 5/2010, de 11 de junio",
+      "Real Decreto Legislativo 1/2007, de 22 de marzo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿De cuántos títulos en total (incluyendo el Título Preliminar) consta el texto articulado del Estatuto de Autonomía de Andalucía?",
+    "o": [
+      "9 títulos",
+      "10 títulos",
+      "11 títulos",
+      "12 títulos"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según el artículo 1 del Estatuto, ¿cómo se constituye Andalucía en el marco de la unidad de la nación española?",
+    "o": [
+      "Como región autónoma preferente",
+      "Como comunidad foral tradicional",
+      "Como nacionalidad histórica",
+      "Como federación administrativa regional"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuáles son los valores superiores que propugna el Estatuto de Autonomía de Andalucía en su artículo 1.2?",
+    "o": [
+      "Libertad, justicia, igualdad y pluralismo político",
+      "Legalidad, jerarquía, seguridad y transparencia",
+      "Democracia, solidaridad, descentralización y eficacia",
+      "Trabajo, equidad, cohesión y descentralización"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Conforme al artículo 1.3 del Estatuto de Autonomía, ¿de dónde emanan los poderes de la Comunidad Autónoma?",
+    "o": [
+      "Exclusivamente del Parlamento andaluz",
+      "De las directrices dictadas por la Unión Europea",
+      "De la Constitución y del pueblo andaluz",
+      "Del Consejo de Ministros del Estado español"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según el artículo 2 del Estatuto, el territorio de Andalucía comprende el de los municipios de:",
+    "o": [
+      "Las provincias de la antigua Bética romana",
+      "Las ocho provincias de Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga y Sevilla",
+      "Cualquier entidad local menor que decida anexionarse por referéndum",
+      "Las provincias occidentales y orientales excluyendo las zonas litorales"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿En qué asamblea histórica fue aprobada la bandera tradicional andaluza de tres franjas horizontales?",
+    "o": [
+      "Asamblea de Antequera de 1980",
+      "Asamblea de Córdoba de 1919",
+      "Asamblea de Ronda de 1918",
+      "Asamblea de Sevilla de 1978"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿A qué entidad o movimiento histórico se vincula la aprobación del himno de Andalucía de 1933 regulado en el artículo 3.3?",
+    "o": [
+      "A la Junta Liberalista de Andalucía",
+      "Al Ateneo de Sevilla",
+      "Al primer Parlamento Autonómico Provisional",
+      "A las Diputaciones Provinciales confederadas"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué día se celebra oficialmente el Día de Andalucía según el artículo 3 de su Estatuto?",
+    "o": [
+      "El 4 de diciembre",
+      "El 28 de febrero",
+      "El 19 de marzo",
+      "El 6 de diciembre"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Respecto a la protección jurídica de los símbolos de Andalucía, el Estatuto establece que:",
+    "o": [
+      "Será determinada de forma discrecional por ordenanzas municipales",
+      "Será la misma que corresponda a los demás símbolos del Estado",
+      "Tienen un régimen de protección inferior por ser símbolos autonómicos",
+      "Están exentos de regulaciones penales y administrativas estatales"
+    ],
+    "a": 1
+  }
+]

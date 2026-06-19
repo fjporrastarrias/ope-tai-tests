@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué ciudad es declarada por el Estatuto como capital de Andalucía y sede del Parlamento, de la Presidencia de la Junta y del Consejo de Gobierno?",
+    "o": [
+      "Granada",
+      "Córdoba",
+      "Sevilla",
+      "Málaga"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Dónde sitúa el Estatuto de Autonomía la sede del Tribunal Superior de Justicia de Andalucía (TSJA)?",
+    "o": [
+      "Sevilla",
+      "Granada",
+      "Córdoba",
+      "Jaén"
+    ],
+    "a": 1
+  },
+  {
+    "q": "A efectos del Estatuto, ¿quiénes gozan de la condición política de andaluces o andaluzas?",
+    "o": [
+      "Los nacidos en el territorio, residan donde residan",
+      "Los ciudadanos españoles que tengan vecindad administrativa en cualquiera de los municipios de Andalucía",
+      "Cualquier ciudadano de la Unión Europea asentado de forma permanente",
+      "Quienes ostenten propiedades rústicas o urbanas en la región"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Gozan de derechos políticos los españoles residentes en el extranjero según el artículo 5.2?",
+    "o": [
+      "No, la residencia en el extranjero extingue los derechos políticos autonómicos",
+      "Sí, si han tenido su última vecindad administrativa en Andalucía y acreditan dicha condición en el Consulado de España",
+      "Sí, pero de manera exclusiva en elecciones municipales y no autonómicas",
+      "Solo si disponen de un certificado fiscal emitido por la Junta de Andalucía"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 7 del Estatuto, las leyes y normas emanadas de las instituciones de autogobierno de Andalucía tendrán eficacia en:",
+    "o": [
+      "Todo el territorio de la Unión Europea",
+      "La totalidad del territorio nacional de forma directa e indistinta",
+      "Su territorio, pudiendo tener eficacia extraterritorial por su naturaleza y marco constitucional",
+      "Únicamente las dependencias de la administración autonómica centralizada"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué instituciones integran la Junta de Andalucía de acuerdo con el artículo 99.1?",
+    "o": [
+      "El Parlamento de Andalucía, la Presidencia de la Junta y el Consejo de Gobierno",
+      "El Parlamento de Andalucía, el TSJA y las Diputaciones Provinciales",
+      "El Presidente de la Junta, los Consejeros y el Defensor del Pueblo",
+      "El Pleno del Parlamento, las Comisiones legislativas y la Mesa"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes órganos NO forma parte de la lista de instituciones reguladas en el artículo 99 de la organización de la Junta?",
+    "o": [
+      "La Cámara de Cuentas",
+      "El Consejo Consultivo",
+      "El Tribunal de Cuentas del Estado",
+      "El Consejo Audiovisual de Andalucía"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cómo define el artículo 100 la naturaleza del Parlamento de Andalucía?",
+    "o": [
+      "Como un órgano administrativo jerarquizado bajo la Presidencia",
+      "Como la institución que representa al pueblo andaluz y que es inviolable",
+      "Como un tribunal de arbitraje legislativo para las administraciones locales",
+      "Como una delegación sectorial subordinada al Senado de España"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el número mínimo de diputados y diputadas que fija el Estatuto para la composición del Parlamento de Andalucía?",
+    "o": [
+      "95 diputados",
+      "109 diputados",
+      "125 diputados",
+      "135 diputados"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué sistema electoral determina el Estatuto para garantizar una representación equilibrada en el Parlamento?",
+    "o": [
+      "Sistema mayoritario a doble vuelta",
+      "Sistema de elección directa uninominal",
+      "Sistema proporcional",
+      "Sistema de designación corporativa por provincias"
+    ],
+    "a": 2
+  }
+]

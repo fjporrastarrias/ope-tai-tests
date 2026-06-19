@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál de las siguientes es una característica obligatoria del contenido de los actos administrativos según el artículo 34 de la Ley 39/2015?",
+    "o": [
+      "Debe ser necesariamente de alcance general.",
+      "Debe ser determinado y adecuado a los fines de aquéllos.",
+      "Debe ser propuesto siempre por un interesado legítimo.",
+      "Debe ser aprobado formalmente por el Consejo de Ministros."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Conforme al artículo 35 de la Ley 39/2015, ¿cuál de los siguientes actos NO requiere obligatoriamente ser motivado?",
+    "o": [
+      "Los actos que limiten derechos subjetivos o intereses legítimos.",
+      "Los actos que resuelvan procedimientos de revisión de oficio.",
+      "Los actos de trámite ordinario que únicamente impulsan de oficio el procedimiento.",
+      "Los actos que se aparten del criterio seguido en actuaciones precedentes."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según el artículo 36 de la Ley 39/2015, los actos administrativos se producirán por escrito a través de:",
+    "o": [
+      "Correo postal certificado exclusivamente.",
+      "Cualquier medio de comunicación, prefiriéndose el telefónico.",
+      "Medios electrónicos, a menos que su naturaleza exija otra forma más adecuada.",
+      "Fax homologado por la Secretaría General del órgano competente."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Cuando un órgano administrativo ejerza una competencia de forma verbal, la constancia escrita del acto se efectuará y firmará por:",
+    "o": [
+      "El superior jerárquico del órgano en un plazo improrrogable de 20 días.",
+      "El titular del órgano inferior o funcionario que la reciba de viva voz, expresando la autoridad de la que procede.",
+      "El Defensor del Pueblo tras la correspondiente auditoría del procedimiento.",
+      "El Alcalde-Presidente en todo caso, por tratarse de la máxima autoridad de la Administración Local."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los actos que resuelvan recursos administrativos:",
+    "o": [
+      "No necesitan motivación bajo ningún concepto legal.",
+      "Deben ser motivados, con sucinta referencia de hechos y fundamentos de derecho.",
+      "Se motivan únicamente si el recurrente es una persona jurídica.",
+      "Son considerados actos de trámite puro y por tanto están exentos de motivación formal."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si una serie de actos administrativos de la misma naturaleza se derivan de la motivación de un acto originario, la Ley 39/2015 permite:",
+    "o": [
+      "Omitir cualquier tipo de motivación en los actos sucesivos.",
+      "La motivación conjunta mediante una única resolución genérica sin individualizar.",
+      "Refundir la motivación, bastando con que consten las circunstancias genéricas y las individuales de cada caso.",
+      "No se pueden dictar actos en serie bajo ninguna circunstancia."
+    ],
+    "a": 2
+  },
+  {
+    "q": "El principio de proporcionalidad en los actos administrativos implica que la Administración:",
+    "o": [
+      "Debe elegir siempre la medida más restrictiva para asegurar el fin público de forma drástica.",
+      "Velará por mantener la debida adecuación entre el supuesto de hecho y el fin perseguido, aplicando la medida menos restrictiva.",
+      "Debe aplicar tasas idénticas a todos los ciudadanos en el procedimiento.",
+      "Debe sancionar siempre con la cuantía económica máxima permitida por la norma habilitante."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué artículo de la Ley 39/2015 regula de manera específica la forma de los actos administrativos?",
+    "o": [
+      "Artículo 14.",
+      "Artículo 36.",
+      "Artículo 47.",
+      "Artículo 53."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los actos de las Administraciones Públicas sujetos al Derecho Administrativo se presumirán válidos y producirán efectos desde:",
+    "o": [
+      "El momento exacto de su publicación en el Boletín Oficial del Estado.",
+      "Transcurridos 15 días hábiles desde su firma electrónica por la autoridad.",
+      "La fecha en que se dicten, salvo que en ellos se disponga otra cosa.",
+      "El vencimiento definitivo del plazo de presentación de alegaciones."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué exige la Ley 39/2015 respecto a los actos que se aparten del dictamen de órganos consultivos?",
+    "o": [
+      "Que sean ratificados por un juzgado de lo contencioso-administrativo.",
+      "Que sean motivados obligatoriamente, explicitando las razones del apartamiento.",
+      "No exige ningún requisito adicional, gozan de total libertad.",
+      "Quedan automáticamente suspendidos hasta que el órgano consultivo revise su postura."
+    ],
+    "a": 1
+  }
+]

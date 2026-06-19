@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué artículo de la Constitución Española consagra el principio de igualdad de los españoles ante la ley, impidiendo cualquier tipo de discriminación?",
+    "o": [
+      "Artículo 10",
+      "Artículo 14",
+      "Artículo 15",
+      "Artículo 23"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la rúbrica exacta del Capítulo I del Título I de la Constitución Española?",
+    "o": [
+      "De los españoles y los extranjeros",
+      "Derechos y libertades",
+      "De los derechos fundamentales y de las libertades públicas",
+      "De los derechos y deberes de los ciudadanos"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué subdivisión concreta del Título I aglutina los derechos que disfrutan del máximo nivel de protección constitucional y garantía de amparo?",
+    "o": [
+      "El Capítulo I en su totalidad",
+      "La Sección 1ª del Capítulo II",
+      "La Sección 2ª del Capítulo II",
+      "El Capítulo III completo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de los siguientes derechos está clasificado dentro de la Sección 1ª del Capítulo II del Título I?",
+    "o": [
+      "El derecho a la propiedad privada y a la herencia",
+      "El derecho a la educación",
+      "El derecho al trabajo y a la libre elección de profesión",
+      "El derecho a contraer matrimonio con plena igualdad jurídica"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de los siguientes derechos está ubicado en la Sección 2ª del Capítulo II del Título I (derechos y deberes de los ciudadanos)?",
+    "o": [
+      "El derecho a la tutela judicial efectiva",
+      "El derecho a la libertad de sindicación",
+      "El derecho a la propiedad privada",
+      "El derecho de petición individual y colectiva"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Conforme al artículo 12 de la Constitución Española, los españoles alcanzan la mayoría de edad a los:",
+    "o": [
+      "16 años",
+      "18 años",
+      "21 años",
+      "18 años para ejercer el voto y 21 para contraer matrimonio"
+    ],
+    "a": 1
+  },
+  {
+    "q": "What type of norm is required to develop the fundamental rights and public liberties contained in Section 1, Chapter II of Title I?",
+    "o": [
+      "Decreto-Ley del Gobierno",
+      "Ley Ordinaria de las Cortes",
+      "Ley Orgánica",
+      "Real Decreto Legislativo"
+    ],
+    "a": 2
+  },
+  {
+    "q": "El derecho a la huelga de los trabajadores para la defensa de sus intereses colectivos se reconoce expresamente en el artículo:",
+    "o": [
+      "Artículo 28.2",
+      "Artículo 35.1",
+      "Artículo 37.2",
+      "Artículo 41"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué artículo constitucional regula el derecho a obtener la tutela efectiva de los jueces y tribunales sin que, en ningún caso, se produzca indefensión?",
+    "o": [
+      "Artículo 17",
+      "Artículo 24",
+      "Artículo 25",
+      "Artículo 29"
+    ],
+    "a": 1
+  },
+  {
+    "q": "El secreto de las comunicaciones se garantiza de forma expresa, salvo resolución judicial, en el artículo:",
+    "o": [
+      "Artículo 18.1",
+      "Artículo 18.2",
+      "Artículo 18.3",
+      "Artículo 20.1"
+    ],
+    "a": 2
+  }
+]

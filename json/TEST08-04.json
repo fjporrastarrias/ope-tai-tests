@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Dentro del bloque de publicidad activa, las entidades locales deben publicar obligatoriamente como información de relevancia jurídica:",
+    "o": [
+      "Las opiniones personales emitidas por los técnicos en los correos electrónicos corporativos.",
+      "Las directrices, instrucciones, circulares o respuestas a consultas que supongan una interpretación del Derecho o tengan efectos jurídicos.",
+      "Los borradores de actas de sesiones parlamentarias estatales.",
+      "Los expedientes de contratación sancionados antes del trámite de apertura de pliegos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el marco de la ley de transparencia, la condición jurídica de 'información pública' se atribuye a:",
+    "o": [
+      "Exclusivamente los documentos en soporte papel custodiados en archivos municipales.",
+      "Los contenidos o documentos, cualquiera que sea su soporte o formato, que obren en poder de los sujetos obligados y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones.",
+      "Únicamente los datos de carácter presupuestario liquidados de ejercicios anteriores.",
+      "Las notas internas informales generadas entre los técnicos de una misma área de trabajo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué efecto jurídico produce la interposición de la reclamación potestativa ante el Consejo de Transparencia de Andalucía?",
+    "o": [
+      "No tiene incidencia en los plazos, obligando a acudir simultáneamente a la vía judicial.",
+      "Suspende el plazo para interponer el recurso contencioso-administrativo hasta la resolución expresa o desestimación de la reclamación.",
+      "Anula de forma definitiva e irreversible la posibilidad de acudir a los tribunales ordinarios.",
+      "Produce la estimación presunta automática de la solicitud de acceso original."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En la Comunidad Autónoma de Andalucía, la organización y funciones del Consejo de Transparencia de Andalucía se rigen por:",
+    "o": [
+      "El Reglamento Orgánico Interno del Ayuntamiento de Priego de Córdoba.",
+      "La Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía y sus normas de desarrollo.",
+      "Las directrices presupuestarias de la Diputación Provincial de Córdoba.",
+      "La Ley Reguladora de las Bases del Régimen Local estatal."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Las subvenciones concedidas por el Ayuntamiento de Priego de Córdoba deben publicarse en el Portal de Transparencia detallando obligatoriamente:",
+    "o": [
+      "El número de cuenta corriente y datos bancarios privados de cada beneficiario.",
+      "Su importe, objetivo o finalidad, y los beneficiarios de las mismas.",
+      "La afiliación política o sindical declarada por los perceptores de la ayuda.",
+      "Es suficiente con la publicación del importe global asignado por cada área de gasto."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El plazo ordinario para dictar resolución expresa y notificar en la reclamación ante el Consejo de Transparencia es de:",
+    "o": [
+      "Diez días hábiles improrrogables por motivos técnicos.",
+      "Tres meses, computados desde la entrada de la reclamación en el registro del órgano competente para resolver.",
+      "Un año completo debido a los plazos de carencia institucional.",
+      "Veinte días naturales computados de fecha a fecha."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Constituye una infracción muy grave en materia de gestión presupuestaria según el régimen de buen gobierno de la Ley 19/2013:",
+    "o": [
+      "El retraso fortuito de dos días en la actualización de la biografía de un concejal.",
+      "La incursión en compromisos de gastos o la realización de actos que incumplan las exigencias de estabilidad presupuestaria y sostenibilidad financiera.",
+      "La pérdida accidental de una copia impresa de una circular interna ya caducada.",
+      "La atención telefónica a un ciudadano sin identificar el código de empleado público."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Desde el punto de vista tecnológico de un Técnico Auxiliar de Informática (TAI), el Portal de Transparencia debe garantizar los principios de:",
+    "o": [
+      "Acceso exclusivo mediante sistemas operativos de pago con licencias propietarias.",
+      "Accesibilidad, interoperabilidad y reutilización de la información pública.",
+      "Almacenamiento en formatos de imagen cerrada no indexable para evitar la copia de datos.",
+      "Exigencia de un abono de tasas electrónicas mensuales por consultas avanzadas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Las reclamaciones tramitadas ante el Consejo de Transparencia de Andalucía se caracterizan por ser un procedimiento:",
+    "o": [
+      "Muy costoso que exige la presencia de abogado y procurador de los tribunales.",
+      "Gratuito, accesible y de tramitación ágil para la ciudadanía.",
+      "Totalmente secreto, impidiendo el acceso al expediente por parte de la entidad local.",
+      "Exclusivamente presencial y de carácter oral en la sede central del órgano."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si un ciudadano solicita información pública en un formato informático específico (ej. estructura de datos abiertos CSV), la Administración Local:",
+    "o": [
+      "Debe facilitarla en dicho formato siempre que esté disponible y no suponga una carga desproporcionada.",
+      "Tiene la facultad de obligar al ciudadano a recibirla únicamente en papel impreso manuscrito.",
+      "Aplicará un recargo económico por no ceñirse al formato estándar de previsualización del portal.",
+      "Denegará la solicitud alegando la quiebra de la soberanía tecnológica del municipio."
+    ],
+    "a": 0
+  }
+]

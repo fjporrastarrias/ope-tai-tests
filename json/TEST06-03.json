@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál de los siguientes supuestos determina la nulidad de pleno derecho de un acto administrativo?",
+    "o": [
+      "Cualquier infracción ordinaria del ordenamiento jurídico vigente.",
+      "Los dictados por órgano manifiestamente incompetente por razón de la materia o del territorio.",
+      "La realización de una actuación administrativa fuera del plazo establecido.",
+      "Un defecto de forma que no cause indefensión al administrado."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Un acto administrativo cuyo contenido sea material o jurídicamente imposible es:",
+    "o": [
+      "Anulable, subsanable mediante convalidación posterior.",
+      "Nulo de pleno derecho.",
+      "Válido, pero de eficacia demorada en el tiempo.",
+      "Inexistente, por lo que no requiere declaración formal de invalidez."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los actos administrativos que incurran en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder, son:",
+    "o": [
+      "Nulos de pleno derecho en todo caso.",
+      "Anulables.",
+      "Válidos y plenamente eficaces desde el origen.",
+      "Irrevocables por la propia Administración Local."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El defecto de forma en un acto administrativo determinará su anulabilidad únicamente cuando:",
+    "o": [
+      "Sea dictado por un funcionario del grupo C2 en lugar del grupo A1.",
+      "Carezca de los requisitos formales indispensables para alcanzar su fin o produzca indefensión a los interesados.",
+      "No se redacte utilizando una tipografía homologada oficialmente.",
+      "Se emita en formato papel en lugar de formato electrónico por error involuntario."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La realización de actuaciones administrativas fuera del tiempo establecido para ellas:",
+    "o": [
+      "Implica siempre la nulidad de pleno derecho de todo el expediente.",
+      "Sólo implicará la anulabilidad del acto cuando así lo imponga la naturaleza del término o plazo.",
+      "No produce ningún efecto ni responsabilidad administrativa.",
+      "Conlleva la convalidación automática de las actuaciones anteriores."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 49 de la Ley 39/2015, la nulidad o anulabilidad de un acto en el procedimiento:",
+    "o": [
+      "Implica la nulidad automática de todos los actos sucesivos del expediente.",
+      "No implicará la de los sucesivos en el procedimiento que sean independientes del primero.",
+      "Obliga a declarar la nulidad de las normas de rango reglamentario aplicadas.",
+      "Se transmite a todos los expedientes de la misma jefatura de servicio."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El principio de conservación del acto implica que el órgano que declare la nulidad de las actuaciones:",
+    "o": [
+      "Debe repetir de forma obligatoria todos los trámites del procedimiento.",
+      "Dispondrá la conservación de aquellos actos y trámites cuyo contenido hubiera permanecido el mismo de no haberse cometido la infracción.",
+      "Debe sancionar al instructor del expediente de forma inmediata.",
+      "Puede mantener la validez del acto nulo si beneficia económicamente a la entidad."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si un acto nulo o anulable contiene los elementos constitutivos de otro distinto, se produce el fenómeno de:",
+    "o": [
+      "Convalidación jerárquica.",
+      "Conversión del acto.",
+      "Transmisión de invalidez.",
+      "Caducidad por infracción."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Conforme al artículo 52, la Administración podrá convalidar los actos anulables subsanando sus defectos. Si el vicio consiste en incompetencia jerárquica no manifiesta:",
+    "o": [
+      "El acto no puede ser convalidado bajo ningún concepto.",
+      "La convalidación se efectuará por la ratificación del órgano superior competente.",
+      "Debe remitirse el expediente al Consejo de Estado.",
+      "El acto se convierte automáticamente en una disposición general."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si el vicio de un acto anulable consiste en la falta de alguna autorización administrativa obligatoria:",
+    "o": [
+      "El acto puede ser convalidado mediante el otorgamiento de dicha autorización por el órgano competente.",
+      "El acto pasa a ser nulo de pleno derecho de forma irreversible.",
+      "La autorización ya no podrá concederse en el mismo expediente.",
+      "Se prescinde de la autorización y se mantiene la validez por silencio positivo."
+    ],
+    "a": 0
+  }
+]

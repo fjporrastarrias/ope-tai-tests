@@ -1,0 +1,102 @@
+[
+  {
+    "q": "De acuerdo con el artículo 29 de la Ley 39/2015, ¿a quiénes obligan de forma estricta los términos y plazos establecidos en las leyes?",
+    "o": [
+      "Únicamente a los interesados y ciudadanos en general.",
+      "Exclusivamente a los funcionarios de carrera encargados de la tramitación.",
+      "Tanto a las autoridades y personal al servicio de las Administraciones Públicas como a los interesados.",
+      "Solamente a los órganos colegiados de gobierno local."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Salvo que por Ley o en el Derecho de la Unión Europea se disponga otro cómputo, cuando un plazo administrativo se señale por días, ¿qué tipo de días se entiende que son?",
+    "o": [
+      "Días naturales, incluyendo festivos.",
+      "Días hábiles, excluyendo sábados, domingos y los declarados festivos.",
+      "Días laborables, incluyendo los sábados por la mañana.",
+      "Días interbancarios oficiales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿A partir de qué momento exacto se inicia el cómputo de un plazo fijado en días hábiles?",
+    "o": [
+      "A partir del mismo día en que se firma el acto administrativo.",
+      "A partir del día siguiente al de la notificación o publicación del acto, o desde el siguiente a aquel en que se produzca la estimación o desestimación por silencio administrativo.",
+      "A las 00:00 horas del lunes de la semana siguiente a la notificación.",
+      "En el mismo instante en que el ciudadano abre el correo electrónico de aviso."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo se computan los plazos administrativos que vienen fijados expresamente por horas?",
+    "o": [
+      "Se consideran hábiles todas las horas que formen parte de un día hábil y se cuentan de hora en hora y de minuto en minuto desde la notificación.",
+      "Se cuentan de corrido de forma natural, sin excluir las horas nocturnas ni de fines de semana.",
+      "Se asimilan siempre a plazos de medio día natural de trabajo.",
+      "Se computan a partir de la primera hora del mes natural siguiente."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la duración máxima consecutiva admitida por la ley para un plazo fijado por horas?",
+    "o": [
+      "12 horas.",
+      "24 horas.",
+      "48 horas.",
+      "72 horas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si un plazo se fija en meses o años, ¿cuándo concluye el periodo establecido de acuerdo con el artículo 30.4 de la Ley 39/2015?",
+    "o": [
+      "El último día hábil de ese mismo mes o año de forma fija.",
+      "El día cuyo nominal coincida con el de la notificación, publicación o producción del silencio administrativo.",
+      "A los 30 o 365 días exactos, respectivamente.",
+      "A las 14:00 horas del día de vencimiento de la fecha de firma originaria."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En un plazo fijado por meses, si en el mes de vencimiento no existiera un día con el mismo valor nominal que el de la notificación, ¿cuándo se entiende que expira el plazo?",
+    "o": [
+      "El primer día del mes inmediato posterior.",
+      "Se prorroga automáticamente diez días hábiles adicionales.",
+      "El último día de dicho mes de vencimiento.",
+      "El acto deviene nulo de pleno derecho por imposibilidad física de cómputo."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Si el último día de un plazo administrativo es inhábil, ¿qué ocurre con dicho plazo?",
+    "o": [
+      "Se entiende finalizado el día hábil inmediatamente anterior.",
+      "Se prorroga automáticamente al primer día hábil siguiente.",
+      "Se mantiene inalterado al admitirse la presentación física de guardia.",
+      "Provoca la caducidad inmediata e insubsanable de todo el procedimiento."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando un día determinado sea considerado hábil en el municipio en que reside el interesado, pero sea declarado inhábil en la sede del órgano administrativo actuante:",
+    "o": [
+      "Se considerará hábil, al prevalecer el derecho del administrado.",
+      "Se considerará inhábil en todo caso.",
+      "Se calculará la media horaria operativa del órgano.",
+      "El interesado deberá desplazarse obligatoriamente a un tercer municipio."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué obligación tienen las Administraciones Públicas respecto al calendario de días inhábiles?",
+    "o": [
+      "Deben fijarlo y publicarlo con cinco años de antelación.",
+      "Deben publicarlo obligatoriamente en el Boletín Oficial correspondiente antes del comienzo de cada año.",
+      "Es potestativo y puede consultarse únicamente de forma presencial en las oficinas principales.",
+      "Se actualiza de forma dinámica cada mes según las necesidades de la corporación."
+    ],
+    "a": 1
+  }
+]

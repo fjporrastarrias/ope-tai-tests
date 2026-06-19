@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Conforme al artículo 138 de la CE, ¿quién garantiza la realización efectiva del principio de solidaridad velando por un equilibrio económico adecuado?",
+    "o": [
+      "El Tribunal Supremo de Justicia.",
+      "El Estado.",
+      "Las Diputaciones Provinciales coordinadas.",
+      "La Conferencia de Presidentes Autonómicos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El artículo 139.1 de la CE establece que todos los españoles tienen los mismos derechos y obligaciones en:",
+    "o": [
+      "Su Comunidad Autónoma de nacimiento exclusivamente.",
+      "Cualquier parte del territorio del Estado.",
+      "Los municipios de más de 20.000 habitantes.",
+      "Los territorios históricos forales protegidos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 139.2 de la CE, ninguna autoridad podrá adoptar medidas que obstaculicen directamente la libertad de:",
+    "o": [
+      "Asociación sindical de los funcionarios autonómicos.",
+      "Circulación y establecimiento de personas y libre circulación de bienes.",
+      "Creación de empresas públicas locales sin presupuesto.",
+      "Modificación de las lindes provinciales históricas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el perfil de un TAI en la Administración Local, ¿por qué es fundamental que la competencia sobre el procedimiento administrativo común sea exclusiva del Estado?",
+    "o": [
+      "Porque define el tipo de servidores físicos que debe comprar el Ayuntamiento.",
+      "Porque garantiza un tratamiento común de los administrados ante las aplicaciones de administración electrónica.",
+      "Porque obliga a utilizar sistemas operativos de código cerrado.",
+      "Porque prohíbe el uso de redes inalámbricas en las oficinas locales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La competencia para dictar la legislación básica sobre contratos y concesiones administrativas le corresponde a:",
+    "o": [
+      "El Ayuntamiento de Priego de Córdoba en su término local.",
+      "La Diputación Provincial mediante ordenanza provincial.",
+      "El Estado.",
+      "La Comunidad Autónoma en su desarrollo estatutario exclusivo."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Las Comunidades Autónomas podrán asumir competencias para la vigilancia y protección de sus edificios e instalaciones según el artículo 148.1.22.ª a través de:",
+    "o": [
+      "La creación de sus propios cuerpos de policía.",
+      "La contratación forzosa de seguridad privada regulada localmente.",
+      "El requerimiento obligatorio al ejército de tierra.",
+      "La absorción de las policías locales de sus municipios."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué norma es la encargada de delimitar el territorio de una Comunidad Autónoma?",
+    "o": [
+      "La Ley de Ordenación del Suelo Estatal.",
+      "Su respectivo Estatuto de Autonomía.",
+      "El Real Decreto de Demarcación Provincial.",
+      "La Ley General de Presupuestos del Estado."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El control de la actividad de los órganos de las Comunidades Autónomas relativo a la constitucionalidad de sus disposiciones normativas con fuerza de ley se ejerce por:",
+    "o": [
+      "El Tribunal Supremo.",
+      "El Tribunal Constitucional.",
+      "La Audiencia Nacional.",
+      "El Congreso de los Diputados de forma directa."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El control de la administración autonómica y de sus normas reglamentarias corresponde a:",
+    "o": [
+      "El Tribunal de Cuentas del Estado.",
+      "La jurisdicción contencioso-administrativa.",
+      "El Defensor del Pueblo Andaluz.",
+      "Las Cortes Generales mediante comisión de investigación."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El control económico y presupuestario de la actividad financiera de las Comunidades Autónomas se encomienda constitucionalmente a:",
+    "o": [
+      "La Intervención General del Estado.",
+      "El Tribunal de Cuentas.",
+      "El Banco de España.",
+      "La Comisión Nacional del Mercado de Valores."
+    ],
+    "a": 1
+  }
+]

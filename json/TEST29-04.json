@@ -1,0 +1,102 @@
+[
+{
+"q": "El derecho de los trabajadores y empleados públicos a no atender comunicaciones empresariales o profesionales fuera de su jornada legal se conoce como:",
+"o": [
+"Derecho al olvido laboral.",
+"Derecho a la desconexión digital en el ámbito laboral.",
+"Derecho a la intimidad frente a dispositivos digitales.",
+"Derecho de neutralidad tecnológica."
+],
+"a": 1
+},
+{
+"q": "Sobre el uso de sistemas de videovigilancia en el ámbito laboral, ¿es lícita su instalación en comedores o zonas de descanso de los trabajadores?",
+"o": [
+"Sí, si se informa previamente.",
+"Sí, siempre que haya robos recurrentes.",
+"No, en ningún caso se admitirá la instalación en lugares destinados al descanso o esparcimiento de los trabajadores, ni en vestuarios o aseos.",
+"Sí, con el permiso expreso de los sindicatos."
+],
+"a": 2
+},
+{
+"q": "La LOPDGDD garantiza a todos los usuarios el derecho a recibir y transmitir información en internet sin discriminación técnica. Esto se denomina:",
+"o": [
+"Derecho de acceso universal a Internet.",
+"Derecho a la neutralidad de Internet.",
+"Derecho a la libertad de expresión digital.",
+"Derecho a la seguridad en las comunicaciones."
+],
+"a": 1
+},
+{
+"q": "En relación con los dispositivos digitales puestos a disposición de los empleados públicos, el empleador podrá acceder a su contenido:",
+"o": [
+"Libremente en cualquier momento sin restricciones.",
+"Nunca, están protegidos por el secreto de las comunicaciones en todo momento.",
+"Solo a los solos efectos de controlar el cumplimiento de las obligaciones laborales o estatutarias y garantizar la integridad de los dispositivos.",
+"Solo previa autorización de un juez penal."
+],
+"a": 2
+},
+{
+"q": "¿A través de qué mecanismo se puede gestionar el acceso a contenidos gestionados por prestadores de servicios de la sociedad de la información de personas fallecidas?",
+"o": [
+"El Derecho a la Desconexión Digital.",
+"El Testamento Digital.",
+"El Derecho al Olvido.",
+"La Neutralidad de la Red."
+],
+"a": 1
+},
+{
+"q": "¿Los empleadores pueden utilizar sistemas de geolocalización en el trabajo?",
+"o": [
+"No, vulnera la intimidad del trabajador.",
+"Sí, pero deberán informar con carácter previo y de forma expresa a los trabajadores o empleados públicos.",
+"Sí, y sin necesidad de informar, por el poder de dirección empresarial.",
+"Solo si los trabajadores son del sector transporte de mercancías."
+],
+"a": 1
+},
+{
+"q": "¿Tienen los menores derecho a la protección frente a abusos o violencia en Internet?",
+"o": [
+"Sí, y los padres, tutores o representantes legales procurarán que hagan un uso equilibrado y responsable.",
+"No existe un artículo específico para ello.",
+"Solo si superan los 14 años de edad.",
+"Es una recomendación sin valor legal."
+],
+"a": 0
+},
+{
+"q": "El derecho al olvido en búsquedas de Internet:",
+"o": [
+"Aplica a cualquier información, sea cierta o falsa, sin límite.",
+"No aplica a la información personal que sea objeto de investigación policial.",
+"Permite eliminar resultados de los motores de búsqueda cuando los datos sean inadecuados, inexactos, no pertinentes, no actualizados o excesivos.",
+"Obliga a eliminar el artículo original del periódico que publicó la noticia."
+],
+"a": 2
+},
+{
+"q": "Si un medio de comunicación digital publica una noticia con datos inexactos o no actualizados que afecta a una persona, ¿qué derecho puede ejercer el ciudadano contra el medio?",
+"o": [
+"Derecho de supresión absoluto.",
+"Derecho de rectificación en Internet.",
+"Derecho de actualización de informaciones en medios de comunicación digitales.",
+"Derecho a la neutralidad de Internet."
+],
+"a": 2
+},
+{
+"q": "¿Puede la negociación colectiva (convenios) establecer garantías adicionales en materia de derechos digitales?",
+"o": [
+"No, la LOPDGDD establece máximos infranqueables.",
+"Sí, los convenios colectivos podrán establecer garantías adicionales de los derechos y libertades en el entorno laboral.",
+"Solo en empresas de más de 500 empleados.",
+"Solo respecto a la videovigilancia."
+],
+"a": 1
+}
+]

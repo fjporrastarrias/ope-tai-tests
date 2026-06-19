@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Según el artículo 11 de la Ley 39/2015, ¿cuál es la regla general en cuanto a la exigencia de identificación y firma electrónica?",
+    "o": [
+      "Se requiere firma electrónica obligatoria para cualquier interacción o consulta en la Sede Electrónica.",
+      "Con carácter general, bastará la mera identificación para cualquier actuación, salvo para los supuestos explícitos de solicitudes, declaraciones responsables, comunicaciones, recursos, desistimientos y renuncias.",
+      "La identificación electrónica ha quedado derogada, siendo obligatoria la firma cualificada en todo caso.",
+      "La firma solo es obligatoria para las personas jurídicas, bastando la identificación visual para las personas físicas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de los siguientes sistemas NO es un sistema de identificación admitido expresamente por el artículo 9 de la Ley 39/2015?",
+    "o": [
+      "Sistemas basados en certificados electrónicos cualificados de firma electrónica.",
+      "Sistemas basados en firma electrónica avanzada.",
+      "Sistemas de clave concertada y otros sistemas autorizados.",
+      "Sistemas de autenticación biométrica por voz sin base en registro previo homologado."
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿Qué se requiere para que un funcionario habilitado pueda identificar o firmar electrónicamente en nombre de un ciudadano no obligado a relacionarse electrónicamente?",
+    "o": [
+      "Que el ciudadano pague una tasa por gestión administrativa presencial.",
+      "El consentimiento expreso del ciudadano, debiendo quedar constancia fidedigna de ello en el expediente.",
+      "Una autorización judicial que acredite la brecha digital del interesado.",
+      "Basta con que el funcionario inserte su propia tarjeta criptográfica sin necesidad de declaración del ciudadano."
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con el artículo 14 de la Ley 39/2015, ¿cuál de los siguientes sujetos NO está obligado a relacionarse electrónicamente de forma obligatoria con las Administraciones Públicas?",
+    "o": [
+      "Las personas jurídicas.",
+      "Las entidades sin personalidad jurídica.",
+      "Las personas físicas que actúen en calidad de ciudadanos para la obtención de una licencia de obras menor ordinaria, salvo previsión reglamentaria.",
+      "Los representantes de un interesado que esté obligado a relacionarse por medios electrónicos."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Están obligados los empleados de las Administraciones Públicas a relacionarse electrónicamente con ellas?",
+    "o": [
+      "No, disfrutan del derecho de opción al igual que cualquier persona física.",
+      "Sí, de forma absoluta para cualquier trámite personal o profesional de su vida privada.",
+      "Sí, para los trámites y actuaciones que realicen con ellas por razón de su condición de empleado público.",
+      "Únicamente si pertenecen al cuerpo de Técnicos Auxiliares de Informática (TAI)."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según el artículo 15 de la Ley 39/2015, si en un procedimiento tramitado en una Comunidad Autónoma con lengua cooficial concurren varios interesados y existe discrepancia sobre la lengua, ¿en qué idioma se tramitará el procedimiento?",
+    "o": [
+      "En la lengua cooficial en todo caso.",
+      "En castellano, si bien los documentos o testimonios que soliciten los interesados se expedirán en la lengua elegida por los mismos.",
+      "El procedimiento se dividirá en tantos expedientes independientes como lenguas se hayan solicitado.",
+      "Se tramitará obligatoriamente de forma bilingüe en formato a doble columna."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo se estructuran los registros electrónicos de cada una de las Administraciones Públicas?",
+    "o": [
+      "Cada delegación u oficina mantendrá un registro independiente y aislado de los demás.",
+      "Cada Administración dispondrá de un único Registro Electrónico General, plenamente interoperable.",
+      "Los registros electrónicos locales son opcionales y pueden sustituirse por el correo electrónico institucional.",
+      "Se dispone de un registro físico principal y un registro electrónico secundario no conectado."
+    ],
+    "a": 1
+  },
+  {
+    "q": "De conformidad con el artículo 28 de la Ley 39/2015, ¿pueden las Administraciones Públicas exigir a los interesados la aportación de documentos originales que ya hayan sido elaborados por cualquier Administración?",
+    "o": [
+      "Sí, siempre que la cuantía del procedimiento supere los 3.000 euros.",
+      "No, los interesados tienen derecho a no aportar documentos que ya se encuentren en poder de la Administración actuante o hayan sido elaborados por otra Administración.",
+      "Sí, es una potestad discrecional de la jefatura de servicio correspondiente.",
+      "No, salvo que la presentación se realice de forma física."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando un interesado se opone expresamente a que la Administración recabe electrónicamente sus documentos de otras fuentes:",
+    "o": [
+      "El procedimiento se desestima por falta de colaboración.",
+      "Deberá aportar obligatoriamente dichos documentos al procedimiento.",
+      "La Administración los recabará igualmente de forma oculta en virtud del principio de celeridad.",
+      "Dicha oposición conlleva una sanción económica automática."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La potestad de oposición del interesado para que la Administración consulte o recabe de forma directa documentos elaborados por otra Administración NO es de aplicación cuando:",
+    "o": [
+      "El interesado sea una persona jurídica.",
+      "El procedimiento sea de carácter subvencionable.",
+      "La consulta se realice en el marco del ejercicio de potestades sancionadoras o de inspección.",
+      "El volumen de la documentación sea superior a 10 megabytes."
+    ],
+    "a": 2
+  }
+]

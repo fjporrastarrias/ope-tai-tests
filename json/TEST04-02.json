@@ -1,0 +1,102 @@
+[
+  {
+    "q": "11. Según el artículo 11 de la LRBRL, ¿cuáles son los elementos esenciales del municipio?",
+    "o": [
+      "Alcalde, Concejales y Vecinos",
+      "Territorio, población y organización",
+      "Término municipal, Padrón y Ayuntamiento",
+      "Suelo urbano, suelo rústico y habitantes"
+    ],
+    "a": 1
+  },
+  {
+    "q": "12. El territorio en el que el ayuntamiento ejerce sus competencias se denomina:",
+    "o": [
+      "Término municipal",
+      "Demarcación provincial",
+      "Partido judicial",
+      "Área metropolitana"
+    ],
+    "a": 0
+  },
+  {
+    "q": "13. Conforme a la LRBRL, ¿a cuántas provincias puede pertenecer un mismo municipio?",
+    "o": [
+      "A varias, si está en una zona fronteriza interprovincial",
+      "A dos como máximo",
+      "A una sola provincia",
+      "Depende de lo que determine su Estatuto de Autonomía"
+    ],
+    "a": 2
+  },
+  {
+    "q": "14. ¿Qué norma andaluza regula principalmente la alteración y fusión de los términos municipales en la Comunidad Autónoma?",
+    "o": [
+      "La Ley de Contratos del Sector Público",
+      "El Reglamento de Bienes de las Entidades Locales",
+      "La Constitución Española",
+      "La Ley de Autonomía Local de Andalucía (LAULA)"
+    ],
+    "a": 3
+  },
+  {
+    "q": "15. ¿Qué órgano consultivo autonómico debe emitir dictamen preceptivo en los procedimientos de alteración de términos municipales en Andalucía?",
+    "o": [
+      "El Consejo de Estado",
+      "El Consejo Consultivo de Andalucía",
+      "La Diputación Provincial de Córdoba",
+      "El Tribunal de Cuentas de Andalucía"
+    ],
+    "a": 1
+  },
+  {
+    "q": "16. ¿Cuándo se adquiere formalmente la condición de vecino de un municipio?",
+    "o": [
+      "En el mismo momento de la inscripción en el Padrón municipal",
+      "Tras un año de residencia continuada y acreditada",
+      "Al adquirir una vivienda en el término municipal",
+      "Al cumplir la mayoría de edad y estar empadronado"
+    ],
+    "a": 0
+  },
+  {
+    "q": "17. Si una persona reside en varios municipios al año, ¿dónde tiene la obligación de inscribirse según la LRBRL?",
+    "o": [
+      "En todos los municipios donde tenga propiedades",
+      "En el municipio donde pague más impuestos",
+      "Únicamente en el municipio en el que habite durante más tiempo al año",
+      "En la capital de la provincia correspondiente"
+    ],
+    "a": 2
+  },
+  {
+    "q": "18. ¿Qué carácter administrativo tienen los datos del Padrón Municipal según el artículo 16 de la LRBRL?",
+    "o": [
+      "Son meramente informativos y carecen de valor judicial",
+      "Son secretos y no pueden usarse para fines estadísticos",
+      "Son provisionales hasta que el INE los valide cada diez años",
+      "Constituyen prueba de la residencia y del domicilio habitual a todos los efectos administrativos"
+    ],
+    "a": 3
+  },
+  {
+    "q": "19. ¿Cuál de los siguientes es un derecho y deber de los vecinos recogido expresamente en el artículo 18 de la LRBRL?",
+    "o": [
+      "Exigir el establecimiento de los servicios públicos obligatorios",
+      "Eximirse del pago de taxas si no usan un servicio",
+      "Elegir libremente al Secretario del Ayuntamiento",
+      "Modificar unilateralmente el catastro municipal"
+    ],
+    "a": 0
+  },
+  {
+    "q": "20. El Padrón Municipal es un documento de naturaleza:",
+    "o": [
+      "Privada y confidencial",
+      "Pública y fehaciente",
+      "Estadística y no vinculante",
+      "Judicial y sujeta a secreto de sumario"
+    ],
+    "a": 1
+  }
+]

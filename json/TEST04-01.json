@@ -1,0 +1,102 @@
+[
+  {
+    "q": "1. ¿Qué artículo de la Constitución Española de 1978 garantiza expresamente la autonomía de los municipios?",
+    "o": [
+      "Artículo 137",
+      "Artículo 140",
+      "Artículo 141",
+      "Artículo 142"
+    ],
+    "a": 1
+  },
+  {
+    "q": "2. Según el artículo 137 de la Constitución Española, ¿en qué entidades se organiza territorialmente el Estado?",
+    "o": [
+      "Solo en municipios y provincias",
+      "En Comunidades Autónomas exclusivamente",
+      "En municipios, provincias y en las Comunidades Autónomas que se constituyan",
+      "En municipios, comarcas y Estados federales"
+    ],
+    "a": 2
+  },
+  {
+    "q": "3. Conforme al artículo 140 de la CE, ¿cuál es el carácter de la personalidad jurídica de los municipios?",
+    "o": [
+      "Plena",
+      "Mancomunada",
+      "Limitada a sus competencias delegadas",
+      "Restringida según su población"
+    ],
+    "a": 0
+  },
+  {
+    "q": "4. Según la CE, el gobierno y la administración de los municipios corresponde a:",
+    "o": [
+      "Las Diputaciones Provinciales",
+      "Las Delegaciones del Gobierno",
+      "Las Juntas de Gobierno Local exclusivamente",
+      "Sus respectivos Ayuntamientos, integrados por Alcaldes y Concejales"
+    ],
+    "a": 3
+  },
+  {
+    "q": "5. ¿Cómo son elegidos los Concejales según el artículo 140 de la CE?",
+    "o": [
+      "Por los vecinos mediante sufragio universal, igual, libre, directo y secreto",
+      "Por el Alcalde de entre una terna propuesta por los partidos políticos",
+      "Por la Diputación Provincial correspondiente",
+      "Por sufragio indirecto de las asociaciones vecinales"
+    ],
+    "a": 0
+  },
+  {
+    "q": "6. Según el artículo 140 de la CE, ¿quién elige a los Alcaldes?",
+    "o": [
+      "Únicamente los vecinos por sufragio directo",
+      "El Presidente de la Comunidad Autónoma",
+      "Los Concejales o los vecinos",
+      "El Ministerio de Política Territorial"
+    ],
+    "a": 2
+  },
+  {
+    "q": "7. El principio constitucional que asegura que las Haciendas locales dispondrán de los medios suficientes se conoce como:",
+    "o": [
+      "Principio de estabilidad presupuestaria",
+      "Principio de suficiencia financiera",
+      "Principio de corresponsabilidad fiscal",
+      "Principio de caja única"
+    ],
+    "a": 1
+  },
+  {
+    "q": "8. Según el artículo 142 de la CE, ¿de qué fuentes se nutren fundamentalmente las Haciendas locales?",
+    "o": [
+      "Exclusivamente de transferencias del Estado",
+      "De las tasas universitarias y de transporte",
+      "De donaciones y subvenciones europeas",
+      "De tributos propios y de participación en los del Estado y de las CC.AA."
+    ],
+    "a": 3
+  },
+  {
+    "q": "9. ¿Qué régimen de gobierno local menciona expresamente el artículo 140 de la CE en su inciso final para ser regulado por ley?",
+    "o": [
+      "El régimen de concejo abierto",
+      "El régimen de gran población",
+      "El régimen de mancomunidad forzosa",
+      "El régimen de área metropolitana"
+    ],
+    "a": 0
+  },
+  {
+    "q": "10. La Constitución de 1978 regula la Administración Local principalmente en:",
+    "o": [
+      "El Título Preliminar",
+      "El Título III",
+      "El Capítulo II del Título VIII",
+      "El Capítulo III del Título VIII"
+    ],
+    "a": 2
+  }
+]

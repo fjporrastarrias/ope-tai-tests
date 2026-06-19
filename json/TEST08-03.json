@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué tipo de información NO forma parte de las obligaciones de publicidad activa del Ayuntamiento?",
+    "o": [
+      "El organigrama detallado y actualizado de la corporación municipal.",
+      "El presupuesto consolidado de la entidad de cada ejercicio económico.",
+      "Las deliberaciones y debates de carácter secreto mantenidos en las Juntas de Gobierno Locales.",
+      "Las subvenciones y ayudas de carácter público concedidas con indicación de su cuantía."
+    ],
+    "a": 2
+  },
+  {
+    "q": "En el procedimiento de acceso a la información pública, la visualización u obtención material de los datos en formato digital será:",
+    "o": [
+      "Siempre previo pago de una tasa de tramitación estándar de 50 euros.",
+      "Gratuita, salvo la expedición de copias físicas o la transposición a formatos diferentes del original.",
+      "Exclusivamente presencial mediante cita en las dependencias técnicas de informática.",
+      "Gratuita únicamente para aquellas personas empadronadas en el término municipal."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Contra las resoluciones definitivas dictadas por el Consejo de Transparencia de Andalucía en materia de reclamaciones, cabe interponer:",
+    "o": [
+      "Recurso de alzada ordinario ante el Presidente de la Junta de Andalucía.",
+      "Recurso contencioso-administrativo ante el órgano jurisdiccional competente.",
+      "Recurso extraordinario de revisión ante el Alcalde del municipio de origen.",
+      "Ningún tipo de recurso, dado que sus resoluciones cierran toda vía jurídica posible."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Las infracciones de carácter grave en materia de buen gobierno reguladas por la LTAIBG prescriben a los:",
+    "o": [
+      "Seis meses hábiles.",
+      "Dos años.",
+      "Tres años completos.",
+      "Cinco años continuados."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de los siguientes principios rige la conducta de los altos cargos según el Título II de la Ley 19/2013?",
+    "o": [
+      "Principio de reserva selectiva en contratos de servicios de sistemas.",
+      "Principio de objetividad, neutralidad e imparcialidad en el desempeño de sus funciones.",
+      "Principio de prioridad del interés partidista sobre la normativa básica local.",
+      "Principio de inmunidad frente a las solicitudes de acceso de los ciudadanos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si una solicitud de acceso es formulada de manera tan genérica que impide identificar la información objeto de la petición:",
+    "o": [
+      "Se deniega de forma automática sin realizar trámites adicionales.",
+      "Se requerirá al solicitante para que la concrete en un plazo de diez días, suspendiendo el plazo para resolver.",
+      "El técnico responsable asignará un objeto estimado para evitar dilaciones.",
+      "Se remitirá directamente al Consejo de Transparencia para su inadmisión en bloque."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué norma de la Comunidad Autónoma de Andalucía complementa y amplía el régimen básico de transparencia en el ámbito local?",
+    "o": [
+      "La Ley 39/2015, de 1 de octubre.",
+      "La Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía.",
+      "La Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local.",
+      "El Estatuto de Autonomía de Andalucía en sus disposiciones informáticas exclusivamente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Las resoluciones desestimatorias de las solicitudes de acceso a la información pública deben ser:",
+    "o": [
+      "Comunicadas de forma verbal por el canal telefónico municipal.",
+      "Notificadas formalmente por escrito o canal electrónico y siempre motivadas.",
+      "Publicadas de forma genérica en el Boletín Oficial del Estado sin citar al interesado.",
+      "Eximidas de notificación si se produce la denegación por silencio administrativo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando se conceda un acceso parcial a la información debido a la existencia de un límite legal en una parte de los datos, la resolución deberá:",
+    "o": [
+      "Indicar los motivos de la limitación y garantizar que la información restante sea inteligible.",
+      "Ocultar activamente al ciudadano que se ha procedido al filtrado de parte de los datos.",
+      "Cobrar un recargo en las tasas por el trabajo técnico de disociación de datos de carácter personal.",
+      "Ser aprobada por unanimidad de los miembros asistentes al Pleno Municipal."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué órgano independiente ejerce el control del cumplimiento de la transparencia y acceso en el ámbito de la Administración General del Estado?",
+    "o": [
+      "El Tribunal de Cuentas.",
+      "El Consejo de Transparencia y Buen Gobierno (CTBG).",
+      "La Defensoría del Pueblo de forma exclusiva.",
+      "La Agencia Española de Protección de Datos en materia económica."
+    ],
+    "a": 1
+  }
+]

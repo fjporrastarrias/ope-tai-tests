@@ -1,0 +1,102 @@
+[
+  {
+    "q": "El Delegado nombrado por el Gobierno de la Nación para dirigir la administración del Estado en el territorio de una CC.AA. tiene la función constitucional de:",
+    "o": [
+      "Presidir el Parlamento Autonómico en ausencia del titular.",
+      "Coordinar la administración del Estado con la administración propia de la Comunidad Autónoma.",
+      "Aprobar los presupuestos de las Diputaciones Provinciales.",
+      "Supervisar judicialmente las sentencias del Tribunal Superior de Justicia."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando el Estado delega facultades mediante una Ley Orgánica del artículo 150.2 de la CE, dicha ley debe prever obligatoriamente:",
+    "o": [
+      "La disolución de los Ayuntamientos implicados.",
+      "La correspondiente transferencia de medios financieros.",
+      "El traspaso forzoso de personal funcionario al Estado.",
+      "Un plazo de caducidad máximo de un año prorrogable."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Tiene competencia una Comunidad Autónoma para legislar de manera propia y exclusiva sobre la propiedad intelectual o industrial?",
+    "o": [
+      "Sí, está recogida dentro de las competencias asumibles del artículo 148.",
+      "No, la propiedad intelectual e industrial es competencia exclusiva del Estado (Art. 149.1.9.ª).",
+      "Solo si el Ayuntamiento del municipio lo autoriza en pleno.",
+      "Sí, siempre que no afecte a patentes de software de la Administración Local."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La legislación básica sobre protección del medio ambiente es estatal, pero las Comunidades Autónomas pueden establecer normativamente:",
+    "o": [
+      "Normas adicionales de protección.",
+      "Leyes de exención penal ecológica.",
+      "Tribunales ambientales independientes del Poder Judicial.",
+      "Tasas aduaneras a los residuos de otras provincias."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué principio constitucional determina que, en caso de vacío normativo autonómico, se apliquen de forma directa las leyes del Estado?",
+    "o": [
+      "Principio de Prevalencia.",
+      "Principio de Supletoriedad.",
+      "Principio de Descentralización.",
+      "Principio de Interoperabilidad Jurídica."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La competencia exclusiva sobre la elaboración de estadísticas para fines estatales corresponde a:",
+    "o": [
+      "Los Ayuntamientos a través del padrón exclusivamente.",
+      "El Estado.",
+      "La Junta de Andalucía en su respectivo territorio.",
+      "Las Diputaciones Provinciales por agregación de datos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los conflictos de competencias que surjan entre el Estado y las Comunidades Autónomas son resueltos de forma definitiva por:",
+    "o": [
+      "El Tribunal Supremo (Sala Tercera).",
+      "El Tribunal Constitucional.",
+      "Las Cortes Generales en sesión conjunta.",
+      "La Junta de Andalucía de mutuo acuerdo con el Delegado del Gobierno."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La iniciativa para el acceso a la autonomía por la vía común u ordinaria se regula detalladamente en qué artículo de la CE:",
+    "o": [
+      "Artículo 143.",
+      "Artículo 151.",
+      "Artículo 137.",
+      "Artículo 149."
+    ],
+    "a": 0
+  },
+  {
+    "q": "La legislación sobre pesas y medidas, y la determinación de la hora oficial, son competencias exclusivas de:",
+    "o": [
+      "Las Comunidades Autónomas que posean laboratorios de metrología.",
+      "El Estado.",
+      "El Instituto Geográfico Autonómico de forma compartida.",
+      "Los Ayuntamientos según su posición astronómica."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La autorización para la convocatoria de consultas populares por vía de referéndum es una competencia exclusiva de:",
+    "o": [
+      "El Alcalde-Presidente del Ayuntamiento de la localidad.",
+      "El Estado.",
+      "El Consejo de Gobierno de la Junta de Andalucía.",
+      "El Presidente de la Diputación Provincial."
+    ],
+    "a": 1
+  }
+]

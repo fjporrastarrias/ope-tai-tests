@@ -1,0 +1,102 @@
+[
+  {
+    "q": "El intercambio electrónico de datos en entornos cerrados de comunicación se encuentra regulado en el artículo:",
+    "o": [
+      "Artículo 41 de la Ley 40/2015",
+      "Artículo 44 de la Ley 40/2015",
+      "Artículo 46 de la Ley 40/2015",
+      "Artículo 48 de la Ley 40/2015"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando dos Administraciones pactan operar en un entorno cerrado de comunicación según el artículo 44, se presupone que:",
+    "o": [
+      "Se debe emplear obligatoriamente el protocolo FTP sin cifrar.",
+      "Las partes aceptan y acuerdan de forma específica las condiciones y garantías de la comunicación, avaladas por sus firmas o sellos.",
+      "Los ciudadanos comunes pueden entrar a dicho entorno sin identificarse.",
+      "Queda sin validez técnica el Esquema Nacional de Seguridad."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El artículo 45 de la Ley 40/2015 vincula el aseguramiento de la interoperabilidad y la seguridad al cumplimiento estricto de:",
+    "o": [
+      "Las directrices del fabricante de hardware mayoritario en el mercado.",
+      "El Esquema Nacional de Interoperabilidad (ENI) y el Esquema Nacional de Seguridad (ENS).",
+      "Las normas ISO 9001 de gestión de calidad industrial exclusivamente.",
+      "Las políticas internas de contraseñas de la alcaldía."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 46, todos los documentos electrónicos correspondientes a procedimientos administrativos finalizados deben:",
+    "o": [
+      "Imprimirse en papel de alta duración y destruirse digitalmente.",
+      "Conservarse en un archivo electrónico único.",
+      "Enviarse en formato comprimido ZIP a un servidor en la nube internacional sin control.",
+      "Publicarse íntegramente en el Boletín Oficial de la Provincia."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de las siguientes propiedades NO es un requisito explícito exigido por el artículo 46 para la conservación en el archivo electrónico?",
+    "o": [
+      "Integridad y autenticidad",
+      "Indexación pública con fines comerciales de analítica",
+      "Confidencialidad y disponibilidad",
+      "Legibilidad y conservación"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los medios o soportes en los que se almacenen documentos electrónicos de un archivo único deben contar con medidas de seguridad que eviten:",
+    "o": [
+      "Su consulta por parte del personal de informática debidamente autorizado.",
+      "La alteración, pérdida o acceso no autorizado a la información custodiada.",
+      "La indexación técnica mediante metadatos normalizados.",
+      "Su replicación en entornos de copia de respaldo locales bajo el ENS."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El formato tecnológico seleccionado para almacenar documentos en el archivo electrónico debe garantizar:",
+    "o": [
+      "El uso exclusivo de software propietario sujeto a licencias anuales de pago.",
+      "La legibilidad de los datos a lo largo del tiempo, previendo la obsolescencia tecnológica.",
+      "El empaquetado de los ficheros bajo algoritmos de cifrado simétrico obsoletos.",
+      "La imposibilidad total de que el documento sea migrado en el futuro."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El objetivo fundamental del Esquema Nacional de Interoperabilidad (ENI) referenciado en el artículo 45 es:",
+    "o": [
+      "Garantizar que los servidores no sufran ataques de denegación de servicio.",
+      "Crear las condiciones necesarias para asegurar la adecuada colaboración e intercambio de información entre los sistemas de las APPs.",
+      "Fijar las retribuciones del personal técnico de informática de la administración.",
+      "Centralizar el desarrollo de las páginas web en un único lenguaje."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La custodia de los documentos en el archivo electrónico único abarca:",
+    "o": [
+      "Únicamente los documentos que hayan sido aportados por los ciudadanos, excluyendo los informes internos.",
+      "Los documentos electrónicos que formen parte de expedientes correspondientes a procedimientos administrativos finalizados.",
+      "Exclusivamente las actas de las sesiones plenarias municipales.",
+      "Cualquier correo electrónico informal intercambiado entre el personal público."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La eliminación o destrucción de documentos del archivo electrónico del sector público debe someterse a:",
+    "o": [
+      "La libre decisión del administrador de sistemas del ayuntamiento cuando falte espacio en disco.",
+      "Lo dispuesto en la normativa aplicable en materia de patrimonio documental, archivos y dictámenes de las comisiones de valoración.",
+      "Un borrado seguro aleatorio semanal determinado por el servidor de base de datos.",
+      "Su publicación previa en un foro de internet para recibir alegaciones."
+    ],
+    "a": 1
+  }
+]

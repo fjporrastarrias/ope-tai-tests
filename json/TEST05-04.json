@@ -1,0 +1,102 @@
+[
+  {
+    "q": "De acuerdo con el artículo 31 de la Ley 39/2015, ¿por qué parámetros temporales se rige el registro electrónico de cada Administración?",
+    "o": [
+      "Por la hora local del dispositivo móvil del interesado en el momento del envío.",
+      "Por la fecha y hora oficial de la sede electrónica de acceso.",
+      "Por el huso horario de Greenwich (GMT) de forma exclusiva.",
+      "Por la hora fijada en el servidor central del Ministerio de Hacienda."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué días del año permite la presentación de documentos el registro electrónico de una Administración?",
+    "o": [
+      "Solo los días hábiles del calendario de la sede principal.",
+      "Todos los días del año durante las 24 horas.",
+      "De lunes a viernes en horario ininterrumpido de 08:00 a 20:00 horas.",
+      "Todos los días del año, excepto los festivos nacionales oficiales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si un interesado presenta electrónicamente una solicitud en un día inhábil para el órgano administrativo, ¿cuándo se reputa legalmente efectuada dicha presentación?",
+    "o": [
+      "En el mismo momento del envío, considerándose el día inhábil como hábil a efectos de registro.",
+      "En la primera hora del primer día hábil siguiente.",
+      "A las 12:00 del mediodía del día hábil posterior.",
+      "La solicitud es rechazada automáticamente por el sistema."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿En qué medida máxima puede la Administración ampliar de oficio o a petición de los interesados los plazos establecidos en un procedimiento?",
+    "o": [
+      "En un periodo que no exceda de la mitad de los mismos, si las circunstancias lo aconsejan y no se perjudican derechos de tercero.",
+      "En un tiempo equivalente al doble del plazo original.",
+      "Hasta un máximo de 15 días naturales en cualquier circunstancia.",
+      "La ley prohíbe la ampliación de plazos para evitar dilaciones indebidas."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Para que un acuerdo de ampliación de plazos sea totalmente válido en Derecho, ¿cuándo debe producirse obligatoriamente tanto la solicitud como la concesión del mismo?",
+    "o": [
+      "Dentro de los tres días posteriores al vencimiento.",
+      "Antes del vencimiento del plazo de que se trate, sin que pueda ampliarse un plazo ya vencido.",
+      "En cualquier momento previo a la resolución que ponga fin a la vía administrativa.",
+      "Únicamente durante los periodos inhábiles del mes de agosto."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Es susceptible de recurso ordinario el acuerdo administrativo que concede o deniega una ampliación de plazos?",
+    "o": [
+      "Sí, cabe recurso de alzada ante el superior jerárquico.",
+      "Sí, cabe recurso potestativo de reposición en el plazo de un mes.",
+      "No, los acuerdos sobre ampliación de plazos o sobre su denegación no serán susceptibles de recurso.",
+      "Sí, pero de forma exclusiva el recurso contencioso-administrativo."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Si una incidencia técnica masiva imposibilita el funcionamiento ordinario de los sistemas o aplicaciones de la sede electrónica:",
+    "o": [
+      "Los plazos se consideran caducados sin posibilidad de recuperación.",
+      "La Administración podrá determinar la ampliación de los plazos no vencidos, debiendo publicar en la sede tanto el fallo técnico como la ampliación concreta.",
+      "El ciudadano debe imprimir la pantalla y acudir a un registro físico en menos de dos horas.",
+      "Se anula todo el procedimiento y debe iniciarse desde cero."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando razones de interés público lo aconsejen, se podrá aplicar al procedimiento la tramitación de urgencia. ¿Qué efecto directo produce esta medida?",
+    "o": [
+      "La exención total de firma electrónica en todos los trámites.",
+      "La reducción a la mitad de los plazos establecidos para el procedimiento ordinario, salvo exclusiones legales.",
+      "La eliminación del trámite de propuesta de resolución.",
+      "La suspensión indefinida del registro electrónico general."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el marco de una tramitación de urgencia acordada bajo el artículo 33, ¿qué plazos quedan excluidos por ley de la reducción a la mitad?",
+    "o": [
+      "Los plazos para emitir informes técnicos sectoriales.",
+      "Los relativos a la presentación de solicitudes y de recursos.",
+      "Los plazos de subsanación de errores materiales de la Administración.",
+      "Los plazos de notificación por medios electrónicos cualificados."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué recurso procede interponer contra el acuerdo de la Administración que dicte la aplicación de la tramitación de urgencia a un expediente?",
+    "o": [
+      "Recurso extraordinario de revisión.",
+      "Recurso de alzada.",
+      "No cabe recurso alguno contra dicho acuerdo, sin perjuicio del que proceda contra la resolución que ponga fin al procedimiento.",
+      "Recurso de reposición ante el Alcalde-Presidente."
+    ],
+    "a": 2
+  }
+]

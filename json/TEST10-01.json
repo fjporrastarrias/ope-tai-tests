@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es el objeto principal regulado en el Título V de la Ley Orgánica 3/2007, de 22 de marzo?",
+    "o": [
+      "La igualdad de trato en el acceso a bienes y servicios privados.",
+      "El principio de igualdad en el empleo público.",
+      "La representación paritaria en las corporaciones locales de forma exclusiva.",
+      "El régimen de infracciones y sanciones en la empresa privada."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 51 de la L.O. 3/2007, ¿cuál de los siguientes es un criterio general de actuación de las Administraciones Públicas?",
+    "o": [
+      "Establecer una cuota fija obligatoria del 50% de hombres en todos los departamentos.",
+      "Eximir a los municipios pequeños de la aplicación de los principios de conciliación.",
+      "Garantizar la igualdad de trato y de oportunidades en el acceso, la formación, la promoción y las condiciones de trabajo.",
+      "Impedir el reingreso al servicio activo tras un permiso de maternidad hasta transcurrido un año."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Conforme a la Disposición Adicional Primera de la L.O. 3/2007, ¿cómo se define formalmente la composición o presencia equilibrada?",
+    "o": [
+      "Aquella situación en la que la presencia de un sexo sea exactamente del 50%.",
+      "Aquella en la que las personas de cada sexo no superen el 70% ni sean inferiores al 30%.",
+      "Aquella en la que las personas de cada sexo no superen el 60% ni sean inferiores al 40%.",
+      "Aquella determinada de manera discrecional por la alcaldía al inicio del mandato."
+    ],
+    "a": 2
+  },
+  {
+    "q": "De acuerdo con el artículo 53 de la Ley Orgánica 3/2007, el principio de presencia equilibrada debe aplicarse en:",
+    "o": [
+      "Exclusivamente en los contratos menores adjudicados por el Ayuntamiento.",
+      "Todos los tribunales y órganos de selección del personal de la Administración Pública.",
+      "Únicamente en los órganos de gobierno de las Comunidades Autónomas.",
+      "Los consejos de administración de las grandes sociedades mercantiles privadas exclusivamente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el marco de las pruebas de acceso al empleo público, el artículo 55 de la L.O. 3/2007 mandata la incorporación de:",
+    "o": [
+      "Un baremo automático que otorgue cinco puntos adicionales por razón de sexo.",
+      "Un informe de impacto de género en las convocatorias de las pruebas selectivas.",
+      "Una exención total del pago de tasas para el sexo que se encuentre subrepresentado.",
+      "Un examen de contenido exclusivamente político e histórico de carácter eliminatorio."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué artículo de la Ley Orgánica 3/2007 recoge la obligación de las Administraciones de adoptar protocolos frente al acoso sexual y al acoso por razón de sexo?",
+    "o": [
+      "Artículo 12.",
+      "Artículo 19.",
+      "Artículo 51.",
+      "Artículo 62."
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿A qué norma del empleo público se añade la obligación ineludible de elaborar y aplicar un Plan de Igualdad en todas las Administraciones Públicas?",
+    "o": [
+      "A la Ley de Contratos del Sector Público.",
+      "A la Disposición Adicional Séptima del Texto Refundido del Estatuto Básico del Empleado Público.",
+      "A la Ley de Prevención de Riesgos Laborales.",
+      "A la Ley Reguladora de las Bases del Régimen Local."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según el artículo 60 de la L.O. 3/2007, las acciones positivas en las actividades de formación del empleo público tienen como fin:",
+    "o": [
+      "Excluir al personal laboral temporal de las actividades formativas.",
+      "Corregir la infrarepresentación de las mujeres en determinadas categorías o niveles profesionales.",
+      "Garantizar que los cursos de informática sean impartidos exclusivamente por personal directivo.",
+      "Duplicar el número de horas lectivas obligatorias para el personal funcionario de carrera."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Conforme al artículo 61 de la L.O. 3/2007, se otorgará preferencia durante un año en la adjudicación de plazas de formación a quienes:",
+    "o": [
+      "Hayan cumplido la sanción por una falta disciplinaria grave.",
+      "Se hayan incorporado al servicio activo procedentes del permiso de maternidad o paternidad, o reingresado de excedencias por cuidado de familiares.",
+      "Acrediten una antigüedad ininterrumpida superior a los 25 años en el Ayuntamiento.",
+      "Ocupen puestos del subgrupo técnico A1 en el área de informática."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el objeto de los informes de impacto de género regulados en el artículo 19 de la L.O. 3/2007?",
+    "o": [
+      "Evaluar los costes económicos derivados de los despidos en las empresas públicas.",
+      "Analizar los proyectos de disposiciones de carácter general para identificar si acentúan o corrigen desigualdades entre sexos.",
+      "Fiscalizar las subvenciones destinadas a los partidos políticos en periodo electoral.",
+      "Determinar el nivel de cumplimiento informático del Esquema Nacional de Seguridad."
+    ],
+    "a": 1
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es el objeto principal de la Ley 31/1995 de Prevención de Riesgos Laborales?",
+    "o": [
+      "Regular exclusivamente el régimen sancionador de la Inspección de Trabajo.",
+      "Promover la seguridad y la salud de los trabajadores mediante la aplicación de medidas y el desarrollo de las actividades necesarias.",
+      "Establecer la estructura salarial y los complementos de peligrosidad de los empleados.",
+      "Garantizar que las empresas privadas obtengan beneficios reduciendo sus tasas de siniestralidad."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 3 de la LPRL, ¿a qué tipo de relaciones se aplica esta Ley?",
+    "o": [
+      "Exclusivamente a las relaciones laborales reguladas en el ámbito de la empresa privada.",
+      "Solo a las empresas del sector industrial con más de 250 trabajadores.",
+      "Tanto a las relaciones laborales del sector privado como a las de carácter administrativo o estatutario del personal al servicio de las Administraciones Públicas.",
+      "Únicamente al personal eventual, quedando excluidos los funcionarios de carrera."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál de los siguientes colectivos queda EXCLUIDO del ámbito de aplicación general de la LPRL por sus particularidades específicas?",
+    "o": [
+      "El personal de oficinas y servicios informáticos de la Administración Local.",
+      "El personal de mantenimiento de los colegios públicos dependientes del Ayuntamiento.",
+      "Las actividades de Policía, seguridad, resguardo aduanero y servicios de protección civil en casos de catástrofe.",
+      "Los trabajadores interinos que ocupen plazas técnicas de forma temporal."
+    ],
+    "a": 2
+  },
+  {
+    "q": "En las actividades excluidas del ámbito de aplicación de la LPRL, como la Policía Local, la normativa que se dicte para su seguridad:",
+    "o": [
+      "No existe, por lo que carecen de cualquier tipo de protección o directriz.",
+      "Se regirá de forma directa por el Código de Comercio.",
+      "Se inspirará en la propia LPRL, adaptándose a las características de dichos servicios.",
+      "Se aplicará la LPRL de forma íntegra sin permitir ninguna especialidad."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué carácter tienen las normas de prevención de riesgos laborales contenidas en la LPRL y sus reglamentos?",
+    "o": [
+      "Carácter de derecho dispositivo y totalmente renunciable por acuerdo de las partes.",
+      "Carácter de derecho mínimo indisponible, pudiendo ser mejoradas pero nunca empeoradas.",
+      "Son meras recomendaciones técnicas sin fuerza vinculante ni sancionadora.",
+      "Carácter supletorio de segunda línea frente a lo que dispongan las ordenanzas fiscales municipales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con el artículo 4 de la LPRL, ¿cómo se define el 'riesgo laboral'?",
+    "o": [
+      "La materialización efectiva de una enfermedad profesional grave.",
+      "La probabilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+      "Cualquier herramienta de trabajo que carezca de marcado CE.",
+      "La sanción económica interpuesta por la autoridad laboral al Ayuntamiento."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué se entiende por 'daños derivados del trabajo' según la LPRL?",
+    "o": [
+      "Las averías mecánicas sufridas en los vehículos oficiales de la entidad local.",
+      "Las enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo.",
+      "La pérdida de rendimiento económico o bajada de productividad del departamento.",
+      "El desgaste natural de los equipos informáticos por obsolescencia tecnológica."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué concepto define la LPRL como 'cualquier característica del trabajo que pueda tener una influencia significativa en la generación de riesgos'?",
+    "o": [
+      "Equipo de protección individual.",
+      "Condición de trabajo.",
+      "Proceso informático de automatización.",
+      "Plan de autoprotección institucional."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Están obligados los trabajadores autónomos a coordinar sus actividades según lo dispuesto en la LPRL cuando coinciden en un mismo centro de trabajo?",
+    "o": [
+      "No, la ley excluye a los autónomos de cualquier deber de coordinación.",
+      "Sí, deben cumplir con los deberes de cooperación, información e instrucción previstos en el artículo 24 de la ley.",
+      "Solo si su contrato con el Ayuntamiento supera los dos años de duración.",
+      "Únicamente si operan en el sector de la ciberseguridad avanzada."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La Ley 31/1995 constituye el cuerpo normativo básico que transpone al derecho español ¿cuál de las siguientes normas europeas?",
+    "o": [
+      "La Directiva Marco 89/391/CEE, relativa a la aplicación de medidas para promover la mejora de la seguridad y de la salud de los trabajadores.",
+      "El Reglamento General de Protección de Datos (RGPD) 2016/679.",
+      "La Directiva de Contratación Pública 2014/24/UE.",
+      "La Directiva de Firma Electrónica 1999/93/CE."
+    ],
+    "a": 0
+  }
+]

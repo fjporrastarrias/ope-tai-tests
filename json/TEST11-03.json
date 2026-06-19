@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué artículo de la LPRL regula de manera detallada las obligaciones de los trabajadores en materia de prevención?",
+    "o": [
+      "Artículo 14.",
+      "Artículo 29.",
+      "Artículo 35.",
+      "Artículo 42."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 29, la obligación básica del trabajador consiste en velar por su propia seguridad y salud y por la de otras personas, esto debe realizarse:",
+    "o": [
+      "Contratando pólizas de seguro privadas a su nombre.",
+      "Según sus posibilidades y mediante el cumplimiento de las medidas de prevención que en cada caso sean adoptadas.",
+      "Sustituyendo los equipos del Ayuntamiento por herramientas propias.",
+      "Supervisando el trabajo de los inspectores de la Junta de Andalucía."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En relación con los Equipos de Protección Individual (EPIs), ¿cuál es la obligación del trabajador establecida en el artículo 29.2.2º?",
+    "o": [
+      "Comprarlos en establecimientos homologados y solicitar el reembolso.",
+      "Utilizar correctamente los medios y equipos de protección facilitados por el empresario, siguiendo sus instrucciones.",
+      "Almacenarlos de forma indefinida en su domicilio particular al acabar el turno.",
+      "Modificar sus componentes técnicos para adaptarlos a sus preferencias personales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si un Técnico Auxiliar de Informática detecta un fallo eléctrico grave en el rack del CPD, ¿cuál es su obligación inmediata?",
+    "o": [
+      "Esperar a la auditoría técnica bianual del sistema.",
+      "Informar de inmediato a su superior jerárquico directo y a los trabajadores designados o al servicio de prevención.",
+      "Desmontar el equipo por su cuenta sin disponer de la cualificación ni herramientas de baja tensión.",
+      "Ignorarlo, puesto que la infraestructura física es responsabilidad del área de urbanismo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Respecto a los dispositivos de seguridad de las máquinas, herramientas o instalaciones, los trabajadores tienen la obligación de:",
+    "o": [
+      "Desconectarlos de la red si entorpecen la rapidez del servicio ordinario.",
+      "No ponerlos fuera de funcionamiento y utilizarlos correctamente de acuerdo con su fin.",
+      "Intercambiarlos entre distintas máquinas sin autorización previa.",
+      "Retirarlos de forma permanente para facilitar las tareas de limpieza profunda."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué consideración jurídica tiene el incumplimiento por parte de los empleados públicos de sus obligaciones preventivas?",
+    "o": [
+      "Carece de trascendencia jurídica al tratarse de directrices opcionales.",
+      "Tiene la consideración de incumplimiento laboral a efectos del Estatuto de los Trabajadores o de falta disciplinaria en el régimen de los funcionarios.",
+      "Deriva automáticamente en una sanción penal privativa de libertad sin juicio previo.",
+      "Provoca la suspensión definitiva del convenio colectivo aplicable al Ayuntamiento."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo deben manejar los trabajadores las sustancias peligrosas empleadas en sus centros de trabajo?",
+    "o": [
+      "Mezclándolas libremente para comprobar su efectividad técnica.",
+      "Utilizándolas correctamente de acuerdo con las instrucciones del empresario y la formación recibida.",
+      "Almacenándolas en recipientes de productos alimenticios para ahorrar espacio.",
+      "Desechándolas en las papeleras de residuos comunes de la oficina."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La obligación de cooperar con el Ayuntamiento en materia preventiva tiene como finalidad última:",
+    "o": [
+      "Permitir que la administración reduzca el gasto en personal médico.",
+      "Garantizar que el empresario pueda asegurar unas condiciones de trabajo seguras que no entrañen riesgos.",
+      "Evitar las multas de la Inspección de Trabajo sin mejorar las condiciones reales.",
+      "Eximir de responsabilidad civil y penal a las autoridades políticas municipales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Quién tiene la responsabilidad de facilitar al empleado las instrucciones de uso de los equipos de protección individual?",
+    "o": [
+      "El propio empleado mediante la búsqueda de manuales en internet.",
+      "El Ayuntamiento de Priego de Córdoba, a través de los canales de información y formación técnica.",
+      "El fabricante del equipo de forma directa enviando una carta al domicilio del trabajador.",
+      "La junta arbitral de consumo de la comunidad autónoma."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Para los funcionarios del Ayuntamiento de Priego de Córdoba, el procedimiento sancionador por faltas disciplinarias en prevención se rige por:",
+    "o": [
+      "El Código de Procedimiento Civil de forma íntegra.",
+      "El Texto Refundido del Estatuto Básico del Empleado Público (TREBEP) y la normativa aplicable de régimen local.",
+      "La Ley de Contratos del Sector Público de manera subsidiaria.",
+      "Los estatutos internos de la mutua patronal con la que colabore el municipio."
+    ],
+    "a": 1
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál de las siguientes opciones define mejor a un Sistema de Información (SI)?",
+    "o": [
+      "El conjunto exclusivo de ordenadores y cables de red de una organización.",
+      "Un conjunto formal de procesos que, operando sobre datos estructurados, recopila, elabora y distribuye la información necesaria para las operaciones y control de una entidad.",
+      "Cualquier aplicación ofimática instalada en el puesto de un usuario de la administración local.",
+      "Un software diseñado únicamente para realizar copias de seguridad de bases de datos relacionales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué componente de un Sistema de Información hace referencia explícita al factor humano compuesto por usuarios y técnicos?",
+    "o": [
+      "Hardware.",
+      "Software.",
+      "Peopleware o Humanware.",
+      "Firmware."
+    ],
+    "a": 2
+  },
+  {
+    "q": "La principal diferencia entre un Sistema de Información (SI) y un Sistema Informático es que:",
+    "o": [
+      "El Sistema Informático obligatoriamente incluye componentes de hardware y software para la automatización, mientras que el SI puede existir de forma puramente manual o analógica.",
+      "El SI es siempre un subconjunto del Sistema Informático.",
+      "El Sistema Informático no incluye bases de datos.",
+      "No existe ninguna diferencia; ambos conceptos son sinónimos exactos en el ámbito tecnológico."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Dentro del ciclo operativo de un Sistema Informático, la fase que consiste en recibir los datos brutos del exterior se denomina:",
+    "o": [
+      "Procesamiento.",
+      "Entrada.",
+      "Salida.",
+      "Retroalimentación."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué elemento NO se considera parte de las tres capas fundamentales de un Sistema Informático?",
+    "o": [
+      "El Hardware.",
+      "El Software.",
+      "El Reglamento Orgánico Municipal.",
+      "El Humanware."
+    ],
+      "a": 2
+  },
+  {
+    "q": "En la teoría general de sistemas aplicable a la informática, los datos procesados y dotados de un contexto y significado útil reciben el nombre de:",
+    "o": [
+      "Datos brutos.",
+      "Información.",
+      "Código máquina.",
+      "Metadatos planos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de los siguientes ejemplos representa un Sistema de Información dentro de un Ayuntamiento?",
+    "o": [
+      "Únicamente un ratón óptico conectado a un ordenador.",
+      "El conjunto de normas, empleados, datos y programas que gestionan la tramitación de expedientes y licencias de obra.",
+      "Una tarjeta de memoria de tipo MicroSD sin formatear.",
+      "El chasis o caja metálica de un servidor de archivos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el modelo general de un sistema informático, ¿cuál es la función de la retroalimentación o feedback?",
+    "o": [
+      "Aumentar la velocidad de los buses de direcciones de forma inalámbrica.",
+      "Destruir los datos corruptos de la memoria RAM de manera inmediata.",
+      "Controlar y comparar los resultados obtenidos con los objetivos previstos para introducir correcciones en el sistema.",
+      "Traducir el código fuente a lenguaje de alto nivel automáticamente."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Los flujos de trabajo, normativas de uso y reglas de negocio documentadas dentro de un Sistema de Información se engloban en la categoría de:",
+    "o": [
+      "Hardware de red.",
+      "Procesos y Procedimientos.",
+      "Sistemas Operativos de tiempo real.",
+      "Buses de control compartidos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Un sistema informático se considera balanceado u óptimo cuando:",
+    "o": [
+      "No dispone de recursos humanos para evitar fallos manuales.",
+      "Sus recursos de hardware, software y capacidades humanas guardan una adecuada proporción y rendimiento equilibrado para cumplir sus fines.",
+      "Solo utiliza aplicaciones de código abierto sin sistema operativo.",
+      "Carece de periféricos de entrada y salida de datos."
+    ],
+    "a": 1
+  }
+]

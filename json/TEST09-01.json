@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿A cuál de los siguientes colectivos se aplica el Texto Refundido de la Ley del Estatuto Básico del Empleado Público de forma directa?",
+    "o": [
+      "Al personal militar de las Fuerzas Armadas.",
+      "Al personal funcionario de las Entidades Locales.",
+      "Al personal de las Cortes Generales en su totalidad.",
+      "Al personal de la Judicatura exclusivamente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con el artículo 9 del TREBEP, el ejercicio de las funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas corresponde exclusivamente a:",
+    "o": [
+      "Los funcionarios públicos de carrera.",
+      "El personal laboral fijo.",
+      "El personal eventual de confianza.",
+      "Los funcionarios públicos en general, tanto de carrera como interinos."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué tipo de relación jurídica vincula a un funcionario de carrera con la Administración Pública?",
+    "o": [
+      "Una relación laboral de carácter común.",
+      "Una relación contractual de servicios privados.",
+      "Una relación estatutaria regulada por el Derecho Administrativo.",
+      "Una relación de confianza de carácter mercantil."
+    ],
+    "a": 2
+  },
+  {
+    "q": "El personal que, en virtud de nombramiento legal, desempeña funciones reservadas a funcionarios de carrera por razones justificadas de necesidad y urgencia se denomina:",
+    "o": [
+      "Personal laboral interino.",
+      "Funcionario interino.",
+      "Personal eventual.",
+      "Personal directivo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando un funcionario interino es nombrado para ocupar una plaza vacante que no ha sido posible cubrir por funcionarios de carrera, ¿cuál es el plazo máximo de permanencia según el artículo 10 del TREBEP?",
+    "o": [
+      "Un año no prorrogable.",
+      "Dos años.",
+      "Tres años.",
+      "Cinco años."
+    ],
+    "a": 2
+  },
+  {
+    "q": "El nombramiento de un funcionario interino por exceso o acumulación de tareas tendrá un plazo máximo de duración de:",
+    "o": [
+      "Seis meses dentro de un período de doce meses.",
+      "Nueve meses dentro de un período de dieciocho meses.",
+      "Three meses dentro de un período de seis meses.",
+      "Doce meses ininterrumpidos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el caso de funcionarios interinos nombrados para la ejecución de programas de carácter temporal, el plazo máximo de duración es de:",
+    "o": [
+      "Dos años ampliable por seis meses más.",
+      "Tres años, ampliable por doce meses más por las leyes de función pública.",
+      "Cinco años improrrogables.",
+      "El tiempo que dure la legislatura municipal."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El personal que, en virtud de contrato de trabajo formalizado por escrito, presta servicios retribuidos por las Administraciones Públicas se denomina:",
+    "o": [
+      "Funcionario de carrera.",
+      "Personal eventual.",
+      "Personal laboral.",
+      "Funcionario interino."
+    ],
+    "a": 2
+  },
+  {
+    "q": "El personal eventual realiza exclusivamente funciones calificadas como de:",
+    "o": [
+      "Potestades públicas fundamentales.",
+      "Gestión ordinaria y tramitación de expedientes.",
+      "Confianza o asesoramiento especial.",
+      "Dirección pública profesional."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué ocurre con el personal eventual cuando cesa la autoridad a la que prestan su función?",
+    "o": [
+      "Pasa automáticamente a la condición de funcionario interino.",
+      "Permanece en su puesto hasta que termine el año presupuestario.",
+      "Se produce su cese automático en todo caso.",
+      "Adquiere la condición de personal laboral indefinido no fijo."
+    ],
+    "a": 2
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es un requisito obligatorio del candidato para poder ser elegido Presidente de la Junta de Andalucía?",
+    "o": [
+      "Ser funcionario del Grupo A1 de la Junta",
+      "Ser miembro del Parlamento de Andalucía",
+      "Haber sido Alcalde de una capital andaluza",
+      "Tener más de 45 años de edad cumplidos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Una vez elegido el Presidente de la Junta por el Parlamento andaluz, ¿quién efectúa su nombramiento?",
+    "o": [
+      "El Presidente del Parlamento de Andalucía",
+      "El Rey",
+      "El Presidente del Gobierno de la Nación",
+      "El Presidente del Tribunal Supremo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Ante qué órgano jurisdiccional es exigible la responsabilidad penal del Presidente de la Junta de Andalucía?",
+    "o": [
+      "Ante el Tribunal Superior de Justicia de Andalucía (TSJA)",
+      "Ante la Sala de lo Penal del Tribunal Supremo",
+      "Ante la Audiencia Provincial de Sevilla",
+      "Ante el Pleno del Tribunal Constitucional"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿A quién le corresponde por derecho estatutario designar a los miembros del Consejo de Gobierno y distribuir las funciones ejecutivas?",
+    "o": [
+      "Al Parlamento por mayoría cualificada",
+      "Al Presidente de la Junta de Andalucía",
+      "Al Rey a propuesta del Consejo de Ministros",
+      "Al Consejero de la Presidencia de forma interna"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué órgano colegiado ejerce la dirección política de la Comunidad Autónoma, la función ejecutiva y la potestad reglamentaria?",
+    "o": [
+      "El Pleno del Parlamento de Andalucía",
+      "El Consejo de Gobierno",
+      "La Junta de Portavoces parlamentarios",
+      "La Mesa del Parlamento"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 119 del Estatuto, el Consejo de Gobierno de Andalucía está integrado por:",
+    "o": [
+      "El Presidente, el Defensor del Pueblo y los Portavoces parlamentarios",
+      "El Presidente, los Vicepresidentes en su caso, y los Consejeros",
+      "El Presidente del TSJA, los Consejeros y los Rectores de Universidad",
+      "Los Secretarios de Estado de Hacienda y los Delegados de la Junta"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Ante qué tribunal es exigible la responsabilidad penal de los Consejeros por delitos cometidos fuera del ámbito de su jurisdicción territorial?",
+    "o": [
+      "Ante el Tribunal Superior de Justicia de Andalucía",
+      "Ante la Sala de lo Penal del Tribunal Supremo",
+      "Ante la Audiencia Nacional",
+      "Ante los Juzgados de lo Penal de Sevilla"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Ante qué órgano judicial es exigible la responsabilidad penal de los Consejeros si el delito se comete dentro del territorio andaluz?",
+    "o": [
+      "Ante el Tribunal Superior de Justicia de Andalucía",
+      "Ante la Sala de lo Penal del Tribunal Supremo",
+      "Ante la Audiencia Provincial de Córdoba",
+      "Ante el Juzgado de Guardia de la capital autonómica"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué artículo del Estatuto de Autonomía de Andalucía establece los principios de actuación (como eficacia, transparencia y eficiencia) de su Administración?",
+    "o": [
+      "Artículo 102",
+      "Artículo 118",
+      "Artículo 133",
+      "Artículo 250"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué principio recoge el artículo 135 del Estatuto respecto al nombramiento de titulares de órganos directivos de la Administración andaluza?",
+    "o": [
+      "Principio de antigüedad en el cuerpo funcionarial",
+      "Principio de representatividad territorial por comarcas históricas",
+      "Principio de presencia equilibrada de hombres y mujeres",
+      "Principio de rotación obligatoria de carácter bienal"
+    ],
+    "a": 2
+  }
+]

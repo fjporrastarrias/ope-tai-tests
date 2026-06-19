@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿En qué fecha fue ratificada la Constitución Española de 1978 por el pueblo español en referéndum?",
+    "o": [
+      "El 31 de octubre de 1978",
+      "El 6 de diciembre de 1978",
+      "El 27 de diciembre de 1978",
+      "El 29 de diciembre de 1978"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿De cuántos artículos consta el texto de la Constitución Española de 1978?",
+    "o": [
+      "158 artículos",
+      "166 artículos",
+      "169 artículos",
+      "171 artículos"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la estructura exacta de las disposiciones finales, adicionales y transitorias al término del texto constitucional?",
+    "o": [
+      "4 disposiciones adicionales, 9 transitorias, 1 disposición derogatoria y 1 disposición final",
+      "3 disposiciones adicionales, 8 transitorias, 2 disposiciones derogatorias y 1 disposición final",
+      "4 disposiciones adicionales, 6 transitorias, 1 disposición derogatoria y 2 disposiciones finales",
+      "5 disposiciones adicionales, 9 transitorias, 1 disposición derogatoria y 1 disposición final"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué título de la Constitución Española regula 'Del Gobierno y de la Administración'?",
+    "o": [
+      "Título III",
+      "Título IV",
+      "Título V",
+      "Título VI"
+    ],
+    "a": 1
+  },
+  {
+    "q": "La denominada 'Parte Dogmática' de la Constitución Española comprende tradicionalmente:",
+    "o": [
+      "Exclusivamente el Preámbulo de la norma",
+      "El Título Preliminar y el Título I",
+      "Del Título Preliminar al Título III",
+      "Únicamente los artículos del 15 al 29"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué Título de la Constitución Española está dedicado a la Organización Territorial del Estado?",
+    "o": [
+      "Título VII",
+      "Título VIII",
+      "Título IX",
+      "Título X"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿En qué fecha entró en vigor la Constitución Española de 1978?",
+    "o": [
+      "El mismo día de su publicación en el BOE, el 29 de diciembre de 1978",
+      "Al día siguiente de su publicación en el BOE, el 30 de diciembre de 1978",
+      "El 1 de enero de 1979",
+      "El 6 de diciembre de 1978, tras conocerse los resultados oficiales"
+    ],
+    "a": 0
+  },
+  {
+    "q": "El Preámbulo de la Constitución Española de 1978 tiene un valor jurídico de carácter:",
+    "o": [
+      "Estrictamente vinculante, asimilable a una Ley Orgánica",
+      "Declarativo y programático, por lo que carece de fuerza normativa directa",
+      "Derogatorio de las leyes fundamentales anteriores de forma directa",
+      "Sancionable penalmente ante los tribunales de la jurisdicción ordinaria"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de las siguientes instituciones constitucionales está regulada formalmente en el Título IX de la Carta Magna?",
+    "o": [
+      "El Defensor del Pueblo",
+      "El Tribunal Constitucional",
+      "El Tribunal de Cuentas",
+      "El Consejo de Estado"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué Título regula específicamente las relaciones entre el Gobierno y las Cortes Generales?",
+    "o": [
+      "Título III",
+      "Título IV",
+      "Título V",
+      "Título VI"
+    ],
+    "a": 2
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "A nivel del Estado, ¿ante qué órgano se someten los proyectos normativos que deben incorporar preceptivamente el informe de impacto de género del artículo 19?",
+    "o": [
+      "El Congreso de los Diputados.",
+      "El Consejo de Ministros.",
+      "El Consejo Económico y Social.",
+      "El Defensor del Pueblo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué ley andaluza desarrolla y amplía la obligación de la evaluación de impacto de género en el ámbito de las Administraciones Locales de Andalucía?",
+    "o": [
+      "La Ley 7/1985, de 2 de abril, de Bases del Régimen Local.",
+      "La Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía.",
+      "La Ley de Contratos del Sector Público de 2017.",
+      "La Ley 39/2015, del Procedimiento Administrativo Común."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El principio que persigue la integración sistemática de la perspectiva de género en todas las políticas y acciones públicas se denomina:",
+    "o": [
+      "Discriminación positiva sectorial.",
+      "Transversalidad de género o gender mainstreaming.",
+      "Segregación horizontal del empleo.",
+      "Acción preferente de control administrativo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si un informe de impacto de género concluye que un proyecto de ordenanza municipal contribuye a eliminar barreras laborales entre sexos, dicho impacto es:",
+    "o": [
+      "Neutro.",
+      "Positivo.",
+      "Negativo.",
+      "Arbitrario."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Están obligados los Ayuntamientos de Andalucía a incorporar la evaluación de impacto de género en sus ordenanzas locales?",
+    "o": [
+      "No, es un trámite exclusivo para leyes de rango estatal aprobadas en las Cortes.",
+      "Sí, de acuerdo con las exigencias transversales básicas del artículo 19 estatal y el artículo 6 de la Ley 12/2007 de Andalucía.",
+      "Solo si el municipio supera los 100.000 habitantes.",
+      "Únicamente si la ordenanza regula materias del subgrupo informático o tecnológico."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el artículo 51 de la L.O. 3/2007, ¿quién debe evaluar periódicamente la efectividad del principio de igualdad en el empleo público?",
+    "o": [
+      "Una empresa de auditoría externa privada debidamente inscrita.",
+      "Las propias Administraciones Públicas en sus respectivos ámbitos de competencia.",
+      "El Tribunal de Cuentas de manera exclusiva al auditar el gasto.",
+      "Las juntas de personal técnico cada diez años."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿A qué colectivo de la plantilla del Ayuntamiento de Priego de Córdoba le es aplicable el principio de igualdad de trato de la L.O. 3/2007?",
+    "o": [
+      "Únicamente al personal funcionario de carrera de los subgrupos A1 y A2.",
+      "Exclusivamente al personal laboral con contrato de carácter indefinido.",
+      "A todo el personal al servicio de las Administraciones Públicas, con independencia de su naturaleza jurídica.",
+      "Solo al personal eventual que ejerza funciones de asesoramiento especial."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Si un órgano de selección de personal del Ayuntamiento está compuesto por 5 miembros, ¿qué distribución respeta la presencia equilibrada (40-60%)?",
+    "o": [
+      "5 hombres y 0 mujeres.",
+      "4 mujeres y 1 hombre.",
+      "3 hombres y 2 mujeres.",
+      "5 mujeres y 0 hombres."
+    ],
+    "a": 2
+  },
+  {
+    "q": "El condicionamiento de un derecho o expectativa de derecho a la aceptación de una situación constitutiva de acoso por razón de sexo se considera:",
+    "o": [
+      "Un acto de discriminación por razón de sexo.",
+      "Un vicio meramente anulable y subsanable en el expediente.",
+      "Una potestad organizativa discrecional de los jefes de servicio.",
+      "Una medida cautelar justificada por necesidades del servicio."
+    ],
+    "a": 0
+  },
+  {
+    "q": "De acuerdo con el artículo 28 de la L.O. 3/2007, los proyectos informáticos sufragados con dinero público deben:",
+    "o": [
+      "Almacenar por separado los registros de usuarios en función de su sexo.",
+      "Garantizar que su lenguaje y contenidos sean no sexistas.",
+      "Ser desarrollados obligatoriamente por empresas externas de capital paritario.",
+      "Excluir el uso de cifrado simétrico en las comunicaciones administrativas."
+    ],
+    "a": 1
+  }
+]

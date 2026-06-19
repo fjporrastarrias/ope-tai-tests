@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué título de la Ley 40/2015 se encarga de regular de forma general las Relaciones Interadministrativas?",
+    "o": [
+      "Título Preliminar",
+      "Título I",
+      "Título II",
+      "Título III"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Según el artículo 155, para la transmisión electrónica de datos de interesados entre diferentes Administraciones Públicas:",
+    "o": [
+      "Es estrictamente obligatorio recabar el consentimiento expreso por escrito en cada consulta.",
+      "No se requerirá el consentimiento del interesado, salvo que una ley especial disponga lo contrario.",
+      "Se debe abonar una tasa económica de compensación por cada consulta de datos.",
+      "Se necesita autorización judicial previa del tribunal contencioso-administrativo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En la transmisión de datos regulada en el artículo 155, ¿qué normativa sectorial rige con carácter estricto y prioritario?",
+    "o": [
+      "La legislación de contratos del sector público.",
+      "La normativa en materia de protección de datos de carácter personal (RGPD y LOPDGDD).",
+      "El Código Civil en materia de notificaciones postales.",
+      "Las directrices del software libre de la Free Software Foundation."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La formulación y estructura del Esquema Nacional de Interoperabilidad y del Esquema Nacional de Seguridad se aprueba mediante:",
+    "o": [
+      "Orden Ministerial de la Presidencia.",
+      "Real Decreto, a propuesta de las carteras competentes.",
+      "Resolución directa del Alcalde en los municipios de gran población.",
+      "Ley Orgánica votada por las Cortes Generales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con el artículo 157, las Administraciones Públicas pondrán a disposición de cualquiera de ellas que lo solicite:",
+    "o": [
+      "Los servidores físicos obsoletos que tengan almacenados en sus dependencias.",
+      "Las aplicaciones de las que sean titulares de los derechos de propiedad intelectual de desarrollo propio o comunitario.",
+      "Las claves privadas de los certificados de firma de sus autoridades.",
+      "Los datos personales de filiación de los contribuyentes locales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La puesta a disposición de aplicaciones entre Administraciones del artículo 157 se realizará con carácter general de forma:",
+    "o": [
+      "Onerosa, cobrando un canon de mantenimiento mensual.",
+      "Gratuita, promoviendo la reutilización del software público.",
+      "Temporal, exigiendo la devolución de las copias de seguridad a los seis meses.",
+      "Restringida únicamente a administraciones del mismo rango poblacional."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la excepción legal para que una Administración se niegue a ceder una aplicación informática propia a otra entidad según el artículo 157?",
+    "o": [
+      "Que el sistema consuma demasiados recursos de red del servidor local.",
+      "Que la información que procese el sistema tenga naturaleza de reservada o confidencial, o existan derechos de propiedad intelectual de terceros.",
+      "Que no exista un convenio firmado formalmente por los secretarios generales.",
+      "Que la aplicación haya sido desarrollada en un lenguaje de programación libre."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El artículo 158 de la Ley 40/2015 impone la obligación a las Administraciones de mantener actualizados:",
+    "o": [
+      "Los inventarios de hardware obsoleto listo para reciclaje.",
+      "Directorios de aplicaciones para su reutilización, integrados con los directorios del Estado.",
+      "Las bases de datos de correos electrónicos personales de los concejales.",
+      "Los registros manuales de correspondencia institucional de entrada."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La adhesión de una entidad local (como el Ayuntamiento de Priego de Córdoba) a las plataformas tecnológicas de una Administración superior (Art. 158):",
+    "o": [
+      "Es de obligado cumplimiento por ley en todos los casos sin valorar costes.",
+      "Es voluntaria, permitiendo la optimización de recursos y el aprovechamiento de tecnologías ya consolidadas.",
+      "Requiere una reforma del Estatuto de Autonomía de la Comunidad Autónoma.",
+      "Se encuentra prohibida si la plataforma del Estado utiliza tecnologías de código abierto."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los directorios de aplicaciones para su reutilización del artículo 158 deben asegurar de forma técnica:",
+    "o": [
+      "La interoperabilidad con el Centro de Transferencia de Tecnología (CTT) del Estado.",
+      "El cobro automatizado de licencias comerciales a las empresas privadas.",
+      "El bloqueo de acceso a cualquier otra entidad local periférica.",
+      "La exclusión sistemática del sistema operativo GNU/Linux."
+    ],
+    "a": 0
+  }
+]
