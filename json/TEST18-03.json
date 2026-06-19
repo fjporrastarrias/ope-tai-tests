@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la estructura correcta de los argumentos de la función lógica 'SI' en LibreOffice Calc?",
+    "o": [
+      "=SI(valor_si_verdadero; valor_si_falso; prueba_lógica)",
+      "=SI(prueba_lógica; valor_si_verdadero; valor_si_falso)",
+      "=SI(prueba_lógica; valor_si_falso)",
+      "=SI(valor_si_verdadero; prueba_lógica; valor_si_falso)"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué función de LibreOffice Calc busca un valor en la primera columna de un rango de celdas y devuelve el valor de la celda de la misma fila en una columna especificada?",
+    "o": [
+      "BUSCARH",
+      "BUSCARV",
+      "INDICE",
+      "COINCIDIR"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Para contar cuántas celdas en el rango A1:A20 contienen valores numéricos superiores a 50, ¿qué función de LibreOffice Calc se debe utilizar?",
+    "o": [
+      "=CONTAR(A1:A20; \">50\")",
+      "=CONTAR.SI(A1:A20; \">50\")",
+      "=SUMAR.SI(A1:A20; \">50\")",
+      "=CONTARA(A1:A20; \">50\")"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la diferencia primordial entre las funciones HOY() y AHORA() en LibreOffice Calc?",
+    "o": [
+      "HOY() devuelve la fecha actual y AHORA() devuelve la fecha y la hora actual del sistema.",
+      "HOY() requiere argumentos obligatorios y AHORA() no.",
+      "AHORA() solo funciona en formato de 24 horas.",
+      "HOY() es una función estática y AHORA() cambia dinámicamente cada segundo automáticamente."
+    ],
+    "a": 0
+  },
+  {
+    "q": "El operador utilizado en LibreOffice Calc para concatenar o unir dos o más cadenas de texto de forma manual sin recurrir a la función CONCATENAR es:",
+    "o": [
+      "+",
+      "&&",
+      "&",
+      "|"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué herramienta de LibreOffice Calc permite resumir, analizar y explorar grandes volúmenes de datos cruzando variables mediante filas y columnas interactivas?",
+    "o": [
+      "Filtro estándar",
+      "Validación de datos",
+      "Tabla dinámica (antigua Piloto de datos)",
+      "Escenarios"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En LibreOffice Calc, ¿para qué sirve la opción 'Fijar filas y columnas' (o Congelar)?",
+    "o": [
+      "Para impedir que los usuarios modifiquen los datos de esas celdas.",
+      "Para mantener visibles ciertas filas o columnas al desplazarse por el resto de la hoja de cálculo.",
+      "Para ocultar de forma temporal la información confidencial.",
+      "Para optimizar el cálculo de fórmulas complejas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué función de LibreOffice Calc cuenta el número de celdas que NO están vacías dentro de un rango determinado, incluyendo texto y números?",
+    "o": [
+      "CONTAR",
+      "CONTARA",
+      "CONTAR.BLANCO",
+      "SUMAR"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Al configurar la 'Validación de datos' en una celda de LibreOffice Calc, el administrador puede conseguir:",
+    "o": [
+      "Cifrar los datos con clave pública.",
+      "Restringir los tipos de datos o valores que los usuarios pueden introducir en dicha celda.",
+      "Formatear de forma automática la celda según una condición.",
+      "Calcular el resultado de manera externa."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si una fórmula contiene el nombre de una función mal escrito como '=SUMAA(A1:A5)', ¿qué tipo de error mostrará LibreOffice Calc?",
+    "o": [
+      "#DIV/0!",
+      "#VALOR!",
+      "#NAME? o #¿NOMBRE?",
+      "#REF!"
+    ],
+    "a": 2
+  }
+]

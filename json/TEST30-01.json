@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la norma actual que regula el Esquema Nacional de Seguridad (ENS) en España?",
+    "o": [
+      "Real Decreto 3/2010",
+      "Real Decreto 951/2015",
+      "Real Decreto 311/2022",
+      "Real Decreto 203/2021"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Según el artículo 156.2 de la LRJSP, ¿cuál es el objeto principal del ENS?",
+    "o": [
+      "Regular la interoperabilidad de los sistemas públicos",
+      "Establecer la política de seguridad en la utilización de medios electrónicos",
+      "Sancionar los ciberataques contra las Administraciones Públicas",
+      "Proveer la infraestructura de red SARA de forma exclusiva"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuándo entró en vigor el Real Decreto 311/2022 que regula el ENS?",
+    "o": [
+      "El mismo día de su publicación en el BOE",
+      "Al día siguiente de su publicación en el BOE",
+      "A los 20 días de su publicación en el BOE",
+      "Tras un periodo transitorio de 24 meses"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes NO es uno de los tres grandes objetivos de la actualización del ENS en 2022?",
+    "o": [
+      "Alinear el ENS con el marco normativo y el contexto estratégico existente",
+      "Introducir la capacidad de ajustar los requisitos a la realidad de ciertos colectivos",
+      "Centralizar toda la gestión de incidentes informáticos en el Ministerio del Interior",
+      "Facilitar una mejor respuesta a las tendencias en ciberseguridad y promover la vigilancia continua"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la estructura interna del actual ENS (RD 311/2022)?",
+    "o": [
+      "30 artículos y 2 anexos",
+      "41 artículos, 3 disposiciones adicionales, 1 disposición transitoria única y 4 anexos",
+      "50 artículos y 5 anexos",
+      "15 artículos, 1 disposición transitoria y 2 anexos"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué dimensión de la seguridad se define como la propiedad de que una entidad es quien dice ser o garantiza la fuente de los datos?",
+    "o": [
+      "Confidencialidad",
+      "Trazabilidad",
+      "Autenticidad",
+      "Disponibilidad"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿A cuál de los siguientes sujetos se aplica el ENS obligatoriamente según el artículo 2?",
+    "o": [
+      "Únicamente a la Administración General del Estado",
+      "A todo el sector público y a las entidades del sector privado que presten servicios contractualmente al sector público",
+      "Solo a las entidades locales de más de 50.000 habitantes",
+      "Exclusivamente a los ciudadanos en sus relaciones electrónicas"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Con respecto a los sistemas que tratan información clasificada, el RD 311/2022 establece que:",
+    "o": [
+      "Quedan totalmente excluidos del ámbito de aplicación del ENS",
+      "Es de aplicación, sin perjuicio de la Ley de Secretos Oficiales, pudiendo ser necesarias medidas complementarias",
+      "Se rigen única y exclusivamente por normativas internacionales de la OTAN",
+      "Deben ser auditados semestralmente por empresas extranjeras"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Cuando las entidades del sector público instalen o exploten redes 5G, ¿qué normativa es de aplicación complementaria junto al ENS?",
+    "o": [
+      "Real Decreto-ley 7/2022",
+      "Real Decreto 43/2021",
+      "Ley 9/2014 General de Telecomunicaciones",
+      "Ley 36/2015 de Seguridad Nacional"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuántos principios básicos establece el ENS en su capítulo II (artículo 4)?",
+    "o": [
+      "5",
+      "7",
+      "15",
+      "12"
+    ],
+    "a": 0
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es el puerto estándar bien conocido para el protocolo IMAP4 sin cifrar?",
+    "o": [
+      "25",
+      "110",
+      "143",
+      "993"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué protocolo permite por diseño mantener múltiples conexiones simultáneas al mismo buzón y sincronizar el estado de los mensajes en tiempo real entre varios dispositivos?",
+    "o": [
+      "POP3",
+      "IMAP4",
+      "SMTP",
+      "MIME"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué comando IMAP4 se utiliza para eliminar físicamente del servidor los mensajes que tienen activo el flag '\\Deleted'?",
+    "o": [
+      "EXPUNGE",
+      "PURGE",
+      "DELETE",
+      "REMOVE"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es el comando IMAP4 empleado para modificar los atributos o 'flags' (como \\Seen, \\Answered o \\Deleted) de un mensaje?",
+    "o": [
+      "FETCH",
+      "FLAG",
+      "STORE",
+      "STATUS"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué comando de IMAP4 permite descargar partes selectivas de un correo electrónico, como únicamente la cabecera o un archivo adjunto específico?",
+    "o": [
+      "GET",
+      "RETR",
+      "DOWNLOAD",
+      "FETCH"
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿Cuál es el puerto por defecto para IMAP4 estructurado sobre una capa de seguridad SSL/TLS (IMAPS)?",
+    "o": [
+      "465",
+      "993",
+      "995",
+      "143"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué comando IMAP4 abre un buzón o carpeta en modo de lectura y escritura, permitiendo alterar el estado de sus mensajes?",
+    "o": [
+      "EXAMINE",
+      "SELECT",
+      "OPEN",
+      "ENTER"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si queremos abrir una carpeta en IMAP4 garantizando que no se modificará ningún flag ni estado por error, ¿qué comando debemos usar?",
+    "o": [
+      "SELECT",
+      "LOCK",
+      "EXAMINE",
+      "VIEW"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la RFC de referencia técnica fundamental para el protocolo IMAP4?",
+    "o": [
+      "RFC 3501",
+      "RFC 1939",
+      "RFC 5321",
+      "RFC 7489"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de las siguientes afirmaciones es CORRECTA respecto a IMAP4?",
+    "o": [
+      "No permite la creación de carpetas o directorios personalizados en el servidor",
+      "Es un protocolo 'stateless' donde el servidor no recuerda el estado de la sesión",
+      "Permite realizar búsquedas de texto en el lado del servidor antes de descargar los correos",
+      "Requiere obligatoriamente el puerto 25 para la autenticación de usuarios"
+    ],
+    "a": 2
+  }
+]

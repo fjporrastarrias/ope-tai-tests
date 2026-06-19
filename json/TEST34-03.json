@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es Docker?",
+    "o": [
+      "Un editor de texto",
+      "Una plataforma para crear y ejecutar contenedores",
+      "Un sistema operativo",
+      "Un navegador web"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué ventaja ofrece la virtualización a la seguridad?",
+    "o": [
+      "Aumenta la exposición a ataques",
+      "Permite aislar ambientes para contener brechas de seguridad",
+      "Elimina la necesidad de firewalls",
+      "Reduce el uso de contraseñas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el 'snapshot' en máquinas virtuales?",
+    "o": [
+      "Una foto del monitor",
+      "Una captura del estado completo de una VM en un momento dado",
+      "Un archivo de log",
+      "Una copia de seguridad en la nube"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Para qué se utiliza un snapshot?",
+    "o": [
+      "Aumentar la velocidad de la VM",
+      "Revertir la VM a un estado anterior rápidamente",
+      "Hacer la VM más segura",
+      "Aumentar la memoria"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la sobresuscripción en virtualización?",
+    "o": [
+      "Usar más máquinas virtuales de lo necesario",
+      "Asignar más recursos virtuales que los disponibles físicamente",
+      "Crear demasiadas copias de seguridad",
+      "Múltiples suscripciones de software"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el riesgo de la sobresuscripción?",
+    "o": [
+      "Menor consumo de energía",
+      "Posible degradación del rendimiento si todas las VMs usan recursos",
+      "Mayor seguridad",
+      "Mejor disponibilidad"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la afinidad de CPU en virtualización?",
+    "o": [
+      "Cambiar el procesador de una VM",
+      "Vincular una VM a núcleos de CPU específicos",
+      "Dividir un procesador",
+      "Un tipo de hipervisor"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el balanceo de carga (load balancing)?",
+    "o": [
+      "Distribuir usuarios entre dos servidores",
+      "Distribuir el trabajo entre múltiples recursos",
+      "Aumentar la carga en un servidor",
+      "Reducir la carga de trabajo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuáles son los hypervisores más comunes?",
+    "o": [
+      "Solo KVM",
+      "VMware vSphere, Hyper-V, KVM, Xen",
+      "Solo Hyper-V",
+      "Solo VirtualBox"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es VirtualBox?",
+    "o": [
+      "Un hipervisor Tipo 1",
+      "Un hipervisor Tipo 2 de código abierto y gratuito",
+      "Un servicio en la nube",
+      "Un sistema operativo"
+    ],
+    "a": 1
+  }
+]

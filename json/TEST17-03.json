@@ -1,0 +1,102 @@
+[
+  {
+    "q": "21. ¿Qué indica el registro de recurso (RR) denominado SOA (Start of Authority)?",
+    "o": [
+      "La configuración del hardware y la CPU del servidor m máquina.",
+      "El servidor DNS primario de la zona, responsable del mantenimiento de la información de la misma.",
+      "La lista de Autoridades de Certificación autorizadas para emitir SSL.",
+      "Las coordenadas geográficas exactas del dominio."
+    ],
+    "a": 1
+  },
+  {
+    "q": "22. ¿Qué registro de recurso DNS se utiliza específicamente para combatir el spam indicando qué hosts están autorizados a enviar correo desde el dominio?",
+    "o": [
+      "HINFO",
+      "TXT genérico descodificado",
+      "SPF (Sender Policy Framework)",
+      "CAA"
+    ],
+    "a": 2
+  },
+  {
+    "q": "23. ¿Cuál es la función del registro CAA (Certificate Authority Authorization) según la RFC 8659?",
+    "o": [
+      "Contener una firma digital para DNSSEC.",
+      "Permitir al titular de un nombre de dominio especificar las Autoridades de Certificación autorizadas a emitir certificados para ese nombre.",
+      "Interconectar zonas firmadas de forma secuencial.",
+      "Sustituir al servidor maestro en entornos locales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "24. En el encabezado de un mensaje DNS, ¿qué significan los dos bytes (16 bits) destinados al campo ID?",
+    "o": [
+      "Indican si el paquete es una consulta (0) o respuesta (1).",
+      "Identifican el paquete y son el objeto a atacar cuando se intenta falsificar un mensaje.",
+      "Especifican el número de entradas en la sección ANSWER.",
+      "Definen el tipo de consulta (estándar o inversa)."
+    ],
+    "a": 1
+  },
+  {
+    "q": "25. Dentro de las banderas (flags) del mensaje DNS, ¿qué indica la sigla 'TC' (Truncation)?",
+    "o": [
+      "Que la respuesta es autoritativa.",
+      "Que el mensaje está truncado al haberse superado la longitud máxima permitida en la transmisión.",
+      "Que se solicita una consulta recursiva de forma obligatoria.",
+      "Que el servidor no dispone de memoria caché activa."
+    ],
+    "a": 1
+  },
+  {
+    "q": "26. ¿Cuál de los campos del mensaje DNS aparece en el formato QUESTION (consulta formatéada por el resolver)?",
+    "o": [
+      "NAME, TYPE, CLASS, TTL",
+      "QNAME, QTYPE, QCLASS",
+      "RCODE, QDCOUNT, ANCOUNT",
+      "OPT, PSEUDOSECTION, RDATA"
+    ],
+    "a": 1
+  },
+  {
+    "q": "27. ¿Qué permite el mecanismo de extensión EDNS0 definido en el RFC 2671?",
+    "o": [
+      "Establecer conexiones TCP seguras en el puerto 443.",
+      "Posibilitar la comunicación de mensajes con una extensión mayor que la prefijada de 512 bytes sobre UDP mediante un buffer mayor.",
+      "Actualizar dinámicamente las direcciones IPv6.",
+      "Forzar transferencias de zona sin autorización previa del SOA."
+    ],
+    "a": 1
+  },
+  {
+    "q": "28. Cuando un servidor DNS recibe una consulta sobre un dominio del que no es autoritativo ni está configurado como recursivo, responde informando dónde debe dirigir la consulta. Esta respuesta se conoce como:",
+    "o": [
+      "Authoritative Answer",
+      "NXDOMAIN (Non-eXistent-Domain)",
+      "Referral Response",
+      "Dynamic Update Status"
+    ],
+    "a": 2
+  },
+  {
+    "q": "29. ¿Qué operación fundamental proporciona el mecanismo de actualización dinámica descrito en la RFC 2136?",
+    "o": [
+      "Cambiar el puerto del servidor web de forma remota.",
+      "Añadir o borrar registros en un fichero de zona de manera automatizada.",
+      "Sincronizar la hora exacta con el protocolo NTP.",
+      "Establecer túneles SSL a través de proxies inversos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "30. En el protocolo FTP, ¿qué significan los comandos PASV y RETR, respectivamente?",
+    "o": [
+      "Puerto de datos activo / Almacenar archivo.",
+      "Transferencia pasiva / Recuperar archivo indicado.",
+      "Tipo de representación / Estructura de archivo.",
+      "Cancelar operación / Borrar directorio de destino."
+    ],
+    "a": 1
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la función principal de un enrutador en la capa de Red?",
+    "o": [
+      "Conectar dispositivos en la misma red local",
+      "Tomar decisiones de enrutamiento y reenviar paquetes entre redes",
+      "Convertir señales analógicas a digitales",
+      "Gestionar la seguridad de la red"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué utiliza un enrutador para tomar decisiones de enrutamiento?",
+    "o": [
+      "Direcciones MAC",
+      "Direcciones IP",
+      "Números de puerto",
+      "Nombres de dominio"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es una tabla de enrutamiento?",
+    "o": [
+      "Una lista de todos los usuarios de la red",
+      "Un registro de todas las direcciones MAC disponibles",
+      "Una base de datos que mapea destinos de red a interfaces de salida",
+      "Un registro de todas las conexiones TCP activas"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué es un puerto en la capa de Transporte?",
+    "o": [
+      "Una conexión física al dispositivo",
+      "Un número lógico que identifica un servicio o aplicación",
+      "Un cable de red",
+      "Un tipo de dirección IP"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el rango de puertos bien conocidos (well-known ports)?",
+    "o": [
+      "0 a 255",
+      "0 a 1023",
+      "1024 a 49151",
+      "49152 a 65535"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué puerto utiliza por defecto el protocolo HTTP?",
+    "o": [
+      "21",
+      "25",
+      "80",
+      "443"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué puerto utiliza por defecto el protocolo HTTPS?",
+    "o": [
+      "80",
+      "443",
+      "25",
+      "21"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué puerto utiliza el protocolo SMTP para enviar correos?",
+    "o": [
+      "21",
+      "25",
+      "110",
+      "143"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la ventaja de la encapsulación en el modelo OSI?",
+    "o": [
+      "Aumentar la velocidad de transmisión",
+      "Permite que cada capa añada su información de control sin interferir en otras",
+      "Reducir el tamaño de los datos",
+      "Eliminar la necesidad de protocolos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué permite el modelo en capas del OSI?",
+    "o": [
+      "Usar un único protocolo para todas las funciones",
+      "Modularidad, independencia de capas y facilidad de actualización",
+      "Aumentar la velocidad de la red exponencialmente",
+      "Eliminar completamente los errores de transmisión"
+    ],
+    "a": 1
+  }
+]

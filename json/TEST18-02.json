@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es el número máximo de filas y columnas que admite una hoja de cálculo en las versiones recientes de LibreOffice Calc?",
+    "o": [
+      "65.536 filas y 256 columnas",
+      "1.048.576 filas y 1.024 columnas",
+      "1.048.576 filas y 16.384 columnas",
+      "Un millón de filas y diez mil columnas"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál de las siguientes expresiones representa una referencia absolutamente fija tanto para la fila como para la columna en LibreOffice Calc?",
+    "o": [
+      "A1",
+      "$A1",
+      "A$1",
+      "$A$1"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Si en la celda B2 de LibreOffice Calc tenemos la fórmula '=A1*2' y la copiamos y pegamos en la celda C3, ¿qué fórmula se introducirá automáticamente en C3 por efecto de las referencias relativas?",
+    "o": [
+      "=A1*2",
+      "=B2*2",
+      "=B1*2",
+      "=A2*2"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo se hace referencia de forma correcta a la celda A5 situada en una hoja distinta llamada 'Presupuesto' dentro del mismo libro de LibreOffice Calc?",
+    "o": [
+      "Presupuesto!A5",
+      "Presupuesto.A5",
+      "$Presupuesto:A5",
+      "Presupuesto->A5"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué carácter o símbolo debe preceder obligatoriamente a cualquier fórmula o función en LibreOffice Calc para que sea interpretada como tal?",
+    "o": [
+      "#",
+      "$",
+      "=",
+      "@"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En LibreOffice Calc, ¿cuál es la extensión por defecto para guardar una plantilla de hoja de cálculo?",
+    "o": [
+      ".ods",
+      ".ots",
+      ".odt",
+      ".ott"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si en una celda de LibreOffice Calc aparece el error '###', ¿qué significa?",
+    "o": [
+      "Que la fórmula tiene una división por cero.",
+      "Que el nombre de la función está mal escrito.",
+      "Que el ancho de la columna es insuficiente para mostrar el contenido numérico o de fecha.",
+      "Que hay una referencia circular interna."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué combinación de teclas permite forzar un salto de línea interno dentro de la misma celda de LibreOffice Calc?",
+    "o": [
+      "Ctrl + Enter",
+      "Alt + Enter",
+      "Shift + Enter",
+      "Tab + Enter"
+    ],
+    "a": 0
+  },
+  {
+    "q": "La referencia mixta 'A$5' en LibreOffice Calc implica que:",
+    "o": [
+      "La columna A es fija y la fila 5 es relativa.",
+      "La columna A es relativa y la fila 5 es fija.",
+      "Tanto la columna como la fila se ajustarán al arrastrar.",
+      "La celda completa está protegida contra escritura."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué ocurre si una fórmula en LibreOffice Calc genera el error '#REF!'?",
+    "o": [
+      "La función utilizada no existe en Calc.",
+      "El tipo de datos introducido no coincide con el argumento.",
+      "La fórmula hace referencia a una celda que ha sido eliminada o no es válida.",
+      "El resultado es un número infinito."
+    ],
+    "a": 2
+  }
+]

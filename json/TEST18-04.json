@@ -1,0 +1,102 @@
+[
+  {
+    "q": "En la gestión pública local, la exportación directa a formato PDF desde LibreOffice permite una funcionalidad crítica de seguridad regulada en el ENS. ¿Cuál es?",
+    "o": [
+      "Compresión ZIP integrada.",
+      "Firma digital del documento PDF directamente mediante certificado electrónico.",
+      "Conversión automática a formato HTML5.",
+      "Ofuscación de código fuente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué lenguaje de programación por defecto se utiliza principalmente para automatizar tareas repetitivas mediante 'Macros' dentro de LibreOffice?",
+    "o": [
+      "VBA puro",
+      "LibreOffice Basic",
+      "JavaScript nativo",
+      "C++ corporativo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Desde el punto de vista de protección de datos (LOPDGDD), los metadatos de un documento de texto guardado en Writer pueden contener información sensible como:",
+    "o": [
+      "El código MAC de la tarjeta de red.",
+      "El nombre del autor del documento, las fechas de creación y los nombres de las impresoras utilizadas.",
+      "La clave de cifrado de la red Wifi.",
+      "El listado de contraseñas de usuario."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Al importar un archivo plano de extensión .csv en LibreOffice Calc, ¿qué elemento se utiliza como delimitador común para estructurar los datos en celdas?",
+    "o": [
+      "Signos de exclamación.",
+      "Puntos, comas, tabuladores o caracteres personalizados.",
+      "Etiquetas XML.",
+      "Saltos de página rígidos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tecla de función se utiliza de manera universal en la suite LibreOffice para iniciar la revisión ortográfica y gramática de un documento?",
+    "o": [
+      "F1",
+      "F5",
+      "F7",
+      "F11"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Para proteger exclusivamente la estructura de un libro completo de Calc e impedir que se añadan, eliminen o renombren hojas, debemos:",
+    "o": [
+      "Proteger la celda actual.",
+      "Proteger la hoja de cálculo.",
+      "Proteger la estructura del libro mediante Herramientas -> Proteger estructura de libro.",
+      "Guardar el archivo como de solo lectura en el sistema de archivos."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué tecla de función abre de forma directa el panel lateral de 'Estilos' en LibreOffice Writer y Calc?",
+    "o": [
+      "F2",
+      "F7",
+      "F9",
+      "F11"
+    ],
+    "a": 3
+  },
+  {
+    "q": "En un entorno corporativo de la Administración Local como el Ayuntamiento de Priego de Córdoba, ¿dónde almacena por defecto LibreOffice las copias de seguridad automáticas (.bak) de los documentos en caso de caída del sistema?",
+    "o": [
+      "En la raíz del disco C:",
+      "En la carpeta de instalación compartida de red.",
+      "En el directorio del perfil de usuario (subcarpeta 'backup').",
+      "En la base de datos central de expedientes."
+    ],
+    "a": 3
+  },
+  {
+    "q": "La función '=SI.ERROR(fórmula; valor_si_error)' de LibreOffice Calc resulta de gran utilidad práctica para:",
+    "o": [
+      "Evitar que la hoja calcule fórmulas automáticas.",
+      "Capturar y controlar errores de visualización reemplazando los códigos de error molestos por un texto o valor personalizado.",
+      "Reparar el disco duro si hay sectores defectuosos.",
+      "Enviar un correo automático al administrador de red."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Dentro del formato OpenDocument, la extensión para plantillas de bases de datos de uso personal u ofimático integrado (visto transversalmente) es:",
+    "o": [
+      ".odb",
+      ".otb",
+      ".ots",
+      ".odf"
+    ],
+    "a": 1
+  }
+]

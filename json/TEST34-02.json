@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es la consolidación de servidores mediante virtualización?",
+    "o": [
+      "Conectar múltiples servidores en red",
+      "Ejecutar múltiples máquinas virtuales en un único servidor físico",
+      "Dividir un servidor en varios de menor potencia",
+      "Usar solo servidores en la nube"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es un beneficio de la consolidación de servidores?",
+    "o": [
+      "Aumenta el consumo de energía",
+      "Reduce costos de hardware, energía y refrigeración",
+      "Hace más difícil la administración",
+      "Limita el número de aplicaciones"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la migración de máquinas virtuales?",
+    "o": [
+      "Cambiar el sistema operativo de una VM",
+      "Mover una máquina virtual de un host a otro sin interrupciones",
+      "Copiar datos a la nube",
+      "Eliminar una máquina virtual"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la migración en vivo (live migration)?",
+    "o": [
+      "Apagar una VM antes de mover",
+      "Mover una VM en funcionamiento sin parar el servicio",
+      "Crear una nueva VM en otro servidor",
+      "Hacer una copia de seguridad"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el propósito de usar clústeres de virtualización?",
+    "o": [
+      "Aumentar la velocidad de Internet",
+      "Proporcionar alta disponibilidad y balanceo de carga",
+      "Reducir la memoria del servidor",
+      "Eliminar la necesidad de copias de seguridad"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el almacenamiento compartido en virtualización?",
+    "o": [
+      "Un disco duro externo personal",
+      "Un almacenamiento accesible por múltiples hosts para facilitar migración",
+      "Un tipo de memoria RAM",
+      "Un programa de sincronización"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es una limitación de la virtualización?",
+    "o": [
+      "No usa más recursos que físico",
+      "Puede añadir latencia y consumo de recursos",
+      "No permite múltiples sistemas operativos",
+      "Solo funciona con Linux"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la paravirtualización?",
+    "o": [
+      "Virtualización de tiempo real",
+      "Técnica donde la VM es consciente que está virtualizada y coopera",
+      "Virtualización sin hardware",
+      "Un tipo de hipervisor antiguo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la virtualización asistida por hardware?",
+    "o": [
+      "Emulación completamente por software",
+      "Uso de instrucciones especiales del procesador para virtualizar",
+      "Virtualización sin procesador",
+      "Un método obsoleto"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la diferencia entre una máquina virtual y un contenedor?",
+    "o": [
+      "No hay diferencia",
+      "Una VM incluye OS completo; un contenedor comparte el kernel del host",
+      "Los contenedores son más pesados",
+      "Las VM son más rápidas siempre"
+    ],
+    "a": 1
+  }
+]

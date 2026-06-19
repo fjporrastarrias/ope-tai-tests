@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la base de la plataforma Android en su nivel más bajo de la pila de software?",
+    "o": [
+      "El framework de Java de Google",
+      "El núcleo Linux (Linux Kernel)",
+      "La capa de abstracción HAL",
+      "Las bibliotecas nativas de C++"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué componente de la arquitectura de Android ofrece interfaces estándares que exponen las capacidades del hardware a la API de Java de nivel superior?",
+    "o": [
+      "El kernel de Linux",
+      "La Capa de Abstracción de Hardware (HAL)",
+      "El Runtime de Android (ART)",
+      "El Application Framework"
+    ],
+    "a": 1
+  },
+  {
+    "q": "A partir de la versión 5.0 Lollipop de Android, ¿cuál es el entorno de ejecución (Runtime) oficial utilizado?",
+    "o": [
+      "Dalvik virtual machine",
+      "ART (Android Runtime)",
+      "OpenJDK 11 pure engine",
+      "Java Virtual Machine (JVM)"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué máquina virtual de ejecución de procesos utilizaba Android antes de la versión 5.0 Lollipop?",
+    "o": [
+      "Dalvik",
+      "ART",
+      "HotSpot",
+      "KVM"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿En qué lenguaje de programación están escritas originalmente las aplicaciones centrales (correo, SMS, calendario) de Android?",
+    "o": [
+      "C++ nativo",
+      "Swift",
+      "Java",
+      "Python"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿De qué servicios base del sistema se encarga el núcleo de Linux en la arquitectura Android?",
+    "o": [
+      "Renderización de iconos temáticos y fuentes COLR",
+      "Seguridad, gestión de memoria, gestión de procesos, pila de red y modelo de controladores",
+      "Autenticación exclusiva en Google Play Store",
+      "Gestión de intents web y almacenamiento en caché de cookies de navegador"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo se ejecuta cada aplicación en Android con respecto a la seguridad de procesos?",
+    "o": [
+      "Comparten todas un mismo espacio de memoria global y un único proceso",
+      "Cada aplicación corre su propio proceso, con su propia instancia de la máquina virtual (ART)",
+      "Se ejecutan directamente en modo kernel privilegiado",
+      "No utilizan procesos, sino hilos dependientes del microkernel"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué componente proporciona a los desarrolladores de apps acceso completo a los mismos APIs de framework utilizados por las aplicaciones base?",
+    "o": [
+      "El núcleo Linux",
+      "Las bibliotecas C/C++ nativas",
+      "El Marco de trabajo de aplicaciones (Application Framework)",
+      "Los módulos HAL de la cámara y Bluetooth"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿De qué tipo son las bibliotecas nativas utilizadas por varios componentes de bajo nivel de la plataforma Android?",
+    "o": [
+      "Bibliotecas escritas en Java puro",
+      "Bibliotecas nativas de C/C++",
+      "Scripts interpretados de Shell",
+      "Módulos binarios ASM propietarios"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es una de las grandes ventajas de diseño que ofrece la arquitectura del Framework de aplicaciones de Android?",
+    "o": [
+      "Eliminar por completo el uso de la memoria RAM",
+      "Simplificar la reutilización de componentes, permitiendo que cualquier app publique sus capacidades",
+      "Impedir la instalación de software de terceros no aprobado por el kernel",
+      "Traducir automáticamente código Swift a Objective-C en tiempo real"
+    ],
+    "a": 1
+  }
+]

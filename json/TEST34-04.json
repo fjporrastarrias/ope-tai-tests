@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es la nube privada?",
+    "o": [
+      "Internet pública con contraseña",
+      "Infraestructura virtualizada dedicada a una organización",
+      "Un sitio web seguro",
+      "Un correo encriptado"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es IaaS (Infraestructure as a Service)?",
+    "o": [
+      "Imágenes como servicio",
+      "Infraestructura virtualizada entregada como servicio en la nube",
+      "Internet como servicio",
+      "Acceso as a service"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es PaaS (Platform as a Service)?",
+    "o": [
+      "Procesador como servicio",
+      "Plataforma para desarrollar y desplegar aplicaciones en la nube",
+      "Acceso a programas",
+      "Información as a service"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es SaaS (Software as a Service)?",
+    "o": [
+      "Software para análisis",
+      "Aplicaciones entregadas a través de Internet sin instalación local",
+      "Servidores as a service",
+      "Seguridad as a service"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la ventaja principal de la computación en la nube?",
+    "o": [
+      "Menor costo inicial pero más compleja",
+      "Escalabilidad, flexibilidad y pago por uso",
+      "Mejor rendimiento que sistemas locales siempre",
+      "Mayor privacidad de datos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué desafío presenta la virtualización en cuanto a licencias?",
+    "o": [
+      "Las licencias son más baratas",
+      "Las licencias deben adaptarse al modelo de virtualización",
+      "No hay impacto de licencias",
+      "Las VM no requieren licencias"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la portabilidad en virtualización?",
+    "o": [
+      "Llevar un ordenador portátil",
+      "La capacidad de mover VMs entre diferentes plataformas",
+      "Un tipo de software",
+      "La velocidad de las VM"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué formato es estándar para VMs portables?",
+    "o": [
+      "VMDK solamente",
+      "OVA/OVF",
+      "ISO solamente",
+      "EXE"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el impacto ambiental de la virtualización?",
+    "o": [
+      "Aumenta el consumo de energía",
+      "Reduce consumo de energía y emisiones de carbono",
+      "No tiene impacto",
+      "Aumenta la contaminación"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el 'green computing' relacionado con virtualización?",
+    "o": [
+      "Usar solo programas verdes",
+      "Práctica de usar tecnología de forma ambientalmente sostenible",
+      "Pintar servidores de verde",
+      "Un tipo de software"
+    ],
+    "a": 1
+  }
+]

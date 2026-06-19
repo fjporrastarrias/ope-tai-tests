@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la anchura típica estandarizada de los módulos Rack en un CPD?",
+    "o": [
+      "17 pulgadas",
+      "19 pulgadas",
+      "60 centímetros",
+      "44.45 milímetros"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿A cuánto equivale exactamente una unidad de altura de rack (1U)?",
+    "o": [
+      "1.5 pulgadas",
+      "1.75 pulgadas o 44.45 mm",
+      "2 pulgadas",
+      "60 centímetros"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Las losetas estándar de un suelo técnico elevado en un CPD suelen medir:",
+    "o": [
+      "50x50 cm",
+      "19 pulgadas",
+      "60x60 cm",
+      "80x80 cm"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la función principal de un SAI / UPS en un centro de datos?",
+    "o": [
+      "Generar corriente mediante motores de combustión interna.",
+      "Adaptar el suministro protegiendo de sobretensiones y dar respaldo por baterías.",
+      "Gestionar los tickets de soporte del personal técnico.",
+      "Controlar el flujo del sistema de refrigeración de precisión."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué significan las siglas HVAC en climatización de CPDs?",
+    "o": [
+      "High Voltage Air Conditioning",
+      "Heating, Ventilation, and Air Conditioning",
+      "Hardware Virtualization Access Control",
+      "High Volume Automatic Cooling"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué nivel de clasificación Tier del Uptime Institute se denomina 'Concurrentemente Mantenible'?",
+    "o": [
+      "Tier I",
+      "Tier II",
+      "Tier III",
+      "Tier IV"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué tasa de disponibilidad máxima anual de servicio garantiza un CPD Tier IV?",
+    "o": [
+      "99.741%",
+      "99.982%",
+      "99.995%",
+      "99.999%"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué tipo de redundancia en líneas de distribución caracteriza al Tier IV?",
+    "o": [
+      "Redundancia simple N",
+      "Redundancia N+1",
+      "Redundancia 2(N+1) con múltiples líneas activas simultáneamente",
+      "Línea única dedicada"
+    ],
+    "a": 0
+  },
+  {
+    "q": "El indicador PUE en eficiencia energética mide la relación entre:",
+    "o": [
+      "La energía total consumida y la consumida por los equipos TI.",
+      "La energía activa y la reactiva en las baterías.",
+      "Los servidores en rack y los servidores independientes.",
+      "El coste de adquisición y el coste de mantenimiento anual."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué tipo de servidores se montan en tarjetas simplificadas insertadas en un chasis común?",
+    "o": [
+      "Stand alone",
+      "En rack tradicionales",
+      "Servidores Blade",
+      "Nodos NAS distribuidos"
+    ],
+    "a": 0
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué arquitectura avanzada permite optimizar la inferencia activando de forma dinámica únicamente un subconjunto de sub-redes especializadas denominadas expertos?",
+    "o": [
+      "Redes Convolucionales Profundas (CNN)",
+      "Redes Neuronales Recurrentes Bi-direccionales",
+      "Mixture of Experts (MoE - Mezcla de Expertos)",
+      "Autoencoders Variacionales"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué define funcionalmente a un 'Modelo Multimodal' en el estado del arte de la IA?",
+    "o": [
+      "Un modelo que funciona indistintamente en sistemas operativos Windows o Linux",
+      "Un modelo capaz de ser ejecutado en clústeres híbridos de CPU y GPU en paralelo",
+      "La capacidad nativa de procesar, comprender y generar múltiples tipos de datos de forma unificada (texto, imágenes, vídeo, audio, código)",
+      "Un sistema basado en reglas que encadena múltiples scripts independientes de Python"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál de las siguientes herramientas corresponde al framework de orquestación de código abierto dominante para construir aplicaciones conectando LLMs con componentes externos como prompts, agentes y herramientas?",
+    "o": [
+      "LlamaIndex Core",
+      "vLLM Server",
+      "LangChain",
+      "Ollama Core CLI"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué framework técnico está optimizado de forma nativa para la ingesta, estructuración, indexación y recuperación eficiente de datos privados en pipelines RAG?",
+    "o": [
+      "Hugging Face Transformers",
+      "vLLM Infe",
+      "LlamaIndex",
+      "LangServe"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué ventaja clave proporciona el uso de la utilidad Ollama en entornos corporativos o de la Administración Pública?",
+    "o": [
+      "Permite traducir código de forma automática a lenguaje ensamblador",
+      "Ofrece un entorno SaaS gratuito con almacenamiento vectorial ilimitado en la nube pública",
+      "Permite descargar, desplegar y ejecutar modelos de código abierto de forma 100% local e interna, garantizando la privacidad de los datos",
+      "Optimiza de forma automática las consultas SQL de cualquier base de datos relacional remota"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cómo optimiza el motor de inferencia vLLM el rendimiento de las GPU para servir APIs de modelos de lenguaje grandes?",
+    "o": [
+      "Mediante la eliminación completa del uso de capas de auto-atención",
+      "A través del algoritmo PagedAttention, el cual gestiona de forma eficiente la memoria KV Cache evitando la fragmentación",
+      "Compilando todo el modelo en un único archivo ejecutable binario de C++",
+      "Sustituyendo los cálculos de punto flotante por operaciones aritméticas enteras de 2 bits"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué componente de la arquitectura Transformer se encarga de dar peso relativo a la importancia de cada palabra en una secuencia basándose en todo el contexto de la frase?",
+    "o": [
+      "Capa de convolución lineal",
+      "Filtro de Max-Pooling contextual",
+      "Mecanismo de Auto-Atención (Self-Attention Mechanism)",
+      "Módulo de normalización por lotes (Batch Normalization)"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En el contexto de los LLMs, ¿qué es la 'Ventana de Contexto' (Context Window)?",
+    "o": [
+      "El tamaño máximo en píxeles de la interfaz gráfica del chat",
+      "La tasa máxima de transferencia de datos de la interfaz de red del servidor",
+      "La cantidad máxima de tokens que el modelo puede procesar y retener de forma simultánea en una única interacción o sesión",
+      "El tiempo total medido en segundos que tarda un modelo en generar el primer token de respuesta"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué significa que un motor de inferencia aplique cuantización (quantization) sobre los pesos de un modelo de IA?",
+    "o": [
+      "Que duplica el número de parámetros del modelo para hacerlo más preciso",
+      "Que traduce el modelo completo a lenguaje natural castellano según la RAE",
+      "Que reduce la precisión numérica de los parámetros del modelo (ej. de FP16 a INT4 o INT8) para disminuir radicalmente el consumo de memoria y acelerar la inferencia",
+      "Que bloquea el acceso de usuarios no autorizados mediante criptografía cuántica"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál de las siguientes plataformas es el repositorio global de referencia de código abierto que aloja modelos, datasets y skillsets para el ecosistema de IA?",
+    "o": [
+      "PyPI (Python Package Index)",
+      "Docker Hub Central",
+      "Hugging Face",
+      "GitHub Enterprise Core"
+    ],
+    "a": 2
+  }
+]

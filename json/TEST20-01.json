@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué tipo de estructura de sistema operativo presenta una interfaz a cada proceso mostrando una máquina que parece idéntica a la máquina real subyacente?",
+    "o": [
+      "Estructura monolítica",
+      "Estructura jerárquica o en capas",
+      "Cliente-servidor (microkernel)",
+      "Máquina virtual"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En el modelo microkernel (cliente-servidor), ¿cuál es la misión principal del núcleo?",
+    "o": [
+      "Proveer la totalidad de los servicios del sistema de archivos y red",
+      "Establecer la comunicación entre los clientes y los servidores",
+      "Ejecutar directamente las aplicaciones de usuario en modo supervisor",
+      "Emular la máquina real para cada uno de los procesos"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes NO es un componente básico del sistema operativo descrito en el tema?",
+    "o": [
+      "Administrador de procesos",
+      "Administrador de memoria principal",
+      "Administrador de compiladores de lenguaje",
+      "Sistema de protección y de comunicación"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cómo se define el estado de proceso 'Listo'?",
+    "o": [
+      "El proceso se está ejecutando actualmente en la CPU",
+      "El proceso no puede ejecutarse hasta que ocurra un suceso externo",
+      "El proceso puede ejecutarse, pero está detenido para que el procesador ejecute otro",
+      "El proceso ha sido eliminado de la tabla de procesos"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué nivel de planificación decide qué trabajos son candidatos para convertirse en procesos listos para competir por los recursos?",
+    "o": [
+      "Planificador a corto plazo (dispatcher)",
+      "Planificador a medio plazo",
+      "Planificador a largo plazo (long term scheduler)",
+      "Planificador de interrupciones"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué objetivo de la planificación busca finalizar el mayor número de procesos por unidad de tiempo?",
+    "o": [
+      "Justicia o imparcialidad",
+      "Maximizar la producción (throughput)",
+      "Minimizar el tiempo de respuesta (turnaround)",
+      "Evitar el aplazamiento indefinido"
+    ],
+    "a": 0
+  },
+  {
+    "q": "La planificación NO apropiativa (no expulsiva) se caracteriza por:",
+    "o": [
+      "Permitir que el planificador expulse a un proceso debido a una interrupción de reloj",
+      "Que cuando un proceso está en ejecución no puede ser suspendido ni expulsado de la CPU",
+      "Realizar cambios de contexto constantes y periódicos",
+      "Garantizar la eliminación absoluta de ciclos infinitos"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes algoritmos de planificación de CPU es de tipo NO apropiativo y requiere una estimación del tiempo de ejecución para priorizar los trabajos más cortos?",
+    "o": [
+      "SRTF (Shortest Remaining Time First)",
+      "Round Robin (Turno circular)",
+      "SJF (Shortest Job First)",
+      "FCFS (First Come First Served)"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En el algoritmo Round Robin, ¿dónde se coloca un proceso que ha terminado su 'quantum' de tiempo?",
+    "o": [
+      "Pasa directamente a la cola de bloqueados",
+      "Vuelve al final de la cola circular de listos",
+      "Se le asigna una prioridad mayor inmediatamente",
+      "Se le elimina del sistema por exceso de overhead"
+    ],
+    "a": 0
+  },
+  {
+    "q": "El problema de concurrencia que ocurre cuando un proceso tiene asignado un recurso y, sin liberarlo, solicita la asignación de otro, se llama:",
+    "o": [
+      "Condición de ocupar y esperar un recurso",
+      "Exclusión mutua incompleta",
+      "Inanición por prioridad",
+      "Interbloqueo destructivo"
+    ],
+    "a": 0
+  }
+]

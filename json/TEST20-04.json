@@ -1,0 +1,102 @@
+[
+  {
+    "q": "En Linux, ¿qué llamada al sistema crea una copia exacta del proceso original (padre), dando lugar a un proceso hijo con imágenes de memoria privadas?",
+    "o": [
+      "exec",
+      "fork",
+      "clone",
+      "pthread_create"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En el descriptor de un proceso en Linux, ¿qué tabla se utiliza como índice para localizar la estructura de datos interna (i-nodo) que corresponde a un archivo?",
+    "o": [
+      "Tabla de descriptores de archivos",
+      "Parámetros de planificación",
+      "Tabla de contabilidad",
+      "Imagen de memoria"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es el rango de valores de prioridad ('nice') en Linux y qué valor representa la prioridad más alta asignable por root?",
+    "o": [
+      "De 0 a 100, siendo 100 la más alta",
+      "De -20 a 19, siendo -20 la más alta",
+      "De -10 a 10, siendo 0 la estándar",
+      "De 1 a 99, siendo 1 la más alta"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué comando permite ejecutar una tarea de forma que, si se cierra la terminal, ignore la señal SIGHUP y continúe en ejecución, redirigiendo la salida a un archivo externo?",
+    "o": [
+      "El operador & solo",
+      "nohup",
+      "top",
+      "renice"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Dentro de la estructura de directorios de UNIX/Linux, ¿cuál es la función del directorio '/proc'?",
+    "o": [
+      "Almacenar archivos ejecutables de comandos de usuario",
+      "Servir de punto de montaje para dispositivos externos",
+      "Contener archivos de control de procesos del sistema",
+      "Guardar ficheros temporales del superusuario"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué opción del comando 'ls' muestra el número del i-nodo antes del nombre del archivo?",
+    "o": [
+      "-l",
+      "-i",
+      "-a",
+      "-s"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En el comando 'grep', ¿qué opción se usa para mostrar únicamente el número total de coincidencias (líneas) encontradas?",
+    "o": [
+      "-i",
+      "-c",
+      "-n",
+      "-v"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Utilizando el comando 'find', ¿cuál es el criterio correcto para buscar ficheros vacíos?",
+    "o": [
+      "-size 0k",
+      "-type f -empty",
+      "-perm 000",
+      "-name empty"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Si un archivo tiene los permisos '-rwxrwxr--', ¿qué indica el grupo de caracteres al extremo derecho ('r--')?",
+    "o": [
+      "Permisos completos para el usuario propietario",
+      "Permisos de lectura y escritura para el grupo propietario",
+      "Permisos de solo lectura para el resto de usuarios ('otros')",
+      "Que el archivo posee el bit sticky activado"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En la arquitectura del sistema operativo Android, ¿qué capa contiene módulos de biblioteca de C/C++ que exponen las capacidades de hardware del dispositivo a las APIs de Java de nivel más alto?",
+    "o": [
+      "Núcleo Linux",
+      "Capa de abstracción de hardware (HAL)",
+      "Runtime de Android (ART)",
+      "Marco de trabajo de aplicaciones (Application Framework)"
+    ],
+    "a": 0
+  }
+]

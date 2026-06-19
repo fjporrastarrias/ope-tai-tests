@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Dentro del sistema de paquetes de Debian, ¿cómo se clasifican los paquetes indispensables para el correcto funcionamiento del propio sistema por orden decreciente de prioridad?",
+    "o": [
+      "Critical, High, Medium, Low",
+      "Required, Important, Standard, Optional, Extra",
+      "Essential, Necessary, Common, Accessory",
+      "Core, Main, Universe, Multiverse"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué comando de APT se utiliza exclusivamente para el análisis del sistema de paquetes (como buscar, mostrar dependencias o ver información) y es accesible por todos los usuarios sin privilegios de root?",
+    "o": [
+      "apt-get",
+      "dpkg",
+      "apt-cache",
+      "aptitude-run"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la función del parámetro 'clean' del comando apt-get?",
+    "o": [
+      "Eliminar todas las copias no desempaquetadas de los paquetes, independientemente de su vigencia.",
+      "Eliminar el paquete sin borrar sus archivos de configuración.",
+      "Actualizar la lista de paquetes disponibles en los repositorios.",
+      "Eliminar las copias caducadas de los paquetes almacenadas de manera automática en /var/cache/apt/archives."
+    ],
+    "a": 0
+  },
+  {
+    "q": "En el gestor de paquetes dpkg, ¿qué parámetro se utiliza para listar todos los ficheros contenidos dentro de un paquete específico?",
+    "o": [
+      "-l",
+      "-s",
+      "-L",
+      "-S"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Si utilizamos el gestor de paquetes de RedHat (RPM), ¿qué comando nos permite verificar la integridad de un paquete?",
+    "o": [
+      "rpm -qa",
+      "rpm -checksig package.rpm",
+      "rpm -qi package.rpm",
+      "rpm -F package.rpm"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En el gestor de paquetes pacman de Arch Linux, ¿qué parámetro se utiliza para eliminar un paquete junto con sus dependencias y todos los paquetes que dependan de esas dependencias?",
+    "o": [
+      "-R",
+      "-Rs",
+      "-Rsc",
+      "-Syu"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué comando de Linux devuelve la ruta completa de un archivo ejecutable binario?",
+    "o": [
+      "whereis",
+      "which",
+      "pidof",
+      "lsof"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué diferencia existe entre rsync y rclone según el temario?",
+    "o": [
+      "rsync es gráfico y rclone es para terminal.",
+      "rsync es para Windows y rclone para Linux.",
+      "rclone ofrece la misma funcionalidad que rsync pero está dirigida a la gestión y sincronización en la nube con soporte de encriptación y compresión.",
+      "rsync es un comando síncrono y rclone es asíncrono."
+    ],
+    "a": 0
+  },
+  {
+    "q": "El comando lsof se utiliza para listar archivos abiertos en el sistema. ¿Qué opción muestra específicamente los sockets abiertos?",
+    "o": [
+      "-p PID",
+      "-u user",
+      "-i",
+      "-s"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué comando de la terminal de Linux muestra la lista de colores reconocidos en el sistema y su valor RGB?",
+    "o": [
+      "xcolors",
+      "showrgb",
+      "curl -colors",
+      "watch rgb"
+    ],
+    "a": 0
+  }
+]

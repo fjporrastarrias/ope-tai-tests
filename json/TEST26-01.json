@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es el protocolo principal y estándar abierto utilizado para realizar consultas y modificaciones sobre servicios de directorio?",
+    "o": [
+      "DAP (Directory Access Protocol)",
+      "LDAP (Lightweight Directory Access Protocol)",
+      "HTTP (Hypertext Transfer Protocol)",
+      "Kerberos v5"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué puerto por defecto utiliza el protocolo LDAP estándar para comunicaciones no cifradas?",
+    "o": [
+      "389",
+      "636",
+      "443",
+      "88"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué puerto TCP se utiliza por defecto cuando se implementa LDAP sobre SSL/TLS (LDAPS)?",
+    "o": [
+      "389",
+      "445",
+      "636",
+      "3268"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En la nomenclatura jerárquica de un servicio de directorio basada en X.500, ¿qué significan las siglas 'DN'?",
+    "o": [
+      "Domain Name",
+      "Directory Node",
+      "Distinguished Name",
+      "Data Network"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes componentes representa un RDN (Relative Distinguished Name) válido dentro de una estructura de directorio?",
+    "o": [
+      "CN=Juan Perez",
+      "CN=Juan Perez,OU=Informatica,DC=priego,DC=local",
+      "priego.local/Informatica/Juan Perez",
+      "UID=1002"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué estándar del UIT-T define el modelo original y completo de servicios de directorio del cual derivó posteriormente LDAP?",
+    "o": [
+      "X.400",
+      "X.500",
+      "X.509",
+      "IEEE 802.1X"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué elemento del servicio de directorio define formalmente las clases de objetos admisibles y los atributos que pueden asociarse a cada una?",
+    "o": [
+      "El Catálogo Global",
+      "La Base de Datos NTDS",
+      "El Esquema (Schema)",
+      "La Unidad Organizativa"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué protocolo de autenticación es el predeterminado y principal dentro de un dominio de Active Directory de Microsoft?",
+    "o": [
+      "NTLMv2",
+      "Kerberos v5",
+      "RADIUS",
+      "SAML 2.0"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cómo localizan los clientes de red un Controlador de Dominio de Active Directory en una red IP?",
+    "o": [
+      "Mediante difusiones de transmisión general (Broadcasting NetBIOS)",
+      "Consultando los registros de servicio (SRV) en el servidor DNS",
+      "A través de un archivo local HOSTS precargado en cada máquina",
+      "Mediante el protocolo DHCP opción 43 únicamente"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué operación de LDAP realiza la autenticación inicial del cliente contra el servidor de directorio para establecer los derechos de la sesión?",
+    "o": [
+      "Search",
+      "Bind",
+      "Modify",
+      "Unbind"
+    ],
+    "a": 0
+  }
+]

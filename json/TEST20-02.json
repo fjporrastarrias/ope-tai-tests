@@ -1,0 +1,102 @@
+[
+  {
+    "q": "En la administración de memoria real, la solución 'dinámica' para el problema de relocalización consiste en:",
+    "o": [
+      "Recompilar el programa completamente al cargarse en memoria",
+      "Tener un registro base que se suma a cada referencia de memoria en tiempo de ejecución",
+      "Utilizar paginación con bloques variables según la carga del sistema",
+      "Inhabilitar cualquier referencia fuera del segmento cero"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Para solucionar el problema de protección en memoria real, el sistema puede usar:",
+    "o": [
+      "Un registro base y un registro límite",
+      "Una tabla de descriptores de archivos compartidos",
+      "Un bit de sticky asociado a la CPU",
+      "Un algoritmo FIFO de expulsión directa"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué algoritmo de reemplazo de páginas realiza una búsqueda exhaustiva de la página menos referenciada?",
+    "o": [
+      "La menos frecuentemente usada (LFU)",
+      "Primera en entrar, primera en salir (FIFO)",
+      "Reemplazo aleatorio",
+      "Carga por demanda pura"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es el inconveniente principal que se destaca de la segmentación pura de memoria?",
+    "o": [
+      "La fragmentación interna severa",
+      "La fragmentación externa",
+      "La imposibilidad de compartir librerías",
+      "La rigidez de sus bloques de tamaño idéntico"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En los esquemas combinados de paginación y segmentación, ¿de qué elementos se compone una dirección virtual?",
+    "o": [
+      "Número de segmento y desplazamiento",
+      "Número de página y desplazamiento",
+      "Número de segmento, número de página y desplazamiento",
+      "Identificador de proceso y dirección real"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿En qué consiste la carga de páginas ANTICIPADA en memoria virtual?",
+    "o": [
+      "Llevar las páginas a memoria solo si se referencian explícitamente",
+      "Tratar de adivinar qué páginas serán solicitadas en el futuro inmediato aprovechando la localidad",
+      "Cargar todo el código del programa antes de iniciar el primer hilo",
+      "Reservar la totalidad de la memoria real para un único proceso interactivo"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En la estructura física de un disco, ¿cómo se denomina a la unión lógica de varias pistas paralelas?",
+    "o": [
+      "Sector",
+      "Cilindro",
+      "Bloque",
+      "Pista concéntrica"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué característica define a la 'Asignación Encadenada' en un sistema de archivos?",
+    "o": [
+      "Los bloques del archivo deben estar contiguos en el disco obligatoriamente",
+      "Los directorios contienen un bloque de índices completo para cada archivo",
+      "Los bloques no necesitan ser contiguos, no hay fragmentación externa, pero se desperdicia espacio con direcciones en cada eslabón",
+      "Utiliza obligatoriamente una entrada indirecta triple para archivos pequeños"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué método de acceso a los sistemas de archivos es el más lento, consiste en recorrer los componentes uno a uno y se usa comúnmente en cintas?",
+    "o": [
+      "Acceso directo",
+      "Acceso directo indexado",
+      "Acceso secuencial",
+      "Acceso por seek automático"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En la asignación indexada (inodo), ¿cuál es el problema para archivos muy pequeños?",
+    "o": [
+      "Genera una fragmentación externa inasumible",
+      "La relación entre bloques destinados a índices respecto a los de datos supone un coste inasumible",
+      "No permite el uso de llamadas de acceso directo como 'seek'",
+      "Obliga a realizar una lectura secuencial completa desde el bloque cero"
+    ],
+    "a": 0
+  }
+]

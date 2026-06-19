@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué modelo de propiedad de dispositivos móviles es el recomendado por el Centro Criptológico Nacional (CCN)?",
+    "o": [
+      "BYOD (Bring Your Own Device)",
+      "COBO (Corporate Owned, Business Only)",
+      "CYOD (Choose Your Own Device)",
+      "COPE (Corporate Owned, Personally Enabled)"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuáles son las razones principales por las que el CCN recomienda el modelo COBO?",
+    "o": [
+      "Económicas y comerciales",
+      "Técnicas y legales",
+      "Exclusivamente operativas de rendimiento",
+      "Facilidad de uso para entornos mixtos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el texto proporcionado, ¿cuál de los siguientes NO se clasifica explícitamente como ejemplo de dispositivo móvil?",
+    "o": [
+      "Teléfonos móviles y smartphones",
+      "Tablets",
+      "Smartwatches con LTE",
+      "PDAs"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué significan las siglas MDM en el entorno de la administración empresarial de redes?",
+    "o": [
+      "Mobile Data Management",
+      "Mobile Device Management",
+      "Mobile Delivery Mechanism",
+      "Modern Device Monitor"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué acrónimo se utiliza específicamente para definir las soluciones de gestión de aplicaciones móviles?",
+    "o": [
+      "MDM",
+      "MCM",
+      "MAM o MEAM",
+      "OTA"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿A qué hace referencia el término MCM en el contexto de las características de una solución MDM?",
+    "o": [
+      "Mobile Connection Manager",
+      "Gestión de contenidos y datos corporativos",
+      "Mobile Cloud Maintenance",
+      "Modulación de Canales Móviles"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué modelo de comunicación utiliza el servidor centralizado MDM para configurar y actualizar dispositivos de forma remota?",
+    "o": [
+      "OTA (Over-the-air programming)",
+      "FTP a través de TLS",
+      "Llamadas a procedimiento remoto RPC",
+      "Consultas SNMP síncronas"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de las siguientes Guías de Seguridad del CCN-STIC regula la 'Gestión y uso de dispositivos móviles'?",
+    "o": [
+      "CCN-STIC 496",
+      "CCN-STIC 827",
+      "CCN-STIC 200",
+      "CCN-STIC 805"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué guía CCN-STIC está dedicada específicamente a 'Sistemas de comunicaciones móviles seguras'?",
+    "o": [
+      "CCN-STIC 496",
+      "CCN-STIC 827",
+      "CCN-STIC 105",
+      "CCN-STIC 440"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes NO es un componente técnico básico de la arquitectura de una solución MDM estándar?",
+    "o": [
+      "Un software-cliente instalado en cada dispositivo",
+      "Una base de datos centralizada con el estado de situación",
+      "Un modelo de comunicación remota OTA",
+      "Un hardware sniffer físico conectado en modo promiscuo al terminal"
+    ],
+    "a": 3
+  }
+]

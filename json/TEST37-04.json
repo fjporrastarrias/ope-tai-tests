@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es el gobierno abierto (Open Government)?",
+    "o": [
+      "Un sitio web sin contraseña",
+      "Modelo de transparencia donde gobierno comparte datos con ciudadanos",
+      "Un edificio público",
+      "Una radio pública"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es un principio clave del Open Government?",
+    "o": [
+      "Secretismo total",
+      "Transparencia, participación y colaboración",
+      "Información limitada",
+      "Decisiones sin consulta"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué son los datos abiertos (Open Data)?",
+    "o": [
+      "Información confidencial",
+      "Datos públicos disponibles libremente para reutilización",
+      "Bases de datos privadas",
+      "Archivos encriptados"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es una ventaja de los datos abiertos?",
+    "o": [
+      "Limita la innovación",
+      "Permite innovación, investigación y servicios mejorados",
+      "Reduce transparencia",
+      "Aumenta costos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la accesibilidad en e-administración?",
+    "o": [
+      "Disponibilidad en horas de oficina",
+      "Diseño que permite a personas con discapacidades usar servicios",
+      "Velocidad de conexión",
+      "Número de usuarios simultáneos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué estándar establece requisitos de accesibilidad web?",
+    "o": [
+      "HTTP/2",
+      "WCAG",
+      "TCP/IP",
+      "HTML4"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la brecha digital?",
+    "o": [
+      "Fallo en cables de internet",
+      "Diferencia en acceso y uso de tecnología entre grupos",
+      "Interrupción de datos",
+      "Error de conexión"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el impacto de la brecha digital?",
+    "o": [
+      "Mejora la igualdad",
+      "Perpetúa desigualdades en acceso a servicios e información",
+      "Fortalece comunidades",
+      "Aumenta oportunidades iguales"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la inclusión digital?",
+    "o": [
+      "Restricción de acceso a internet",
+      "Proceso de asegurar que todos puedan acceder y usar TI",
+      "Limitación de servicios online",
+      "Prohibición de ciertas tecnologías"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es un objetivo de la inclusión digital en e-administración?",
+    "o": [
+      "Servir solo a grupos selectos",
+      "Garantizar que todos los ciudadanos puedan usar servicios digitales",
+      "Limitar acceso a grupos privilegiados",
+      "Desincentivar el uso de internet"
+    ],
+    "a": 1
+  }
+]

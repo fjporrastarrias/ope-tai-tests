@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la función fundamental de la memoria principal (RAM) en un sistema?",
+    "o": [
+      "Almacenar la configuración de la BIOS.",
+      "Almacenar los programas en ejecución y los datos activos para acceso inmediato.",
+      "Realizar la traducción de nombres de dominio IP.",
+      "Servir de caché de red."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el componente básico para almacenar un bit en la memoria RAM Dinámica (DRAM)?",
+    "o": [
+      "Un chip magnético.",
+      "Un condensador y un transistor.",
+      "Un conjunto de seis transistores acoplados.",
+      "Un filamento fusible."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Por qué las memorias DRAM requieren un proceso continuo de 'refresco'?",
+    "o": [
+      "Porque los transistores se calientan.",
+      "Porque la carga eléctrica de sus condensadores se descarga gradualmente con el tiempo.",
+      "Para evitar que los virus modifiquen las celdas.",
+      "Para sincronizar su reloj."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué ventaja principal ofrece la memoria SRAM sobre la DRAM?",
+    "o": [
+      "Es mucho más barata.",
+      "Es significativamente más rápida y no requiere circuito de refresco.",
+      "Ofrece densidades de almacenamiento más altas.",
+      "Es completamente no volátil."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo se define el parámetro de 'Ancho de Banda' de la memoria principal?",
+    "o": [
+      "El número de ciclos de reloj requeridos.",
+      "La cantidad máxima de datos que se pueden transferir por segundo entre la memoria y el controlador.",
+      "La cantidad total de memoria física direccionable.",
+      "El espacio físico del slot."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la latencia CAS (CL) de una memoria RAM?",
+    "o": [
+      "El tiempo total de almacenamiento no volátil.",
+      "El número de ciclos de reloj que pasan desde que se solicita un dato hasta que está disponible.",
+      "La velocidad del ventilador.",
+      "El voltaje máximo tolerado."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿A qué se refiere el término 'Dual Channel' en la configuración de la memoria RAM?",
+    "o": [
+      "A duplicar la frecuencia estática.",
+      "A permitir al controlador utilizar dos canales independientes de 64 bits de forma simultánea.",
+      "A la duplicación de la caché interna.",
+      "A un puerto híbrido."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de empaquetado de memoria física se utiliza en portátiles?",
+    "o": [
+      "DIMM.",
+      "SO-DIMM.",
+      "SIMM.",
+      "GDDR."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La tecnología de memoria ECC (Error Correcting Code) se utiliza en servidores porque:",
+    "o": [
+      "Aumenta la frecuencia de reloj.",
+      "Es capaz de detectar y corregir errores de un solo bit en los datos.",
+      "Duplica la capacidad total mediante compresión.",
+      "Transforma memoria volátil en permanente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué ocurre cuando la memoria RAM se llena por completo y se siguen abriendo aplicaciones?",
+    "o": [
+      "El procesador se apaga.",
+      "Se activa la memoria virtual en el disco secundario como extensión temporal.",
+      "La memoria ROM asume el control del procesamiento.",
+      "Se duplica la frecuencia de reloj."
+    ],
+    "a": 1
+  }
+]

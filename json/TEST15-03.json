@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la primera tarea que se realiza en el proceso informático de digitalización?",
+    "o": [
+      "Asignación de metadatos de idioma.",
+      "Firma automatizada del fichero.",
+      "Digitalización por un medio fotoeléctrico para obtener la imagen en memoria.",
+      "Optimización de bordes negros mediante software."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es el objetivo de la optimización automática de la imagen electrónica si procede?",
+    "o": [
+      "Garantizar su legibilidad de modo que todo contenido sea apreciable y válido.",
+      "Comprimir el archivo al menor tamaño posible perdiendo resolución.",
+      "Modificar los colores originales por fines estéticos.",
+      "Extraer los metadatos de autoría de forma automática."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de las siguientes operaciones NO es mencionada explícitamente como una técnica de optimización automática?",
+    "o": [
+      "Umbralización.",
+      "Reorientación.",
+      "Eliminación de bordes negros.",
+      "Reconocimiento óptico de caracteres (OCR) comercial."
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿Qué metadatos específicos se asignan al documento electrónico durante el proceso de digitalización según la NTI?",
+    "o": [
+      "Resolución, tamaño e idioma.",
+      "Formato, autor y Hash de seguridad.",
+      "Fecha de creación, departamento y serie documental.",
+      "Nombre del dispositivo, versión del driver y sistema operativo."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cómo puede aplicarse la firma de la imagen electrónica al finalizar el proceso de digitalización?",
+    "o": [
+      "Únicamente de forma manual por el usuario interesado.",
+      "De forma automatizada a través del sistema de digitalización o por otro sistema de firma electrónica.",
+      "Mediante una clave simétrica compartida por correo electrónico.",
+      "Solo a través del nodo central de la Fábrica Nacional de Moneda y Timbre."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La Norma Técnica de Interoperabilidad de Digitalización desarrolla, entre otros aspectos, los requisitos mínimos de:",
+    "o": [
+      "Conservación y disponibilidad de los documentos digitalizados.",
+      "Destrucción física inmediata del papel original sin excepciones.",
+      "Suministro eléctrico de los escáneres municipales.",
+      "Ancho de banda para la subida de imágenes."
+    ],
+    "a": 0
+  },
+  {
+    "q": "El conjunto de componentes digitales que representan el contenido y aspecto de un documento original se denomina:",
+    "o": [
+      "Imagen fiel con integridad suficiente a efectos probatorios.",
+      "Copia indexada simple.",
+      "Metadato de proceso estructurado.",
+      "Fichero comprimido de explotación."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Los metadatos mínimos obligatorios de un documento electrónico se asignan en función de:",
+    "o": [
+      "Los requerimientos de interoperabilidad fijados para todas las Administraciones Públicas.",
+      "La marca y modelo del escáner utilizado.",
+      "El espacio libre en la base de datos local.",
+      "El libre criterio del técnico informático de guardia."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Si una organización decide incorporar metadatos adicionales no obligatorios, estos se denominan:",
+    "o": [
+      "Metadatos complementarios para su gestión.",
+      "Metadatos críticos de infraestructura.",
+      "Metadatos huérfanos de digitalización.",
+      "Metadatos de interoperabilidad externa."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué aspecto geométrico debe respetarse estrictamente para cumplir la condición de imagen fiel?",
+    "o": [
+      "Tamaños y proporciones del documento origen.",
+      "Únicamente la orientación vertical.",
+      "La escala de reducción de márgenes al 50%.",
+      "La conversión obligatoria a formato panorámico 16:9."
+    ],
+    "a": 0
+  }
+]

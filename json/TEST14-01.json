@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál de los siguientes elementos forma parte de la Unidad Central de Procesamiento (CPU) según la arquitectura Von Neumann?",
+    "o": [
+      "La Memoria Secundaria.",
+      "La Unidad Aritmético Lógica (ALU).",
+      "El Bus de Datos Externo.",
+      "El Periférico de Entrada."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En la arquitectura de un ordenador, ¿cuál es la función de la Unidad de Control (UC)?",
+    "o": [
+      "Realizar operaciones matemáticas de punto flotante.",
+      "Almacenar permanentemente el sistema operativo.",
+      "Buscar, decodificar y secuenciar la ejecución de las instrucciones.",
+      "Estabilizar el voltaje de la memoria RAM."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué tipo de bus se encarga de determinar la ubicación física en memoria de los datos que la CPU desea leer o escribir?",
+    "o": [
+      "Bus de control.",
+      "Bus de datos.",
+      "Bus de direcciones.",
+      "Bus de expansión."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Si un procesador tiene un bus de direcciones de 32 bits, ¿cuál es el espacio máximo de memoria que puede direccionar teóricamente?",
+    "o": [
+      "2 GB.",
+      "4 GB.",
+      "16 GB.",
+      "64 GB."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la característica principal de un bus síncrono frente a uno asíncrono?",
+    "o": [
+      "No requiere líneas de control.",
+      "Incluye una línea de reloj común que sincroniza todas las operaciones.",
+      "Permite transferencias a cualquier velocidad sin coordinar componentes.",
+      "Utiliza un protocolo de 'apretón de manos' (handshaking) para cada dato."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Componente de la CPU que almacena temporalmente la instrucción que se está ejecutando:",
+    "o": [
+      "El Contador de Programa (PC).",
+      "El Registro de Instrucción (RI).",
+      "El Acumulador.",
+      "El Registro de Dirección de Memoria (MAR)."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué elemento del procesador indica la dirección de la próxima instrucción que debe ser ejecutada?",
+    "o": [
+      "El Registro de Datos de Memoria (MDR).",
+      "El Contador de Programa (PC).",
+      "La Unidad Aritmético Lógica.",
+      "El Registro de Estado."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Dentro del ciclo de instrucción clásico, ¿cuál es el orden correcto de las fases primarias?",
+    "o": [
+      "Ejecución (Execute), Búsqueda (Fetch), Decodificación (Decode).",
+      "Búsqueda (Fetch), Decodificación (Decode), Ejecución (Execute).",
+      "Decodificación (Decode), Escritura (Writeback), Búsqueda (Fetch).",
+      "Búsqueda (Fetch), Ejecución (Execute), Almacenamiento (Store)."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿A qué se denomina 'cuello de botella de Von Neumann'?",
+    "o": [
+      "A la diferencia de velocidad entre los registros internos y la ALU.",
+      "A la limitación de rendimiento debida a que los datos y las instrucciones comparten el mismo bus de datos y memoria física.",
+      "A la incapacidad de los periféricos de entrada para enviar datos sincrónicamente.",
+      "Al calentamiento excesivo de los condensadores de la memoria RAM dinámica."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Mecanismo por el cual un periférico transfiere datos directamente a la memoria principal sin intervención continua de la CPU:",
+    "o": [
+      "E/S programada.",
+      "Interrupción por hardware (IRQ).",
+      "Acceso Directo a Memoria (DMA).",
+      "Polling o consulta continua."
+    ],
+    "a": 2
+  }
+]

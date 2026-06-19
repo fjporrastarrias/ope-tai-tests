@@ -1,0 +1,102 @@
+[
+  {
+    "q": "En la jerarquía de memoria de un ordenador, ¿cuál es el principal objetivo de su diseño escalonado?",
+    "o": [
+      "Conseguir la máxima velocidad posible al coste por bit más bajo posible.",
+      "Eliminar por completo el uso de memorias volátiles.",
+      "Garantizar que todos los niveles tengan el mismo tiempo de acceso.",
+      "Reducir el tamaño físico de la placa base."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Ordena de MENOR a MAYOR tiempo de acceso las siguientes clases de memoria:",
+    "o": [
+      "Memoria Principal, Memoria Caché, Registros, Disco Duro.",
+      "Registros, Memoria Caché, Memoria Principal, Disco Duro.",
+      "Memoria Caché, Registros, Disco Duro, Memoria Principal.",
+      "Registros, Memoria Principal, Memoria Caché, Disco Duro."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué principio justifica la efectividad de la memoria caché?",
+    "o": [
+      "El principio de recursividad selectiva.",
+      "El principio de localidad de referencia (temporal y espacial).",
+      "La ley de Moore aplicada al silicio.",
+      "La persistencia estática de los datos de usuario."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de las siguientes memorias se considera NO volátil?",
+    "o": [
+      "Memoria Caché L3.",
+      "Memoria RAM dinámica (DRAM).",
+      "Memoria Flash (EEPROM).",
+      "Registros de datos de la CPU."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué significa que una memoria sea de 'Acceso Aleatorio'?",
+    "o": [
+      "Que el tiempo necesario para acceder a cualquier posición de memoria es constante e independiente de su ubicación física.",
+      "Que la CPU decide de forma totalmente aleatoria qué celda va a leer.",
+      "Que los datos se borran aleatoriamente cuando baja el voltaje.",
+      "Que requiere recorrer todas las celdas previas consecutivamente para llegar a la información."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿En qué nivel de la memoria caché se suele integrar una celda por cada núcleo de procesamiento de forma exclusiva?",
+    "o": [
+      "Caché L1.",
+      "Caché L2.",
+      "Caché L3.",
+      "Caché LLC."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Las memorias semiconductoras se diferencian de las ópticas y magnéticas principalmente por:",
+    "o": [
+      "Su mayor lentitud de acceso.",
+      "Estar fabricadas con circuitos integrados basados en transistores y silicio.",
+      "Ser siempre magnéticamente orientables.",
+      "No requerir energía eléctrica para mantener los datos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de memoria se utiliza habitualmente como memoria secundaria masiva en los equipos modernos por su velocidad?",
+    "o": [
+      "SDRAM.",
+      "SRAM.",
+      "SSD basada en NAND Flash.",
+      "EPROM."
+    ],
+    "a": 2
+  },
+  {
+    "q": "La memoria secundaria o auxiliar, a diferencia de la memoria principal, se caracteriza por:",
+    "o": [
+      "Ser directamente accesible por las líneas de buses de la CPU.",
+      "Ser permanente (no volátil) y disponer de capacidades de almacenamiento superiores.",
+      "Estar construida exclusivamente con memorias SRAM.",
+      "Tener menor tiempo de ciclo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué estructura de caché es compartida habitualmente por todos los núcleos (cores) de un procesador moderno?",
+    "o": [
+      "La caché L1 de datos.",
+      "La caché L1 de instrucciones.",
+      "La caché L3 (o LLC).",
+      "Los registros internos."
+    ],
+    "a": 2
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es la virtualización de puestos de usuario?",
+    "o": [
+      "Un tipo de antivirus",
+      "La técnica de ejecutar múltiples sistemas operativos en un mismo hardware",
+      "Un protocolo de red",
+      "Un programa de productividad"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la ventaja principal de la virtualización?",
+    "o": [
+      "Aumentar la velocidad del procesador",
+      "Optimizar recursos y permitir múltiples entornos independientes",
+      "Eliminar la necesidad de discos duros",
+      "Aumentar la resolución de pantalla"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es una máquina virtual?",
+    "o": [
+      "Un ordenador fabricado en una fábrica",
+      "Una emulación de un sistema informático con su propio sistema operativo",
+      "Una red virtual",
+      "Un programa de diseño"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es un hipervisor?",
+    "o": [
+      "Un virus informático",
+      "Un software que gestiona máquinas virtuales",
+      "Un procesador avanzado",
+      "Un tipo de memoria RAM"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuáles son los dos tipos principales de hipervisores?",
+    "o": [
+      "Internos y externos",
+      "Tipo 1 (bare metal) y Tipo 2 (hosted)",
+      "Públicos y privados",
+      "Simples y complejos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es un hipervisor Tipo 1 o bare metal?",
+    "o": [
+      "Un hipervisor que se ejecuta sobre un sistema operativo",
+      "Un hipervisor que se ejecuta directamente sobre el hardware",
+      "Un hipervisor basado en la nube",
+      "Un hipervisor de código abierto"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es un hipervisor Tipo 2 o hosted?",
+    "o": [
+      "Un hipervisor de bajo nivel",
+      "Un hipervisor que se ejecuta sobre un sistema operativo anfitrión",
+      "Un hipervisor que solo corre en servidores",
+      "Un hipervisor sin acceso a hardware"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la ventaja del Escritorio Virtual?",
+    "o": [
+      "Mayor velocidad que el escritorio físico",
+      "Acceso remoto seguro a entornos de trabajo personalizados",
+      "Elimina la necesidad de redes",
+      "Reduce el costo del software"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué significa VDI (Virtual Desktop Infrastructure)?",
+    "o": [
+      "Interfaz de Desarrollo Virtual",
+      "Infraestructura de Escritorio Virtual",
+      "Visualización de Datos Integrados",
+      "Validación de Dispositivos Internet"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es una ventaja importante de VDI para administradores?",
+    "o": [
+      "Dificulta la administración central",
+      "Permite gestión centralizada y actualizaciones más sencillas",
+      "Requiere más hardware en cada puesto",
+      "Aumenta los costos de operación"
+    ],
+    "a": 1
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "11. ¿En qué consiste una imagen de Docker según la documentación provista?",
+    "o": [
+      "Un archivo gráfico con la captura de pantalla de un contenedor en ejecución.",
+      "Una plantilla de solo lectura con todas las instrucciones que necesita el motor de Docker para crear un contenedor.",
+      "Una capa de escritura que se elimina automáticamente al parar el servicio.",
+      "Un volumen lógico montado de forma externa en el host."
+    ],
+    "a": 1
+  },
+  {
+    "q": "12. ¿Con qué instrucción obligatoria debe comenzar un fichero Dockerfile válido de forma general?",
+    "o": [
+      "RUN",
+      "CMD",
+      "FROM",
+      "COPY"
+    ],
+    "a": 2
+  },
+  {
+    "q": "13. ¿Qué instrucción de Dockerfile proporciona valores predeterminados para un contenedor en ejecución y solo tiene efecto la última si se indican varias?",
+    "o": [
+      "ENTRYPOINT",
+      "CMD",
+      "ENV",
+      "ARG"
+    ],
+    "a": 1
+  },
+  {
+    "q": "14. ¿Qué protocolo se asigna de forma predeterminada en la instrucción EXPOSE si no se especifica explícitamente?",
+    "o": [
+      "UDP",
+      "ICMP",
+      "TCP",
+      "HTTP"
+    ],
+    "a": 2
+  },
+  {
+    "q": "15. ¿Qué alternativa menciona el texto para crear una imagen de Docker sin usar un fichero Dockerfile?",
+    "o": [
+      "Utilizar el comando docker build --no-file.",
+      "Usar una imagen existente, instanciar un contenedor (docker run), hacer cambios y usar docker commit.",
+      "Importar un archivo de configuración docker-compose.yml vacío.",
+      "No existe ninguna alternativa, el Dockerfile es estrictamente obligatorio."
+    ],
+    "a": 1
+  },
+  {
+    "q": "16. ¿Qué función cumple el archivo .dockerignore en la construcción de una imagen?",
+    "o": [
+      "Eliminar las capas de solo lectura de la imagen base.",
+      "Ignorar ficheros o directorios con el objetivo de evitar que se copien a la imagen.",
+      "Bloquear las conexiones de red entrantes al contenedor.",
+      "Forzar la ejecución del contenedor en modo administrador exclusivamente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "17. ¿Cuál es la principal diferencia a nivel de datos entre un contenedor en ejecución y una imagen de Docker?",
+    "o": [
+      "El contenedor es de solo lectura y la imagen es de escritura.",
+      "La imagen tiene una capa de escritura superior que se borra al detener el proceso.",
+      "El contenedor añade una capa superior de escritura (capa contenedora) sobre las capas de solo lectura de la imagen.",
+      "Las imágenes se guardan en la memoria RAM y los contenedores en el disco duro."
+    ],
+    "a": 2
+  },
+  {
+    "q": "18. ¿Qué herramienta del ecosistema de contenedores modulares permite crear contenedores desde cero o usando una imagen como punto de partida?",
+    "o": [
+      "Skopeo",
+      "Buildah",
+      "Podman",
+      "LXC"
+    ],
+    "a": 1
+  },
+  {
+    "q": "19. ¿Qué herramienta modular se encarga de trasladar imágenes de contenedores entre distintos tipos de almacenamiento y registros (ej. entre docker.io y un registro interno)?",
+    "o": [
+      "Buildah",
+      "Podman",
+      "Skopeo",
+      "Helm"
+    ],
+    "a": 2
+  },
+  {
+    "q": "20. ¿Cuál es el enfoque principal del proyecto Linux Containers (LXC) según el texto?",
+    "o": [
+      "Ofrecer contenedores y máquinas virtuales que ejecutan sistemas Linux completos sin la sobrecarga de un kernel separado.",
+      "Soportar exclusivamente bases de datos Oracle en la nube pública.",
+      "Orquestar microservicios mediante archivos docker-compose.yml en entornos de red WAN.",
+      "Proporcionar una interfaz gráfica idéntica a pgAdmin para contenedores."
+    ],
+    "a": 0
+  }
+]

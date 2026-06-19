@@ -1,102 +1,102 @@
 [
-{
-"q": "En el marco de la Administración Local, ¿qué figura determina los fines y los medios del tratamiento de datos personales?",
-"o": [
-"El Encargado del tratamiento.",
-"El Responsable del tratamiento.",
-"El Delegado de Protección de Datos.",
-"La Agencia Española de Protección de Datos."
-],
-"a": 1
-},
-{
-"q": "¿Es obligatorio designar un Delegado de Protección de Datos (DPD) en un Ayuntamiento?",
-"o": [
-"Sí, siempre, por ser un organismo público.",
-"No, es voluntario en la Administración Local.",
-"Solo si el Ayuntamiento supera los 50.000 habitantes.",
-"Solo si tratan datos a gran escala sobre sentencias penales."
-],
-"a": 0
-},
-{
-"q": "¿En qué plazo máximo debe notificarse, como regla general, una brecha de seguridad de los datos a la autoridad de control (AEPD)?",
-"o": [
-"Inmediatamente, sin dilación indebida y en un máximo de 24 horas.",
-"En un plazo máximo de 72 horas.",
-"Dentro del plazo de 1 mes.",
-"En el plazo de 15 días hábiles."
-],
-"a": 1
-},
-{
-"q": "¿Puede el Delegado de Protección de Datos (DPD) ser removido o sancionado por el responsable por desempeñar sus funciones?",
-"o": [
-"Sí, si la AEPD lo autoriza.",
-"Sí, si es personal externo.",
-"No, no podrá ser removido ni sancionado por el responsable o encargado por el desempeño de sus funciones.",
-"Sí, pero solo con la aprobación del Pleno del Ayuntamiento."
-],
-"a": 2
-},
-{
-"q": "En caso de infracción de la normativa de protección de datos, ¿qué tipo de sanción se impone a las Administraciones Públicas (como un Ayuntamiento)?",
-"o": [
-"Multas económicas de hasta 10 millones de euros.",
-"Multas económicas de hasta 20 millones de euros.",
-"Un apercibimiento y medidas correctoras, sin multa económica.",
-"El cese automático de la corporación local."
-],
-"a": 2
-},
-{
-"q": "¿Quién nombra a la persona titular de la Presidencia de la Agencia Española de Protección de Datos?",
-"o": [
-"El Congreso de los Diputados.",
-"El Senado.",
-"El Gobierno, mediante Real Decreto.",
-"El Ministerio de Justicia."
-],
-"a": 2
-},
-{
-"q": "¿Cuál es la duración del mandato del Presidente de la Agencia Española de Protección de Datos (AEPD)?",
-"o": [
-"3 años.",
-"4 años.",
-"5 años.",
-"Carácter vitalicio hasta jubilación."
-],
-"a": 2
-},
-{
-"q": "La obligación de llevar un Registro de Actividades de Tratamiento (RAT) sustituye a:",
-"o": [
-"La antigua inscripción de ficheros en el Registro General de Protección de Datos.",
-"La obligación de tener medidas de seguridad perimetral.",
-"El Documento de Seguridad.",
-"El deber de información."
-],
-"a": 0
-},
-{
-"q": "La persona física o jurídica, autoridad pública o servicio que trata datos personales por cuenta del responsable del tratamiento es:",
-"o": [
-"El subresponsable.",
-"El destinatario.",
-"El Encargado del tratamiento.",
-"El tercero."
-],
-"a": 2
-},
-{
-"q": "¿Las resoluciones dictadas por la Presidencia de la AEPD ponen fin a la vía administrativa?",
-"o": [
-"Sí, y son recurribles ante la jurisdicción contencioso-administrativa.",
-"No, admiten recurso de alzada ante el Ministerio del Interior.",
-"No, admiten recurso ante el Consejo de Transparencia.",
-"Sí, y no admiten recurso judicial alguno."
-],
-"a": 0
-}
+  {
+    "q": "En el marco de la Administración Local, ¿qué figura determina los fines y los medios del tratamiento de datos personales?",
+    "o": [
+      "El Encargado del tratamiento.",
+      "El Responsable del tratamiento.",
+      "El Delegado de Protección de Datos.",
+      "La Agencia Española de Protección de Datos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Es obligatorio designar un Delegado de Protección de Datos (DPD) en un Ayuntamiento?",
+    "o": [
+      "Sí, siempre, por ser un organismo público.",
+      "No, es voluntario en la Administración Local.",
+      "Solo si el Ayuntamiento supera los 50.000 habitantes.",
+      "Solo si tratan datos a gran escala sobre sentencias penales."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿En qué plazo máximo debe notificarse, como regla general, una brecha de seguridad de los datos a la autoridad de control (AEPD)?",
+    "o": [
+      "Inmediatamente, sin dilación indebida y en un máximo de 24 horas.",
+      "En un plazo máximo de 72 horas.",
+      "Dentro del plazo de 1 mes.",
+      "En el plazo de 15 días hábiles."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Puede el Delegado de Protección de Datos (DPD) ser removido o sancionado por el responsable por desempeñar sus funciones?",
+    "o": [
+      "Sí, si la AEPD lo autoriza.",
+      "Sí, si es personal externo.",
+      "No, no podrá ser removido ni sancionado por el responsable o encargado por el desempeño de sus funciones.",
+      "Sí, pero solo con la aprobación del Pleno del Ayuntamiento."
+    ],
+    "a": 2
+  },
+  {
+    "q": "En caso de infracción de la normativa de protección de datos, ¿qué tipo de sanción se impone a las Administraciones Públicas (como un Ayuntamiento)?",
+    "o": [
+      "Multas económicas de hasta 10 millones de euros.",
+      "Multas económicas de hasta 20 millones de euros.",
+      "Un apercibimiento y medidas correctoras, sin multa económica.",
+      "El cese automático de la corporación local."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Quién nombra a la persona titular de la Presidencia de la Agencia Española de Protección de Datos?",
+    "o": [
+      "El Congreso de los Diputados.",
+      "El Senado.",
+      "El Gobierno, mediante Real Decreto.",
+      "El Ministerio de Justicia."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la duración del mandato del Presidente de la Agencia Española de Protección de Datos (AEPD)?",
+    "o": [
+      "3 años.",
+      "4 años.",
+      "5 años.",
+      "Carácter vitalicio hasta jubilación."
+    ],
+    "a": 2
+  },
+  {
+    "q": "La obligación de llevar un Registro de Actividades de Tratamiento (RAT) sustituye a:",
+    "o": [
+      "La antigua inscripción de ficheros en el Registro General de Protección de Datos.",
+      "La obligación de tener medidas de seguridad perimetral.",
+      "El Documento de Seguridad.",
+      "El deber de información."
+    ],
+    "a": 0
+  },
+  {
+    "q": "La persona física o jurídica, autoridad pública o servicio que trata datos personales por cuenta del responsable del tratamiento es:",
+    "o": [
+      "El subresponsable.",
+      "El destinatario.",
+      "El Encargado del tratamiento.",
+      "El tercero."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Las resoluciones dictadas por la Presidencia de la AEPD ponen fin a la vía administrativa?",
+    "o": [
+      "Sí, y son recurribles ante la jurisdicción contencioso-administrativa.",
+      "No, admiten recurso de alzada ante el Ministerio del Interior.",
+      "No, admiten recurso ante el Consejo de Transparencia.",
+      "Sí, y no admiten recurso judicial alguno."
+    ],
+    "a": 0
+  }
 ]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es la administración electrónica (e-administration)?",
+    "o": [
+      "Una tienda online del gobierno",
+      "El uso de tecnologías digitales para modernizar servicios administrativos públicos",
+      "Un correo electrónico oficial",
+      "Un sitio web gubernamental"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el objetivo principal de la e-administración?",
+    "o": [
+      "Vender productos",
+      "Mejorar eficiencia, transparencia y accesibilidad de servicios públicos",
+      "Aumentar los ingresos del gobierno",
+      "Eliminar empleados públicos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué significa e-government?",
+    "o": [
+      "Un periódico electrónico",
+      "Gobierno electrónico; uso de TICs en la administración pública",
+      "Un videojuego",
+      "Una red social oficial"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es una ventaja del e-government para ciudadanos?",
+    "o": [
+      "Trámites más lentos",
+      "Disponibilidad 24/7 de servicios sin necesidad de desplazarse",
+      "Mayor complejidad",
+      "Menos información"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el expediente electrónico?",
+    "o": [
+      "Un correo urgente",
+      "Archivo digital que contiene documentos administrativos de un procedimiento",
+      "Un programa de correo",
+      "Un tipo de certificado"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la ventaja del expediente electrónico?",
+    "o": [
+      "Ocupa más espacio",
+      "Reducción de papel, acceso más rápido y mayor seguridad",
+      "Es más difícil de consultar",
+      "Requiere más personal"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la firma electrónica?",
+    "o": [
+      "Una firma escaneada",
+      "Un mecanismo criptográfico que autentifica la autoría de un documento",
+      "Un dibujo digital",
+      "Una contraseña escrita"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el valor legal de la firma electrónica?",
+    "o": [
+      "No tiene valor legal",
+      "Tiene valor legal equivalente a la firma manuscrita",
+      "Es solo para fines informativos",
+      "Depende del navegador utilizado"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el certificado electrónico?",
+    "o": [
+      "Un papel impreso",
+      "Documento digital que acredita la identidad del titular",
+      "Una contraseña",
+      "Un correo cifrado"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Quién expide los certificados electrónico en España?",
+    "o": [
+      "Los bancos",
+      "Las autoridades de certificación acreditadas",
+      "El Ministerio de Educación",
+      "Las redes sociales"
+    ],
+    "a": 1
+  }
+]

@@ -1,102 +1,102 @@
 [
-{
-"q": "¿Cuál es el plazo general para que el responsable del tratamiento responda a una solicitud de ejercicio de derechos (ej. Acceso o Rectificación)?",
-"o": [
-"10 días hábiles.",
-"1 mes.",
-"3 meses en todo caso.",
-"72 horas."
-],
-"a": 1
-},
-{
-"q": "Si el afectado solicita la supresión de sus datos personales en los motores de búsqueda de internet, está ejerciendo el derecho:",
-"o": [
-"De limitación.",
-"De portabilidad.",
-"Al olvido.",
-"De acceso."
-],
-"a": 2
-},
-{
-"q": "Como norma general, el ejercicio de los derechos regulados en la LOPDGDD es:",
-"o": [
-"Gratuito.",
-"Sujeto a una tasa fija.",
-"Gratuito la primera vez, abonando un canon por defecto a partir de la segunda.",
-"Depende de si el responsable es Administración Pública o empresa privada."
-],
-"a": 0
-},
-{
-"q": "¿A qué se refiere el derecho a la limitación del tratamiento?",
-"o": [
-"A que el responsable limite el ancho de banda del servicio.",
-"A la suspensión del tratamiento o conservación de los datos para fines específicos mientras se aclara su exactitud o legalidad.",
-"Al borrado físico y definitivo de los datos en los servidores.",
-"A la prohibición de transferir datos fuera de la UE."
-],
-"a": 1
-},
-{
-"q": "El derecho a recibir los datos personales facilitados por un interesado a un responsable en un formato estructurado, de uso común y lectura mecánica, se denomina:",
-"o": [
-"Derecho de transparencia.",
-"Derecho a la portabilidad.",
-"Derecho de acceso digital.",
-"Derecho al olvido."
-],
-"a": 1
-},
-{
-"q": "Sobre quién recae la carga de la prueba respecto al cumplimiento del deber de información a los interesados al recoger sus datos:",
-"o": [
-"Sobre el interesado (ciudadano).",
-"Sobre el Encargado del tratamiento.",
-"Sobre el Responsable del tratamiento.",
-"Sobre la Agencia Española de Protección de Datos."
-],
-"a": 2
-},
-{
-"q": "¿Pueden ser denegadas las solicitudes de ejercicio de derechos?",
-"o": [
-"Nunca, son derechos absolutos.",
-"Sí, cuando sean manifiestamente infundadas o excesivas, en especial por su carácter repetitivo.",
-"Solo si el interesado no paga la tasa correspondiente.",
-"Solo si lo autoriza un juez."
-],
-"a": 1
-},
-{
-"q": "Si el interesado ejercita el derecho de rectificación de sus datos, ¿qué debe acompañar a su solicitud?",
-"o": [
-"Un justificante de pago.",
-"Los elementos que acrediten la inexactitud o carácter incompleto de los datos tratados.",
-"Una copia de su historia laboral completa.",
-"No debe aportar nada, el responsable debe investigarlo de oficio."
-],
-"a": 1
-},
-{
-"q": "El derecho que permite al ciudadano que un responsable deje de tratar sus datos, basándose en motivos relacionados con su situación particular, es:",
-"o": [
-"Derecho de cancelación.",
-"Derecho de oposición.",
-"Derecho de portabilidad.",
-"Derecho de limitación."
-],
-"a": 1
-},
-{
-"q": "El derecho de acceso reconocido en la LOPDGDD:",
-"o": [
-"No implica el derecho a obtener una copia de los datos.",
-"Implica el derecho a obtener copia de los datos, pudiendo exigir el responsable un canon basado en los costes administrativos si se piden copias adicionales.",
-"Solo puede ejercerse de forma presencial.",
-"Se limita a un máximo de 10 folios de información."
-],
-"a": 1
-}
+  {
+    "q": "¿Cuál es el plazo general para que el responsable del tratamiento responda a una solicitud de ejercicio de derechos (ej. Acceso o Rectificación)?",
+    "o": [
+      "10 días hábiles.",
+      "1 mes.",
+      "3 meses en todo caso.",
+      "72 horas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si el afectado solicita la supresión de sus datos personales en los motores de búsqueda de internet, está ejerciendo el derecho:",
+    "o": [
+      "De limitación.",
+      "De portabilidad.",
+      "Al olvido.",
+      "De acceso."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Como norma general, el ejercicio de los derechos regulados en la LOPDGDD es:",
+    "o": [
+      "Gratuito.",
+      "Sujeto a una tasa fija.",
+      "Gratuito la primera vez, abonando un canon por defecto a partir de la segunda.",
+      "Depende de si el responsable es Administración Pública o empresa privada."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿A qué se refiere el derecho a la limitación del tratamiento?",
+    "o": [
+      "A que el responsable limite el ancho de banda del servicio.",
+      "A la suspensión del tratamiento o conservación de los datos para fines específicos mientras se aclara su exactitud o legalidad.",
+      "Al borrado físico y definitivo de los datos en los servidores.",
+      "A la prohibición de transferir datos fuera de la UE."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El derecho a recibir los datos personales facilitados por un interesado a un responsable en un formato estructurado, de uso común y lectura mecánica, se denomina:",
+    "o": [
+      "Derecho de transparencia.",
+      "Derecho a la portabilidad.",
+      "Derecho de acceso digital.",
+      "Derecho al olvido."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Sobre quién recae la carga de la prueba respecto al cumplimiento del deber de información a los interesados al recoger sus datos:",
+    "o": [
+      "Sobre el interesado (ciudadano).",
+      "Sobre el Encargado del tratamiento.",
+      "Sobre el Responsable del tratamiento.",
+      "Sobre la Agencia Española de Protección de Datos."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Pueden ser denegadas las solicitudes de ejercicio de derechos?",
+    "o": [
+      "Nunca, son derechos absolutos.",
+      "Sí, cuando sean manifiestamente infundadas o excesivas, en especial por su carácter repetitivo.",
+      "Solo si el interesado no paga la tasa correspondiente.",
+      "Solo si lo autoriza un juez."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si el interesado ejercita el derecho de rectificación de sus datos, ¿qué debe acompañar a su solicitud?",
+    "o": [
+      "Un justificante de pago.",
+      "Los elementos que acrediten la inexactitud o carácter incompleto de los datos tratados.",
+      "Una copia de su historia laboral completa.",
+      "No debe aportar nada, el responsable debe investigarlo de oficio."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El derecho que permite al ciudadano que un responsable deje de tratar sus datos, basándose en motivos relacionados con su situación particular, es:",
+    "o": [
+      "Derecho de cancelación.",
+      "Derecho de oposición.",
+      "Derecho de portabilidad.",
+      "Derecho de limitación."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El derecho de acceso reconocido en la LOPDGDD:",
+    "o": [
+      "No implica el derecho a obtener una copia de los datos.",
+      "Implica el derecho a obtener copia de los datos, pudiendo exigir el responsable un canon basado en los costes administrativos si se piden copias adicionales.",
+      "Solo puede ejercerse de forma presencial.",
+      "Se limita a un máximo de 10 folios de información."
+    ],
+    "a": 1
+  }
 ]

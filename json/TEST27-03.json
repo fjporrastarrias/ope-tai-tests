@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es el principio de menor privilegio?",
+    "o": [
+      "Dar permisos máximos a todos",
+      "Dar solo los permisos necesarios para realizar el trabajo",
+      "No otorgar ningún permiso",
+      "Cambiar permisos constantemente"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es un ataque de negación de servicio (DoS)?",
+    "o": [
+      "Acceso no autorizado a datos",
+      "Intento de hacer que un servicio sea inaccesible",
+      "Copiar archivos sin autorización",
+      "Cambiar contraseñas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es un ataque DDoS?",
+    "o": [
+      "Un ataque desde una única computadora",
+      "Un ataque de negación de servicio desde múltiples fuentes",
+      "Un ataque de virus",
+      "Un ataque de phishing"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la inyección SQL?",
+    "o": [
+      "Una técnica de copias de seguridad",
+      "Un ataque que inserta código malicioso en consultas SQL",
+      "Un tipo de encriptación",
+      "Un protocolo de red seguro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el cross-site scripting (XSS)?",
+    "o": [
+      "Un ataque DDoS",
+      "Inyección de código JavaScript en sitios web para atacar usuarios",
+      "Un firewall",
+      "Una técnica de encriptación"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué medida es fundamental para proteger contraseñas?",
+    "o": [
+      "Escribirlas en papel",
+      "Usar contraseñas fuertes, únicas y almacenarlas de forma segura",
+      "Compartirlas con colegas de confianza",
+      "Cambiarlas cada año"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es una contraseña fuerte?",
+    "o": [
+      "Una contraseña con números",
+      "Una combinación de mayúsculas, minúsculas, números y caracteres especiales",
+      "Una contraseña de más de 5 caracteres",
+      "Una palabra común de 8 letras"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la auditoría de seguridad?",
+    "o": [
+      "Cambiar contraseñas regularmente",
+      "Revisar y evaluar los controles de seguridad de un sistema",
+      "Instalar antivirus",
+      "Hacer copias de seguridad diarias"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el registro de acceso (audit log)?",
+    "o": [
+      "Un archivo de datos de usuario",
+      "Un registro de quién accedió a qué y cuándo",
+      "Una contraseña",
+      "Un tipo de firewall"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el propósito de las pruebas de penetración?",
+    "o": [
+      "Atacar sistemas sin autorización",
+      "Identificar vulnerabilidades con autorización previa",
+      "Instalar malware",
+      "Robar datos"
+    ],
+    "a": 1
+  }
+]

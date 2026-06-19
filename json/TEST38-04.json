@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Dentro de la suite @firma, ¿qué componente actúa como Autoridad de Sellado de Tiempo?",
+    "o": [
+      "Integr@.",
+      "TS@.",
+      "VALet.",
+      "eVisor."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué componente de la suite @firma es un sistema de validación de certificados frente a listas TSL europeas?",
+    "o": [
+      "VALet.",
+      "Monitoriz@.",
+      "@firmaCRL.",
+      "FIRe."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Para qué sirve el componente 'eVisor' dentro de la suite de servicios de @firma?",
+    "o": [
+      "Para interceptar el tráfico de red de las firmas maliciosas.",
+      "Como generador de informes y justificantes de firma (representación gráfica y validación).",
+      "Para ver las pantallas de los usuarios en control remoto.",
+      "Como editor de bases de datos para certificados revocados."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué componente de la suite @firma actúa como un 'broker de firma electrónica' facilitando la integración con múltiples proveedores de firma?",
+    "o": [
+      "Portafirmas.",
+      "FIRe.",
+      "AutoFirma.",
+      "@firmaCRL."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué sistema de la suite permite la descarga y publicación de las Listas de Revocación de Certificados (CRLs) de Prestadores Registrados?",
+    "o": [
+      "Monitoriz@.",
+      "@firmaCRL.",
+      "VALet.",
+      "Integr@."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En la versión 6.4 de @firma, ¿qué mejora se introdujo respecto a la trazabilidad e información a responsables de aplicativos?",
+    "o": [
+      "El cobro automático de licencias anuales.",
+      "El envío de correos electrónicos a responsables de los aplicativos con certificado próximo a caducar.",
+      "La destrucción automática de certificados obsoletos.",
+      "El cifrado de datos de usuario con claves cuánticas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué elemento de la suite @firma está diseñado específicamente para integrarse en los flujos de trabajo organizativos y permitir la firma secuencial o en paralelo de documentos?",
+    "o": [
+      "Portafirmas / Portafirmas Móvil.",
+      "VALIDe.",
+      "TS@.",
+      "Firma Móvil."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Con respecto al cliente AutoFirma en la versión 6.4, ¿cuál de las siguientes es una mejora introducida?",
+    "o": [
+      "Mejoras en firmas PADES y firma por lotes.",
+      "Coherencia entre cofirmas y mejora en el servicio de firma triásica.",
+      "Mejora en instalador MSI y en la presentación de mensajes de error.",
+      "Todas las respuestas son correctas."
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿A qué política de la Administración General del Estado (AGE) se ha preparado la adaptación global de la suite @firma en su versión 6.4?",
+    "o": [
+      "Política de la AGE 1.0",
+      "Política de la AGE 2.0",
+      "Política de Seguridad Nacional 3.0",
+      "Plan Nacional de Recuperación Transformación y Resiliencia."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué verificación de configuración a nivel estricto se incluye en el backend de administración de @firma 6.4?",
+    "o": [
+      "Verificación de la configuración del Directorio Activo corporativo.",
+      "Verificación de configuración DIR3 (Directorio Común de Unidades Orgánicas y Oficinas).",
+      "Verificación de compatibilidad con sistemas operativos Mac OS exclusivamente.",
+      "Verificación de cortafuegos perimetrales automáticos."
+    ],
+    "a": 1
+  }
+]

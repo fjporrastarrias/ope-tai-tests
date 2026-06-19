@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué registro de recurso (RR) de DNS indica el servidor DNS primario y responsable del mantenimiento de la información de la zona?",
+    "o": [
+      "PTR (Pointer)",
+      "NS (Name Server)",
+      "SOA (Start of Authority)",
+      "CAA (Certificate Authority Authorization)"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En las firmas digitales de DNSSEC, ¿qué registro de recurso contiene específicamente la clave pública de la zona?",
+    "o": [
+      "RRSIG",
+      "NSEC",
+      "DNSKEY",
+      "CAA"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Dentro del encabezado de un mensaje DNS, ¿cuántos bits se destinan al campo ID del mensaje y para qué sirve?",
+    "o": [
+      "8 bits; identifica la clase de la consulta.",
+      "16 bits; identifica el paquete y permite asociar consultas con respuestas, protegiendo contra falsificaciones.",
+      "4 bits; indica el código de operación (Opcode).",
+      "1 bit; diferencia si es consulta o respuesta."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En los flags de un mensaje DNS, ¿qué significan las siglas TC y qué indica su activación?",
+    "o": [
+      "Total Connection; la conexión TCP es obligatoria.",
+      "Truncation; indica que el mensaje está truncado por superar la longitud máxima permitida.",
+      "Type Class; define el tipo de registro solicitado.",
+      "Time-to-Live Count; decrementa el número de saltos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué mecanismo de extensión permite a los mensajes DNS superar el límite tradicional de 512 bytes sobre datagramas UDP?",
+    "o": [
+      "EDNS0 (RFC 2671)",
+      "DNSSEC (RFC 4033)",
+      "AXFR Zones Extension",
+      "Dynamic Update Protocol"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Cuando un servidor DNS no autoritativo y no recursivo responde a un cliente indicándole a qué otros servidores redirigir la consulta, ¿cómo se denomina esta respuesta?",
+    "o": [
+      "Authoritative Answer",
+      "NXDOMAIN",
+      "Referral Response",
+      "Dynamic Response"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué RFC define el mecanismo de actualizaciones dinámicas en el Sistema de Nombres de Dominio (DNS UPDATE)?",
+    "o": [
+      "RFC 1945",
+      "RFC 2136",
+      "RFC 2616",
+      "RFC 7230"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Por defecto, ¿qué método utiliza el servidor DNS BIND para informar inmediatamente a los servidores secundarios que ha habido cambios en los ficheros de zona?",
+    "o": [
+      "Refresh Time Expiration",
+      "NOTIFY",
+      "Zone Pulling",
+      "Dynamic Replic"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el protocolo FTP, ¿qué comando se utiliza para solicitar el modo de transferencia pasivo?",
+    "o": [
+      "PORT",
+      "PASV",
+      "MODE C",
+      "RETR"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la función del comando FTP denominado 'STOU'?",
+    "o": [
+      "Detener (Stop) la transferencia de manera abrupta.",
+      "Almacenar un archivo (Store) asegurando que el nombre asignado en el destino sea único.",
+      "Reiniciar la transferencia desde un punto de control (Restart).",
+      "Borrar la estructura de directorios del servidor."
+    ],
+    "a": 1
+  }
+]

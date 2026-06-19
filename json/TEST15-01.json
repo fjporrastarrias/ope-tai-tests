@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿En qué artículo de la Ley 40/2015 de Régimen Jurídico del Sector Público se define el Esquema Nacional de Interoperabilidad (ENI)?",
+    "o": [
+      "Artículo 156",
+      "Artículo 146",
+      "Artículo 166",
+      "Artículo 115"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué Real Decreto regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica?",
+    "o": [
+      "Real Decreto 4/2010, de 8 de enero",
+      "Real Decreto 3/2010, de 8 de enero",
+      "Real Decreto 4/2015, de 1 de octubre",
+      "Real Decreto 203/2021, de 30 de marzo"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Según el modelo de color RGB, ¿en qué rango se sitúan los valores numéricos para representar un color?",
+    "o": [
+      "De 0 a 100",
+      "De 0 a 255",
+      "De 1 a 1000",
+      "De -128 a 127"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿En qué unidad se miden las componentes del modelo de color CMYK?",
+    "o": [
+      "Valores enteros de 0 a 255",
+      "Grados numéricos",
+      "Porcentaje, de 0% a 100%",
+      "Bits de profundidad"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En los modelos de color HSL y HSV, ¿en qué unidad se mide el componente del matiz (H)?",
+    "o": [
+      "Porcentaje",
+      "Grados",
+      "Valores de 0 a 255",
+      "Radianes"
+    ],
+    "a": 1
+  },
+  {
+    "q": "El modelo de color HSL también se conoce como HSI debido a su componente de:",
+    "o": [
+      "Iluminación",
+      "Intensidad",
+      "Indexación",
+      "Infrarrojo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "El modelo de color HSV recibe también el nombre de HSB por su componente de:",
+    "o": [
+      "Brillo (Brightness)",
+      "Blanco (Whiteness)",
+      "Balance (Balance)",
+      "Binarización (Binarization)"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cómo se mide el componente único de la escala de grises según el documento técnico?",
+    "o": [
+      "Porcentaje de 0% a 100%",
+      "Por el componente luminosidad, en valores de 0 a 255",
+      "En grados de 0 a 360",
+      "Por el valor de saturación binaria"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la finalidad principal del Esquema Nacional de Interoperabilidad (ENI)?",
+    "o": [
+      "Garantizar la seguridad física y lógica de los centros de proceso de datos.",
+      "Crear las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad técnica, semántica y organizativa.",
+      "Regular exclusivamente la firma electrónica avanzada de los ciudadanos.",
+      "Establecer las sanciones por el incumplimiento de la protección de datos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué disposición del RD 4/2010 fija el desarrollo de las Normas Técnicas de Interoperabilidad (NTI)?",
+    "o": [
+      "La Disposición adicional primera",
+      "La Disposición transitoria única",
+      "El Artículo 1",
+      "El Anexo II"
+    ],
+    "a": 0
+  }
+]

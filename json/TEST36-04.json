@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Según el documento de la CSCDA, ¿qué aplicación de intercambio registral debe estar expresamente certificada por el Ministerio en base a una norma concreta?",
+    "o": [
+      "La aplicación de Registro en cumplimiento con el modelo SICRES / entorno SIR",
+      "GEX en base a la contabilidad presupuestaria",
+      "NAOS Suite de la Junta de Andalucía",
+      "La FAQ de EPRINSA"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué campo del protocolo SICRES es esencial para aportar información sobre el carácter original o de copia del documento digital aportado como anexo?",
+    "o": [
+      "El campo 'Validez del documento'",
+      "El metadato 'Clasificación = 10'",
+      "El indicador 'Bandeja favorita'",
+      "El campo 'DIR3 estricto'"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Según lo establecido en el art. 27 de la Ley 39/2015, ¿qué requisitos indispensables deben incluir las copias electrónicas realizadas por la Administración de documentos en papel?",
+    "o": [
+      "Un formato zip comprimido con algoritmos AES-256",
+      "Garantizar la identidad del órgano y poseer los metadatos que acrediten su condición de copia",
+      "Estar firmadas exclusivamente con seudónimo de empleado público",
+      "Ser almacenadas únicamente en la aplicación local de Registro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con las recomendaciones de la CSCDA (Recomendación 7), ¿cuál es el proceder correcto respecto a la aplicación de registro de entrada y sala?",
+    "o": [
+      "Utilizarla como el repositorio digital permanente de la entidad",
+      "Proceder a la descarga y almacenamiento seguro en sistemas de gestión integral y NO usar la aplicación de registro como repositorio digital o archivo permanente",
+      "Duplicar todos los anexos firmados en soportes locales extraíbles semanalmente",
+      "Eliminar los metadatos de validación inmediatamente tras el asiento registral"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué sistema de información común o plataforma se describe en las guías para realizar el envío y la gestión de notificaciones electrónicas fehacientes conforme a la normativa común?",
+    "o": [
+      "SIA (Sistema de Información Administrativa)",
+      "Notific@ / DEHú (Dirección Electrónica Habilitada única)",
+      "RES Mantenimiento",
+      "Eprical Contabilidad"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Para el acceso ordinario a las notificaciones electrónicas puestas a disposición, ¿qué elemento técnico de validación se requiere obligatoriamente?",
+    "o": [
+      "Un nombre de usuario y una clave de acceso estándar",
+      "Un certificado electrónico validado",
+      "Un código de barras impreso en un sobre",
+      "Una solicitud previa en 'NAOS Gestión Integral TI'"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué entidad emite el certificado de sello electrónico utilizado por Notific@ para las actuaciones automatizadas de admisión, puesta a disposición y caducidad?",
+    "o": [
+      "EPRINSA, Diputación de Córdoba",
+      "FNMT-RCM con titularidad de la Dirección General de Estrategia Digital y Gobierno Abierto de la Junta de Andalucía",
+      "La Jefatura Superior de Policía (DNI-e)",
+      "El propio Ayuntamiento de Priego de Córdoba"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Conforme a la Orden de 21 de febrero de 2005 de la Junta de Andalucía sobre disponibilidad pública de programas informáticos, ¿qué elemento se pone a disposición?",
+    "o": [
+      "Únicamente los ejecutables compilados de las aplicaciones",
+      "El código fuente de los programas y aplicaciones informáticas y la documentación asociada de su propiedad",
+      "Los datos personales de los solicitantes de las unidades TIC",
+      "Las bases de datos relacionales de contabilidad"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el ámbito de las notificaciones, ¿qué control automatizado se efectúa según los parámetros de configuración del envío?",
+    "o": [
+      "El control de plazos según los parámetros del envío y expiración de los envíos",
+      "La alteración de la validez jurídica del documento original",
+      "El cambio inmediato de la bandeja gestora de GEX",
+      "La fiscalización contable automática de las tasas de ensobrado"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es una de las soluciones o sistemas verticales de la AGE que, según el inventario analizado, solo precisan anotación registral y se integran opcionalmente?",
+    "o": [
+      "GEX Corporativo",
+      "FACTURAE / NOTIFICA / DEHU / ARCHIVE / FACE_B2B",
+      "Eprinsa FAQ",
+      "Mantenimiento Usos - EPRINSA_FORMACION"
+    ],
+    "a": 1
+  }
+]

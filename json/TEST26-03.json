@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuántos roles maestros de operaciones únicas de maestro flexible (FSMO) existen de manera estándar dentro de un dominio único de un bosque de Active Directory?",
+    "o": [
+      "3",
+      "5",
+      "7",
+      "2"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuáles son los dos roles FSMO que tienen un alcance exclusivo a nivel de TODO el Bosque (únicos por bosque)?",
+    "o": [
+      "RID Master y PDC Emulator",
+      "Schema Master y Domain Naming Master",
+      "Infrastructure Master y Schema Master",
+      "Domain Naming Master y RID Master"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué rol FSMO es el responsable directo de regular y autorizar la adición, eliminación o renombrado de dominios dentro del bosque corporativo?",
+    "o": [
+      "Schema Master",
+      "PDC Emulator",
+      "Domain Naming Master",
+      "RID Master"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué rol FSMO actúa como origen del tiempo de referencia para la sincronización horaria de la red y procesa de forma preferente los cambios y bloqueos de contraseñas?",
+    "o": [
+      "RID Master",
+      "Infrastructure Master",
+      "PDC Emulator",
+      "Schema Master"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué rol FSMO distribuye bloques secuenciales de identificadores relativos a los diferentes Controladores de Dominio para garantizar la unicidad de los SIDs de nuevos objetos?",
+    "o": [
+      "RID Master",
+      "Infrastructure Master",
+      "Domain Naming Master",
+      "PDC Emulator"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué rol FSMO se encarga de realizar un seguimiento de las referencias a objetos de otros dominios (identidades cruzadas), garantizando la integridad interdominio?",
+    "o": [
+      "Schema Master",
+      "Infrastructure Master",
+      "RID Master",
+      "Domain Naming Master"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Si el rol de Schema Master se encuentra inaccesible debido a una caída de hardware imprevista, ¿qué actividad administrativa queda bloqueada inmediatamente?",
+    "o": [
+      "El alta de nuevos usuarios y terminales de trabajo comunes.",
+      "La modificación o extensión de la estructura de clases y atributos del directorio (ej. instalar Exchange o actualizar la versión funcional del bosque).",
+      "El inicio de sesión de todos los usuarios de la organización local.",
+      "El cambio de contraseñas de las cuentas de administradores del sistema."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes roles FSMO se replica de forma independiente en CADA uno de los dominios individuales que conforman el bosque?",
+    "o": [
+      "Schema Master",
+      "Domain Naming Master",
+      "RID Master",
+      "Ninguno, todos son a nivel de bosque."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué comando de consola avanzado de Microsoft se utiliza para administrar la base de datos de Active Directory a bajo nivel y permite realizar el 'seizure' (apropiación forzosa) de roles FSMO?",
+    "o": [
+      "dsa.msc",
+      "ntdsutil",
+      "gpresult",
+      "ipconfig /all"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué ocurre de forma inmediata si el rol Infrastructure Master reside en el mismo Controlador de Dominio que aloja el Catálogo Global en un entorno con múltiples dominios?",
+    "o": [
+      "El controlador de dominio sufrirá un fallo crítico del kernel de Windows Server.",
+      "El Infrastructure Master dejará de actualizar correctamente las referencias cruzadas a objetos externos porque considerará que ya conoce todos los datos.",
+      "Se detendrá de forma forzosa la replicación DNS local.",
+      "Se desactivará automáticamente el protocolo Kerberos."
+    ],
+    "a": 0
+  }
+]

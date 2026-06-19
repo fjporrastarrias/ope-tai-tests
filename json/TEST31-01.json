@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué sigla define las dimensiones esenciales de la seguridad de la información según el cuaderno técnico?",
+    "o": [
+      "AICDT",
+      "ACIDT",
+      "CAID",
+      "STIC"
+    ],
+    "a": 0
+  },
+  {
+    "q": "La propiedad que garantiza que una entidad es quien dice ser o asegura la procedencia de los datos es la:",
+    "o": [
+      "Confidencialidad",
+      "Trazabilidad",
+      "Autenticidad",
+      "Integridad"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿A qué dimensión afecta directamente una amenaza de Interrupción?",
+    "o": [
+      "Confidencialidad",
+      "Disponibilidad",
+      "Trazabilidad",
+      "Integridad"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Las medidas STIC destinadas a proteger los equipos frente a la emisión de radiaciones no deseadas se denominan:",
+    "o": [
+      "TRANSEC",
+      "COMPUSEC",
+      "NETSEC",
+      "EMSEC"
+    ],
+    "a": 0
+  },
+  {
+    "q": "La diferencia fundamental de TRANSEC respecto a NETSEC radica en:",
+    "o": [
+      "El uso exclusivo de cortafuegos de aplicaciones.",
+      "La prevención contra la interceptación y análisis de señales electromagnéticas.",
+      "Que solo se aplica en centros de datos cloud públicos.",
+      "No existe diferencia entre ambos términos."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Según MAGERIT, el daño sobre el activo derivado de la materialización de una amenaza es el:",
+    "o": [
+      "Riesgo",
+      "Impacto",
+      "Defecto",
+      "Salvaguarda"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué norma internacional define los principios genéricos para la Gestión de Riesgos?",
+    "o": [
+      "ISO/IEC 27001",
+      "ISO 31000",
+      "ISO/IEC 15408",
+      "UNE 71504"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué herramienta implementa la metodología MAGERIT para el análisis y gestión de riesgos?",
+    "o": [
+      "AMPARO",
+      "CARLA",
+      "CLARA",
+      "PILAR"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué guía técnica ISO/IEC proporciona directrices no certificables para la gestión del riesgo?",
+    "o": [
+      "ISO/IEC 27002",
+      "ISO/IEC 27005",
+      "ISO/IEC 27035",
+      "ISO/IEC 27004"
+    ],
+    "a": 0
+  },
+  {
+    "q": "La norma ISO/IEC 15408 es también conocida internacionalmente como:",
+    "o": [
+      "ITIL Framework",
+      "Common Criteria",
+      "Magerit v3",
+      "Tier Standard"
+    ],
+    "a": 0
+  }
+]

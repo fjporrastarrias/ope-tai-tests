@@ -1,0 +1,102 @@
+[
+  {
+    "q": "11. Si el servicio técnico de un Ayuntamiento decide reemplazar preventivamente una remesa de monitores porque observa fallos reiterados iniciales, la medida es:",
+    "o": [
+      "Mantenimiento Correctivo.",
+      "Mantenimiento Preventivo.",
+      "Mantenimiento Predictivo.",
+      "Mantenimiento Evolutivo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "12. ¿Cuál de las siguientes acciones corresponde estrictamente a una medida de soporte técnico a nivel de SOFTWARE?",
+    "o": [
+      "Instalar un disco duro adicional para copias de seguridad diarias.",
+      "Instalar un módulo de memoria RAM adicional para mejorar la fluidez.",
+      "Eliminar las cookies y los archivos temporales del equipo de un usuario.",
+      "Instalar una ampliación de memoria física en una nueva impresora de red."
+    ],
+    "a": 2
+  },
+  {
+    "q": "13. ¿Qué tipo de mantenimiento informático actúa directamente tras la aparición de una avería o error no planificado para restaurar el servicio?",
+    "o": [
+      "Mantenimiento Correctivo.",
+      "Mantenimiento Preventivo.",
+      "Mantenimiento Predictivo.",
+      "Mantenimiento de Emisiones."
+    ],
+    "a": 0
+  },
+  {
+    "q": "14. ¿Qué solución del Centro Criptológico Nacional (CCN) actúa como plataforma multiantivirus en tiempo real para análisis estático en profundidad integrada en ADA?",
+    "o": [
+      "MARTA",
+      "MARÍA",
+      "CLARA",
+      "CARMEN"
+    ],
+    "a": 1
+  },
+  {
+    "q": "15. La herramienta de seguridad desarrollada por el CCN encargada de la automatización de auditorías de configuración de routers, switches y firewalls es:",
+    "o": [
+      "ROCIO",
+      "EMMA",
+      "GLORIA",
+      "ANA"
+    ],
+    "a": 0
+  },
+  {
+    "q": "16. ¿Qué entorno o protocolo de red (Preboot Execution Environment) permite arrancar e instalar de forma centralizada un sistema operativo a través de la red?",
+    "o": [
+      "VDI",
+      "SSH",
+      "PXE",
+      "SFTP"
+    ],
+    "a": 2
+  },
+  {
+    "q": "17. ¿Cuál es el rasgo definitorio que diferencia al mantenimiento predictivo del mantenimiento preventivo tradicional?",
+    "o": [
+      "Se ejecuta siempre después de la caída crítica del sistema operativo.",
+      "Se basa en el análisis de variables continuas y diagnóstico de degradación para anticipar el fallo antes de que ocurra.",
+      "Consiste únicamente en la limpieza física y soplado de componentes de hardware.",
+      "Solo es aplicable a entornos virtualizados en la nube pública."
+    ],
+    "a": 1
+  },
+  {
+    "q": "18. Para agilizar la visualización de activos de red, controlar los accesos y automatizar auditorías de seguridad en la infraestructura, el CCN ofrece:",
+    "o": [
+      "EMMA",
+      "LORETO",
+      "VANESA",
+      "CARLA"
+    ],
+    "a": 0
+  },
+  {
+    "q": "19. Los manuales abreviados orientados a que los usuarios finales realicen sus tareas cotidianas en un nuevo equipo son generados por:",
+    "o": [
+      "El fabricante del dispositivo exclusivamente.",
+      "El servicio de soporte técnico basándose en el manual de usuario original.",
+      "El administrador de sistemas de la Diputación Provincial de forma genérica.",
+      "El propio usuario final mediante autoaprendizaje."
+    ],
+    "a": 1
+  },
+  {
+    "q": "20. Una 'ventana de mantenimiento' establecida los sábados de madrugada para aplicar parches de seguridad en el sistema operativo es un ejemplo de:",
+    "o": [
+      "Mantenimiento no programado.",
+      "Mantenimiento preventivo programado.",
+      "Mantenimiento correctivo inmediato.",
+      "Asistencia contextual pasiva."
+    ],
+    "a": 1
+  }
+]

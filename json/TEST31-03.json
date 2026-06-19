@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Determinar perfiles de usuarios y grupos para impedir el abuso de privilegios se denomina:",
+    "o": [
+      "Identificación biométrica",
+      "Segregación de funciones y tareas",
+      "Control perimetral seguro",
+      "Trazabilidad asíncrona"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Las tarjetas y tokens pertenecen al mecanismo de autenticación basado en:",
+    "o": [
+      "Algo que se conoce",
+      "Algo que se es",
+      "Algo que se tiene",
+      "Algo propio del usuario"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes protocolos de comunicaciones NO es seguro por defecto?",
+    "o": [
+      "SFTP",
+      "TFTP",
+      "SSH",
+      "TLS/SSL"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué arquitectura de red se establece para aislar los servidores públicos de la red interna corporativa?",
+    "o": [
+      "VPN de capa 3",
+      "DMZ (Zona Desmilitarizada)",
+      "Cortafuegos local",
+      "Segmentación Blade"
+    ],
+    "a": 0
+  },
+  {
+    "q": "El sistema encargado de la monitorización y correlación compleja de eventos de seguridad es el:",
+    "o": [
+      "Antivirus",
+      "IDS pasivo",
+      "SIEM",
+      "Sello de tiempo"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Los Sellos de Tiempo se utilizan específicamente para evitar el:",
+    "o": [
+      "Cifrado asimétrico",
+      "Repudio futuro de la información",
+      "Acceso por fuerza bruta",
+      "Uso de contraseñas débiles"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué tipo de malware se propaga duplicándose a sí mismo saturando las redes sin alterar ficheros?",
+    "o": [
+      "Bomba lógica",
+      "Gusano",
+      "Rootkit",
+      "Joke"
+    ],
+    "a": 0
+  },
+  {
+    "q": "El ataque TCP SYN consiste en una inundación de peticiones de conexión de tipo:",
+    "o": [
+      "Inyección de datos",
+      "Denegación de servicio (DoS)",
+      "Suplantación de identidad",
+      "Clickjacking"
+    ],
+    "a": 0
+  },
+  {
+    "q": "El ataque Smurf se caracteriza por inundar un objetivo enviando pings al broadcast mediante:",
+    "o": [
+      "Inyección SQL",
+      "Spoofing de IP",
+      "Clickjacking transparente",
+      "Envenenamiento DNS"
+    ],
+    "a": 0
+  },
+  {
+    "q": "La técnica DNS cache poisoning consiste en enviar información falsa al DNS para lograr:",
+    "o": [
+      "Secuestrar clics de ratón",
+      "Suplantar fuentes fiables y desviar tráfico",
+      "Extraer criptomonedas sin permiso",
+      "Bloquear físicamente el servidor"
+    ],
+    "a": 0
+  }
+]

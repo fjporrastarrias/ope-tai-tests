@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué protocolo es responsable de la entrega de paquetes en Internet?",
+    "o": [
+      "TCP",
+      "UDP",
+      "IP",
+      "ICMP"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la función del protocolo ICMP?",
+    "o": [
+      "Establecer conexiones TCP",
+      "Enviar mensajes de control y error",
+      "Traducir nombres de dominio",
+      "Encriptar datos de red"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué significa la sigla PDU en comunicaciones de red?",
+    "o": [
+      "Protocolo de Datos Unificado",
+      "Petición De Usuario",
+      "Unidad de Datos de Protocolo",
+      "Puerto De Usuario"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cómo se llama la PDU en la capa de Enlace de Datos?",
+    "o": [
+      "Segmento",
+      "Paquete",
+      "Trama",
+      "Bit"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cómo se llama la PDU en la capa de Red?",
+    "o": [
+      "Segmento",
+      "Paquete",
+      "Trama",
+      "Datagrama"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo se llama la PDU en la capa de Transporte?",
+    "o": [
+      "Paquete",
+      "Segmento",
+      "Trama",
+      "Mensaje"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué información incluye una dirección MAC?",
+    "o": [
+      "La ubicación geográfica del dispositivo",
+      "El identificador único de la interfaz de red física",
+      "La dirección IP del dispositivo",
+      "El nombre del propietario del dispositivo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuántos octetos tiene una dirección IPv4?",
+    "o": [
+      "2 octetos",
+      "4 octetos",
+      "6 octetos",
+      "8 octetos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el rango de valores para cada octeto en una dirección IPv4?",
+    "o": [
+      "0 a 127",
+      "0 a 255",
+      "1 a 254",
+      "0 a 64"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué protocolo se utiliza para resolver direcciones IP a direcciones MAC?",
+    "o": [
+      "DNS",
+      "DHCP",
+      "ARP",
+      "IGMP"
+    ],
+    "a": 2
+  }
+]

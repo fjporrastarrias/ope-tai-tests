@@ -1,102 +1,102 @@
 [
-{
-"q": "¿Qué edad establece la LOPDGDD como mínima para que los menores puedan prestar su consentimiento para el tratamiento de sus datos personales?",
-"o": [
-"13 años",
-"14 años",
-"16 años",
-"18 años"
-],
-"a": 1
-},
-{
-"q": "¿A quién permite la LOPDGDD solicitar el acceso a los datos de personas fallecidas, como regla general?",
-"o": [
-"A cualquier ciudadano que lo solicite por escrito.",
-"Exclusivamente al cónyuge.",
-"A personas vinculadas al fallecido por razones familiares o de hecho, y a sus herederos.",
-"Los datos de fallecidos se destruyen automáticamente y nadie puede acceder."
-],
-"a": 2
-},
-{
-"q": "Según el principio de exactitud, los datos de carácter personal deben ser:",
-"o": [
-"Aproximados y mantenidos históricamente.",
-"Exactos y, si fuera necesario, actualizados.",
-"Inalterables desde su primera recogida.",
-"Borrados cada 6 meses por motivos de seguridad."
-],
-"a": 1
-},
-{
-"q": "El deber de confidencialidad del responsable y de todos los que intervengan en cualquier fase del tratamiento:",
-"o": [
-"Expira al año de terminar la relación laboral.",
-"Subsiste únicamente mientras dura la relación de prestación de servicios.",
-"Es complementario al de exactitud y dura 10 años.",
-"Subsiste aun cuando hubiese finalizado la relación del obligado con el responsable o encargado."
-],
-"a": 3
-},
-{
-"q": "¿En qué artículo de la Constitución Española se fundamenta el derecho a la protección de datos que desarrolla la LOPDGDD?",
-"o": [
-"Artículo 14",
-"Artículo 18.4",
-"Artículo 24.1",
-"Artículo 9.3"
-],
-"a": 1
-},
-{
-"q": "¿Puede ampararse en el consentimiento el tratamiento de datos para evitar que el interesado sufra discriminación por motivos de orientación sexual?",
-"o": [
-"Sí, el consentimiento lo convalida todo.",
-"No, el solo consentimiento del afectado no bastará para levantar la prohibición de tratar estos datos.",
-"Sí, si está firmado ante notario.",
-"No, están prohibidos bajo cualquier circunstancia y excepción."
-],
-"a": 1
-},
-{
-"q": "La LOPDGDD es la Ley Orgánica:",
-"o": [
-"15/1999, de 13 de diciembre.",
-"3/2018, de 5 de diciembre.",
-"3/2018, de 15 de diciembre.",
-"5/2018, de 3 de diciembre."
-],
-"a": 1
-},
-{
-"q": "¿Están sujetos a la LOPDGDD los tratamientos de datos con fines de prevención, investigación y enjuiciamiento de infracciones penales?",
-"o": [
-"Sí, plenamente.",
-"No, se rigen por la Ley Orgánica 7/2021 y la Directiva correspondiente.",
-"Sí, pero solo para datos biométricos.",
-"No, se rigen por el Código Civil."
-],
-"a": 1
-},
-{
-"q": "¿Cuál es la norma comunitaria de aplicación directa que motivó la promulgación de la LOPDGDD?",
-"o": [
-"La Directiva 95/46/CE.",
-"El Reglamento (UE) 2016/679 (RGPD).",
-"El Convenio 108 del Consejo de Europa.",
-"La Directiva NIS2."
-],
-"a": 1
-},
-{
-"q": "¿A partir de qué edad puede el menor ejercer por sí mismo los derechos de acceso, rectificación, supresión y oposición?",
-"o": [
-"A partir de los 13 años.",
-"A partir de los 14 años.",
-"A partir de los 16 años.",
-"Al alcanzar la mayoría de edad (18 años)."
-],
-"a": 1
-}
+  {
+    "q": "¿Qué edad establece la LOPDGDD como mínima para que los menores puedan prestar su consentimiento para el tratamiento de sus datos personales?",
+    "o": [
+      "13 años",
+      "14 años",
+      "16 años",
+      "18 años"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿A quién permite la LOPDGDD solicitar el acceso a los datos de personas fallecidas, como regla general?",
+    "o": [
+      "A cualquier ciudadano que lo solicite por escrito.",
+      "Exclusivamente al cónyuge.",
+      "A personas vinculadas al fallecido por razones familiares o de hecho, y a sus herederos.",
+      "Los datos de fallecidos se destruyen automáticamente y nadie puede acceder."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según el principio de exactitud, los datos de carácter personal deben ser:",
+    "o": [
+      "Aproximados y mantenidos históricamente.",
+      "Exactos y, si fuera necesario, actualizados.",
+      "Inalterables desde su primera recogida.",
+      "Borrados cada 6 meses por motivos de seguridad."
+    ],
+    "a": 1
+  },
+  {
+    "q": "El deber de confidencialidad del responsable y de todos los que intervengan en cualquier fase del tratamiento:",
+    "o": [
+      "Expira al año de terminar la relación laboral.",
+      "Subsiste únicamente mientras dura la relación de prestación de servicios.",
+      "Es complementario al de exactitud y dura 10 años.",
+      "Subsiste aun cuando hubiese finalizado la relación del obligado con el responsable o encargado."
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿En qué artículo de la Constitución Española se fundamenta el derecho a la protección de datos que desarrolla la LOPDGDD?",
+    "o": [
+      "Artículo 14",
+      "Artículo 18.4",
+      "Artículo 24.1",
+      "Artículo 9.3"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Puede ampararse en el consentimiento el tratamiento de datos para evitar que el interesado sufra discriminación por motivos de orientación sexual?",
+    "o": [
+      "Sí, el consentimiento lo convalida todo.",
+      "No, el solo consentimiento del afectado no bastará para levantar la prohibición de tratar estos datos.",
+      "Sí, si está firmado ante notario.",
+      "No, están prohibidos bajo cualquier circunstancia y excepción."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La LOPDGDD es la Ley Orgánica:",
+    "o": [
+      "15/1999, de 13 de diciembre.",
+      "3/2018, de 5 de diciembre.",
+      "3/2018, de 15 de diciembre.",
+      "5/2018, de 3 de diciembre."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Están sujetos a la LOPDGDD los tratamientos de datos con fines de prevención, investigación y enjuiciamiento de infracciones penales?",
+    "o": [
+      "Sí, plenamente.",
+      "No, se rigen por la Ley Orgánica 7/2021 y la Directiva correspondiente.",
+      "Sí, pero solo para datos biométricos.",
+      "No, se rigen por el Código Civil."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la norma comunitaria de aplicación directa que motivó la promulgación de la LOPDGDD?",
+    "o": [
+      "La Directiva 95/46/CE.",
+      "El Reglamento (UE) 2016/679 (RGPD).",
+      "El Convenio 108 del Consejo de Europa.",
+      "La Directiva NIS2."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿A partir de qué edad puede el menor ejercer por sí mismo los derechos de acceso, rectificación, supresión y oposición?",
+    "o": [
+      "A partir de los 13 años.",
+      "A partir de los 14 años.",
+      "A partir de los 16 años.",
+      "Al alcanzar la mayoría de edad (18 años)."
+    ],
+    "a": 1
+  }
 ]

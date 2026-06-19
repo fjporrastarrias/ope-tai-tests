@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Al realizar una petición web convencional, ¿cuál es el orden correcto de pasos que ejecuta el cliente HTTP?",
+    "o": [
+      "Abrir conexión TCP, codificar URL, enviar comando, recibir respuesta, cerrar conexión.",
+      "Decodificar URL, abrir conexión TCP, enviar comando/petición, recibir respuesta, cerrar conexión.",
+      "Enviar comando GET, abrir puerto TCP, procesar cabeceras MIME, guardar en caché.",
+      "Establecer Keep-Alive, solicitar DNS inverso, iniciar negociación SSL, parsear HTML."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué método HTTP/1.1 se utiliza específicamente para pedir una respuesta idéntica a GET pero SIN el cuerpo de la respuesta, con el fin de consultar metadatos?",
+    "o": [
+      "OPTIONS",
+      "TRACE",
+      "HEAD",
+      "CONNECT"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según la RFC 5789, ¿qué método no básico de HTTP permite aplicar modificaciones parciales a un recurso de manera similar a PUT?",
+    "o": [
+      "MERGE",
+      "UPDATE",
+      "PATCH",
+      "PROPPATCH"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En las cabeceras HTTP, ¿cuál corresponde estrictamente a un elemento enviado por el cliente para indicar la URL de procedencia desde la que se solicitó el recurso actual?",
+    "o": [
+      "User-Agent",
+      "Referer",
+      "Host",
+      "Content-Location"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la diferencia fundamental entre una URL y una URN dentro del estándar URI?",
+    "o": [
+      "La URL indica la ubicación del recurso, mientras que la URN designa al recurso de forma permanente independientemente de su localización.",
+      "La URL es exclusiva de HTTP, mientras que la URN solo se emplea en transferencias de ficheros pesados.",
+      "La URN es una versión obsoleta que ha sido sustituida por completo por las URL dinámicas.",
+      "La URL es obligatoria en intranets corporativas y la URN es exclusiva de la red pública externa."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué versión histórica de HTTP introdujo por primera vez soporte para Cookies, Pipelining y conexiones persistentes (Keepalive)?",
+    "o": [
+      "HTTP/0.9",
+      "HTTP/1.0",
+      "HTTP/1.1",
+      "HTTP/2.0"
+    ],
+    "a": 2
+  },
+  {
+    "q": "A nivel de arquitectura de red en una Entidad Local, ¿cuál es la diferencia conceptual entre Intranet y Extranet?",
+    "o": [
+      "La Intranet opera con tecnología IP y la Extranet funciona exclusivamente sobre redes de telefonía analógica.",
+      "La Intranet es una red privada interna para los empleados públicos, mientras que la Extranet extiende esa red privada de forma controlada a usuarios externos autorizados.",
+      "La Intranet requiere servidores en la nube y la Extranet funciona mediante redes Mesh locales.",
+      "No existe diferencia alguna, son términos comerciales sin trasfondo técnico diferencial."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Bajo el ordenamiento jurídico español actual, ¿qué Real Decreto regula de manera obligatoria la accesibilidad de los sitios web y aplicaciones móviles del sector público?",
+    "o": [
+      "Real Decreto 311/2022 (Esquema Nacional de Seguridad).",
+      "Real Decreto 4/2010 (Esquema Nacional de Interoperabilidad).",
+      "Real Decreto 1112/2018.",
+      "Ley 39/2015 del Procedimiento Administrativo Común."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué norma técnica española sirve de referencia de conformidad para el cumplimiento de los requisitos de accesibilidad web exigidos a las administraciones públicas?",
+    "o": [
+      "UNE-EN 301549 (basada en las WCAG)",
+      "ISO 9001",
+      "UNE-ISO/IEC 27001",
+      "UNE-EX 41501"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿A qué principio fundamental de las WCAG pertenece la pauta que exige 'proporcionar alternativas textuales para todo contenido no textual'?",
+    "o": [
+      "Operable",
+      "Comprensible",
+      "Robusto",
+      "Perceptible"
+    ],
+    "a": 3
+  }
+]

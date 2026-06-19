@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la diferencia fundamental entre TCP y UDP?",
+    "o": [
+      "TCP es inalámbrico y UDP es alámbrico",
+      "TCP es orientado a conexión y UDP no",
+      "TCP es más rápido que UDP",
+      "UDP no permite transmitir datos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué capa OSI proporciona servicios a las aplicaciones?",
+    "o": [
+      "Capa de Transporte",
+      "Capa de Presentación",
+      "Capa de Aplicación",
+      "Capa de Red"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la función de la capa de Sesión?",
+    "o": [
+      "Transmitir bits por cable",
+      "Establecer, mantener y terminar diálogos entre aplicaciones",
+      "Enrutar paquetes de datos",
+      "Convertir códigos de caracteres"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué hace la capa de Presentación?",
+    "o": [
+      "Enruta paquetes entre redes",
+      "Traduce, cifra y comprime datos",
+      "Transmite bits por el medio físico",
+      "Gestiona conexiones de aplicación"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la capa más alta del modelo OSI?",
+    "o": [
+      "Capa de Presentación",
+      "Capa de Transporte",
+      "Capa de Aplicación",
+      "Capa de Sesión"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué unidad de datos se utiliza en la capa de Aplicación?",
+    "o": [
+      "Bits",
+      "Tramas",
+      "Paquetes",
+      "Mensajes"
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿Cuál es el modelo de referencia que simplifica el modelo OSI en menos capas?",
+    "o": [
+      "El modelo de 5 capas",
+      "El modelo OSI original",
+      "El modelo TCP/IP o Internet",
+      "El modelo de Arpanet"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuántas capas tiene el modelo TCP/IP?",
+    "o": [
+      "7 capas",
+      "5 capas",
+      "4 capas",
+      "6 capas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué protocolos forman la suite TCP/IP?",
+    "o": [
+      "Solo TCP y UDP",
+      "TCP, UDP, IP, ICMP y muchos otros",
+      "Solo HTTP y HTTPS",
+      "IP y Ethernet"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la principal ventaja del modelo TCP/IP respecto al OSI?",
+    "o": [
+      "Tiene más capas",
+      "Es más simple y se implementó con éxito en Internet",
+      "Usa solo protocolos inalámbricos",
+      "Es más antiguo"
+    ],
+    "a": 1
+  }
+]

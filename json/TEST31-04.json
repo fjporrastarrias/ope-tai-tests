@@ -1,0 +1,102 @@
+[
+  {
+    "q": "El estándar internacional de referencia para la Gestión de Incidencias en un CAU es:",
+    "o": [
+      "ISO 31000",
+      "ITIL",
+      "Common Criteria",
+      "TIA-942"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Remitir una incidencia a un nivel superior especializado por complejidad o criticidad se denomina:",
+    "o": [
+      "Categorización",
+      "Escalado",
+      "Diagnóstico inicial",
+      "Priorización"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de las siguientes soluciones de gestión de incidencias es de código abierto (Open Source)?",
+    "o": [
+      "Zendesk",
+      "GLPI",
+      "Jira Service Desk",
+      "BMC REMEDY"
+    ],
+    "a": 0
+  },
+  {
+    "q": "El acceso a Escritorio Remoto sigue un modelo arquitectónico de tipo:",
+    "o": [
+      "Sistemas distribuidos",
+      "Cliente-Servidor",
+      "Redundancia activa simétrica",
+      "Criptografía asimétrica"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué herramienta del CCN-CERT está destinada de forma exclusiva al borrado seguro de datos?",
+    "o": [
+      "LORETO",
+      "CARLA",
+      "OLVIDO",
+      "PILAR"
+    ],
+    "a": 0
+  },
+  {
+    "q": "La plataforma unificada del CCN-CERT que integra los análisis estáticos y dinámicos se denomina:",
+    "o": [
+      "ANA",
+      "ADA",
+      "REYES",
+      "EMMA"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué solución ligera del CCN-CERT actúa frente al ransomware mediante vacunas en Windows?",
+    "o": [
+      "microCLAUDIA",
+      "CARMEN",
+      "CCNDroid",
+      "GLORIA"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la función principal de la herramienta INES del CCN-CERT?",
+    "o": [
+      "Servir como simulador de cibervigilancia",
+      "Evaluar el Estado de Seguridad y adecuación al ENS",
+      "Automatizar auditorías perimetrales continuas",
+      "Gestionar logs y eventos complejos"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué herramienta del CCN-CERT automatiza la auditoría de configuraciones en routers y firewalls?",
+    "o": [
+      "ROCIO",
+      "VANESA",
+      "LUCIA",
+      "AMPARO"
+    ],
+    "a": 0
+  },
+  {
+    "q": "La solución del CCN-CERT para compartir información de ciberamenazas basada en MISP se llama:",
+    "o": [
+      "REYES",
+      "IRIS",
+      "LORETO",
+      "ANGELES"
+    ],
+    "a": 0
+  }
+]

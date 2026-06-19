@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es el puerto estándar asignado por la IANA para la transferencia de correo entre servidores de correo (MTA a MTA) mediante SMTP?",
+    "o": [
+      "23",
+      "25",
+      "110",
+      "143"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué comando SMTP se introduce para iniciar el cuerpo del mensaje de correo electrónico?",
+    "o": [
+      "MAIL FROM",
+      "RCPT TO",
+      "DATA",
+      "BODY"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según la RFC 5321, ¿cómo indica el cliente SMTP al servidor que ha finalizado la introducción de los datos del mensaje (cuerpo)?",
+    "o": [
+      "Enviando el comando QUIT",
+      "Mediante una línea que contiene únicamente un punto (.)",
+      "Mediante la secuencia \\EOF",
+      "Enviando el comando END"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué puerto se recomienda habitualmente para la sumisión de mensajes desde un cliente de correo (MUA) a un servidor SMTP (Message Submission)?",
+    "o": [
+      "25",
+      "110",
+      "143",
+      "587"
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿Cuál es la principal diferencia entre los comandos HELO y EHLO en el protocolo SMTP?",
+    "o": [
+      "EHLO se utiliza en conexiones UDP y HELO en TCP",
+      "EHLO se utiliza para iniciar extensiones de SMTP (ESMTP) y HELO es para el SMTP clásico",
+      "HELO cifra la sesión automáticamente y EHLO no",
+      "No existe diferencia, son sinónimos exactos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué código numérico de respuesta de un servidor SMTP indica que el servicio está listo para operar (saludo inicial)?",
+    "o": [
+      "220",
+      "250",
+      "354",
+      "550"
+    ],
+    "a": 0
+  },
+  {
+    "q": "El código de respuesta SMTP '354' se recibe típicamente como respuesta a qué comando del cliente:",
+    "o": [
+      "EHLO",
+      "MAIL FROM",
+      "DATA",
+      "QUIT"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué comando de SMTP permite abortar la transacción de correo en curso, limpiando los buffers del remitente y destinatarios, sin cerrar la conexión?",
+    "o": [
+      "QUIT",
+      "RSET",
+      "VRFY",
+      "REST"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la RFC que define actualmente la especificación principal del protocolo SMTP (Simple Mail Transfer Protocol)?",
+    "o": [
+      "RFC 1939",
+      "RFC 3501",
+      "RFC 5321",
+      "RFC 2616"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué indica el código de error SMTP 550?",
+    "o": [
+      "La acción solicitada no se realizó porque el buzón de correo no estaba disponible o no se encontró",
+      "El servidor está cerrando el canal de transmisión",
+      "Comando no implementado",
+      "Error de sintaxis en los parámetros"
+    ],
+    "a": 0
+  }
+]

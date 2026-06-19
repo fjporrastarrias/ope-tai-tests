@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál de las siguientes es una función general de la administración del sistema operativo descrita en el temario?",
+    "o": [
+      "Gestión de desarrollo de microservicios en la nube.",
+      "Gestión de los sistemas de ficheros, memoria, procesos y actualizaciones.",
+      "Administración de bases de datos NoSQL únicamente.",
+      "Auditoría externa de cumplimiento normativo legal."
+    ],
+    "a": 0
+  },
+  {
+    "q": "En la estructura de directorios de UNIX/Linux, ¿para qué se utiliza el directorio /proc?",
+    "o": [
+      "Para almacenar los archivos ejecutables de los comandos de usuario.",
+      "Como punto de montaje de dispositivos de medios extraíbles.",
+      "Para almacenar archivos de control de procesos del sistema.",
+      "Para guardar ficheros de configuración y scripts de arranque."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué versión de la distribución Debian corresponde al número de versión 11.0 publicado el 14/08/2021?",
+    "o": [
+      "Buster",
+      "Bullseye",
+      "Bookworm",
+      "Stretch"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Debian siempre mantiene al menos tres versiones en mantenimiento activo. ¿Cuáles son?",
+    "o": [
+      "estable (stable), en pruebas (testing) e inestable (unstable).",
+      "alfa, beta y release candidate.",
+      "LTS, estándar y desarrollo.",
+      "core, extended y premium."
+    ],
+    "a": 0
+  },
+  {
+    "q": "En un sistema SysVinit convencional, ¿a qué equivale el nivel de ejecución (runlevel) 0?",
+    "o": [
+      "Modo monousuario o de mantenimiento.",
+      "Multiusuario con soporte de red sin interfaz gráfica.",
+      "Reinicio del sistema.",
+      "Parada del sistema (apagado)."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué comando alternativo se utiliza en Linux para mostrar el runlevel actual?",
+    "o": [
+      "who -r",
+      "init status",
+      "systemctl get-default",
+      "lsb_release -r"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En el directorio /etc/rcX.d/, ¿qué indica que un enlace simbólico comience por la letra 'K'?",
+    "o": [
+      "Que el daemon se iniciará (Kernel-start) al entrar en ese nivel de ejecución.",
+      "Que el daemon se parará (Kill) al entrar en ese nivel de ejecución.",
+      "Que el enlace está corrupto o roto.",
+      "Que es un servicio exclusivo del superusuario root."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es el comando correcto en SystemD para activar un servicio de forma que se inicie automáticamente en el arranque?",
+    "o": [
+      "systemctl start servicio",
+      "systemctl status servicio",
+      "systemctl enable servicio",
+      "service servicio enable"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Para realizar un desmontaje perezoso (lazy) de un dispositivo en Linux, ¿qué opción se le pasa al comando umount?",
+    "o": [
+      "-f",
+      "-l",
+      "-p",
+      "-o loop"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué daemon es el encargado de generar los ficheros de traza o logs en el sistema operativo según el temario, y dónde se guarda su configuración?",
+    "o": [
+      "logd en /etc/log.conf",
+      "rsyslogd en /etc/syslog.conf",
+      "crond en /etc/crontab",
+      "systemd-journald en /etc/journal.conf"
+    ],
+    "a": 0
+  }
+]

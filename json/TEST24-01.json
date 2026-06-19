@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es el modelo de referencia que estructura las comunicaciones en redes en 7 capas?",
+    "o": [
+      "El modelo TCP/IP",
+      "El modelo OSI",
+      "El modelo de Berkeley",
+      "El modelo de Arpanet"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿En cuántas capas se divide el modelo OSI?",
+    "o": [
+      "5 capas",
+      "7 capas",
+      "9 capas",
+      "11 capas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la capa más baja del modelo OSI?",
+    "o": [
+      "Capa de Enlace de Datos",
+      "Capa Física",
+      "Capa de Red",
+      "Capa de Transporte"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de datos se transmiten a nivel de la capa física?",
+    "o": [
+      "Paquetes de datos",
+      "Tramas de enlace",
+      "Señales eléctricas, ópticas o radiofónicas",
+      "Mensajes de aplicación"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la función principal de la capa de Enlace de Datos?",
+    "o": [
+      "Enrutar paquetes entre redes",
+      "Proporcionar acceso al medio físico mediante direcciones MAC",
+      "Gestionar las conexiones de aplicación",
+      "Establecer sesiones entre dispositivos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué protocolo es fundamental en la capa de Enlace de Datos?",
+    "o": [
+      "IP",
+      "TCP",
+      "Ethernet",
+      "HTTP"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la responsabilidad de la capa de Red?",
+    "o": [
+      "Transmitir bits por el medio físico",
+      "Proporcionar conexión de extremo a extremo",
+      "Enrutar paquetes entre diferentes redes",
+      "Gestionar las aplicaciones de usuario"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué protocolo se utiliza en la capa de Red para el enrutamiento?",
+    "o": [
+      "TCP",
+      "IP",
+      "Ethernet",
+      "PPP"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la función de la capa de Transporte?",
+    "o": [
+      "Enrutar datos entre redes",
+      "Proporcionar comunicación de extremo a extremo confiable",
+      "Convertir datos en señales físicas",
+      "Gestionar interfaces de usuario"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué protocolos operan en la capa de Transporte?",
+    "o": [
+      "IP y ICMP",
+      "TCP y UDP",
+      "Ethernet y PPP",
+      "HTTP y HTTPS"
+    ],
+    "a": 1
+  }
+]

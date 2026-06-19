@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es la plataforma @firma del Ministerio de Asuntos Económicos y Transformación Digital?",
+    "o": [
+      "Una base de datos de ciudadanos con firma electrónica.",
+      "Una plataforma de servicios de validación y firma electrónica multi-PKI desacoplada de las aplicaciones.",
+      "Un programa que se instala obligatoriamente en los ordenadores de los ciudadanos.",
+      "El registro civil electrónico de España."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Por qué se describe a @firma como una solución 'multi-PKI'?",
+    "o": [
+      "Porque solo admite certificados del DNI electrónico.",
+      "Porque da servicio a múltiples sistemas operativos móviles simultáneamente.",
+      "Porque admite y da soporte a múltiples certificados electrónicos de diferentes prestadores y estándares de firma.",
+      "Porque requiere múltiples claves privadas para validar una sola firma."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿A qué niveles de la Administración Pública española da servicio la plataforma de validación @firma?",
+    "o": [
+      "Únicamente a la Administración General del Estado (AGE).",
+      "A las Administraciones Autonómicas exclusivamente.",
+      "Tanto a la administración estatal, como autonómica o local (incluyendo ayuntamientos como el de Priego de Córdoba).",
+      "Solo a las instituciones de la Unión Europea."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es el objetivo principal del servicio de validación de certificados de @firma?",
+    "o": [
+      "Comprobar que el certificado utilizado es válido, no ha sido revocado y tiene plena validez.",
+      "Renovar automáticamente los certificados que están a punto de caducar.",
+      "Almacenar una copia de seguridad de las claves privadas de los ciudadanos.",
+      "Cobrar las tasas correspondientes por el uso de la firma digital."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué librerías de integración proporciona @firma para facilitar que las aplicaciones de las Administraciones se conecten con sus servicios?",
+    "o": [
+      "VALIDe.",
+      "Integr@.",
+      "Monitoriz@.",
+      "VALet."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Además de ofrecerse como servicio en la nube del Ministerio, ¿cómo está disponible @firma para las administraciones que deseen instalarlo localmente?",
+    "o": [
+      "Como software de código cerrado bajo licencia comercial privativa.",
+      "Como software liberado bajo licencia EUPL (modelo federado).",
+      "Únicamente en formato de hardware físico (servidor appliance preconfigurado).",
+      "No está disponible para instalación local, solo existe en modalidad SaaS centralizado."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la versión actual de la plataforma @firma descrita en la documentación técnica del CTT?",
+    "o": [
+      "Versión 5.0",
+      "Versión 6.2",
+      "Versión 6.4",
+      "Versión 7.0"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En la versión 6.4 de @firma, ¿en qué tres componentes principales se divide su arquitectura?",
+    "o": [
+      "Frontend, Backend y Base de Datos.",
+      "Administración, Servicios Base (Validación y Firma) y Servicios Asíncronos.",
+      "Cliente, Servidor y Pasarela de Pago.",
+      "Autenticación, Autorización y Auditoría."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Bajo qué arquitectura funcional trabaja la suite @firma 6.4 respecto al nodo de procesamiento?",
+    "o": [
+      "Multi-nodo distribuido globalmente.",
+      "Mono-nodo.",
+      "Arquitectura peer-to-peer sin servidores centralizados.",
+      "Cloud computing basado exclusivamente en contenedores Docker externos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿A qué certificados europeos es aplicable la plataforma de validación de @firma?",
+    "o": [
+      "A ninguno, está restringida estrictamente al territorio nacional español.",
+      "A todos los certificados europeos incluidos en las Listas de Confianza (TSL) de sus Estados Miembros.",
+      "Solo a los certificados emitidos en Francia y Portugal por proximidad.",
+      "Únicamente a certificados de personal diplomático de la UE."
+    ],
+    "a": 1
+  }
+]

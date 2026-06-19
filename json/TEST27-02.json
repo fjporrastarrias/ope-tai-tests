@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es un firewall?",
+    "o": [
+      "Un programa antivirus",
+      "Un dispositivo que controla el tráfico de red según reglas de seguridad",
+      "Una contraseña segura",
+      "Un tipo de servidor de correo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuáles son los tipos principales de firewall?",
+    "o": [
+      "Hardware y software",
+      "Activo e inactivo",
+      "Rápido y lento",
+      "Público y privado"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué es una VPN (Red Privada Virtual)?",
+    "o": [
+      "Una red local de área amplia",
+      "Una red que encripta la conexión a través de Internet",
+      "Un servidor web público",
+      "Un tipo de cable de red"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué protocolo se utiliza comúnmente en VPNs?",
+    "o": [
+      "TCP/IP",
+      "HTTP",
+      "OpenVPN, IPSec",
+      "Ethernet"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué es la encriptación?",
+    "o": [
+      "Comprimir archivos",
+      "Convertir datos en un formato ilegible sin la clave correcta",
+      "Fragmentar archivos",
+      "Hacer copias de seguridad"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuáles son los tipos principales de encriptación?",
+    "o": [
+      "Simétrica y asimétrica",
+      "Pública y privada",
+      "Rápida y lenta",
+      "Local y remota"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué es la criptografía de clave pública?",
+    "o": [
+      "Una contraseña compartida por todos",
+      "Un sistema con dos claves: una pública y otra privada",
+      "Una contraseña muy larga",
+      "Un método para fragmentar datos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es un certificado digital?",
+    "o": [
+      "Un documento impreso",
+      "Un archivo que verifica la identidad de un sitio o persona en línea",
+      "Una contraseña",
+      "Un tipo de firewall"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué significa SSL/TLS?",
+    "o": [
+      "Protocolo de transmisión de línea simple",
+      "Capa de seguridad de transporte (encriptación de conexiones web)",
+      "Sistema de lista simple",
+      "Protocolo de servidor local"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo identificar si una conexión web es segura?",
+    "o": [
+      "Por el nombre de dominio largo",
+      "Por la presencia de 'https://' y un candado en el navegador",
+      "Por la velocidad de carga",
+      "Por el tamaño del sitio web"
+    ],
+    "a": 1
+  }
+]

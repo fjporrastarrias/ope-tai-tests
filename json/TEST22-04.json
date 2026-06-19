@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué mecanismo de seguridad se configure como un registro de tipo TXT en el DNS para declarar qué servidores e IPs están autorizados a enviar correos en nombre de un dominio?",
+    "o": [
+      "DKIM",
+      "SPF",
+      "DMARC",
+      "TLS"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué estándar de seguridad para correo electrónico añade una firma digital basada en criptografía de clave pública en las cabeceras de los mensajes para garantizar su integridad y autenticidad?",
+    "o": [
+      "SPF",
+      "DKIM",
+      "DMARC",
+      "STARTTLS"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la función primordial de DMARC en la administración de servidores de correo?",
+    "o": [
+      "Cifrar el contenido del cuerpo del mensaje extremo a extremo",
+      "Definir políticas de actuación (none, quarantine, reject) basadas en los resultados de SPF y DKIM",
+      "Sustituir el uso de registros MX en la resolución DNS",
+      "Permitir descargas más rápidas a través de redes inalámbricas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuáles son las tres políticas de alineación o directivas válidas que un administrador de correo puede declarar en su registro DMARC?",
+    "o": [
+      "allow, deny, log",
+      "none, quarantine, reject",
+      "pass, fail, softfail",
+      "encrypt, sign, bypass"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué comando o extensión del protocolo SMTP permite elevar una conexión en texto plano a una conexión cifrada de forma segura utilizando TLS en el mismo puerto activo?",
+    "o": [
+      "STARTTLS",
+      "UPGRADE_SSL",
+      "SMTPS",
+      "SECURE_CONN"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué tipo de registro de recursos DNS (Resource Record) es indispensable configurar para que internet conozca a qué servidor o servidores debe enrutarse el correo de un dominio?",
+    "o": [
+      "A",
+      "CNAME",
+      "MX",
+      "PTR"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En un registro SPF, ¿qué prefijo o cualificador indica un 'Hard Fail' (rechazo estricto si no coincide la IP)?",
+    "o": [
+      "+",
+      "~",
+      "?",
+      "-"
+    ],
+    "a": 3
+  },
+  {
+    "q": "En un registro SPF, ¿qué prefijo o cualificador indica un 'Soft Fail' (advertencia/fallo leve)?",
+    "o": [
+      "+",
+      "~",
+      "?",
+      "-"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué elemento del correo electrónico se utiliza para indicar la presencia de archivos adjuntos, contenido multimedia o texto con codificaciones especiales dentro de los mensajes?",
+    "o": [
+      "SMTP Auth",
+      "Extensiones MIME",
+      "STARTTLS",
+      "Buzón IMAP"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la RFC encargada de definir el estándar DMARC (Domain-based Message Authentication, Reporting, and Conformance)?",
+    "o": [
+      "RFC 7489",
+      "RFC 6376",
+      "RFC 7208",
+      "RFC 5321"
+    ],
+    "a": 0
+  }
+]

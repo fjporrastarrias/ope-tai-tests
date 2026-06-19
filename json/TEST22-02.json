@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es el puerto por defecto para las conexiones seguras de POP3 sobre SSL/TLS (POP3S)?",
+    "o": [
+      "110",
+      "143",
+      "993",
+      "995"
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿Cuáles son los tres estados o fases secuenciales en una sesión del protocolo POP3?",
+    "o": [
+      "Conexión, Autenticación, Cierre",
+      "Autorización, Transacción, Actualización",
+      "Identificación, Descarga, Borrado",
+      "Envío, Recepción, Sincronización"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En qué fase de la sesión POP3 se eliminan físicamente del servidor los mensajes que han sido marcados previamente con el comando DELE?",
+    "o": [
+      "Fase de Autorización",
+      "Fase de Transacción",
+      "Fase de Actualización",
+      "Inmediatamente después de enviar el comando DELE"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué comando POP3 se utiliza para obtener el número total de mensajes almacenados en el buzón y el tamaño total que ocupan en octetos?",
+    "o": [
+      "LIST",
+      "STAT",
+      "RETR",
+      "UIDL"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si un usuario ejecuta el comando 'RETR 3' en una sesión POP3, ¿qué acción está realizando?",
+    "o": [
+      "Eliminando el mensaje número 3",
+      "Listando el tamaño del mensaje número 3",
+      "Recuperando (descargando) el contenido íntegro del mensaje número 3",
+      "Reiniciando los flags del mensaje número 3"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la RFC que describe la especificación del protocolo POP3 (Post Office Protocol - Version 3)?",
+    "o": [
+      "RFC 821",
+      "RFC 1939",
+      "RFC 3501",
+      "RFC 7208"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué comando permite deshacer los marcados de eliminación de correos realizados en la sesión POP3 actual, siempre que no se haya enviado el comando QUIT?",
+    "o": [
+      "DELE 0",
+      "UNDO",
+      "RSET",
+      "REST"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué comando se emplea en POP3 para validar las credenciales de un usuario de forma secuencial simple antes de pasar a la fase de transacción?",
+    "o": [
+      "LOGIN / PASSWD",
+      "USER / PASS",
+      "AUTH / SECRET",
+      "CONNECT / KEY"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el comportamiento por defecto del protocolo POP3 tradicional respecto a los mensajes del servidor tras su descarga?",
+    "o": [
+      "Los mantiene indefinidamente y los marca como leídos",
+      "Los elimina del servidor una vez descargados completamente",
+      "Los duplica en carpetas remotas llamadas Archivo",
+      "Los cifra para que ningún otro cliente los lea"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué comando POP3 permite listar los identificadores únicos asociados a cada mensaje del buzón, evitando descargas duplicadas?",
+    "o": [
+      "STAT",
+      "LIST",
+      "UIDL",
+      "TOP"
+    ],
+    "a": 2
+  }
+]

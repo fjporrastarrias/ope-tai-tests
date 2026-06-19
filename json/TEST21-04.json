@@ -1,0 +1,102 @@
+[
+  {
+    "q": "En la administración de macOS, ¿qué herramienta de seguridad destacada se encarga de encriptar automáticamente todo el contenido del disco duro?",
+    "o": [
+      "Acceso a Llaveros",
+      "FileVault",
+      "Utilidad de discos",
+      "Homebrew"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué gestor de paquetes de código abierto para macOS utiliza herramientas como dpkg y apt-get por debajo?",
+    "o": [
+      "Homebrew (brew)",
+      "Fink",
+      "MacPorts",
+      "Pacman"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la definición principal y el propósito del paradigma de Infraestructura como Código (IaC)?",
+    "o": [
+      "Escribir código HTML para diseñar las interfaces de administración de los servidores locales.",
+      "Describir el hardware, redes, máquinas virtuales y configuración en archivos de texto legibles por máquina para automatizar su despliegue de manera consistente.",
+      "Compilar el núcleo del sistema operativo usando scripts en C.",
+      "Desarrollar controladores y software de bajo nivel para periféricos físicos."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuáles son los formatos de archivo más habituales utilizados por los equipos para guardar configuraciones en un modelo de IaC?",
+    "o": [
+      "XML y INI",
+      "JSON o YAML",
+      "CSV y TXT",
+      "HTML y PHP"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿En qué lenguajes de programación está desarrollado principalmente el gestor de entornos virtuales Chef?",
+    "o": [
+      "Python y C++",
+      "Erlang y Ruby",
+      "Go y Java",
+      "JavaScript y PHP"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Ansible se caracteriza por ser una herramienta popular en DevOps debido a dos factores críticos descritos en el temario. ¿Cuáles son?",
+    "o": [
+      "Uso de bases de datos relacionales y agentes pesados.",
+      "La simplicidad del lenguaje YAML para configuración y su arquitectura 'agentless' (sin agentes) a través de SSH.",
+      "Integración exclusiva con sistemas Microsoft Windows Server antiguos.",
+      "Ser de código cerrado con soporte propietario obligatorio."
+    ],
+    "a": 0
+  },
+  {
+    "q": "En Ansible, ¿qué es un 'playbook'?",
+    "o": [
+      "Un manual de usuario en formato PDF.",
+      "Un archivo escrito en YAML donde se describen las tareas de configuración y administración (recetas) que se ejecutarán en los nodos.",
+      "Un inventario binario de direcciones IP de los hosts.",
+      "Un plugin para monitorizar la CPU de los servidores."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Al trabajar con Terraform, ¿con qué extensión se deben crear los archivos de configuración descriptivos?",
+    "o": [
+      ".tf",
+      ".json",
+      ".yaml",
+      ".terraform"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En la arquitectura de la herramienta de gestión automática SaltStack, ¿cómo se denominan el servidor central y los clientes con agente respectivamente?",
+    "o": [
+      "Salt Master y Salt Minions",
+      "Salt Server y Salt Clients",
+      "Salt Controller y Salt Nodes",
+      "Salt Orchestrator y Salt Agents"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En SaltStack, si un cliente o sistema de destino no puede ejecutar el agente local ('minion'), ¿cómo puede contactar el Salt Master directamente con él sin agente?",
+    "o": [
+      "A través de Salt Syndic",
+      "A través de Salt Proxy Minion",
+      "A través de Salt SSH",
+      "A través de un bus ZeroMQ desprotegido"
+    ],
+    "a": 0
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "En el intérprete de comandos cmd de Windows, ¿qué comando envía el resultado directamente al portapapeles?",
+    "o": [
+      "clip",
+      "bitsadmin",
+      "doskey",
+      "subst"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Para buscar una cadena de caracteres específica en uno o varios archivos en cmd de Windows, ignorando mayúsculas y minúsculas y contando la asiduidad mediante /C, ¿qué comando ofrece funciones avanzadas como la secuencia exacta usando /C?",
+    "o": [
+      "find",
+      "findstr",
+      "fc",
+      "where"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué comando de cmd de Windows se utiliza para asignarle una letra de unidad virtual a una ruta local del sistema de archivos?",
+    "o": [
+      "subst",
+      "mklink",
+      "mountvol",
+      "move"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué comando de cmd del sistema repara y descifra unidades defectuosas cifradas con BitLocker, almacenando los archivos en una unidad de repuesto?",
+    "o": [
+      "manage-bde",
+      "bdehdcfg",
+      "repair-bde",
+      "chkdsk /R"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En cmd de Windows, ¿qué herramienta comprueba los archivos de sistema más importantes y protegidos sustituyendo las versiones incorrectas?",
+    "o": [
+      "sfc",
+      "dism",
+      "chkdsk",
+      "secedit"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En PowerShell, ¿qué parámetro común simula la ejecución de la instrucción sin realizar cambios reales en el sistema?",
+    "o": [
+      "-confirm",
+      "-passthru",
+      "-whatif",
+      "-paging"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Si deseamos borrar el contenido de todos los ficheros .log de una ruta en PowerShell sin borrar los archivos en sí, ¿qué cmdlet se debe utilizar?",
+    "o": [
+      "Remove-Item",
+      "Clear-Content",
+      "Set-Content",
+      "Clear-Variable"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En PowerShell, ¿qué clase de WMI/CIM se utiliza mediante Get-CimInstance para obtener información sobre las revisiones e ingeniería de corrección rápida instaladas en el sistema?",
+    "o": [
+      "Win32_Processor",
+      "Win32_Product",
+      "Win32_QuickFixEngineering",
+      "Win32_OperatingSystem"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cómo se filtra en PowerShell para mostrar únicamente los servicios locales que están parados ('stopped')?",
+    "o": [
+      "Get-Service -status stopped",
+      "Get-Service | Where-Object {$_.status -eq \"stopped\"}",
+      "Get-Service | Sort-Object stopped",
+      "Select-Service -Filter stopped"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuáles son los nuevos cmdlets incorporados a partir de PowerShell 7 destacados en el temario para compresión y extracción de archivos?",
+    "o": [
+      "Zip-Item y Unzip-Item",
+      "Compress-Archive y Expand-Archive",
+      "New-Zip y Expand-Zip",
+      "Tar-Item y Untar-Item"
+    ],
+    "a": 0
+  }
+]

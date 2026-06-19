@@ -1,0 +1,102 @@
+[
+  {
+    "q": "31. ¿Qué elemento del plano de control de Kubernetes permite interactuar con el clúster exponiendo la API de Kubernetes y actualizando el estado en etcd?",
+    "o": [
+      "kube-scheduler",
+      "kube-controller-manager",
+      "kube-apiserver",
+      "kubelet"
+    ],
+    "a": 2
+  },
+  {
+    "q": "32. ¿De qué se encarga el componente 'kube-scheduler' en un clúster de Kubernetes?",
+    "o": [
+      "De exponer la interfaz REST de cara al usuario externo.",
+      "De comprobar el estado del clúster, detectar Pods sin nodo asignado y seleccionar el nodo idóneo donde ejecutarlos.",
+      "De compilar los binarios de los controladores de replicación.",
+      "De cifrar los datos en reposo dentro del volumen local."
+    ],
+    "a": 1
+  },
+  {
+    "q": "33. ¿Qué es Helm dentro del ecosistema de Kubernetes?",
+    "o": [
+      "El sistema de archivos que sustituye a LXCFS.",
+      "Un administrador de paquetes para Kubernetes que permite configurar e implementar de forma más sencilla aplicaciones y servicios.",
+      "Un protocolo de interconexión para redes SAN de fibra óptica.",
+      "Un proceso en segundo plano de Oracle para gestionar estadísticas de ASH."
+    ],
+    "a": 1
+  },
+  {
+    "q": "34. ¿Qué modelo de computación en nube ofrece sus recursos y capacidades de forma compartida a través de Internet bajo un modelo de pago por uso?",
+    "o": [
+      "Nube híbrida",
+      "Nube privada",
+      "Nube pública",
+      "Nube hiperconvergente"
+    ],
+    "a": 2
+  },
+  {
+    "q": "35. ¿Cuál es el objetivo principal del despliegue de una nube privada por parte de una organización?",
+    "o": [
+      "Renunciar a la seguridad local para delegar todo el control en internet.",
+      "Lograr los beneficios tecnológicos de la nube (autoservicio, escalabilidad) sin renunciar a las medidas de seguridad y control adaptadas a sus normativas.",
+      "Eliminar la necesidad de usar hipervisores o máquinas virtuales.",
+      "Reducir el coste inicial comprando cabinas de almacenamiento JBOD exclusivamente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "36. ¿Qué componente de la arquitectura de Kubernetes almacena los datos de configuración y estado reflejados por el kube-apiserver?",
+    "o": [
+      "etcd",
+      "Helm",
+      "kube-scheduler",
+      "postmaster"
+    ],
+    "a": 0
+  },
+  {
+    "q": "37. Según el modelo Cloud del NIST, ¿qué implica la característica de 'Rápida elasticidad'?",
+    "o": [
+      "Que los recursos de red se transmiten únicamente por cables elásticos de fibra.",
+      "Que las capacidades del sistema se pueden aprovisionar rápidamente, y a veces automáticamente, para escalar recursos según la demanda.",
+      "Que los costes de las licencias varían según el día de la semana.",
+      "La capacidad de simular hardware antiguo sin necesidad de software controlador."
+    ],
+    "a": 1
+  },
+  {
+    "q": "38. ¿Qué plataforma de virtualización de servidores (hipervisor) se cita explícitamente en el texto como parte de los entornos protegidos por Acronis Backup?",
+    "o": [
+      "VMware vSphere",
+      "SQL Azure",
+      "Apache Derby",
+      "Zope ObjectDB"
+    ],
+    "a": 0
+  },
+  {
+    "q": "39. En relación con las capas de una imagen Docker, ¿cuál de ellas es de escritura?",
+    "o": [
+      "La capa inicial creada por la instrucción FROM.",
+      "Todas las capas intermedias que modifican el sistema de archivos.",
+      "La capa superior o 'capa contenedora' agregada al crear un nuevo contenedor.",
+      "Ninguna capa es de escritura, todas son estrictamente de solo lectura perpetua."
+    ],
+    "a": 2
+  },
+  {
+    "q": "40. ¿Cuál de los siguientes controladores es ejecutado por el 'kube-controller-manager' de Kubernetes según la lista explícita del texto?",
+    "o": [
+      "Controlador de nodos, de replicación, de endpoints y de tokens/cuentas de servicio.",
+      "Controlador de discos duros físicos y cabinas SAN.",
+      "Controlador de procesos en segundo plano PMON y SMON.",
+      "Controlador de vistas materializadas y consultas indexadas."
+    ],
+    "a": 0
+  }
+]

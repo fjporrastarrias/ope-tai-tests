@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué caracteriza fundamentalmente a un Agente de IA (sistema agéntico) frente a un LLM convencional interactivo?",
+    "o": [
+      "Su capacidad de responder de forma exclusiva mediante voz pregrabada de alta definición",
+      "Su autonomía para percibir el entorno, realizar planificación iterativa interna y ejecutar acciones mediante herramientas dirigidas a cumplir un objetivo sin intervención humana paso a paso",
+      "Que está programado rígidamente con sentencias 'if-else' tradicionales de lenguaje C",
+      "Que requiere un hardware cuántico dedicado para funcionar de forma estable"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Dentro del marco arquitectónico de un agente, ¿en qué consiste el patrón conceptual ReAct (Reason + Act)?",
+    "o": [
+      "En un framework de desarrollo frontend basado en JavaScript y componentes vectoriales",
+      "En encadenar ciclos explícitos de pensamiento razonado ('Thought'), acciones ejecutables ('Action') y observaciones de los resultados del entorno ('Observation')",
+      "En reaccionar bloqueando las conexiones de red ante un intento de intrusión informática",
+      "En forzar al modelo a responder exclusivamente con respuestas directas predefinidas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo expande un agente de IA sus capacidades operativas mediante el mecanismo de 'Tool Calling' o invocación de herramientas?",
+    "o": [
+      "Enviando correos electrónicos automáticos a soporte técnico para solicitar ayuda",
+      "Invocando de forma autónoma APIs externas, ejecutando fragmentos de código en entornos aislados o realizando consultas en bases de datos para recabar información dinámica",
+      "Actualizando los controladores del sistema operativo local por cuenta propia",
+      "Aumentando de forma física los módulos de memoria RAM asignados al hipervisor"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el año 2026, ¿cuál de las siguientes opciones representa la versión vigente del modelo comercial de Anthropic optimizado específicamente para desarrollo agéntico y con soporte nativo de un Agent SDK?",
+    "o": [
+      "Claude 3.0 Haiku",
+      "Claude 4.6 Sonnet (y variantes de la serie Claude 4/5)",
+      "Claude GPT-4.5 Plus",
+      "Claude Agentic Classic 2024"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué modelo de Google DeepMind destaca en el panorama actual de 2026 por poseer una ventana de contexto ultra masiva capaz de procesar repositorios de código completos o material audiovisual extenso de forma nativa?",
+    "o": [
+      "Gemini 1.0 Original",
+      "Gemini 3.1 Pro (y variantes de la serie Gemini 3 Pro/Flash)",
+      "Google BERT Vector",
+      "DeepMind AlphaGo Stream"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de las siguientes opciones representa una familia de modelos de razonamiento avanzado ('thinking') y arquitectura Mixture of Experts (MoE) de código abierto de altísimo rendimiento a bajo coste operativo?",
+    "o": [
+      "GPT-4o standard",
+      "DeepSeek-R1 / DeepSeek-V3.2",
+      "Windows Copilot Engine v1",
+      "Meta Llama 1 Legacy"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué proyecto estratégico, ideado por la Real Academia Española (RAE) junto con la SEDIA, tiene por objeto la defensa, protección y buen uso de la lengua española en el universo digital y el ámbito de la Inteligencia Artificial?",
+    "o": [
+      "Proyecto Albornoz-Digital",
+      "Proyecto LEIA (Lengua Española e Inteligencia Artificial)",
+      "Estrategia HISPA-IA",
+      "Plan Nacional de Ortografía Computacional"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el principal documento estratégico gubernamental de España que define los ejes de actuación para impulsar la investigación científica, el desarrollo tecnológico, la incorporación en la Administración Pública y un marco ético garante en el ámbito de la IA?",
+    "o": [
+      "La Ley de Contratos del Sector Público",
+      "La Estrategia Nacional de Inteligencia Artificial (ENIA)",
+      "El Esquema Nacional de Interoperabilidad (ENI)",
+      "El Reglamento General de Protección de Datos (RGPD)"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En la arquitectura agéntica, ¿cómo implementa habitualmente un agente su 'Memoria a largo plazo' para recordar interacciones pasadas a lo largo de días o semanas?",
+    "o": [
+      "Guardando la conversación en variables globales volátiles dentro del script principal",
+      "Persistiendo y recuperando información indexada mediante lecturas y escrituras estructuradas en un almacén de vectores o base de datos vectorial externa",
+      "Enviando logs de texto plano comprimidos al registro de eventos del sistema operativo",
+      "Forzando al usuario a reintroducir todo el historial al inicio de cada pregunta"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el panorama actual de 2026, ¿cuál es la denominación de los últimos modelos de Meta AI de código abierto que ofrecen capacidades de frontera y soporte de contexto extendido?",
+    "o": [
+      "Llama 2 Pro",
+      "Llama 4 (como Llama 4 Scout / Maverick)",
+      "Meta LLM Pro 2025",
+      "PyTorch Core Model v4"
+    ],
+    "a": 1
+  }
+]

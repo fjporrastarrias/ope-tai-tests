@@ -1,0 +1,102 @@
+[
+  {
+    "q": "21. ¿Cuál es el modelo de propiedad de dispositivos móviles recomendado formalmente por el Centro Criptológico Nacional (CCN)?",
+    "o": [
+      "BYOD (Bring Your Own Device)",
+      "COBO (Corporate Owned, Business Only)",
+      "CYOD (Choose Your Own Device)",
+      "PAPE"
+    ],
+    "a": 1
+  },
+  {
+    "q": "22. ¿Bajo qué dos puntos de vista clasifica el CCN las razones estratégicas para la recomendación imperativa del modelo COBO?",
+    "o": [
+      "Económico y social",
+      "Técnico y legal",
+      "Operativo y comercial",
+      "Estratégico y funcional"
+    ],
+    "a": 1
+  },
+  {
+    "q": "23. ¿Cómo se conocen las soluciones tecnológicas integrales que permiten la gestión eficiente de los dispositivos móviles a nivel empresarial?",
+    "o": [
+      "MAM",
+      "MDM (Mobile Device Management)",
+      "MEAM",
+      "OTA"
+    ],
+    "a": 1
+  },
+  {
+    "q": "24. ¿Qué término específico se utiliza para designar la gestión centrada de forma exclusiva en las aplicaciones móviles instalables?",
+    "o": [
+      "MDM",
+      "MCM",
+      "MAM o MEAM",
+      "OTA"
+    ],
+    "a": 2
+  },
+  {
+    "q": "25. ¿Cómo se denomina el modelo de comunicación inalámbrica remota empleado por el servidor MDM para configurar o actualizar terminales?",
+    "o": [
+      "NFC",
+      "OTA (Over-the-air programming)",
+      "VPN",
+      "5G"
+    ],
+    "a": 1
+  },
+  {
+    "q": "26. ¿Cuál de los siguientes elementos NO forma parte de la arquitectura básica fundamental de una solución tecnológica MDM?",
+    "o": [
+      "Un software-clienre instalado en cada terminal",
+      "Una base de datos centralizada de estado",
+      "Un modelo de comunicación remota OTA",
+      "Un cortafuegos perimetral hardware obligatorio en el terminal"
+    ],
+    "a": 3
+  },
+  {
+    "q": "27. ¿Qué siglas corresponden a la funcionalidad de las soluciones MDM encargada expresamente de la gestión de contenidos y datos corporativos?",
+    "o": [
+      "MAM",
+      "MCM",
+      "MEAM",
+      "OTA"
+    ],
+    "a": 1
+  },
+  {
+    "q": "28. ¿A qué fabricante del sector pertenece originalmente la conocida solución de gestión de movilidad empresarial 'AirWatch'?",
+    "o": [
+      "Microsoft",
+      "Cisco",
+      "VMware",
+      "SAP"
+    ],
+    "a": 2
+  },
+  {
+    "q": "29. ¿Qué guía de seguridad de la serie CCN-STIC está dedicada específicamente a la 'Gestión y uso de dispositivos móviles'?",
+    "o": [
+      "CCN-STIC 496",
+      "CCN-STIC 827",
+      "CCN-STIC 105",
+      "CCN-STIC 200"
+    ],
+    "a": 1
+  },
+  {
+    "q": "30. ¿Qué guía de seguridad de la serie CCN-STIC aborda de manera integral los 'Sistemas de comunicaciones móviles seguras'?",
+    "o": [
+      "CCN-STIC 496",
+      "CCN-STIC 827",
+      "CCN-STIC 300",
+      "CCN-STIC 500"
+    ],
+    "a": 0
+  }
+]

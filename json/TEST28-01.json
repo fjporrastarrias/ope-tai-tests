@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Según el material de estudio, ¿cuál es el tiempo de inactividad máximo recomendado antes de que se bloquee automáticamente la sesión en un puesto de usuario?",
+    "o": [
+      "10 minutos.",
+      "5 minutos.",
+      "15 minutos.",
+      "3 minutos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Dentro de la clasificación de malware expuesta, ¿qué es un rootkit?",
+    "o": [
+      "Un programa inofensivo que simula las acciones de un virus informático.",
+      "Una colección de herramientas utilizadas para ocultar una intrusión y obtener acceso con privilegios de administrador.",
+      "Malware que tiene como objetivo exclusivo generar publicidad en el equipo mediante múltiples ventanas.",
+      "Software que se limita a realizar copias de sí mismo sin alterar ficheros pero colapsando redes."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué herramienta del CCN-CERT está diseñada específicamente como una solución de endpoint para la detección de malware complejo y movimiento lateral relacionado con APT?",
+    "o": [
+      "CARLA",
+      "CLARA",
+      "CLAUDIA",
+      "EMMA"
+    ],
+    "a": 2
+  },
+  {
+    "q": "De acuerdo con las recomendaciones para la política de contraseñas robustas, ¿cada cuánto tiempo se aconseja establecer su caducidad?",
+    "o": [
+      "Cada 3 meses.",
+      "Cada 6 meses.",
+      "Cada año.",
+      "Cada mes."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de código dañino se caracteriza por reproducirse a gran velocidad para colapsar las redes por saturación, limitándose a realizar copias de sí mismo?",
+    "o": [
+      "Bomba lógica.",
+      "Gusano.",
+      "Botnet.",
+      "Rogueware."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la función principal de la herramienta microCLAUDIA del CCN-CERT?",
+    "o": [
+      "Auditar el cumplimiento del ENS en sistemas operativos Linux.",
+      "Proporcionar protección contra código dañino de tipo ransomware mediante un agente ligero que despliega vacunas.",
+      "Realizar borrado seguro de archivos y fragmentos de clúster no utilizados.",
+      "Gestionar de manera federada los tickets de incidentes de seguridad."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Entre las medidas organizativas en el puesto de usuario, la política de 'mesas limpias' implica:",
+    "o": [
+      "Mantener limpio el hardware utilizando productos específicos.",
+      "La obligación de guardar la documentación de trabajo al ausentarse del puesto y al terminar la jornada laboral.",
+      "Eliminar de la mesa los dispositivos extraíbles USB no autorizados permanentemente.",
+      "Tener un escritorio virtual ordenado y sin accesos directos innecesarios."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el 'Criptojacking' según las amenazas descritas?",
+    "o": [
+      "El secuestro de datos solicitando un pago en criptomonedas para su liberación.",
+      "La utilización de nuestros dispositivos sin consentimiento para llevar a cabo extracciones (minado) de criptomonedas.",
+      "Un ataque que inunda el sistema con peticiones de conexión TCP SYN.",
+      "La interceptación de transacciones financieras en la nube."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el contexto de la seguridad lógica, ¿cuáles son los tres mecanismos clásicos de autenticación contemplados?",
+    "o": [
+      "Algo que se sabe, algo que se tiene, algo que se comparte.",
+      "Algo que se conoce, algo que se tiene, algo que se es.",
+      "Algo cifrado, algo firmado, algo verificado.",
+      "Un usuario, una contraseña, un certificado."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué herramienta del CCN-CERT está destinada al borrado seguro de datos, permitiendo sobreescribir ficheros, carpetas y espacio libre de disco?",
+    "o": [
+      "CARLA",
+      "OLVIDO",
+      "LORETO",
+      "MARTA"
+    ],
+    "a": 1
+  }
+]

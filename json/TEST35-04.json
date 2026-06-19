@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál de las siguientes características de seguridad y privacidad se incorporó específicamente en Android 12?",
+    "o": [
+      "Soporte para MIDI 2.0 estándar",
+      "Botones de activación e indicadores de acceso al micrófono y a la cámara",
+      "Actualización de bibliotecas nativas a OpenJDK 11",
+      "Iconos de aplicaciones temáticos basados en launchers independientes"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué mejora a nivel de rendimiento se cita en las especificaciones de Android 12?",
+    "o": [
+      "Eliminación total del recolector de basura",
+      "Intervalo restringido de App Standby",
+      "Compilación en la nube obligatoria de todos los procesos",
+      "Reducción del núcleo Linux a menos de 512 KB"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué función de personalización e interfaz de usuario se introdujo en la versión de Android 13?",
+    "o": [
+      "Efecto de desplazamiento lateral ampliado",
+      "Iconos de apps temáticos que heredan el color del fondo de pantalla y otros temas elegidos",
+      "Soporte para pantallas con tasas de refresco variables de 240Hz",
+      "Desactivación del Framework de aplicaciones de Java"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En Android 13, las bibliotecas principales se actualizaron para alinearse con qué versión específica de OpenJDK con soporte a largo plazo (LTS)?",
+    "o": [
+      "OpenJDK 8",
+      "OpenJDK 11",
+      "OpenJDK 17",
+      "OpenJDK 21"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué versión del esquema de firma de archivos de paquete APK es compatible con Android 13 según el texto?",
+    "o": [
+      "Esquema de firma v1.0",
+      "Esquema de firma v2.0",
+      "Esquema de firma v3.1",
+      "Esquema de firma v4.2"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué API de Android 13 permite a los usuarios modificar la configuración o realizar acciones rápidas sin salir del contexto de una aplicación?",
+    "o": [
+      "API de configuración rápida del panel de notificaciones",
+      "API de Camera2 con captura de video de alto rango dinámico",
+      "API de gesto de retroceso predictivo",
+      "API de accesibilidad para audiodescripciones"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué capacidad avanzada se añade a las APIs de Camera2 en la actualización de Android 13 para la grabación de video?",
+    "o": [
+      "Captura en resolución nativa de 8K",
+      "Admitir la captura de video de alto rango dinámico (HDR)",
+      "Eliminación por software del parpadeo de luz en tiempo real",
+      "Procesamiento de imágenes mediante aceleración directa en microkernel"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué preferencia de accesibilidad global para todo el sistema se incorporó textualmente en Android 13?",
+    "o": [
+      "Habilitar subtítulos dinámicos basados en hardware externo",
+      "Permitir a los usuarios habilitar audiodescripciones en todas las apps",
+      "Control mediante gestos oculares con cámara infrarroja",
+      "Ampliación háptica para terminales corporativos de bajo coste"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de eventos táctiles se bloquean en Android 12 por razones de seguridad al considerarse que no son de confianza?",
+    "o": [
+      "Gestos multitáctiles complejos",
+      "Bloque de eventos táctiles que no son de confianza",
+      "Pulsaciones prolongadas en la barra de navegación",
+      "Interacciones sobre pantallas de presentación bloqueadas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Con qué estándar de renderización de fuentes es compatible Android 13 de forma nativa?",
+    "o": [
+      "Fuentes en formato TrueType exclusivamente",
+      "Compatibilidad con renderización para las fuentes de COLR",
+      "Fuentes vectoriales SVG puras sin interpolar",
+      "Fuentes con cifrado dinámico AES de bajo nivel"
+    ],
+    "a": 1
+  }
+]

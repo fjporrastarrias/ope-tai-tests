@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es una de las principales mejoras de DDR5 frente a DDR4?",
+    "o": [
+      "El aumento del voltaje estándar a 1.5V.",
+      "La gestión del control de energía (PMIC) pasa a estar integrada en el propio módulo (DIMM).",
+      "La eliminación de canales de ráfaga.",
+      "El cambio hacia acceso secuencial."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el voltaje nominal estándar operativo de DDR5?",
+    "o": [
+      "1.35 V.",
+      "1.1 V.",
+      "1.5 V.",
+      "0.9 V."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En arquitectura interna de canal, un módulo DIMM DDR5 se organiza en:",
+    "o": [
+      "Un único canal de 64 bits.",
+      "Dos canales independientes de 32 bits en un mismo módulo.",
+      "Cuatro canales de 16 bits.",
+      "Un canal único analógico."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la longitud de ráfaga (Burst Length) estándar de DDR5?",
+    "o": [
+      "BL8.",
+      "BL16 y BL32 extendido.",
+      "BL4.",
+      "No utiliza longitud de ráfaga."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de memoria ROM permite borrar y reprogramar sus datos eléctricamente a nivel de byte?",
+    "o": [
+      "PROM.",
+      "EEPROM.",
+      "EPROM.",
+      "Mask ROM."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué firmware moderno sustituye a la antigua BIOS en las placas base actuales?",
+    "o": [
+      "CMOS Setup.",
+      "UEFI (Unified Extensible Firmware Interface).",
+      "POST Loader.",
+      "Kernel ROM."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el POST (Power-On Self-Test)?",
+    "o": [
+      "Un protocolo para actualizar controladores.",
+      "Una rutina de diagnóstico inicial por hardware que verifica los componentes clave.",
+      "El software encargado de optimizar el archivo de intercambio.",
+      "El registro centralizado de interrupciones."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Dónde se guardan los parámetros configurables modificados por el usuario en el arranque (como el orden de booteo)?",
+    "o": [
+      "En los registros L1 de la CPU.",
+      "En la memoria CMOS (o NVRAM integrada).",
+      "En el archivo de paginación.",
+      "En la memoria caché intermedia L3."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de memoria no volátil se utiliza en los pendrives y para almacenar el código de la UEFI?",
+    "o": [
+      "Memoria RAM Estática (SRAM).",
+      "Memoria Flash.",
+      "Memoria de Núcleo de Ferrita.",
+      "SDRAM asíncrona."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando hablamos de la 'velocidad de refresco' de una memoria DRAM, ¿en qué unidad se suele medir el ciclo?",
+    "o": [
+      "En Gigabytes por segundo (GB/s).",
+      "En milisegundos (ms) o microsegundos (µs) por intervalo de retención.",
+      "En nanómetros (nm).",
+      "En decibelios (dB)."
+    ],
+    "a": 1
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál de las siguientes soluciones es un fabricante de MDM listado de forma explícita en el documento?",
+    "o": [
+      "Apache Traffic Server",
+      "Microsoft Intune",
+      "Squid Proxy",
+      "Privoxy Advanced"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de conectividad representa un serio riesgo de seguridad y cuya utilización se debe impedir según las medidas técnicas del puesto de usuario?",
+    "o": [
+      "Redes corporativas VPN",
+      "Redes WIFI PÚBLICAS",
+      "Comunicaciones móviles 5G protegidas",
+      "Túneles cifrados con la herramienta LUCIA"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Dentro de la gestión de comunicaciones de un MDM, ¿cuál de las siguientes tecnologías NO se cita explícitamente en el listado de control?",
+    "o": [
+      "NFC",
+      "Bluetooth",
+      "LiFi (Light Fidelity)",
+      "WiFi, 2G/3G/4G/5G y VPN"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué medida de carácter técnico para el puesto seguro de usuario se indica que debe incluir obligatoriamente a los dispositivos móviles?",
+    "o": [
+      "Desactivar de forma permanente la pila IPv6",
+      "Implantar y configurar un ANTIVIRUS con análisis en tiempo real",
+      "Permitir solo pantallas de tipo resistivo",
+      "Limitar el tamaño del historial de comandos a 10 entradas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "La solución MDM 'AirWatch' se asocia textualmente con qué fabricante en el desglose de soluciones?",
+    "o": [
+      "IBM Tivoli",
+      "VMware",
+      "Cisco",
+      "Citrix"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué fabricante se asocia con la solución de gestión de red y MDM denominada 'Meraki'?",
+    "o": [
+      "McAfee",
+      "Symantec",
+      "Cisco",
+      "Sophos"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿A partir de qué versión de Android se introdujo Google Talk para realizar videollamadas?",
+    "o": [
+      "Froyo",
+      "Gingerbread",
+      "HoneyComb",
+      "Ice Cream Sandwich"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué tipo de arquitectura de acceso remoto seguro se recomienda para evitar herramientas no controladas basadas en HTTPS?",
+    "o": [
+      "Un portal web sin autenticación",
+      "Arquitecturas de acceso remoto seguras, como VPN",
+      "Conexiones por protocolo Telnet remoto",
+      "Uso de usuarios genéricos sin logs"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Respecto a los dispositivos de uso corporativo personal BYOD, ¿qué medida de control técnico se prescribe?",
+    "o": [
+      "Permitir acceso total y sin filtros para fomentar la productividad",
+      "Mantener una base de datos de estos dispositivos y los usuarios que los utilizan",
+      "Eliminar la base de datos de auditoría de red",
+      "Cifrar la batería del terminal mediante hardware dedicado"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el principal objetivo de las soluciones MDM en una organización empresarial?",
+    "o": [
+      "Optimizar el ancho de banda de la red local",
+      "Reducir la superficie de exposición del dispositivo frente a ataques de seguridad",
+      "Eliminar la necesidad de contratar líneas de telefonía de voz",
+      "Incrementar el almacenamiento físico local del terminal corporativo"
+    ],
+    "a": 1
+  }
+]

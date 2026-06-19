@@ -1,0 +1,102 @@
+[
+  {
+    "q": "1. Según el material proporcionado, ¿cuál de las siguientes es una característica de la Web 1.0 (solo lectura)?",
+    "o": [
+      "Es una web interactiva basada en AJAX y Javascript.",
+      "La experiencia del usuario es activa y descentralizada.",
+      "Se basa en HTTP, URL y HTML, estando limitada por un ancho de banda reducido con experiencia pasiva.",
+      "Se basa en agentes virtuales inteligentes que razonan como personas."
+    ],
+    "a": 2
+  },
+  {
+    "q": "2. ¿Qué tecnologías o conceptos se asocian directamente con la Web 2.0 (redes sociales)?",
+    "o": [
+      "Solo HTTP, URL y HTML estático.",
+      "HTTP, URL, HTML, Javascript, WS, AJAX, RSS y SOAP, con experiencia interactiva.",
+      "Resource Description Framework (RDF) y microformatos de base de datos.",
+      "Buscadores semánticos y ontologías puras sin navegadores."
+    ],
+    "a": 1
+  },
+  {
+    "q": "3. ¿En qué consiste principalmente la Web 3.0 (Web Semántica) según la definición técnica?",
+    "o": [
+      "Una web restringida a dispositivos de escritorio antiguos.",
+      "Una extensión de la WWW donde el significado de la información está bien definido mediante metadatos (linked data).",
+      "Un modelo donde las cosas se comunican entre sí magnéticamente.",
+      "Una red de datos cerrados controlada en exclusiva por buscadores comerciales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "4. Según el W3C, ¿en qué lenguaje o framework se basa principalmente la Web Semántica para integrar aplicaciones?",
+    "o": [
+      "Resource Description Framework (RDF), que integra una gran variedad de aplicaciones que utilizan el lenguaje XML.",
+      "Hypertext Markup Language versión 1.0 exclusivamente.",
+      "El protocolo Keep-Alive de las conexiones TCP discretas.",
+      "El Plan Nacional de nombres de dominio bajo el código específico del gobierno."
+    ],
+    "a": 0
+  },
+  {
+    "q": "5. ¿Cuál es el objetivo primordial de la Web 4.0 (Web ubicua) para el futuro?",
+    "o": [
+      "Limitarse a mostrar información plana sin predecir necesidades.",
+      "Unir las inteligencias, donde tanto las personas como las cosas se comuniquen entre sí para generar toma de decisiones.",
+      "Eliminar el protocolo HTTP/1.1 y sustituirlo por transferencias por bloques de disco.",
+      "Reducir el uso de dispositivos móviles y centrarse en terminales fijos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "6. ¿Quién propuso la arquitectura de la World Wide Web y creó el primer servidor y navegador web en el CERN en 1990?",
+    "o": [
+      "Pablo Arellano en theglobeformacion.",
+      "Tim Berners-Lee (quien inicialmente la denominó Mesh).",
+      "El comité técnico de la ICANN.",
+      "Los creadores del protocolo in-addr.arpa."
+    ],
+    "a": 1
+  },
+  {
+    "q": "7. ¿En qué año y medio de difusión se anunció públicamente la World Wide Web?",
+    "o": [
+      "En 1990 en el laboratorio de física médica.",
+      "En 1991 en el grupo de noticias alt.hypertext.",
+      "En 2000 en el foro de la W3C semántica.",
+      "En 1989 mediante un mensaje de correo SMTP."
+    ],
+    "a": 1
+  },
+  {
+    "q": "8. De acuerdo al texto, ¿cuáles son los componentes obligatorios que debe contener una URL?",
+    "o": [
+      "Login y password.",
+      "Nombre de protocolo y Nombre de host-dominio o dirección IP.",
+      "Número de puerto y localización en el servidor.",
+      "Directorio y fichero únicamente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "9. ¿Cuál de los siguientes NO es un componente básico de la arquitectura de 'la Web' tal como la conocemos hoy?",
+    "o": [
+      "El protocolo HTTP que dirige las transferencias.",
+      "El identificador único universal URL o URI.",
+      "HTML como formato común para publicar documentos.",
+      "El pseudoregistro OPT en la sección QUERY obligatoria."
+    ],
+    "a": 3
+  },
+  {
+    "q": "10. La World Wide Web se define didácticamente en el documento como:",
+    "o": [
+      "Lo mismo que Internet en su totalidad física.",
+      "Una de las muchas aplicaciones construidas sobre Internet, que funciona como una colección global de recursos interconectados por hipervínculos.",
+      "Un sistema centralizado de asignación de direccionamiento IP.",
+      "Un método de actualización dinámica de ficheros de zona."
+    ],
+    "a": 1
+  }
+]

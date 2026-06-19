@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es la Administración Tributaria electrónica?",
+    "o": [
+      "Un impuesto digital",
+      "Gestión de impuestos mediante sistemas electrónicos",
+      "Un programa de contabilidad",
+      "Una aplicación móvil"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es un beneficio de la Declaración Telemática del IRPF?",
+    "o": [
+      "Pagar más impuestos",
+      "Comodidad, rapidez y posibilidad de obtener reembolsos más rápidamente",
+      "Mayor complejidad",
+      "Necesita visita obligatoria a oficina"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la factura electrónica?",
+    "o": [
+      "Una factura impresa y enviada por fax",
+      "Documento contable en formato digital con valor legal",
+      "Un recibo temporal",
+      "Un comprobante de compra"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la ventaja de la factura electrónica?",
+    "o": [
+      "Aumenta costos",
+      "Reduce costos, acelera procesos y mejora la contabilidad",
+      "Es difícil de enviar",
+      "Requiere impresora"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es Verifactu en España?",
+    "o": [
+      "Una tienda online",
+      "Sistema de comunicación de datos de facturas a la administración",
+      "Un software de facturación",
+      "Un tipo de impuesto"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el DNI electrónico (DNIe)?",
+    "o": [
+      "Un correo oficial",
+      "Documento de identidad con certificado digital incorporado",
+      "Una contraseña",
+      "Una credencial de acceso web"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Para qué sirve el DNI electrónico?",
+    "o": [
+      "Solo para identificación física",
+      "Identificación, firma digital y acceso a servicios online",
+      "Pagos bancarios solamente",
+      "Acceso a redes sociales"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el CMS (Certificado de Medico)",
+    "o": [
+      "Certificate Management System",
+      "Un certificado para profesionales sanitarios",
+      "Un software de gestión",
+      "Un protocolo de red"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es CERES?",
+    "o": [
+      "Un navegador web",
+      "Centro de Reconocimiento electrónico",
+      "Una red social",
+      "Un programa de contabilidad"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es un servicio importante del CERES?",
+    "o": [
+      "Solo información",
+      "Expedición de certificados digitales para empresas",
+      "Venta de productos",
+      "Red social empresarial"
+    ],
+    "a": 1
+  }
+]

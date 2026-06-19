@@ -1,0 +1,102 @@
+[
+  {
+    "q": "11. ¿Qué archivo en los sistemas Linux contiene los valores por defecto cuando se añade un usuario utilizando el comando useradd?",
+    "o": [
+      "/etc/adduser.conf",
+      "/etc/deluser.conf",
+      "/etc/default/useradd",
+      "/etc/passwd"
+    ],
+    "a": 2
+  },
+  {
+    "q": "12. ¿Qué opción del comando userdel en Linux se debe emplear para eliminar por completo el directorio de inicio (home) del usuario?",
+    "o": [
+      "-d",
+      "-m",
+      "-r",
+      "-f"
+    ],
+    "a": 2
+  },
+  {
+    "q": "13. ¿Qué opción del comando usermod se utiliza para añadir grupos secundarios sin eliminar los grupos a los que ya pertenecía el usuario (combinado con -G)?",
+    "o": [
+      "-a",
+      "-e",
+      "-g",
+      "-u"
+    ],
+    "a": 0
+  },
+  {
+    "q": "14. En distribuciones basadas en Debian, ¿qué elemento es en realidad un script que internamente hace uso del comando groupadd?",
+    "o": [
+      "groupdel",
+      "addgroup",
+      "delgroup",
+      "usermod"
+    ],
+    "a": 1
+  },
+  {
+    "q": "15. ¿Qué comando de la línea de comandos clásica de Windows se utiliza para administrar y crear cuentas de usuario?",
+    "o": [
+      "net localgroup",
+      "net user",
+      "Get-LocalUser",
+      "djoin"
+    ],
+    "a": 1
+  },
+  {
+    "q": "16. Si ejecutamos 'net user pablo *' en una consola de Windows, ¿qué acción realiza el sistema operativo con la contraseña?",
+    "o": [
+      "La borra por completo",
+      "La genera de forma aleatoria",
+      "La solicita interactivamente y la oculta en pantalla",
+      "La cambia textualmente por un carácter asterisco"
+    ],
+    "a": 2
+  },
+  {
+    "q": "17. ¿Qué comando de PowerShell permite listar de forma detallada las cuentas de usuarios locales de un sistema Windows?",
+    "o": [
+      "Get-LocalUser",
+      "Rename-LocalGroup",
+      "net user",
+      "net localgroup"
+    ],
+    "a": 0
+  },
+  {
+    "q": "18. ¿Qué opción del comando net user en Windows se utiliza de forma expresa para deshabilitar o habilitar una cuenta de usuario?",
+    "o": [
+      "/DELETE",
+      "/TIMES",
+      "/ACTIVE",
+      "/DOMAIN"
+    ],
+    "a": 2
+  },
+  {
+    "q": "19. ¿Qué comando de Windows se emplea para añadir una cuenta de usuario existente a un grupo local específico como 'administradores'?",
+    "o": [
+      "net user /add",
+      "net localgroup [grupo] [usuario] /ADD",
+      "Get-LocalUser",
+      "djoin /ADD"
+    ],
+    "a": 1
+  },
+  {
+    "q": "20. ¿Qué cmdlet de PowerShell se utiliza para cambiar el nombre o renombrar un grupo local existente?",
+    "o": [
+      "Rename-LocalGroup",
+      "Get-LocalUser",
+      "net localgroup",
+      "usermod"
+    ],
+    "a": 0
+  }
+]

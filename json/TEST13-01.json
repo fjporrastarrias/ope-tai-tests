@@ -1,116 +1,102 @@
-{
-  "tema": "13",
-  "bloque": "01",
-  "preguntas": [
-    {
-      "id": 1,
-      "pregunta": "¿Qué dispositivo mecánico del siglo XVII, creado por Blaise Pascal, es considerado uno de los primeros antecedentes de las calculadoras mecánicas?",
-      "opciones": {
-        "a": "El ábaco",
-        "b": "La Pascalina",
-        "c": "La máquina analítica",
-        "d": "La máquina tabuladora"
-      },
-      "correcta": "b"
-    },
-    {
-      "id": 2,
-      "pregunta": "¿Quién diseñó la Máquina Analítica en el siglo XIX, incorporando conceptos modernos como unidad de cálculo y memoria?",
-      "opciones": {
-        "a": "Gottfried Leibniz",
-        "b": "Herman Hollerith",
-        "c": "Charles Babbage",
-        "d": "Alan Turing"
-      },
-      "correcta": "c"
-    },
-    {
-      "id": 3,
-      "pregunta": "¿Qué innovación introdujo Joseph Marie Jacquard a principios del siglo XIX que influyó directamente en la informática?",
-      "opciones": {
-        "a": "El uso de relés electromecánicos",
-        "b": "Las tarjetas perforadas para el control de patrones",
-        "c": "El sistema numérico binario",
-        "d": "La rueda de engranajes dentados"
-      },
-      "correcta": "b"
-    },
-    {
-      "id": 4,
-      "pregunta": "¿A quién se considera la primera programadora de la historia por su trabajo con la Máquina Analítica?",
-      "opciones": {
-        "a": "Grace Hopper",
-        "b": "Ada Lovelace",
-        "c": "Joan Clarke",
-        "d": "Margaret Hamilton"
-      },
-      "correcta": "b"
-    },
-    {
-      "id": 5,
-      "pregunta": "¿Qué sistema desarrolló Herman Hollerith para el censo de EE. UU. de 1890, marcando un hito en el procesamiento de datos?",
-      "opciones": {
-        "a": "Una máquina tabuladora eléctrica basada en tarjetas perforadas",
-        "b": "Un telar automatizado electrónico",
-        "c": "Un calculador de tubos de vacío",
-        "d": "Un multiplicador de engranajes"
-      },
-      "correcta": "a"
-    },
-    {
-      "id": 6,
-      "pregunta": "¿Cuál es el component electrónico característico de los ordenadores de la Primera Generación?",
-      "opciones": {
-        "a": "El transistor",
-        "b": "El circuito integrado",
-        "c": "La válvula o tubo de vacío",
-        "d": "El microprocesador"
-      },
-      "correcta": "c"
-    },
-    {
-      "id": 7,
-      "pregunta": "¿Qué modelo teórico propuesto en 1945 define la estructura interna de la mayoría de los ordenadores modernos con CPU, memoria y E/S?",
-      "opciones": {
-        "a": "La arquitectura Harvard",
-        "b": "La arquitectura Von Neumann",
-        "c": "La máquina de Turing cuántica",
-        "d": "El modelo OSI"
-      },
-      "correcta": "b"
-    },
-    {
-      "id": 8,
-      "pregunta": "¿Cuál de los siguientes fue uno de los primeros ordenadores completamente electrónicos y de propósito general (1946)?",
-      "opciones": {
-        "a": "IBM PC",
-        "b": "UNIVAC I",
-        "c": "ENIAC",
-        "d": "Apple II"
-      },
-      "correcta": "c"
-    },
-    {
-      "id": 9,
-      "pregunta": "¿Cómo se realizaba principalmente la programación en los ordenadores de la Primera Generación?",
-      "opciones": {
-        "a": "Mediante lenguajes de alto nivel como COBOL",
-        "b": "Mediante lenguaje de máquina y cableado físico",
-        "c": "A través de sistemas operativos multitarea",
-        "d": "Con entornos de desarrollo gráficos"
-      },
-      "correcta": "b"
-    },
-    {
-      "id": 10,
-      "pregunta": "¿Qué hito teórico de 1936 sentó las bases de la informática determinando qué es computable y qué no?",
-      "opciones": {
-        "a": "La Pascalina",
-        "b": "El artículo sobre los Números Computables de Alan Turing",
-        "c": "La patente del transistor",
-        "d": "La creación de ARPANET"
-      },
-      "correcta": "b"
-    }
-  ]
-}
+[
+  {
+    "q": "¿Qué dispositivo mecánico del siglo XVII, creado por Blaise Pascal, es considerado uno de los primeros antecedentes de las calculadoras mecánicas?",
+    "o": [
+      "El ábaco",
+      "La Pascalina",
+      "La máquina analítica",
+      "La máquina tabuladora"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Quién diseñó la Máquina Analítica en el siglo XIX, incorporando conceptos modernos como unidad de cálculo y memoria?",
+    "o": [
+      "Gottfried Leibniz",
+      "Herman Hollerith",
+      "Charles Babbage",
+      "Alan Turing"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué innovación introdujo Joseph Marie Jacquard a principios del siglo XIX que influyó directamente en la informática?",
+    "o": [
+      "El uso de relés electromecánicos",
+      "Las tarjetas perforadas para el control de patrones",
+      "El sistema numérico binario",
+      "La rueda de engranajes dentados"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿A quién se considera la primera programadora de la historia por su trabajo con la Máquina Analítica?",
+    "o": [
+      "Grace Hopper",
+      "Ada Lovelace",
+      "Joan Clarke",
+      "Margaret Hamilton"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué sistema desarrolló Herman Hollerith para el censo de EE. UU. de 1890, marcando un hito en el procesamiento de datos?",
+    "o": [
+      "Una máquina tabuladora eléctrica basada en tarjetas perforadas",
+      "Un telar automatizado electrónico",
+      "Un calculador de tubos de vacío",
+      "Un multiplicador de engranajes"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es el component electrónico característico de los ordenadores de la Primera Generación?",
+    "o": [
+      "El transistor",
+      "El circuito integrado",
+      "La válvula o tubo de vacío",
+      "El microprocesador"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué modelo teórico propuesto en 1945 define la estructura interna de la mayoría de los ordenadores modernos con CPU, memoria y E/S?",
+    "o": [
+      "La arquitectura Harvard",
+      "La arquitectura Von Neumann",
+      "La máquina de Turing cuántica",
+      "El modelo OSI"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de los siguientes fue uno de los primeros ordenadores completamente electrónicos y de propósito general (1946)?",
+    "o": [
+      "IBM PC",
+      "UNIVAC I",
+      "ENIAC",
+      "Apple II"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cómo se realizaba principalmente la programación en los ordenadores de la Primera Generación?",
+    "o": [
+      "Mediante lenguajes de alto nivel como COBOL",
+      "Mediante lenguaje de máquina y cableado físico",
+      "A través de sistemas operativos multitarea",
+      "Con entornos de desarrollo gráficos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué hito teórico de 1936 sentó las bases de la informática determinando qué es computable y qué no?",
+    "o": [
+      "La Pascalina",
+      "El artículo sobre los Números Computables de Alan Turing",
+      "La patente del transistor",
+      "La creación de ARPANET"
+    ],
+    "a": 1
+  }
+]

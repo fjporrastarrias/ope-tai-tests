@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la métrica de similitud geométrica que evalúa exclusivamente el coseno del ángulo formado por dos vectores, abstrayéndose de la longitud del texto?",
+    "o": [
+      "Similitud del Coseno (Cosine Similarity)",
+      "Distancia Euclídea (L2 Distance)",
+      "Distancia de Manhattan",
+      "Distancia de Jaccard"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En bases de datos vectoriales, ¿en qué condiciones el Producto Punto (Dot Product) equivale matemáticamente a la Similitud del Coseno?",
+    "o": [
+      "Cuando los vectores están completamente normalizados (magnitud igual a 1)",
+      "Cuando los vectores poseen más de 3072 dimensiones",
+      "Cuando se utiliza una base de datos relacional tradicional sin extensiones",
+      "Nunca, son operaciones geométricas mutuamente excluyentes"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Al medir la similitud geométrica mediante la Distancia Euclídea (L2), ¿cómo se interpreta la relación de afinidad semántica entre dos vectores?",
+    "o": [
+      "A menor distancia geométrica en línea recta, mayor es la similitud semántica entre los conceptos",
+      "A mayor distancia geométrica, mayor es la similitud de los contenidos",
+      "La distancia euclídea solo mide longitud de caracteres, no afinidad semántica",
+      "La distancia debe dar un valor negativo para confirmar que hay coincidencia"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué ventaja operativa aporta el índice vectorial HNSW (Hierarchical Navigable Small World) frente a una búsqueda exhaustiva KNN?",
+    "o": [
+      "Permite realizar búsquedas aproximadas de vecinos más próximos con eficiencia de tiempo logarítmico O(log N) mediante grafos jerárquicos",
+      "Garantiza un resultado exacto y exhaustivo recorriendo todos los registros secuencialmente",
+      "Reduce el tamaño físico de los vectores a cero mediante técnicas hash",
+      "Elimina de forma nativa la necesidad de usar memoria RAM en el servidor"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cómo optimiza el espacio de búsqueda el mecanismo de indexación IVF (Inverted File Indexing)?",
+    "o": [
+      "Divide el espacio vectorial en sub-regiones o clústeres mediante centroides (K-Means), limitando la comparación de la consulta al clúster más cercano",
+      "Invierte el orden alfabético de los fragmentos de texto almacenados en disco",
+      "Crea copias de seguridad de los vectores en tablas relacionales indexadas por claves B-Tree",
+      "Utiliza un algoritmo de ordenación burbuja sobre las magnitudes de los vectores"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de las siguientes opciones corresponde a una base de datos vectorial de código abierto diseñada para alta escalabilidad horizontal y despliegues empresariales masivos?",
+    "o": [
+      "Milvus",
+      "SQLite",
+      "Redis Open-Source clásico",
+      "Apache Cassandra estándar"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Si se desea integrar almacenamiento y búsqueda vectorial nativa dentro de un motor de base de datos relacional tradicional de código abierto, ¿cuál es la extensión de referencia?",
+    "o": [
+      "pgvector en PostgreSQL",
+      "plpython en MySQL",
+      "VectorIndex en Oracle Enterprise",
+      "spatial_ref en MariaDB"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué caracteriza principalmente a la base de datos vectorial Chroma?",
+    "o": [
+      "Es una solución ligera ideal para ser embebida localmente en aplicaciones y entornos de desarrollo o pruebas rápidos",
+      "Es un servicio SaaS propietario que no admite despliegue en local",
+      "Está optimizada de forma exclusiva para almacenar imágenes de satélite en formato ráster",
+      "Requiere obligatoriamente un clúster mínimo de 16 servidores físicos independientes"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En el contexto de la indexación ANN (Approximate Nearest Neighbor), ¿cuál es la compensación o 'trade-off' fundamental?",
+    "o": [
+      "Se sacrifica una fracción mínima de precisión exacta (recall) a cambio de una reducción drástica en el tiempo de respuesta y coste computacional",
+      "Se incrementa la seguridad criptográfica a costa de perder legibilidad de los textos",
+      "Se reduce el uso de disco pero se cuadruplica el uso de CPU de forma lineal",
+      "Se limita el soporte multimodal a cambio de aumentar la velocidad del texto plano"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de las siguientes alternativas es un motor de base de datos vectorial comercial nativo ofrecido exclusivamente como plataforma gestionada en la nube (SaaS)?",
+    "o": [
+      "Pinecone",
+      "Chroma Core Embedded",
+      "PostgreSQL estándar",
+      "MySQL Cluster Edition"
+    ],
+    "a": 0
+  }
+]

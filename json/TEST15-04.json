@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué beneficio aporta la aplicación del ENI y sus Normas Técnicas según la normativa?",
+    "o": [
+      "Redunda en beneficio de la eficacia y la eficiencia de las Administraciones Públicas.",
+      "Permite el uso exclusivo de software propietario de alto coste.",
+      "Evita que los ciudadanos tengan que firmar digitalmente.",
+      "Sustituye por completo al Esquema Nacional de Seguridad."
+    ],
+    "a": 0
+  },
+  {
+    "q": "La umbralización es un proceso que se asocia con:",
+    "o": [
+      "La optimización de la imagen electrónica para garantizar legibilidad.",
+      "La asignación de permisos de usuario en la red local.",
+      "El cálculo del tamaño en bytes del archivo resultante.",
+      "La firma mediante certificado de sello electrónico."
+    ],
+    "a": 0
+  },
+  {
+    "q": "En el modelo RGB, si los tres valores (R, G, B) están establecidos en 0, ¿qué color se representa?",
+    "o": [
+      "Blanco",
+      "Negro",
+      "Gris medio",
+      "Verde brillante"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el modelo CMYK, la letra 'K' hace referencia al componente de color:",
+    "o": [
+      "Amarillo (Khaki)",
+      "Negro (Key / Black)",
+      "Azul (Kyan)",
+      "Magenta oscuro (Krimson)"
+    ],
+    "a": 1
+  },
+  {
+    "q": "La interoperabilidad que busca el ENI se divide en tres niveles esenciales según el texto:",
+    "o": [
+      "Técnica, semántica y organizativa.",
+      "Física, lógica y de red.",
+      "Local, autonómica y nacional.",
+      "Hardware, software y firmware."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué ocurre si una imagen digitalizada contiene gráficos o caracteres que no estaban en el papel de origen?",
+    "o": [
+      "Deja de considerarse una imagen fiel según los requisitos de la NTI.",
+      "Se considera una optimización correcta por defecto.",
+      "Sigue siendo válida si la firma electrónica es correcta.",
+      "Es obligatorio para cumplir con los metadatos complementarios."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué elemento garantiza que los pasos del proceso informático de digitalización mantengan su integridad?",
+    "o": [
+      "El control estricto del proceso informático de extremo a extremo.",
+      "La monitorización del tráfico de red mediante SNMP.",
+      "El uso exclusivo de escáneres de superficie plana.",
+      "La encriptación simétrica del disco duro del puesto."
+    ],
+    "a": 0
+  },
+  {
+    "q": "En el contexto de la digitalización, ¿para qué sirve la reorientación?",
+    "o": [
+      "Para corregir automáticamente la alineación o giro de la imagen capturada y asegurar su legibilidad.",
+      "Para enviar el documento a otro departamento municipal.",
+      "Para cambiar el formato del fichero de PDF a TIFF.",
+      "Para modificar los metadatos del idioma del documento."
+    ],
+    "a": 0
+  },
+  {
+    "q": "La NTI de Digitalización de Documentos obliga a que las imágenes electrónicas:",
+    "o": [
+      "Apliquen los formatos establecidos en la NTI de Catálogo de Estándares.",
+      "Se almacenen comprimidas en formato ZIP nativo individualmente.",
+      "Se suban inmediatamente al portal del Ayuntamiento de Priego de Córdoba.",
+      "Sean firmadas solo con certificado digital de persona física."
+    ],
+    "a": 0
+  },
+  {
+    "q": "El cumplimiento de las directrices de la NTI de Digitalización garantiza que los documentos electrónicos:",
+    "o": [
+      "Tengan validez jurídica y plena capacidad de interoperabilidad entre administraciones.",
+      "No ocupen espacio en el Centro de Proceso de Datos (CPD).",
+      "Sean inmunes a cualquier tipo de software malicioso o malware.",
+      "No requieran metadatos mínimos obligatorios para su archivo."
+    ],
+    "a": 0
+  }
+]

@@ -1,116 +1,102 @@
-{
-  "tema": "13",
-  "bloque": "03",
-  "preguntas": [
-    {
-      "id": 21,
-      "pregunta": "¿Qué elemento integrador marca el inicio de la Cuarta Generación de ordenadores a partir de 1971?",
-      "opciones": {
-        "a": "Las tarjetas perforadas ópticas",
-        "b": "El microprocesador",
-        "c": "El transistor de germanio pura",
-        "d": "La red ARPANET"
-      },
-      "correcta": "b"
-    },
-    {
-      "id": 22,
-      "pregunta": "¿Cuál fue considerado el primer microprocesador en un solo chip comercializado de la historia, lanzado en 1971?",
-      "opciones": {
-        "a": "Intel 8086",
-        "b": "Intel 4004",
-        "c": "Motorola 68000",
-        "d": "Zilog Z80"
-      },
-      "correcta": "b"
-    },
-    {
-      "id": 23,
-      "pregunta": "¿Qué tecnología de integración de circuitos permitió meter decenas de miles de componentes en un solo chip en la 4ª Generación?",
-      "opciones": {
-        "a": "LSI y VLSI (Very Large Scale Integration)",
-        "b": "ULSI exclusivamente",
-        "c": "Sistemas de tubos de descarga",
-        "d": "Relés termoiónicos"
-      },
-      "correcta": "a"
-    },
-    {
-      "id": 24,
-      "pregunta": "¿En qué año se lanzó el IBM PC (modelo 5150), estandarizando la arquitectura del ordenador personal en oficinas y hogares?",
-      "opciones": {
-        "a": "1975",
-        "b": "1981",
-        "c": "1985",
-        "d": "1990"
-      },
-      "correcta": "b"
-    },
-    {
-      "id": 25,
-      "pregunta": "¿Qué sistema operativo venía integrado por defecto en el primer IBM PC fruto de una alianza comercial?",
-      "opciones": {
-        "a": "Unix",
-        "b": "Linux",
-        "c": "MS-DOS",
-        "d": "Mac OS"
-      },
-      "correcta": "c"
-    },
-    {
-      "id": 26,
-      "pregunta": "La Quinta Generación de ordenadores se asocia comúnmente con proyectos de qué tipo de desarrollo tecnológico?",
-      "opciones": {
-        "a": "Inteligencia Artificial and procesamiento en paralelo",
-        "b": "Sustitución de silicio por válvulas",
-        "c": "Creación exclusiva de lenguajes ensambladores",
-        "d": "Eliminación completa de conexiones inalámbricas"
-      },
-      "correcta": "a"
-    },
-    {
-      "id": 27,
-      "pregunta": "¿Qué ambicioso proyecto estatal de los años 80 intentó liderar el desarrollo de la Quinta Generación mediante arquitecturas de computación masiva en paralelo?",
-      "opciones": {
-        "a": "El proyecto ARPA de EE. UU.",
-        "b": "El Proyecto de Quinta Generación de Japón (FGCS)",
-        "c": "El Plan Alvey del Reino Unido",
-        "d": "El programa Eureka de la UE"
-      },
-      "correcta": "b"
-    },
-    {
-      "id": 28,
-      "pregunta": "¿Cuál de las siguientes características NO es propia de los ordenadores actuales englobados en las últimas evoluciones tecnológicas?",
-      "opciones": {
-        "a": "Procesadores multinúcleo",
-        "b": "Conectividad ubicua (Wi-Fi, 5G)",
-        "c": "Almacenamiento exclusivo en tarjetas perforadas",
-        "d": "Integración de arquitecturas de propósito específico (GPUs/NPUs)"
-      },
-      "correcta": "c"
-    },
-    {
-      "id": 29,
-      "pregunta": "¿Quién propuso el concept original de que los programas y los datos se almacenasen juntos en la memoria del ordenador?",
-      "opciones": {
-        "a": "John Von Neumann",
-        "b": "Charles Babbage",
-        "c": "Blaise Pascal",
-        "d": "Steve Jobs"
-      },
-      "correcta": "a"
-    },
-    {
-      "id": 30,
-      "pregunta": "¿Qué hito comercial de Apple en 1984 popularizó la interfaz gráfica de usuario (GUI) y el uso del ratón al gran público?",
-      "opciones": {
-        "a": "Apple I",
-        "b": "Apple Macintosh",
-        "c": "Apple IIe",
-        "d": "iPad"
-      },
-      "correcta": "b"
-    }
-  ]
-}
+[
+  {
+    "q": "¿Qué elemento integrador marca el inicio de la Cuarta Generación de ordenadores a partir de 1971?",
+    "o": [
+      "Las tarjetas perforadas ópticas",
+      "El microprocesador",
+      "El transistor de germanio pura",
+      "La red ARPANET"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál fue considerado el primer microprocesador en un solo chip comercializado de la historia, lanzado en 1971?",
+    "o": [
+      "Intel 8086",
+      "Intel 4004",
+      "Motorola 68000",
+      "Zilog Z80"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tecnología de integración de circuitos permitió meter decenas de miles de componentes en un solo chip en la 4ª Generación?",
+    "o": [
+      "LSI y VLSI (Very Large Scale Integration)",
+      "ULSI exclusivamente",
+      "Sistemas de tubos de descarga",
+      "Relés termoiónicos"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿En qué año se lanzó el IBM PC (modelo 5150), estandarizando la arquitectura del ordenador personal en oficinas y hogares?",
+    "o": [
+      "1975",
+      "1981",
+      "1985",
+      "1990"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué sistema operativo venía integrado por defecto en el primer IBM PC fruto de una alianza comercial?",
+    "o": [
+      "Unix",
+      "Linux",
+      "MS-DOS",
+      "Mac OS"
+    ],
+    "a": 2
+  },
+  {
+    "q": "La Quinta Generación de ordenadores se asocia comúnmente con proyectos de qué tipo de desarrollo tecnológico?",
+    "o": [
+      "Inteligencia Artificial and procesamiento en paralelo",
+      "Sustitución de silicio por válvulas",
+      "Creación exclusiva de lenguajes ensambladores",
+      "Eliminación completa de conexiones inalámbricas"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué ambicioso proyecto estatal de los años 80 intentó liderar el desarrollo de la Quinta Generación mediante arquitecturas de computación masiva en paralelo?",
+    "o": [
+      "El proyecto ARPA de EE. UU.",
+      "El Proyecto de Quinta Generación de Japón (FGCS)",
+      "El Plan Alvey del Reino Unido",
+      "El programa Eureka de la UE"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de las siguientes características NO es propia de los ordenadores actuales englobados en las últimas evoluciones tecnológicas?",
+    "o": [
+      "Procesadores multinúcleo",
+      "Conectividad ubicua (Wi-Fi, 5G)",
+      "Almacenamiento exclusivo en tarjetas perforadas",
+      "Integración de arquitecturas de propósito específico (GPUs/NPUs)"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Quién propuso el concept original de que los programas y los datos se almacenasen juntos en la memoria del ordenador?",
+    "o": [
+      "John Von Neumann",
+      "Charles Babbage",
+      "Blaise Pascal",
+      "Steve Jobs"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué hito comercial de Apple en 1984 popularizó la interfaz gráfica de usuario (GUI) y el uso del ratón al gran público?",
+    "o": [
+      "Apple I",
+      "Apple Macintosh",
+      "Apple IIe",
+      "iPad"
+    ],
+    "a": 1
+  }
+]

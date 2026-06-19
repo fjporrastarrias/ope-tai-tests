@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Respecto a Impress, ¿cuál es el/la formato nativo de guardado?",
+    "o": [
+      ".odt",
+      ".ods",
+      ".odg",
+      ".odp"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Respecto a Impress, ¿cuál es el/la panel lateral que contiene las Páginas Maestras?",
+    "o": [
+      "Barra de Estado",
+      "Menú Formato",
+      "Panel de Tareas",
+      "Panel de Diapositivas"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Respecto a Base, ¿cuál es el/la motor relacional clásico escrito en Java integrado por defecto?",
+    "o": [
+      "PostgreSQL",
+      "HSQLDB",
+      "Firebird",
+      "SQLite"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Respecto a Base, ¿cuál es el/la objeto utilizado para diseñar la interfaz de introducción de datos?",
+    "o": [
+      "Formularios",
+      "Informes",
+      "Consultas",
+      "Tablas"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Respecto a Código Abierto, ¿cuál es el/la estándar ISO/IEC 26300 para documentos de oficina?",
+    "o": [
+      "OOXML",
+      "PDF/A",
+      "XHTML",
+      "ODF"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Respecto a Impress, ¿cuál es el/la vista orientada a la ordenación y organización secuencial rápida de diapositivas?",
+    "o": [
+      "Vista Esquema",
+      "Vista Notas",
+      "Clasificador de diapositivas",
+      "Vista Normal"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Respecto a Base, ¿cuál es el/la controlador estándar multiplataforma para conectar Base a MySQL o PostgreSQL?",
+    "o": [
+      "NFS",
+      "JDBC",
+      "ODBC nativo exclusivo",
+      "Samba"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Respecto a Código Abierto, ¿cuál es el/la organización que gestiona el desarrollo activo de LibreOffice?",
+    "o": [
+      "The Document Foundation",
+      "Apache Foundation",
+      "Microsoft Corp",
+      "Oracle"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Respecto a Base, ¿cuál es el/la extensión nativa de los archivos de base de datos creados en Base?",
+    "o": [
+      ".db",
+      ".accdb",
+      ".sql",
+      ".odb"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Respecto a Impress, ¿cuál es el/la herramienta para ver la diapositiva siguiente y notas en pantalla secundaria?",
+    "o": [
+      "Diseño maestro",
+      "Animación en cascada",
+      "Consola de presentación",
+      "Clasificador"
+    ],
+    "a": 0
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es un plan de recuperación ante desastres?",
+    "o": [
+      "Un documento de contraseñas",
+      "Un plan para recuperar datos y servicios tras un incidente crítico",
+      "Un tipo de firewall",
+      "Una política de contraseñas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué significa RTO en gestión de desastres?",
+    "o": [
+      "Registro de tiempo operacional",
+      "Objetivo de tiempo de recuperación",
+      "Red de transmisión óptica",
+      "Reporte de tráfico operacional"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es una copia de seguridad (backup)?",
+    "o": [
+      "Un duplicado de un sitio web",
+      "Una copia de datos para recuperación en caso de pérdida",
+      "Un programa antivirus",
+      "Un tipo de contraseña"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuáles son los tipos principales de copias de seguridad?",
+    "o": [
+      "Local y remota",
+      "Completa, incremental y diferencial",
+      "Pública y privada",
+      "Diaria y semanal"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el cumplimiento normativo en seguridad?",
+    "o": [
+      "Un conjunto de contraseñas",
+      "Adherirse a estándares y regulaciones de seguridad",
+      "Un tipo de firewall",
+      "Una técnica de encriptación"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la LOPD?",
+    "o": [
+      "Una herramienta de red",
+      "Ley Orgánica de Protección de Datos",
+      "Un protocolo de internet",
+      "Un programa antivirus"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el objetivo principal de la LOPD?",
+    "o": [
+      "Acelerar Internet",
+      "Proteger los datos personales y la privacidad",
+      "Aumentar la velocidad de las redes",
+      "Mejorar los navegadores web"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el RGPD?",
+    "o": [
+      "Un protocolo de seguridad de redes",
+      "Reglamento General de Protección de Datos europeo",
+      "Un tipo de firewall",
+      "Un estándar de compresión de datos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la pena máxima por incumplimiento del RGPD?",
+    "o": [
+      "100.000 EUR",
+      "Hasta 20 millones de EUR o 4% de facturación anual",
+      "500.000 EUR",
+      "1 millón de EUR"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué derecho tienen los usuarios según el RGPD?",
+    "o": [
+      "Acceso a datos, rectificación, olvido y portabilidad",
+      "Solo acceso a sus datos",
+      "No tienen derechos específicos",
+      "Solo el derecho a ser olvidado"
+    ],
+    "a": 0
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué organismo internacional creó los niveles de Tier Classification para evaluar el desempeño de centros de datos?",
+    "o": [
+      "Uptime Institute",
+      "TIA",
+      "ISO",
+      "IEEE"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la tasa de disponibilidad máxima asignada a la infraestructura de un CPD Tier II según el texto?",
+    "o": [
+      "99,741%",
+      "99,982%",
+      "99,995%",
+      "99,650%"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Un diseño con redundancia 'N+1' se asocia típicamente a qué nivel de Tier según las descripciones operativas del texto?",
+    "o": [
+      "Tier II y Tier III",
+      "Tier I",
+      "Tier IV",
+      "Tier V"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la denominación operativa del Tier III según el Uptime Institute?",
+    "o": [
+      "Concurrentemente mantenible",
+      "Tolerante a fallos",
+      "Componentes redundantes",
+      "Básico"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la disponibilidad máxima de un datacenter clasificado como Tier IV?",
+    "o": [
+      "99,995%",
+      "99,982%",
+      "99,741%",
+      "99,999%"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué nivel de redundancia define la infraestructura de un CPD Tier IV?",
+    "o": [
+      "2(N+1)",
+      "N+1",
+      "N",
+      "1+1"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué concepto o nivel no certificable oficialmente por el Uptime Institute fue definido por la empresa Switch?",
+    "o": [
+      "Tier V",
+      "Tier IV+",
+      "Tier Ultra",
+      "Tier VI"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Según el estándar TIA-942, ¿qué dos grandes áreas técnicas se mencionan además de la climatización?",
+    "o": [
+      "Telecomunicaciones y Arquitectura",
+      "Legislación y Finanzas",
+      "Software de base y Ofimática",
+      "Criptografía y Firma digital"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En la infraestructura Tier III, ¿cómo es la distribución eléctrica y de refrigeración?",
+    "o": [
+      "Múltiples líneas de distribución, pero solo una activa",
+      "Una sola línea de distribución sin componentes extra",
+      "Múltiples líneas activas simultáneamente",
+      "Líneas totalmente aisladas sin conexión entre sí"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué siglas representan la parada de emergencia anual considerada en las normativas para simulacros en un Tier IV?",
+    "o": [
+      "EPO (Emergency Power Off)",
+      "SAI",
+      "HVAC",
+      "PDU"
+    ],
+    "a": 0
+  }
+]

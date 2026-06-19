@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la recomendación mínima de longitud de caracteres para una contraseña robusta según el ejemplo del documento?",
+    "o": [
+      "Al menos 12 caracteres.",
+      "Al menos 10 caracteres.",
+      "Al menos 8 caracteres.",
+      "Al menos 6 caracteres."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Dentro de las medidas técnicas para el puesto de trabajo, los privilegios o permisos de administración deben:",
+    "o": [
+      "Otorgarse a todos los usuarios habituales para agilizar la instalación de parches.",
+      "Asignarse de forma temporal automáticamente mediante el sistema operativo.",
+      "Estar en posesión exclusiva del personal TIC, configurando a los usuarios habituales sin ellos.",
+      "Estar deshabilitados completamente tanto para el personal habitual como para el personal TIC."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué es el 'Rogueware' u Rogue Software?",
+    "o": [
+      "Malware que destruye el sector de arranque de los discos duros.",
+      "Malware que aparenta ser una herramienta de desinfección (como un falso antivirus) pero realmente es un troyano.",
+      "Un programa que inunda el sistema con paquetes ICMP (ping).",
+      "Herramienta usada exclusivamente para auditar redes WiFi públicas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué herramienta integrada en ADA del CCN-CERT se encarga específicamente de realizar análisis dinámicos avanzados de código dañino (multi-sandboxing)?",
+    "o": [
+      "MARÍA",
+      "MARTA",
+      "GLORIA",
+      "LUCIA"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según el documento de Seguridad en Redes, ¿cuál es el motivo principal por el que se debe limitar la utilización de usuarios genéricos?",
+    "o": [
+      "Porque consumen excesivos recursos de licencias del sistema operativo.",
+      "Porque impiden llevar la trazabilidad de las acciones realizadas y dificultan detectar accesos no autorizados.",
+      "Porque no permiten configurar correctamente el fondo de escritorio corporativo.",
+      "Porque bloquean automáticamente el cortafuegos perimetral."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué medida se aconseja respecto al uso de dispositivos de almacenamiento extraíble (USB) en el puesto de usuario?",
+    "o": [
+      "Permitir su uso libre siempre que el usuario haya firmado el documento de confidencialidad.",
+      "Deshabilitar por defecto los puertos USB y requerir cifrado de la información y acceso autenticado.",
+      "Utilizarlos como la primera opción de backup diario de los puestos de trabajo.",
+      "Permitirlos únicamente en ordenadores que no estén conectados a la red corporativa."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Dentro del catálogo de herramientas del CCN-CERT, ¿cuál realiza la auditoría de cumplimiento del ENS/STIC específicamente en sistemas operativos Windows?",
+    "o": [
+      "CARLA",
+      "CLARA",
+      "ANA",
+      "AMPARO"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Un programa inofensivo que simula los efectos de un virus para gastar una broma al usuario, sin producir daños por sí mismo, se denomina:",
+    "o": [
+      "Spyware",
+      "Joke",
+      "Adware",
+      "Rogueware"
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con las medidas técnicas explicadas, respecto a la navegación web de los usuarios se aconseja:",
+    "o": [
+      "Permitir navegación ilimitada fuera del horario laboral.",
+      "Implantar un servidor proxy y navegación autenticada para limitar el acceso a páginas de contenidos determinados o inadecuados.",
+      "Desactivar el protocolo HTTPS en los navegadores locales.",
+      "Permitir descargas únicamente desde plataformas P2P autorizadas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La medida organizativa que prohíbe la alteración de la configuración del equipo local busca garantizar:",
+    "o": [
+      "Que solo el personal TIC tenga privilegios de administración y controle el software instalado.",
+      "Que la pantalla del usuario no cambie de resolución.",
+      "Que el antivirus se actualice cada hora de forma manual.",
+      "El cumplimiento estricto del horario de la jornada laboral."
+    ],
+    "a": 0
+  }
+]

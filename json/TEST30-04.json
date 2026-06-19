@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Según la Disposición Transitoria Única del RD 311/2022, ¿de qué plazo disponían los sistemas preexistentes para alcanzar su adecuación?",
+    "o": [
+      "6 meses",
+      "12 meses",
+      "24 meses",
+      "3 años"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cómo se determina la categoría de seguridad (Básica, Media o Alta) de un sistema de información según el Anexo I?",
+    "o": [
+      "En función de la valoración del impacto que tendría un incidente que afectase a sus dimensiones de seguridad",
+      "Contando el número total de terminales conectados",
+      "Midiendo exclusivamente el presupuesto anual asignado",
+      "Dependiendo de si el sistema trata datos de salud"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Basándose en las valoraciones de impacto, ¿a quién corresponde formalmente la determinación final de la categoría de seguridad del sistema?",
+    "o": [
+      "Al responsable de la información",
+      "Al responsable del servicio",
+      "Al responsable o responsables de la seguridad",
+      "Al director de informática"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué dimensiones de la seguridad se evalúan de forma unificada para categorizar un sistema en el ENS?",
+    "o": [
+      "Confidencialidad y Disponibilidad exclusivamente",
+      "Disponibilidad, Autenticidad, Integridad, Confidencialidad y Trazabilidad",
+      "Eficiencia, Interoperabilidad, Robustez y Escalabilidad",
+      "Secreto, Conservación, Digitalización y Acceso"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Qué metodología de análisis de riesgos se cita explícitamente en el texto para el proceso de adecuación al ENS?",
+    "o": [
+      "COBIT 5",
+      "ISO 27001",
+      "Magerit v3 (junto con la herramienta Pilar)",
+      "ITIL v4"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Según el glosario del ENS, la propiedad consistente en que las actuaciones de una entidad pueden ser trazadas de forma indiscutible se denomina:",
+    "o": [
+      "Autenticidad",
+      "Integridad",
+      "Trazabilidad",
+      "No repudio perimetral"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es el nombre del nuevo portal web o herramienta que integra las soluciones en un modelo basado en 'Business Intelligence' lanzado por el CCN?",
+    "o": [
+      "AMPARO",
+      "EVENS",
+      "INES",
+      "SARA"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de las siguientes es una Instrucción Técnica de Seguridad (ITS) vigente y obligatoria regulada por el ENS?",
+    "o": [
+      "ITS de Gestión de Redes Wifi Municipales",
+      "ITS de Notificación de Incidentes de seguridad",
+      "ITS de Copias de Seguridad en Almacenamiento Óptico",
+      "ITS de Desarrollo de Software Libre"
+    ],
+    "a": 0
+  },
+  {
+    "q": "El principio que exige que las medidas se revalúen periódicamente para adecuar su eficacia a los riesgos cambiantes se denomina:",
+    "o": [
+      "Mejora continua del proceso de seguridad",
+      "Reevaluación periódica",
+      "Vigilancia continua",
+      "Gestión basada en riesgos"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Según el requisito mínimo de 'Registro de actividad', las administraciones públicas pueden analizar las comunicaciones entrantes o salientes:",
+    "o": [
+      "Para cualquier fin de control laboral",
+      "En la medida estrictamente necesaria y proporcionada, y únicamente para los fines de seguridad de la información",
+      "Siempre que cuenten con autorización judicial previa",
+      "Queda estrictamente prohibido bajo cualquier circunstancia"
+    ],
+    "a": 0
+  }
+]

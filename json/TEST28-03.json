@@ -1,0 +1,102 @@
+[
+  {
+    "q": "En el caso de un reseteo de contraseña por parte del personal TIC, ¿cuál es la obligación del usuario según la política de contraseñas?",
+    "o": [
+      "Mantener la contraseña inicial asignada durante al menos 6 meses.",
+      "Cambiar obligatoriamente la clave inicial tras el primer acceso.",
+      "Anotar la clave en un registro confidencial accesible para el departamento.",
+      "Solicitar un segundo factor de autenticación biométrico obligatoriamente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué característica define al Spyware?",
+    "o": [
+      "Se ejecuta exclusivamente cuando se cumple una condición o fecha determinada.",
+      "Tiene capacidad de monitorizar el teclado, cookies, analizar archivos del disco de forma arbitraria y espiar aplicaciones sin conocimiento del usuario.",
+      "Satura el servidor web mediante el envío masivo de paquetes de ping.",
+      "Es un código inofensivo diseñado para simular fallos de hardware."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es una 'Bomba lógica'?",
+    "o": [
+      "Una red de ordenadores zombis controlados remotamente.",
+      "Un programa sin capacidad de replicación que ejecuta su código cuando se produce una condición determinada (efecto retardado).",
+      "Malware que oculta una intrusión y proporciona permisos de root.",
+      "Un tipo de ataque DoS basado en paquetes ICMP corruptos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Con respecto a la instalación y actualización de antivirus en los puestos de trabajo, se debe asegurar que:",
+    "o": [
+      "El usuario pueda desactivar el análisis en tiempo real si el equipo va lento.",
+      "Se deshabilite la opción de que el usuario lo pueda desactivar y se configure con actualización automática y análisis en tiempo real.",
+      "Solo se analicen los archivos adjuntos del correo electrónico.",
+      "Las actualizaciones se realicen exclusivamente de forma manual una vez al mes."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La herramienta CARLA del CCN-CERT se enfoca principalmente en:",
+    "o": [
+      "La automatización de auditorías de red inalámbrica.",
+      "La protección y trazabilidad del dato, asegurando que la información viaje protegida y bajo control.",
+      "El análisis estático de ficheros mediante múltiples motores.",
+      "Simular técnicas de cibervigilancia para formación de analistas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué riesgo específico se menciona respecto a que un equipo local mantenga su sesión abierta cuando el usuario se ausenta?",
+    "o": [
+      "Que el equipo se sobrecaliente rápidamente.",
+      "Que la medida de control de acceso pierda toda su eficacia, permitiendo un uso no autorizado.",
+      "Que expire la dirección IP asignada por el servidor DHCP.",
+      "Que el antivirus detenga su ejecución en segundo plano."
+    ],
+    "a": 1
+  },
+  {
+    "q": "La herramienta del CCN-CERT que funciona como un sistema centralizado unificado que integra los análisis dinámicos (MARTA) y estáticos (MARÍA) se denomina:",
+    "o": [
+      "ADA",
+      "GLORIA",
+      "MONICA",
+      "REYES"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Respecto a los dispositivos de uso personal en el entorno corporativo (BYOD), la organización debe:",
+    "o": [
+      "Prohibir totalmente su entrada al edificio de la organización.",
+      "Prestar especial atención, manteniendo una base de datos de los dispositivos y usuarios y asegurando que sean seguros antes de conectarse.",
+      "Permitir su conexión directa a la red protegida interna sin restricciones.",
+      "Asignarles automáticamente el perfil de Administrador de red."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué ataque consiste en insertar líneas de código maliciosas en una aplicación web para obtener acceso, modificar o robar datos de la base de datos subyacente?",
+    "o": [
+      "Inyección SQL.",
+      "Envenenamiento de DNS.",
+      "Clickjacking.",
+      "SYN Flood."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué medida técnica se propone para el desecho seguro de documentación confidencial obsoleta en formato papel?",
+    "o": [
+      "Almacenarla en la DMZ interna.",
+      "Adquirir destructoras de documentación para poner a disposición de los usuarios.",
+      "Utilizar contenedores de reciclaje abiertos en los pasillos corporativos.",
+      "Escanearla y luego tirarla a la basura convencional."
+    ],
+    "a": 1
+  }
+]

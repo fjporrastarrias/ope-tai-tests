@@ -1,0 +1,102 @@
+[
+  {
+    "q": "31. ¿Cuál es la tasa de disponibilidad máxima del datacenter fijada para un CPD de nivel de diseño Tier IV (Tolerante a fallos) según el Uptime Institute?",
+    "o": [
+      "99,671%",
+      "99,741%",
+      "99,982%",
+      "99,995%"
+    ],
+    "a": 3
+  },
+  {
+    "q": "32. Un CPD diseñado bajo criterios de nivel Tier II (Componentes Redundantes) se caracteriza por disponer de una redundancia de tipo:",
+    "o": [
+      "Redundancia N.",
+      "Redundancia N+1.",
+      "Redundancia 2N.",
+      "Redundancia 2(N+1)."
+    ],
+    "a": 1
+  },
+  {
+    "q": "33. ¿Qué componente de alimentación eléctrica adapta la entrada de corriente, protege de sobretensiones y proporciona autonomía por baterías para un apagado ordenado?",
+    "o": [
+      "PDU (Power Distribution Unit)",
+      "Grupo electrógeno diésel",
+      "SAI / UPS (Sistema de Alimentación Ininterrumpida)",
+      "Suelo técnico elevado"
+    ],
+    "a": 2
+  },
+  {
+    "q": "34. ¿Qué solución técnica del catálogo CCN realiza tareas de sobreescritura y borrado seguro sobre sistemas de archivos, carpetas y espacio libre de disco?",
+    "o": [
+      "OLVIDO",
+      "CARLA",
+      "LORETO",
+      "CCNDroid Crypter"
+    ],
+    "a": 0
+  },
+  {
+    "q": "35. ¿Qué implica contar con un diseño de redundancia '2(N+1)' en la infraestructura de climatización y energía de un CPD de alta gama?",
+    "o": [
+      "Que solo se dispone de un elemento de repuesto para todo el edificio.",
+      "Que se cuenta con múltiples líneas activas simultáneamente y replicación de la unidad extra ante fallos completos.",
+      "Que el mantenimiento de una línea cortará necesariamente el servicio de explotación.",
+      "Que se prescinde de los sistemas de alimentación ininterrumpida."
+    ],
+    "a": 1
+  },
+  {
+    "q": "36. GFS (Google File System) y HDFS (Hadoop Distributed File System) son ejemplos citados en la infraestructura de almacenamiento como:",
+    "o": [
+      "Redes de Almacenamiento SAN de fibra óptica.",
+      "Sistemas de archivos distribuidos para nodos de procesamiento.",
+      "Políticas de rotación de cintas de backup.",
+      "Herramientas de análisis forense digital."
+    ],
+    "a": 1
+  },
+  {
+    "q": "37. En el control remoto de puestos de usuario mediante tecnologías de Escritorio Remoto, el equipo de la oficina al que se desea acceder actúa bajo el rol de:",
+    "o": [
+      "Cliente",
+      "Gateway",
+      "Servidor",
+      "Proxy contextual"
+    ],
+    "a": 2
+  },
+  {
+    "q": "38. ¿Qué dimensión de la seguridad de la información garantiza que los usuarios legítimos tengan acceso a los datos y servicios siempre que lo requieran?",
+    "o": [
+      "Autenticidad",
+      "Confidencialidad",
+      "Integridad",
+      "Disponibilidad"
+    ],
+    "a": 3
+  },
+  {
+    "q": "39. En la organización física de un CPD, ¿cuál es la anchura típica estandarizada de un módulo o estructura rack para alojar servidores e infraestructura de red?",
+    "o": [
+      "15 pulgadas",
+      "17 pulgadas",
+      "19 pulgadas",
+      "21 pulgadas"
+    ],
+    "a": 2
+  },
+  {
+    "q": "40. ¿Qué solución de gobernanza de la ciberseguridad permite evaluar regularmente el estado de seguridad de los sistemas TIC y su adecuación al ENS?",
+    "o": [
+      "INES",
+      "ANA",
+      "CARMEN",
+      "MARTA"
+    ],
+    "a": 0
+  }
+]

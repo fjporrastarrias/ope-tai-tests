@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué característica define principalmente a la Web 1.0 según la documentación de estudio?",
+    "o": [
+      "Es una web puramente interactiva y basada en redes sociales.",
+      "Es una web de solo lectura, orientada a la navegación pasiva y a dispositivos de escritorio.",
+      "Se fundamenta en agentes virtuales inteligentes y semántica de datos.",
+      "Permite la manipulación automática de descripciones mediante motores de inferencia."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según la definición del W3C, ¿en qué framework se basa principalmente la Web Semántica (Web 3.0) para integrar aplicaciones que utilizan XML?",
+    "o": [
+      "SOAP (Simple Object Access Protocol)",
+      "AJAX (Asynchronous JavaScript and XML)",
+      "RDF (Resource Description Framework)",
+      "RSS (Really Simple Syndication)"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En el ciclo de vida de una RFC (Request For Comments) elaborado por el IETF, ¿cuál de los siguientes NO es un estado oficial?",
+    "o": [
+      "Borrador estándar.",
+      "Propuesta estándar.",
+      "Protocolo definitivo y permanente.",
+      "Experimental o Informativo."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál fue el nombre inicial que Tim Berners-Lee propuso para el sistema de hipertexto que hoy conocemos como World Wide Web?",
+    "o": [
+      "CERN Net",
+      "Mesh (malla)",
+      "HyperNews",
+      "Mosaic Link"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En la estructura de una URL, ¿qué componentes tienen carácter estrictamente obligatorio según el documento técnico?",
+    "o": [
+      "El nombre de protocolo y el número de puerto.",
+      "El nombre de protocolo y el nombre de host-dominio o dirección IP.",
+      "El login, password y la localización en el servidor.",
+      "El host-dominio y el número de puerto por defecto."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de servidor DNS almacena conjuntos de registros obtenidos mediante búsquedas recursivas a servidores autoritativos de forma temporal?",
+    "o": [
+      "Servidor DNS Primario o Maestro.",
+      "Servidor DNS Esclavo o Secundario.",
+      "Servidor Caché o Resolver.",
+      "Servidor Raíz (Root Server)."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Dentro de la jerarquía DNS, ¿cuál es la longitud máxima de caracteres permitida para una etiqueta individual y para el FQDN completo, respectivamente?",
+    "o": [
+      "32 caracteres por etiqueta y 128 para el FQDN.",
+      "63 caracteres por etiqueta y 255 para el FQDN (incluyendo los puntos).",
+      "64 caracteres por etiqueta y 256 para el FQDN.",
+      "15 caracteres por etiqueta y 63 para el FQDN."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Bajo el Plan Nacional de nombres de dominio '.es', ¿cuáles son los límites máximos y mínimos de caracteres para los dominios de segundo nivel?",
+    "o": [
+      "Mínimo 2 y máximo 63 caracteres.",
+      "Mínimo 3 y máximo 63 caracteres.",
+      "Mínimo 3 y máximo 255 caracteres.",
+      "Mínimo 2 y máximo 32 caracteres."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Según las RFC 2606 y 6761, ¿cuál de los siguientes es un nombre de dominio de primer nivel (TLD) reservado?",
+    "o": [
+      "example.com",
+      ".invalid",
+      "localhost.localdomain",
+      ".internal"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Para la resolución inversa de una dirección IPv4 como la 213.4.108.69, ¿cuál es el formato exacto del dominio dentro de in-addr.arpa?",
+    "o": [
+      "213.4.108.69.in-addr.arpa",
+      "in-addr.arpa.213.4.108.69",
+      "69.108.4.213.in-addr.arpa",
+      "69.108.4.213.ip6.arpa"
+    ],
+    "a": 2
+  }
+]

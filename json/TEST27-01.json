@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es la confidencialidad en el contexto de seguridad de sistemas?",
+    "o": [
+      "La disponibilidad de los datos para todos los usuarios",
+      "La protección de la información contra acceso no autorizado",
+      "La rapidez en el acceso a los datos",
+      "La capacidad de modificar datos sin restricciones"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la integridad de datos?",
+    "o": [
+      "Que los datos sean accesibles en todo momento",
+      "Que los datos sean legibles por cualquiera",
+      "Que los datos no sean modificados sin autorización",
+      "Que los datos sean almacenados en múltiples localizaciones"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué es la disponibilidad en seguridad informática?",
+    "o": [
+      "Que los datos estén encriptados",
+      "Que los sistemas estén accesibles cuando se necesitan",
+      "Que solo una persona pueda acceder a los datos",
+      "Que los datos no se modifiquen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el tiempo de inactividad máximo recomendado para bloquear automáticamente una sesión?",
+    "o": [
+      "10 minutos",
+      "5 minutos",
+      "15 minutos",
+      "3 minutos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es un rootkit en la clasificación de malware?",
+    "o": [
+      "Un programa inofensivo que simula un virus",
+      "Una colección de herramientas para ocultar una intrusión y obtener privilegios de administrador",
+      "Malware que genera publicidad",
+      "Un tipo de virus de archivo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la diferencia principal entre un virus y un gusano?",
+    "o": [
+      "El virus es más lento",
+      "El virus necesita un programa huésped; el gusano se replica solo",
+      "El gusano solo afecta a Windows",
+      "No hay diferencia significativa"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es un caballo de Troya (Trojan)?",
+    "o": [
+      "Un programa que se replica sin intervención humana",
+      "Un programa que aparenta ser legítimo pero realiza acciones maliciosas",
+      "Un virus de tipo macro",
+      "Un programa anti-virus"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el phishing?",
+    "o": [
+      "Un tipo de virus informático",
+      "Un ataque para obtener información personal suplantando identidades",
+      "Un firewall de seguridad",
+      "Una técnica de encriptación"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la mejor práctica para proteger contra ataques de fuerza bruta?",
+    "o": [
+      "Usar contraseñas simples",
+      "Implementar límite de intentos fallidos y autenticación multifactor",
+      "No usar contraseñas",
+      "Cambiar la contraseña cada hora"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la autenticación multifactor?",
+    "o": [
+      "Usar múltiples bases de datos",
+      "Requerir múltiples factores de verificación de identidad",
+      "Usar múltiples redes",
+      "Cambiar la contraseña frecuentemente"
+    ],
+    "a": 1
+  }
+]

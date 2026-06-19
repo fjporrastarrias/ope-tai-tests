@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la unidad lógica fundamental de la estructura de Active Directory que actúa como frontera de seguridad y de replicación de políticas?",
+    "o": [
+      "El Bosque (Forest)",
+      "El Dominio (Domain)",
+      "El Árbol (Tree)",
+      "La Unidad Organizativa (OU)"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cómo se define conceptualmente un Bosque (Forest) en un entorno de Active Directory?",
+    "o": [
+      "Una colección de servidores independientes sin comunicación jerárquica.",
+      "El contenedor de nivel superior que agrupa a uno o más árboles de dominios compartiendo un Esquema, Configuración y Catálogo Global común.",
+      "Una segmentación física basada en subredes IP conectadas mediante routers de alta velocidad.",
+      "La estructura interna de una Unidad Organizativa de recursos dedicados."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es el propósito principal de una Unidad Organizativa (OU) dentro de un dominio de Active Directory?",
+    "o": [
+      "Crear un nuevo límite de seguridad absoluta independiente del dominio corporativo.",
+      "Organizar objetos de forma jerárquica para facilitar la delegación administrativa y la aplicación directa de directivas de grupo (GPO).",
+      "Sustituir de manera integral el uso de los grupos de seguridad tradicionales.",
+      "Definir subredes IP destinadas al tráfico de replicación entre sedes remotas."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué componente físico del entorno aloja la base de datos de Active Directory y proporciona los servicios de autenticación de red?",
+    "o": [
+      "Servidor Miembro (Member Server)",
+      "Controlador de Dominio (Domain Controller)",
+      "Estación de Trabajo Administradora",
+      "Servidor de Almacenamiento Centralizado (NAS)"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué define un 'Sitio' (Site) dentro de la arquitectura física de Active Directory?",
+    "o": [
+      "Una colección lógicamente estructurada de cuentas y contraseñas de usuarios externos.",
+      "Un objeto que representa una o más subredes IP conectadas mediante enlaces de alta velocidad y fiables, utilizado para optimizar la replicación física.",
+      "La dirección URL interna de acceso web al portal de la administración local.",
+      "Un subconjunto del esquema que define el formato de metadatos del directorio."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es el nombre del archivo de base de datos relacional extensible donde se almacena todo el contenido del directorio en un Controlador de Dominio?",
+    "o": [
+      "active_directory.db",
+      "sam.dat",
+      "ntds.dit",
+      "sysvol.xml"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué función cumple el Catálogo Global (Global Catalog) en un entorno de bosque multidominio?",
+    "o": [
+      "Guardar un registro continuo de auditoría de todas las violaciones de seguridad del sistema.",
+      "Almacenar una réplica completa de todos los objetos y de todos los atributos de cada servidor corporativo.",
+      "Almacenar una réplica completa de todos los objetos de su propio dominio y una réplica parcial (atributos frecuentes) de todos los objetos de los demás dominios del bosque.",
+      "Actuar como servidor de nombres DNS raíz para la red interna de la corporación."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cómo se comporta la replicación entre controladores de dominio que pertenecen a un mismo Sitio (Replicación Intrasitio)?",
+    "o": [
+      "Es síncrona, consume poco ancho de banda y se realiza únicamente una vez al día.",
+      "Se basa en notificaciones automáticas de cambio y se realiza de forma rápida y casi inmediata mediante RPC sobre IP de manera comprimida.",
+      "Se realiza obligatoriamente mediante cintas o soportes físicos externos por motivos de seguridad del ENS.",
+      "Utiliza únicamente el protocolo SMTP con cifrado asimétrico estricto."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes elementos pertenece en exclusiva a la estructura LÓGICA de Active Directory?",
+    "o": [
+      "Controlador de Dominio (Domain Controller)",
+      "Enlace de Sitios (Site Link)",
+      "Árbol de Dominios (Tree)",
+      "Subred IP de Comunicaciones"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué tipo de relación de confianza se establece de forma predeterminada, automática e intrínseca entre dominios de un mismo bosque de Active Directory?",
+    "o": [
+      "Confianza externa unidireccional y no transitiva.",
+      "Confianza bidireccional y transitiva.",
+      "Confianza de acceso directo manual atemporal.",
+      "Relación de exclusión mutua federada."
+    ],
+    "a": 0
+  }
+]

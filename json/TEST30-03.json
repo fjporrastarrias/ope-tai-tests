@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Se pueden reemplazar las medidas de seguridad del Anexo II por otras alternativas?",
+    "o": [
+      "No, las medidas son inalterables",
+      "Sí, por medidas compensatorias, justificando documentalmente que protegen igual o mejor",
+      "Sí, pero solo en sistemas de categoría básica",
+      "Únicamente si lo autoriza el Consejo de Ministros"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Con qué frecuencia mínima ordinaria deben ser objeto de una auditoría de seguridad los sistemas del ámbito del ENS?",
+    "o": [
+      "Anualmente",
+      "Al menos cada dos años",
+      "Cada tres años obligatoriamente",
+      "Cada cinco años junto con la renovación"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuándo se debe realizar una auditoría extraordinaria en un sistema regulado por el ENS?",
+    "o": [
+      "Cuando cambie el responsable de la información",
+      "Siempre que se produzcan modificaciones sustanciales en el sistema que puedan repercutir en la seguridad",
+      "Cada vez que se detecte una falsa alarma de malware",
+      "Al finalizar el año natural siempre"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En caso de concurrir impedimentos de fuerza mayor, el plazo de dos años para la auditoría ordinaria se puede extender durante:",
+    "o": [
+      "Un mes",
+      "Tres meses",
+      "Seis meses",
+      "Un año"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En sistemas de categoría ALTA, si el dictamen de auditoría detecta deficiencias muy graves, ¿qué puede hacer el responsable del sistema?",
+    "o": [
+      "Sancionar económicamente al personal",
+      "Suspender temporalmente el tratamiento de informaciones, la prestación de servicios o la total operación",
+      "Modificar de forma unilateral la ley estatal",
+      "Cambiar la categoría a Básica automáticamente"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué órgano es el encargado de recoger la información para elaborar el perfil general del estado de la seguridad?",
+    "o": [
+      "El Centro Criptológico Nacional",
+      "La Comisión Sectorial de Administración Electrónica",
+      "La Agencia Española de Protección de Datos",
+      "El Instituto Nacional de Administración Pública"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿A través de qué estructura específica el CCN articula la respuesta técnica a los incidentes de seguridad del sector público?",
+    "o": [
+      "INCIBE-CERT",
+      "ESPDEF-CERT",
+      "CCN-CERT",
+      "Mando Conjunto del Ciberespacio"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Cuando una organización privada que presta servicios a entidades públicas sufre un incidente, ¿a quién debe notificarlo?",
+    "o": [
+      "Al CCN-CERT de forma directa",
+      "Al INCIBE-CERT, quien lo pondrá en conocimiento del CCN-CERT",
+      "Al Ministerio del Interior únicamente",
+      "A la sede electrónica del Ayuntamiento contratante"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué procedimiento de conformidad requieren los sistemas clasificados como de categoría BÁSICA?",
+    "o": [
+      "Una auditoría formal de certificación bienal",
+      "Una autoevaluación documentada para su declaración de conformidad",
+      "Un informe pericial firmado por notario",
+      "Quedan totalmente exentos de procesos de conformidad"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué procedimiento se exige obligatoriamente para determinar la conformidad de los sistemas de categoría MEDIA o ALTA?",
+    "o": [
+      "Bastará con una autoevaluación firmada",
+      "Una auditoría para la certificación de su conformidad realizada por entidades acreditadas",
+      "Un control trimestral mediante cuestionarios web",
+      "Una inspección presencial del Ministerio"
+    ],
+    "a": 0
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál de los siguientes NO es uno de los cuatro principios rectores de las pautas WCAG 2.1 / 2.2?",
+    "o": [
+      "Perceptible.",
+      "Interoperable.",
+      "Comprensible.",
+      "Robusto."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En la evaluación de la conformidad con las pautas WCAG, ¿qué niveles de éxito o criterios se definen internacionalmente?",
+    "o": [
+      "Niveles 1, 2 y 3.",
+      "Niveles Bronce, Plata y Oro.",
+      "Niveles A, AA y AAA.",
+      "Niveles Básico, Intermedio y Avanzado."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Garantizar que las funciones de una página municipal sean completamente ejecutables mediante el uso exclusivo del teclado, ¿a qué principio de las WCAG responde?",
+    "o": [
+      "Perceptible",
+      "Operable",
+      "Comprensible",
+      "Robusto"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Asegurar que el código HTML de un portal público local esté limpio, bien estructurado y sin errores sintácticos para que los lectores de pantalla puedan interpretarlo de forma fiable, se asocia al principio:",
+    "o": [
+      "Robusto",
+      "Estable",
+      "Comprensible",
+      "Perceptible"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En usabilidad web, ¿qué término define la facilidad con la que los usuarios pueden completar tareas básicas la primera vez que se topan con el diseño?",
+    "o": [
+      "Eficiencia",
+      "Memorabilidad",
+      "Aprendizaje (Learnability)",
+      "Tolerancia a errores"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Si un ciudadano con discapacidad visual severa accede a la Sede Electrónica del Ayuntamiento, ¿qué tecnología asistiva utilizará principalmente?",
+    "o": [
+      "Un ratón ergonómico.",
+      "Un lector de pantalla (screen reader) respaldado por código semántico y alternativas textuales.",
+      "Un software de subtitulado automático.",
+      "Un proxy inverso seguro."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Bajo el protocolo HTTP/1.0, tras recibir el cliente la respuesta a una petición realizada al servidor, ¿qué ocurre inmediatamente con la conexión TCP?",
+    "o": [
+      "Permanece abierta indefinidamente gracias al parámetro Keep-Alive.",
+      "El servidor la cierra de inmediato (conexión efímera).",
+      "Se duplica para iniciar un canal paralelo.",
+      "Pasa a un estado de multiplexación dinámica."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué puerto TCP por defecto se asume en una URL si no se especifica explícitamente y el protocolo indicado es 'http'?",
+    "o": [
+      "443",
+      "21",
+      "80",
+      "53"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué tipo de dominios geográficos de primer nivel están formados estrictamente por dos letras según la norma ISO 3166-1?",
+    "o": [
+      "gTLD (generic Top Level Domain)",
+      "ccTLD (country code Top Level Domain)",
+      "gTLD restringidos",
+      "Dominios Patrocinados"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el contexto del diseño de contenidos orientados al sector público local, ¿cuál es el objetivo primordial de la 'Usabilidad'?",
+    "o": [
+      "Garantizar que el portal web sea estéticamente complejo e incorpore animaciones.",
+      "Lograr que los usuarios del portal web alcancen sus objetivos con efectividad, eficiencia y satisfacción.",
+      "Impedir que personas ajenas al municipio visualicen la información.",
+      "Garantizar la encriptación mediante algoritmos asimétricos TLS 1.3."
+    ],
+    "a": 1
+  }
+]

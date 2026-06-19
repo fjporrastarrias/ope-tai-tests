@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es el nombre del archivo ejecutable de la consola clásica de administración en formato Microsoft Management Console (MMC) empleada para gestionar Usuarios y Equipos de Active Directory?",
+    "o": [
+      "services.msc",
+      "dsa.msc",
+      "compmgmt.msc",
+      "adsiedit.msc"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué consola de administración moderna introducida a partir de Windows Server 2008 R2, desarrollada sobre PowerShell, incorpora historial de comandos ejecutados y la papelera de reciclaje de Active Directory de forma gráfica?",
+    "o": [
+      "Administrador de Servidores (Server Manager)",
+      "Centro de Administración de Active Directory (ADAC)",
+      "Consola del Catálogo Global Integrado",
+      "Herramienta de Administración de Sitios (dssite.msc)"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué herramienta de bajo nivel de Active Directory se comporta como un editor de bajo nivel para modificar directamente atributos crudos de objetos vía LDAP?",
+    "o": [
+      "ADSI Edit (adsiedit.msc)",
+      "Visor de Eventos (eventvwr.msc)",
+      "Editor de Directivas de Grupo Local (gpedit.msc)",
+      "Administrador de Discos"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es el cmdlet oficial del módulo de PowerShell para Active Directory diseñado para dar de alta una nueva cuenta de usuario?",
+    "o": [
+      "Add-User -AD",
+      "New-Object -Type User",
+      "New-ADUser",
+      "Set-ADUser -Create"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué comando se debe ejecutar en la línea de comandos de un equipo cliente Windows para forzar la descarga y aplicación inmediata de las Directivas de Grupo (GPOs) del dominio?",
+    "o": [
+      "ipconfig /flushdns",
+      "gpupdate /force",
+      "gpresult /v",
+      "ntdsutil /update"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué herramienta de administración gráfica de Active Directory es la adecuada para configurar la topología física, declarar enlaces de replicación (Site Links) y programar las ventanas de replicación entre sedes?",
+    "o": [
+      "Dominios y confianzas de Active Directory",
+      "Sitios y servicios de Active Directory (dssite.msc)",
+      "Consola del Esquema de Active Directory",
+      "Centro de Cumplimiento Normativo del Ayuntamiento"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la extensión de archivo estandarizada de las plantillas de directivas de grupo administrativas modernas basadas en lenguaje XML introducidas en las versiones actuales de Windows Server?",
+    "o": [
+      ".adm",
+      ".admx",
+      ".gpo",
+      ".xml_policy"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué cmdlet de PowerShell se utiliza para consultar las propiedades y atributos específicos de un objeto de usuario determinado existente en Active Directory?",
+    "o": [
+      "Find-User",
+      "Get-ADUser",
+      "Read-ActiveDirectoryUser",
+      "Query-ADAccount"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Para permitir que un equipo de personal de soporte técnico local pueda restablecer contraseñas únicamente en la Unidad Organizativa de una delegación concreta, ¿cuál es el procedimiento óptimo?",
+    "o": [
+      "Hacerlos miembros del grupo de seguridad 'Administradores del Dominio'.",
+      "Utilizar el Asistente de Delegación de Control sobre la Unidad Organizativa deseada en la consola Usuarios y Equipos de Active Directory.",
+      "Inhabilitar el uso de contraseñas complejas en todo el bosque municipal.",
+      "Darles acceso a la base de datos cruda ntds.dit mediante privilegios remotos."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cómo se denomina la estructura de carpetas compartidas obligatoria dentro de un Controlador de Dominio que almacena copias de las GPOs, scripts y plantillas?",
+    "o": [
+      "System32",
+      "SYSVOL",
+      "NETLOGON_ONLY",
+      "NTDS_Backup"
+    ],
+    "a": 0
+  }
+]

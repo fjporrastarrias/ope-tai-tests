@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuáles son las dos formas principales de realizar una firma electrónica según la guía de firma del ciudadano?",
+    "o": [
+      "Mediante firma biométrica o mediante firma manuscrita digitalizada.",
+      "Descargando una aplicación en el PC (como AutoFirma) o firmando directamente en internet.",
+      "Mediante SMS certificado o mediante llamada telefónica grabada.",
+      "Únicamente de forma presencial con un token USB o mediante tarjeta inteligente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué aplicación del Ministerio de Hacienda y Administraciones Públicas se utiliza para firmar localmente en el PC sin necesidad de estar conectado a internet?",
+    "o": [
+      "VALIDe.",
+      "Integr@.",
+      "AutoFirma.",
+      "eVisor."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Cuando un ciudadano firma un formulario o solicitud directamente en internet en una sede administrativa, ¿qué suele requerirse en el navegador?",
+    "o": [
+      "Un componente o cliente de firma (como AutoFirma) integrado que interactúe con el navegador.",
+      "Tener desactivado por completo el cortafuegos del sistema operativo.",
+      "Tener privilegios de administrador del dominio de la Administración.",
+      "No requiere ningún elemento, el estándar HTML5 puro realiza la firma criptográfica por sí solo sin software intermedio."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué portal o servicio público de internet permite a los ciudadanos firmar sus propios documentos o validar firmas y certificados de forma directa y gratuita?",
+    "o": [
+      "FIRe.",
+      "VALIDe.",
+      "Monitoriz@.",
+      "TS@."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de los siguientes es un ejemplo de utilidad práctica de la firma electrónica para un ciudadano?",
+    "o": [
+      "Realización de la Declaración de la Renta a través de Internet.",
+      "Solicitudes en los registros electrónicos administrativos.",
+      "Petición de la vida laboral y recepción de notificaciones electrónicas.",
+      "Todas las respuestas son correctas."
+    ],
+    "a": 3
+  },
+  {
+    "q": "El resumen que realiza la aplicación de firma a partir del documento original se caracteriza por:",
+    "o": [
+      "Ser de tamaño variable dependiendo de la velocidad de internet.",
+      "Ser único para ese documento, de modo que cualquier modificación del mismo altera el resumen.",
+      "Ser legible por cualquier procesador de textos convencional.",
+      "Almacenarse de forma separada obligatoriamente en un servidor estatal."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué normativa española regula el procedimiento administrativo común y fundamenta la obligatoriedad y el uso de la firma electrónica en las relaciones con las Administraciones Públicas?",
+    "o": [
+      "La Ley 39/2015, de 1 de octubre.",
+      "La Ley 40/2015, de 1 de octubre.",
+      "La Ley 9/2017, de 8 de noviembre.",
+      "La Ley Orgánica 3/2018, de 5 de diciembre."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Para verificar o validar una firma recibida en un documento electrónico, ¿qué tres aspectos principales interesa comprobar?",
+    "o": [
+      "Que los datos firmados se correspondan con los originales, que el certificado sea válido y que la estructura del fichero sea correcta.",
+      "La marca del ordenador, el sistema operativo del firmante y su dirección IP.",
+      "El coste del certificado, la fecha de compra y el operador de telecomunicaciones.",
+      "El nombre del funcionario, la denominación de la calle y el número del registro manual."
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué tipo de datos se asocian o acompañan a un documento electrónico en la firma electrónica?",
+    "o": [
+      "Datos biométricos dactilares.",
+      "Datos electrónicos estructurados o codificados criptográficamente.",
+      "Un escaneo en formato JPG de alta resolución.",
+      "Metadatos exclusivos del sistema operativo Windows."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el caso del DNI electrónico, ¿qué se necesita instalar en el ordenador para poder utilizarlo físicamente?",
+    "o": [
+      "Un lector de DNI electrónico y su correspondiente software o drivers.",
+      "Un módem de fibra óptica dedicado.",
+      "Una licencia comercial de Windows Server.",
+      "Ningún software o hardware adicional, funciona por proximidad visual."
+    ],
+    "a": 0
+  }
+]

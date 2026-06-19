@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué es la tramitación electrónica?",
+    "o": [
+      "Envío de emails oficiales",
+      "Realización de procedimientos administrativos íntegramente por vías digitales",
+      "Un sitio web informativo",
+      "Una base de datos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la ventaja de la tramitación electrónica para administrados?",
+    "o": [
+      "Debe desplazarse a la oficina",
+      "Pueden realizar trámites desde cualquier lugar y en cualquier momento",
+      "Solo disponible en oficinas",
+      "Requiere más documentación"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el Punto de Acceso Electrónico único (PAEC)?",
+    "o": [
+      "Una URL de un sitio web",
+      "Portal donde ciudadanos acceden a servicios de administración pública",
+      "Un software de gestión",
+      "Una red privada"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el PAEC en España?",
+    "o": [
+      "El sitio web del Congreso",
+      "www.sede.administracion.gob.es",
+      "Un correo oficial",
+      "Una red social"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la Notificación Electrónica?",
+    "o": [
+      "Un correo convencional",
+      "Comunicación legal de actos administrativos por medios electrónicos",
+      "Un SMS informativo",
+      "Un aviso de correo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la importancia legal de la notificación electrónica?",
+    "o": [
+      "No tiene valor legal",
+      "Tiene valor legal y marca el inicio de plazos administrativos",
+      "Es solo informativa",
+      "Depende de confirmación por escrito"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es el Registro Telemático?",
+    "o": [
+      "Un blog oficial",
+      "Sistema para registrar documentos en procedimientos administrativos electrónicamente",
+      "Un almacenamiento en la nube",
+      "Una base de datos de usuarios"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la ventaja del Registro Telemático?",
+    "o": [
+      "Documentos perdidos",
+      "Registro 24/7, sellado automático y generación de justificante",
+      "Requiere desplazamiento",
+      "Mayor lentitud"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es la Interoperabilidad administrativa?",
+    "o": [
+      "Una ley de administración",
+      "Capacidad de administraciones de compartir información y coordinar servicios",
+      "Un acuerdo política",
+      "Una red de telecomunicaciones"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué proyecto europeo promueve la interoperabilidad?",
+    "o": [
+      "GDPR",
+      "eIDAS",
+      "HTTP",
+      "IPv6"
+    ],
+    "a": 1
+  }
+]

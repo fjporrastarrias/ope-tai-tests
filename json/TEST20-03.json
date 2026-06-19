@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Dentro de la arquitectura de Active Directory de Windows, ¿qué elemento representa el límite de seguridad y el nivel más alto de la estructura lógica?",
+    "o": [
+      "Dominio",
+      "Bosque",
+      "Unidad Organizativa",
+      "Sitio de Red"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué herramienta permite agrupar recursos (cuentas, PCs) en un dominio de Active Directory para facilitar la aplicación de políticas o delegar el control?",
+    "o": [
+      "Bosque (Forest)",
+      "Relación de confianza",
+      "Unidad Organizativa (OU)",
+      "Servidor Samba"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Para administrar Directivas de Grupo (GPO) en un entorno de Servicios de Dominio de Active Directory de Windows, ¿qué consola de administración se utiliza?",
+    "o": [
+      "gpedit.msc",
+      "gpmc.msc",
+      "regedit.exe",
+      "services.msc"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En cuanto a la aplicación de Directivas de Grupo (GPO) en Windows, si existe más de una política aplicable a un objeto:",
+    "o": [
+      "Se aplica la menos restrictiva",
+      "Se aplica la más restrictiva",
+      "Se anulan mutuamente y no se aplica ninguna",
+      "Se prioriza siempre la del Equipo Local sobre la de la Unidad Organizativa"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿En qué ruta de carpeta suelen almacenarse los archivos auxiliares de las secciones del Registro de Windows (salvo HKEY_CURRENT_USER)?",
+    "o": [
+      "%SystemRoot%\\System32\\Drivers",
+      "%SystemRoot%\\System32\\Config",
+      "%SystemRoot%\\System32\\Registry",
+      "%SystemRoot%\\SysWOW64\\Config"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Si los servicios en la nube son compartidos en una comunidad cerrada por varias organizaciones relacionadas con un propósito o política común, se trata de una:",
+    "o": [
+      "Nube pública",
+      "Nube privada",
+      "Nube comunitaria",
+      "Nube híbrida"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué categoría de Cloud Computing entrega al cliente recursos de procesamiento y almacenamiento (hardware) donde el cliente mantiene el control del S.O. y aplicaciones?",
+    "o": [
+      "Infraestructura como servicio (IaaS)",
+      "Plataforma como servicio (PaaS)",
+      "Software como servicio (SaaS)",
+      "Función como servicio (FaaS)"
+    ],
+    "a": 0
+  },
+  {
+    "q": "La 'Informática sin servidor' se asocia directamente a la categoría de servicio en la nube conocida como:",
+    "o": [
+      "Contenedor como servicio (CaaS)",
+      "Función como servicio (FaaS)",
+      "Plataforma como servicio (PaaS)",
+      "Base de datos como servicio (DBaaS)"
+    ],
+    "a": 0
+  },
+  {
+    "q": "El modelo de distribución donde las aplicaciones están alojadas por un proveedor y los usuarios acceden habitualmente por suscripción mediante navegador web es:",
+    "o": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "XaaS"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de los siguientes NO es un motivo listado en el tema por el que las empresas recurren a la informática en la nube?",
+    "o": [
+      "Reducción de costes de capital en hardware local",
+      "Aumento del aprovisionamiento manual tedioso de bastidores de servidores",
+      "Escala global y elástica de recursos",
+      "Confiabilidad y facilidad para copias de seguridad"
+    ],
+    "a": 0
+  }
+]
