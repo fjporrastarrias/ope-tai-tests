@@ -1,0 +1,112 @@
+[
+  {
+    "numero": 21,
+    "pregunta": "¿Cuál es el puerto estándar bien conocido para el protocolo IMAP4 sin cifrar?",
+    "opciones": {
+      "a": "25",
+      "b": "110",
+      "c": "143",
+      "d": "993"
+    },
+    "correcta": "c"
+  },
+  {
+    "numero": 22,
+    "pregunta": "¿Qué protocolo permite por diseño mantener múltiples conexiones simultáneas al mismo buzón y sincronizar el estado de los mensajes en tiempo real entre varios dispositivos?",
+    "opciones": {
+      "a": "POP3",
+      "b": "IMAP4",
+      "c": "SMTP",
+      "d": "MIME"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 23,
+    "pregunta": "¿Qué comando IMAP4 se utiliza para eliminar físicamente del servidor los mensajes que tienen activo el flag '\\Deleted'?",
+    "opciones": {
+      "a": "EXPUNGE",
+      "b": "PURGE",
+      "c": "DELETE",
+      "d": "REMOVE"
+    },
+    "correcta": "a"
+  },
+  {
+    "numero": 24,
+    "pregunta": "¿Cuál es el comando IMAP4 empleado para modificar los atributos o 'flags' (como \\Seen, \\Answered o \\Deleted) de un mensaje?",
+    "opciones": {
+      "a": "FETCH",
+      "b": "FLAG",
+      "c": "STORE",
+      "d": "STATUS"
+    },
+    "correcta": "c"
+  },
+  {
+    "numero": 25,
+    "pregunta": "¿Qué comando de IMAP4 permite descargar partes selectivas de un correo electrónico, como únicamente la cabecera o un archivo adjunto específico?",
+    "opciones": {
+      "a": "GET",
+      "b": "RETR",
+      "c": "DOWNLOAD",
+      "d": "FETCH"
+    },
+    "correcta": "d"
+  },
+  {
+    "numero": 26,
+    "pregunta": "¿Cuál es el puerto por defecto para IMAP4 estructurado sobre una capa de seguridad SSL/TLS (IMAPS)?",
+    "opciones": {
+      "a": "465",
+      "b": "993",
+      "c": "995",
+      "d": "143"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 27,
+    "pregunta": "¿Qué comando IMAP4 abre un buzón o carpeta en modo de lectura y escritura, permitiendo alterar el estado de sus mensajes?",
+    "opciones": {
+      "a": "EXAMINE",
+      "b": "SELECT",
+      "c": "OPEN",
+      "d": "ENTER"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 28,
+    "pregunta": "Si queremos abrir una carpeta en IMAP4 garantizando que no se modificará ningún flag ni estado por error, ¿qué comando debemos usar?",
+    "opciones": {
+      "a": "SELECT",
+      "b": "LOCK",
+      "c": "EXAMINE",
+      "d": "VIEW"
+    },
+    "correcta": "c"
+  },
+  {
+    "numero": 29,
+    "pregunta": "¿Cuál es la RFC de referencia técnica fundamental para el protocolo IMAP4?",
+    "opciones": {
+      "a": "RFC 3501",
+      "b": "RFC 1939",
+      "c": "RFC 5321",
+      "d": "RFC 7489"
+    },
+    "correcta": "a"
+  },
+  {
+    "numero": 30,
+    "pregunta": "¿Cuál de las siguientes afirmaciones es CORRECTA respecto a IMAP4?",
+    "opciones": {
+      "a": "No permite la creación de carpetas o directorios personalizados en el servidor",
+      "b": "Es un protocolo 'stateless' donde el servidor no recuerda el estado de la sesión",
+      "c": "Permite realizar búsquedas de texto en el lado del servidor antes de descargar los correos",
+      "d": "Requiere obligatoriamente el puerto 25 para la autenticación de usuarios"
+    },
+    "correcta": "c"
+  }
+]

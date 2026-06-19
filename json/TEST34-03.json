@@ -1,0 +1,115 @@
+{
+    "test_id": "TEST34-03",
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Qué siglas corresponden al Plan de Recuperación ante Desastres?",
+            "options": {
+                "a": "RTO.",
+                "b": "RPO.",
+                "c": "DRP.",
+                "d": "SDS."
+            },
+            "correct": "c"
+        },
+        {
+            "id": 2,
+            "question": "¿Qué entornos de hipervisores virtuales protege Acronis Backup según la información disponible?",
+            "options": {
+                "a": "Solo VMware vSphere y Microsoft Hyper-V.",
+                "b": "Oracle VM Server, VMware vSphere, Microsoft Hyper-V, Citrix XenServer, Red Hat Virtualization, Linux KVM.",
+                "c": "Únicamente entornos basados en contenedores OCI como Podman o Skopeo.",
+                "d": "Bases de datos relacionales Aurora y Apache Derby de forma nativa."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 3,
+            "question": "¿Cuál de los siguientes servicios es protegido por AWS Backup según el documento?",
+            "options": {
+                "a": "Oracle Enterprise Manager.",
+                "b": "Amazon DynamoDB y Amazon RDS.",
+                "c": "pgAdmin y postmaster.",
+                "d": "SQL Server Management Studio."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 4,
+            "question": "¿Qué es el almacenamiento definido por software (SDS o VSAN)?",
+            "options": {
+                "a": "Una arquitectura que agrupa múltiples cintas magnéticas en un volumen indexado.",
+                "b": "Una arquitectura de almacenamiento que separa el almacenamiento subyacente (hardware) mediante una capa de datos virtual.",
+                "c": "Un software exclusivo de Microsoft que automatiza Transact-SQL.",
+                "d": "Un sistema de respaldo frío orientado a plataformas corporativas exclusivamente."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 5,
+            "question": "¿Cuál es la característica más importante del software controlador del SDS?",
+            "options": {
+                "a": "Exige hardware de un único fabricante homologado por la OCI.",
+                "b": "No hace suposiciones acerca de la capacidad o utilidad del hardware subyacente.",
+                "c": "Elimina por completo la necesidad de capas lógicas o segmentos.",
+                "d": "Funciona exclusivamente sobre redes de tipo DAS conectadas por puerto serie."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 6,
+            "question": "¿Qué elemento de una cabina de almacenamiento gestiona su funcionamiento conectando el front-end y el back-end?",
+            "options": {
+                "a": "El dispositivo de almacenamiento remoto.",
+                "b": "La controladora.",
+                "c": "El gateway de red local.",
+                "d": "El pool circular de búferes."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 7,
+            "question": "¿Qué protocolo utiliza el Front-end de una cabina de almacenamiento para conectarse con los servidores mediante bloques?",
+            "options": {
+                "a": "NFS o CIFS.",
+                "b": "FC, iSCSI, FCoE.",
+                "c": "SAS o FC nativo de disco.",
+                "d": "TCP/UDP predeterminado."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 8,
+            "question": "¿Qué tecnología optimiza el espacio ocupado al eliminar copias duplicadas de datos, usando referencias a los datos ya almacenados?",
+            "options": {
+                "a": "Compresión.",
+                "b": "Deduplicación.",
+                "c": "Cifrado offline.",
+                "d": "Snapshot."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 9,
+            "question": "¿Qué es un Snapshot en el contexto de almacenamiento y backups?",
+            "options": {
+                "a": "Una herramienta de sincronización en caliente que vacía la caché de biblioteca.",
+                "b": "Una copia instantánea del estado de un sistema en un momento determinado.",
+                "c": "Un comando DDL que elimina datos pero mantiene la estructura de la tabla.",
+                "d": "Un tipo de cinta magnética con tecnología de grabación helicoidal."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 10,
+            "question": "¿Qué caracteriza a la arquitectura de almacenamiento JBOD (Just a Bunch of Disks)?",
+            "options": {
+                "a": "Proporciona alta redundancia mediante paridad distribuida espejada.",
+                "b": "Utiliza múltiples discos duros expuestos como dispositivos individuales sin redundancia ni integridad frente a fallos.",
+                "c": "Se compone de conjuntos RAID 5 combinados obligatoriamente en RAID 1.",
+                "d": "Es un protocolo híbrido que unifica redes Ethernet y redes SAN de canales de fibra."
+            },
+            "correct": "b"
+        }
+    ]
+}

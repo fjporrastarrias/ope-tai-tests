@@ -1,0 +1,112 @@
+[
+    {
+        "id": 31,
+        "pregunta": "El estándar internacional de referencia para la Gestión de Incidencias en un CAU es:",
+        "opciones": {
+            "a": "ISO 31000",
+            "b": "ITIL",
+            "c": "Common Criteria",
+            "d": "TIA-942"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 32,
+        "pregunta": "Remitir una incidencia a un nivel superior especializado por complejidad o criticidad se denomina:",
+        "opciones": {
+            "a": "Categorización",
+            "b": "Escalado",
+            "c": "Diagnóstico inicial",
+            "d": "Priorización"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Cuál de las siguientes soluciones de gestión de incidencias es de código abierto (Open Source)?",
+        "opciones": {
+            "a": "Zendesk",
+            "b": "GLPI",
+            "c": "Jira Service Desk",
+            "d": "BMC REMEDY"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 34,
+        "pregunta": "El acceso a Escritorio Remoto sigue un modelo arquitectónico de tipo:",
+        "opciones": {
+            "a": "Sistemas distribuidos",
+            "b": "Cliente-Servidor",
+            "c": "Redundancia activa simétrica",
+            "d": "Criptografía asimétrica"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Qué herramienta del CCN-CERT está destinada de forma exclusiva al borrado seguro de datos?",
+        "opciones": {
+            "a": "LORETO",
+            "b": "CARLA",
+            "c": "OLVIDO",
+            "d": "PILAR"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 36,
+        "pregunta": "La plataforma unificada del CCN-CERT que integra los análisis estáticos y dinámicos se denomina:",
+        "opciones": {
+            "a": "ANA",
+            "b": "ADA",
+            "c": "REYES",
+            "d": "EMMA"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Qué solución ligera del CCN-CERT actúa frente al ransomware mediante vacunas en Windows?",
+        "opciones": {
+            "a": "microCLAUDIA",
+            "b": "CARMEN",
+            "c": "CCNDroid",
+            "d": "GLORIA"
+        },
+        "respuesta_correcta": "a"
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Cuál es la función principal de la herramienta INES del CCN-CERT?",
+        "opciones": {
+            "a": "Servir como simulador de cibervigilancia",
+            "b": "Evaluar el Estado de Seguridad y adecuación al ENS",
+            "c": "Automatizar auditorías perimetrales continuas",
+            "d": "Gestionar logs y eventos complejos"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Qué herramienta del CCN-CERT automatiza la auditoría de configuraciones en routers y firewalls?",
+        "opciones": {
+            "a": "ROCIO",
+            "b": "VANESA",
+            "c": "LUCIA",
+            "d": "AMPARO"
+        },
+        "respuesta_correcta": "a"
+    },
+    {
+        "id": 40,
+        "pregunta": "La solución del CCN-CERT para compartir información de ciberamenazas basada en MISP se llama:",
+        "opciones": {
+            "a": "REYES",
+            "b": "IRIS",
+            "c": "LORETO",
+            "d": "ANGELES"
+        },
+        "respuesta_correcta": "a"
+    }
+]

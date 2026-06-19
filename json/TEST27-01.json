@@ -1,0 +1,116 @@
+{
+  "bloque": "TEST27-01",
+  "tema": "Tema 27: Seguridad de los sistemas de información I",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Qué dimensión de la seguridad (modelo ACIDT) garantiza que una entidad es quien dice ser o asegura la fuente de origen de los datos?",
+      "opciones": {
+        "a": "Confidencialidad",
+        "b": "Autenticidad",
+        "c": "Integridad",
+        "d": "Trazabilidad"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 2,
+      "enunciado": "Según el Reglamento 460/2004, la seguridad es la capacidad de las redes o sistemas de resistir accidentes o acciones ilícitas que comprometan:",
+      "opciones": {
+        "a": "La disponibilidad, autenticidad, integridad y confidencialidad",
+        "b": "Únicamente la confidencialidad y la integridad de los datos",
+        "c": "La rentabilidad, escalabilidad y rendimiento de las infraestructuras",
+        "d": "La legalidad y la transparencia organizativa únicamente"
+      },
+      "correcta": "a"
+    },
+    {
+      "id": 3,
+      "enunciado": "¿Cuál es la definición exacta de 'Trazabilidad' según el temario oficial?",
+      "opciones": {
+        "a": "Propiedad que garantiza que la información no sea revelada a personas no autorizadas",
+        "b": "Aseguramiento de que los usuarios autorizados tengan acceso cuando lo requieran",
+        "c": "Aseguramiento de que en todo momento se podrá determinar quién hizo qué y en qué momento",
+        "d": "Propiedad consistente en que el activo no ha sido alterado de manera no autorizada"
+      },
+      "correcta": "c"
+    },
+    {
+      "id": 4,
+      "enunciado": "Dentro de la taxonomía básica de amenazas, aquellas que motivan el acceso de un actor no autorizado a la información afectando a la confidencialidad se denominan:",
+      "opciones": {
+        "a": "Interrupción",
+        "b": "Interceptación",
+        "c": "Modificación",
+        "d": "Fabricación"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Qué tipo de medidas de seguridad de las TIC (STIC) se encargan de proteger a los equipos frente a la emisión de radiaciones no deseadas?",
+      "opciones": {
+        "a": "TRANSEC",
+        "b": "COMPUSEC",
+        "c": "EMSEC",
+        "d": "NETSEC"
+      },
+      "correcta": "c"
+    },
+    {
+      "id": 6,
+      "enunciado": "¿Cuál es la diferencia entre las medidas NETSEC y las medidas TRANSEC?",
+      "opciones": {
+        "a": "NETSEC protege contra la radiación y TRANSEC protege el proceso automático de datos",
+        "b": "NETSEC protege la información mientras circula por las redes (modificación/revelación), mientras que TRANSEC previene la obtención de información por interceptación o análisis de señales electromagnéticas",
+        "c": "No existe diferencia, son sinónimos absolutos en la normativa STIC",
+        "d": "TRANSEC es de seguridad lógica y NETSEC es puramente de seguridad física"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 7,
+      "enunciado": "¿Qué norma internacional de las siguientes se centra específicamente en los Sistemas de Gestión de Riesgos?",
+      "opciones": {
+        "a": "ISO/IEC 27001",
+        "b": "ISO 31000",
+        "c": "ISO/IEC 15408",
+        "d": "UNE 71504"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 8,
+      "enunciado": "Según la metodología MAGERIT, un 'Activo' se define como:",
+      "opciones": {
+        "a": "Cualquier debilidad en el diseño o implementación de un sistema informático",
+        "b": "Las medidas de protección desplegadas para mitigar el impacto de las amenazas",
+        "c": "Componente o funcionalidad de un sistema de información susceptible de ser atacado deliberada o accidentalmente con consecuencias para la organización",
+        "d": "El coste financiero exacto de la caída de un servidor principal"
+      },
+      "correcta": "c"
+    },
+    {
+      "id": 9,
+      "enunciado": "¿Qué norma internacional define los criterios de evaluación para la seguridad de productos informáticos, también conocida como Common Criteria (CC)?",
+      "opciones": {
+        "a": "ISO 27799",
+        "b": "ISO/IEC 15408",
+        "c": "ISO 31000",
+        "d": "UNE-ISO/IEC Guía 73"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Cuál de los siguientes es el Libro II de la metodología MAGERIT versión 3?",
+      "opciones": {
+        "a": "Método",
+        "b": "Guía de Técnicas",
+        "c": "Catálogo de Elementos",
+        "d": "Marco Normativo"
+      },
+      "correcta": "c"
+    }
+  ]
+}

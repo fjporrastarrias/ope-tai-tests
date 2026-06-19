@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la extensión de archivo por defecto utilizada por LibreOffice Writer para guardar documentos de texto según el estándar OpenDocument?",
+    "o": [
+      ".doc",
+      ".docx",
+      ".odt",
+      ".ott"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En LibreOffice Writer, ¿qué combinación de teclas se utiliza para insertar de forma manual un salto de página?",
+    "o": [
+      "Ctrl + Enter",
+      "Alt + Enter",
+      "Shift + Enter",
+      "Ctrl + Shift + Enter"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué tipo de estilo en LibreOffice Writer permite modificar propiedades como márgenes, orientación de página, encabezados y pies de página de un conjunto de páginas?",
+    "o": [
+      "Estilo de Párrafo",
+      "Estilo de Página",
+      "Estilo de Carácter",
+      "Estilo de Marco"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si deseamos guardar un documento de LibreOffice Writer como una plantilla reutilizable, ¿qué extensión se utilizará?",
+    "o": [
+      ".odt",
+      ".ods",
+      ".ott",
+      ".ots"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Al realizar una combinación de correspondencia en LibreOffice Writer, ¿cuál de los siguientes elementos NO es un componente necesario en el proceso tradicional?",
+    "o": [
+      "El documento principal",
+      "La base de datos o fuente de datos",
+      "El documento combinado final",
+      "Un servidor proxy de correo obligatorio"
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿Qué funcionalidad de LibreOffice Writer permite hacer un seguimiento de todas las inserciones, eliminaciones y modificaciones realizadas en un documento por diferentes usuarios?",
+    "o": [
+      "Control de cambios",
+      "Historial de versiones de archivo",
+      "Autocorrección",
+      "Comparación de estructuras"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En LibreOffice Writer, ¿cuál es la diferencia principal entre una Nota al pie y una Nota al final?",
+    "o": [
+      "La nota al pie aparece al final del documento y la nota al final abajo de la página.",
+      "La nota al pie aparece en el margen inferior de la página actual y la nota al final se agrupa al término del documento.",
+      "Las notas al pie no admiten formato de texto y las notas al final sí.",
+      "Las notas al pie son solo para imágenes y las notas al final para texto."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué herramienta o elemento se debe insertar en LibreOffice Writer si se desea cambiar la orientación de horizontal a vertical únicamente en una sección específica del documento?",
+    "o": [
+      "Un salto de línea manual",
+      "Un salto de columna",
+      "Un salto de página manual especificando un estilo de página diferente",
+      "Un marco de texto flotante"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Dentro de LibreOffice Writer, el atajo de teclado por defecto para abrir el cuadro de diálogo 'Buscar y reemplazar' es:",
+    "o": [
+      "Ctrl + B",
+      "Ctrl + F",
+      "Ctrl + H",
+      "Ctrl + R"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la función del Navegador (F5) en LibreOffice Writer?",
+    "o": [
+      "Navegar por Internet sin salir del procesador de textos.",
+      "Permitir una navegación rápida y estructurada por los elementos del documento (encabezados, tablas, imágenes, marcadores).",
+      "Gestionar las conexiones de red compartidas.",
+      "Descargar actualizaciones de la suite ofimática."
+    ],
+    "a": 1
+  }
+]

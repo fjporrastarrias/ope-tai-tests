@@ -1,0 +1,102 @@
+[
+  {
+    "q": "31. En el diálogo con servidores HTTP, si no se utiliza el modo 'HTTP Keep Alive', ¿qué sucede en cada acceso?",
+    "o": [
+      "La conexión TCP se mantiene abierta para la siguiente petición.",
+      "Se cambia automáticamente al método POST.",
+      "Se cierra la conexión TCP después de cada respuesta, repitiéndose el proceso por cada recurso.",
+      "El navegador genera un error de formato RCODE."
+    ],
+    "a": 2
+  },
+  {
+    "q": "32. ¿Cuáles son los dos únicos tipos de mensajes que existen en el protocolo HTTP?",
+    "o": [
+      "Mensajes de petición (solicitud) y mensajes de respuesta.",
+      "Mensajes de control básico y mensajes de flujo extendido.",
+      "Mensajes de cabecera limpia y mensajes de cuerpo cifrado.",
+      "Mensajes de comando de puerto y mensajes de modo pasivo."
+    ],
+    "a": 0
+  },
+  {
+    "q": "33. ¿Qué función realiza el método HTTP denominado 'HEAD'?",
+    "o": [
+      "Envía datos en el cuerpo de la petición para crear un recurso.",
+      "Pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta, para consultar metadatos.",
+      "Borra permanentemente el recurso especificado en la URI.",
+      "Establece un túnel dinámico SSL/TLS."
+    ],
+    "a": 1
+  },
+  {
+    "q": "34. ¿Qué método HTTP, especificado en el RFC 5789, permite aplicar modificaciones parciales a un recurso?",
+    "o": [
+      "PUT",
+      "POST",
+      "OPTIONS",
+      "PATCH"
+    ],
+    "a": 3
+  },
+  {
+    "q": "35. ¿Para qué se utiliza el método HTTP 'CONNECT' según los contenidos del temario?",
+    "o": [
+      "Para borrar un archivo mediante comandos remotos de usuario.",
+      "Para que los servidores proxy puedan establecer un túnel dinámicamente (por ejemplo, un túnel SSL).",
+      "Para realizar un eco de la solicitud y conocer los servidores intermedios.",
+      "Para solicitar la lista de métodos que soporta el servidor."
+    ],
+    "a": 1
+  },
+  {
+    "q": "36. Dentro de las cabeceras de PETICIÓN de HTTP, ¿qué función tiene la cabecera 'Host'?",
+    "o": [
+      "Especificar el navegador y el sistema operativo del cliente.",
+      "Indicar el nombre de dominio o IP del servidor al que se dirige la solicitud (obligatorio).",
+      "Enviar las credenciales de autorización para proxies.",
+      "Indicar la dirección URL de procedencia desde la que se hizo el enlace."
+    ],
+    "a": 1
+  },
+  {
+    "q": "37. ¿Qué describe la cabecera de RESPUESTA de HTTP denominada 'Content-Security-Policy'?",
+    "o": [
+      "Las credenciales de autorización básicas del cliente.",
+      "Las políticas de seguridad del servidor.",
+      "El tamaño del contenido devuelto medido en bytes.",
+      "El idioma del contenido de la información de retorno."
+    ],
+    "a": 1
+  },
+  {
+    "q": "38. En la clasificación de cabeceras HTTP, 'Age' pertenece a las cabeceras de respuesta e indica:",
+    "o": [
+      "La fecha y hora en la que se realizó la petición original.",
+      "El tiempo en segundos que el objeto ha estado en caché.",
+      "Los métodos permitidos para el recurso específico.",
+      "El tipo de codificación que acepta el cliente web."
+    ],
+    "a": 1
+  },
+  {
+    "q": "39. ¿Qué tipo de código de estado e información devuelve el servidor en el paso 5 de una petición HTTP típica?",
+    "o": [
+      "Un identificador universal URI únicamente.",
+      "Un código de estado y el tipo de dato MIME de la información de retorno, seguido de la propia información.",
+      "Un pseudoregistro OPT con la firma digital RRSIG.",
+      "Una línea en blanco con parámetros de puerto dinámico."
+    ],
+    "a": 1
+  },
+  {
+    "q": "40. Respecto a los protocolos HTTPS y SSL/TLS, basándose estrictamente en las fuentes proporcionadas del temario, ¿cuál es su estado actual?",
+    "o": [
+      "Están desarrollados de forma extensa detallando algoritmos y cifrados asimétricos en las páginas finales.",
+      "Figuran en el título e índice del tema, pero su desarrollo de especificaciones extensas está ausente del extracto de la fuente, mencionándose el uso de túneles SSL vía el método CONNECT de HTTP.",
+      "Se gestionan bajo las directrices del Plan Nacional de nombres de dominio '.es'.",
+      "Son utilizados exclusivamente en las actualizaciones dinámicas descritas en el RFC 2136."
+    ],
+    "a": 1
+  }
+]

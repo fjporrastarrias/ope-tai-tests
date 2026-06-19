@@ -1,0 +1,112 @@
+[
+    {
+        "id": 31,
+        "pregunta": "¿Cuál de las siguientes características de seguridad y privacidad se incorporó específicamente en Android 12?",
+        "opciones": {
+            "a": "Soporte para MIDI 2.0 estándar",
+            "b": "Botones de activación e indicadores de acceso al micrófono y a la cámara",
+            "c": "Actualización de bibliotecas nativas a OpenJDK 11",
+            "d": "Iconos de aplicaciones temáticos basados en launchers independientes"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Qué mejora a nivel de rendimiento se cita en las especificaciones de Android 12?",
+        "opciones": {
+            "a": "Eliminación total del recolector de basura",
+            "b": "Intervalo restringido de App Standby",
+            "c": "Compilación en la nube obligatoria de todos los procesos",
+            "d": "Reducción del núcleo Linux a menos de 512 KB"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Qué función de personalización e interfaz de usuario se introdujo en la versión de Android 13?",
+        "opciones": {
+            "a": "Efecto de desplazamiento lateral ampliado",
+            "b": "Iconos de apps temáticos que heredan el color del fondo de pantalla y otros temas elegidos",
+            "c": "Soporte para pantallas con tasas de refresco variables de 240Hz",
+            "d": "Desactivación del Framework de aplicaciones de Java"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 34,
+        "pregunta": "En Android 13, las bibliotecas principales se actualizaron para alinearse con qué versión específica de OpenJDK con soporte a largo plazo (LTS)?",
+        "opciones": {
+            "a": "OpenJDK 8",
+            "b": "OpenJDK 11",
+            "c": "OpenJDK 17",
+            "d": "OpenJDK 21"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Qué versión del esquema de firma de archivos de paquete APK es compatible con Android 13 según el texto?",
+        "opciones": {
+            "a": "Esquema de firma v1.0",
+            "b": "Esquema de firma v2.0",
+            "c": "Esquema de firma v3.1",
+            "d": "Esquema de firma v4.2"
+        },
+        "correcta": "c"
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Qué API de Android 13 permite a los usuarios modificar la configuración o realizar acciones rápidas sin salir del contexto de una aplicación?",
+        "opciones": {
+            "a": "API de configuración rápida del panel de notificaciones",
+            "b": "API de Camera2 con captura de video de alto rango dinámico",
+            "c": "API de gesto de retroceso predictivo",
+            "d": "API de accesibilidad para audiodescripciones"
+        },
+        "correcta": "a"
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Qué capacidad avanzada se añade a las APIs de Camera2 en la actualización de Android 13 para la grabación de video?",
+        "opciones": {
+            "a": "Captura en resolución nativa de 8K",
+            "b": "Admitir la captura de video de alto rango dinámico (HDR)",
+            "c": "Eliminación por software del parpadeo de luz en tiempo real",
+            "d": "Procesamiento de imágenes mediante aceleración directa en microkernel"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Qué preferencia de accesibilidad global para todo el sistema se incorporó textualmente en Android 13?",
+        "opciones": {
+            "a": "Habilitar subtítulos dinámicos basados en hardware externo",
+            "b": "Permitir a los usuarios habilitar audiodescripciones en todas las apps",
+            "c": "Control mediante gestos oculares con cámara infrarroja",
+            "d": "Ampliación háptica para terminales corporativos de bajo coste"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Qué tipo de eventos táctiles se bloquean en Android 12 por razones de seguridad al considerarse que no son de confianza?",
+        "opciones": {
+            "a": "Gestos multitáctiles complejos",
+            "b": "Bloque de eventos táctiles que no son de confianza",
+            "c": "Pulsaciones prolongadas en la barra de navegación",
+            "d": "Interacciones sobre pantallas de presentación bloqueadas"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Con qué estándar de renderización de fuentes es compatible Android 13 de forma nativa?",
+        "opciones": {
+            "a": "Fuentes en formato TrueType exclusivamente",
+            "b": "Compatibilidad con renderización para las fuentes de COLR",
+            "c": "Fuentes vectoriales SVG puras sin interpolar",
+            "d": "Fuentes con cifrado dinámico AES de bajo nivel"
+        },
+        "correcta": "b"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "id": 11,
+        "pregunta": "¿Cuál es la anchura típica estandarizada de los módulos Rack en un CPD?",
+        "opciones": {
+            "a": "17 pulgadas",
+            "b": "19 pulgadas",
+            "c": "60 centímetros",
+            "d": "44.45 milímetros"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 12,
+        "pregunta": "¿A cuánto equivale exactamente una unidad de altura de rack (1U)?",
+        "opciones": {
+            "a": "1.5 pulgadas",
+            "b": "1.75 pulgadas o 44.45 mm",
+            "c": "2 pulgadas",
+            "d": "60 centímetros"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 13,
+        "pregunta": "Las losetas estándar de un suelo técnico elevado en un CPD suelen medir:",
+        "opciones": {
+            "a": "50x50 cm",
+            "b": "19 pulgadas",
+            "c": "60x60 cm",
+            "d": "80x80 cm"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Cuál es la función principal de un SAI / UPS en un centro de datos?",
+        "opciones": {
+            "a": "Generar corriente mediante motores de combustión interna.",
+            "b": "Adaptar el suministro protegiendo de sobretensiones y dar respaldo por baterías.",
+            "c": "Gestionar los tickets de soporte del personal técnico.",
+            "d": "Controlar el flujo del sistema de refrigeración de precisión."
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Qué significan las siglas HVAC en climatización de CPDs?",
+        "opciones": {
+            "a": "High Voltage Air Conditioning",
+            "b": "Heating, Ventilation, and Air Conditioning",
+            "c": "Hardware Virtualization Access Control",
+            "d": "High Volume Automatic Cooling"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Qué nivel de clasificación Tier del Uptime Institute se denomina 'Concurrentemente Mantenible'?",
+        "opciones": {
+            "a": "Tier I",
+            "b": "Tier II",
+            "c": "Tier III",
+            "d": "Tier IV"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 17,
+        "pregunta": "¿Qué tasa de disponibilidad máxima anual de servicio garantiza un CPD Tier IV?",
+        "opciones": {
+            "a": "99.741%",
+            "b": "99.982%",
+            "c": "99.995%",
+            "d": "99.999%"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Qué tipo de redundancia en líneas de distribución caracteriza al Tier IV?",
+        "opciones": {
+            "a": "Redundancia simple N",
+            "b": "Redundancia N+1",
+            "c": "Redundancia 2(N+1) con múltiples líneas activas simultáneamente",
+            "d": "Línea única dedicada"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 19,
+        "pregunta": "El indicador PUE en eficiencia energética mide la relación entre:",
+        "opciones": {
+            "a": "La energía total consumida y la consumida por los equipos TI.",
+            "b": "La energía activa y la reactiva en las baterías.",
+            "c": "Los servidores en rack y los servidores independientes.",
+            "d": "El coste de adquisición y el coste de mantenimiento anual."
+        },
+        "respuesta_correcta": "a"
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Qué tipo de servidores se montan en tarjetas simplificadas insertadas en un chasis común?",
+        "opciones": {
+            "a": "Stand alone",
+            "b": "En rack tradicionales",
+            "c": "Servidores Blade",
+            "d": "Nodos NAS distribuidos"
+        },
+        "respuesta_correcta": "c"
+    }
+]

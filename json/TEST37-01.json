@@ -1,0 +1,115 @@
+{
+  "block": "TEST37-01",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué artículo de la Ley 39/2015, de 1 de octubre, establece la obligatoriedad de que cada Administración Pública cuente con un registro electrónico general plenamente interoperable?",
+      "options": {
+        "a": "El artículo 14.1.",
+        "b": "El artículo 16.4.",
+        "c": "El artículo 27.2.",
+        "d": "El artículo 43.3."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 2,
+      "question": "En el flujo funcional de la plataforma SIR, ¿qué rol ostenta la Unidad de Tramitación Destino (UTD)?",
+      "options": {
+        "a": "Digitalizar presencialmente los escritos presentados por el interesado.",
+        "b": "Ser el órgano administrativo al que se dirige el escrito y responsable final de su custodia y tramitación.",
+        "c": "Firmar con su sello electrónico el acuse de recibo de la remesa en origen.",
+        "d": "Asignar de manera síncrona el código mnemónico de la aplicación RES."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 3,
+      "question": "¿Qué directorio común centraliza los códigos de identificación unívoca de las Oficinas y Unidades de Tramitación en los intercambios registrales por SIR?",
+      "options": {
+        "a": "El catálogo SIA.",
+        "b": "El Directorio Común DIR3.",
+        "c": "El libro de registro general REGAGE.",
+        "d": "La plataforma de gobernanza AutenticA."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 4,
+      "question": "Según el estándar de intercambio regulado en la Guía Funcional de SIR, ¿cuál es la longitud máxima admisible para cumplimentar el campo 'Asunto' o extracto del asiento?",
+      "options": {
+        "a": "140 caracteres.",
+        "b": "240 caracteres.",
+        "c": "500 caracteres.",
+        "d": "No tiene límite predefinido por ser un campo de texto libre."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 5,
+      "question": "Si una OAMR de origen detecta que la unidad destino no está integrada en SIR, pero sí su superior jerárquico, ¿qué acción funcional prescribe la guía?",
+      "options": {
+        "a": "Rechazar el asiento registral de forma inmediata indicando el motivo.",
+        "b": "Enviar el asiento con su documentación adjunta a dicho órgano jerárquicamente superior.",
+        "c": "Remitir el expediente en soporte papel mediante correo postal certificado directamente a la UTD final.",
+        "d": "Retener el intercambio en la pasarela local hasta que se complete la integración de la UTD."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 6,
+      "question": "Cuando una OAMR de origen digitaliza por completo la documentación y devuelve los originales en papel al ciudadano inmediatamente, ¿bajo qué supuesto opera?",
+      "options": {
+        "a": "Caso 1 (Verde).",
+        "b": "Caso 2 (Rojo).",
+        "c": "Caso 3 (Amarillo).",
+        "d": "Caso Mixto Parametrizado."
+      },
+      "correct": "a"
+    },
+    {
+      "id": 7,
+      "question": "En la operativa SIR, ¿cuándo se debe marcar un intercambio bajo la etiqueta del Caso 3 (Amarillo)?",
+      "options": {
+        "a": "Cuando los adjuntos digitales se encuentran corruptos o son ilegibles.",
+        "b": "Cuando la documentación se digitaliza íntegramente pero la norma obliga a la custodia física del original en papel por la UTD, o proviene de Correos.",
+        "c": "Cuando la documentación es demasiado voluminosa para su escaneo en origen.",
+        "d": "Cuando el interesado es una Administración Pública que actúa a través de su sede electrónica."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 8,
+      "question": "¿Cuál es la regla básica respecto a los registros mixtos (parte en papel y parte electrónico) en el origen de la plataforma SIR?",
+      "options": {
+        "a": "Están permitidos siempre que se desglose detalladamente en el campo de observaciones.",
+        "b": "En ningún caso se enviará parte en papel y parte electrónica; si algo no se digitaliza, se envía todo en papel (Caso Rojo).",
+        "c": "Se procesan obligatoriamente abriendo dos números de registro consecutivos independientes.",
+        "d": "Quedan a discreción del criterio exclusivo del técnico informático de guardia de la OAMR."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 9,
+      "question": "Si ni la unidad de tramitación destino ni su superior jerárquico están en SIR, ¿cómo y a dónde se debe remitir la documentación física en soporte papel?",
+      "options": {
+        "a": "A la dirección postal directa de la Unidad de Tramitación Destino.",
+        "b": "A la dirección postal de la Oficina de Registro Destino correspondiente.",
+        "c": "Se almacena en el archivo auxiliar centralizado de EPRINSA.",
+        "d": "Queda prohibida su admisión en el registro de la oficina de origen."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 10,
+      "question": "¿Qué validez jurídica ostentan las imágenes digitales obtenidas por la digitalización de documentos en soporte papel realizada por el personal de una OAMR según la normativa de SIR?",
+      "options": {
+        "a": "Eficacia meramente informativa a expensas de la presentación del papel.",
+        "b": "La consideración de imagen codificada, fiel e íntegra, con la misma validez para su tramitación que los soportes papel.",
+        "c": "Validez jurídica plena subordinada a un proceso posterior de compulsa manual.",
+        "d": "Carecen de validez legal si no incorporan una firma electrónica de tipo PAdES-LTV."
+      },
+      "correct": "b"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "11. ¿En qué tres componentes principales se estructura el servicio de nombres de dominio (DNS)?",
+    "o": [
+      "Protocolo, Host y Localización de archivos.",
+      "Espacio de dominios de nombres, Servidores de Nombres y Resolvers.",
+      "Raíz, Dominio de segundo nivel y FQDN físico.",
+      "Mensajes de consulta, Servidores maestros y Servidores esclavos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "12. ¿Qué función tienen los llamados 'servidores caché' en el sistema DNS?",
+    "o": [
+      "Ser responsables únicos y autoritativos de la zona raíz.",
+      "Almacenar conjuntos de registros de distintas zonas que obtienen consultando a los servidores autoritativos de forma temporal.",
+      "Sustituir los ficheros SOA por tablas indexadas permanentes.",
+      "Generar firmas digitales DNSSEC para transferencias AXFR."
+    ],
+    "a": 1
+  },
+  {
+    "q": "13. El nivel más alto de toda la jerarquía DNS es el dominio raíz o root, representado por:",
+    "o": [
+      "El carácter barra inclinada '/'",
+      "El carácter punto '.'",
+      "La cadena 'www'",
+      "La extensión '.arpa'"
+    ],
+    "a": 1
+  },
+  {
+    "q": "14. ¿Qué es un FQDN (Fully Qualified Domain Name)?",
+    "o": [
+      "Un nombre de dominio geográfico de dos letras.",
+      "El nombre formado por toda la cadena jerárquica que representa un recurso, terminando en el punto de la zona raíz.",
+      "Un formato de actualización dinámica restringido.",
+      "Un tipo de registro TXT empleado para combatir el spam."
+    ],
+    "a": 1
+  },
+  {
+    "q": "15. Los dominios de primer nivel ccTLD se caracterizan por ser geográficos y sus códigos están formados por:",
+    "o": [
+      "3 o más letras, según la ICANN.",
+      "2 letras, según la norma ISO 3166-1.",
+      "Un máximo de 63 caracteres alfanuméricos.",
+      "Dígitos del 0 al 9 exclusivamente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "16. Según el Plan Nacional de nombres de dominio bajo el código '.es', ¿cuáles son los límites máximos y mínimos de caracteres para dominios de segundo nivel?",
+    "o": [
+      "Máximo de 255 y mínimo de 3.",
+      "Máximo de 63 y mínimo de 3.",
+      "Máximo de 63 y mínimo de 2.",
+      "Máximo de 128 y mínimo de 4."
+    ],
+    "a": 1
+  },
+  {
+    "q": "17. En la normativa de sintaxis para dominios '.es', ¿cuál es una condición obligatoria para el uso del guión ('-')?",
+    "o": [
+      "Puede situarse al inicio del nombre si va seguido de dígitos.",
+      "No puede ser ni el primero ni el último carácter del nombre.",
+      "Debe separar obligatoriamente caracteres multilingües.",
+      "Solo se permite en extensiones patrocinadas tipo .gob.es."
+    ],
+    "a": 1
+  },
+  {
+    "q": "18. Conforme a las RFC 2606 y RFC 6761, ¿cuáles de los siguientes son nombres de dominio de primer nivel (TLD) reservados?",
+    "o": [
+      ".com, .net, .org, .info",
+      ".test, .example, .invalid, .localhost",
+      ".es, .mx, .pe, .br",
+      ".arpa, .root, .dns, .local"
+    ],
+    "a": 1
+  },
+  {
+    "q": "19. ¿Qué dominio específico se utiliza en el DNS para definir el espacio de direcciones IP y garantizar la resolución inversa?",
+    "o": [
+      "in-addr.arpa",
+      "reverse.dns.int",
+      "ip-address.infra",
+      "ptr-records.net"
+    ],
+    "a": 0
+  },
+  {
+    "q": "20. Siguiendo el criterio jerárquico del DNS, ¿en qué dominio se localizaría la información inversa de la dirección IPv4 213.4.108.69?",
+    "o": [
+      "213.4.108.69.in-addr.arpa",
+      "69.108.4.213.in-addr.arpa",
+      "arpa.in-addr.213.4.108.69",
+      "69-108-4-213.dns.reverse"
+    ],
+    "a": 1
+  }
+]

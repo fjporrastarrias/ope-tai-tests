@@ -1,0 +1,112 @@
+[
+  {
+    "id": 11,
+    "pregunta": "El principio básico que entiende la seguridad como compuesta por elementos humanos, materiales, técnicos, jurídicos y organizativos es:",
+    "opciones": {
+      "a": "Existencia de líneas de defensa",
+      "b": "Vigilancia continua",
+      "c": "La seguridad como un proceso integral",
+      "d": "Reevaluación periódica"
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Qué tipos de medidas deben constituir las líneas de defensa según el principio de 'Existencia de líneas de defensa'?",
+    "opciones": {
+      "a": "Medidas organizativas, físicas y lógicas",
+      "b": "Medidas únicamente de hardware y software",
+      "c": "Medidas de disuasión económica y penal",
+      "d": "Medidas de control perimetral exclusivamente"
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "id": 13,
+    "pregunta": "El principio básico incorporado en el RD 311/2022 que permite la detección de actividades o comportamientos anómalos es:",
+    "opciones": {
+      "a": "Gestión basada en riesgos",
+      "b": "Vigilancia continua",
+      "c": "Diferenciación de responsabilidades",
+      "d": "Prevención y conservación"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 14,
+    "pregunta": "Según el principio de 'Diferenciación de responsabilidades', la responsabilidad de la seguridad debe estar diferenciada de:",
+    "opciones": {
+      "a": "La dirección general del departamento",
+      "b": "La responsabilidad sobre la explotación de los sistemas de información concernidos",
+      "c": "Las competencias en protección de datos personales",
+      "d": "El departamento de recursos humanos"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 15,
+    "pregunta": "Análisis y gestión de riesgos, gestión de personal y mínimo privilegio figuran dentro del bloque de:",
+    "opciones": {
+      "a": "Principios básicos del ENS",
+      "b": "Requisitos mínimos de seguridad",
+      "c": "Normas de conformidad de la UE",
+      "d": "Directrices de la Red SARA"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 16,
+    "pregunta": "Dentro de la organización del proceso de seguridad, ¿qué figura determina los requisitos de la información tratada?",
+    "opciones": {
+      "a": "El responsable del servicio",
+      "b": "El responsable del sistema",
+      "c": "El responsable de la seguridad",
+      "d": "El responsable de la información"
+    },
+    "respuesta_correcta": "d"
+  },
+  {
+    "id": 17,
+    "pregunta": "Con relación al responsable de seguridad y al responsable del sistema, el ENS determina que:",
+    "opciones": {
+      "a": "El responsable del sistema debe ser el superior jerárquico",
+      "b": "El responsable de la seguridad será distinto del responsable del sistema, sin dependencia jerárquica entre ambos",
+      "c": "Ambos roles deben recaer obligatoriamente en la misma persona",
+      "d": "El responsable de seguridad depende del administrador de bases de datos"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 18,
+    "pregunta": "En el caso de servicios externalizados, ¿qué debe designar la organización prestataria privada para canalizar las comunicaciones de seguridad?",
+    "opciones": {
+      "a": "Un auditor de cuentas certificado",
+      "b": "Un DPD dedicado",
+      "c": "Un POC (Punto o Persona de Contacto) para la seguridad",
+      "d": "Un administrador del Front-end"
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Cuál de los siguientes requisitos mínimos sustituyó al antiguo concepto de 'Seguridad por defecto' del ENS de 2010?",
+    "opciones": {
+      "a": "Profesionalidad",
+      "b": "Mínimo privilegio",
+      "c": "Mejora continua",
+      "d": "Registro de actividad"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Cómo se denomina el documento firmado por el responsable de seguridad que formaliza la relación de medidas seleccionadas?",
+    "opciones": {
+      "a": "Documento de Seguridad Único",
+      "b": "Plan de Adecuación al ENS",
+      "c": "Declaración de Aplicabilidad",
+      "d": "Informe del Estado de la Seguridad"
+    },
+    "respuesta_correcta": "c"
+  }
+]

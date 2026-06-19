@@ -1,0 +1,112 @@
+[
+  {
+    "numero": 1,
+    "pregunta": "¿Cuál es el puerto estándar asignado por la IANA para la transferencia de correo entre servidores de correo (MTA a MTA) mediante SMTP?",
+    "opciones": {
+      "a": "23",
+      "b": "25",
+      "c": "110",
+      "d": "143"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 2,
+    "pregunta": "¿Qué comando SMTP se introduce para iniciar el cuerpo del mensaje de correo electrónico?",
+    "opciones": {
+      "a": "MAIL FROM",
+      "b": "RCPT TO",
+      "c": "DATA",
+      "d": "BODY"
+    },
+    "correcta": "c"
+  },
+  {
+    "numero": 3,
+    "pregunta": "Según la RFC 5321, ¿cómo indica el cliente SMTP al servidor que ha finalizado la introducción de los datos del mensaje (cuerpo)?",
+    "opciones": {
+      "a": "Enviando el comando QUIT",
+      "b": "Mediante una línea que contiene únicamente un punto (.)",
+      "c": "Mediante la secuencia \\EOF",
+      "d": "Enviando el comando END"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 4,
+    "pregunta": "¿Qué puerto se recomienda habitualmente para la sumisión de mensajes desde un cliente de correo (MUA) a un servidor SMTP (Message Submission)?",
+    "opciones": {
+      "a": "25",
+      "b": "110",
+      "c": "143",
+      "d": "587"
+    },
+    "correcta": "d"
+  },
+  {
+    "numero": 5,
+    "pregunta": "¿Cuál es la principal diferencia entre los comandos HELO y EHLO en el protocolo SMTP?",
+    "opciones": {
+      "a": "EHLO se utiliza en conexiones UDP y HELO en TCP",
+      "b": "EHLO se utiliza para iniciar extensiones de SMTP (ESMTP) y HELO es para el SMTP clásico",
+      "c": "HELO cifra la sesión automáticamente y EHLO no",
+      "d": "No existe diferencia, son sinónimos exactos"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 6,
+    "pregunta": "¿Qué código numérico de respuesta de un servidor SMTP indica que el servicio está listo para operar (saludo inicial)?",
+    "opciones": {
+      "a": "220",
+      "b": "250",
+      "c": "354",
+      "d": "550"
+    },
+    "correcta": "a"
+  },
+  {
+    "numero": 7,
+    "pregunta": "El código de respuesta SMTP '354' se recibe típicamente como respuesta a qué comando del cliente:",
+    "opciones": {
+      "a": "EHLO",
+      "b": "MAIL FROM",
+      "c": "DATA",
+      "d": "QUIT"
+    },
+    "correcta": "c"
+  },
+  {
+    "numero": 8,
+    "pregunta": "¿Qué comando de SMTP permite abortar la transacción de correo en curso, limpiando los buffers del remitente y destinatarios, sin cerrar la conexión?",
+    "opciones": {
+      "a": "QUIT",
+      "b": "RSET",
+      "c": "VRFY",
+      "d": "REST"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 9,
+    "pregunta": "¿Cuál es la RFC que define actualmente la especificación principal del protocolo SMTP (Simple Mail Transfer Protocol)?",
+    "opciones": {
+      "a": "RFC 1939",
+      "b": "RFC 3501",
+      "c": "RFC 5321",
+      "d": "RFC 2616"
+    },
+    "correcta": "c"
+  },
+  {
+    "numero": 10,
+    "pregunta": "¿Qué indica el código de error SMTP 550?",
+    "opciones": {
+      "a": "La acción solicitada no se realizó porque el buzón de correo no estaba disponible o no se encontró",
+      "b": "El servidor está cerrando el canal de transmisión",
+      "c": "Comando no implementado",
+      "d": "Error de sintaxis en los parámetros"
+    },
+    "correcta": "a"
+  }
+]

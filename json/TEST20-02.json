@@ -1,0 +1,112 @@
+[
+    {
+        "id": 11,
+        "pregunta": "En la administración de memoria real, la solución 'dinámica' para el problema de relocalización consiste en:",
+        "opciones": {
+            "a": "Recompilar el programa completamente al cargarse en memoria",
+            "b": "Tener un registro base que se suma a cada referencia de memoria en tiempo de ejecución",
+            "c": "Utilizar paginación con bloques variables según la carga del sistema",
+            "d": "Inhabilitar cualquier referencia fuera del segmento cero"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 12,
+        "pregunta": "Para solucionar el problema de protección en memoria real, el sistema puede usar:",
+        "opciones": {
+            "a": "Un registro base y un registro límite",
+            "b": "Una tabla de descriptores de archivos compartidos",
+            "c": "Un bit de sticky asociado a la CPU",
+            "d": "Un algoritmo FIFO de expulsión directa"
+        },
+        "respuesta_correcta": "a"
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Qué algoritmo de reemplazo de páginas realiza una búsqueda exhaustiva de la página menos referenciada?",
+        "opciones": {
+            "a": "La menos frecuentemente usada (LFU)",
+            "b": "Primera en entrar, primera en salir (FIFO)",
+            "c": "Reemplazo aleatorio",
+            "d": "Carga por demanda pura"
+        },
+        "respuesta_correcta": "a"
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Cuál es el inconveniente principal que se destaca de la segmentación pura de memoria?",
+        "opciones": {
+            "a": "La fragmentación interna severa",
+            "b": "La fragmentación externa",
+            "c": "La imposibilidad de compartir librerías",
+            "d": "La rigidez de sus bloques de tamaño idéntico"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 15,
+        "pregunta": "En los esquemas combinados de paginación y segmentación, ¿de qué elementos se compone una dirección virtual?",
+        "opciones": {
+            "a": "Número de segmento y desplazamiento",
+            "b": "Número de página y desplazamiento",
+            "c": "Número de segmento, número de página y desplazamiento",
+            "d": "Identificador de proceso y dirección real"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 16,
+        "pregunta": "¿En qué consiste la carga de páginas ANTICIPADA en memoria virtual?",
+        "opciones": {
+            "a": "Llevar las páginas a memoria solo si se referencian explícitamente",
+            "b": "Tratar de adivinar qué páginas serán solicitadas en el futuro inmediato aprovechando la localidad",
+            "c": "Cargar todo el código del programa antes de iniciar el primer hilo",
+            "d": "Reservar la totalidad de la memoria real para un único proceso interactivo"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 17,
+        "pregunta": "En la estructura física de un disco, ¿cómo se denomina a la unión lógica de varias pistas paralelas?",
+        "opciones": {
+            "a": "Sector",
+            "b": "Cilindro",
+            "c": "Bloque",
+            "d": "Pista concéntrica"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Qué característica define a la 'Asignación Encadenada' en un sistema de archivos?",
+        "opciones": {
+            "a": "Los bloques del archivo deben estar contiguos en el disco obligatoriamente",
+            "b": "Los directorios contienen un bloque de índices completo para cada archivo",
+            "c": "Los bloques no necesitan ser contiguos, no hay fragmentación externa, pero se desperdicia espacio con direcciones en cada eslabón",
+            "d": "Utiliza obligatoriamente una entrada indirecta triple para archivos pequeños"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Qué método de acceso a los sistemas de archivos es el más lento, consiste en recorrer los componentes uno a uno y se usa comúnmente en cintas?",
+        "opciones": {
+            "a": "Acceso directo",
+            "b": "Acceso directo indexado",
+            "c": "Acceso secuencial",
+            "d": "Acceso por seek automático"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 20,
+        "pregunta": "En la asignación indexada (inodo), ¿cuál es el problema para archivos muy pequeños?",
+        "opciones": {
+            "a": "Genera una fragmentación externa inasumible",
+            "b": "La relación entre bloques destinados a índices respecto a los de datos supone un coste inasumible",
+            "c": "No permite el uso de llamadas de acceso directo como 'seek'",
+            "d": "Obliga a realizar una lectura secuencial completa desde el bloque cero"
+        },
+        "respuesta_correcta": "b"
+    }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "En el encaminamiento dinámico por Vectores de Distancia, ¿qué algoritmo se utiliza de forma iterativa para converger a los caminos óptimos?",
+    "o": [
+      "Algoritmo de Dijkstra",
+      "Algoritmo de Bellman-Ford",
+      "Algoritmo de conmutación por corte",
+      "Algoritmo Token Passing"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué protocolo de encaminamiento de Internet está basado en la técnica de Vector de Distancia y suele usar el número de saltos como coste o métrica?",
+    "o": [
+      "OSPF",
+      "RIP",
+      "BGP orientado a etiquetas",
+      "IEEE 802.1p"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el encaminamiento por Estado de Enlace, cada encaminador mantiene una base de datos con la topología exacta de la red denominada:",
+    "o": [
+      "Tabla de Siguiente Salto",
+      "Link State Database (LSDB)",
+      "Tabla de Direcciones MAC central",
+      "Registro de Centro de Confianza"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué algoritmo utiliza un nodo en el encaminamiento por Estado de Enlace para construir su mapa o árbol de rutas desde su propio punto de vista?",
+    "o": [
+      "Algoritmo de Bellman-Ford",
+      "Algoritmo de Dijkstra",
+      "Algoritmo de inundación aleatoria",
+      "Algoritmo SRMA"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de los siguientes es un protocolo de enrutamiento basado en el Estado de Enlace utilizado en Internet?",
+    "o": [
+      "RIP",
+      "OSPF",
+      "GSMA",
+      "IEEE 802.2"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Internet está organizada en colecciones de redes y encaminadores gestionadas por una misma autoridad, denominadas:",
+    "o": [
+      "Dominios de colisión estructurados",
+      "Sistemas Autónomos (AS)",
+      "Subsistemas de Campus",
+      "Anillos lógicos distribuidos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de las siguientes NO es una ventaja directa del uso de Redes de Área Local Virtuales (VLANs)?",
+    "o": [
+      "Seguridad mediante la restricción y separación del tráfico.",
+      "Rendimiento optimizado al constituir dominios de difusión independientes.",
+      "Eliminación absoluta de la necesidad de routers en la red corporativa.",
+      "Incremento de la movilidad y facilidad en la administración ante cambios."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Para permitir la comunicación de paquetes de datos entre diferentes VLANs, ¿qué elemento es estrictamente necesario?",
+    "o": [
+      "Un repetidor o un hub pasivo.",
+      "Un router (o un switch con funciones de capa 3).",
+      "Un adaptador de banda base Clase EA.",
+      "Un árbitro central de sondeo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "En una VLAN, ¿cómo se agrupa habitualmente a los usuarios para garantizar las ventajas de seguridad y rendimiento?",
+    "o": [
+      "Por su ubicación física obligatoria en la misma planta.",
+      "Por su pertenencia a un grupo (departamento, proyecto, sección), independientemente de su ubicación física.",
+      "Por la dirección del canal multiplexado en frecuencia (SRMA).",
+      "Por el tipo de codificación binaria de su equipo terminal (ETD)."
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cuando se afirma que en una VLAN cada grupo es un dominio de difusión independiente, significa que:",
+    "o": [
+      "Las colisiones de un puerto afectan por igual a todos los switches del campus.",
+      "El tráfico de difusión (broadcast) generado por un grupo no afecta al resto de grupos de la red.",
+      "Se requiere obligatoriamente una topología física en malla para interconectarlos.",
+      "El paso de testigo se realiza de forma aleatoria por inundación local."
+    ],
+    "a": 1
+  }
+]

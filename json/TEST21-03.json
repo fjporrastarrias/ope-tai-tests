@@ -1,0 +1,117 @@
+{
+  "bloque": "Bloque IV - Cuestionario 3",
+  "tema": "Tema 21",
+  "titulo": "Administración del Sistema Operativo - Windows CMD y PowerShell",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "En el intérprete de comandos cmd de Windows, ¿qué comando envía el resultado directamente al portapapeles?",
+      "opciones": {
+        "a": "clip",
+        "b": "bitsadmin",
+        "c": "doskey",
+        "d": "subst"
+      },
+      "respuesta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Para buscar una cadena de caracteres específica en uno o varios archivos en cmd de Windows, ignorando mayúsculas y minúsculas y contando la asiduidad mediante /C, ¿qué comando ofrece funciones avanzadas como la secuencia exacta usando /C?",
+      "opciones": {
+        "a": "find",
+        "b": "findstr",
+        "c": "fc",
+        "d": "where"
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué comando de cmd de Windows se utiliza para asignarle una letra de unidad virtual a una ruta local del sistema de archivos?",
+      "opciones": {
+        "a": "subst",
+        "b": "mklink",
+        "c": "mountvol",
+        "d": "move"
+      },
+      "respuesta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué comando de cmd del sistema repara y descifra unidades defectuosas cifradas con BitLocker, almacenando los archivos en una unidad de repuesto?",
+      "opciones": {
+        "a": "manage-bde",
+        "b": "bdehdcfg",
+        "c": "repair-bde",
+        "d": "chkdsk /R"
+      },
+      "respuesta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En cmd de Windows, ¿qué herramienta comprueba los archivos de sistema más importantes y protegidos sustituyendo las versiones incorrectas?",
+      "opciones": {
+        "a": "sfc",
+        "b": "dism",
+        "c": "chkdsk",
+        "d": "secedit"
+      },
+      "respuesta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "En PowerShell, ¿qué parámetro común simula la ejecución de la instrucción sin realizar cambios reales en el sistema?",
+      "opciones": {
+        "a": "-confirm",
+        "b": "-passthru",
+        "c": "-whatif",
+        "d": "-paging"
+      },
+      "respuesta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Si deseamos borrar el contenido de todos los ficheros .log de una ruta en PowerShell sin borrar los archivos en sí, ¿qué cmdlet se debe utilizar?",
+      "opciones": {
+        "a": "Remove-Item",
+        "b": "Clear-Content",
+        "c": "Set-Content",
+        "d": "Clear-Variable"
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "En PowerShell, ¿qué clase de WMI/CIM se utiliza mediante Get-CimInstance para obtener información sobre las revisiones e ingeniería de corrección rápida instaladas en el sistema?",
+      "opciones": {
+        "a": "Win32_Processor",
+        "b": "Win32_Product",
+        "c": "Win32_QuickFixEngineering",
+        "d": "Win32_OperatingSystem"
+      },
+      "respuesta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cómo se filtra en PowerShell para mostrar únicamente los servicios locales que están parados ('stopped')?",
+      "opciones": {
+        "a": "Get-Service -status stopped",
+        "b": "Get-Service | Where-Object {$_.status -eq \"stopped\"}",
+        "c": "Get-Service | Sort-Object stopped",
+        "d": "Select-Service -Filter stopped"
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cuáles son los nuevos cmdlets incorporados a partir de PowerShell 7 destacados en el temario para compresión y extracción de archivos?",
+      "opciones": {
+        "a": "Zip-Item y Unzip-Item",
+        "b": "Compress-Archive y Expand-Archive",
+        "c": "New-Zip y Expand-Zip",
+        "d": "Tar-Item y Untar-Item"
+      },
+      "respuesta": "b"
+    }
+  ]
+}

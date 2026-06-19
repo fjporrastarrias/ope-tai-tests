@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Qué tipo de estructura de sistema operativo presenta una interfaz a cada proceso mostrando una máquina que parece idéntica a la máquina real subyacente?",
+        "opciones": {
+            "a": "Estructura monolítica",
+            "b": "Estructura jerárquica o en capas",
+            "c": "Cliente-servidor (microkernel)",
+            "d": "Máquina virtual"
+        },
+        "respuesta_correcta": "d"
+    },
+    {
+        "id": 2,
+        "pregunta": "En el modelo microkernel (cliente-servidor), ¿cuál es la misión principal del núcleo?",
+        "opciones": {
+            "a": "Proveer la totalidad de los servicios del sistema de archivos y red",
+            "b": "Establecer la comunicación entre los clientes y los servidores",
+            "c": "Ejecutar directamente las aplicaciones de usuario en modo supervisor",
+            "d": "Emular la máquina real para cada uno de los procesos"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Cuál de los siguientes NO es un componente básico del sistema operativo descrito en el tema?",
+        "opciones": {
+            "a": "Administrador de procesos",
+            "b": "Administrador de memoria principal",
+            "c": "Administrador de compiladores de lenguaje",
+            "d": "Sistema de protección y de comunicación"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cómo se define el estado de proceso 'Listo'?",
+        "opciones": {
+            "a": "El proceso se está ejecutando actualmente en la CPU",
+            "b": "El proceso no puede ejecutarse hasta que ocurra un suceso externo",
+            "c": "El proceso puede ejecutarse, pero está detenido para que el procesador ejecute otro",
+            "d": "El proceso ha sido eliminado de la tabla de procesos"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Qué nivel de planificación decide qué trabajos son candidatos para convertirse en procesos listos para competir por los recursos?",
+        "opciones": {
+            "a": "Planificador a corto plazo (dispatcher)",
+            "b": "Planificador a medio plazo",
+            "c": "Planificador a largo plazo (long term scheduler)",
+            "d": "Planificador de interrupciones"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué objetivo de la planificación busca finalizar el mayor número de procesos por unidad de tiempo?",
+        "opciones": {
+            "a": "Justicia o imparcialidad",
+            "b": "Maximizar la producción (throughput)",
+            "c": "Minimizar el tiempo de respuesta (turnaround)",
+            "d": "Evitar el aplazamiento indefinido"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 7,
+        "pregunta": "La planificación NO apropiativa (no expulsiva) se caracteriza por:",
+        "opciones": {
+            "a": "Permitir que el planificador expulse a un proceso debido a una interrupción de reloj",
+            "b": "Que cuando un proceso está en ejecución no puede ser suspendido ni expulsado de la CPU",
+            "c": "Realizar cambios de contexto constantes y periódicos",
+            "d": "Garantizar la eliminación absoluta de ciclos infinitos"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Cuál de los siguientes algoritmos de planificación de CPU es de tipo NO apropiativo y requiere una estimación del tiempo de ejecución para priorizar los trabajos más cortos?",
+        "opciones": {
+            "a": "SRTF (Shortest Remaining Time First)",
+            "b": "Round Robin (Turno circular)",
+            "c": "SJF (Shortest Job First)",
+            "d": "FCFS (First Come First Served)"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 9,
+        "pregunta": "En el algoritmo Round Robin, ¿dónde se coloca un proceso que ha terminado su 'quantum' de tiempo?",
+        "opciones": {
+            "a": "Pasa directamente a la cola de bloqueados",
+            "b": "Vuelve al final de la cola circular de listos",
+            "c": "Se le asigna una prioridad mayor inmediatamente",
+            "d": "Se le elimina del sistema por exceso de overhead"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 10,
+        "pregunta": "El problema de concurrencia que ocurre cuando un proceso tiene asignado un recurso y, sin liberarlo, solicita la asignación de otro, se llama:",
+        "opciones": {
+            "a": "Condición de ocupar y esperar un recurso",
+            "b": "Exclusión mutua incompleta",
+            "c": "Inanición por prioridad",
+            "d": "Interbloqueo destructivo"
+        },
+        "respuesta_correcta": "a"
+    }
+]

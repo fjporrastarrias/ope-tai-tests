@@ -1,0 +1,112 @@
+[
+    {
+        "id": 21,
+        "pregunta": "¿Cuál es la base de la plataforma Android en su nivel más bajo de la pila de software?",
+        "opciones": {
+            "a": "El framework de Java de Google",
+            "b": "El núcleo Linux (Linux Kernel)",
+            "c": "La capa de abstracción HAL",
+            "d": "Las bibliotecas nativas de C++"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 22,
+        "pregunta": "¿Qué componente de la arquitectura de Android ofrece interfaces estándares que exponen las capacidades del hardware a la API de Java de nivel superior?",
+        "opciones": {
+            "a": "El kernel de Linux",
+            "b": "La Capa de Abstracción de Hardware (HAL)",
+            "c": "El Runtime de Android (ART)",
+            "d": "El Application Framework"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 23,
+        "pregunta": "A partir de la versión 5.0 Lollipop de Android, ¿cuál es el entorno de ejecución (Runtime) oficial utilizado?",
+        "opciones": {
+            "a": "Dalvik virtual machine",
+            "b": "ART (Android Runtime)",
+            "c": "OpenJDK 11 pure engine",
+            "d": "Java Virtual Machine (JVM)"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Qué máquina virtual de ejecución de procesos utilizaba Android antes de la versión 5.0 Lollipop?",
+        "opciones": {
+            "a": "Dalvik",
+            "b": "ART",
+            "c": "HotSpot",
+            "d": "KVM"
+        },
+        "correcta": "a"
+    },
+    {
+        "id": 25,
+        "pregunta": "¿En qué lenguaje de programación están escritas originalmente las aplicaciones centrales (correo, SMS, calendario) de Android?",
+        "opciones": {
+            "a": "C++ nativo",
+            "b": "Swift",
+            "c": "Java",
+            "d": "Python"
+        },
+        "correcta": "c"
+    },
+    {
+        "id": 26,
+        "pregunta": "¿De qué servicios base del sistema se encarga el núcleo de Linux en la arquitectura Android?",
+        "opciones": {
+            "a": "Renderización de iconos temáticos y fuentes COLR",
+            "b": "Seguridad, gestión de memoria, gestión de procesos, pila de red y modelo de controladores",
+            "c": "Autenticación exclusiva en Google Play Store",
+            "d": "Gestión de intents web y almacenamiento en caché de cookies de navegador"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Cómo se ejecuta cada aplicación en Android con respecto a la seguridad de procesos?",
+        "opciones": {
+            "a": "Comparten todas un mismo espacio de memoria global y un único proceso",
+            "b": "Cada aplicación corre su propio proceso, con su propia instancia de la máquina virtual (ART)",
+            "c": "Se ejecutan directamente en modo kernel privilegiado",
+            "d": "No utilizan procesos, sino hilos dependientes del microkernel"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Qué componente proporciona a los desarrolladores de apps acceso completo a los mismos APIs de framework utilizados por las aplicaciones base?",
+        "opciones": {
+            "a": "El núcleo Linux",
+            "b": "Las bibliotecas C/C++ nativas",
+            "c": "El Marco de trabajo de aplicaciones (Application Framework)",
+            "d": "Los módulos HAL de la cámara y Bluetooth"
+        },
+        "correcta": "c"
+    },
+    {
+        "id": 29,
+        "pregunta": "¿De qué tipo son las bibliotecas nativas utilizadas por varios componentes de bajo nivel de la plataforma Android?",
+        "opciones": {
+            "a": "Bibliotecas escritas en Java puro",
+            "b": "Bibliotecas nativas de C/C++",
+            "c": "Scripts interpretados de Shell",
+            "d": "Módulos binarios ASM propietarios"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Cuál es una de las grandes ventajas de diseño que ofrece la arquitectura del Framework de aplicaciones de Android?",
+        "opciones": {
+            "a": "Eliminar por completo el uso de la memoria RAM",
+            "b": "Simplificar la reutilización de componentes, permitiendo que cualquier app publique sus capacidades",
+            "c": "Impedir la instalación de software de terceros no aprobado por el kernel",
+            "d": "Traducir automáticamente código Swift a Objective-C en tiempo real"
+        },
+        "correcta": "b"
+    }
+]

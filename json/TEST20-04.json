@@ -1,0 +1,112 @@
+[
+    {
+        "id": 31,
+        "pregunta": "En Linux, ¿qué llamada al sistema crea una copia exacta del proceso original (padre), dando lugar a un proceso hijo con imágenes de memoria privadas?",
+        "opciones": {
+            "a": "exec",
+            "b": "fork",
+            "c": "clone",
+            "d": "pthread_create"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 32,
+        "pregunta": "En el descriptor de un proceso en Linux, ¿qué tabla se utiliza como índice para localizar la estructura de datos interna (i-nodo) que corresponde a un archivo?",
+        "opciones": {
+            "a": "Tabla de descriptores de archivos",
+            "b": "Parámetros de planificación",
+            "c": "Tabla de contabilidad",
+            "d": "Imagen de memoria"
+        },
+        "respuesta_correcta": "a"
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Cuál es el rango de valores de prioridad ('nice') en Linux y qué valor representa la prioridad más alta asignable por root?",
+        "opciones": {
+            "a": "De 0 a 100, siendo 100 la más alta",
+            "b": "De -20 a 19, siendo -20 la más alta",
+            "c": "De -10 a 10, siendo 0 la estándar",
+            "d": "De 1 a 99, siendo 1 la más alta"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Qué comando permite ejecutar una tarea de forma que, si se cierra la terminal, ignore la señal SIGHUP y continúe en ejecución, redirigiendo la salida a un archivo externo?",
+        "opciones": {
+            "a": "El operador & solo",
+            "b": "nohup",
+            "c": "top",
+            "d": "renice"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 35,
+        "pregunta": "Dentro de la estructura de directorios de UNIX/Linux, ¿cuál es la función del directorio '/proc'?",
+        "opciones": {
+            "a": "Almacenar archivos ejecutables de comandos de usuario",
+            "b": "Servir de punto de montaje para dispositivos externos",
+            "c": "Contener archivos de control de procesos del sistema",
+            "d": "Guardar ficheros temporales del superusuario"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Qué opción del comando 'ls' muestra el número del i-nodo antes del nombre del archivo?",
+        "opciones": {
+            "a": "-l",
+            "b": "-i",
+            "c": "-a",
+            "d": "-s"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 37,
+        "pregunta": "En el comando 'grep', ¿qué opción se usa para mostrar únicamente el número total de coincidencias (líneas) encontradas?",
+        "opciones": {
+            "a": "-i",
+            "b": "-c",
+            "c": "-n",
+            "d": "-v"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 38,
+        "pregunta": "Utilizando el comando 'find', ¿cuál es el criterio correcto para buscar ficheros vacíos?",
+        "opciones": {
+            "a": "-size 0k",
+            "b": "-type f -empty",
+            "c": "-perm 000",
+            "d": "-name empty"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 39,
+        "pregunta": "Si un archivo tiene los permisos '-rwxrwxr--', ¿qué indica el grupo de caracteres al extremo derecho ('r--')?",
+        "opciones": {
+            "a": "Permisos completos para el usuario propietario",
+            "b": "Permisos de lectura y escritura para el grupo propietario",
+            "c": "Permisos de solo lectura para el resto de usuarios ('otros')",
+            "d": "Que el archivo posee el bit sticky activado"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 40,
+        "pregunta": "En la arquitectura del sistema operativo Android, ¿qué capa contiene módulos de biblioteca de C/C++ que exponen las capacidades de hardware del dispositivo a las APIs de Java de nivel más alto?",
+        "opciones": {
+            "a": "Núcleo Linux",
+            "b": "Capa de abstracción de hardware (HAL)",
+            "c": "Runtime de Android (ART)",
+            "d": "Marco de trabajo de aplicaciones (Application Framework)"
+        },
+        "respuesta_correcta": "b"
+    }
+]

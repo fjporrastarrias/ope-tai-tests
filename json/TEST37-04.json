@@ -1,0 +1,115 @@
+{
+  "block": "TEST37-04",
+  "questions": [
+    {
+      "id": 31,
+      "question": "Para realizar la integración automatizada de sistemas de información o tramitadores de expedientes con Notific@, ¿qué tipo de interfaz se exprime?",
+      "options": {
+        "a": "La consola web de gestión manual accesible desde notifica.redsara.es.",
+        "b": "Carga masiva periódica de archivos estructurados CSV mediante tareas cron.",
+        "c": "Servicios Web basados en API REST (Web Services).",
+        "d": "Conectores basados en sistemas de mensajería asíncrona IBM MQ locales."
+      },
+      "correct": "c"
+    },
+    {
+      "id": 32,
+      "question": "En los servicios web de gestión de envíos (SGN) de Notific@, ¿qué método se utiliza para dar de alta un lote o remesa de notificaciones?",
+      "options": {
+        "a": "infoEnvio2()",
+        "b": "altaRemesaEnvíos()",
+        "c": "sincronizarEnvioOE()",
+        "d": "ampliarPlazoOE()"
+      },
+      "correct": "b"
+    },
+    {
+      "id": 33,
+      "question": "¿Qué variantes contempla Notific@ en sus servicios web para el viaje del archivo electrónico que se desea notificar?",
+      "options": {
+        "a": "Como adjunto en la petición mediante el estándar SwA (Soap with Attachments) o codificado en Base64 en la propia petición.",
+        "b": "Mediante un enlace temporal securizado de descarga o mediante la fragmentación del archivo en bloques binarios.",
+        "c": "Únicamente embebido en formato XML estructurado o mediante inyección directa en base de datos central.",
+        "d": "A través del uso obligatorio de referencias cruzadas alojadas en el repositorio Archive de la AGE."
+      },
+      "correct": "a"
+    },
+    {
+      "id": 34,
+      "question": "¿Para qué sirve el método de servicios web de sincronización denominado 'ampliarPlazoOE()'?",
+      "options": {
+        "a": "Para renovar la validez del certificado de sello electrónico del backend emisor.",
+        "b": "Para incrementar el plazo de expiración configurado originalmente para una notificación electrónica.",
+        "c": "Para dar margen de tiempo al operador postal en la impresión física de las copias en papel.",
+        "d": "Para prorrogar los plazos legales del trámite de subsanación regulado en el artículo 68.4."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 35,
+      "question": "¿Qué función cumple el servicio web denominado 'Adviser' que debe exponer de forma obligatoria el Ayuntamiento en la red RedSARA?",
+      "options": {
+        "a": "Proporcionar directrices legales automatizadas sobre la redacción de los actos administrativos.",
+        "b": "Permitir que Notific@ realice un 'push' e inyecte directamente los datados y certificaciones firmadas en los sistemas municipales.",
+        "c": "Validar en tiempo real la vigencia de las identidades digitales de los ciudadanos en la plataforma Cl@ve.",
+        "d": "Monitorizar el rendimiento y caída de los servidores de bases de datos relacionales locales."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 36,
+      "question": "Cuando un Ayuntamiento integra sus unidades en Notific@ delegando en el operador tecnológico compartido 'GEISER', ¿qué ocurre con las certificaciones?",
+      "options": {
+        "a": "Se cancela la generación de cualquier evidencia y se asume la fehaciencia de la plataforma GEISER.",
+        "b": "No se retorna automáticamente el datado y la certificación; el tramitador debe acceder a la web de Notifica y realizar la consulta manual.",
+        "c": "Se inyectan de forma síncrona en el libro de anotaciones del registro electrónico unificado REGAGE.",
+        "d": "Es mandatorio invocar el método alternativo infoEnvioLigero() cada 24 horas de forma programada."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 37,
+      "question": "En la aplicación RES de EPRINSA, ¿en qué opción del menú de administración se parametriza un 'Uso del Registro' para la Oficina Virtual (WNT)?",
+      "options": {
+        "a": "Mantenimiento -> Catálogo de Unidades DIR3.",
+        "b": "Otros Registros -> Registros Otras Aplicaciones.",
+        "c": "Registro General -> Entrada Telemática Automática.",
+        "d": "Mantenimiento de Tablas -> Parametrización de Asuntos RES."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 38,
+      "question": "Al configurar un Uso en la herramienta RES de EPRINSA destinado a tramitación telemática, ¿cuál es un requisito obligatorio de configuración en la cabecera?",
+      "options": {
+        "a": "Seleccionar el código correspondiente a un libro de registro físico o auxiliar.",
+        "b": "Seleccionar el código del libro electrónico o telemático de la entidad (ej. RT00).",
+        "c": "Fijar obligatoriamente el Tipo de Registro como 'S' (Salida).",
+        "d": "Asociar la IP estática del servidor de aplicaciones Apache Tomcat municipal."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 39,
+      "question": "¿Por qué es una regla crítica y obligatoria activar la casilla 'Limitar configuración' al parametrizar un Uso en la aplicación RES de EPRINSA?",
+      "options": {
+        "a": "Para restringir los permisos de borrado de tablas en el motor relacional Oracle a los usuarios genéricos.",
+        "b": "Para garantizar que ese canal virtual se asocie estrictamente a un único asunto y departamento, evitando errores de asignación.",
+        "c": "Para obligar a que los ficheros adjuntos presentados por el ciudadano se transformen de manera desasistida a formato ZIP.",
+        "d": "Para limitar el consumo de ancho de banda durante la descarga de expedientes pesados desde la Sede Electrónica."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 40,
+      "question": "¿Qué comando de teclado o acción consolida de forma definitiva el almacenamiento de los datos en la base de datos de la herramienta RES de EPRINSA?",
+      "options": {
+        "a": "La tecla de función F9.",
+        "b": "La tecla de función F10 (o presionar el botón Guardar).",
+        "c": "La combinación de comandos Ctrl + Alt + Del.",
+        "d": "El comando de sistema Commit ejecutado de manera asíncrona en consola."
+      },
+      "correct": "b"
+    }
+  ]
+}

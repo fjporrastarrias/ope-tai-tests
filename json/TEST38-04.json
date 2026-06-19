@@ -1,0 +1,112 @@
+[
+    {
+        "id": 31,
+        "question": "Dentro de la suite @firma, ¿qué componente actúa como Autoridad de Sellado de Tiempo?",
+        "options": {
+            "a": "Integr@.",
+            "b": "TS@.",
+            "c": "VALet.",
+            "d": "eVisor."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 32,
+        "question": "¿Qué componente de la suite @firma es un sistema de validación de certificados frente a listas TSL europeas?",
+        "options": {
+            "a": "VALet.",
+            "b": "Monitoriz@.",
+            "c": "@firmaCRL.",
+            "d": "FIRe."
+        },
+        "answer": "a"
+    },
+    {
+        "id": 33,
+        "question": "¿Para qué sirve el componente 'eVisor' dentro de la suite de servicios de @firma?",
+        "options": {
+            "a": "Para interceptar el tráfico de red de las firmas maliciosas.",
+            "b": "Como generador de informes y justificantes de firma (representación gráfica y validación).",
+            "c": "Para ver las pantallas de los usuarios en control remoto.",
+            "d": "Como editor de bases de datos para certificados revocados."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 34,
+        "question": "¿Qué componente de la suite @firma actúa como un 'broker de firma electrónica' facilitando la integración con múltiples proveedores de firma?",
+        "options": {
+            "a": "Portafirmas.",
+            "b": "FIRe.",
+            "c": "AutoFirma.",
+            "d": "@firmaCRL."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 35,
+        "question": "¿Qué sistema de la suite permite la descarga y publicación de las Listas de Revocación de Certificados (CRLs) de Prestadores Registrados?",
+        "options": {
+            "a": "Monitoriz@.",
+            "b": "@firmaCRL.",
+            "c": "VALet.",
+            "d": "Integr@."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 36,
+        "question": "En la versión 6.4 de @firma, ¿qué mejora se introdujo respecto a la trazabilidad e información a responsables de aplicativos?",
+        "options": {
+            "a": "El cobro automático de licencias anuales.",
+            "b": "El envío de correos electrónicos a responsables de los aplicativos con certificado próximo a caducar.",
+            "c": "La destrucción automática de certificados obsoletos.",
+            "d": "El cifrado de datos de usuario con claves cuánticas."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 37,
+        "question": "¿Qué elemento de la suite @firma está diseñado específicamente para integrarse en los flujos de trabajo organizativos y permitir la firma secuencial o en paralelo de documentos?",
+        "options": {
+            "a": "Portafirmas / Portafirmas Móvil.",
+            "b": "VALIDe.",
+            "c": "TS@.",
+            "d": "Firma Móvil."
+        },
+        "answer": "a"
+    },
+    {
+        "id": 38,
+        "question": "Con respecto al cliente AutoFirma en la versión 6.4, ¿cuál de las siguientes es una mejora introducida?",
+        "options": {
+            "a": "Mejoras en firmas PADES y firma por lotes.",
+            "b": "Coherencia entre cofirmas y mejora en el servicio de firma triásica.",
+            "c": "Mejora en instalador MSI y en la presentación de mensajes de error.",
+            "d": "Todas las respuestas son correctas."
+        },
+        "answer": "d"
+    },
+    {
+        "id": 39,
+        "question": "¿A qué política de la Administración General del Estado (AGE) se ha preparado la adaptación global de la suite @firma en su versión 6.4?",
+        "options": {
+            "a": "Política de la AGE 1.0",
+            "b": "Política de la AGE 2.0",
+            "c": "Política de Seguridad Nacional 3.0",
+            "d": "Plan Nacional de Recuperación Transformación y Resiliencia."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 40,
+        "question": "¿Qué verificación de configuración a nivel estricto se incluye en el backend de administración de @firma 6.4?",
+        "options": {
+            "a": "Verificación de la configuración del Directorio Activo corporativo.",
+            "b": "Verificación de configuración DIR3 (Directorio Común de Unidades Orgánicas y Oficinas).",
+            "c": "Verificación de compatibilidad con sistemas operativos Mac OS exclusivamente.",
+            "d": "Verificación de cortafuegos perimetrales automáticos."
+        },
+        "answer": "b"
+    }
+]

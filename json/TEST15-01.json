@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿En qué artículo de la Ley 40/2015 de Régimen Jurídico del Sector Público se define el Esquema Nacional de Interoperabilidad (ENI)?",
+    "opciones": {
+      "a": "Artículo 156",
+      "b": "Artículo 146",
+      "c": "Artículo 166",
+      "d": "Artículo 115"
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué Real Decreto regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica?",
+    "opciones": {
+      "a": "Real Decreto 4/2010, de 8 de enero",
+      "b": "Real Decreto 3/2010, de 8 de enero",
+      "c": "Real Decreto 4/2015, de 1 de octubre",
+      "d": "Real Decreto 203/2021, de 30 de marzo"
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 3,
+    "pregunta": "Según el modelo de color RGB, ¿en qué rango se sitúan los valores numéricos para representar un color?",
+    "opciones": {
+      "a": "De 0 a 100",
+      "b": "De 0 a 255",
+      "c": "De 1 a 1000",
+      "d": "De -128 a 127"
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 4,
+    "pregunta": "¿En qué unidad se miden las componentes del modelo de color CMYK?",
+    "opciones": {
+      "a": "Valores enteros de 0 a 255",
+      "b": "Grados numéricos",
+      "c": "Porcentaje, de 0% a 100%",
+      "d": "Bits de profundidad"
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 5,
+    "pregunta": "En los modelos de color HSL y HSV, ¿en qué unidad se mide el componente del matiz (H)?",
+    "opciones": {
+      "a": "Porcentaje",
+      "b": "Grados",
+      "c": "Valores de 0 a 255",
+      "d": "Radianes"
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 6,
+    "pregunta": "El modelo de color HSL también se conoce como HSI debido a su componente de:",
+    "opciones": {
+      "a": "Iluminación",
+      "b": "Intensidad",
+      "c": "Indexación",
+      "d": "Infrarrojo"
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 7,
+    "pregunta": "El modelo de color HSV recibe también el nombre de HSB por su componente de:",
+    "opciones": {
+      "a": "Brillo (Brightness)",
+      "b": "Blanco (Whiteness)",
+      "c": "Balance (Balance)",
+      "d": "Binarización (Binarization)"
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Cómo se mide el componente único de la escala de grises según el documento técnico?",
+    "opciones": {
+      "a": "Porcentaje de 0% a 100%",
+      "b": "Por el componente luminosidad, en valores de 0 a 255",
+      "c": "En grados de 0 a 360",
+      "d": "Por el valor de saturación binaria"
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Cuál es la finalidad principal del Esquema Nacional de Interoperabilidad (ENI)?",
+    "opciones": {
+      "a": "Garantizar la seguridad física y lógica de los centros de proceso de datos.",
+      "b": "Crear las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad técnica, semántica y organizativa.",
+      "c": "Regular exclusivamente la firma electrónica avanzada de los ciudadanos.",
+      "d": "Establecer las sanciones por el incumplimiento de la protección de datos."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Qué disposición del RD 4/2010 fija el desarrollo de las Normas Técnicas de Interoperabilidad (NTI)?",
+    "opciones": {
+      "a": "La Disposición adicional primera",
+      "b": "La Disposición transitoria única",
+      "c": "El Artículo 1",
+      "d": "El Anexo II"
+    },
+    "correcta": "a"
+  }
+]

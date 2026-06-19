@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Qué modelo de propiedad de dispositivos móviles es el recomendado por el Centro Criptológico Nacional (CCN)?",
+        "opciones": {
+            "a": "BYOD (Bring Your Own Device)",
+            "b": "COBO (Corporate Owned, Business Only)",
+            "c": "CYOD (Choose Your Own Device)",
+            "d": "COPE (Corporate Owned, Personally Enabled)"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Cuáles son las razones principales por las que el CCN recomienda el modelo COBO?",
+        "opciones": {
+            "a": "Económicas y comerciales",
+            "b": "Técnicas y legales",
+            "c": "Exclusivamente operativas de rendimiento",
+            "d": "Facilidad de uso para entornos mixtos"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 3,
+        "pregunta": "Según el texto proporcionado, ¿cuál de los siguientes NO se clasifica explícitamente como ejemplo de dispositivo móvil?",
+        "opciones": {
+            "a": "Teléfonos móviles y smartphones",
+            "b": "Tablets",
+            "c": "Smartwatches con LTE",
+            "d": "PDAs"
+        },
+        "correcta": "c"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Qué significan las siglas MDM en el entorno de la administración empresarial de redes?",
+        "opciones": {
+            "a": "Mobile Data Management",
+            "b": "Mobile Device Management",
+            "c": "Mobile Delivery Mechanism",
+            "d": "Modern Device Monitor"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Qué acrónimo se utiliza específicamente para definir las soluciones de gestión de aplicaciones móviles?",
+        "opciones": {
+            "a": "MDM",
+            "b": "MCM",
+            "c": "MAM o MEAM",
+            "d": "OTA"
+        },
+        "correcta": "c"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿A qué hace referencia el término MCM en el contexto de las características de una solución MDM?",
+        "opciones": {
+            "a": "Mobile Connection Manager",
+            "b": "Gestión de contenidos y datos corporativos",
+            "c": "Mobile Cloud Maintenance",
+            "d": "Modulación de Canales Móviles"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Qué modelo de comunicación utiliza el servidor centralizado MDM para configurar y actualizar dispositivos de forma remota?",
+        "opciones": {
+            "a": "OTA (Over-the-air programming)",
+            "b": "FTP a través de TLS",
+            "c": "Llamadas a procedimiento remoto RPC",
+            "d": "Consultas SNMP síncronas"
+        },
+        "correcta": "a"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Cuál de las siguientes Guías de Seguridad del CCN-STIC regula la 'Gestión y uso de dispositivos móviles'?",
+        "opciones": {
+            "a": "CCN-STIC 496",
+            "b": "CCN-STIC 827",
+            "c": "CCN-STIC 200",
+            "d": "CCN-STIC 805"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Qué guía CCN-STIC está dedicada específicamente a 'Sistemas de comunicaciones móviles seguras'?",
+        "opciones": {
+            "a": "CCN-STIC 496",
+            "b": "CCN-STIC 827",
+            "c": "CCN-STIC 105",
+            "d": "CCN-STIC 440"
+        },
+        "correcta": "a"
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Cuál de los siguientes NO es un componente técnico básico de la arquitectura de una solución MDM estándar?",
+        "opciones": {
+            "a": "Un software-cliente instalado en cada dispositivo",
+            "b": "Una base de datos centralizada con el estado de situación",
+            "c": "Un modelo de comunicación remota OTA",
+            "d": "Un hardware sniffer físico conectado en modo promiscuo al terminal"
+        },
+        "correcta": "d"
+    }
+]

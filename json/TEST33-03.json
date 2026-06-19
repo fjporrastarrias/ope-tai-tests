@@ -1,0 +1,102 @@
+[
+  {
+    "q": "21. ¿Qué es LXCFS dentro del proyecto Linux Containers?",
+    "o": [
+      "Un runtime de bajo nivel para ejecutar imágenes OCI.",
+      "Un sistema de archivos de espacio de usuario (FUSE) que ofrece superposición de archivos como cpuinfo o meminfo.",
+      "Un orquestador descentralizado integrado en Docker Engine.",
+      "Un dispositivo de almacenamiento masivo conectado por fibra óptica."
+    ],
+    "a": 1
+  },
+  {
+    "q": "22. ¿Cuántas especificaciones contiene actualmente la Open Container Initiative (OCI) y cuáles son?",
+    "o": [
+      "Dos: core-spec y cloud-spec.",
+      "Tres: runtime-spec, image-spec y distribution-spec.",
+      "Cuatro: container, image, network y storage.",
+      "Ninguna, la OCI es solo una declaración de intenciones sin especificaciones técnicas."
+    ],
+    "a": 1
+  },
+  {
+    "q": "23. ¿Qué modelo de servicios en la nube se define como CaaS?",
+    "o": [
+      "Cómputo como Servicio (Compute as a Service).",
+      "Contenedores como Servicio (Containers as a Service).",
+      "Comunicaciones como Servicio (Communications as a Service).",
+      "Controladores como Servicio (Controllers as a Service)."
+    ],
+    "a": 1
+  },
+  {
+    "q": "24. En el modo Docker Swarm, ¿qué tipo de nodo distribuye unidades de trabajo y realiza funciones de orquestación y administración del clúster?",
+    "o": [
+      "Nodo trabajador",
+      "Nodo agente",
+      "Nodo administrador",
+      "Nodo maestro de etcd"
+    ],
+    "a": 2
+  },
+  {
+    "q": "25. ¿Qué es una 'tarea' (task) dentro de la arquitectura de Docker Swarm?",
+    "o": [
+      "Un archivo YAML de configuración de red superpuesta.",
+      "La unidad de programación atómica del enjambre, que lleva un contenedor Docker y sus comandos.",
+      "Un proceso de sincronización ejecutado únicamente en el host local.",
+      "La consulta interactiva enviada mediante la utilidad bcp."
+    ],
+    "a": 1
+  },
+  {
+    "q": "26. Si no se especifica un puerto al exponer un servicio en Docker Swarm, ¿en qué rango asigna automáticamente el administrador el PublishedPort?",
+    "o": [
+      "80-443",
+      "1024-49151",
+      "30000-32767",
+      "8080-8443"
+    ],
+    "a": 2
+  },
+  {
+    "q": "27. ¿Qué protocolo utiliza por defecto cada nodo de Docker Swarm para aplicar la autenticación y el cifrado mutuo de comunicaciones?",
+    "o": [
+      "SSH",
+      "TLS",
+      "IPsec",
+      "FCoE"
+    ],
+    "a": 1
+  },
+  {
+    "q": "28. ¿Qué herramienta oficial de Docker se utiliza para definir y ejecutar aplicaciones multi-contenedor llamadas 'stacks' utilizando archivos de configuración YAML?",
+    "o": [
+      "Docker Swarm",
+      "Docker Compose",
+      "Docker Buildah",
+      "Docker Hub"
+    ],
+    "a": 1
+  },
+  {
+    "q": "29. ¿Cuántos pasos consta el proceso de uso de Docker Compose según el texto?",
+    "o": [
+      "Dos pasos: compilar y arrancar.",
+      "Tres pasos: definir el entorno (Dockerfile), definir servicios (docker-compose.yml) y ejecutar docker compose up.",
+      "Cinco pasos, terminando con el comando docker commit obligatorio.",
+      "Un solo paso, automatizado completamente por la infraestructura hiperconvergente."
+    ],
+    "a": 1
+  },
+  {
+    "q": "30. ¿Dónde se encuentran los elementos de Kubernetes que controlan el clúster junto con los datos sobre su estado y configuración?",
+    "o": [
+      "En los nodos trabajadores",
+      "En la infraestructura subyacente bare-metal",
+      "En el plano de control (Control Plane)",
+      "En los paquetes Charts de Helm"
+    ],
+    "a": 2
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 31,
+    "pregunta": "¿Qué beneficio aporta la aplicación del ENI y sus Normas Técnicas según la normativa?",
+    "opciones": {
+      "a": "Redunda en beneficio de la eficacia y la eficiencia de las Administraciones Públicas.",
+      "b": "Permite el uso exclusivo de software propietario de alto coste.",
+      "c": "Evita que los ciudadanos tengan que firmar digitalmente.",
+      "d": "Sustituye por completo al Esquema Nacional de Seguridad."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 32,
+    "pregunta": "La umbralización es un proceso que se asocia con:",
+    "opciones": {
+      "a": "La optimización de la imagen electrónica para garantizar legibilidad.",
+      "b": "La asignación de permisos de usuario en la red local.",
+      "c": "El cálculo del tamaño en bytes del archivo resultante.",
+      "d": "La firma mediante certificado de sello electrónico."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 33,
+    "pregunta": "En el modelo RGB, si los tres valores (R, G, B) están establecidos en 0, ¿qué color se representa?",
+    "opciones": {
+      "a": "Blanco",
+      "b": "Negro",
+      "c": "Gris medio",
+      "d": "Verde brillante"
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 34,
+    "pregunta": "En el modelo CMYK, la letra 'K' hace referencia al componente de color:",
+    "opciones": {
+      "a": "Amarillo (Khaki)",
+      "b": "Negro (Key / Black)",
+      "c": "Azul (Kyan)",
+      "d": "Magenta oscuro (Krimson)"
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 35,
+    "pregunta": "La interoperabilidad que busca el ENI se divide en tres niveles esenciales según el texto:",
+    "opciones": {
+      "a": "Técnica, semántica y organizativa.",
+      "b": "Física, lógica y de red.",
+      "c": "Local, autonómica y nacional.",
+      "d": "Hardware, software y firmware."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Qué ocurre si una imagen digitalizada contiene gráficos o caracteres que no estaban en el papel de origen?",
+    "opciones": {
+      "a": "Deja de considerarse una imagen fiel según los requisitos de la NTI.",
+      "b": "Se considera una optimización correcta por defecto.",
+      "c": "Sigue siendo válida si la firma electrónica es correcta.",
+      "d": "Es obligatorio para cumplir con los metadatos complementarios."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Qué elemento garantiza que los pasos del proceso informático de digitalización mantengan su integridad?",
+    "opciones": {
+      "a": "El control estricto del proceso informático de extremo a extremo.",
+      "b": "La monitorización del tráfico de red mediante SNMP.",
+      "c": "El uso exclusivo de escáneres de superficie plana.",
+      "d": "La encriptación simétrica del disco duro del puesto."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 38,
+    "pregunta": "En el contexto de la digitalización, ¿para qué sirve la reorientación?",
+    "opciones": {
+      "a": "Para corregir automáticamente la alineación o giro de la imagen capturada y asegurar su legibilidad.",
+      "b": "Para enviar el documento a otro departamento municipal.",
+      "c": "Para cambiar el formato del fichero de PDF a TIFF.",
+      "d": "Para modificar los metadatos del idioma del documento."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 39,
+    "pregunta": "La NTI de Digitalización de Documentos obliga a que las imágenes electrónicas:",
+    "opciones": {
+      "a": "Apliquen los formatos establecidos en la NTI de Catálogo de Estándares.",
+      "b": "Se almacenen comprimidas en formato ZIP nativo individualmente.",
+      "c": "Se suban inmediatamente al portal del Ayuntamiento de Priego de Córdoba.",
+      "d": "Sean firmadas solo con certificado digital de persona física."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 40,
+    "pregunta": "El cumplimiento de las directrices de la NTI de Digitalización garantiza que los documentos electrónicos:",
+    "opciones": {
+      "a": "Tengan validez jurídica y plena capacidad de interoperabilidad entre administraciones.",
+      "b": "No ocupen espacio en el Centro de Proceso de Datos (CPD).",
+      "c": "Sean inmunes a cualquier tipo de software malicioso o malware.",
+      "d": "No requieran metadatos mínimos obligatorios para su archivo."
+    },
+    "correcta": "a"
+  }
+]

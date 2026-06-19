@@ -1,0 +1,116 @@
+{
+    "bloque": "TEST24-04",
+    "descripcion": "Otros Protocolos de Red y Capa de Transporte",
+    "preguntas": [
+        {
+            "id": 31,
+            "enunciado": "¿Qué protocolo efectúa la resolución de la dirección IP a la dirección física (MAC en LAN) para los datagramas IP salientes en IPv4?",
+            "opciones": {
+                "a": "DHCP",
+                "b": "DNS",
+                "c": "ARP",
+                "d": "IGMP"
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 32,
+            "enunciado": "¿Qué protocolo se utiliza junto con IPv6 para resolver direcciones de red en direcciones MAC, siendo el equivalente a ARP?",
+            "opciones": {
+                "a": "ICMPv4",
+                "b": "IGMPv3",
+                "c": "ND (Neighbor Discovery Protocol)",
+                "d": "RARP"
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 33,
+            "enunciado": "La combinación de qué mensajes de ICMPv6 equivale directamente al funcionamiento del protocolo ARP en IPv4:",
+            "opciones": {
+                "a": "130, 131 y 132.",
+                "b": "134 y 137.",
+                "c": "135 (Solicitud de vecino) y 136 (Anuncio de vecino).",
+                "d": "128 y 129."
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 34,
+            "enunciado": "¿Qué protocolo del nivel de red es utilizado por los routers para intercambiar información sobre la pertenencia a un grupo de multidifusión?",
+            "opciones": {
+                "a": "ICMP",
+                "b": "IGMP",
+                "c": "ARP",
+                "d": "BOOTP"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 35,
+            "enunciado": "Cuando la caché ARP no contiene una entrada para una IP, se envía un mensaje ARP de difusión a toda la red local. ¿Cuál es la dirección MAC de destino utilizada?",
+            "opciones": {
+                "a": "00:00:00:00:00:00",
+                "b": "FF:FF:FF:FF:FF:FF",
+                "c": "127.0.0.1",
+                "d": "255.255.255.255"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 36,
+            "enunciado": "Según el documento proporcionado, ¿qué puerto TCP utiliza por defecto el sistema de bases de datos NoSQL Neo4j?",
+            "opciones": {
+                "a": "8000",
+                "b": "7474",
+                "c": "9042",
+                "d": "27017"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 37,
+            "enunciado": "¿Qué puerto TCP está asignado al motor de base de datos NoSQL Cassandra?",
+            "opciones": {
+                "a": "27017",
+                "b": "9042",
+                "c": "8000",
+                "d": "11371"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 38,
+            "enunciado": "¿Qué puerto por defecto corresponde al servicio MongoDB según el listado de puertos provisto?",
+            "opciones": {
+                "a": "7474",
+                "b": "8000",
+                "c": "27017",
+                "d": "33434"
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 39,
+            "enunciado": "¿Qué servicio/herramienta utiliza el puerto 33434 tanto en TCP como en UDP para realizar el seguimiento de red?",
+            "opciones": {
+                "a": "DynamoDB",
+                "b": "OpenPGP pgpkeyserver",
+                "c": "traceroute",
+                "d": "DHCP"
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 40,
+            "enunciado": "¿Cuál de las siguientes afirmaciones define correctamente al protocolo UDP de la capa de transporte?",
+            "opciones": {
+                "a": "Es un protocolo orientado a la conexión y 100% fiable.",
+                "b": "Es un protocolo no orientado a la conexión y no fiable.",
+                "c": "Realiza control de flujo y recuperación de errores mediante retransmisiones automáticas.",
+                "d": "Se utiliza exclusivamente en el nivel de red para encaminamiento dinámico."
+            },
+            "respuesta_correcta": "b"
+        }
+    ]
+}

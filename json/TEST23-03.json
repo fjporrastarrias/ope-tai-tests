@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cómo funciona un conmutador con técnica híbrida (Adaptive Cut-through)?",
+    "o": [
+      "Opera siempre en modo Store and Forward y solo pasa a Cut-through en horarios de bajo tráfico.",
+      "Combina enrutamiento por vectores de distancia con estado de enlace a nivel de hardware.",
+      "Opera normalmente como Cut-through, pero si la frecuencia de tramas inválidas supera un umbral, se comporta como Store and forward.",
+      "Divide de forma fija los puertos entre baja latencia y alta verificación de errores."
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la principal diferencia funcional entre un switch de capa 2 y uno de capa 3?",
+    "o": [
+      "El switch de capa 3 no dispone de tabla de direcciones MAC.",
+      "El switch de capa 3 realiza funciones de capa 2 y además lleva a cabo funciones de enrutamiento (dispone de tabla de enrutamiento IP).",
+      "El switch de capa 2 opera exclusivamente con cables de fibra óptica Clase FA.",
+      "El switch de capa 3 elimina la necesidad de subcapas MAC en los puestos remotos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué nivel máximo de alimentación eléctrica por puerto proporciona el estándar IEEE 802.3af (PoE)?",
+    "o": [
+      "Hasta 15,4 W",
+      "Hasta 30 W",
+      "Hasta 60 W",
+      "Hasta 100 W"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué estándar proporciona una alimentación eléctrica de hasta 30 W por puerto en una infraestructura LAN?",
+    "o": [
+      "IEEE 802.3af (PoE)",
+      "IEEE 802.3at (PoE+)",
+      "IEEE 802.3bt Tipo 3",
+      "IEEE 802.1p"
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con el estándar IEEE 802.3bt (PoE++), la potencia suministrada por el Tipo 4 puede alcanzar hasta:",
+    "o": [
+      "30 W",
+      "45 W",
+      "60 W",
+      "100 W"
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿Qué estándar proporciona un mecanismo para implementar Calidad de Servicio (QoS) mediante priorización de tráfico y filtrado multicast dinámico a nivel de MAC?",
+    "o": [
+      "IEEE 802.2",
+      "IEEE 802.1p",
+      "IEEE 802.3af",
+      "IEEE 802.4"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Los routers o enrutadores son elementos de interconexión que trabajan en qué nivel del modelo de referencia OSI:",
+    "o": [
+      "Nivel Físico (Capa 1)",
+      "Nivel de Enlace de Datos (Capa 2)",
+      "Nivel de Red (Capa 3)",
+      "Nivel de Transporte (Capa 4)"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En el encaminamiento orientado a conexión mediante etiquetas, ¿qué campo de la cabecera IPv6 se utiliza para este propósito, reduciendo la complejidad de las tablas?",
+    "o": [
+      "Campo de TTL (Time to Live)",
+      "Campo Identificador de Flujo",
+      "Campo DSAP de red",
+      "Campo de Control de Fragmentación"
+    ],
+    "a": 1
+  },
+  {
+    "q": "La técnica de encaminamiento local denominada 'Inundación' consiste en:",
+    "o": [
+      "Seleccionar aleatoriamente un único camino de salida para cada paquete.",
+      "Enviar cada paquete a todos sus vecinos, excepto al que envió originalmente el mensaje.",
+      "Construir manualmente las tablas basándose en la topología exacta global.",
+      "Intercambiar vectores de distancia exclusivamente con el árbitro de la red."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es la característica principal del Routing Estático?",
+    "o": [
+      "Las tablas de encaminamiento se construyen de forma automática mediante inundación.",
+      "Las tablas de encaminamiento se construyen manualmente y no se adaptan dinámicamente a los cambios de la red.",
+      "Utiliza el algoritmo de Dijkstra de forma local en cada salto.",
+      "Requiere obligatoriamente un switch PoE++ para su correcto filtrado."
+    ],
+    "a": 1
+  }
+]

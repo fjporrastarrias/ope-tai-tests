@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué herramienta informática es la pieza central para el control y la gestión apropiada de los expedientes administrativos en el Ayuntamiento de Priego de Córdoba?",
+    "o": [
+      "GEX (Gestión de Expedientes) de EPRINSA",
+      "RES (Registro Electrónico General)",
+      "Eprical Contabilidad",
+      "Notific@ de la Junta de Andalucía"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Según el manual de EPRINSA, ¿qué tipo de expedientes administrativos quedan excluidos por norma general de la aplicación GEX por contar con aplicaciones específicas?",
+    "o": [
+      "Expedientes de licencias de obra menor",
+      "Expedientes de multas o de subvenciones",
+      "Expedientes de responsabilidad patrimonial",
+      "Expedientes de contratación del sector público"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Al acceder a la aplicación GEX, ¿qué campo suele rellenar de forma automatizada el propio sistema en las instalaciones efectuadas en los ayuntamientos?",
+    "o": [
+      "El nombre de usuario",
+      "La clave de acceso por asteriscos",
+      "La Base de datos",
+      "El certificado electrónico raíz"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la fecha exacta de distribución del manual preparado por el Departamento de Formación de EPRINSA?",
+    "o": [
+      "1 de octubre de 2015",
+      "29 de noviembre de 2010",
+      "30 de marzo de 2021",
+      "4 de abril de 2024"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué dirección web pone EPRINSA a disposición de los usuarios para resolver las dudas o preguntas habituales resueltas en formación?",
+    "o": [
+      "www.eprinsa.es/faq",
+      "www.eprinsa.es/gex",
+      "www.eprinsa.es/soporte",
+      "formacion.eprinsa.es"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué funcionalidad permite la opción '[Generar expediente electrónico en pdf]' dentro de la aplicación GEX?",
+    "o": [
+      "Eliminar los documentos duplicados del expediente",
+      "Generar un documento electrónico en formato pdf comprensivo de la situación actual del expediente",
+      "Enviar de forma directa el expediente a la sede judicial electrónica",
+      "Firmar en lote todos los archivos del procedimiento"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Para extraer un documento seleccionado de GEX a un directorio local de nuestro ordenador, ¿qué opción se ejecuta?",
+    "o": [
+      "Adjuntar a otro expediente",
+      "Extraer el documento seleccionado (Guardar como)",
+      "Enlace con Eprical",
+      "Generar uso en RES"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Dentro de la aplicación GEX, si se desea asociar un documento a un expediente distinto, ¿qué tres parámetros solicita el sistema?",
+    "o": [
+      "DNI, Nombre y Apellidos",
+      "Año, Número e Identificador del interesado",
+      "Año, Nº y Su nº de Expediente asignado por el usuario",
+      "Aplicación, Departamento y Asunto"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es la función del conector denominado 'Enlace con Eprical' en la gestión de expedientes de EPRINSA?",
+    "o": [
+      "Sincronizar las notificaciones con la Junta de Andalucía",
+      "Permitir el enlace con la contabilidad del organismo al objeto de generar los apuntes necesarios",
+      "Validar los certificados en la plataforma @firma",
+      "Configurar las bandejas favoritas de los departamentos"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué criterios de consulta relativos al expediente se contemplan en la pantalla de Consulta extendida de Expedientes?",
+    "o": [
+      "Únicamente el año y número de expediente",
+      "Año, Nº, Su nº expte, Tipo exp., Asunto, Observ, Estado y Bandeja gestora, además de rangos de fechas (Apertura, Cierre, Tope)",
+      "Únicamente el N.I.F. y nombre del interesado principal",
+      "La dirección IP del ordenador que abrió el expediente y los metadatos INSIDE"
+    ],
+    "a": 1
+  }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "¿Cuál es la base legal principal de la firma electrónica en la Unión Europea?",
+        "options": {
+            "a": "La Ley 6/2020, de 11 de noviembre.",
+            "b": "El Reglamento (UE) nº 910/2014 (Reglamento eIDAS).",
+            "c": "La Ley 39/2015, de 1 de octubre.",
+            "d": "El Reglamento (UE) 2016/679 (RGPD)."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 2,
+        "question": "En España, ¿qué norma complementa al Reglamento eIDAS en materia de servicios electrónicos de confianza?",
+        "options": {
+            "a": "La Ley 59/2003 de Firma Electrónica.",
+            "b": "La Ley 40/2015 de Régimen Jurídico del Sector Público.",
+            "c": "La Ley 6/2020 de servicios electrónicos de confianza.",
+            "d": "El Real Decreto 203/2021."
+        },
+        "answer": "c"
+    },
+    {
+        "id": 3,
+        "question": "¿Cuál de las siguientes NO es una de las tres funciones básicas de la firma electrónica según la documentación oficial?",
+        "options": {
+            "a": "Identificar al firmante de manera inequívoca.",
+            "b": "Asegurar la integridad del documento firmado.",
+            "c": "Asegurar el no repudio del documento firmado.",
+            "d": "Garantizar la confidencialidad y el cifrado del documento para que nadie más pueda leerlo."
+        },
+        "answer": "d"
+    },
+    {
+        "id": 4,
+        "question": "¿Qué propiedad de la firma electrónica asegura que el documento firmado es exactamente el mismo que el original y no ha sufrido alteración o manipulación?",
+        "options": {
+            "a": "Identificación.",
+            "b": "Integridad.",
+            "c": "No repudio.",
+            "d": "Confidencialidad."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 5,
+        "question": "¿Qué significa el concepto de 'no repudio' en la firma electrónica?",
+        "options": {
+            "a": "Que el documento no puede ser rechazado por las Administraciones Públicas bajo ningún concepto.",
+            "b": "Que los datos de la firma son únicos y exclusivos, por lo que el firmante no puede negar haber firmado el documento.",
+            "c": "Que el certificado electrónico no puede ser revocado una vez emitido.",
+            "d": "Que la firma electrónica caduca automáticamente si el documento es modificado."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 6,
+        "question": "¿Qué es físicamente la firma electrónica resultante de un proceso de firma?",
+        "options": {
+            "a": "Una imagen escaneada de la firma manuscrita incrustada en el documento.",
+            "b": "Un archivo o documento electrónico resultante que contiene el resumen codificado del documento original.",
+            "c": "La impresión en papel del documento con un sello oficial.",
+            "d": "Un código numérico de 4 dígitos que el usuario introduce en la pantalla."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 7,
+        "question": "Si se imprime un documento firmado electrónicamente, ¿qué elemento debe incluir generalmente para ser válido y contrastable con el original electrónico?",
+        "options": {
+            "a": "Un Código Seguro de Verificación (CSV).",
+            "b": "Una firma manuscrita encima de la impresión.",
+            "c": "Un sello de la ventanilla única del Ayuntamiento.",
+            "d": "El número de serie completo del DNI electrónico."
+        },
+        "answer": "a"
+    },
+    {
+        "id": 8,
+        "question": "¿Qué elemento contiene las claves criptográficas necesarias para realizar una firma electrónica?",
+        "options": {
+            "a": "El navegador de internet exclusivamente.",
+            "b": "El certificado electrónico o el DNI electrónico.",
+            "c": "La plataforma VALIDe.",
+            "d": "Las librerías Integr@."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 9,
+        "question": "En el proceso básico de firma electrónica, ¿qué clave se utiliza para codificar el resumen del documento?",
+        "options": {
+            "a": "La clave pública del destinatario.",
+            "b": "La clave privada del firmante.",
+            "c": "La clave simétrica del servidor.",
+            "d": "La clave de la plataforma @firma."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 10,
+        "question": "¿Quién emite los certificados electrónicos encargados de identificar inequívocamente a su poseedor?",
+        "options": {
+            "a": "El propio usuario mediante su navegador.",
+            "b": "Los Proveedores de Servicios de Certificación (o Prestadores de Servicios de Confianza).",
+            "c": "Exclusivamente la Dirección General de la Policía.",
+            "d": "La plataforma @firma del Ministerio."
+        },
+        "answer": "b"
+    }
+]

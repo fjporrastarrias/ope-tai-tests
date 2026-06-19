@@ -1,0 +1,115 @@
+{
+    "test_id": "TEST34-04",
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Cómo es el acceso a los datos en el soporte de almacenamiento por cintas magnéticas?",
+            "options": {
+                "a": "Acceso aleatorio directo mediante árboles B.",
+                "b": "Acceso secuencial.",
+                "c": "Acceso indexado por vistas materializadas.",
+                "d": "Acceso por bloques virtuales mediante SDS."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 2,
+            "question": "¿Qué diferencia hay entre la tecnología de grabación helicoidal y la longitudinal en cintas magnéticas?",
+            "options": {
+                "a": "La helicoidal graba en varias pistas paralelas obteniendo mayor velocidad.",
+                "b": "La helicoidal graba diagonalmente, permitiendo mayor capacidad que la longitudinal.",
+                "c": "La longitudinal permite mayor capacidad pero menor velocidad que la helicoidal.",
+                "d": "No presentan diferencias, son términos sinónimos en cintas DAT."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 3,
+            "question": "Según el cuadro de tipos de cintas del texto, ¿qué capacidad y velocidad tiene el tipo DAT?",
+            "options": {
+                "a": "20 GB y 32 Mbps.",
+                "b": "160 GB y 96 Mbps.",
+                "c": "600 GB y 1 Gbps.",
+                "d": "10 GB y 12 Mbps."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 4,
+            "question": "¿Qué nivel de RAID combina dos conjuntos RAID 0 y un tercer conjunto dedicado a paridad (un disco por conjunto), requiriendo un mínimo de 6 discos?",
+            "options": {
+                "a": "RAID 3+0.",
+                "b": "RAID 0+3.",
+                "c": "RAID 0+5.",
+                "d": "RAID 5+1."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 5,
+            "question": "¿Cuántos discos mínimos se requieren para la configuración de un RAID 10+0 según las descripciones lógicas?",
+            "options": {
+                "a": "4 discos.",
+                "b": "6 discos.",
+                "c": "8 discos.",
+                "d": "12 discos."
+            },
+            "correct": "c"
+        },
+        {
+            "id": 6,
+            "question": "En la comparativa de arquitecturas de almacenamiento, ¿cuál es un inconveniente específico de la solución DAS?",
+            "options": {
+                "a": "Elevado coste inicial de implementación y alta complejidad de red dedicada.",
+                "b": "Generación de excesivo tráfico dentro de la red LAN general por servicio de ficheros.",
+                "c": "Almacenamiento insuficiente a medio plazo, limitaciones de distancia y ancho de banda, sin redundancia.",
+                "d": "Dependencia absoluta del componente orquestador Helm de Kubernetes."
+            },
+            "correct": "c"
+        },
+        {
+            "id": 7,
+            "question": "¿Cuál es la orientación de servicio principal de la arquitectura NAS?",
+            "options": {
+                "a": "Servicio de acceso por bloques de bajo nivel a discos crudos.",
+                "b": "Orientado al servicio de ficheros.",
+                "c": "Orientado exclusivamente al almacenamiento de bases de datos distribuidas Oracle.",
+                "d": "Servicio de replicación offline síncrona."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 8,
+            "question": "¿Qué ventaja aporta la arquitectura SAN respecto a las tareas de backup?",
+            "options": {
+                "a": "Baja inversión inicial y configuración rápida sin switches.",
+                "b": "Permite realizar las tareas de backup al margen de la red de datos evitando la congestión.",
+                "c": "Elimina de forma nativa la necesidad de cifrado en la nube pública.",
+                "d": "Permite mezclar segmentos de datos y segmentos temporales de forma indistinta."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 9,
+            "question": "¿Qué red unifica redes de datos Ethernet y redes de almacenamiento SAN bajo el protocolo FCoE?",
+            "options": {
+                "a": "Red de respaldo frío descentralizada.",
+                "b": "LAN + SAN convergente.",
+                "c": "Almacenamiento JBOD distribuido.",
+                "d": "Infraestructura hiperconvergente de canal privado."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 10,
+            "question": "En una infraestructura hiperconvergente, ¿dónde se ejecuta toda la infraestructura de componentes virtuales?",
+            "options": {
+                "a": "En un dispositivo físico externo DAS conectado por puerto SAS.",
+                "b": "En una máquina virtual en la capa del hipervisor, bajo la cual se ubica el hardware actuando como repositorio común.",
+                "c": "Directamente en el cliente de backup sin mediación de red corporativa.",
+                "d": "En el tablespace SYSTEM cargado mediante el segmento bootstrap."
+            },
+            "correct": "b"
+        }
+    ]
+}

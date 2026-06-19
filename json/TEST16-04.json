@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cuál de los siguientes NO es uno de los cuatro principios rectores de las pautas WCAG 2.1 / 2.2?",
+    "opciones": {
+      "a": "Perceptible.",
+      "b": "Interoperable.",
+      "c": "Comprensible.",
+      "d": "Robusto."
+    },
+    "correcta": "b",
+    "explicacion": "Los cuatro principios son: Perceptible, Operable, Comprensible y Robusto (POUR). 'Interoperable' no pertenece a las WCAG."
+  },
+  {
+    "id": 2,
+    "pregunta": "En la evaluación de la conformidad con las pautas WCAG, ¿qué niveles de éxito o criterios se definen internacionalmente?",
+    "opciones": {
+      "a": "Niveles 1, 2 y 3.",
+      "b": "Niveles Bronce, Plata y Oro.",
+      "c": "Niveles A, AA y AAA.",
+      "d": "Niveles Básico, Intermedio y Avanzado."
+    },
+    "correcta": "c",
+    "explicacion": "Los criterios de conformidad de las WCAG se clasifican en tres niveles de exigencia creciente: A (mínimo), AA (medio, exigido por ley) y AAA (máximo)."
+  },
+  {
+    "id": 3,
+    "pregunta": "Garantizar que las funciones de una página municipal sean completamente ejecutables mediante el uso exclusivo del teclado, ¿a qué principio de las WCAG responde?",
+    "opciones": {
+      "a": "Perceptible",
+      "b": "Operable",
+      "c": "Comprensible",
+      "d": "Robusto"
+    },
+    "correcta": "b",
+    "explicacion": "El principio 'Operable' exige que los componentes de la interfaz de usuario y la navegación sean manejables con diversos dispositivos de entrada como el teclado."
+  },
+  {
+    "id": 4,
+    "pregunta": "Asegurar que el código HTML de un portal público local esté limpio, bien estructurado y sin errores sintácticos para que los lectores de pantalla puedan interpretarlo de forma fiable, se asocia al principio:",
+    "opciones": {
+      "a": "Robusto",
+      "b": "Estable",
+      "c": "Comprensible",
+      "d": "Perceptible"
+    },
+    "correcta": "a",
+    "explicacion": "El principio 'Robusto' persigue que el contenido sea lo suficientemente compatible con tecnologías asistivas actuales y futuras gracias a un código limpio y semántico."
+  },
+  {
+    "id": 5,
+    "pregunta": "En usabilidad web, ¿qué término define la facilidad con la que los usuarios pueden completar tareas básicas la primera vez que se topan con el diseño?",
+    "opciones": {
+      "a": "Eficiencia",
+      "b": "Memorabilidad",
+      "c": "Aprendizaje (Learnability)",
+      "d": "Tolerancia a errores"
+    },
+    "correcta": "c",
+    "explicacion": "El aprendizaje o facilidad de aprendizaje mide cuán rápido se familiariza un usuario con la interfaz en su primer contacto para realizar acciones básicas."
+  },
+  {
+    "id": 6,
+    "pregunta": "Si un ciudadano con discapacidad visual severa accede a la Sede Electrónica del Ayuntamiento, ¿qué tecnología asistiva utilizará principalmente?",
+    "opciones": {
+      "a": "Un ratón ergonómico.",
+      "b": "Un lector de pantalla (screen reader) respaldado por código semántico y alternativas textuales.",
+      "c": "Un software de subtitulado automático.",
+      "d": "Un proxy inverso seguro."
+    },
+    "correcta": "b",
+    "explicacion": "Los discapacitados visuales usan lectores de pantalla que dependen de alternativas de texto (Perceptible) y código HTML estándar bien estructurado (Robusto)."
+  },
+  {
+    "id": 7,
+    "pregunta": "Bajo el protocolo HTTP/1.0, tras recibir el cliente la respuesta a una petición realizada al servidor, ¿qué ocurre inmediatamente con la conexión TCP?",
+    "opciones": {
+      "a": "Permanece abierta indefinidamente gracias al parámetro Keep-Alive.",
+      "b": "El servidor la cierra de inmediato (conexión efímera).",
+      "c": "Se duplica para iniciar un canal paralelo.",
+      "d": "Pasa a un estado de multiplexación dinámica."
+    },
+    "correcta": "b",
+    "explicacion": "HTTP/1.0 se caracteriza por conexiones efímeras: por cada petición se abre una conexión, el servidor responde y seguidamente la conexión TCP se cierra."
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Qué puerto TCP por defecto se asume en una URL si no se especifica explícitamente y el protocolo indicado es 'http'?",
+    "opciones": {
+      "a": "443",
+      "b": "21",
+      "c": "80",
+      "d": "53"
+    },
+    "correcta": "c",
+    "explicacion": "El puerto por defecto para el protocolo HTTP no seguro es el puerto 80 (para HTTPS es el 443; para FTP el 21; para DNS el 53)."
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Qué tipo de dominios geográficos de primer nivel están formados estrictamente por dos letras según la norma ISO 3166-1?",
+    "opciones": {
+      "a": "gTLD (generic Top Level Domain)",
+      "b": "ccTLD (country code Top Level Domain)",
+      "c": "gTLD restringidos",
+      "d": "Dominios Patrocinados"
+    },
+    "correcta": "b",
+    "explicacion": "Los ccTLD son dominios geográficos de nivel superior basados en códigos de país de dos letras estipulados por la ISO 3166-1."
+  },
+  {
+    "id": 10,
+    "pregunta": "En el contexto del diseño de contenidos orientados al sector público local, ¿cuál es el objetivo primordial de la 'Usabilidad'?",
+    "opciones": {
+      "a": "Garantizar que el portal web sea estéticamente complejo e incorpore animaciones.",
+      "b": "Lograr que los usuarios del portal web alcancen sus objetivos con efectividad, eficiencia y satisfacción.",
+      "c": "Impedir que personas ajenas al municipio visualicen la información.",
+      "d": "Garantizar la encriptación mediante algoritmos asimétricos TLS 1.3."
+    },
+    "correcta": "b",
+    "explicacion": "La usabilidad se enfoca en la experiencia del usuario, buscando que el uso del sitio web sea efectivo, eficiente y satisfactorio para el usuario final."
+  }
+]

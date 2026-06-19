@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué registro de recurso (RR) de DNS indica el servidor DNS primario y responsable del mantenimiento de la información de la zona?",
+    "opciones": {
+      "a": "PTR (Pointer)",
+      "b": "NS (Name Server)",
+      "c": "SOA (Start of Authority)",
+      "d": "CAA (Certificate Authority Authorization)"
+    },
+    "correcta": "c",
+    "explicacion": "El registro SOA (Start of Authority) indica el servidor DNS primario de la zona y es el responsable de la autoridad de dicha zona."
+  },
+  {
+    "id": 2,
+    "pregunta": "En las firmas digitales de DNSSEC, ¿qué registro de recurso contiene específicamente la clave pública de la zona?",
+    "opciones": {
+      "a": "RRSIG",
+      "b": "NSEC",
+      "c": "DNSKEY",
+      "d": "CAA"
+    },
+    "correcta": "c",
+    "explicacion": "El registro DNSKEY contiene la clave pública de la zona empleada en DNSSEC."
+  },
+  {
+    "id": 3,
+    "pregunta": "Dentro del encabezado de un mensaje DNS, ¿cuántos bits se destinan al campo ID del mensaje y para qué sirve?",
+    "opciones": {
+      "a": "8 bits; identifica la clase de la consulta.",
+      "b": "16 bits; identifica el paquete y permite asociar consultas con respuestas, protegiendo contra falsificaciones.",
+      "c": "4 bits; indica el código de operación (Opcode).",
+      "d": "1 bit; diferencia si es consulta o respuesta."
+    },
+    "correcta": "b",
+    "explicacion": "El campo ID consta de 16 bits. Identifica el paquete y es clave para evitar ataques de envenenamiento o falsificación."
+  },
+  {
+    "id": 4,
+    "pregunta": "En los flags de un mensaje DNS, ¿qué significan las siglas TC y qué indica su activación?",
+    "opciones": {
+      "a": "Total Connection; la conexión TCP es obligatoria.",
+      "b": "Truncation; indica que el mensaje está truncado por superar la longitud máxima permitida.",
+      "c": "Type Class; define el tipo de registro solicitado.",
+      "d": "Time-to-Live Count; decrementa el número de saltos."
+    },
+    "correcta": "b",
+    "explicacion": "El flag TC (Truncation) indica que el mensaje ha sido truncado al superarse la longitud máxima permitida en la transmisión (512 bytes en UDP estándar)."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué mecanismo de extensión permite a los mensajes DNS superar el límite tradicional de 512 bytes sobre datagramas UDP?",
+    "opciones": {
+      "a": "EDNS0 (RFC 2671)",
+      "b": "DNSSEC (RFC 4033)",
+      "c": "AXFR Zones Extension",
+      "d": "Dynamic Update Protocol"
+    },
+    "correcta": "a",
+    "explicacion": "EDNS0 (Extension Mechanisms for DNS) posibilita la transmisión de datagramas UDP de mayor tamaño usando un pseudoregistro OPT."
+  },
+  {
+    "id": 6,
+    "pregunta": "Cuando un servidor DNS no autoritativo y no recursivo responde a un cliente indicándole a qué otros servidores redirigir la consulta, ¿cómo se denomina esta respuesta?",
+    "opciones": {
+      "a": "Authoritative Answer",
+      "b": "NXDOMAIN",
+      "c": "Referral Response",
+      "d": "Dynamic Response"
+    },
+    "correcta": "c",
+    "explicacion": "Una Referral Response ocurre cuando el servidor no es autoritativo ni recursivo y devuelve las secciones AUTHORITY y ADDITIONAL informando a dónde dirigir la consulta."
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Qué RFC define el mecanismo de actualizaciones dinámicas en el Sistema de Nombres de Dominio (DNS UPDATE)?",
+    "opciones": {
+      "a": "RFC 1945",
+      "b": "RFC 2136",
+      "c": "RFC 2616",
+      "d": "RFC 7230"
+    },
+    "correcta": "b",
+    "explicacion": "El mecanismo de actualización dinámica (añadir o borrar registros en caliente) se detalla en la RFC 2136."
+  },
+  {
+    "id": 8,
+    "pregunta": "Por defecto, ¿qué método utiliza el servidor DNS BIND para informar inmediatamente a los servidores secundarios que ha habido cambios en los ficheros de zona?",
+    "opciones": {
+      "a": "Refresh Time Expiration",
+      "b": "NOTIFY",
+      "c": "Zone Pulling",
+      "d": "Dynamic Replic"
+    },
+    "correcta": "b",
+    "explicacion": "BIND utiliza el método de notificación NOTIFY por defecto. Al cambiar la zona, el maestro envía un mensaje NOTIFY a los esclavos."
+  },
+  {
+    "id": 9,
+    "pregunta": "En el protocolo FTP, ¿qué comando se utiliza para solicitar el modo de transferencia pasivo?",
+    "opciones": {
+      "a": "PORT",
+      "b": "PASV",
+      "c": "MODE C",
+      "d": "RETR"
+    },
+    "correcta": "b",
+    "explicacion": "El comando PASV solicita la transferencia pasiva, donde el servidor abre un puerto y espera a que el cliente se conecte."
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Cuál es la función del comando FTP denominado 'STOU'?",
+    "opciones": {
+      "a": "Detener (Stop) la transferencia de manera abrupta.",
+      "b": "Almacenar un archivo (Store) asegurando que el nombre asignado en el destino sea único.",
+      "c": "Reiniciar la transferencia desde un punto de control (Restart).",
+      "d": "Borrar la estructura de directorios del servidor."
+    },
+    "correcta": "b",
+    "explicacion": "El comando STOU (Store Unique) almacena un archivo garantizando que el nombre del fichero resultante sea único en el servidor."
+  }
+]

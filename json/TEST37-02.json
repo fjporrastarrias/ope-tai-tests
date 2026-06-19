@@ -1,0 +1,115 @@
+{
+  "block": "TEST37-02",
+  "questions": [
+    {
+      "id": 11,
+      "question": "¿Cuál de las siguientes situaciones constituye una causa válida y justificada para que una oficina registral RECHACE un asiento recibido por SIR?",
+      "options": {
+        "a": "Que la unidad tramitadora se encuentre colapsada por acumulación de expedientes.",
+        "b": "Que los ficheros de los documentos adjuntos al registro no puedan abrirse, estén incompletos o sean ilegibles.",
+        "c": "Que el extracto del asunto contenga términos redactados en alguna lengua cooficial.",
+        "d": "Que los metadatos manuales hayan sido introducidos utilizando mayúsculas."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 12,
+      "question": "Si una oficina de destino recibe un asiento de SIR procedente del REC de la AGE cuyo interesado es una Administración Pública, ¿qué prevé la Guía Funcional?",
+      "options": {
+        "a": "Debe confirmarlo obligatoriamente para salvaguardar el derecho de tramitación.",
+        "b": "El registro podrá ser rechazado, indicando que las Administraciones Públicas deben registrar a través de su OAMR integrada en SIR.",
+        "c": "Se reenvía síncronamente al Punto de Acceso General del Estado de forma desasistida.",
+        "d": "Debe paralizarse la remesa y requerirse subsanación al amparo del artículo 68.4."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 13,
+      "question": "¿Qué estándar normativo de mensajería rige el Fichero Técnico de Metadatos adjunto a las transacciones de SIR para mantener la compatibilidad backwards?",
+      "options": {
+        "a": "El esquema de metadatos eEMC basado en SICRES 3.0.",
+        "b": "El estándar XML-Schema estructurado en JSON REST.",
+        "c": "La directiva de formato abierto OASIS OpenDocument.",
+        "d": "El protocolo de metadatado simple Dublin Core local."
+      },
+      "correct": "a"
+    },
+    {
+      "id": 14,
+      "question": "En la Nueva Arquitectura SIR, ¿cómo se definen los denominados metadatos automáticos?",
+      "options": {
+        "a": "Aquellos que cumplimenta el funcionario utilizando la lista de valores de la tecla F9.",
+        "b": "Aquellos que se rellenan de manera automática por la propia aplicación de registro integrada.",
+        "c": "Los que genera el motor de base de datos Oracle tras una validación externa de @firma.",
+        "d": "Los que introduce el ciudadano de forma manual al cumplimentar el formulario en la Sede."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 15,
+      "question": "Dentro de la simplificación de firmas de la hoja de ruta de SIR, ¿qué formato de firma se fija como estándar obligatorio para archivos adjuntos en formato PDF?",
+      "options": {
+        "a": "Firma XAdES-BES.",
+        "b": "Firma CAdES-T.",
+        "c": "Firma PAdES.",
+        "d": "Firma mediante Código Seguro de Verificación indexado."
+      },
+      "correct": "c"
+    },
+    {
+      "id": 16,
+      "question": "¿Qué formato de firma normalizado exige la nueva arquitectura de SIR para la documentación adjunta que NO corresponda a archivos PDF?",
+      "options": {
+        "a": "Firma PAdES-LTV.",
+        "b": "Firma XAdES-Manifest o firma CSV.",
+        "c": "Firma binaria en formato ASN.1 crudo.",
+        "d": "Firma CAdES-Enveloped."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 17,
+      "question": "Bajo el paradigma de la 'Referencia Única' de SIR, ¿cómo se distribuyen los archivos adjuntos entre las aplicaciones de registro?",
+      "options": {
+        "a": "Viajan embebidos codificados en Base64 dentro del cuerpo principal del mensaje de datos.",
+        "b": "Los documentos NO viajan embebidos; se incluye la referencia de cada anexo como metadato para su descarga desde un repositorio seguro.",
+        "c": "Se transmiten de manera asíncrona mediante un canal secundario basado en el protocolo SFTP.",
+        "d": "Se imprimen y ensobran automáticamente en los centros de impresión centralizados de la AGE."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 18,
+      "question": "¿Qué regla de integridad se impone en un asiento registral respecto a la convivencia de adjuntos embebidos y por referencia?",
+      "options": {
+        "a": "Se permite la convivencia mixta si el peso de los embebidos no supera los 10MB.",
+        "b": "NO se pueden enviar en un mismo asiento documentos anexos por referencia y documentos cuyo contenido está embebido.",
+        "c": "Los archivos PDF deben ir siempre embebidos y el resto de formatos por referencia única.",
+        "d": "La elección es libre por cada documento en función del tipo documental parametrizado."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 19,
+      "question": "¿Cómo se gestiona una incidencia en SIR si una oficina confirma por error un asiento registral dirigido a otra administración distinta?",
+      "options": {
+        "a": "Se invoca el método de anulación automática de la librería LIBSIR.",
+        "b": "Deberá generar un nuevo asiento de salida con la documentación y el justificante original para enviarlo a la oficina destino correcta.",
+        "c": "Se elimina el apunte registral del libro oficial REGAGE modificando el ID secuencial.",
+        "d": "Se rechaza asíncronamente devolviendo el estado de error al nodo central de comunicaciones."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 20,
+      "question": "¿Qué gran ventaja operativa aporta la implementación definitiva de la Referencia Única en la plataforma de intercambio SIR?",
+      "options": {
+        "a": "Elimina la restricción clásica de tamaño y número máximo de adjuntos (antes limitado a 5 ficheros y 15MB totales).",
+        "b": "Sustituye por completo el uso de los códigos de catálogo del directorio DIR3.",
+        "c": "Suprime la obligatoriedad de que los ciudadanos se identifiquen con certificados digitales.",
+        "d": "Permite registrar solicitudes sin necesidad de especificar un interesado o representante."
+      },
+      "correct": "a"
+    }
+  ]
+}

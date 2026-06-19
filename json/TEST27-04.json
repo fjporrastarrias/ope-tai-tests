@@ -1,0 +1,116 @@
+{
+  "bloque": "TEST27-04",
+  "tema": "Tema 27: Seguridad de los sistemas de información I",
+  "preguntas": [
+    {
+      "id": 31,
+      "enunciado": "¿Qué tipo de malware se limita a realizar copias de sí mismo, sin alterar necesariamente ficheros, pero se reproduce tan rápido que colapsa las redes por saturación?",
+      "opciones": {
+        "a": "Bomba lógica",
+        "b": "Gusano (Worm)",
+        "c": "Rootkit",
+        "d": "Rogueware"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 32,
+      "enunciado": "Una cadena de código oculta en un programa que carece de capacidad de replicación y se ejecuta cuando se produce una determinada condición predefinida (efecto retardado) es un/a:",
+      "opciones": {
+        "a": "Botnet",
+        "b": "Bomba lógica",
+        "c": "Spyware",
+        "d": "Joke"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 33,
+      "enunciado": "¿Cómo se define el malware denominado 'Rogueware' o Rogue Software?",
+      "opciones": {
+        "a": "Software que mina criptomonedas de fondo utilizando los recursos del sistema",
+        "b": "Malware que aparenta ser una herramienta de desinfección (como un antivirus) pero realmente es un troyano que engaña al usuario",
+        "c": "Colección de herramientas para ocultar una intrusión con privilegios de administrador",
+        "d": "Un programa inofensivo que simula las acciones de un virus para gastar una broma"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 34,
+      "enunciado": "El ataque de denegación de servicio que inunda a un sistema con una cantidad masiva de peticiones de conexión TCP (SYN) sin llegar a completarlas se conoce como:",
+      "opciones": {
+        "a": "Inyección SQL",
+        "b": "TCP SYN attack o SYN Flood",
+        "c": "Clickjacking",
+        "d": "Envenenamiento de DNS"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 35,
+      "enunciado": "¿Qué herramienta del CCN-CERT se define como una solución de auditoría continua diseñada para la automatización y normalización de auditorías, reduciendo tiempos mediante la detección eficiente de vulnerabilidades y alertas?",
+      "opciones": {
+        "a": "GLORIA",
+        "b": "ANA",
+        "c": "CARMEN",
+        "d": "INES"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 36,
+      "enunciado": "¿Qué herramienta del CCN-CERT está destinada a la gestión de incidentes y amenazas a través de técnicas de correlación compleja de eventos, yendo un paso más allá de los SIEM tradicionales?",
+      "opciones": {
+        "a": "MONICA",
+        "b": "GLORIA",
+        "c": "CLARA",
+        "d": "ADA"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 37,
+      "enunciado": "¿Cuál es la plataforma avanzada de multi-sandboxing del CCN-CERT dedicada al análisis automatizado de múltiples tipos de ficheros con comportamiento malicioso sospechoso?",
+      "opciones": {
+        "a": "MARÍA",
+        "b": "MARTA",
+        "c": "CARLA",
+        "d": "ROCIO"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 38,
+      "enunciado": "¿Qué herramienta del CCN-CERT permite analizar técnicamente las características de seguridad y realizar auditorías de cumplimiento del ENS/STIC en sistemas Windows?",
+      "opciones": {
+        "a": "CLARA",
+        "b": "CLAUDIA",
+        "c": "microCLAUDIA",
+        "d": "ELENA"
+      },
+      "correcta": "a"
+    },
+    {
+      "id": 39,
+      "enunciado": "¿Qué herramienta del CCN-CERT se encarga de la automatización de tareas básicas del auditor de seguridad sobre equipos de comunicaciones como enrutadores, conmutadores y cortafuegos?",
+      "opciones": {
+        "a": "ROCIO",
+        "b": "REYES",
+        "c": "EMMA",
+        "d": "LUCIA"
+      },
+      "correcta": "a"
+    },
+    {
+      "id": 40,
+      "enunciado": "La capacidad basada en el motor de CLAUDIA que proporciona protección específica contra ransomware mediante un agente ligero para Windows encargado del despliegue de vacunas se denomina:",
+      "opciones": {
+        "a": "AMPARO",
+        "b": "microCLAUDIA",
+        "c": "OLVIDO",
+        "d": "LORETO"
+      },
+      "correcta": "b"
+    }
+  ]
+}

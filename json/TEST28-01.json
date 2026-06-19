@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Según el material de estudio, ¿cuál es el tiempo de inactividad máximo recomendado antes de que se bloquee automáticamente la sesión en un puesto de usuario?",
+    "options": {
+      "a": "10 minutos.",
+      "b": "5 minutos.",
+      "c": "15 minutos.",
+      "d": "3 minutos."
+    },
+    "answer": "b",
+    "explanation": "El documento técnico recomienda expresamente un tiempo de inactividad no superior a 5 minutos para el bloqueo automático de la sesión."
+  },
+  {
+    "id": 2,
+    "question": "Dentro de la clasificación de malware expuesta, ¿qué es un rootkit?",
+    "options": {
+      "a": "Un programa inofensivo que simula las acciones de un virus informático.",
+      "b": "Una colección de herramientas utilizadas para ocultar una intrusión y obtener acceso con privilegios de administrador.",
+      "c": "Malware que tiene como objetivo exclusivo generar publicidad en el equipo mediante múltiples ventanas.",
+      "d": "Software que se limita a realizar copias de sí mismo sin alterar ficheros pero colapsando redes."
+    },
+    "answer": "b",
+    "explanation": "Un rootkit se define como una colección de herramientas utilizadas para ocultar una intrusión y obtener acceso con privilegios de administrador a un sistema."
+  },
+  {
+    "id": 3,
+    "question": "¿Qué herramienta del CCN-CERT está diseñada específicamente como una solución de endpoint para la detección de malware complejo y movimiento lateral relacionado con APT?",
+    "options": {
+      "a": "CARLA",
+      "b": "CLARA",
+      "c": "CLAUDIA",
+      "d": "EMMA"
+    },
+    "answer": "c",
+    "explanation": "CLAUDIA es una solución de endpoint integrada con Carmen cuyo objetivo principal es la detección de malware complejo y movimiento lateral relacionado con APT."
+  },
+  {
+    "id": 4,
+    "question": "De acuerdo con las recomendaciones para la política de contraseñas robustas, ¿cada cuánto tiempo se aconseja establecer su caducidad?",
+    "options": {
+      "a": "Cada 3 meses.",
+      "b": "Cada 6 meses.",
+      "c": "Cada año.",
+      "d": "Cada mes."
+    },
+    "answer": "b",
+    "explanation": "El documento contempla específicamente, como ejemplo de recomendación, la caducidad de las contraseñas a los 6 meses."
+  },
+  {
+    "id": 5,
+    "question": "¿Qué tipo de código dañino se caracteriza por reproducirse a gran velocidad para colapsar las redes por saturación, limitándose a realizar copias de sí mismo?",
+    "options": {
+      "a": "Bomba lógica.",
+      "b": "Gusano.",
+      "c": "Botnet.",
+      "d": "Rogueware."
+    },
+    "answer": "b",
+    "explanation": "El gusano se limita a realizar copias de sí mismo, sin alterar necesariamente ningún otro fichero, pero se reproduce a tal velocidad que puede colapsar las redes por saturación."
+  },
+  {
+    "id": 6,
+    "question": "¿Cuál es la función principal de la herramienta microCLAUDIA del CCN-CERT?",
+    "options": {
+      "a": "Auditar el cumplimiento del ENS en sistemas operativos Linux.",
+      "b": "Proporcionar protección contra código dañino de tipo ransomware mediante un agente ligero que despliega vacunas.",
+      "c": "Realizar borrado seguro de archivos y fragmentos de clúster no utilizados.",
+      "d": "Gestionar de manera federada los tickets de incidentes de seguridad."
+    },
+    "answer": "b",
+    "explanation": "microCLAUDIA proporciona protección contra ransomware a los equipos de un organismo utilizando un agente ligero para sistemas Windows que despliega y ejecuta vacunas."
+  },
+  {
+    "id": 7,
+    "question": "Entre las medidas organizativas en el puesto de usuario, la política de 'mesas limpias' implica:",
+    "options": {
+      "a": "Mantener limpio el hardware utilizando productos específicos.",
+      "b": "La obligación de guardar la documentación de trabajo al ausentarse del puesto y al terminar la jornada laboral.",
+      "c": "Eliminar de la mesa los dispositivos extraíbles USB no autorizados permanentemente.",
+      "d": "Tener un escritorio virtual ordenado y sin accesos directos innecesarios."
+    },
+    "answer": "b",
+    "explanation": "La política de 'mesas limpias' obliga a guardar la documentación de trabajo al ausentarse del puesto de trabajo y al terminar la jornada laboral."
+  },
+  {
+    "id": 8,
+    "question": "¿Qué es el 'Criptojacking' según las amenazas descritas?",
+    "options": {
+      "a": "El secuestro de datos solicitando un pago en criptomonedas para su liberación.",
+      "b": "La utilización de nuestros dispositivos sin consentimiento para llevar a cabo extracciones (minado) de criptomonedas.",
+      "c": "Un ataque que inunda el sistema con peticiones de conexión TCP SYN.",
+      "d": "La interceptación de transacciones financieras en la nube."
+    },
+    "answer": "b",
+    "explanation": "El criptojacking consiste en la utilización de los dispositivos de los usuarios sin su consentimiento para realizar 'extracciones' (minado) de criptomonedas usando recursos del sistema."
+  },
+  {
+    "id": 9,
+    "question": "En el contexto de la seguridad lógica, ¿cuáles son los tres mecanismos clásicos de autenticación contemplados?",
+    "options": {
+      "a": "Algo que se sabe, algo que se tiene, algo que se comparte.",
+      "b": "Algo que se conoce, algo que se tiene, algo que se es.",
+      "c": "Algo cifrado, algo firmado, algo verificado.",
+      "d": "Un usuario, una contraseña, un certificado."
+    },
+    "answer": "b",
+    "explanation": "Los mecanismos se clasifican en: algo que se conoce (contraseñas), algo que se tiene (tarjetas) y algo que se es o propio del usuario (características biométricas)."
+  },
+  {
+    "id": 10,
+    "question": "¿Qué herramienta del CCN-CERT está destinada al borrado seguro de datos, permitiendo sobreescribir ficheros, carpetas y espacio libre de disco?",
+    "options": {
+      "a": "CARLA",
+      "b": "OLVIDO",
+      "c": "LORETO",
+      "d": "MARTA"
+    },
+    "answer": "b",
+    "explanation": "OLVIDO es la solución de borrado seguro del CCN-CERT que realiza tareas de sobreescritura sobre sistemas de archivos y discos (ficheros, carpetas, espacio libre, fragmentos de clúster)."
+  }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "id": 11,
+        "pregunta": "¿Cuál de las siguientes soluciones es un fabricante de MDM listado de forma explícita en el documento?",
+        "opciones": {
+            "a": "Apache Traffic Server",
+            "b": "Microsoft Intune",
+            "c": "Squid Proxy",
+            "d": "Privoxy Advanced"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 12,
+        "pregunta": "¿Qué tipo de conectividad representa un serio riesgo de seguridad y cuya utilización se debe impedir según las medidas técnicas del puesto de usuario?",
+        "opciones": {
+            "a": "Redes corporativas VPN",
+            "b": "Redes WIFI PÚBLICAS",
+            "c": "Comunicaciones móviles 5G protegidas",
+            "d": "Túneles cifrados con la herramienta LUCIA"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 13,
+        "pregunta": "Dentro de la gestión de comunicaciones de un MDM, ¿cuál de las siguientes tecnologías NO se cita explícitamente en el listado de control?",
+        "opciones": {
+            "a": "NFC",
+            "b": "Bluetooth",
+            "c": "LiFi (Light Fidelity)",
+            "d": "WiFi, 2G/3G/4G/5G y VPN"
+        },
+        "correcta": "c"
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Qué medida de carácter técnico para el puesto seguro de usuario se indica que debe incluir obligatoriamente a los dispositivos móviles?",
+        "opciones": {
+            "a": "Desactivar de forma permanente la pila IPv6",
+            "b": "Implantar y configurar un ANTIVIRUS con análisis en tiempo real",
+            "c": "Permitir solo pantallas de tipo resistivo",
+            "d": "Limitar el tamaño del historial de comandos a 10 entradas"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 15,
+        "pregunta": "La solución MDM 'AirWatch' se asocia textualmente con qué fabricante en el desglose de soluciones?",
+        "opciones": {
+            "a": "IBM Tivoli",
+            "b": "VMware",
+            "c": "Cisco",
+            "d": "Citrix"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Qué fabricante se asocia con la solución de gestión de red y MDM denominada 'Meraki'?",
+        "opciones": {
+            "a": "McAfee",
+            "b": "Symantec",
+            "c": "Cisco",
+            "d": "Sophos"
+        },
+        "correcta": "c"
+    },
+    {
+        "id": 17,
+        "pregunta": "¿A partir de qué versión de Android se introdujo Google Talk para realizar videollamadas?",
+        "opciones": {
+            "a": "Froyo",
+            "b": "Gingerbread",
+            "c": "HoneyComb",
+            "d": "Ice Cream Sandwich"
+        },
+        "correcta": "c"
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Qué tipo de arquitectura de acceso remoto seguro se recomienda para evitar herramientas no controladas basadas en HTTPS?",
+        "opciones": {
+            "a": "Un portal web sin autenticación",
+            "b": "Arquitecturas de acceso remoto seguras, como VPN",
+            "c": "Conexiones por protocolo Telnet remoto",
+            "d": "Uso de usuarios genéricos sin logs"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 19,
+        "pregunta": "Respecto a los dispositivos de uso corporativo personal BYOD, ¿qué medida de control técnico se prescribe?",
+        "opciones": {
+            "a": "Permitir acceso total y sin filtros para fomentar la productividad",
+            "b": "Mantener una base de datos de estos dispositivos y los usuarios que los utilizan",
+            "c": "Eliminar la base de datos de auditoría de red",
+            "d": "Cifrar la batería del terminal mediante hardware dedicado"
+        },
+        "correcta": "b"
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Cuál es el principal objetivo de las soluciones MDM en una organización empresarial?",
+        "opciones": {
+            "a": "Optimizar el ancho de banda de la red local",
+            "b": "Reducir la superficie de exposición del dispositivo frente a ataques de seguridad",
+            "c": "Eliminar la necesidad de contratar líneas de telefonía de voz",
+            "d": "Incrementar el almacenamiento físico local del terminal corporativo"
+        },
+        "correcta": "b"
+    }
+]

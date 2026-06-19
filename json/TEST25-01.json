@@ -1,0 +1,102 @@
+[
+    {
+        "q": "1. ¿Cuál es el intervalo por defecto en segundos entre el envío de paquetes con el comando ping en Linux?",
+        "o": [
+            "1 segundo",
+            "2 segundos",
+            "3 segundos",
+            "5 segundos"
+        ],
+        "a": 0
+    },
+    {
+        "q": "2. En el comando route de Linux, ¿qué parámetro se utiliza para mostrar el contenido de la tabla de enrutamiento en formato numérico?",
+        "o": [
+            "-e",
+            "-n",
+            "-p",
+            "-s"
+        ],
+        "a": 1
+    },
+    {
+        "q": "3. Desde Debian 9, ¿qué comando clásico de configuración de interfaces de red ya no viene instalado por defecto?",
+        "o": [
+            "ip",
+            "iw",
+            "ifconfig",
+            "netstat"
+        ],
+        "a": 2
+    },
+    {
+        "q": "4. ¿Qué comando de Windows muestra y modifica las entradas incluidas en la caché del protocolo de resolución de direcciones (ARP)?",
+        "o": [
+            "atmadm",
+            "certutil",
+            "netstat",
+            "arp"
+        ],
+        "a": 3
+    },
+    {
+        "q": "5. ¿Qué comando de Linux combina la funcionalidad de traceroute y ping de forma simultánea?",
+        "o": [
+            "mtr",
+            "dig",
+            "nslookup",
+            "route"
+        ],
+        "a": 0
+    },
+    {
+        "q": "6. ¿Qué puerto utiliza por defecto el servidor SSH (Secure Shell) para escuchar conexiones seguras?",
+        "o": [
+            "21",
+            "22",
+            "23",
+            "80"
+        ],
+        "a": 1
+    },
+    {
+        "q": "7. ¿Qué opción del comando netstat en Linux permite mostrar únicamente las conexiones o sockets activos de tipo TCP?",
+        "o": [
+            "-au",
+            "-at",
+            "-lu",
+            "-lt"
+        ],
+        "a": 1
+    },
+    {
+        "q": "8. ¿Qué comando de Windows permite hacer el seguimiento de un paquete de datos a través de la red registrando todos los saltos mediante el TTL?",
+        "o": [
+            "pathping",
+            "tracert",
+            "rsh",
+            "tscon"
+        ],
+        "a": 1
+    },
+    {
+        "q": "9. ¿Cuál es el objeto utilizado en el comando ip (paquete iproute2) para hacer referencia a la dirección IP del elemento?",
+        "o": [
+            "link",
+            "route",
+            "address (o addr)",
+            "via"
+        ],
+        "a": 2
+    },
+    {
+        "q": "10. En entornos Windows, ¿qué comando se utiliza para terminar un proceso ejecutándose en un ordenador remoto?",
+        "o": [
+            "tskill",
+            "tsdiscon",
+            "tsshutdn",
+            "shadow"
+        ],
+        "a": 0
+    }
+]

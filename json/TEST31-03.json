@@ -1,0 +1,112 @@
+[
+    {
+        "id": 21,
+        "pregunta": "Determinar perfiles de usuarios y grupos para impedir el abuso de privilegios se denomina:",
+        "opciones": {
+            "a": "Identificación biométrica",
+            "b": "Segregación de funciones y tareas",
+            "c": "Control perimetral seguro",
+            "d": "Trazabilidad asíncrona"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 22,
+        "pregunta": "Las tarjetas y tokens pertenecen al mecanismo de autenticación basado en:",
+        "opciones": {
+            "a": "Algo que se conoce",
+            "b": "Algo que se es",
+            "c": "Algo que se tiene",
+            "d": "Algo propio del usuario"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Cuál de los siguientes protocolos de comunicaciones NO es seguro por defecto?",
+        "opciones": {
+            "a": "SFTP",
+            "b": "TFTP",
+            "c": "SSH",
+            "d": "TLS/SSL"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Qué arquitectura de red se establece para aislar los servidores públicos de la red interna corporativa?",
+        "opciones": {
+            "a": "VPN de capa 3",
+            "b": "DMZ (Zona Desmilitarizada)",
+            "c": "Cortafuegos local",
+            "d": "Segmentación Blade"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 25,
+        "pregunta": "El sistema encargado de la monitorización y correlación compleja de eventos de seguridad es el:",
+        "opciones": {
+            "a": "Antivirus",
+            "b": "IDS pasivo",
+            "c": "SIEM",
+            "d": "Sello de tiempo"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 26,
+        "pregunta": "Los Sellos de Tiempo se utilizan específicamente para evitar el:",
+        "opciones": {
+            "a": "Cifrado asimétrico",
+            "b": "Repudio futuro de la información",
+            "c": "Acceso por fuerza bruta",
+            "d": "Uso de contraseñas débiles"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Qué tipo de malware se propaga duplicándose a sí mismo saturando las redes sin alterar ficheros?",
+        "opciones": {
+            "a": "Bomba lógica",
+            "b": "Gusano",
+            "c": "Rootkit",
+            "d": "Joke"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 28,
+        "pregunta": "El ataque TCP SYN consiste en una inundación de peticiones de conexión de tipo:",
+        "opciones": {
+            "a": "Inyección de datos",
+            "b": "Denegación de servicio (DoS)",
+            "c": "Suplantación de identidad",
+            "d": "Clickjacking"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 29,
+        "pregunta": "El ataque Smurf se caracteriza por inundar un objetivo enviando pings al broadcast mediante:",
+        "opciones": {
+            "a": "Inyección SQL",
+            "b": "Spoofing de IP",
+            "c": "Clickjacking transparente",
+            "d": "Envenenamiento DNS"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 30,
+        "pregunta": "La técnica DNS cache poisoning consiste en enviar información falsa al DNS para lograr:",
+        "opciones": {
+            "a": "Secuestrar clics de ratón",
+            "b": "Suplantar fuentes fiables y desviar tráfico",
+            "c": "Extraer criptomonedas sin permiso",
+            "d": "Bloquear físicamente el servidor"
+        },
+        "respuesta_correcta": "b"
+    }
+]

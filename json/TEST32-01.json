@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es la anchura estándar de los módulos en un rack de CPD según el documento?",
+    "o": [
+      "19 pulgadas (482.6 mm)",
+      "17 pulgadas (431.8 mm)",
+      "21 pulgadas (533.4 mm)",
+      "15 pulgadas (381.0 mm)"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿A cuánto equivale la altura de una unidad rack (1U)?",
+    "o": [
+      "1.75 pulgadas / 44.45 mm",
+      "1.50 pulgadas / 38.10 mm",
+      "2.00 pulgadas / 50.80 mm",
+      "1.25 pulgadas / 31.75 mm"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la medida típica de las losetas estándar de un suelo técnico elevado en un CPD?",
+    "o": [
+      "60x60 cm",
+      "50x50 cm",
+      "80x80 cm",
+      "40x40 cm"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué dispositivo protege los equipos de sobretensiones y proporciona alimentación temporal por baterías?",
+    "o": [
+      "SAI / UPS",
+      "PDU",
+      "Grupo electrógeno",
+      "HVAC"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué significan las siglas HVAC en la climatización de un CPD?",
+    "o": [
+      "Heating, Ventilation, and Air Conditioning",
+      "High Voltage Alternating Current",
+      "Hardware Virtualization Access Control",
+      "Hybrid Volume Air Cooling"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Qué tipo de servidor se monta en una 'tarjeta' simplificada dentro de un chasis y permite el cambio en caliente?",
+    "o": [
+      "Servidor Blade",
+      "Servidor en rack",
+      "Servidor stand-alone",
+      "Servidor mainframe"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de las siguientes NO es una alternativa de sistema de archivos distribuido citada en el texto?",
+    "o": [
+      "NTFS",
+      "GFS / GFS2",
+      "HDFS",
+      "OCFS2 / DRDB"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué elemento actúa como una 'regleta mejorada' para distribuir energía en los racks y permite monitorización?",
+    "o": [
+      "PDU (Power Distribution Unit)",
+      "SAI",
+      "Grupo electrógeno",
+      "Cuadro eléctrico"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué combustible es habitualmente utilizado por los grupos electrógenos externos de un CPD?",
+    "o": [
+      "Gasolina o diésel",
+      "Gas natural",
+      "Propano",
+      "Biodiésel exclusivo"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué métrica clave se asocia con la eficiencia energética de la climatización y alimentación de un CPD?",
+    "o": [
+      "PUE (Power Usage Effectiveness)",
+      "ROI",
+      "Tier Rating",
+      "MTBF"
+    ],
+    "a": 0
+  }
+]

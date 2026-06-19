@@ -1,0 +1,102 @@
+[
+  {
+    "q": "En el entorno de EPRINSA, ¿qué es un 'uso' desde la perspectiva de la integración entre aplicaciones corporativas?",
+    "o": [
+      "Una licencia de usuario concurrente",
+      "Una combinación de Asunto y Departamento para asignar a trámites de la oficina virtual y generar registros automáticos",
+      "El número de veces que se ha modificado un documento",
+      "Un perfil de acceso de la directiva de seguridad corporativa"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Para crear un uso que enlace la Gestión de Expedientes (GEX) con el registro de salida, ¿a qué menú se accede en la aplicación RES?",
+    "o": [
+      "Mantenimiento - Criterios de consulta",
+      "Bandejas - Configuración avanzada",
+      "Otros Registros - Registros Otras Aplicaciones",
+      "Gestión - Consulta de Bandejas de Registro"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Al configurar la conexión en 'Registros Otras Aplicaciones' de RES para enlazar con GEX, ¿qué código de aplicación se introduce o consulta mediante F7?",
+    "o": [
+      "RES",
+      "WNT",
+      "GEX",
+      "SIA"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Si un ciudadano utiliza un trámite en la oficina virtual enlazado a un uso determinado, ¿qué campos se definen automáticamente en el registro de entrada de destino?",
+    "o": [
+      "La fecha límite de finalización del trámite",
+      "El Departamento destino y el Asunto indicados en el uso",
+      "El NIF del responsable de la unidad informática",
+      "La clasificación multi-PKI del certificado digital"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué ocurre si realizamos la acción 'Acción de GEX...' desde el menú contextual en la Consulta de Bandejas de Registro sobre un registro de entrada seleccionado?",
+    "o": [
+      "Se elimina el registro definitivamente de la base de datos",
+      "Permite crear un expediente para realizar la tramitación del mismo a través de Gestión de Expedientes",
+      "Se descarga el archivo XML firmado al escritorio local",
+      "Se remite una remesa de notificaciones automatizadas a Notific@"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En las bandejas de consulta de GEX, ¿qué estados de lectura diferencian la situación de los expedientes asignados?",
+    "o": [
+      "Abierto, En trámite y Archivado",
+      "Sin leer, Leídos y Todos",
+      "Borrador, Definitivo y Validado",
+      "Local, Autonómico y Estatal"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de datos se completan en la ventana 'Mantenimiento de Usos - EPRINSA_FORMACION'?",
+    "o": [
+      "Empresa, Registro, Tipo, Uso y Descripción Uso, además de pestañas de Asuntos/Departamentos/Usuarios",
+      "Los códigos DIR3 únicamente a nivel estricto",
+      "Los algoritmos criptográficos del certificado raíz",
+      "Las configuraciones de impresión de sobres postales externos"
+    ],
+    "a": 0
+  },
+  {
+    "q": "En el contexto de GEX, ¿cuál de las siguientes opciones constituye una competencia del usuario en la introducción de Datos Adicionales?",
+    "o": [
+      "Modificar los campos nativos de la base de datos Oracle",
+      "Comprobar que los datos de la Sede Electrónica tienen valor, introducirlos manualmente o desde un formulario PDF",
+      "Modificar las políticas de certificación de la FNMT",
+      "Eliminar los metadatos obligatorios de la aplicación SIR"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué es indispensable para que los campos de una plantilla GEX basados en datos adicionales muestren el valor deseado?",
+    "o": [
+      "Que el documento esté previamente firmado digitalmente en el servidor",
+      "Que dicho dato adicional tenga un valor válido introducido en el expediente",
+      "Que el archivo original esté en formato PDF/A obligatoriamente",
+      "Que se posea un certificado de empleado público con seudónimo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuáles son las dos opciones de visualización/gestión que ofrece el menú de GEX sobre los documentos de registro en las bandejas?",
+    "o": [
+      "Clonar y Purgar",
+      "[seleccionar/visualizar documento]",
+      "Encriptar y Firmar con sello de tiempo",
+      "Exportar a CSV y Enviar a NAOS"
+    ],
+    "a": 1
+  }
+]

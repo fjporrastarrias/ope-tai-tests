@@ -1,0 +1,115 @@
+{
+  "block": "TEST37-03",
+  "questions": [
+    {
+      "id": 21,
+      "question": "¿Qué servicio proporciona de forma unificada la plataforma Notific@ de las Administraciones Públicas?",
+      "options": {
+        "a": "Un tablón de edictos digital interoperable a nivel de comunidades autónomas.",
+        "b": "Una plataforma común para gestionar de forma eficiente y automática el ciclo de vida de notificaciones y comunicaciones fehacientes.",
+        "c": "Un validador de firmas criptográficas multi-PKI conectado en la nube de RedSARA.",
+        "d": "El libro de registro electrónico general unificado del Ayuntamiento de Priego."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 22,
+      "question": "¿Qué infraestructura web centraliza el acceso del ciudadano a las notificaciones puestas a disposición a través de la plataforma Notific@?",
+      "options": {
+        "a": "El Registro Electrónico General (REC).",
+        "b": "La Dirección Electrónica Habilitada única (DEHú) y las sedes electrónicas correspondientes.",
+        "c": "La suite de autogestión NAOS de la Junta de Andalucía.",
+        "d": "El portal de indicadores corporativos DATAOBSAE."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 23,
+      "question": "En la operativa de Notific@, ¿qué firma electrónica se utiliza para la automatización en la admisión de remesas, puesta a disposición y caducidad de los envíos?",
+      "options": {
+        "a": "El certificado cualificado de firma de empleado público del tramitador municipal.",
+        "b": "Un certificado de sello electrónico emitido por la FNMT-RCM con titularidad de la Dirección General de Estrategia Digital.",
+        "c": "La firma biométrica capturada en las oficinas de asistencia en materia de registro.",
+        "d": "Un hash SHA-256 simétrico validado por el componente hardware HSM central."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 24,
+      "question": "En Notific@, ¿cuál es la diferencia principal entre el tratamiento de una Notificación y el de una Comunicación?",
+      "options": {
+        "a": "Las notificaciones solo aceptan archivos PDF y las comunicaciones admiten cualquier extensión de archivo.",
+        "b": "Las notificaciones tienen relevancia jurídica, abren plazos legales y exigen acuse de recibo; las comunicaciones son meramente informativas.",
+        "c": "Las comunicaciones están limitadas a un peso máximo de 1 MB y las notificaciones a 15 MB.",
+        "d": "Las notificaciones se distribuyen únicamente vía DEHú y las comunicaciones por SMS."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 25,
+      "question": "Transcurrido el plazo establecido por la Ley 39/2015 sin que el interesado acceda a una notificación en Notific@, esta se entiende rechazada automáticamente. ¿Cuál es dicho plazo?",
+      "options": {
+        "a": "5 días naturales.",
+        "b": "10 días hábiles.",
+        "c": "10 días naturales.",
+        "d": "15 días naturales."
+      },
+      "correct": "c"
+    },
+    {
+      "id": 26,
+      "question": "¿Qué dos datos del catálogo común son especificaciones técnicas de obligada inclusión en cada notificación individual tramitada por Notific@?",
+      "options": {
+        "a": "El NIF del funcionario instructor y el número de expediente asignado en el Ayuntamiento.",
+        "b": "El código DIR3 del órgano que notifica y el código SIA del procedimiento administrativo correspondiente.",
+        "c": "La dirección IP del servidor del organismo emisor y el identificador de la remesa en formato UUID.",
+        "d": "El código mnemónico de la aplicación RES y el tipo de firma electrónica empleada."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 27,
+      "question": "Si una aplicación del Ayuntamiento envía una notificación a través de Notific@ marcando la propiedad de Obligado (true) y expira el plazo sin acceso, ¿a qué estado cambia?",
+      "options": {
+        "a": "Caducada.",
+        "b": "Rechazada por transcurso de plazo.",
+        "c": "Anulada en origen.",
+        "d": "Pendiente de impresión postal."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 28,
+      "question": "Si un ciudadano 'No Obligado' (persona física) deja expirar el plazo de 10 días naturales de una notificación electrónica en Notific@, ¿cuál es el efecto en el sistema?",
+      "options": {
+        "a": "El estado cambia a 'Rechazada' y se inicia el cómputo de plazos para la interposición de recursos.",
+        "b": "El estado cambia a 'Caducada', se bloquea por completo el acceso digital al documento y la entidad debe tramitar la notificación en papel.",
+        "c": "Se reintenta el depósito automático en el buzón electrónico alternativo de su representante.",
+        "d": "Se genera de forma desasistida una incidencia crítica de seguridad informática en el portal NAOS."
+      },
+      "correct": "b"
+    },
+    {
+      "id": 29,
+      "question": "¿Cuál es la capacidad máxima de tamaño establecida con carácter general para la carga de un lote o remesa de información a través de Notific@?",
+      "options": {
+        "a": "5 MB.",
+        "b": "10 MB.",
+        "c": "15 MB.",
+        "d": "100 MB."
+      },
+      "correct": "c"
+    },
+    {
+      "id": 30,
+      "question": "Respecto a los avisos de cortesía configurables en Notific@ (vía email o SMS), ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": {
+        "a": "Tienen el carácter de notificación formal y abren plazos administrativos por sí mismos.",
+        "b": "Se contemplan de forma estándar dos avisos: uno en la puesta a disposición y otro de aviso de próxima expiración.",
+        "c": "Es obligatorio que las direcciones de correo electrónico de aviso sean compartidas entre varios miembros de la unidad familiar.",
+        "d": "Su falta de envío o recepción digital invalida por completo la legalidad de la notificación efectuada."
+      },
+      "correct": "b"
+    }
+  ]
+}

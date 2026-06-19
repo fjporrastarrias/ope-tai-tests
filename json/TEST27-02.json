@@ -1,0 +1,116 @@
+{
+  "bloque": "TEST27-02",
+  "tema": "Tema 27: Seguridad de los sistemas de información I",
+  "preguntas": [
+    {
+      "id": 11,
+      "enunciado": "En la gestión de riesgos de MAGERIT, el daño sobre el activo derivado de la materialización de la amenaza se define como:",
+      "opciones": {
+        "a": "Riesgo",
+        "b": "Impacto",
+        "c": "Vulnerabilidad",
+        "d": "Salvaguarda"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 12,
+      "enunciado": "¿Cómo se define formalmente el 'Riesgo' según la metodología MAGERIT?",
+      "opciones": {
+        "a": "El defecto o debilidad en el diseño operacional de las aplicaciones",
+        "b": "El impacto ponderado con la tasa de ocurrencia (o expectativa de materialización) de la amenaza",
+        "c": "La cantidad total de dinero invertida en contramedidas de red",
+        "d": "La probabilidad de que un usuario cometa un error involuntario"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 13,
+      "enunciado": "¿Qué herramienta implementa de forma oficial la metodología MAGERIT de análisis y gestión de riesgos?",
+      "opciones": {
+        "a": "GLORIA",
+        "b": "PILAR",
+        "c": "CLARA",
+        "d": "ANA"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 14,
+      "enunciado": "¿Cuál de las siguientes es la versión de PILAR reducida a la mínima expresión para realizar análisis de riesgos muy rápidos?",
+      "opciones": {
+        "a": "PILAR Basic",
+        "b": "μPILAR",
+        "c": "RMAT",
+        "d": "PILAR Light"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 15,
+      "enunciado": "Dentro de las medidas de seguridad física para la protección de equipos, el concepto de 'puestos de trabajo despejados' implica:",
+      "opciones": {
+        "a": "Que las mesas estén vacías de ordenadores y pantallas al final del día",
+        "b": "No disponer de material encima de la mesa salvo el requerido para la actividad que se esté realizando en cada momento",
+        "c": "El uso exclusivo de portátiles en lugar de estaciones fijas",
+        "d": "La prohibición de archivar expedientes en formato papel"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 16,
+      "enunciado": "¿Cuál de las siguientes es una medida recomendada de seguridad física orientada a la protección de los soportes de información?",
+      "opciones": {
+        "a": "Establecer contraseñas alfanuméricas complejas de 8 caracteres",
+        "b": "Configurar una zona desmilitarizada (DMZ) en el cortafuegos corporativo",
+        "c": "Etiquetado, cifrado de la información contenida, custodia y borrado seguro de datos o destrucción de soportes",
+        "d": "La instalación obligatoria de un antivirus corporativo en tiempo real"
+      },
+      "correcta": "c"
+    },
+    {
+      "id": 17,
+      "enunciado": "¿Qué tecnología se cita explícitamente en el temario bajo el epígrafe de protección de soportes para asegurar la redundancia de discos?",
+      "opciones": {
+        "a": "SIEM",
+        "b": "RAID",
+        "c": "VPN",
+        "d": "DMZ"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 18,
+      "enunciado": "Las dos grandes tareas básicas a realizar según el marco metódico de MAGERIT son:",
+      "opciones": {
+        "a": "Prevención y Sanción",
+        "b": "Análisis de riesgos y Tratamiento",
+        "c": "Auditoría perimetral y Parcheado lúdico",
+        "d": "Identificación biométrica y Autenticación externa"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 19,
+      "enunciado": "¿Qué herramientas adicionales de la suite PILAR permiten preparar y mantener personalizaciones para extender la biblioteca de riesgos a contextos específicos?",
+      "opciones": {
+        "a": "MARTA",
+        "b": "RMAT",
+        "c": "INES",
+        "d": "ROCIO"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 20,
+      "enunciado": "En la seguridad física de los puestos de trabajo, ¿qué medida automatizada debe aplicarse al superar un determinado tiempo de inactividad?",
+      "opciones": {
+        "a": "El borrado seguro del disco duro principal",
+        "b": "El bloqueo automático del puesto de trabajo",
+        "c": "El apagado físico del router perimetral",
+        "d": "Un análisis completo por el antivirus central"
+      },
+      "correcta": "b"
+    }
+  ]
+}

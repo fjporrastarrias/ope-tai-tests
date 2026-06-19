@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál es la recomendación mínima de longitud de caracteres para una contraseña robusta según el ejemplo del documento?",
+    "options": {
+      "a": "Al menos 12 caracteres.",
+      "b": "Al menos 10 caracteres.",
+      "c": "Al menos 8 caracteres.",
+      "d": "Al menos 6 caracteres."
+    },
+    "answer": "c",
+    "explanation": "El documento explicita una recomendación de longitud mínima de 8 caracteres conteniendo al menos un número, una mayúscula y un carácter especial."
+  },
+  {
+    "id": 2,
+    "question": "Dentro de las medidas técnicas para el puesto de trabajo, los privilegios o permisos de administración deben:",
+    "options": {
+      "a": "Otorgarse a todos los usuarios habituales para agilizar la instalación de parches.",
+      "b": "Asignarse de forma temporal automáticamente mediante el sistema operativo.",
+      "c": "Estar en posesión exclusiva del personal TIC, configurando a los usuarios habituales sin ellos.",
+      "d": "Estar deshabilitados completamente tanto para el personal habitual como para el personal TIC."
+    },
+    "answer": "c",
+    "explanation": "Se debe configurar los equipos de modo que los usuarios habituales no tengan permisos de administración y el usuario administrador esté en posesión exclusiva del personal TIC."
+  },
+  {
+    "id": 3,
+    "question": "¿Qué es el 'Rogueware' u Rogue Software?",
+    "options": {
+      "a": "Malware que destruye el sector de arranque de los discos duros.",
+      "b": "Malware que aparenta ser una herramienta de desinfección (como un falso antivirus) pero realmente es un troyano.",
+      "c": "Un programa que inunda el sistema con paquetes ICMP (ping).",
+      "d": "Herramienta usada exclusivamente para auditar redes WiFi públicas."
+    },
+    "answer": "b",
+    "explanation": "El rogueware es un tipo de malware que simula ser un software antivirus o de desinfección legítimo para engañar al usuario y conseguir que instale un troyano."
+  },
+  {
+    "id": 4,
+    "question": "¿Qué herramienta integrada en ADA del CCN-CERT se encarga específicamente de realizar análisis dinámicos avanzados de código dañino (multi-sandboxing)?",
+    "options": {
+      "a": "MARÍA",
+      "b": "MARTA",
+      "c": "GLORIA",
+      "d": "LUCIA"
+    },
+    "answer": "b",
+    "explanation": "MARTA es una plataforma avanzada de multi-sandboxing dedicada al análisis automatizado de múltiples tipos de ficheros con comportamiento malicioso (análisis dinámico)."
+  },
+  {
+    "id": 5,
+    "question": "Según el documento de Seguridad en Redes, ¿cuál es el motivo principal por el que se debe limitar la utilización de usuarios genéricos?",
+    "options": {
+      "a": "Porque consumen excesivos recursos de licencias del sistema operativo.",
+      "b": "Porque impiden llevar la trazabilidad de las acciones realizadas y dificultan detectar accesos no autorizados.",
+      "c": "Porque no permiten configurar correctamente el fondo de escritorio corporativo.",
+      "d": "Porque bloquean automáticamente el cortafuegos perimetral."
+    },
+    "answer": "b",
+    "explanation": "Los usuarios genéricos impiden la posibilidad de llevar la trazabilidad de las acciones y dificultan saber si una persona no autorizada está usando un sistema."
+  },
+  {
+    "id": 6,
+    "question": "¿Qué medida se aconseja respecto al uso de dispositivos de almacenamiento extraíble (USB) en el puesto de usuario?",
+    "options": {
+      "a": "Permitir su uso libre siempre que el usuario haya firmado el documento de confidencialidad.",
+      "b": "Deshabilitar por defecto los puertos USB y requerir cifrado de la información y acceso autenticado.",
+      "c": "Utilizarlos como la primera opción de backup diario de los puestos de trabajo.",
+      "d": "Permitirlos únicamente en ordenadores que no estén conectados a la red corporativa."
+    },
+    "answer": "b",
+    "explanation": "Se propone aplicar mecanismos de cifrado, acceso autenticado y la deshabilitación por defecto de los puertos USB, usando como alternativa almacenes corporativos comunes."
+  },
+  {
+    "id": 7,
+    "question": "Dentro del catálogo de herramientas del CCN-CERT, ¿cuál realiza la auditoría de cumplimiento del ENS/STIC específicamente en sistemas operativos Windows?",
+    "options": {
+      "a": "CARLA",
+      "b": "CLARA",
+      "c": "ANA",
+      "d": "AMPARO"
+    },
+    "answer": "b",
+    "explanation": "CLARA es la herramienta del CCN-CERT destinada específicamente a realizar la auditoría de cumplimiento de las características técnicas de seguridad del ENS en Sistemas Windows."
+  },
+  {
+    "id": 8,
+    "question": "Un programa inofensivo que simula los efectos de un virus para gastar una broma al usuario, sin producir daños por sí mismo, se denomina:",
+    "options": {
+      "a": "Spyware",
+      "b": "Joke",
+      "c": "Adware",
+      "d": "Rogueware"
+    },
+    "answer": "b",
+    "explanation": "El 'Joke' es un programa inofensivo que simula las acciones de un virus en el ordenador con el objetivo de gastar una broma, sin producir daños directos."
+  },
+  {
+    "id": 9,
+    "question": "De acuerdo con las medidas técnicas explicadas, respecto a la navegación web de los usuarios se aconseja:",
+    "options": {
+      "a": "Permitir navegación ilimitada fuera del horario laboral.",
+      "b": "Implantar un servidor proxy y navegación autenticada para limitar el acceso a páginas de contenidos determinados o inadecuados.",
+      "c": "Desactivar el protocolo HTTPS en los navegadores locales.",
+      "d": "Permitir descargas únicamente desde plataformas P2P autorizadas."
+    },
+    "answer": "b",
+    "explanation": "Se recomienda implantar un proxy y navegación autenticada para bloquear accesos a sitios web con contenido inadecuado o intercambio de archivos."
+  },
+  {
+    "id": 10,
+    "question": "La medida organizativa que prohíbe la alteración de la configuración del equipo local busca garantizar:",
+    "options": {
+      "a": "Que solo el personal TIC tenga privilegios de administración y controle el software instalado.",
+      "b": "Que la pantalla del usuario no cambie de resolución.",
+      "c": "Que el antivirus se actualice cada hora de forma manual.",
+      "d": "El cumplimiento estricto del horario de la jornada laboral."
+    },
+    "answer": "a",
+    "explanation": "Busca restringir los privilegios de alteración de configuración al perfil de Administrador, el cual solo será asignado al personal TIC."
+  }
+]

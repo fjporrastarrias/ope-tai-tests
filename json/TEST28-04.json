@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué es una Botnet según las descripciones de amenazas del material?",
+    "options": {
+      "a": "Un software de simulación para formación de técnicos.",
+      "b": "Una red de equipos infectados por un atacante remoto (red zombi) para lanzar ataques masivos.",
+      "c": "Un cortafuegos personal de código abierto.",
+      "d": "Un protocolo seguro de transmisión de datos."
+    },
+    "answer": "b",
+    "explanation": "Una botnet es una red de equipos zombis infectados que quedan a merced de un atacante remoto para lanzar acciones masivas como spam o DDoS."
+  },
+  {
+    "id": 2,
+    "question": "En la política de contraseñas robustas, ¿para qué sirve mantener un 'historial de las X últimas contraseñas'?",
+    "options": {
+      "a": "Para que el administrador TIC pueda recordar las contraseñas antiguas del usuario.",
+      "b": "Para evitar que el usuario repita contraseñas utilizadas anteriormente al verse obligado a cambiarlas.",
+      "c": "Para cumplir con la auditoría de la herramienta CARLA.",
+      "d": "Para enviarlo al portal nacional INES de forma automatizada."
+    },
+    "answer": "b",
+    "explanation": "El historial de contraseñas tiene como finalidad obligar al cambio real evitando que el usuario reutilice inmediatamente sus contraseñas previas."
+  },
+  {
+    "id": 3,
+    "question": "Con respecto a la actualización del sistema operativo y aplicaciones en los puestos de trabajo, se recomienda que sea:",
+    "options": {
+      "a": "Realizada por el propio usuario de forma manual cuando lo considere oportuno.",
+      "b": "Automática y de forma desatendida, estando previamente testada por el personal TIC.",
+      "c": "Desactivada por completo para evitar fallos de compatibilidad horaria.",
+      "d": "Delegada en herramientas externas de almacenamiento en la nube sin control local."
+    },
+    "answer": "b",
+    "explanation": "El documento aconseja configurar los sistemas para la actualización automática y desatendida, pero habiendo sido testadas previamente por el personal TIC."
+  },
+  {
+    "id": 4,
+    "question": "El término STIC (Seguridad de las Tecnologías de la Información y Comunicaciones) engloba objetivos que se concretan en preservar:",
+    "options": {
+      "a": "Exclusivamente la velocidad de la red corporativa.",
+      "b": "La confidencialidad, integridad y disponibilidad de la información y de sus elementos tratantes.",
+      "c": "Únicamente los datos de carácter personal de la directiva.",
+      "d": "El hardware frente a sobretensiones eléctricas solamente."
+    },
+    "answer": "b",
+    "explanation": "Los objetivos de la STIC se concretan en preservar la tríada clásica (Confidencialidad, Integridad y Disponibilidad) tanto de la información como de los elementos que la tratan."
+  },
+  {
+    "id": 5,
+    "question": "¿Qué herramienta del CCN-CERT sirve como plataforma de gestión de logs e incidentes basada en tecnologías SIEM, yendo un paso más allá de la monitorización clásica?",
+    "options": {
+      "a": "GLORIA",
+      "b": "LUCIA",
+      "c": "IRIS",
+      "d": "ROCIÓ"
+    },
+    "answer": "a",
+    "explanation": "GLORIA es el gestor de logs para responder ante incidentes y amenazas, basado en SIEM, que realiza técnicas de correlación compleja de eventos."
+  },
+  {
+    "id": 6,
+    "question": "Respecto al acceso de los puestos de usuario a redes WiFi públicas, la normativa técnica estipula:",
+    "options": {
+      "a": "Permitirlo siempre que se utilice un navegador web moderno.",
+      "b": "Impedir el acceso a redes WiFi públicas debido a los altos riesgos asociados.",
+      "c": "Permitirlo únicamente durante desplazamientos oficiales sin cifrado.",
+      "d": "Dejar la elección a criterio de la responsabilidad del empleado."
+    },
+    "answer": "b",
+    "explanation": "El documento explícitamente lista como medida técnica 'Impedir el acceso a redes WIFI PÚBLICAS'."
+  },
+  {
+    "id": 7,
+    "question": "La herramienta LUCIA del CCN-CERT se define como:",
+    "options": {
+      "a": "Un sistema automatizado de desinfección de troyanos.",
+      "b": "Un sistema de Gestión Federada de Tickets para la Gestión de Ciberincidentes en el ámbito del ENS.",
+      "c": "Un escáner de vulnerabilidades de bases de datos SQL.",
+      "d": "Una plataforma de retransmisión de sesiones formativas en directo."
+    },
+    "answer": "b",
+    "explanation": "LUCIA (Listado Unificado de Coordinación de Incidentes y Amenazas) es una herramienta de Gestión Federada de Tickets para coordinar ciberincidentes bajo el ENS."
+  },
+  {
+    "id": 8,
+    "question": "Dentro de las amenazas contra la confidencialidad, ¿cuál se define como la acción que motiva el acceso de un actor no autorizado a la información?",
+    "options": {
+      "a": "Interrupción.",
+      "b": "Interceptación.",
+      "c": "Modificación.",
+      "d": "Fabricación."
+    },
+    "answer": "b",
+    "explanation": "La taxonomía básica asocia la interceptación con las amenazas contra la confidencialidad (acceso no autorizado)."
+  },
+  {
+    "id": 9,
+    "question": "En relación al uso de servicios de almacenamiento CLOUD por parte de los usuarios, la política organizativa prescribe:",
+    "options": {
+      "a": "Su prohibición absoluta para cualquier tipo de perfil de usuario.",
+      "b": "Su limitación a perfiles específicos utilizando mecanismos de cifrado antes de la transmisión.",
+      "c": "Su libre utilización sin restricciones para evitar saturar los servidores locales.",
+      "d": "Su uso obligatorio como único repositorio común de la entidad."
+    },
+    "answer": "b",
+    "explanation": "Se prescribe limitar el uso de almacenamiento cloud a perfiles específicos y con la obligación de cifrar la información antes de transmitirla."
+  },
+  {
+    "id": 10,
+    "question": "¿Qué norma internacional define los criterios de evaluación de seguridad de productos informáticos (Common Criteria)?",
+    "options": {
+      "a": "ISO/IEC 27001",
+      "b": "ISO/IEC 15408",
+      "c": "ISO 31000",
+      "d": "ISO/IEC 27035"
+    },
+    "answer": "b",
+    "explanation": "La norma ISO/IEC 15408 es conocida como Common Criteria (CC) y define los criterios de evaluación para la seguridad de productos TIC internacionales."
+  }
+]

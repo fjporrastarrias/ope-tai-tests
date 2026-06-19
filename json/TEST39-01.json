@@ -1,0 +1,102 @@
+[
+  {
+    "q": "1. Según el estándar ITIL, ¿cómo se define conceptualmente una 'incidencia' en la explotación de sistemas?",
+    "o": [
+      "Cualquier cambio planificado que altere temporalmente el rendimiento óptimo de un servicio.",
+      "Toda interrupción o reducción de la calidad no planificada del servicio.",
+      "Una debilidad o defecto en el diseño que facilita la materialización de un ataque de denegación de servicio.",
+      "El registro histórico de accesos no autorizados a un elemento de la red local."
+    ],
+    "a": 1
+  },
+  {
+    "q": "2. ¿Qué herramienta de gestión de ciberincidentes está federada para mejorar la coordinación entre el CCN-CERT y los organismos públicos bajo el ENS?",
+    "o": [
+      "GLORIA",
+      "INES",
+      "LUCIA",
+      "PILAR"
+    ],
+    "a": 2
+  },
+  {
+    "q": "3. Dentro de las actividades principales de la Gestión de Incidencias según ITIL, ¿cuál es el paso inmediato posterior al Diagnóstico Inicial si este no es resolutivo?",
+    "o": [
+      "Cierre",
+      "Investigación y diagnóstico",
+      "Escalado",
+      "Categorización"
+    ],
+    "a": 2
+  },
+  {
+    "q": "4. ¿Cómo se denomina el documento técnico adaptable utilizado para gestionar las solicitudes de asistencia técnica, tanto del lado del usuario como del técnico?",
+    "o": [
+      "Plan de Continuidad",
+      "Parte de incidencias",
+      "Manual abreviado de usuario",
+      "Informe de estado de seguridad"
+    ],
+    "a": 1
+  },
+  {
+    "q": "5. ¿Cuál de los siguientes ejemplos pertenece a la categoría de 'Asistencia Técnica Pasiva' según la documentación técnica?",
+    "o": [
+      "La conexión por control remoto del técnico al puesto afectado.",
+      "La sustitución en caliente de un módulo de memoria en un servidor Blade.",
+      "Las Preguntas Frecuentes (FAQ) y las ayudas contextuales del software.",
+      "La instalación centralizada de un sistema operativo mediante PXE."
+    ],
+    "a": 2
+  },
+  {
+    "q": "6. ¿Qué actividad del ciclo de vida de incidencias de ITIL tiene como fin comprobar la correcta cumplimentación de los datos antes de dar por terminado el ciclo?",
+    "o": [
+      "Resolución",
+      "Cierre",
+      "Registro",
+      "Priorización"
+    ],
+    "a": 1
+  },
+  {
+    "q": "7. El Centro de Atención a Usuarios (CAU) o 'Help Desk' basa sus directrices de gestión de incidentes de manera estándar en:",
+    "o": [
+      "La metodología MAGERIT v3.",
+      "La norma ISO 15408 (Common Criteria).",
+      "El estándar ITIL (Information Technology Infrastructure Library).",
+      "La especificación técnica del protocolo PXE."
+    ],
+    "a": 2
+  },
+  {
+    "q": "8. ¿Qué aplicación open source orientada a la gestión de incidencias mediante un sistema de tickets se cita en los materiales de estudio?",
+    "o": [
+      "osTicket",
+      "Zendesk",
+      "ServiceTonic",
+      "SysAid"
+    ],
+    "a": 0
+  },
+  {
+    "q": "9. Cuando un usuario final observa una anomalía en su entorno de trabajo y genera una solicitud de soporte por email, ticket o teléfono, el parte de incidencias se genera:",
+    "o": [
+      "Del lado del administrador avanzado.",
+      "Del lado del técnico.",
+      "Del lado del usuario.",
+      "Por automatización del SIEM."
+    ],
+    "a": 2
+  },
+  {
+    "q": "10. ¿Cuál de los siguientes términos NO constituye una fase principal de la Gestión de Incidencias según ITIL?",
+    "o": [
+      "Priorización",
+      "Categorización",
+      "Modelado predictivo de capacidad",
+      "Investigación y diagnóstico"
+    ],
+    "a": 2
+  }
+]

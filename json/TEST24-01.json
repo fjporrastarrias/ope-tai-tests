@@ -1,0 +1,116 @@
+{
+    "bloque": "TEST24-01",
+    "descripcion": "Modelo OSI, Capas, Primitivas y PDUs",
+    "preguntas": [
+        {
+            "id": 1,
+            "enunciado": "¿Cuáles son los cuatro tipos de primitivas existentes en la especificación del servicio del modelo OSI?",
+            "opciones": {
+                "a": "Petición (REQUEST), Indicación (INDICATION), Respuesta (RESPONSE) y Confirmación (CONFIRM).",
+                "b": "Inicio (START), Datos (DATA), Fin (END) y Error (ERROR).",
+                "c": "Envío (SEND), Recepción (RECEIVE), Control (CONTROL) y Estado (STATUS).",
+                "d": "Llamada (CALL), Escucha (LISTEN), Conexión (CONNECT) y Cierre (CLOSE)."
+            },
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 2,
+            "enunciado": "¿Qué tipo de primitiva es empleada por el usuario del servicio para reconocer o completar algún procedimiento previamente iniciado por una indicación del proveedor?",
+            "opciones": {
+                "a": "De petición (REQUEST).",
+                "b": "De indicación (INDICATION).",
+                "c": "De respuesta (RESPONSE).",
+                "d": "De confirmación (CONFIRM)."
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 3,
+            "enunciado": "¿Qué clase de PDU sirve para gobernar el comportamiento completo del protocolo en sus funciones de establecimiento y ruptura de conexión, sin contener información del nivel N+1?",
+            "opciones": {
+                "a": "PDU de datos.",
+                "b": "PDU de control.",
+                "c": "PDU de usuario.",
+                "d": "PDU de transporte."
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 4,
+            "enunciado": "La capa de Enlace de datos del modelo OSI se encarga típicamente de dos tareas diferentes estructuradas en subniveles. ¿Cuáles son?",
+            "opciones": {
+                "a": "IP y ICMP.",
+                "b": "TCP y UDP.",
+                "c": "LLC (Logical Link Control) y MAC (Media Access Control).",
+                "d": "ARP y RARP."
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 5,
+            "enunciado": "¿Qué capa del modelo OSI se define como una verdadera capa EXTREMO A EXTREMO, del origen al destino, con la interfaz más sencilla y menos primitivas?",
+            "opciones": {
+                "a": "Capa de red.",
+                "b": "Capa de transporte.",
+                "c": "Capa de sesión.",
+                "d": "Capa de enlace de datos."
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 6,
+            "enunciado": "¿Qué Elemento de Servicio de Aplicación (ASE) garantiza la fiabilidad en la transferencia de datos, solucionando problemas de nivel 4 hacia arriba y manejando funciones de nivel 5?",
+            "opciones": {
+                "a": "ACSE (Association Control Service Element).",
+                "b": "ROSE (Remote Operation Service Element).",
+                "c": "RTSE (Reliable Transfer Service Element).",
+                "d": "FTAM (File Transfer Access and Management)."
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 7,
+            "enunciado": "¿Qué ASE es utilizado por todas las aplicaciones para el establecimiento, manejo y liberación ordenada o abrupta de conexiones?",
+            "opciones": {
+                "a": "ROSE",
+                "b": "ACSE",
+                "c": "RTSE",
+                "d": "DHCP"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 8,
+            "enunciado": "La conversión de códigos entre nodos, el cifrado y la compresión de datos son funciones específicas de la capa de:",
+            "opciones": {
+                "a": "Sesión",
+                "b": "Aplicación",
+                "c": "Presentación",
+                "d": "Transporte"
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 9,
+            "enunciado": "¿Qué capa de OSI tiene la responsabilidad del control del diálogo (full-duplex o half-duplex) y la recuperación en caso de errores de sesión?",
+            "opciones": {
+                "a": "Capa de transporte",
+                "b": "Capa de sesión",
+                "c": "Capa de presentación",
+                "d": "Capa de red"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 10,
+            "enunciado": "En redes punto a punto o de difusión, existe un canal directo entre los dos equipos. ¿Qué nivel proporciona directamente la conexión fiable sin necesidad del nivel de red?",
+            "opciones": {
+                "a": "Nivel 1 (Físico)",
+                "b": "Nivel 2 (Enlace de datos)",
+                "c": "Nivel 4 (Transporte)",
+                "d": "Nivel 5 (Sesión)"
+            },
+            "respuesta_correcta": "b"
+        }
+    ]
+}

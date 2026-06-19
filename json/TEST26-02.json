@@ -1,0 +1,122 @@
+[
+  {
+    "id": 11,
+    "pregunta": "¿Cuál es la unidad lógica fundamental de la estructura de Active Directory que actúa como frontera de seguridad y de replicación de políticas?",
+    "opciones": {
+      "a": "El Bosque (Forest)",
+      "b": "El Dominio (Domain)",
+      "c": "El Árbol (Tree)",
+      "d": "La Unidad Organizativa (OU)"
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "El dominio es el contenedor lógico central y la frontera administrativa principal de seguridad para la gestión de usuarios, políticas y recursos en Active Directory."
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Cómo se define conceptualmente un Bosque (Forest) en un entorno de Active Directory?",
+    "opciones": {
+      "a": "Una colección de servidores independientes sin comunicación jerárquica.",
+      "b": "El contenedor de nivel superior que agrupa a uno o más árboles de dominios compartiendo un Esquema, Configuración y Catálogo Global común.",
+      "c": "Una segmentación física basada en subredes IP conectadas mediante routers de alta velocidad.",
+      "d": "La estructura interna de una Unidad Organizativa de recursos dedicados."
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "El bosque es el límite máximo de seguridad en Active Directory y engloba todos los dominios que comparten el mismo esquema y configuración global."
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Cuál es el propósito principal de una Unidad Organizativa (OU) dentro de un dominio de Active Directory?",
+    "opciones": {
+      "a": "Crear un nuevo límite de seguridad absoluta independiente del dominio corporativo.",
+      "b": "Organizar objetos de forma jerárquica para facilitar la delegación administrativa y la aplicación directa de directivas de grupo (GPO).",
+      "c": "Sustituir de manera integral el uso de los grupos de seguridad tradicionales.",
+      "d": "Definir subredes IP destinadas al tráfico de replicación entre sedes remotas."
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "Las unidades organizativas son contenedores lógicos que permiten agrupar usuarios, equipos y grupos con el fin específico de delegar controles administrativos y aplicar GPOs de forma selectiva."
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué componente físico del entorno aloja la base de datos de Active Directory y proporciona los servicios de autenticación de red?",
+    "opciones": {
+      "a": "Servidor Miembro (Member Server)",
+      "b": "Controlador de Dominio (Domain Controller)",
+      "c": "Estación de Trabajo Administradora",
+      "d": "Servidor de Almacenamiento Centralizado (NAS)"
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "El Controlador de Dominio (DC) es el rol de servidor físico o virtual que almacena la base de datos del directorio (ntds.dit) y ejecuta los servicios de validación de identidad."
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Qué define un 'Sitio' (Site) dentro de la arquitectura física de Active Directory?",
+    "opciones": {
+      "a": "Una colección lógicamente estructurada de cuentas y contraseñas de usuarios externos.",
+      "b": "Un objeto que representa una o más subredes IP conectadas mediante enlaces de alta velocidad y fiables, utilizado para optimizar la replicación física.",
+      "c": "La dirección URL interna de acceso web al portal de la administración local.",
+      "d": "Un subconjunto del esquema que define el formato de metadatos del directorio."
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "Un Sitio representa la topología física de la red en Active Directory y agrupa subredes bien conectadas para optimizar el tráfico de red y de replicación entre controladores."
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Cuál es el nombre del archivo de base de datos relacional extensible donde se almacena todo el contenido del directorio en un Controlador de Dominio?",
+    "opciones": {
+      "a": "active_directory.db",
+      "b": "sam.dat",
+      "c": "ntds.dit",
+      "d": "sysvol.xml"
+    },
+    "respuesta_correcta": "c",
+    "explicacion": "La base de datos completa de los Servicios de Dominio de Active Directory (AD DS) se almacena en el archivo binario denominado ntds.dit."
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Qué función cumple el Catálogo Global (Global Catalog) en un entorno de bosque multidominio?",
+    "opciones": {
+      "a": "Guardar un registro continuo de auditoría de todas las violaciones de seguridad del sistema.",
+      "b": "Almacenar una réplica completa de todos los objetos y de todos los atributos de cada servidor corporativo.",
+      "c": "Almacenar una réplica completa de todos los objetos de su propio dominio y una réplica parcial (atributos frecuentes) de todos los objetos de los demás dominios del bosque.",
+      "d": "Actuar como servidor de nombres DNS raíz para la red interna de la corporación."
+    },
+    "respuesta_correcta": "c",
+    "explicacion": "El Catálogo Global recopila información distribuida del bosque completo de forma parcial, permitiendo a los usuarios buscar objetos en cualquier dominio sin necesidad de consultar individualmente a cada DC."
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Cómo se comporta la replicación entre controladores de dominio que pertenecen a un mismo Sitio (Replicación Intrasitio)?",
+    "opciones": {
+      "a": "Es síncrona, consume poco ancho de banda y se realiza únicamente una vez al día.",
+      "b": "Se basa en notificaciones automáticas de cambio y se realiza de forma rápida y casi inmediata mediante RPC sobre IP de manera comprimida.",
+      "c": "Se realiza obligatoriamente mediante cintas o soportes físicos externos por motivos de seguridad del ENS.",
+      "d": "Utiliza únicamente el protocolo SMTP con cifrado asimétrico estricto."
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "La replicación intrasitio asume enlaces de alta velocidad, por lo que los controladores notifican de inmediato sus cambios a los partners de replicación utilizando RPC (Remote Procedure Call) sobre IP."
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Cuál de los siguientes elementos pertenece en exclusiva a la estructura LÓGICA de Active Directory?",
+    "opciones": {
+      "a": "Controlador de Dominio (Domain Controller)",
+      "b": "Enlace de Sitios (Site Link)",
+      "c": "Árbol de Dominios (Tree)",
+      "d": "Subred IP de Comunicaciones"
+    },
+    "respuesta_correcta": "c",
+    "explicacion": "El Árbol de Dominios es una agrupación jerárquica lógica basada en un espacio de nombres DNS contiguo, mientras que los controladores de dominio, sitios y subredes componen la infraestructura física."
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Qué tipo de relación de confianza se establece de forma predeterminada, automática e intrínseca entre dominios de un mismo bosque de Active Directory?",
+    "opciones": {
+      "a": "Confianza externa unidireccional y no transitiva.",
+      "b": "Confianza bidireccional y transitiva.",
+      "c": "Confianza de acceso directo manual atemporal.",
+      "d": "Relación de exclusión mutua federada."
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "Al agregar dominios a un árbol o bosque, se generan relaciones de confianza automáticas, bidireccionales y transitivas basadas en Kerberos, permitiendo la autenticación transversal de recursos."
+  }
+]

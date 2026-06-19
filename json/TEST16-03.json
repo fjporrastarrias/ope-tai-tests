@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "pregunta": "Al realizar una petición web convencional, ¿cuál es el orden correcto de pasos que ejecuta el cliente HTTP?",
+    "opciones": {
+      "a": "Abrir conexión TCP, codificar URL, enviar comando, recibir respuesta, cerrar conexión.",
+      "b": "Decodificar URL, abrir conexión TCP, enviar comando/petición, recibir respuesta, cerrar conexión.",
+      "c": "Enviar comando GET, abrir puerto TCP, procesar cabeceras MIME, guardar en caché.",
+      "d": "Establecer Keep-Alive, solicitar DNS inverso, iniciar negociación SSL, parsear HTML."
+    },
+    "correcta": "b",
+    "explicacion": "El orden estándar es: 1) Decodificar URL, 2) Abrir conexión TCP, 3) Realizar la petición, 4) El servidor devuelve respuesta, 5) Se cierra la conexión."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué método HTTP/1.1 se utiliza específicamente para pedir una respuesta idéntica a GET pero SIN el cuerpo de la respuesta, con el fin de consultar metadatos?",
+    "opciones": {
+      "a": "OPTIONS",
+      "b": "TRACE",
+      "c": "HEAD",
+      "d": "CONNECT"
+    },
+    "correcta": "c",
+    "explicacion": "El método HEAD solicita únicamente las cabeceras de la respuesta (metadatos) idénticas a las que devolvería un GET, pero omitiendo el cuerpo."
+  },
+  {
+    "id": 3,
+    "pregunta": "Según la RFC 5789, ¿qué método no básico de HTTP permite aplicar modificaciones parciales a un recurso de manera similar a PUT?",
+    "opciones": {
+      "a": "MERGE",
+      "b": "UPDATE",
+      "c": "PATCH",
+      "d": "PROPPATCH"
+    },
+    "correcta": "c",
+    "explicacion": "El método PATCH, especificado en la RFC 5789, permite modificaciones parciales sobre un recurso existente."
+  },
+  {
+    "id": 4,
+    "pregunta": "En las cabeceras HTTP, ¿cuál corresponde estrictamente a un elemento enviado por el cliente para indicar la URL de procedencia desde la que se solicitó el recurso actual?",
+    "opciones": {
+      "a": "User-Agent",
+      "b": "Referer",
+      "c": "Host",
+      "d": "Content-Location"
+    },
+    "correcta": "b",
+    "explicacion": "La cabecera 'Referer' indica la dirección URL de procedencia (la página previa que contenía el enlace)."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Cuál es la diferencia fundamental entre una URL y una URN dentro del estándar URI?",
+    "opciones": {
+      "a": "La URL indica la ubicación del recurso, mientras que la URN designa al recurso de forma permanente independientemente de su localización.",
+      "b": "La URL es exclusiva de HTTP, mientras que la URN solo se emplea en transferencias de ficheros pesados.",
+      "c": "La URN es una versión obsoleta que ha sido sustituida por completo por las URL dinámicas.",
+      "d": "La URL es obligatoria en intranets corporativas y la URN es exclusiva de la red pública externa."
+    },
+    "correcta": "a",
+    "explicacion": "Tanto URL como URN son subcategorías de URI. La URL especifica dónde encontrar el recurso (localización) y la URN define un nombre permanente único para el recurso."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Qué versión histórica de HTTP introdujo por primera vez soporte para Cookies, Pipelining y conexiones persistentes (Keepalive)?",
+    "opciones": {
+      "a": "HTTP/0.9",
+      "b": "HTTP/1.0",
+      "c": "HTTP/1.1",
+      "d": "HTTP/2.0"
+    },
+    "correcta": "c",
+    "explicacion": "HTTP/1.1 introdujo cookies y variables de sesión oficiales, pipelining, mecanismos avanzados de caché y Keep-Alive por defecto."
+  },
+  {
+    "id": 7,
+    "pregunta": "A nivel de arquitectura de red en una Entidad Local, ¿cuál es la diferencia conceptual entre Intranet y Extranet?",
+    "opciones": {
+      "a": "La Intranet opera con tecnología IP y la Extranet funciona exclusivamente sobre redes de telefonía analógica.",
+      "b": "La Intranet es una red privada interna para los empleados públicos, mientras que la Extranet extiende esa red privada de forma controlada a usuarios externos autorizados.",
+      "c": "La Intranet requiere servidores en la nube y la Extranet funciona mediante redes Mesh locales.",
+      "d": "No existe diferencia alguna, son términos comerciales sin trasfondo técnico diferencial."
+    },
+    "correcta": "b",
+    "explicacion": "La Intranet es privada e interna. La Extranet permite el acceso restringido y seguro a usuarios externos que tienen relación con la organización."
+  },
+  {
+    "id": 8,
+    "pregunta": "Bajo el ordenamiento jurídico español actual, ¿qué Real Decreto regula de manera obligatoria la accesibilidad de los sitios web y aplicaciones móviles del sector público?",
+    "opciones": {
+      "a": "Real Decreto 311/2022 (Esquema Nacional de Seguridad).",
+      "b": "Real Decreto 4/2010 (Esquema Nacional de Interoperabilidad).",
+      "c": "Real Decreto 1112/2018.",
+      "d": "Ley 39/2015 del Procedimiento Administrativo Común."
+    },
+    "correcta": "c",
+    "explicacion": "El Real Decreto 1112/2018 transpone la directiva europea sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público."
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Qué norma técnica española sirve de referencia de conformidad para el cumplimiento de los requisitos de accesibilidad web exigidos a las administraciones públicas?",
+    "opciones": {
+      "a": "UNE-EN 301549 (basada en las WCAG)",
+      "b": "ISO 9001",
+      "c": "UNE-ISO/IEC 27001",
+      "d": "UNE-EX 41501"
+    },
+    "correcta": "a",
+    "explicacion": "La norma de referencia armonizada exigida es la UNE-EN 301549, alineada estrechamente con las pautas de accesibilidad WCAG del W3C."
+  },
+  {
+    "id": 10,
+    "pregunta": "¿A qué principio fundamental de las WCAG pertenece la pauta que exige 'proporcionar alternativas textuales para todo contenido no textual'?",
+    "opciones": {
+      "a": "Operable",
+      "b": "Comprensible",
+      "c": "Robusto",
+      "d": "Perceptible"
+    },
+    "correcta": "d",
+    "explicacion": "El principio 'Perceptible' establece que la información y los componentes de la interfaz deben ser mostrados en formas que puedan ser percibidos a través de los sentidos (alternativas de texto)."
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "q": "21. ¿Qué es un 'Plan de Contingencias' dentro del marco de la explotación segura de los sistemas de información corporativos?",
+    "o": [
+      "El catálogo que describe la arquitectura física de los racks de un CPD.",
+      "El conjunto de procedimientos organizativos, técnicos y humanos destinados a afrontar una interrupción grave del servicio y asegurar su recuperación.",
+      "La política de contraseñas complejas obligatoria para usuarios avanzados.",
+      "El protocolo de conexión remota mediante VDI para teletrabajo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "22. Según la metodología MAGERIT, ¿cómo se define formalmente un 'Activo' de un sistema de información?",
+    "o": [
+      "Cualquier defecto o debilidad en el diseño que facilita la entrada de virus.",
+      "El daño o perjuicio derivado de la materialización de una amenaza concreta.",
+      "Componente o funcionalidad del sistema de información susceptible de ser atacado con consecuencias para la organización.",
+      "La tasa de ocurrencia anual de una interrupción eléctrica."
+    ],
+    "a": 2
+  },
+  {
+    "q": "23. ¿Qué herramienta de software implementa de forma completa la metodología MAGERIT de análisis y gestión de riesgos, existiendo versiones Basic y micro?",
+    "o": [
+      "INES",
+      "PILAR",
+      "GLORIA",
+      "MONICA"
+    ],
+    "a": 1
+  },
+  {
+    "q": "24. En la taxonomía básica de amenazas a la seguridad de la información (ACIDT), ¿qué tipo de amenaza ataca directamente a la DISPONIBILIDAD?",
+    "o": [
+      "Interceptación",
+      "Modificación",
+      "Interrupción",
+      "Fabricación"
+    ],
+    "a": 2
+  },
+  {
+    "q": "25. El ataque DoS que consiste en inundar de peticiones de conexión TCP (SYN) a un servidor sin llegar a completarlas hasta su saturación se denomina:",
+    "o": [
+      "Ping mortal",
+      "Inyección SQL",
+      "SYN Flood / TCP SYN attack",
+      "Ataque Smurf"
+    ],
+    "a": 2
+  },
+  {
+    "q": "26. ¿Qué término define al malware que carece de capacidad de replicación y ejecuta su código destructivo solo cuando se cumple una condición preestablecida o fecha?",
+    "o": [
+      "Gusano",
+      "Bomba lógica",
+      "Rootkit",
+      "Spyware"
+    ],
+    "a": 1
+  },
+  {
+    "q": "27. ¿Qué gestor de logs (SIEM) desarrollado por el CCN permite responder ante incidentes y amenazas mediante técnicas de correlación compleja de eventos?",
+    "o": [
+      "GLORIA",
+      "LUCIA",
+      "CARMEN",
+      "AMPARO"
+    ],
+    "a": 0
+  },
+  {
+    "q": "28. Durante la ejecución de un Plan de Contingencia frente a un desastre o caída total del sistema, la fase de 'Contención' tiene como objetivo central:",
+    "o": [
+      "Realizar las auditorías normativas del ENS.",
+      "Limitar el alcance del daño y evitar que la degradación del sistema se extienda a otras áreas de la red.",
+      "Restaurar completamente el nivel de servicio habitual.",
+      "Modificar las copias de seguridad incrementales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "29. ¿Qué norma internacional de la familia ISO/IEC proporciona la guía metodológica estructurada para la gestión de incidentes de seguridad de la información?",
+    "o": [
+      "ISO/IEC 27011",
+      "ISO/IEC 27035",
+      "ISO/IEC 27040",
+      "ISO/IEC 15408"
+    ],
+    "a": 1
+  },
+  {
+    "q": "30. Ante incidentes masivos por código dañino tipo ransomware en estaciones de trabajo Windows, ¿qué agente ligero despliega vacunas en el organismo?",
+    "o": [
+      "microCLAUDIA",
+      "CCNDroid Wiper",
+      "ELENA",
+      "MARTA"
+    ],
+    "a": 0
+  }
+]

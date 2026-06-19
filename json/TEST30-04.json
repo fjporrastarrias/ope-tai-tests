@@ -1,0 +1,113 @@
+[
+  {
+    "id": 31,
+    "pregunta": "Según la Disposición Transitoria Única del RD 311/2022, ¿de qué plazo disponían los sistemas preexistentes para alcanzar su adecuación?",
+    "opciones": {
+      "a": "6 meses",
+      "b": "12 meses",
+      "c": "24 meses",
+      "d": "3 años"
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Cómo se determina la categoría de seguridad (Básica, Media o Alta) de un sistema de información según el Anexo I?",
+    "opciones": {
+      "a": "En función de la valoración del impacto que tendría un incidente que afectase a sus dimensiones de seguridad",
+      "b": "Contando el número total de terminales conectados",
+      "c": "Midiendo exclusivamente el presupuesto anual asignado",
+      "d": "Dependiendo de si el sistema trata datos de salud"
+    },
+    "respuesta_corrector": "a",
+    "respuesta_correcta": "a"
+  },
+  {
+    "id": 33,
+    "pregunta": "Basándose en las valoraciones de impacto, ¿a quién corresponde formalmente la determinación final de la categoría de seguridad del sistema?",
+    "opciones": {
+      "a": "Al responsable de la información",
+      "b": "Al responsable del servicio",
+      "c": "Al responsable o responsables de la seguridad",
+      "d": "Al director de informática"
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Qué dimensiones de la seguridad se evalúan de forma unificada para categorizar un sistema en el ENS?",
+    "opciones": {
+      "a": "Confidencialidad y Disponibilidad exclusivamente",
+      "b": "Disponibilidad, Autenticidad, Integridad, Confidencialidad y Trazabilidad",
+      "c": "Eficiencia, Interoperabilidad, Robustez y Escalabilidad",
+      "d": "Secreto, Conservación, Digitalización y Acceso"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 35,
+    "pregunta": "Qué metodología de análisis de riesgos se cita explícitamente en el texto para el proceso de adecuación al ENS?",
+    "opciones": {
+      "a": "COBIT 5",
+      "b": "ISO 27001",
+      "c": "Magerit v3 (junto con la herramienta Pilar)",
+      "d": "ITIL v4"
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "id": 36,
+    "pregunta": "Según el glosario del ENS, la propiedad consistente en que las actuaciones de una entidad pueden ser trazadas de forma indiscutible se denomina:",
+    "opciones": {
+      "a": "Autenticidad",
+      "b": "Integridad",
+      "c": "Trazabilidad",
+      "d": "No repudio perimetral"
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Cuál es el nombre del nuevo portal web o herramienta que integra las soluciones en un modelo basado en 'Business Intelligence' lanzado por el CCN?",
+    "opciones": {
+      "a": "AMPARO",
+      "b": "EVENS",
+      "c": "INES",
+      "d": "SARA"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Cuál de las siguientes es una Instrucción Técnica de Seguridad (ITS) vigente y obligatoria regulada por el ENS?",
+    "opciones": {
+      "a": "ITS de Gestión de Redes Wifi Municipales",
+      "b": "ITS de Notificación de Incidentes de seguridad",
+      "c": "ITS de Copias de Seguridad en Almacenamiento Óptico",
+      "d": "ITS de Desarrollo de Software Libre"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 39,
+    "pregunta": "El principio que exige que las medidas se revalúen periódicamente para adecuar su eficacia a los riesgos cambiantes se denomina:",
+    "opciones": {
+      "a": "Mejora continua del proceso de seguridad",
+      "b": "Reevaluación periódica",
+      "c": "Vigilancia continua",
+      "d": "Gestión basada en riesgos"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 40,
+    "pregunta": "Según el requisito mínimo de 'Registro de actividad', las administraciones públicas pueden analizar las comunicaciones entrantes o salientes:",
+    "opciones": {
+      "a": "Para cualquier fin de control laboral",
+      "b": "En la medida estrictamente necesaria y proporcionada, y únicamente para los fines de seguridad de la información",
+      "c": "Siempre que cuenten con autorización judicial previa",
+      "d": "Queda estrictamente prohibido bajo cualquier circunstancia"
+    },
+    "respuesta_correcta": "b"
+  }
+]

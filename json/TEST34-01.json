@@ -1,0 +1,115 @@
+{
+    "test_id": "TEST34-01",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Según la definición del NIST, ¿cuál es una característica de la computación en la nube?",
+            "options": {
+                "a": "Requiere una alta interacción y mantenimiento manual del proveedor de servicios.",
+                "b": "Permite el acceso rápido a recursos con un esfuerzo de mantenimiento mínimo o sin interacción del proveedor.",
+                "c": "Es de uso exclusivo para entornos corporativos locales sin conectividad a redes públicas.",
+                "d": "Excluye el almacenamiento en red y el agrupamiento de recursos compartidos."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 2,
+            "question": "¿Qué modelo de computación en la nube aloja y controla todas las infraestructuras dentro de la organización con acceso restringido?",
+            "options": {
+                "a": "Nube pública.",
+                "b": "Nube híbrida.",
+                "c": "Nube privada.",
+                "d": "Nube convergente."
+            },
+            "correct": "c"
+        },
+        {
+            "id": 3,
+            "question": "¿Qué es la simulación en el ámbito de la virtualización?",
+            "options": {
+                "a": "La reproducción de las funciones de hardware omitiendo la lógica interna.",
+                "b": "La recreación de un recurso exclusivamente a través de una capa de hipervisor tipo 1.",
+                "c": "La reproducción completa de un sistema mediante software, imitando componentes y su lógica interna.",
+                "d": "El aislamiento de aplicaciones dentro de un entorno tipo sandbox."
+            },
+            "correct": "c"
+        },
+        {
+            "id": 4,
+            "question": "¿Cuál es la diferencia fundamental de la emulación respecto a la simulación?",
+            "options": {
+                "a": "La emulación no reproduce la lógica interna del sistema original, pero permite obtener los mismos resultados.",
+                "b": "La emulación reproduce tanto las funciones como la lógica interna completa del sistema.",
+                "c": "La emulación es aplicable únicamente a sistemas operativos de servidor y no de cliente.",
+                "d": "La emulación no permite ejecutar el sistema reproducido."
+            },
+            "correct": "a"
+        },
+        {
+            "id": 5,
+            "question": "¿Qué define la tecnología DaaS (Desktop as a Service)?",
+            "options": {
+                "a": "VDI alojada localmente en servidores privados on-premise.",
+                "b": "Tecnología VDI alojada al completo en la nube (capa de control y capa de recursos).",
+                "c": "Virtualización de aplicaciones basada exclusivamente en imágenes Docker de solo lectura.",
+                "d": "Gestión centralizada de bases de datos mediante un pool compartido."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 6,
+            "question": "¿Cuál de las siguientes es una solución comercial de tipo DaaS citada en el texto?",
+            "options": {
+                "a": "Acronis Backup.",
+                "b": "Amazon WorkSpaces.",
+                "c": "AWS Storage Gateway.",
+                "d": "Kubernetes Helm."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 7,
+            "question": "¿Qué parámetro define el tiempo máximo que un servicio puede estar caído ante una pérdida de datos?",
+            "options": {
+                "a": "RPO (Recovery Point Objective).",
+                "b": "RTO (Recovery Time Objective).",
+                "c": "SCN (System Change Number).",
+                "d": "DRP (Disaster Recovery Plan)."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 8,
+            "question": "¿Qué parámetro define el tiempo máximo que se pueden perder los datos de un servicio?",
+            "options": {
+                "a": "RTO (Recovery Time Objective).",
+                "b": "RPO (Recovery Point Objective).",
+                "c": "MTBF (Mean Time Between Failures).",
+                "d": "PublishedPort."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 9,
+            "question": "En la arquitectura de backup en la nube, ¿cómo deben enviarse los datos a una nube pública?",
+            "options": {
+                "a": "En formato de texto plano para facilitar la indexación remota.",
+                "b": "Cifrados.",
+                "c": "Sin compresión para evitar corrupción de cabeceras.",
+                "d": "Únicamente en archivos de extensión .tar sin contraseña."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 10,
+            "question": "¿Qué componente del sistema de backup se encarga de gestionar las operaciones de copia y mantener el catálogo con metadatos?",
+            "options": {
+                "a": "Cliente de backup.",
+                "b": "Dispositivo de almacenamiento.",
+                "c": "Servidor de backup.",
+                "d": "Gateway de red."
+            },
+            "correct": "c"
+        }
+    ]
+}

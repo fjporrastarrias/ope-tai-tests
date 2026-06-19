@@ -1,0 +1,116 @@
+{
+    "bloque": "TEST24-02",
+    "descripcion": "Protocolo IP, Cabecera IPv4 y Direccionamiento",
+    "preguntas": [
+        {
+            "id": 11,
+            "enunciado": "¿De cuántos bits consta el campo 'Suma de Control de Cabecera' (Checksum) en la cabecera de un datagrama IPv4?",
+            "opciones": {
+                "a": "8 bits.",
+                "b": "16 bits.",
+                "c": "32 bits.",
+                "d": "64 bits."
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 12,
+            "enunciado": "¿Cuál es la autoridad suprema a nivel global encargada del control total y la asignación de las direcciones IP?",
+            "opciones": {
+                "a": "IEEE",
+                "b": "IANA (departamento de ICANN)",
+                "c": "ISO",
+                "d": "W3C"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 13,
+            "enunciado": "¿Qué dirección de red IPv4 de clase A está específicamente reservada para designar a la propia máquina (loopback)?",
+            "opciones": {
+                "a": "0.0.0.0",
+                "b": "127.0.0.0",
+                "c": "169.254.0.0",
+                "d": "192.168.0.0"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 14,
+            "enunciado": "¿Qué dirección IP origen provisional se puede utilizar en IPv4 antes de obtener una dirección válida a través de DHCP?",
+            "opciones": {
+                "a": "255.255.255.255",
+                "b": "127.0.0.1",
+                "c": "0.0.0.0",
+                "d": "169.254.1.1"
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 15,
+            "enunciado": "¿Qué rango de red está reservado en la Clase B para el direccionamiento de enlace local automático (APIPA o auto-IP)?",
+            "opciones": {
+                "a": "172.16.0.0/12",
+                "b": "169.254.0.0/16",
+                "c": "192.168.0.0/16",
+                "d": "127.0.0.0/8"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 16,
+            "enunciado": "¿Qué ocurre con un paquete dirigido a la dirección de broadcast limitado 255.255.255.255?",
+            "opciones": {
+                "a": "Se dirige a todos los hosts de la red destino atravesando múltiples routers.",
+                "b": "Se dirige a todos los hosts de la misma red y no puede atravesar un router.",
+                "c": "Se envía únicamente a los routers de la red local.",
+                "d": "Se descarta inmediatamente por ser una dirección no válida."
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 17,
+            "enunciado": "Para determinar si una dirección IP determinada pertenece a una red específica, ¿qué operación lógica se realiza?",
+            "opciones": {
+                "a": "Operación OR entre la dirección IP y la máscara de subred.",
+                "b": "Operación AND entre la dirección IP y la máscara de subred.",
+                "c": "Operación XOR entre la dirección IP y la dirección de broadcast.",
+                "d": "Operación NOT sobre la dirección IP."
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 18,
+            "enunciado": "¿Cuál es la conversión a notación CIDR de una máscara de red expresada en formato decimal como 255.255.224.0?",
+            "opciones": {
+                "a": "/16",
+                "b": "/19",
+                "c": "/23",
+                "d": "/24"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 19,
+            "enunciado": "¿Qué método flexible permite ajustar el tamaño en bits de la parte de host al número real de hosts deseados para paliar el desperdicio de direcciones?",
+            "opciones": {
+                "a": "FLSM (Fixed Length Subnet Mask)",
+                "b": "VLSM (Variable Length Subnet Mask)",
+                "c": "Classful addressing",
+                "d": "Multicasting"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 20,
+            "enunciado": "¿Cuál es la dirección de broadcast correspondiente a la red 213.114.93.0 con máscara 255.255.255.192?",
+            "opciones": {
+                "a": "213.114.93.255",
+                "b": "213.114.93.63",
+                "c": "213.114.93.127",
+                "d": "213.114.93.31"
+            },
+            "respuesta_correcta": "b"
+        }
+    ]
+}

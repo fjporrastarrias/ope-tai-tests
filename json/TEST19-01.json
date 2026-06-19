@@ -1,0 +1,135 @@
+{
+    "test_bloque": "BLOQUE-01",
+    "preguntas": [
+        {
+            "id": 1,
+            "categoria": "Impress",
+            "pregunta": "Respecto a Impress, ¿cuál es el/la formato nativo de guardado?",
+            "opciones": {
+                "a": ".odt",
+                "b": ".ods",
+                "c": ".odg",
+                "d": ".odp"
+            },
+            "respuesta_correcta": "d",
+            "explicacion": "La respuesta correcta es la d debido a la especificación técnica normativa del módulo de Impress."
+        },
+        {
+            "id": 2,
+            "categoria": "Impress",
+            "pregunta": "Respecto a Impress, ¿cuál es el/la panel lateral que contiene las Páginas Maestras?",
+            "opciones": {
+                "a": "Barra de Estado",
+                "b": "Menú Formato",
+                "c": "Panel de Tareas",
+                "d": "Panel de Diapositivas"
+            },
+            "respuesta_correcta": "c",
+            "explicacion": "La respuesta correcta es la c debido a la especificación técnica normativa del módulo de Impress."
+        },
+        {
+            "id": 3,
+            "categoria": "Base",
+            "pregunta": "Respecto a Base, ¿cuál es el/la motor relacional clásico escrito en Java integrado por defecto?",
+            "opciones": {
+                "a": "PostgreSQL",
+                "b": "HSQLDB",
+                "c": "Firebird",
+                "d": "SQLite"
+            },
+            "respuesta_correcta": "b",
+            "explicacion": "La respuesta correcta es la b debido a la especificación técnica normativa del módulo de Base."
+        },
+        {
+            "id": 4,
+            "categoria": "Base",
+            "pregunta": "Respecto a Base, ¿cuál es el/la objeto utilizado para diseñar la interfaz de introducción de datos?",
+            "opciones": {
+                "a": "Formularios",
+                "b": "Informes",
+                "c": "Consultas",
+                "d": "Tablas"
+            },
+            "respuesta_correcta": "a",
+            "explicacion": "La respuesta correcta es la a debido a la especificación técnica normativa del módulo de Base."
+        },
+        {
+            "id": 5,
+            "categoria": "Código Abierto",
+            "pregunta": "Respecto a Código Abierto, ¿cuál es el/la estándar ISO/IEC 26300 para documentos de oficina?",
+            "opciones": {
+                "a": "OOXML",
+                "b": "PDF/A",
+                "c": "XHTML",
+                "d": "ODF"
+            },
+            "respuesta_correcta": "d",
+            "explicacion": "La respuesta correcta es la d debido a la especificación técnica normativa del módulo de Código Abierto."
+        },
+        {
+            "id": 6,
+            "categoria": "Impress",
+            "pregunta": "Respecto a Impress, ¿cuál es el/la vista orientada a la ordenación y organización secuencial rápida de diapositivas?",
+            "opciones": {
+                "a": "Vista Esquema",
+                "b": "Vista Notas",
+                "c": "Clasificador de diapositivas",
+                "d": "Vista Normal"
+            },
+            "respuesta_correcta": "c",
+            "explicacion": "La respuesta correcta es la c debido a la especificación técnica normativa del módulo de Impress."
+        },
+        {
+            "id": 7,
+            "categoria": "Base",
+            "pregunta": "Respecto a Base, ¿cuál es el/la controlador estándar multiplataforma para conectar Base a MySQL o PostgreSQL?",
+            "opciones": {
+                "a": "NFS",
+                "b": "JDBC",
+                "c": "ODBC nativo exclusivo",
+                "d": "Samba"
+            },
+            "respuesta_correcta": "b",
+            "explicacion": "La respuesta correcta es la b debido a la especificación técnica normativa del módulo de Base."
+        },
+        {
+            "id": 8,
+            "categoria": "Código Abierto",
+            "pregunta": "Respecto a Código Abierto, ¿cuál es el/la organización que gestiona el desarrollo activo de LibreOffice?",
+            "opciones": {
+                "a": "The Document Foundation",
+                "b": "Apache Foundation",
+                "c": "Microsoft Corp",
+                "d": "Oracle"
+            },
+            "respuesta_correcta": "a",
+            "explicacion": "La respuesta correcta es la a debido a la especificación técnica normativa del módulo de Código Abierto."
+        },
+        {
+            "id": 9,
+            "categoria": "Base",
+            "pregunta": "Respecto a Base, ¿cuál es el/la extensión nativa de los archivos de base de datos creados en Base?",
+            "opciones": {
+                "a": ".db",
+                "b": ".accdb",
+                "c": ".sql",
+                "d": ".odb"
+            },
+            "respuesta_correcta": "d",
+            "explicacion": "La respuesta correcta es la d debido a la especificación técnica normativa del módulo de Base."
+        },
+        {
+            "id": 10,
+            "categoria": "Impress",
+            "pregunta": "Respecto a Impress, ¿cuál es el/la herramienta para ver la diapositiva siguiente y notas en pantalla secundaria?",
+            "opciones": {
+                "a": "Diseño maestro",
+                "b": "Animación en cascada",
+                "c": "Consola de presentación",
+                "d": "Clasificador"
+            },
+            "respuesta_correcta": "c",
+            "explicacion": "La respuesta correcta es la c debido a la especificación técnica normativa del módulo de Impress."
+        }
+    ]
+}

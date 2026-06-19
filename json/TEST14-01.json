@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cuál de los siguientes elementos forma parte de la Unidad Central de Procesamiento (CPU) según la arquitectura Von Neumann?",
+    "opciones": {
+      "a": "La Memoria Secundaria.",
+      "b": "La Unidad Aritmético Lógica (ALU).",
+      "c": "El Bus de Datos Externo.",
+      "d": "El Periférico de Entrada."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 2,
+    "pregunta": "En la arquitectura de un ordenador, ¿cuál es la función de la Unidad de Control (UC)?",
+    "opciones": {
+      "a": "Realizar operaciones matemáticas de punto flotante.",
+      "b": "Almacenar permanentemente el sistema operativo.",
+      "c": "Buscar, decodificar y secuenciar la ejecución de las instrucciones.",
+      "d": "Estabilizar el voltaje de la memoria RAM."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Qué tipo de bus se encarga de determinar la ubicación física en memoria de los datos que la CPU desea leer o escribir?",
+    "opciones": {
+      "a": "Bus de control.",
+      "b": "Bus de datos.",
+      "c": "Bus de direcciones.",
+      "d": "Bus de expansión."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 4,
+    "pregunta": "Si un procesador tiene un bus de direcciones de 32 bits, ¿cuál es el espacio máximo de memoria que puede direccionar teóricamente?",
+    "opciones": {
+      "a": "2 GB.",
+      "b": "4 GB.",
+      "c": "16 GB.",
+      "d": "64 GB."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Cuál es la característica principal de un bus síncrono frente a uno asíncrono?",
+    "opciones": {
+      "a": "No requiere líneas de control.",
+      "b": "Incluye una línea de reloj común que sincroniza todas las operaciones.",
+      "c": "Permite transferencias a cualquier velocidad sin coordinar componentes.",
+      "d": "Utiliza un protocolo de 'apretón de manos' (handshaking) para cada dato."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 6,
+    "pregunta": "Componente de la CPU que almacena temporalmente la instrucción que se está ejecutando:",
+    "opciones": {
+      "a": "El Contador de Programa (PC).",
+      "b": "El Registro de Instrucción (RI).",
+      "c": "El Acumulador.",
+      "d": "El Registro de Dirección de Memoria (MAR)."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Qué elemento del procesador indica la dirección de la próxima instrucción que debe ser ejecutada?",
+    "opciones": {
+      "a": "El Registro de Datos de Memoria (MDR).",
+      "b": "El Contador de Programa (PC).",
+      "c": "La Unidad Aritmético Lógica.",
+      "d": "El Registro de Estado."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 8,
+    "pregunta": "Dentro del ciclo de instrucción clásico, ¿cuál es el orden correcto de las fases primarias?",
+    "opciones": {
+      "a": "Ejecución (Execute), Búsqueda (Fetch), Decodificación (Decode).",
+      "b": "Búsqueda (Fetch), Decodificación (Decode), Ejecución (Execute).",
+      "c": "Decodificación (Decode), Escritura (Writeback), Búsqueda (Fetch).",
+      "d": "Búsqueda (Fetch), Ejecución (Execute), Almacenamiento (Store)."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 9,
+    "pregunta": "¿A qué se denomina 'cuello de botella de Von Neumann'?",
+    "opciones": {
+      "a": "A la diferencia de velocidad entre los registros internos y la ALU.",
+      "b": "A la limitación de rendimiento debida a que los datos y las instrucciones comparten el mismo bus de datos y memoria física.",
+      "c": "A la incapacidad de los periféricos de entrada para enviar datos sincrónicamente.",
+      "d": "Al calentamiento excesivo de los condensadores de la memoria RAM dinámica."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 10,
+    "pregunta": "Mecanismo por el cual un periférico transfiere datos directamente a la memoria principal sin intervención continua de la CPU:",
+    "opciones": {
+      "a": "E/S programada.",
+      "b": "Interrupción por hardware (IRQ).",
+      "c": "Acceso Directo a Memoria (DMA).",
+      "d": "Polling o consulta continua."
+    },
+    "correcta": "c"
+  }
+]

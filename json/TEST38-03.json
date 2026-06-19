@@ -1,0 +1,112 @@
+[
+    {
+        "id": 21,
+        "question": "¿Qué es la plataforma @firma del Ministerio de Asuntos Económicos y Transformación Digital?",
+        "options": {
+            "a": "Una base de datos de ciudadanos con firma electrónica.",
+            "b": "Una plataforma de servicios de validación y firma electrónica multi-PKI desacoplada de las aplicaciones.",
+            "c": "Un programa que se instala obligatoriamente en los ordenadores de los ciudadanos.",
+            "d": "El registro civil electrónico de España."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 22,
+        "question": "¿Por qué se describe a @firma como una solución 'multi-PKI'?",
+        "options": {
+            "a": "Porque solo admite certificados del DNI electrónico.",
+            "b": "Porque da servicio a múltiples sistemas operativos móviles simultáneamente.",
+            "c": "Porque admite y da soporte a múltiples certificados electrónicos de diferentes prestadores y estándares de firma.",
+            "d": "Porque requiere múltiples claves privadas para validar una sola firma."
+        },
+        "answer": "c"
+    },
+    {
+        "id": 23,
+        "question": "¿A qué niveles de la Administración Pública española da servicio la plataforma de validación @firma?",
+        "options": {
+            "a": "Únicamente a la Administración General del Estado (AGE).",
+            "b": "A las Administraciones Autonómicas exclusivamente.",
+            "c": "Tanto a la administración estatal, como autonómica o local (incluyendo ayuntamientos como el de Priego de Córdoba).",
+            "d": "Solo a las instituciones de la Unión Europea."
+        },
+        "answer": "c"
+    },
+    {
+        "id": 24,
+        "question": "¿Cuál es el objetivo principal del servicio de validación de certificados de @firma?",
+        "options": {
+            "a": "Comprobar que el certificado utilizado es válido, no ha sido revocado y tiene plena validez.",
+            "b": "Renovar automáticamente los certificados que están a punto de caducar.",
+            "c": "Almacenar una copia de seguridad de las claves privadas de los ciudadanos.",
+            "d": "Cobrar las tasas correspondientes por el uso de la firma digital."
+        },
+        "answer": "a"
+    },
+    {
+        "id": 25,
+        "question": "¿Qué librerías de integración proporciona @firma para facilitar que las aplicaciones de las Administraciones se conecten con sus servicios?",
+        "options": {
+            "a": "VALIDe.",
+            "b": "Integr@.",
+            "c": "Monitoriz@.",
+            "d": "VALet."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 26,
+        "question": "Además de ofrecerse como servicio en la nube del Ministerio, ¿cómo está disponible @firma para las administraciones que deseen instalarlo localmente?",
+        "options": {
+            "a": "Como software de código cerrado bajo licencia comercial privativa.",
+            "b": "Como software liberado bajo licencia EUPL (modelo federado).",
+            "c": "Únicamente en formato de hardware físico (servidor appliance preconfigurado).",
+            "d": "No está disponible para instalación local, solo existe en modalidad SaaS centralizado."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 27,
+        "question": "¿Cuál es la versión actual de la plataforma @firma descrita en la documentación técnica del CTT?",
+        "options": {
+            "a": "Versión 5.0",
+            "b": "Versión 6.2",
+            "c": "Versión 6.4",
+            "d": "Versión 7.0"
+        },
+        "answer": "c"
+    },
+    {
+        "id": 28,
+        "question": "En la versión 6.4 de @firma, ¿en qué tres componentes principales se divide su arquitectura?",
+        "options": {
+            "a": "Frontend, Backend y Base de Datos.",
+            "b": "Administración, Servicios Base (Validación y Firma) y Servicios Asíncronos.",
+            "c": "Cliente, Servidor y Pasarela de Pago.",
+            "d": "Autenticación, Autorización y Auditoría."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 29,
+        "question": "¿Bajo qué arquitectura funcional trabaja la suite @firma 6.4 respecto al nodo de procesamiento?",
+        "options": {
+            "a": "Multi-nodo distribuido globalmente.",
+            "b": "Mono-nodo.",
+            "c": "Arquitectura peer-to-peer sin servidores centralizados.",
+            "d": "Cloud computing basado exclusivamente en contenedores Docker externos."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 30,
+        "question": "¿A qué certificados europeos es aplicable la plataforma de validación de @firma?",
+        "options": {
+            "a": "A ninguno, está restringida estrictamente al territorio nacional español.",
+            "b": "A todos los certificados europeos incluidos en las Listas de Confianza (TSL) de sus Estados Miembros.",
+            "c": "Solo a los certificados emitidos en Francia y Portugal por proximidad.",
+            "d": "Únicamente a certificados de personal diplomático de la UE."
+        },
+        "answer": "b"
+    }
+]

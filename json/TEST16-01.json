@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué característica define principalmente a la Web 1.0 según la documentación de estudio?",
+    "opciones": {
+      "a": "Es una web puramente interactiva y basada en redes sociales.",
+      "b": "Es una web de solo lectura, orientada a la navegación pasiva y a dispositivos de escritorio.",
+      "c": "Se fundamenta en agentes virtuales inteligentes y semántica de datos.",
+      "d": "Permite la manipulación automática de descripciones mediante motores de inferencia."
+    },
+    "correcta": "b",
+    "explicacion": "La Web 1.0 es una web de solo lectura para navegar, basada en HTTP, URL y HTML, con una experiencia pasiva sin interacción."
+  },
+  {
+    "id": 2,
+    "pregunta": "Según la definición del W3C, ¿en qué framework se basa principalmente la Web Semántica (Web 3.0) para integrar aplicaciones que utilizan XML?",
+    "opciones": {
+      "a": "SOAP (Simple Object Access Protocol)",
+      "b": "AJAX (Asynchronous JavaScript and XML)",
+      "c": "RDF (Resource Description Framework)",
+      "d": "RSS (Really Simple Syndication)"
+    },
+    "correcta": "c",
+    "explicacion": "La Web Semántica del W3C se basa en el Resource Description Framework (RDF), que integra una gran variedad de aplicaciones que utilizan el lenguaje XML."
+  },
+  {
+    "id": 3,
+    "pregunta": "En el ciclo de vida de una RFC (Request For Comments) elaborado por el IETF, ¿cuál de los siguientes NO es un estado oficial?",
+    "opciones": {
+      "a": "Borrador estándar.",
+      "b": "Propuesta estándar.",
+      "c": "Protocolo definitivo y permanente.",
+      "d": "Experimental o Informativo."
+    },
+    "correcta": "c",
+    "explicacion": "Los estados de una RFC son: protocolo estándar, borrador estándar, propuesta estándar, experimental, informativo y protocolo histórico."
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Cuál fue el nombre inicial que Tim Berners-Lee propuso para el sistema de hipertexto que hoy conocemos como World Wide Web?",
+    "opciones": {
+      "a": "CERN Net",
+      "b": "Mesh (malla)",
+      "c": "HyperNews",
+      "d": "Mosaic Link"
+    },
+    "correcta": "b",
+    "explicacion": "Tim Berners-Lee propuso inicialmente la arquitectura de la WWW bajo el nombre de 'Mesh' (malla) en el CERN en 1990."
+  },
+  {
+    "id": 5,
+    "pregunta": "En la estructura de una URL, ¿qué componentes tienen carácter estrictamente obligatorio según el documento técnico?",
+    "opciones": {
+      "a": "El nombre de protocolo y el número de puerto.",
+      "b": "El nombre de protocolo y el nombre de host-dominio o dirección IP.",
+      "c": "El login, password y la localización en el servidor.",
+      "d": "El host-dominio y el número de puerto por defecto."
+    },
+    "correcta": "b",
+    "explicacion": "Son obligatorios el nombre de protocolo y el nombre de host-dominio o dirección IP. El resto son opcionales."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Qué tipo de servidor DNS almacena conjuntos de registros obtenidos mediante búsquedas recursivas a servidores autoritativos de forma temporal?",
+    "opciones": {
+      "a": "Servidor DNS Primario o Maestro.",
+      "b": "Servidor DNS Esclavo o Secundario.",
+      "c": "Servidor Caché o Resolver.",
+      "d": "Servidor Raíz (Root Server)."
+    },
+    "correcta": "c",
+    "explicacion": "Los servidores caché almacenan de forma temporal registros obtenidos de consultas recursivas a servidores autoritativos."
+  },
+  {
+    "id": 7,
+    "pregunta": "Dentro de la jerarquía DNS, ¿cuál es la longitud máxima de caracteres permitida para una etiqueta individual y para el FQDN completo, respectivamente?",
+    "opciones": {
+      "a": "32 caracteres por etiqueta y 128 para el FQDN.",
+      "b": "63 caracteres por etiqueta y 255 para el FQDN (incluyendo los puntos).",
+      "c": "64 caracteres por etiqueta y 256 para el FQDN.",
+      "d": "15 caracteres por etiqueta y 63 para el FQDN."
+    },
+    "correcta": "b",
+    "explicacion": "Cada etiqueta separada por un punto puede tener un máximo de 63 caracteres, y el FQDN completo un máximo de 255 caracteres."
+  },
+  {
+    "id": 8,
+    "pregunta": "Bajo el Plan Nacional de nombres de dominio '.es', ¿cuáles son los límites máximos y mínimos de caracteres para los dominios de segundo nivel?",
+    "opciones": {
+      "a": "Mínimo 2 y máximo 63 caracteres.",
+      "b": "Mínimo 3 y máximo 63 caracteres.",
+      "c": "Mínimo 3 y máximo 255 caracteres.",
+      "d": "Mínimo 2 y máximo 32 caracteres."
+    },
+    "correcta": "b",
+    "explicacion": "El Plan Nacional estipula para dominios de segundo nivel un máximo de 63 y un mínimo de 3 caracteres."
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Según las RFC 2606 y 6761, ¿cuál de los siguientes es un nombre de dominio de primer nivel (TLD) reservado?",
+    "opciones": {
+      "a": "example.com",
+      "b": ".invalid",
+      "c": "localhost.localdomain",
+      "d": ".internal"
+    },
+    "correcta": "b",
+    "explicacion": "Los TLD reservados son .test, .example, .invalid y .localhost."
+  },
+  {
+    "id": 10,
+    "pregunta": "Para la resolución inversa de una dirección IPv4 como la 213.4.108.69, ¿cuál es el formato exacto del dominio dentro de in-addr.arpa?",
+    "opciones": {
+      "a": "213.4.108.69.in-addr.arpa",
+      "b": "in-addr.arpa.213.4.108.69",
+      "c": "69.108.4.213.in-addr.arpa",
+      "d": "69.108.4.213.ip6.arpa"
+    },
+    "correcta": "c",
+    "explicacion": "Las direcciones IPv4 se codifican en orden inverso octeto por octeto, seguidas del sufijo '.in-addr.arpa'."
+  }
+]

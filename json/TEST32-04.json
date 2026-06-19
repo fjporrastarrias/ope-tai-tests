@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué permite la tecnología de Escritorio Remoto (Remote Desktop) según el tema?",
+    "o": [
+      "Controlar de forma remota un equipo viendo su pantalla y transmitiendo órdenes de teclado y ratón",
+      "Duplicar físicamente el disco duro de un servidor mediante red local",
+      "Instalar el sistema operativo de forma desatendida a través de la red",
+      "Realizar copias de seguridad de los datos de carácter personal en la nube"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Al habilitar la funcionalidad de escritorio remoto, ¿qué acción técnica ocurre automáticamente en el equipo servidor?",
+    "o": [
+      "Se abre un puerto de comunicaciones",
+      "Se bloquea el cortafuegos perimetral",
+      "Se formatea el fragmento de clúster no utilizado",
+      "Se elevan los privilegios del usuario a Administrador avanzado"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Según las directivas de roles de usuario del sistema, ¿qué perfil posee por definición la mayor cantidad de privilegios?",
+    "o": [
+      "Administrador",
+      "Usuario avanzado",
+      "Usuario",
+      "Administrador avanzado"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué significan las siglas del protocolo PXE utilizado para arrancar e instalar sistemas operativos por red?",
+    "o": [
+      "Preboot Execution Environment (Entorno de ejecución de prearranque)",
+      "Private Exchange Extension",
+      "Power eXecution Engine",
+      "Protocol for X-window Extension"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué incluye una compilación o recopilación destinada a despliegues masivos según el texto?",
+    "o": [
+      "Tanto los programas a instalar como sus configuraciones, cuando sean posibles",
+      "Únicamente los instaladores binarios sin posibilidad de configuración",
+      "Exclusivamente los drivers de dispositivos de hardware externos",
+      "Las claves criptográficas asimétricas del administrador"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Se puede usar una recopilación de instalación creada en Windows para instalar un sistema operativo distinto de Windows?",
+    "o": [
+      "Sí, se puede utilizar para instalar cualquier sistema operativo siempre que lo contenga",
+      "No, está estrictamente limitada a sistemas de la familia Microsoft Windows",
+      "Sí, pero requiere disponer obligatoriamente de una base de datos Oracle",
+      "No, las recopilaciones solo admiten software ofimático de código abierto"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué tipo de documentación se recomienda generar para que los usuarios finales operen dispositivos sin abrumarse?",
+    "o": [
+      "Manuales abreviados o resúmenes de funcionalidades",
+      "Manuales completos del fabricante en formato papel",
+      "Preguntas frecuentes de administración avanzada",
+      "Directivas de seguridad del Esquema Nacional de Seguridad"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Si dos grupos de trabajo (ej. Ventas y Compras) usan un dispositivo de manera diferente, ¿qué política de manuales debe seguirse?",
+    "o": [
+      "Generar un manual abreviado diferente para cada grupo, adecuado a sus funciones",
+      "Proporcionar un único manual idéntico para ambos grupos de trabajo",
+      "Entregar el manual técnico de ingeniería proporcionado por el fabricante",
+      "No facilitar documentación y derivar todo a asistencia activa"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué modelo arquitectónico sigue el acceso y control por escritorio remoto?",
+    "o": [
+      "Modelo cliente-servidor",
+      "Modelo de red entre pares (P2P)",
+      "Modelo distribuido por nodos simétricos",
+      "Modelo de computación en la nube pura sin servidor local"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Para qué tipo de labores SÍ se recomienda explícitamente el uso de escritorio remoto según el temario?",
+    "o": [
+      "Labores de mantenimiento técnico o uso de software específico en un equipo dedicado",
+      "Trabajo en remoto o teletrabajo diario de los usuarios generales de la organización",
+      "Copia de seguridad y backups masivos de bases de datos relacionales",
+      "Auditoría continua de cumplimiento del Esquema Nacional de Seguridad (ENS)"
+    ],
+    "a": 0
+  }
+]

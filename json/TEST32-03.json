@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cómo define el texto una incidencia en la explotación de los sistemas?",
+    "o": [
+      "Toda interrupción o reducción de la calidad no planificada del servicio",
+      "Cualquier consulta rutinaria del usuario sobre software de oficina",
+      "Un mantenimiento programado fuera del horario laboral",
+      "La instalación autorizada de un nuevo periférico de red"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es el estándar o marco de referencia para la gestión de usuarios y Centros de Atención a Usuarios (CAU)?",
+    "o": [
+      "ITIL",
+      "ISO 31000",
+      "MAGERIT",
+      "Common Criteria"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es la actividad en la que se registra formalmente cada incidencia detectada?",
+    "o": [
+      "Registro",
+      "Categorización",
+      "Priorización",
+      "Cierre"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué nombre recibe la acción de remitir una incidencia a un segundo nivel de resolución por su complejidad o criticidad?",
+    "o": [
+      "Escalado",
+      "Diagnóstico inicial",
+      "Investigación",
+      "Categorización"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál de las siguientes herramientas de gestión de incidencias es mencionada expresamente como Open Source?",
+    "o": [
+      "osTicket",
+      "Zendesk",
+      "Freshservice",
+      "SysAid"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Si se decide reemplazar una remesa de monitores porque se observa que muchos empiezan a fallar, ¿qué tipo de mantenimiento es según la autoevaluación?",
+    "o": [
+      "Preventivo",
+      "Predictivo",
+      "Correctivo",
+      "Evolutivo"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿A qué nivel de soporte corresponde la eliminación de cookies y archivos temporales de un equipo?",
+    "o": [
+      "Soporte a nivel de software",
+      "Soporte a nivel de hardware",
+      "Mantenimiento predictivo",
+      "Administración remota pasiva"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué tipo de asistencia técnica comprende manuales, FAQs, ayudas contextuales y tutoriales sin intervención directa del técnico?",
+    "o": [
+      "Asistencia Pasiva",
+      "Asistencia Activa",
+      "Asistencia Escalada",
+      "Asistencia Remota"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿De qué lados puede generarse un parte de incidencias según el manual técnico proporcionado?",
+    "o": [
+      "Tanto del lado del usuario como del lado del técnico",
+      "Únicamente del lado del usuario final",
+      "Únicamente del lado del administrador del sistema",
+      "Exclusivamente por herramientas de monitorización automática"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué herramienta de gestión de incidencias figura en la lista del temario y es ampliamente utilizada para soporte?",
+    "o": [
+      "Jira Service Desk",
+      "Remedy Lite",
+      "Mantis Open",
+      "osDesk"
+    ],
+    "a": 0
+  }
+]

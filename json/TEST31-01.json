@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Qué sigla define las dimensiones esenciales de la seguridad de la información según el cuaderno técnico?",
+        "opciones": {
+            "a": "AICDT",
+            "b": "ACIDT",
+            "c": "CAID",
+            "d": "STIC"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 2,
+        "pregunta": "La propiedad que garantiza que una entidad es quien dice ser o asegura la procedencia de los datos es la:",
+        "opciones": {
+            "a": "Confidencialidad",
+            "b": "Trazabilidad",
+            "c": "Autenticidad",
+            "d": "Integridad"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿A qué dimensión afecta directamente una amenaza de Interrupción?",
+        "opciones": {
+            "a": "Confidencialidad",
+            "b": "Disponibilidad",
+            "c": "Trazabilidad",
+            "d": "Integridad"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 4,
+        "pregunta": "Las medidas STIC destinadas a proteger los equipos frente a la emisión de radiaciones no deseadas se denominan:",
+        "opciones": {
+            "a": "TRANSEC",
+            "b": "COMPUSEC",
+            "c": "NETSEC",
+            "d": "EMSEC"
+        },
+        "respuesta_correcta": "d"
+    },
+    {
+        "id": 5,
+        "pregunta": "La diferencia fundamental de TRANSEC respecto a NETSEC radica en:",
+        "opciones": {
+            "a": "El uso exclusivo de cortafuegos de aplicaciones.",
+            "b": "La prevención contra la interceptación y análisis de señales electromagnéticas.",
+            "c": "Que solo se aplica en centros de datos cloud públicos.",
+            "d": "No existe diferencia entre ambos términos."
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 6,
+        "pregunta": "Según MAGERIT, el daño sobre el activo derivado de la materialización de una amenaza es el:",
+        "opciones": {
+            "a": "Riesgo",
+            "b": "Impacto",
+            "c": "Defecto",
+            "d": "Salvaguarda"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Qué norma internacional define los principios genéricos para la Gestión de Riesgos?",
+        "opciones": {
+            "a": "ISO/IEC 27001",
+            "b": "ISO 31000",
+            "c": "ISO/IEC 15408",
+            "d": "UNE 71504"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Qué herramienta implementa la metodología MAGERIT para el análisis y gestión de riesgos?",
+        "opciones": {
+            "a": "AMPARO",
+            "b": "CARLA",
+            "c": "CLARA",
+            "d": "PILAR"
+        },
+        "respuesta_correcta": "d"
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Qué guía técnica ISO/IEC proporciona directrices no certificables para la gestión del riesgo?",
+        "opciones": {
+            "a": "ISO/IEC 27002",
+            "b": "ISO/IEC 27005",
+            "c": "ISO/IEC 27035",
+            "d": "ISO/IEC 27004"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 10,
+        "pregunta": "La norma ISO/IEC 15408 es también conocida internacionalmente como:",
+        "opciones": {
+            "a": "ITIL Framework",
+            "b": "Common Criteria",
+            "c": "Magerit v3",
+            "d": "Tier Standard"
+        },
+        "respuesta_correcta": "b"
+    }
+]

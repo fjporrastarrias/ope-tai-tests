@@ -1,0 +1,112 @@
+[
+  {
+    "id": 21,
+    "pregunta": "¿Se pueden reemplazar las medidas de seguridad del Anexo II por otras alternativas?",
+    "opciones": {
+      "a": "No, las medidas son inalterables",
+      "b": "Sí, por medidas compensatorias, justificando documentalmente que protegen igual o mejor",
+      "c": "Sí, pero solo en sistemas de categoría básica",
+      "d": "Únicamente si lo autoriza el Consejo de Ministros"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Con qué frecuencia mínima ordinaria deben ser objeto de una auditoría de seguridad los sistemas del ámbito del ENS?",
+    "opciones": {
+      "a": "Anualmente",
+      "b": "Al menos cada dos años",
+      "c": "Cada tres años obligatoriamente",
+      "d": "Cada cinco años junto con la renovación"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Cuándo se debe realizar una auditoría extraordinaria en un sistema regulado por el ENS?",
+    "opciones": {
+      "a": "Cuando cambie el responsable de la información",
+      "b": "Siempre que se produzcan modificaciones sustanciales en el sistema que puedan repercutir en la seguridad",
+      "c": "Cada vez que se detecte una falsa alarma de malware",
+      "d": "Al finalizar el año natural siempre"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 24,
+    "pregunta": "En caso de concurrir impedimentos de fuerza mayor, el plazo de dos años para la auditoría ordinaria se puede extender durante:",
+    "opciones": {
+      "a": "Un mes",
+      "b": "Tres meses",
+      "c": "Seis meses",
+      "d": "Un año"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 25,
+    "pregunta": "En sistemas de categoría ALTA, si el dictamen de auditoría detecta deficiencias muy graves, ¿qué puede hacer el responsable del sistema?",
+    "opciones": {
+      "a": "Sancionar económicamente al personal",
+      "b": "Suspender temporalmente el tratamiento de informaciones, la prestación de servicios o la total operación",
+      "c": "Modificar de forma unilateral la ley estatal",
+      "d": "Cambiar la categoría a Básica automáticamente"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Qué órgano es el encargado de recoger la información para elaborar el perfil general del estado de la seguridad?",
+    "opciones": {
+      "a": "El Centro Criptológico Nacional",
+      "b": "La Comisión Sectorial de Administración Electrónica",
+      "c": "La Agencia Española de Protección de Datos",
+      "d": "El Instituto Nacional de Administración Pública"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 27,
+    "pregunta": "¿A través de qué estructura específica el CCN articula la respuesta técnica a los incidentes de seguridad del sector público?",
+    "opciones": {
+      "a": "INCIBE-CERT",
+      "b": "ESPDEF-CERT",
+      "c": "CCN-CERT",
+      "d": "Mando Conjunto del Ciberespacio"
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "id": 28,
+    "pregunta": "Cuando una organización privada que presta servicios a entidades públicas sufre un incidente, ¿a quién debe notificarlo?",
+    "opciones": {
+      "a": "Al CCN-CERT de forma directa",
+      "b": "Al INCIBE-CERT, quien lo pondrá en conocimiento del CCN-CERT",
+      "c": "Al Ministerio del Interior únicamente",
+      "d": "A la sede electrónica del Ayuntamiento contratante"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Qué procedimiento de conformidad requieren los sistemas clasificados como de categoría BÁSICA?",
+    "opciones": {
+      "a": "Una auditoría formal de certificación bienal",
+      "b": "Una autoevaluación documentada para su declaración de conformidad",
+      "c": "Un informe pericial firmado por notario",
+      "d": "Quedan totalmente exentos de procesos de conformidad"
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Qué procedimiento se exige obligatoriamente para determinar la conformidad de los sistemas de categoría MEDIA o ALTA?",
+    "opciones": {
+      "a": "Bastará con una autoevaluación firmada",
+      "b": "Una auditoría para la certificación de su conformidad realizada por entidades acreditadas",
+      "c": "Un control trimestral mediante cuestionarios web",
+      "d": "Una inspección presencial del Ministerio"
+    },
+    "respuesta_correcta": "b"
+  }
+]

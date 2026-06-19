@@ -1,0 +1,117 @@
+{
+  "bloque": "Bloque IV - Cuestionario 2",
+  "tema": "Tema 21",
+  "titulo": "Administración del Sistema Operativo - Gestores de Paquetes y Comandos Auxiliares",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Dentro del sistema de paquetes de Debian, ¿cómo se clasifican los paquetes indispensables para el correcto funcionamiento del propio sistema por orden decreciente de prioridad?",
+      "opciones": {
+        "a": "Critical, High, Medium, Low",
+        "b": "Required, Important, Standard, Optional, Extra",
+        "c": "Essential, Necessary, Common, Accessory",
+        "d": "Core, Main, Universe, Multiverse"
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué comando de APT se utiliza exclusivamente para el análisis del sistema de paquetes (como buscar, mostrar dependencias o ver información) y es accesible por todos los usuarios sin privilegios de root?",
+      "opciones": {
+        "a": "apt-get",
+        "b": "dpkg",
+        "c": "apt-cache",
+        "d": "aptitude-run"
+      },
+      "respuesta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cuál es la función del parámetro 'clean' del comando apt-get?",
+      "opciones": {
+        "a": "Eliminar todas las copias no desempaquetadas de los paquetes, independientemente de su vigencia.",
+        "b": "Eliminar el paquete sin borrar sus archivos de configuración.",
+        "c": "Actualizar la lista de paquetes disponibles en los repositorios.",
+        "d": "Eliminar las copias caducadas de los paquetes almacenadas de manera automática en /var/cache/apt/archives."
+      },
+      "respuesta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "En el gestor de paquetes dpkg, ¿qué parámetro se utiliza para listar todos los ficheros contenidos dentro de un paquete específico?",
+      "opciones": {
+        "a": "-l",
+        "b": "-s",
+        "c": "-L",
+        "d": "-S"
+      },
+      "respuesta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Si utilizamos el gestor de paquetes de RedHat (RPM), ¿qué comando nos permite verificar la integridad de un paquete?",
+      "opciones": {
+        "a": "rpm -qa",
+        "b": "rpm -checksig package.rpm",
+        "c": "rpm -qi package.rpm",
+        "d": "rpm -F package.rpm"
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "En el gestor de paquetes pacman de Arch Linux, ¿qué parámetro se utiliza para eliminar un paquete junto con sus dependencias y todos los paquetes que dependan de esas dependencias?",
+      "opciones": {
+        "a": "-R",
+        "b": "-Rs",
+        "c": "-Rsc",
+        "d": "-Syu"
+      },
+      "respuesta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué comando de Linux devuelve la ruta completa de un archivo ejecutable binario?",
+      "opciones": {
+        "a": "whereis",
+        "b": "which",
+        "c": "pidof",
+        "d": "lsof"
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué diferencia existe entre rsync y rclone según el temario?",
+      "opciones": {
+        "a": "rsync es gráfico y rclone es para terminal.",
+        "b": "rsync es para Windows y rclone para Linux.",
+        "c": "rclone ofrece la misma funcionalidad que rsync pero está dirigida a la gestión y sincronización en la nube con soporte de encriptación y compresión.",
+        "d": "rsync es un comando síncrono y rclone es asíncrono."
+      },
+      "respuesta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "El comando lsof se utiliza para listar archivos abiertos en el sistema. ¿Qué opción muestra específicamente los sockets abiertos?",
+      "opciones": {
+        "a": "-p PID",
+        "b": "-u user",
+        "c": "-i",
+        "d": "-s"
+      },
+      "respuesta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué comando de la terminal de Linux muestra la lista de colores reconocidos en el sistema y su valor RGB?",
+      "opciones": {
+        "a": "xcolors",
+        "b": "showrgb",
+        "c": "curl -colors",
+        "d": "watch rgb"
+      },
+      "respuesta": "b"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 31,
+    "pregunta": "¿Cuál es el nombre del archivo ejecutable de la consola clásica de administración en formato Microsoft Management Console (MMC) empleada para gestionar Usuarios y Equipos de Active Directory?",
+    "opciones": {
+      "a": "services.msc",
+      "b": "dsa.msc",
+      "c": "compmgmt.msc",
+      "d": "adsiedit.msc"
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "La consola 'Usuarios y equipos de Active Directory' se ejecuta mediante el comando abreviado `dsa.msc`."
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Qué consola de administración moderna introducida a partir de Windows Server 2008 R2, desarrollada sobre PowerShell, incorpora historial de comandos ejecutados y la papelera de reciclaje de Active Directory de forma gráfica?",
+    "opciones": {
+      "a": "Administrador de Servidores (Server Manager)",
+      "b": "Centro de Administración de Active Directory (ADAC)",
+      "c": "Consola del Catálogo Global Integrado",
+      "d": "Herramienta de Administración de Sitios (dssite.msc)"
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "El Centro de Administración de Active Directory (ADAC) es la interfaz moderna basada en tareas que permite visualizar las acciones correspondientes traducidas a comandos subyacentes de PowerShell."
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Qué herramienta de bajo nivel de Active Directory se comporta como un editor de bajo nivel para modificar directamente atributos crudos de objetos vía LDAP?",
+    "opciones": {
+      "a": "ADSI Edit (adsiedit.msc)",
+      "b": "Visor de Eventos (eventvwr.msc)",
+      "c": "Editor de Directivas de Grupo Local (gpedit.msc)",
+      "d": "Administrador de Discos"
+    },
+    "respuesta_correcta": "a",
+    "explicacion": "ADSI Edit es una herramienta de administración avanzada orientada al bajo nivel del directorio que permite interactuar con cualquier esquema de objetos y modificar parámetros ocultos directamente."
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Cuál es el cmdlet oficial del módulo de PowerShell para Active Directory diseñado para dar de alta una nueva cuenta de usuario?",
+    "opciones": {
+      "a": "Add-User -AD",
+      "b": "New-Object -Type User",
+      "c": "New-ADUser",
+      "d": "Set-ADUser -Create"
+    },
+    "respuesta_correcta": "c",
+    "explicacion": "El cmdlet estándar para crear una nueva cuenta de usuario en los Servicios de Dominio de Active Directory es `New-ADUser`."
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Qué comando se debe ejecutar en la línea de comandos de un equipo cliente Windows para forzar la descarga y aplicación inmediata de las Directivas de Grupo (GPOs) del dominio?",
+    "opciones": {
+      "a": "ipconfig /flushdns",
+      "b": "gpupdate /force",
+      "c": "gpresult /v",
+      "d": "ntdsutil /update"
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "El comando `gpupdate /force` fuerza de manera inmediata la actualización y reaplicación de todas las directivas de grupo asignadas por el Active Directory."
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Qué herramienta de administración gráfica de Active Directory es la adecuada para configurar la topología física, declarar enlaces de replicación (Site Links) y programar las ventanas de replicación entre sedes?",
+    "opciones": {
+      "a": "Dominios y confianzas de Active Directory",
+      "b": "Sitios y servicios de Active Directory (dssite.msc)",
+      "c": "Consola del Esquema de Active Directory",
+      "d": "Centro de Cumplimiento Normativo del Ayuntamiento"
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "La consola de 'Sitios y servicios de Active Directory' permite definir los componentes de red físicos, gestionar los servidores asignados a cada centro y ajustar la programación horaria del tráfico de replicación."
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Cuál es la extensión de archivo estandarizada de las plantillas de directivas de grupo administrativas modernas basadas en lenguaje XML introducidas en las versiones actuales de Windows Server?",
+    "opciones": {
+      "a": ".adm",
+      "b": ".admx",
+      "c": ".gpo",
+      "d": ".xml_policy"
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "Las plantillas de directivas de grupo modernas utilizan la extensión `.admx` (basadas en lenguaje XML), sustituyendo a las antiguas plantillas `.adm`."
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Qué cmdlet de PowerShell se utiliza para consultar las propiedades y atributos específicos de un objeto de usuario determinado existente en Active Directory?",
+    "opciones": {
+      "a": "Find-User",
+      "b": "Get-ADUser",
+      "c": "Read-ActiveDirectoryUser",
+      "d": "Query-ADAccount"
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "`Get-ADUser` permite buscar y filtrar las propiedades de una cuenta de usuario existente indicando parámetros como el Identity."
+  },
+  {
+    "id": 39,
+    "pregunta": "Para permitir que un equipo de personal de soporte técnico local pueda restablecer contraseñas únicamente en la Unidad Organizativa de una delegación concreta, ¿cuál es el procedimiento óptimo?",
+    "opciones": {
+      "a": "Hacerlos miembros del grupo de seguridad 'Administradores del Dominio'.",
+      "b": "Utilizar el Asistente de Delegación de Control sobre la Unidad Organizativa deseada en la consola Usuarios y Equipos de Active Directory.",
+      "c": "Inhabilitar el uso de contraseñas complejas en todo el bosque municipal.",
+      "d": "Darles acceso a la base de datos cruda ntds.dit mediante privilegios remotos."
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "La delegación de control es una de las mejores prácticas de seguridad de Active Directory que permite otorgar permisos granulares específicos sobre contenedores específicos (OUs) sin dar altos privilegios generales."
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Cómo se denomina la estructura de carpetas compartidas obligatoria dentro de un Controlador de Dominio que almacena copias de las GPOs, scripts y plantillas?",
+    "opciones": {
+      "a": "System32",
+      "b": "SYSVOL",
+      "c": "NETLOGON_ONLY",
+      "d": "NTDS_Backup"
+    },
+    "respuesta_correcta": "b",
+    "explicacion": "SYSVOL (System Volume) es el recurso compartido crítico residente en cada controlador de dominio que almacena las plantillas de políticas de grupo (GPOs) y scripts, replicándose de manera automática."
+  }
+]

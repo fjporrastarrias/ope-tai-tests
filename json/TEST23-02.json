@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué topología física conecta todos los nodos mediante enlaces punto a punto con un nodo central, garantizando que la red siga funcionando si falla un nodo periférico?",
+    "o": [
+      "Topología en Bus",
+      "Topología en Anillo",
+      "Topología en Estrella",
+      "Topología en Árbol"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Dentro de los métodos de acceso por reserva, el protocolo SRMA (Split channel Reservation Multiple Access) se caracteriza por:",
+    "o": [
+      "Multiplexar los dos canales en el tiempo (TDM).",
+      "Multiplexar los dos canales en frecuencia (FDM), pudiendo existir colisiones en el canal de reservas.",
+      "Asignar dinámicamente un único canal libre de colisiones mediante sondeo centralizado.",
+      "Utilizar un testigo físico itinerante sobre un bus lógico."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo responde un host en el método de contienda 'Aloha puro' si no recibe la confirmación del receptor dentro de un intervalo de tiempo (time out)?",
+    "o": [
+      "Emite un testigo al siguiente nodo de la lista.",
+      "Entiende que la trama ha sufrido una colisión y procede a retransmitirla.",
+      "Cambia automáticamente al método de reserva GSMA.",
+      "Modifica los bytes de control de la cabecera LLC."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de las siguientes afirmaciones define correctamente el método de acceso 'Paso de testigo' (token passing)?",
+    "o": [
+      "Es un protocolo MAC basado en contienda pura donde ocurren colisiones constantes.",
+      "Es un protocolo MAC libre de colisiones y distribuido.",
+      "Es un protocolo MAC centralizado donde un árbitro concede el turno.",
+      "Es una técnica exclusiva de conmutación de circuitos en redes WAN."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo gestiona el acceso al medio la tecnología Token Bus?",
+    "o": [
+      "Mediante contienda pura con escucha previa del canal.",
+      "Mediante paso de testigo sobre una topología física en anillo.",
+      "Simulando un anillo lógico sobre una red con topología física en bus.",
+      "A través de un árbitro centralizado que realiza un sondeo rotatorio."
+    ],
+    "a": 2
+  },
+  {
+    "q": "En el método de acceso por Sondeo (polling), el dispositivo central que controla el acceso al medio y pregunta uno por uno a los hosts se denomina:",
+    "o": [
+      "Coordinador de seguridad",
+      "Árbitro",
+      "Centro de confianza",
+      "Gateway"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es una característica fundamental de los puertos de un Switch que operan en capa 2?",
+    "o": [
+      "Todos los puertos comparten el mismo dominio de colisión.",
+      "Cada puerto constituye un dominio de colisión independiente.",
+      "No permiten la operación en modo full-duplex.",
+      "Realizan enrutamiento dinámico basado en el algoritmo de Dijkstra."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿En qué consiste la técnica de conmutación 'Store and forward' en un switch?",
+    "o": [
+      "El switch reenvía la trama en cuanto lee los primeros 14 bytes.",
+      "El switch espera a recibir toda la trama antes de reenviarla, calculando el CRC para comprobar errores.",
+      "El switch recibe los primeros 64 bytes y retransmite sin comprobar el CRC.",
+      "El switch conmuta los paquetes basándose en etiquetas de la cabecera IPv6."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuántos bytes de la trama necesita leer como mínimo un switch que utiliza la técnica de conmutación 'Cut-through' pura antes de retransmitir?",
+    "o": [
+      "Los primeros 64 bytes para verificar colisiones.",
+      "La trama completa para calcular el CRC.",
+      "Los primeros 14 bytes hasta leer la dirección MAC destino.",
+      "Únicamente los 4 bytes del campo LLC Control."
+    ],
+    "a": 2
+  },
+  {
+    "q": "La técnica de conmutación 'Cut-through libre de fragmentos' (Fragment Free) se diferencia de la técnica Cut-through pura en que:",
+    "o": [
+      "Almacena la trama completa y comprueba el CRC al final.",
+      "Recibe los primeros 64 bytes de la trama y verifica que no haya habido colisiones antes de retransmitir.",
+      "Conmuta los paquetes basándose únicamente en la dirección IP del router de siguiente salto.",
+      "Monitorea constantemente la tasa de tramas inválidas enviadas por una dirección MAC."
+    ],
+    "a": 1
+  }
+]

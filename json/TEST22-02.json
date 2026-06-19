@@ -1,0 +1,112 @@
+[
+  {
+    "numero": 11,
+    "pregunta": "¿Cuál es el puerto por defecto para las conexiones seguras de POP3 sobre SSL/TLS (POP3S)?",
+    "opciones": {
+      "a": "110",
+      "b": "143",
+      "c": "993",
+      "d": "995"
+    },
+    "correcta": "d"
+  },
+  {
+    "numero": 12,
+    "pregunta": "¿Cuáles son los tres estados o fases secuenciales en una sesión del protocolo POP3?",
+    "opciones": {
+      "a": "Conexión, Autenticación, Cierre",
+      "b": "Autorización, Transacción, Actualización",
+      "c": "Identificación, Descarga, Borrado",
+      "d": "Envío, Recepción, Sincronización"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 13,
+    "pregunta": "En qué fase de la sesión POP3 se eliminan físicamente del servidor los mensajes que han sido marcados previamente con el comando DELE?",
+    "opciones": {
+      "a": "Fase de Autorización",
+      "b": "Fase de Transacción",
+      "c": "Fase de Actualización",
+      "d": "Inmediatamente después de enviar el comando DELE"
+    },
+    "correcta": "c"
+  },
+  {
+    "numero": 14,
+    "pregunta": "¿Qué comando POP3 se utiliza para obtener el número total de mensajes almacenados en el buzón y el tamaño total que ocupan en octetos?",
+    "opciones": {
+      "a": "LIST",
+      "b": "STAT",
+      "c": "RETR",
+      "d": "UIDL"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 15,
+    "pregunta": "Si un usuario ejecuta el comando 'RETR 3' en una sesión POP3, ¿qué acción está realizando?",
+    "opciones": {
+      "a": "Eliminando el mensaje número 3",
+      "b": "Listando el tamaño del mensaje número 3",
+      "c": "Recuperando (descargando) el contenido íntegro del mensaje número 3",
+      "d": "Reiniciando los flags del mensaje número 3"
+    },
+    "correcta": "c"
+  },
+  {
+    "numero": 16,
+    "pregunta": "¿Cuál es la RFC que describe la especificación del protocolo POP3 (Post Office Protocol - Version 3)?",
+    "opciones": {
+      "a": "RFC 821",
+      "b": "RFC 1939",
+      "c": "RFC 3501",
+      "d": "RFC 7208"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 17,
+    "pregunta": "¿Qué comando permite deshacer los marcados de eliminación de correos realizados en la sesión POP3 actual, siempre que no se haya enviado el comando QUIT?",
+    "opciones": {
+      "a": "DELE 0",
+      "b": "UNDO",
+      "c": "RSET",
+      "d": "REST"
+    },
+    "correcta": "c"
+  },
+  {
+    "numero": 18,
+    "pregunta": "¿Qué comando se emplea en POP3 para validar las credenciales de un usuario de forma secuencial simple antes de pasar a la fase de transacción?",
+    "opciones": {
+      "a": "LOGIN / PASSWD",
+      "b": "USER / PASS",
+      "c": "AUTH / SECRET",
+      "d": "CONNECT / KEY"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 19,
+    "pregunta": "¿Cuál es el comportamiento por defecto del protocolo POP3 tradicional respecto a los mensajes del servidor tras su descarga?",
+    "opciones": {
+      "a": "Los mantiene indefinidamente y los marca como leídos",
+      "b": "Los elimina del servidor una vez descargados completamente",
+      "c": "Los duplica en carpetas remotas llamadas Archivo",
+      "d": "Los cifra para que ningún otro cliente los lea"
+    },
+    "correcta": "b"
+  },
+  {
+    "numero": 20,
+    "pregunta": "¿Qué comando POP3 permite listar los identificadores únicos asociados a cada mensaje del buzón, evitando descargas duplicadas?",
+    "opciones": {
+      "a": "STAT",
+      "b": "LIST",
+      "c": "UIDL",
+      "d": "TOP"
+    },
+    "correcta": "c"
+  }
+]

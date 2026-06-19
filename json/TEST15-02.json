@@ -1,0 +1,112 @@
+[
+  {
+    "id": 11,
+    "pregunta": "¿Cuál es el objeto de la Norma Técnica de Interoperabilidad de Digitalización de Documentos?",
+    "opciones": {
+      "a": "Definir los formatos, estándares, niveles de calidad y metadatos asociados al proceso de digitalización.",
+      "b": "Establecer la política de seguridad del Ayuntamiento.",
+      "c": "Regular la destrucción de papel exclusivamente.",
+      "d": "Determinar los precios públicos de las copias auténticas."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 12,
+    "pregunta": "Según la definición técnica, ¿qué es la digitalización?",
+    "opciones": {
+      "a": "El almacenamiento de ficheros en un servidor en la nube sin importar su formato.",
+      "b": "El proceso tecnológico que permite convertir un documento en soporte papel o no electrónico en ficheros electrónicos con la imagen codificada, fiel e íntegra.",
+      "c": "La transcripción manual de un texto impreso a un procesador de textos.",
+      "d": "El envío de un correo electrónico con un documento adjunto."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Cuál de los siguientes NO es un componente digital del documento electrónico fruto de la digitalización?",
+    "opciones": {
+      "a": "Imagen electrónica.",
+      "b": "Metadatos mínimos obligatorios.",
+      "c": "Firma electrónica (si procede).",
+      "d": "Copia física compulsada de respaldo."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Cuál es el nivel de resolución mínimo exigido para las imágenes electrónicas según la NTI?",
+    "opciones": {
+      "a": "150 ppp",
+      "b": "200 ppp",
+      "c": "300 ppp",
+      "d": "600 ppp"
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 15,
+    "pregunta": "La resolución mínima de 200 ppp es aplicable a imágenes obtenidas en:",
+    "opciones": {
+      "a": "Solo color.",
+      "b": "Solo blanco y negro.",
+      "c": "Blanco y negro, color o escala de grises.",
+      "d": "Solo escala de grises."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Qué norma establece los formatos específicos que deben aplicar las imágenes electrónicas?",
+    "opciones": {
+      "a": "La Norma Técnica de Interoperabilidad de Catálogo de Estándares.",
+      "b": "La Ley Orgánica de Protección de Datos.",
+      "c": "El Esquema Nacional de Seguridad directamente.",
+      "d": "Las bases específicas de la convocatoria de Priego de Córdoba."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 17,
+    "pregunta": "Para garantizar que una imagen electrónica sea fiel al documento de origen, debe cumplir que:",
+    "opciones": {
+      "a": "Respete la geometría del documento origen en tamaños y proporciones.",
+      "b": "Aumente el tamaño original en un 10% para mejorar la visualización.",
+      "c": "Elimine los gráficos pesados automáticamente del fondo.",
+      "d": "Reduzca el documento a un formato estándar DIN A4 obligatoriamente."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 18,
+    "pregunta": "Respecto al contenido de una imagen fiel, la norma especifica expresamente que:",
+    "opciones": {
+      "a": "Puede contener marcas de agua del software de digitalización.",
+      "b": "No contendrá caracteres o gráficos que no figurasen en el documento origen.",
+      "c": "Debe incluir texto traducido si el origen está en una lengua cooficial.",
+      "d": "Su resolución debe adaptarse al espacio en disco disponible dinámicamente."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Qué elemento avala la fidelidad e integridad a efectos probatorios de una imagen digitalizada en papel?",
+    "opciones": {
+      "a": "La firma electrónica correspondiente al proceso de digitalización.",
+      "b": "Un sello físico estampado antes de escanear.",
+      "c": "La validación visual por dos funcionarios de carrera.",
+      "d": "El almacenamiento en un disco de estado sólido (SSD)."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Qué tipo de metadatos asociados a la digitalización pueden incluirse de forma opcional y complementaria?",
+    "opciones": {
+      "a": "Metadatos que reflejan las características técnicas de la imagen electrónica capturada.",
+      "b": "Metadatos relativos al sueldo del operador del escáner.",
+      "c": "Metadatos con el histórico de copias impresas posteriores.",
+      "d": "Metadatos de geolocalización física del ciudadano."
+    },
+    "correcta": "a"
+  }
+]

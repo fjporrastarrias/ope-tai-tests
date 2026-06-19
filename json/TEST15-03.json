@@ -1,0 +1,112 @@
+[
+  {
+    "id": 21,
+    "pregunta": "¿Cuál es la primera tarea que se realiza en el proceso informático de digitalización?",
+    "opciones": {
+      "a": "Asignación de metadatos de idioma.",
+      "b": "Firma automatizada del fichero.",
+      "c": "Digitalización por un medio fotoeléctrico para obtener la imagen en memoria.",
+      "d": "Optimización de bordes negros mediante software."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Cuál es el objetivo de la optimización automática de la imagen electrónica si procede?",
+    "opciones": {
+      "a": "Garantizar su legibilidad de modo que todo contenido sea apreciable y válido.",
+      "b": "Comprimir el archivo al menor tamaño posible perdiendo resolución.",
+      "c": "Modificar los colores originales por fines estéticos.",
+      "d": "Extraer los metadatos de autoría de forma automática."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Cuál de las siguientes operaciones NO es mencionada explícitamente como una técnica de optimización automática?",
+    "opciones": {
+      "a": "Umbralización.",
+      "b": "Reorientación.",
+      "c": "Eliminación de bordes negros.",
+      "d": "Reconocimiento óptico de caracteres (OCR) comercial."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Qué metadatos específicos se asignan al documento electrónico durante el proceso de digitalización según la NTI?",
+    "opciones": {
+      "a": "Resolución, tamaño e idioma.",
+      "b": "Formato, autor y Hash de seguridad.",
+      "c": "Fecha de creación, departamento y serie documental.",
+      "d": "Nombre del dispositivo, versión del driver y sistema operativo."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Cómo puede aplicarse la firma de la imagen electrónica al finalizar el proceso de digitalización?",
+    "opciones": {
+      "a": "Únicamente de forma manual por el usuario interesado.",
+      "b": "De forma automatizada a través del sistema de digitalización o por otro sistema de firma electrónica.",
+      "c": "Mediante una clave simétrica compartida por correo electrónico.",
+      "d": "Solo a través del nodo central de la Fábrica Nacional de Moneda y Timbre."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 26,
+    "pregunta": "La Norma Técnica de Interoperabilidad de Digitalización desarrolla, entre otros aspectos, los requisitos mínimos de:",
+    "opciones": {
+      "a": "Conservación y disponibilidad de los documentos digitalizados.",
+      "b": "Destrucción física inmediata del papel original sin excepciones.",
+      "c": "Suministro eléctrico de los escáneres municipales.",
+      "d": "Ancho de banda para la subida de imágenes."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 27,
+    "pregunta": "El conjunto de componentes digitales que representan el contenido y aspecto de un documento original se denomina:",
+    "opciones": {
+      "a": "Imagen fiel con integridad suficiente a efectos probatorios.",
+      "b": "Copia indexada simple.",
+      "c": "Metadato de proceso estructurado.",
+      "d": "Fichero comprimido de explotación."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 28,
+    "pregunta": "Los metadatos mínimos obligatorios de un documento electrónico se asignan en función de:",
+    "opciones": {
+      "a": "Los requerimientos de interoperabilidad fijados para todas las Administraciones Públicas.",
+      "b": "La marca y modelo del escáner utilizado.",
+      "c": "El espacio libre en la base de datos local.",
+      "d": "El libre criterio del técnico informático de guardia."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 29,
+    "pregunta": "Si una organización decide incorporar metadatos adicionales no obligatorios, estos se denominan:",
+    "opciones": {
+      "a": "Metadatos complementarios para su gestión.",
+      "b": "Metadatos críticos de infraestructura.",
+      "c": "Metadatos huérfanos de digitalización.",
+      "d": "Metadatos de interoperabilidad externa."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Qué aspecto geométrico debe respetarse estrictamente para cumplir la condición de imagen fiel?",
+    "opciones": {
+      "a": "Tamaños y proporciones del documento origen.",
+      "b": "Únicamente la orientación vertical.",
+      "c": "La escala de reducción de márgenes al 50%.",
+      "d": "La conversión obligatoria a formato panorámico 16:9."
+    },
+    "correcta": "a"
+  }
+]

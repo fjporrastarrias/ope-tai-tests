@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Según las definiciones de la ITU-T, ¿cuál es la función principal de un Equipo Terminal de Datos (ETD)?",
+    "o": [
+      "Producir la información a transmitir o recibir la información transmitida.",
+      "Encargarse de la transferencia de datos binarios y señales de temporización.",
+      "Adaptar las señales manejadas por el host a las características del medio físico.",
+      "Liberar al host de las tareas de comunicación mediante control por hardware."
+    ],
+    "a": 0
+  },
+  {
+    "q": "Un sistema de comunicación que permite la transmisión en ambos sentidos pero de manera alterna (no simultánea) se denomina:",
+    "o": [
+      "Simplex",
+      "Full-duplex",
+      "Semi-duplex o half-duplex",
+      "Banda base"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Cuando una señal de información (moduladora) controla algún parámetro de otra señal óptima para el medio (portadora), estamos ante una transmisión en:",
+    "o": [
+      "Banda base",
+      "Señal modulada",
+      "Transmisión síncrona pura",
+      "Conmutación de etiquetas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "De acuerdo con el estándar ISO/IEC 11801, ¿para qué tipo de aplicaciones está diseñada la Clase EA?",
+    "o": [
+      "Para voz y datos de muy alta velocidad hasta 600 MHz.",
+      "Para automatización de edificios e IoT hasta 1000 MHz.",
+      "Para voz y datos de muy alta velocidad hasta 500 MHz (Gigabit Ethernet).",
+      "Para el despliegue exclusivo de redes troncales en Centros de Datos a 1200 MHz."
+    ],
+    "a": 2
+  },
+  {
+    "q": "Según las versiones de la norma ISO/IEC 11801, ¿qué parte especifica los requisitos para Centros de Datos?",
+    "o": [
+      "ISO/IEC 11801-2",
+      "ISO/IEC 11801-3",
+      "ISO/IEC 11801-5",
+      "ISO/IEC 11801-6"
+    ],
+    "a": 2
+  },
+  {
+    "q": "La vida útil estimada de una infraestructura de cableado estructurado según la documentación proporcionada se sitúa entre:",
+    "o": [
+      "1 y 2 años",
+      "3 y 5 años",
+      "10 y 15 años",
+      "Más de 25 años"
+    ],
+    "a": 2
+  },
+  {
+    "q": "El subnivel LLC (Logical Link Control) del nivel de enlace de datos está definido por el estándar:",
+    "o": [
+      "IEEE 802.3",
+      "IEEE 802.2",
+      "IEEE 802.1p",
+      "IEEE 802.11"
+    ],
+    "a": 1
+  },
+  {
+    "q": " ¿Cuáles son los campos que componen la cabecera del subnivel LLC además de los datos?",
+    "o": [
+      "Dirección MAC Origen, Dirección MAC Destino y CRC.",
+      "DSAP, SSAP y LLC Control.",
+      "IP Origen, IP Destino y TTL.",
+      "Identificador de Flujo, Etiqueta y Preámbulo."
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué subcapa del modelo OSI se encarga de la encapsulación de datos (delimitación de tramas, direccionamiento y detección de errores) y depende directamente de la tecnología de red concreta?",
+    "o": [
+      "Subnivel LLC",
+      "Subnivel MAC",
+      "Capa de Red",
+      "Capa Física"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En una red inalámbrica basada en Zigbee, ¿qué dispositivo actúa como Centro de Confianza (Trust Center) para la distribución de claves de seguridad?",
+    "o": [
+      "El Router",
+      "El Coordinador",
+      "El Dispositivo Final (End Device)",
+      "El Árbitro central de sondeo"
+    ],
+    "a": 1
+  }
+]

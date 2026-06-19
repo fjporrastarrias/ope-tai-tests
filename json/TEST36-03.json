@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Qué organismo ofrece la plataforma multi-PKI @firma de validación de certificados y firmas electrónicas?",
+    "o": [
+      "La Junta de Andalucía",
+      "EPRINSA, Diputación de Córdoba",
+      "El Ministerio de Asuntos Económicos y Transformación Digital (o correspondiente de AAPP)",
+      "El Ayuntamiento de Priego de Córdoba en su CPD local"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Bajo qué tipo de licencia de software libre ha sido liberada la plataforma de validación @firma?",
+    "o": [
+      "GPL v3",
+      "Apache License 2.0",
+      "Licencia EUPL (European Union Public Licence)",
+      "MIT License"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cómo se denominan las librerías proporcionadas para facilitar la integración con el servicio @firma y permitir la firma en servidor?",
+    "o": [
+      "Librerías 'Integr@'",
+      "Módulo 'VALIDe'",
+      "Conector 'NAOS'",
+      "Librerías 'SICRES'"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Cuál es el objetivo principal de la plataforma de validación @firma de cara a la gestión de las aplicaciones administrativas?",
+    "o": [
+      "Servir como repositorio masivo de archivos de los expedientes",
+      "Comprobar que el certificado utilizado es válido, no ha sido revocado y tiene plena validez, desacoplado de las aplicaciones",
+      "Sustituir por completo a los gestores de bases de datos relacionales",
+      "Imprimir las etiquetas con códigos de barras de los asientos registrales"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el glosario de la Suite @firma, ¿cómo se define una 'Autoridad Certificadora' (AC)?",
+    "o": [
+      "El funcionario encargado de custodiar el libro de registro",
+      "Una entidad de confianza, responsable de emitir y revocar los certificados digitales tras verificar la identidad",
+      "El servidor web donde se aloja la sede electrónica del Ayuntamiento",
+      "El software que genera el Código Seguro de Verificación (CSV)"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué herramienta digital se utiliza para confirmar de forma automatizada que un certificado ha sido válidamente emitido por la entidad pública o empresa emisora?",
+    "o": [
+      "Un conector de contabilidad Eprical",
+      "El certificado raíz (CR), acompañado de la firma digital de la AC",
+      "Un sistema vertical de la AGE como FACTURAE",
+      "Una remesa postal externa de Notific@"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En la plataforma @firma, ¿qué número de clasificación o tipo se asigna específicamente a un 'Certificado de Sello' (no cualificado / según Ley 11/2007)?",
+    "o": [
+      "Clasificación = 0",
+      "Clasificación = 3",
+      "Clasificación = 4",
+      "Clasificación = 5"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué número de clasificación corresponde en la plataforma @firma a un 'Certificado de Empleado Público'?",
+    "o": [
+      "Clasificación = 1",
+      "Clasificación = 4",
+      "Clasificación = 5",
+      "Clasificación = 8"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué número de clasificación corresponde a un 'Certificado de Sede' electrónico?",
+    "o": [
+      "Clasificación = 3",
+      "Clasificación = 6",
+      "Clasificación = 7",
+      "Clasificación = 10"
+    ],
+    "a": 0
+  },
+  {
+    "q": "De acuerdo con los procedimientos de clasificación de @firma, ¿qué extensión criptográfica estándar (OID 2.5.29.32) determina las políticas del certificado para ESIG o ESEAL?",
+    "o": [
+      "SubjectAlternativeNames",
+      "CertificatePolicies",
+      "KeyUsageBit",
+      "DigitalSignatureExtension"
+    ],
+    "a": 1
+  }
+]

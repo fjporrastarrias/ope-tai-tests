@@ -1,0 +1,117 @@
+{
+  "bloque": "Bloque IV - Cuestionario 1",
+  "tema": "Tema 21",
+  "titulo": "Administración del Sistema Operativo - GNU/Linux, Arranque y Servicios",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cuál de las siguientes es una función general de la administración del sistema operativo descrita en el temario?",
+      "opciones": {
+        "a": "Gestión de desarrollo de microservicios en la nube.",
+        "b": "Gestión de los sistemas de ficheros, memoria, procesos y actualizaciones.",
+        "c": "Administración de bases de datos NoSQL únicamente.",
+        "d": "Auditoría externa de cumplimiento normativo legal."
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "En la estructura de directorios de UNIX/Linux, ¿para qué se utiliza el directorio /proc?",
+      "opciones": {
+        "a": "Para almacenar los archivos ejecutables de los comandos de usuario.",
+        "b": "Como punto de montaje de dispositivos de medios extraíbles.",
+        "c": "Para almacenar archivos de control de procesos del sistema.",
+        "d": "Para guardar ficheros de configuración y scripts de arranque."
+      },
+      "respuesta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué versión de la distribución Debian corresponde al número de versión 11.0 publicado el 14/08/2021?",
+      "opciones": {
+        "a": "Buster",
+        "b": "Bullseye",
+        "c": "Bookworm",
+        "d": "Stretch"
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Debian siempre mantiene al menos tres versiones en mantenimiento activo. ¿Cuáles son?",
+      "opciones": {
+        "a": "estable (stable), en pruebas (testing) e inestable (unstable).",
+        "b": "alfa, beta y release candidate.",
+        "c": "LTS, estándar y desarrollo.",
+        "d": "core, extended y premium."
+      },
+      "respuesta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En un sistema SysVinit convencional, ¿a qué equivale el nivel de ejecución (runlevel) 0?",
+      "opciones": {
+        "a": "Modo monousuario o de mantenimiento.",
+        "b": "Multiusuario con soporte de red sin interfaz gráfica.",
+        "c": "Reinicio del sistema.",
+        "d": "Parada del sistema (apagado)."
+      },
+      "respuesta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué comando alternativo se utiliza en Linux para mostrar el runlevel actual?",
+      "opciones": {
+        "a": "who -r",
+        "b": "init status",
+        "c": "systemctl get-default",
+        "d": "lsb_release -r"
+      },
+      "respuesta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "En el directorio /etc/rcX.d/, ¿qué indica que un enlace simbólico comience por la letra 'K'?",
+      "opciones": {
+        "a": "Que el daemon se iniciará (Kernel-start) al entrar en ese nivel de ejecución.",
+        "b": "Que el daemon se parará (Kill) al entrar en ese nivel de ejecución.",
+        "c": "Que el enlace está corrupto o roto.",
+        "d": "Que es un servicio exclusivo del superusuario root."
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cuál es el comando correcto en SystemD para activar un servicio de forma que se inicie automáticamente en el arranque?",
+      "opciones": {
+        "a": "systemctl start servicio",
+        "b": "systemctl status servicio",
+        "c": "systemctl enable servicio",
+        "d": "service servicio enable"
+      },
+      "respuesta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Para realizar un desmontaje perezoso (lazy) de un dispositivo en Linux, ¿qué opción se le pasa al comando umount?",
+      "opciones": {
+        "a": "-f",
+        "b": "-l",
+        "c": "-p",
+        "d": "-o loop"
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué daemon es el encargado de generar los ficheros de traza o logs en el sistema operativo según el temario, y dónde se guarda su configuración?",
+      "opciones": {
+        "a": "logd en /etc/log.conf",
+        "b": "rsyslogd en /etc/syslog.conf",
+        "c": "crond en /etc/crontab",
+        "d": "systemd-journald en /etc/journal.conf"
+      },
+      "respuesta": "b"
+    }
+  ]
+}

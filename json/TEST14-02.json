@@ -1,0 +1,112 @@
+[
+  {
+    "id": 11,
+    "pregunta": "En la jerarquía de memoria de un ordenador, ¿cuál es el principal objetivo de su diseño escalonado?",
+    "opciones": {
+      "a": "Conseguir la máxima velocidad posible al coste por bit más bajo posible.",
+      "b": "Eliminar por completo el uso de memorias volátiles.",
+      "c": "Garantizar que todos los niveles tengan el mismo tiempo de acceso.",
+      "d": "Reducir el tamaño físico de la placa base."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 12,
+    "pregunta": "Ordena de MENOR a MAYOR tiempo de acceso las siguientes clases de memoria:",
+    "opciones": {
+      "a": "Memoria Principal, Memoria Caché, Registros, Disco Duro.",
+      "b": "Registros, Memoria Caché, Memoria Principal, Disco Duro.",
+      "c": "Memoria Caché, Registros, Disco Duro, Memoria Principal.",
+      "d": "Registros, Memoria Principal, Memoria Caché, Disco Duro."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Qué principio justifica la efectividad de la memoria caché?",
+    "opciones": {
+      "a": "El principio de recursividad selectiva.",
+      "b": "El principio de localidad de referencia (temporal y espacial).",
+      "c": "La ley de Moore aplicada al silicio.",
+      "d": "La persistencia estática de los datos de usuario."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Cuál de las siguientes memorias se considera NO volátil?",
+    "opciones": {
+      "a": "Memoria Caché L3.",
+      "b": "Memoria RAM dinámica (DRAM).",
+      "c": "Memoria Flash (EEPROM).",
+      "d": "Registros de datos de la CPU."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Qué significa que una memoria sea de 'Acceso Aleatorio'?",
+    "opciones": {
+      "a": "Que el tiempo necesario para acceder a cualquier posición de memoria es constante e independiente de su ubicación física.",
+      "b": "Que la CPU decide de forma totalmente aleatoria qué celda va a leer.",
+      "c": "Que los datos se borran aleatoriamente cuando baja el voltaje.",
+      "d": "Que requiere recorrer todas las celdas previas consecutivamente para llegar a la información."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 16,
+    "pregunta": "¿En qué nivel de la memoria caché se suele integrar una celda por cada núcleo de procesamiento de forma exclusiva?",
+    "opciones": {
+      "a": "Caché L1.",
+      "b": "Caché L2.",
+      "c": "Caché L3.",
+      "d": "Caché LLC."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 17,
+    "pregunta": "Las memorias semiconductoras se diferencian de las ópticas y magnéticas principalmente por:",
+    "opciones": {
+      "a": "Su mayor lentitud de acceso.",
+      "b": "Estar fabricadas con circuitos integrados basados en transistores y silicio.",
+      "c": "Ser siempre magnéticamente orientables.",
+      "d": "No requerir energía eléctrica para mantener los datos."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Qué tipo de memoria se utiliza habitualmente como memoria secundaria masiva en los equipos modernos por su velocidad?",
+    "opciones": {
+      "a": "SDRAM.",
+      "b": "SRAM.",
+      "c": "SSD basada en NAND Flash.",
+      "d": "EPROM."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 19,
+    "pregunta": "La memoria secundaria o auxiliar, a diferencia de la memoria principal, se caracteriza por:",
+    "opciones": {
+      "a": "Ser directamente accesible por las líneas de buses de la CPU.",
+      "b": "Ser permanente (no volátil) y disponer de capacidades de almacenamiento superiores.",
+      "c": "Estar construida exclusivamente con memorias SRAM.",
+      "d": "Tener menor tiempo de ciclo."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Qué estructura de caché es compartida habitualmente por todos los núcleos (cores) de un procesador moderno?",
+    "opciones": {
+      "a": "La caché L1 de datos.",
+      "b": "La caché L1 de instrucciones.",
+      "c": "La caché L3 (o LLC).",
+      "d": "Los registros internos."
+    },
+    "correcta": "c"
+  }
+]

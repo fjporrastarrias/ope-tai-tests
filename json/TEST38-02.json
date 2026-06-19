@@ -1,0 +1,112 @@
+[
+    {
+        "id": 11,
+        "question": "¿Cuáles son las dos formas principales de realizar una firma electrónica según la guía de firma del ciudadano?",
+        "options": {
+            "a": "Mediante firma biométrica o mediante firma manuscrita digitalizada.",
+            "b": "Descargando una aplicación en el PC (como AutoFirma) o firmando directamente en internet.",
+            "c": "Mediante SMS certificado o mediante llamada telefónica grabada.",
+            "d": "Únicamente de forma presencial con un token USB o mediante tarjeta inteligente."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 12,
+        "question": "¿Qué aplicación del Ministerio de Hacienda y Administraciones Públicas se utiliza para firmar localmente en el PC sin necesidad de estar conectado a internet?",
+        "options": {
+            "a": "VALIDe.",
+            "b": "Integr@.",
+            "c": "AutoFirma.",
+            "d": "eVisor."
+        },
+        "answer": "c"
+    },
+    {
+        "id": 13,
+        "question": "Cuando un ciudadano firma un formulario o solicitud directamente en internet en una sede administrativa, ¿qué suele requerirse en el navegador?",
+        "options": {
+            "a": "Un componente o cliente de firma (como AutoFirma) integrado que interactúe con el navegador.",
+            "b": "Tener desactivado por completo el cortafuegos del sistema operativo.",
+            "c": "Tener privilegios de administrador del dominio de la Administración.",
+            "d": "No requiere ningún elemento, el estándar HTML5 puro realiza la firma criptográfica por sí solo sin software intermedio."
+        },
+        "answer": "a"
+    },
+    {
+        "id": 14,
+        "question": "¿Qué portal o servicio público de internet permite a los ciudadanos firmar sus propios documentos o validar firmas y certificados de forma directa y gratuita?",
+        "options": {
+            "a": "FIRe.",
+            "b": "VALIDe.",
+            "c": "Monitoriz@.",
+            "d": "TS@."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 15,
+        "question": "¿Cuál de los siguientes es un ejemplo de utilidad práctica de la firma electrónica para un ciudadano?",
+        "options": {
+            "a": "Realización de la Declaración de la Renta a través de Internet.",
+            "b": "Solicitudes en los registros electrónicos administrativos.",
+            "c": "Petición de la vida laboral y recepción de notificaciones electrónicas.",
+            "d": "Todas las respuestas son correctas."
+        },
+        "answer": "d"
+    },
+    {
+        "id": 16,
+        "question": "El resumen que realiza la aplicación de firma a partir del documento original se caracteriza por:",
+        "options": {
+            "a": "Ser de tamaño variable dependiendo de la velocidad de internet.",
+            "b": "Ser único para ese documento, de modo que cualquier modificación del mismo altera el resumen.",
+            "c": "Ser legible por cualquier procesador de textos convencional.",
+            "d": "Almacenarse de forma separada obligatoriamente en un servidor estatal."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 17,
+        "question": "¿Qué normativa española regula el procedimiento administrativo común y fundamenta la obligatoriedad y el uso de la firma electrónica en las relaciones con las Administraciones Públicas?",
+        "options": {
+            "a": "La Ley 39/2015, de 1 de octubre.",
+            "b": "La Ley 40/2015, de 1 de octubre.",
+            "c": "La Ley 9/2017, de 8 de noviembre.",
+            "d": "La Ley Orgánica 3/2018, de 5 de diciembre."
+        },
+        "answer": "a"
+    },
+    {
+        "id": 18,
+        "question": "Para verificar o validar una firma recibida en un documento electrónico, ¿qué tres aspectos principales interesa comprobar?",
+        "options": {
+            "a": "Que los datos firmados se correspondan con los originales, que el certificado sea válido y que la estructura del fichero sea correcta.",
+            "b": "La marca del ordenador, el sistema operativo del firmante y su dirección IP.",
+            "c": "El coste del certificado, la fecha de compra y el operador de telecomunicaciones.",
+            "d": "El nombre del funcionario, la denominación de la calle y el número del registro manual."
+        },
+        "answer": "a"
+    },
+    {
+        "id": 19,
+        "question": "¿Qué tipo de datos se asocian o acompañan a un documento electrónico en la firma electrónica?",
+        "options": {
+            "a": "Datos biométricos dactilares.",
+            "b": "Datos electrónicos estructurados o codificados criptográficamente.",
+            "c": "Un escaneo en formato JPG de alta resolución.",
+            "d": "Metadatos exclusivos del sistema operativo Windows."
+        },
+        "answer": "b"
+    },
+    {
+        "id": 20,
+        "question": "En el caso del DNI electrónico, ¿qué se necesita instalar en el ordenador para poder utilizarlo físicamente?",
+        "options": {
+            "a": "Un lector de DNI electrónico y su correspondiente software o drivers.",
+            "b": "Un módem de fibra óptica dedicado.",
+            "c": "Una licencia comercial de Windows Server.",
+            "d": "Ningún software o hardware adicional, funciona por proximidad visual."
+        },
+        "answer": "a"
+    }
+]

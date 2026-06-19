@@ -1,0 +1,116 @@
+{
+  "bloque": "TEST27-03",
+  "tema": "Tema 27: Seguridad de los sistemas de información I",
+  "preguntas": [
+    {
+      "id": 21,
+      "enunciado": "¿Cómo se define la 'Seguridad Lógica' según los textos del temario?",
+      "opciones": {
+        "a": "La protección de las infraestructuras eléctricas y sistemas de climatización de un edificio",
+        "b": "La seguridad en el uso de software y los sistemas, la protección de los datos, procesos y programas, así como la del acceso ordenado y autorizado de los usuarios a la información",
+        "c": "La aplicación estricta del principio de proporcionalidad económica",
+        "d": "El análisis documental de las políticas de transparencia pública"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 22,
+      "enunciado": "Dentro del Control de Acceso en seguridad lógica, la medida que busca prevenir errores e impedir el abuso de privilegios mediante perfiles de usuarios se denomina:",
+      "opciones": {
+        "a": "Identificación unívoca",
+        "b": "Segregación de funciones y tareas",
+        "c": "Validación biométrica externa",
+        "d": "Registro de actividad continua"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 23,
+      "enunciado": "Los tres tipos de mecanismos de autenticación tradicionales en control de acceso lógico se basan en:",
+      "opciones": {
+        "a": "Algo que se conoce, algo que se tiene y algo que se es o propio del usuario",
+        "b": "Un token físico, un certificado digital y una firma en papel",
+        "c": "Un identificador público, un correo electrónico y un número de teléfono",
+        "d": "La dirección IP, la dirección MAC y el nombre del Host"
+      },
+      "correcta": "a"
+    },
+    {
+      "id": 24,
+      "enunciado": "¿Cuál de las siguientes NO es una medida o protocolo listado formalmente para proteger la confidencialidad de las comunicaciones en el temario?",
+      "opciones": {
+        "a": "VPN",
+        "b": "TLS/SSL",
+        "c": "SSH",
+        "d": "RAID 5"
+      },
+      "correcta": "d"
+    },
+    {
+      "id": 25,
+      "enunciado": "Para la segregación de redes y control del tráfico de entrada/salida de usuarios y aplicaciones, el temario destaca la potenciación de la arquitectura de red y el establecimiento de:",
+      "opciones": {
+        "a": "Un SAI distribuido",
+        "b": "Una DMZ (Zona Desmilitarizada)",
+        "c": "Un agente ligero antivirus",
+        "d": "Un sistema de borrado sobre disco"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 26,
+      "enunciado": "Dentro de la monitorización de comunicaciones en seguridad lógica, ¿qué significan las siglas SIEM?",
+      "opciones": {
+        "a": "Sistema de Interconexión Electrónica de Municipios",
+        "b": "Sistema de Gestión de Eventos e Información de Seguridad",
+        "c": "Software Integrado de Emisiones de Memoria",
+        "d": "Solución de Interceptación de Amenazas Móviles"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 27,
+      "enunciado": "¿Qué mecanismo se especifica para evitar el repudio futuro de la información transmitida o almacenada?",
+      "opciones": {
+        "a": "Calificación de la información",
+        "b": "Sellos de tiempo (Timestamping)",
+        "c": "Antivirus perimetral",
+        "d": "Segregación de funciones"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 28,
+      "enunciado": "En la protección de las aplicaciones informáticas, ¿cuál es una directriz obligatoria para mitigar riesgos en la fase de explotación?",
+      "opciones": {
+        "a": "Disponer de sistemas diferentes y separados para desarrollo y producción",
+        "b": "Utilizar la misma base de datos real para las pruebas de desarrollo",
+        "c": "Permitir accesos de administración sin identificador a los desarrolladores",
+        "d": "Evitar la actualización de las librerías base"
+      },
+      "correcta": "a"
+    },
+    {
+      "id": 29,
+      "enunciado": "En el control de acceso lógico, los intentos de acceso erróneos por parte de un usuario o proceso deben estar:",
+      "opciones": {
+        "a": "Ilimitados para favorecer la usabilidad",
+        "b": "Limitados",
+        "c": "Monitoreados pero nunca bloqueados",
+        "d": "Gestionados por un operador externo en vivo"
+      },
+      "correcta": "b"
+    },
+    {
+      "id": 30,
+      "enunciado": "¿Qué medida engloba el uso de criptografía para garantizar el secreto de los datos durante su almacenamiento y transmisión, debiendo estar en claro solo mientras se hace uso de ella?",
+      "opciones": {
+        "a": "Firma electrónica",
+        "b": "Cifrado",
+        "c": "Calificación",
+        "d": "Registro de actividades"
+      },
+      "correcta": "b"
+    }
+  ]
+}

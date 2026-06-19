@@ -1,0 +1,115 @@
+{
+    "test_id": "TEST34-02",
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Qué herramientas duplican el contenido de una serie de directorios situados en la misma máquina o en máquinas distintas?",
+            "options": {
+                "a": "Herramientas de sincronización.",
+                "b": "Ficheros de control (Controlfiles).",
+                "c": "Soluciones de almacenamiento definido por software.",
+                "d": "Sistemas de archivos de espacio de usuario (FUSE)."
+            },
+            "correct": "a"
+        },
+        {
+            "id": 2,
+            "question": "En la estrategia de rotación 'Abuelo-Padre-Hijo', ¿cuál es la frecuencia y retención típica del 'Abuelo'?",
+            "options": {
+                "a": "Se realiza diariamente y se guarda durante una semana.",
+                "b": "Se realiza cada semana y se guarda durante un mes.",
+                "c": "Se realiza cada mes o año y se guarda durante un periodo largo.",
+                "d": "Se realiza cada hora y se guarda indefinidamente."
+            },
+            "correct": "c"
+        },
+        {
+            "id": 3,
+            "question": "Según el esquema del CCN, ¿cuál es la principal ventaja de la copia de seguridad COMPLETA?",
+            "options": {
+                "a": "Su velocidad de ejecución, consumiendo muy poco tiempo.",
+                "b": "La seguridad de tener una imagen completa de los datos en el momento de la salvaguarda.",
+                "c": "Que no requiere partir de ninguna salvaguarda inicial previa.",
+                "d": "Que reduce el tráfico de red de datos a cero de forma nativa."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 4,
+            "question": "¿Qué datos se copian en una salvaguarda de tipo INCREMENTAL?",
+            "options": {
+                "a": "Todos los datos modificados desde la última copia completa únicamente.",
+                "b": "Los datos modificados desde la anterior copia incremental.",
+                "c": "La totalidad de los ficheros y bases de datos existentes en el SGBD.",
+                "d": "Únicamente los metadatos y el catálogo del servidor de backup."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 5,
+            "question": "¿Por qué motivo la restauración de una copia incremental se considera lenta?",
+            "options": {
+                "a": "Porque los archivos están fragmentados en múltiples bloques Oracle contiguos.",
+                "b": "Porque requiere restaurar una copia completa y todas las copias incrementales realizadas hasta el momento deseado.",
+                "c": "Porque exige detener el sistema en modo caliente obligatoriamente.",
+                "d": "Porque el acceso a los datos lógicos se realiza de forma secuencial en disco sólido."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 6,
+            "question": "¿Qué datos se copian en una salvaguarda de tipo DIFERENCIAL?",
+            "options": {
+                "a": "Los datos modificados desde la última copia incremental.",
+                "b": "Los datos modificados desde la última copia completa.",
+                "c": "Únicamente las tablas correspondientes al tablespace SYSTEM.",
+                "d": "Todos los datos del sistema, independientemente de si sufrieron cambios o no."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 7,
+            "question": "¿Qué elementos basta con recuperar para realizar la restauración de un backup diferencial?",
+            "options": {
+                "a": "Una copia completa inicial y todas las copias diferenciales consecutivas.",
+                "b": "Una copia completa y una única copia diferencial.",
+                "c": "Todas las copias incrementales previas y el archivo de control.",
+                "d": "El catálogo de metadatos y los dirty buffers del disco."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 8,
+            "question": "¿Qué caracteriza a un backup frío (offline)?",
+            "options": {
+                "a": "La operativa del sistema no se detiene y la copia se hace en producción.",
+                "b": "El sistema se detiene durante la realización del backup y no se hace ninguna operación sobre los datos.",
+                "c": "Se ejecuta de fondo de manera transparente utilizando instantáneas en caliente.",
+                "d": "Se aplica únicamente a bases de datos distribuidas que usan RECO."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 9,
+            "question": "¿Para qué entornos o sistemas NO es válido un backup frío?",
+            "options": {
+                "a": "Sistemas monoprocesador basados en el motor MySQL.",
+                "b": "Sistemas que requieren una disponibilidad de 24x7 como el comercio online.",
+                "c": "Sistemas que utilizan cintas magnéticas de grabación longitudinal.",
+                "d": "Contenedores Docker que se basan en una instrucción FROM."
+            },
+            "correct": "b"
+        },
+        {
+            "id": 10,
+            "question": "¿Qué requiere la realización de un backup en caliente (online)?",
+            "options": {
+                "a": "Detener por completo el servidor de bases de datos durante la fase de copia.",
+                "b": "Fijar un instante de tiempo de referencia y gestionar las modificaciones (log de operaciones).",
+                "c": "Utilizar almacenamiento JBOD de forma obligatoria.",
+                "d": "Que los usuarios cierren sus sesiones activas mediante el proceso PMON."
+            },
+            "correct": "b"
+        }
+    ]
+}

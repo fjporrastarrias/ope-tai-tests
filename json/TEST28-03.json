@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "En el caso de un reseteo de contraseña por parte del personal TIC, ¿cuál es la obligación del usuario según la política de contraseñas?",
+    "options": {
+      "a": "Mantener la contraseña inicial asignada durante al menos 6 meses.",
+      "b": "Cambiar obligatoriamente la clave inicial tras el primer acceso.",
+      "c": "Anotar la clave en un registro confidencial accesible para el departamento.",
+      "d": "Solicitar un segundo factor de autenticación biométrico obligatoriamente."
+    },
+    "answer": "b",
+    "explanation": "La política robusta debe contemplar el cambio obligatorio de la clave inicial tras un 'reseteo'."
+  },
+  {
+    "id": 2,
+    "question": "¿Qué característica define al Spyware?",
+    "options": {
+      "a": "Se ejecuta exclusivamente cuando se cumple una condición o fecha determinada.",
+      "b": "Tiene capacidad de monitorizar el teclado, cookies, analizar archivos del disco de forma arbitraria y espiar aplicaciones sin conocimiento del usuario.",
+      "c": "Satura el servidor web mediante el envío masivo de paquetes de ping.",
+      "d": "Es un código inofensivo diseñado para simular fallos de hardware."
+    },
+    "answer": "b",
+    "explanation": "El spyware actúa monitorizando el teclado, analizando archivos de forma arbitraria, leyendo cookies y espiando el comportamiento del usuario."
+  },
+  {
+    "id": 3,
+    "question": "¿Qué es una 'Bomba lógica'?",
+    "options": {
+      "a": "Una red de ordenadores zombis controlados remotamente.",
+      "b": "Un programa sin capacidad de replicación que ejecuta su código cuando se produce una condición determinada (efecto retardado).",
+      "c": "Malware que oculta una intrusión y proporciona permisos de root.",
+      "d": "Un tipo de ataque DoS basado en paquetes ICMP corruptos."
+    },
+    "answer": "b",
+    "explanation": "La bomba lógica carece de capacidad de replicación y se ejecuta cuando se cumple una condición específica (número de encendidos, fecha concreta, etc.)."
+  },
+  {
+    "id": 4,
+    "question": "Con respecto a la instalación y actualización de antivirus en los puestos de trabajo, se debe asegurar que:",
+    "options": {
+      "a": "El usuario pueda desactivar el análisis en tiempo real si el equipo va lento.",
+      "b": "Se deshabilite la opción de que el usuario lo pueda desactivar y se configure con actualización automática y análisis en tiempo real.",
+      "c": "Solo se analicen los archivos adjuntos del correo electrónico.",
+      "d": "Las actualizaciones se realicen exclusivamente de forma manual una vez al mes."
+    },
+    "answer": "b",
+    "explanation": "El antivirus debe actualizarse automáticamente, con análisis en tiempo real habilitado y desactivando la posibilidad de ser deshabilitado por el usuario."
+  },
+  {
+    "id": 5,
+    "question": "La herramienta CARLA del CCN-CERT se enfoca principalmente en:",
+    "options": {
+      "a": "La automatización de auditorías de red inalámbrica.",
+      "b": "La protección y trazabilidad del dato, asegurando que la información viaje protegida y bajo control.",
+      "c": "El análisis estático de ficheros mediante múltiples motores.",
+      "d": "Simular técnicas de cibervigilancia para formación de analistas."
+    },
+    "answer": "b",
+    "explanation": "CARLA es una solución de protección centrada en los datos, que permite que la información corporativa viaje protegida y auditada."
+  },
+  {
+    "id": 6,
+    "question": "¿Qué riesgo específico se menciona respecto a que un equipo local mantenga su sesión abierta cuando el usuario se ausenta?",
+    "options": {
+      "a": "Que el equipo se sobrecaliente rápidamente.",
+      "b": "Que la medida de control de acceso pierda toda su eficacia, permitiendo un uso no autorizado.",
+      "c": "Que expire la dirección IP asignada por el servidor DHCP.",
+      "d": "Que el antivirus detenga su ejecución en segundo plano."
+    },
+    "answer": "b",
+    "explanation": "Si la sesión permanece abierta mientras el usuario no está, la medida de control de acceso pierde toda su eficacia."
+  },
+  {
+    "id": 7,
+    "question": "La herramienta del CCN-CERT que funciona como un sistema centralizado unificado que integra los análisis dinámicos (MARTA) y estáticos (MARÍA) se denomina:",
+    "options": {
+      "a": "ADA",
+      "b": "GLORIA",
+      "c": "MONICA",
+      "d": "REYES"
+    },
+    "answer": "a",
+    "explanation": "ADA integra las capacidades de análisis dinámico (MARTA) y análisis estático (MARÍA) desde una interfaz unificada."
+  },
+  {
+    "id": 8,
+    "question": "Respecto a los dispositivos de uso personal en el entorno corporativo (BYOD), la organización debe:",
+    "options": {
+      "a": "Prohibir totalmente su entrada al edificio de la organización.",
+      "b": "Prestar especial atención, manteniendo una base de datos de los dispositivos y usuarios y asegurando que sean seguros antes de conectarse.",
+      "c": "Permitir su conexión directa a la red protegida interna sin restricciones.",
+      "d": "Asignarles automáticamente el perfil de Administrador de red."
+    },
+    "answer": "b",
+    "explanation": "Se debe prestar especial atención a los BYOD, manteniendo una base de datos de estos dispositivos y asegurando su correcta configuración antes de conectarlos a la red interna."
+  },
+  {
+    "id": 9,
+    "question": "¿Qué ataque consiste en insertar líneas de código maliciosas en una aplicación web para obtener acceso, modificar o robar datos de la base de datos subyacente?",
+    "options": {
+      "a": "Inyección SQL.",
+      "b": "Envenenamiento de DNS.",
+      "c": "Clickjacking.",
+      "d": "SYN Flood."
+    },
+    "answer": "a",
+    "explanation": "La inyección SQL inserta líneas de código SQL maliciosas en la propia aplicación web para interactuar directamente con los datos de la base de datos backend."
+  },
+  {
+    "id": 10,
+    "question": "¿Qué medida técnica se propone para el desecho seguro de documentación confidencial obsoleta en formato papel?",
+    "options": {
+      "a": "Almacenarla en la DMZ interna.",
+      "b": "Adquirir destructoras de documentación para poner a disposición de los usuarios.",
+      "c": "Utilizar contenedores de reciclaje abiertos en los pasillos corporativos.",
+      "d": "Escanearla y luego tirarla a la basura convencional."
+    },
+    "answer": "b",
+    "explanation": "Tanto a nivel organizativo como técnico se estipula la adquisición y puesta a disposición de destructoras de papel para la eliminación segura de documentación sensible."
+  }
+]

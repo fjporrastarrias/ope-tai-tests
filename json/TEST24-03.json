@@ -1,0 +1,116 @@
+{
+    "bloque": "TEST24-03",
+    "descripcion": "Protocolo IPv6: Tipos de Direcciones y Notación",
+    "preguntas": [
+        {
+            "id": 21,
+            "enunciado": "¿Cuál es la longitud exacta en bits de una dirección del protocolo IPv6?",
+            "opciones": {
+                "a": "32 bits.",
+                "b": "64 bits.",
+                "c": "128 bits.",
+                "d": "256 bits."
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 22,
+            "enunciado": "¿Qué tipo de transmisión en IPv6 identifica a un grupo de interfaces y entrega el paquete a uno solo de ellos (al más cercano), estando reservada solo para routers?",
+            "opciones": {
+                "a": "UNICAST",
+                "b": "MULTICAST",
+                "c": "ANYCAST",
+                "d": "BROADCAST"
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 23,
+            "enunciado": "En la notación abreviada de IPv6, ¿cuántas veces se puede emplear el símbolo de compresión de cadenas de ceros '::' en una misma dirección?",
+            "opciones": {
+                "a": "Una única vez.",
+                "b": "Hasta dos veces.",
+                "c": "Tantas veces como bloques de ceros existan.",
+                "d": "No está permitido usarlo en formato abreviado."
+            },
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 24,
+            "enunciado": "¿Cuál es el prefijo de formato de 10 bits que identifica a las direcciones UNICAST privadas de enlace local (link-local) en IPv6?",
+            "opciones": {
+                "a": "FC00::/7",
+                "b": "FE80::/10",
+                "c": "FF00::/8",
+                "d": "2001::/3"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 25,
+            "enunciado": "¿Qué prefijo de formato identifica inequívocamente a las direcciones de tipo MULTICAST en IPv6?",
+            "opciones": {
+                "a": "FE80::/10",
+                "b": "FF00::/8",
+                "c": "FC00::/7",
+                "d": "2001::/16"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 26,
+            "enunciado": "Las direcciones UNICAST privadas únicas locales (unique-local) en IPv6, que sustituyen a las antiguas site-local, emplean el prefijo:",
+            "opciones": {
+                "a": "FE80::/10",
+                "b": "FC00::/7",
+                "c": "FF00::/8",
+                "d": "2001::/3"
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 27,
+            "enunciado": "Según la RFC 3986, cuando una dirección IPv6 pública se incluye dentro de una URL de un navegador web, ¿entre qué símbolos debe ir contenida?",
+            "opciones": {
+                "a": "Entre comillas simples (' ')",
+                "b": "Entre paréntesis ( )",
+                "c": "Entre corchetes [ ]",
+                "d": "Entre signos de menor y mayor < >"
+            },
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 28,
+            "enunciado": "En el formato estándar de direcciones IPv6 de una organización, ¿cuántos bits se destinan comúnmente a la creación de subredes (bits del 48 al 63)?",
+            "opciones": {
+                "a": "8 bits.",
+                "b": "16 bits (65536 subredes).",
+                "c": "32 bits.",
+                "d": "64 bits."
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 29,
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre las direcciones ANYCAST en IPv6 es correcta?",
+            "opciones": {
+                "a": "Tienen un espacio propio de direccionamiento totalmente diferenciado de unicast.",
+                "b": "Solo pueden usarse como direcciones de destino, nunca como direcciones de origen.",
+                "c": "Se entregan a todas las interfaces pertenecientes al grupo multicast.",
+                "d": "Se pueden configurar en cualquier host de usuario final de forma libre."
+            },
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 30,
+            "enunciado": "¿Cuál es el prefijo actual de mayor peso de 3 bits (001) para el encaminamiento de direcciones UNICAST globales en Internet?",
+            "opciones": {
+                "a": "FE80",
+                "b": "FC00",
+                "c": "2001",
+                "d": "FF02"
+            },
+            "respuesta_correcta": "c"
+        }
+    ]
+}

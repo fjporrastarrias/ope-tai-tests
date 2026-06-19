@@ -1,0 +1,112 @@
+[
+    {
+        "id": 21,
+        "pregunta": "Dentro de la arquitectura de Active Directory de Windows, ¿qué elemento representa el límite de seguridad y el nivel más alto de la estructura lógica?",
+        "opciones": {
+            "a": "Dominio",
+            "b": "Bosque",
+            "c": "Unidad Organizativa",
+            "d": "Sitio de Red"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 22,
+        "pregunta": "¿Qué herramienta permite agrupar recursos (cuentas, PCs) en un dominio de Active Directory para facilitar la aplicación de políticas o delegar el control?",
+        "opciones": {
+            "a": "Bosque (Forest)",
+            "b": "Relación de confianza",
+            "c": "Unidad Organizativa (OU)",
+            "d": "Servidor Samba"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 23,
+        "pregunta": "Para administrar Directivas de Grupo (GPO) en un entorno de Servicios de Dominio de Active Directory de Windows, ¿qué consola de administración se utiliza?",
+        "opciones": {
+            "a": "gpedit.msc",
+            "b": "gpmc.msc",
+            "c": "regedit.exe",
+            "d": "services.msc"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 24,
+        "pregunta": "En cuanto a la aplicación de Directivas de Grupo (GPO) en Windows, si existe más de una política aplicable a un objeto:",
+        "opciones": {
+            "a": "Se aplica la menos restrictiva",
+            "b": "Se aplica la más restrictiva",
+            "c": "Se anulan mutuamente y no se aplica ninguna",
+            "d": "Se prioriza siempre la del Equipo Local sobre la de la Unidad Organizativa"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 25,
+        "pregunta": "¿En qué ruta de carpeta suelen almacenarse los archivos auxiliares de las secciones del Registro de Windows (salvo HKEY_CURRENT_USER)?",
+        "opciones": {
+            "a": "%SystemRoot%\\System32\\Drivers",
+            "b": "%SystemRoot%\\System32\\Config",
+            "c": "%SystemRoot%\\System32\\Registry",
+            "d": "%SystemRoot%\\SysWOW64\\Config"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 26,
+        "pregunta": "Si los servicios en la nube son compartidos en una comunidad cerrada por varias organizaciones relacionadas con un propósito o política común, se trata de una:",
+        "opciones": {
+            "a": "Nube pública",
+            "b": "Nube privada",
+            "c": "Nube comunitaria",
+            "d": "Nube híbrida"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Qué categoría de Cloud Computing entrega al cliente recursos de procesamiento y almacenamiento (hardware) donde el cliente mantiene el control del S.O. y aplicaciones?",
+        "opciones": {
+            "a": "Infraestructura como servicio (IaaS)",
+            "b": "Plataforma como servicio (PaaS)",
+            "c": "Software como servicio (SaaS)",
+            "d": "Función como servicio (FaaS)"
+        },
+        "respuesta_correcta": "a"
+    },
+    {
+        "id": 28,
+        "pregunta": "La 'Informática sin servidor' se asocia directamente a la categoría de servicio en la nube conocida como:",
+        "opciones": {
+            "a": "Contenedor como servicio (CaaS)",
+            "b": "Función como servicio (FaaS)",
+            "c": "Plataforma como servicio (PaaS)",
+            "d": "Base de datos como servicio (DBaaS)"
+        },
+        "respuesta_correcta": "b"
+    },
+    {
+        "id": 29,
+        "pregunta": "El modelo de distribución donde las aplicaciones están alojadas por un proveedor y los usuarios acceden habitualmente por suscripción mediante navegador web es:",
+        "opciones": {
+            "a": "IaaS",
+            "b": "PaaS",
+            "c": "SaaS",
+            "d": "XaaS"
+        },
+        "respuesta_correcta": "c"
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Cuál de los siguientes NO es un motivo listado en el tema por el que las empresas recurren a la informática en la nube?",
+        "opciones": {
+            "a": "Reducción de costes de capital en hardware local",
+            "b": "Aumento del aprovisionamiento manual tedioso de bastidores de servidores",
+            "c": "Escala global y elástica de recursos",
+            "d": "Confiabilidad y facilidad para copias de seguridad"
+        },
+        "respuesta_correcta": "b"
+    }
+]

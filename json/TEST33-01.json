@@ -1,0 +1,102 @@
+[
+  {
+    "q": "1. ¿Cuál es la definición oficial de computación en la nube según el Instituto Nacional de Estándares y Tecnología (NIST)?",
+    "o": [
+      "Un modelo para permitir el acceso exclusivo y por cable a recursos locales con interacción continua del administrador.",
+      "Un modelo para permitir un acceso sencillo, universal y bajo demanda a través de una red a un conjunto de recursos de computación compartidos y configurables, rápidamente aprovisionados con un esfuerzo mínimo.",
+      "Un sistema propietario de Microsoft basado exclusivamente en Transact-SQL para gestionar bases de datos relacionales.",
+      "Una arquitectura de almacenamiento físico que unifica redes LAN y SAN en un entorno cerrado."
+    ],
+    "a": 1
+  },
+  {
+    "q": "2. ¿Qué característica del modelo Cloud del NIST permite a los usuarios aprovisionar capacidades de computación automáticamente sin intervención humana?",
+    "o": [
+      "Agrupamiento de recursos",
+      "Acceso desde múltiples plataformas",
+      "Autoservicio bajo demanda",
+      "Servicios medidos y controlados"
+    ],
+    "a": 2
+  },
+  {
+    "q": "3. En el ámbito de la informática, ¿cómo define el texto el concepto de virtualización?",
+    "o": [
+      "La reproducción completa de la lógica interna de un circuito integrado.",
+      "El almacenamiento de datos en pistas magnéticas secuenciales de bajo coste.",
+      "La recreación de un recurso físico o lógico por medio de un hipervisor, creándose una capa de abstracción.",
+      "La centralización exclusiva de servicios de correo electrónico bajo protocolos cifrados."
+    ],
+    "a": 2
+  },
+  {
+    "q": "4. ¿Cuál es la diferencia fundamental entre simulación y emulación descrita en el documento?",
+    "o": [
+      "La simulación no requiere software y la emulación sí.",
+      "La simulación reproduce un sistema imitando su lógica interna completa; la emulación dispone las funciones pero no su lógica interna.",
+      "La emulación no permite ejecutar el sistema reproducido y la simulación sí.",
+      "No existe ninguna diferencia, son términos equivalentes en entornos virtuales."
+    ],
+    "a": 1
+  },
+  {
+    "q": "5. ¿Cuál de las siguientes es una ventaja explícita de la virtualización indicada en el texto?",
+    "o": [
+      "Eliminar por completo el uso de memoria RAM.",
+      "Optimizar el uso de recursos físicos, mejorar disponibilidad, simplificar planes de contingencia e incrementar seguridad.",
+      "Reducir el ancho de banda de la red local a cero.",
+      "Obligar al uso exclusivo de sistemas operativos privativos."
+    ],
+    "a": 1
+  },
+  {
+    "q": "6. ¿Cómo se entrega y ejecuta una arquitectura hiperconvergente según el documento?",
+    "o": [
+      "Como múltiples servidores físicos independientes sin conexión lógica.",
+      "Como un paquete compacto y único preconfigurado, donde toda la infraestructura se ejecuta en una máquina virtual en la capa del hipervisor.",
+      "A través de una red dedicada de cintas magnéticas helicoidales.",
+      "Como un sistema operativo que no admite abstracción de hardware."
+    ],
+    "a": 1
+  },
+  {
+    "q": "7. ¿Qué ventaja de seguridad nativa basada en software incorporan los sistemas hiperconvergentes según el texto?",
+    "o": [
+      "Aislamiento por hardware físico dedicado.",
+      "Cifrado de datos en reposo.",
+      "Desactivación completa de los puertos TCP.",
+      "Eliminación automática de código ejecutable."
+    ],
+    "a": 1
+  },
+  {
+    "q": "8. ¿Qué es DaaS (Desktop as a Service) de acuerdo con el temario?",
+    "o": [
+      "Una base de datos relacional orientada a objetos de código abierto.",
+      "La tecnología VDI alojada en la nube al completo (tanto la capa de control como la de recursos).",
+      "Un entorno de desarrollo para compilar Dockerfiles de forma local.",
+      "Un protocolo de acceso por bloques para cabinas de almacenamiento físico."
+    ],
+    "a": 1
+  },
+  {
+    "q": "9. ¿Cuáles son los ejemplos de soluciones DaaS citados explícitamente en el documento?",
+    "o": [
+      "Kubernetes y Helm",
+      "Oracle VM Server y Red Hat Virtualization",
+      "Amazon WorkSpaces y Citrix Virtual Apps and Desktop Standard",
+      "Docker Swarm y Podman"
+    ],
+    "a": 2
+  },
+  {
+    "q": "10. ¿Qué se considera virtualización de aplicaciones según el texto?",
+    "o": [
+      "La instalación física de un SGBD en el puesto de usuario.",
+      "Tecnologías que permiten encapsular en un entorno aislado o sandbox (contenedor) los ejecutables, ficheros, servicios y registro de las aplicaciones.",
+      "El uso de emuladores para ejecutar sistemas Linux completos con kernels separados.",
+      "La migración automática de datos estructurados hacia una nube pública sin cifrar."
+    ],
+    "a": 1
+  }
+]

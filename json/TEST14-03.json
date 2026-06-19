@@ -1,0 +1,112 @@
+[
+  {
+    "id": 21,
+    "pregunta": "¿Cuál es la función fundamental de la memoria principal (RAM) en un sistema?",
+    "opciones": {
+      "a": "Almacenar la configuración de la BIOS.",
+      "b": "Almacenar los programas en ejecución y los datos activos para acceso inmediato.",
+      "c": "Realizar la traducción de nombres de dominio IP.",
+      "d": "Servir de caché de red."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Cuál es el componente básico para almacenar un bit en la memoria RAM Dinámica (DRAM)?",
+    "opciones": {
+      "a": "Un chip magnético.",
+      "b": "Un condensador y un transistor.",
+      "c": "Un conjunto de seis transistores acoplados.",
+      "d": "Un filamento fusible."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Por qué las memorias DRAM requieren un proceso continuo de 'refresco'?",
+    "opciones": {
+      "a": "Porque los transistores se calientan.",
+      "b": "Porque la carga eléctrica de sus condensadores se descarga gradualmente con el tiempo.",
+      "c": "Para evitar que los virus modifiquen las celdas.",
+      "d": "Para sincronizar su reloj."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Qué ventaja principal ofrece la memoria SRAM sobre la DRAM?",
+    "opciones": {
+      "a": "Es mucho más barata.",
+      "b": "Es significativamente más rápida y no requiere circuito de refresco.",
+      "c": "Ofrece densidades de almacenamiento más altas.",
+      "d": "Es completamente no volátil."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Cómo se define el parámetro de 'Ancho de Banda' de la memoria principal?",
+    "opciones": {
+      "a": "El número de ciclos de reloj requeridos.",
+      "b": "La cantidad máxima de datos que se pueden transferir por segundo entre la memoria y el controlador.",
+      "c": "La cantidad total de memoria física direccionable.",
+      "d": "El espacio físico del slot."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Qué es la latencia CAS (CL) de una memoria RAM?",
+    "opciones": {
+      "a": "El tiempo total de almacenamiento no volátil.",
+      "b": "El número de ciclos de reloj que pasan desde que se solicita un dato hasta que está disponible.",
+      "c": "La velocidad del ventilador.",
+      "d": "El voltaje máximo tolerado."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 27,
+    "pregunta": "¿A qué se refiere el término 'Dual Channel' en la configuración de la memoria RAM?",
+    "opciones": {
+      "a": "A duplicar la frecuencia estática.",
+      "b": "A permitir al controlador utilizar dos canales independientes de 64 bits de forma simultánea.",
+      "c": "A la duplicación de la caché interna.",
+      "d": "A un puerto híbrido."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Qué tipo de empaquetado de memoria física se utiliza en portátiles?",
+    "opciones": {
+      "a": "DIMM.",
+      "b": "SO-DIMM.",
+      "c": "SIMM.",
+      "d": "GDDR."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 29,
+    "pregunta": "La tecnología de memoria ECC (Error Correcting Code) se utiliza en servidores porque:",
+    "opciones": {
+      "a": "Aumenta la frecuencia de reloj.",
+      "b": "Es capaz de detectar y corregir errores de un solo bit en los datos.",
+      "c": "Duplica la capacidad total mediante compresión.",
+      "d": "Transforma memoria volátil en permanente."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Qué ocurre cuando la memoria RAM se llena por completo y se siguen abriendo aplicaciones?",
+    "opciones": {
+      "a": "El procesador se apaga.",
+      "b": "Se activa la memoria virtual en el disco secundario como extensión temporal.",
+      "c": "La memoria ROM asume el control del procesamiento.",
+      "d": "Se duplica la frecuencia de reloj."
+    },
+    "correcta": "b"
+  }
+]
