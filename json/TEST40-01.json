@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿Cuál es el mecanismo principal introducido en la arquitectura Transformer que permite el procesamiento paralelo y contextual de texto?",
+    "o": [
+      "Redes neuronales recurrentes acopladas",
+      "Mecanismo de auto-atención (Self-Attention)",
+      "Convolución espacial de variables discretas",
+      "Memoria de corto plazo tipo LSTM"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En una arquitectura RAG, ¿por qué es técnicamente necesario el proceso de 'chunking' o fragmentación documental?",
+    "o": [
+      "Para cifrar los datos sensibles antes de enviarlos al almacenamiento",
+      "Para ajustarse a los límites de tokens del modelo de embedding y evitar la dilución semántica",
+      "Para traducir automáticamente el texto de origen a varios idiomas",
+      "Para eliminar las etiquetas HTML y los caracteres especiales del archivo"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿En qué consiste la estrategia técnica denominada 'Semantic Chunking'?",
+    "o": [
+      "En realizar cortes fijos cada 512 caracteres exactos",
+      "En dividir el texto basándose en variaciones significativas de la distancia semántica entre frases contiguas mediante embeddings",
+      "En usar expresiones regulares para buscar exclusivamente títulos y subtítulos",
+      "En un proceso de compresión de texto sin pérdidas para ahorrar espacio en disco"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué ventaja crítica aporta la configuración de un 'overlap' (solapamiento) entre fragmentos adyacentes en RAG?",
+    "o": [
+      "Garantiza la eliminación de redundancias documentales",
+      "Preserva el contexto transicional y la continuidad semántica entre bloques contiguos de texto",
+      "Reduce de forma drástica el tiempo de procesamiento por la GPU",
+      "Permite que las búsquedas vectoriales sean bidireccionales y simétricas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si un pipeline de datos define un tamaño de chunk de 512 tokens con un overlap del 25%, ¿cuántos tokens se duplicarán entre bloques contiguos?",
+    "o": [
+      "64 tokens",
+      "128 tokens",
+      "256 tokens",
+      "32 tokens"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué representa técnicamente un 'Embedding' en el ecosistema de la Inteligencia Artificial moderna?",
+    "o": [
+      "Una copia de seguridad del estado interno del modelo de lenguaje",
+      "Un vector denso de alta dimensionalidad que condensa el significado semántico y contextual de una unidad de información",
+      "Un compilador encargado de traducir código Python a instrucciones de máquina",
+      "Un protocolo de comunicación seguro para APIs REST"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cómo se distribuyen geométricamente dos términos con significado equivalente (ej. 'subvención' y 'ayuda económica') en un espacio de embeddings?",
+    "o": [
+      "En coordenadas ortogonales independientes",
+      "En coordenadas vectoriales muy cercanas debido a su afinidad contextual y semántica",
+      "Se eliminan de forma automatizada por el motor de base de datos para mitigar colisiones",
+      "Se representan mediante valores nulos o dispersos de dimensión cero"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál es el rango de dimensionalidad típico de los vectores generados por los modelos de embedding de frontera en el año 2026?",
+    "o": [
+      "Entre 2 y 64 dimensiones discretas",
+      "Entre 768 y 3072 dimensiones reales",
+      "Exactamente 1.000.000 de dimensiones indexadas",
+      "Varía según el número total de archivos almacenados en el servidor"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de las siguientes afirmaciones describe mejor el concepto de 'Agentic Chunking'?",
+    "o": [
+      "Una fragmentación rígida controlada de forma exclusiva por el kernel de Linux",
+      "La utilización de un LLM o agente para fragmentar dinámicamente el texto basándose en estructura y significado, enriqueciendo cada fragmento con metadatos y resúmenes",
+      "Un tipo de particionado de discos rígidos en clusters lógicos",
+      "Un algoritmo de descarte de fragmentos basado en políticas LRU"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál de las siguientes opciones representa una codificación dispersa tradicional que carece de semántica contextual profunda?",
+    "o": [
+      "OpenAI text-embedding-3-large",
+      "TF-IDF / One-Hot Encoding",
+      "Cohere Embed v3",
+      "Google Vertex AI Multimodal Embeddings"
+    ],
+    "a": 1
+  }
+]
