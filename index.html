@@ -750,7 +750,8 @@
             tiempoRestante: 90 * 60, // 90 minutos en segundos
             timerInterval: null,
             history: [],
-            temas: {} // Nombres de los temas desde JSON
+            temas: {}, // Nombres de los temas desde JSON
+            respuestasOrdenadas: {} // Guardar el orden aleatorio de respuestas por pregunta
         };
 
         // ============================================
@@ -884,7 +885,8 @@
         }
 
         function obtenerRespuestaActual() {
-            return state.answers[state.currentQuestion] || null;
+            const answer = state.answers[state.currentQuestion];
+            return answer !== undefined ? answer : null;
         }
 
         function guardarRespuesta(indiceRespuesta) {
@@ -1023,6 +1025,7 @@
 
         function renderizarTest() {
             const pregunta = state.questions[state.currentQuestion];
+            const idPregunta = state.currentQuestion;
 
             // Actualizar info
             document.getElementById('pregunta-actual').textContent = state.currentQuestion + 1;
@@ -1032,9 +1035,13 @@
                 `Pregunta ${state.currentQuestion + 1} de ${state.questions.length}`;
             document.getElementById('pregunta-texto').textContent = pregunta.q;
 
-            // Aleatorizar respuestas (pero guardar el índice correcto original)
-            const respuestasOriginales = pregunta.o.map((texto, idx) => ({ texto, idx }));
-            const respuestasMezcladas = aleatorizar(respuestasOriginales);
+            // Obtener o crear el orden de respuestas aleatorizado
+            let respuestasMezcladas = state.respuestasOrdenadas[idPregunta];
+            if (!respuestasMezcladas) {
+                const respuestasOriginales = pregunta.o.map((texto, idx) => ({ texto, idx }));
+                respuestasMezcladas = aleatorizar(respuestasOriginales);
+                state.respuestasOrdenadas[idPregunta] = respuestasMezcladas;
+            }
 
             // Renderizar opciones
             let html = '';
@@ -1169,6 +1176,7 @@
 
             state.currentQuestion = 0;
             state.answers = {};
+            state.respuestasOrdenadas = {};
 
             iniciarTemporizador();
             renderizarVista('test');
