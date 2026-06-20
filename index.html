@@ -905,10 +905,9 @@
             });
 
             const incorrectas = preguntasContestadas - correctas;
-            const totalPreguntas = state.questions.length;
 
-            // Baremo sobre 10 puntos: (10 × correctas - 4 × incorrectas) / totalPreguntas
-            const puntuacion = (10 * correctas - 4 * incorrectas) / totalPreguntas;
+            // Fórmula: puntuación = correctas * 0.125 - incorrectas * 0.05
+            const puntuacion = correctas * 0.125 - incorrectas * 0.05;
 
             return {
                 preguntasContestadas,
