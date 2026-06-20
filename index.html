@@ -907,7 +907,10 @@
             const incorrectas = preguntasContestadas - correctas;
 
             // Fórmula: puntuación = correctas * 0.125 - incorrectas * 0.05
-            const puntuacion = correctas * 0.125 - incorrectas * 0.05;
+            // Normalizar a escala 0-10 independientemente del número de preguntas
+            const puntuacionBruta = correctas * 0.125 - incorrectas * 0.05;
+            const maxPuntuacionBruta = preguntasContestadas * 0.125;
+            const puntuacion = (puntuacionBruta / maxPuntuacionBruta) * 10;
 
             return {
                 preguntasContestadas,
