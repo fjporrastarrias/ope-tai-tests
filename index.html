@@ -219,6 +219,9 @@
             font-size: 15px;
             position: relative;
             padding-left: 44px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         .opcion:hover {
@@ -230,6 +233,11 @@
             background: #667eea;
             color: white;
             border-color: #667eea;
+        }
+
+        .opcion.reserved {
+            background: #e5e7eb;
+            border-color: #9ca3af;
         }
 
         .opcion::before {
@@ -247,6 +255,47 @@
             background: white;
             border-color: white;
             box-shadow: inset 0 0 0 4px #667eea;
+        }
+
+        .opcion.reserved::before {
+            background: #9ca3af;
+            border-color: #9ca3af;
+        }
+
+        .opcion-botones {
+            display: flex;
+            gap: 8px;
+            margin-left: 12px;
+            flex-shrink: 0;
+        }
+
+        .btn-opcion-reservar {
+            padding: 6px 12px;
+            background: #e5e7eb;
+            border: 1px solid #9ca3af;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            color: #374151;
+            white-space: nowrap;
+        }
+
+        .btn-opcion-reservar:hover {
+            background: #d1d5db;
+        }
+
+        .opcion.selected .btn-opcion-reservar,
+        .opcion.reserved .btn-opcion-reservar {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.5);
+            color: inherit;
+        }
+
+        .opcion.selected .btn-opcion-reservar:hover,
+        .opcion.reserved .btn-opcion-reservar:hover {
+            background: rgba(255, 255, 255, 0.3);
         }
 
         .navegacion-test {
@@ -388,6 +437,18 @@
             background: #fee2e2;
             border-left-color: #ef4444;
             color: #7f1d1d;
+        }
+
+        .revision-opcion.reservada {
+            background: #cffafe;
+            border-left-color: #06b6d4;
+            color: #164e63;
+        }
+
+        .revision-opcion.reservada-correcta {
+            background: linear-gradient(to right, #cffafe 50%, #dcfce7 50%);
+            border-left-color: #06b6d4;
+            color: #164e63;
         }
 
         .revision-opcion.no-elegida {
@@ -628,8 +689,20 @@
         <main>
             <!-- VISTA INICIO -->
             <section id="vista-inicio" class="view active">
-                <h2 style="margin-bottom: 20px;">Selecciona los bloques de preguntas</h2>
-                <p style="color: #666; margin-bottom: 16px; font-size: 14px;">Puedes seleccionar un máximo de 8 bloques. Cada bloque contiene 10 preguntas.</p>
+                <h2 style="margin-bottom: 20px;">Elige el tipo de test</h2>
+
+                <div id="selector-tipo-test" style="margin-bottom: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+                    <button id="btn-test-aleatorio" class="btn-primary" style="flex: 1; min-width: 200px;">
+                        🎲 Test Aleatorio<br><span style="font-size: 12px; opacity: 0.8;">80 preguntas variadas</span>
+                    </button>
+                    <button id="btn-test-temas" class="btn-primary" style="flex: 1; min-width: 200px;">
+                        📚 Test por Temas<br><span style="font-size: 12px; opacity: 0.8;">Selecciona bloques</span>
+                    </button>
+                </div>
+
+                <div id="contenedor-seleccion-temas" style="display: none;">
+                    <h2 style="margin-bottom: 20px;">Selecciona los bloques de preguntas</h2>
+                    <p style="color: #666; margin-bottom: 16px; font-size: 14px;">Puedes seleccionar un máximo de 8 bloques. Cada bloque contiene 10 preguntas.</p>
 
                 <div id="estado-carga" style="display: none; padding: 16px; background: #e0e7ff; border-radius: 8px; margin-bottom: 16px; color: #4338ca; font-size: 14px;">
                     <strong>Estado:</strong> <span id="estado-texto">Inicializando...</span>
@@ -647,9 +720,10 @@
                     <button id="btn-ver-historial" class="btn-secondary">Ver Historial</button>
                 </div>
 
-                <div id="historial-container" style="margin-top: 24px; display: none;">
-                    <h3 style="margin-bottom: 12px;">Historial de intentos</h3>
-                    <div id="historial-lista" style="display: flex; flex-direction: column; gap: 8px;"></div>
+                    <div id="historial-container" style="margin-top: 24px; display: none;">
+                        <h3 style="margin-bottom: 12px;">Historial de intentos</h3>
+                        <div id="historial-lista" style="display: flex; flex-direction: column; gap: 8px;"></div>
+                    </div>
                 </div>
             </section>
 
@@ -704,6 +778,10 @@
                             <div class="resultado-item-label">Incorrectas</div>
                             <div class="resultado-item-valor" style="color: #ef4444;" id="resultado-incorrectas">0</div>
                         </div>
+                        <div class="resultado-item">
+                            <div class="resultado-item-label">No Contestadas</div>
+                            <div class="resultado-item-valor" style="color: #f59e0b;" id="resultado-no-contestadas">0</div>
+                        </div>
                     </div>
 
                     <div class="puntuacion-final">
@@ -743,7 +821,8 @@
             bloquesDisponibles: [],
             selectedBlocks: [],
             questions: [],
-            answers: {},
+            answers: {}, // Respuestas seleccionadas (definitivas)
+            reserved: {}, // Respuestas reservadas (tentativas)
             currentQuestion: 0,
             startTime: null,
             endTime: null,
@@ -889,12 +968,68 @@
             return answer !== undefined ? answer : null;
         }
 
+        function obtenerRespuestaReservada() {
+            const reserved = state.reserved[state.currentQuestion];
+            return reserved !== undefined ? reserved : null;
+        }
+
         function guardarRespuesta(indiceRespuesta) {
             state.answers[state.currentQuestion] = indiceRespuesta;
+            // Al seleccionar definitivamente, eliminar la reserva
+            delete state.reserved[state.currentQuestion];
+        }
+
+        function guardarRespuestaReservada(indiceRespuesta) {
+            if (state.reserved[state.currentQuestion] === indiceRespuesta) {
+                // Si hace clic en reservar de la misma opción, desreservarla
+                delete state.reserved[state.currentQuestion];
+            } else {
+                state.reserved[state.currentQuestion] = indiceRespuesta;
+            }
+        }
+
+        function generarTestAleatorio() {
+            // Cargar el archivo JSON de test aleatorio
+            cargarTestAleatorio();
+        }
+
+        async function cargarTestAleatorio() {
+            try {
+                detenerTemporizador();
+                const response = await fetch('json/test-aleatorio.json');
+                if (!response.ok) {
+                    alert('Error: No se pudo cargar el test aleatorio.');
+                    volverAlInicio();
+                    return;
+                }
+
+                const preguntas = await response.json();
+
+                if (!Array.isArray(preguntas) || preguntas.length === 0) {
+                    alert('Error: El archivo del test aleatorio no contiene preguntas válidas.');
+                    volverAlInicio();
+                    return;
+                }
+
+                state.questions = preguntas;
+                state.currentQuestion = 0;
+                state.answers = {};
+                state.reserved = {};
+                state.respuestasOrdenadas = {};
+                state.selectedBlocks = [];
+
+                iniciarTemporizador();
+                renderizarVista('test');
+            } catch (error) {
+                console.error('Error al cargar test aleatorio:', error);
+                alert('Error al cargar el test aleatorio: ' + error.message);
+                volverAlInicio();
+            }
         }
 
         function calcularResultados() {
             const preguntasContestadas = Object.keys(state.answers).length;
+            const noContestadas = state.questions.length - preguntasContestadas;
             let correctas = 0;
 
             Object.keys(state.answers).forEach(idx => {
@@ -916,6 +1051,7 @@
                 preguntasContestadas,
                 correctas,
                 incorrectas,
+                noContestadas,
                 puntuacion: Math.round(puntuacion * 1000) / 1000
             };
         }
@@ -981,6 +1117,17 @@
         }
 
         function renderizarInicio() {
+            // Mostrar selector de tipo de test la primera vez
+            const selectorTipoTest = document.getElementById('selector-tipo-test');
+            const contenedorSeleccionTemas = document.getElementById('contenedor-seleccion-temas');
+
+            if (selectorTipoTest.style.display !== 'none' || contenedorSeleccionTemas.style.display === 'none') {
+                // Primera vez, mostrar selector
+                selectorTipoTest.style.display = 'flex';
+                contenedorSeleccionTemas.style.display = 'none';
+                return;
+            }
+
             const container = document.getElementById('bloques-container');
 
             if (state.bloquesDisponibles.length === 0) {
@@ -1049,15 +1196,28 @@
             let html = '';
             respuestasMezcladas.forEach((resp, posicion) => {
                 const seleccionada = obtenerRespuestaActual() === resp.idx;
-                const clases = `opcion ${seleccionada ? 'selected' : ''}`;
+                const reservada = obtenerRespuestaReservada() === resp.idx;
+                let clases = 'opcion';
+                if (seleccionada) {
+                    clases += ' selected';
+                } else if (reservada) {
+                    clases += ' reserved';
+                }
 
                 html += `
-                    <button
-                        class="${clases}"
-                        onclick="seleccionarOpcion(${resp.idx})"
-                    >
-                        ${resp.texto}
-                    </button>
+                    <div class="${clases}">
+                        <button
+                            style="background: none; border: none; cursor: pointer; padding: 0; text-align: left; flex: 1; font-size: 15px; ${seleccionada ? 'color: white;' : ''}"
+                            onclick="seleccionarOpcion(${resp.idx})"
+                        >
+                            ${resp.texto}
+                        </button>
+                        <div class="opcion-botones">
+                            <button class="btn-opcion-reservar" onclick="event.stopPropagation(); reservarOpcion(${resp.idx})">
+                                ${reservada ? 'Desreservar' : 'Reservar'}
+                            </button>
+                        </div>
+                    </div>
                 `;
             });
 
@@ -1076,6 +1236,7 @@
             document.getElementById('resultado-preguntas').textContent = state.questions.length;
             document.getElementById('resultado-correctas').textContent = resultados.correctas;
             document.getElementById('resultado-incorrectas').textContent = resultados.incorrectas;
+            document.getElementById('resultado-no-contestadas').textContent = resultados.noContestadas;
             document.getElementById('resultado-puntuacion').textContent = resultados.puntuacion.toFixed(3);
 
             // Guardar en historial
@@ -1087,6 +1248,8 @@
 
             state.questions.forEach((pregunta, idx) => {
                 const respuestaUsuario = state.answers[idx];
+                const respuestaReservada = state.reserved[idx];
+                const noContestada = respuestaUsuario === undefined;
                 const esCorrecta = respuestaUsuario === pregunta.a;
 
                 let htmlOpciones = '';
@@ -1094,21 +1257,38 @@
                     let clases = 'revision-opcion';
                     let indicador = '';
 
-                    if (idxOpcion === pregunta.a) {
-                        clases += ' correcta';
-                        if (respuestaUsuario === undefined) {
-                            indicador = '✓ Respuesta correcta';
-                        } else if (esCorrecta) {
-                            indicador = '✓ Tu respuesta (Correcta)';
-                            clases = 'revision-opcion elegida-correcta';
-                        }
-                    } else if (idxOpcion === respuestaUsuario) {
-                        clases += ' elegida-incorrecta';
+                    const esRespuestaCorrecta = idxOpcion === pregunta.a;
+                    const esRespuestaUsuario = idxOpcion === respuestaUsuario;
+                    const esRespuestaReservada = idxOpcion === respuestaReservada;
+
+                    // Caso 1: Es la respuesta correcta del usuario
+                    if (esRespuestaCorrecta && esRespuestaUsuario && !noContestada) {
+                        clases = 'revision-opcion elegida-correcta';
+                        indicador = '✓ Tu respuesta (Correcta)';
+                    }
+                    // Caso 2: Es respuesta incorrecta del usuario
+                    else if (esRespuestaUsuario && !noContestada) {
+                        clases = 'revision-opcion elegida-incorrecta';
                         indicador = '✗ Tu respuesta (Incorrecta)';
-                    } else if (respuestaUsuario === undefined && idxOpcion === pregunta.a) {
+                    }
+                    // Caso 3: Es respuesta correcta y reservada (mitad y mitad)
+                    else if (esRespuestaCorrecta && esRespuestaReservada && noContestada) {
+                        clases = 'revision-opcion reservada-correcta';
+                        indicador = '✓ Respuesta correcta (Reservada)';
+                    }
+                    // Caso 4: Es respuesta correcta (sin contestar)
+                    else if (esRespuestaCorrecta && noContestada) {
+                        clases = 'revision-opcion correcta';
                         indicador = '✓ Respuesta correcta';
-                    } else {
-                        clases += ' no-elegida';
+                    }
+                    // Caso 5: Es respuesta reservada (sin contestar)
+                    else if (esRespuestaReservada && noContestada) {
+                        clases = 'revision-opcion reservada';
+                        indicador = '✓ Reservada';
+                    }
+                    // Caso 6: No elegida, no reservada
+                    else {
+                        clases = 'revision-opcion no-elegida';
                     }
 
                     htmlOpciones += `
@@ -1119,9 +1299,14 @@
                     `;
                 });
 
+                let estadoPregunta = '';
+                if (noContestada) {
+                    estadoPregunta = ' <span style="color: #f59e0b; font-weight: 600;">(No contestada)</span>';
+                }
+
                 html += `
                     <div class="revision-item">
-                        <div class="revision-numero">Pregunta ${idx + 1}</div>
+                        <div class="revision-numero">Pregunta ${idx + 1}${estadoPregunta}</div>
                         <div class="revision-pregunta">${pregunta.q}</div>
                         <div class="revision-opciones">
                             ${htmlOpciones}
@@ -1149,8 +1334,25 @@
         // ============================================
         // FUNCIONES DE NAVEGACIÓN
         // ============================================
+        function mostrarTestAleatorio() {
+            document.getElementById('selector-tipo-test').style.display = 'none';
+            document.getElementById('contenedor-seleccion-temas').style.display = 'none';
+            generarTestAleatorio();
+        }
+
+        function mostrarTestPorTemas() {
+            document.getElementById('selector-tipo-test').style.display = 'none';
+            document.getElementById('contenedor-seleccion-temas').style.display = 'block';
+            renderizarInicio();
+        }
+
         function seleccionarOpcion(indiceOpcion) {
             guardarRespuesta(indiceOpcion);
+            renderizarTest();
+        }
+
+        function reservarOpcion(indiceOpcion) {
+            guardarRespuestaReservada(indiceOpcion);
             renderizarTest();
         }
 
@@ -1178,6 +1380,7 @@
 
             state.currentQuestion = 0;
             state.answers = {};
+            state.reserved = {};
             state.respuestasOrdenadas = {};
 
             iniciarTemporizador();
@@ -1198,7 +1401,13 @@
             detenerTemporizador();
             state.currentQuestion = 0;
             state.answers = {};
+            state.reserved = {};
             state.selectedBlocks = [];
+
+            // Mostrar selector de tipo de test
+            document.getElementById('selector-tipo-test').style.display = 'flex';
+            document.getElementById('contenedor-seleccion-temas').style.display = 'none';
+
             renderizarVista('inicio');
         }
 
@@ -1283,6 +1492,8 @@
         // ============================================
         // EVENT LISTENERS
         // ============================================
+        document.getElementById('btn-test-aleatorio').addEventListener('click', mostrarTestAleatorio);
+        document.getElementById('btn-test-temas').addEventListener('click', mostrarTestPorTemas);
         document.getElementById('btn-comenzar').addEventListener('click', comenzarTest);
         document.getElementById('btn-anterior').addEventListener('click', irAnterior);
         document.getElementById('btn-siguiente').addEventListener('click', irSiguiente);
