@@ -1222,30 +1222,35 @@
 
             document.getElementById('opciones-container').innerHTML = html;
 
-            // Agregar event listeners
+            // Agregar event listeners con event delegation
             const contenedor = document.getElementById('opciones-container');
 
-            contenedor.querySelectorAll('[data-respuesta-idx]').forEach(opcionDiv => {
-                const idx = parseInt(opcionDiv.dataset.respuestaIdx);
+            // Remover listeners anteriores para evitar duplicados
+            const newContenedor = contenedor.cloneNode(true);
+            contenedor.parentNode.replaceChild(newContenedor, contenedor);
 
-                const btnSeleccionar = opcionDiv.querySelector('.btn-seleccionar');
+            document.getElementById('opciones-container').addEventListener('click', function(e) {
+                const btnSeleccionar = e.target.closest('.btn-seleccionar');
+                const btnReservar = e.target.closest('.btn-opcion-reservar');
+
                 if (btnSeleccionar) {
-                    btnSeleccionar.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        e.stopPropagation();
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const opcionDiv = btnSeleccionar.closest('[data-respuesta-idx]');
+                    if (opcionDiv) {
+                        const idx = parseInt(opcionDiv.dataset.respuestaIdx);
                         seleccionarOpcion(idx);
-                    }, false);
-                }
-
-                const btnReservar = opcionDiv.querySelector('.btn-opcion-reservar');
-                if (btnReservar) {
-                    btnReservar.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        e.stopPropagation();
+                    }
+                } else if (btnReservar) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const opcionDiv = btnReservar.closest('[data-respuesta-idx]');
+                    if (opcionDiv) {
+                        const idx = parseInt(opcionDiv.dataset.respuestaIdx);
                         reservarOpcion(idx);
-                    }, false);
+                    }
                 }
-            });
+            }, false);
 
             // Actualizar botones de navegación
             document.getElementById('btn-anterior').disabled = state.currentQuestion === 0;
