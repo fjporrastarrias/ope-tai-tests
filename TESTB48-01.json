@@ -1,0 +1,102 @@
+[
+  {
+    "q": "¿En qué año financia el ejército americano ARPAnet a través de la Agencia de Proyectos de Investigación en Defensa (DARPA)?",
+    "o": [
+      "1957",
+      "1969",
+      "1983",
+      "1995"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué hito de la Unión Soviética impulsó la reacción de los Estados Unidos para crear la Advanced Research Projects Agency (ARPA) en febrero de 1958?",
+    "o": [
+      "El lanzamiento del satélite artificial Sputnik 1",
+      "El despliegue de la red inalámbrica ALOHAnet",
+      "La publicación de la teoría de colas por Kleinrock",
+      "La creación del sistema de tiempo compartido"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Quién demostró teóricamente en julio de 1961 que la conmutación de paquetes (o mensajes) presentaba ventajas frente a la conmutación de circuitos para el tráfico discontinuo?",
+    "o": [
+      "J.C.R. Licklider",
+      "Larry Roberts",
+      "Leonard Kleinrock",
+      "Bob Kahn"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué investigador del RAND Institute planteó a partir de 1964 la descentralización de las funciones de retransmisión y la división de mensajes en unidades fijas para voz en aplicaciones militares?",
+    "o": [
+      "Paul Baran",
+      "Donald Davies",
+      "Roger Scantlebury",
+      "Bob Metcalfe"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿A qué empresa privada le fue encargado el desarrollo del router elemental (Interface Message Processor - IMP) para la red ARPANET?",
+    "o": [
+      "Xerox PARC",
+      "Bolt Beranek and Newman (BBN)",
+      "Apple Computer",
+      "IBM Mainframes"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Cuál fue la universidad o centro elegido para albergar el primer nodo de ARPANET y donde se instaló el primer IMP en septiembre de 1969?",
+    "o": [
+      "Stanford Research Institute (SRI)",
+      "Massachusetts Institute of Technology (MIT)",
+      "Universidad de Utah",
+      "Universidad de California en Los Ángeles (UCLA)"
+    ],
+    "a": 3
+  },
+  {
+    "q": "¿Cuál fue el resultado textual de la primera transmisión por ARPANET efectuada el 29 de octubre de 1969 entre UCLA y el SRI debido a un cuelgue del sistema?",
+    "o": [
+      "\"LOGIN\"",
+      "\"LO\"",
+      "\"HELLO\"",
+      "\"CONNECT\""
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué protocolo de control de transmisión preliminar fue presentado en diciembre de 1970 por el Network Working Group (NWG) dirigido por Steve Crocker?",
+    "o": [
+      "Transmission Control Protocol (TCP)",
+      "Internet Protocol (IP)",
+      "Network Control Protocol (NCP)",
+      "User Datagram Protocol (UDP)"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿En qué año se adoptó de forma oficial el conjunto de protocolos TCP/IP en la red de ARPANET, marcando el nacimiento de lo que empezó a conocerse como Internet?",
+    "o": [
+      "1969",
+      "1972",
+      "1983",
+      "1989"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué red académica se creó en 1984 interconectando centros de supercómputo y supuso un cambio de arquitectura de redes agregadas a jerárquicas basada en un backbone único?",
+    "o": [
+      "ARPANET",
+      "NSFNet",
+      "PRNET",
+      "SATNET"
+    ],
+    "a": 1
+  }
+]

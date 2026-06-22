@@ -1,0 +1,102 @@
+[
+  {
+    "q": "En la arquitectura jerárquica de la topología de Internet, ¿cuál es la función de las redes clasificadas como Tier 1?",
+    "o": [
+      "Proveer acceso final a usuarios domésticos y pequeñas empresas locales",
+      "Actuar como redes corporativas privadas o de ámbito institucional restringido",
+      "Constituir la red troncal (Backbone) global de grandes operadores que interconectan continentes",
+      "Servir en exclusividad como puntos de intercambio de tráfico local (IXP)"
+    ],
+    "a": 2
+  },
+  {
+    "q": "De acuerdo con el W3C, ¿cuál es el pilar tecnológico fundamental sobre el que se define la Web Semántica (Web 3.0) para dotar de significado procesable a los datos?",
+    "o": [
+      "La interfaz interactiva enriquecida mediante JavaScript, AJAX y canales RSS",
+      "El Resource Description Framework (RDF) integrado con el lenguaje XML y ontologías OWL",
+      "El uso de agentes virtuales inteligentes capaces de predecir conductas en la red ubicua",
+      "La limitación estricta de documentos en texto plano ASCII de solo lectura"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué organismo internacional e independiente es el encargado directo de asignar las direcciones IP, gestionar el DNS raíz y administrar los dominios genéricos (gTLD) y de países (ccTLD)?",
+    "o": [
+      "World Wide Web Consortium (W3C)",
+      "Internet Engineering Task Force (IETF)",
+      "Internet Corporation for Assigned Names and Numbers (ICANN)",
+      "Internet Architecture Board (IAB)"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es el departamento u oficina operada actualmente por ICANN que supervisa la asignación global de parámetros de protocolo, recursos numéricos y servidores raíz?",
+    "o": [
+      "IANA (Internet Assigned Numbers Authority)",
+      "IESG (Internet Engineering Steering Group)",
+      "IRTF (Internet Research Task Force)",
+      "ISOC (Internet Society)"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué misión estatutaria tiene encomendada el World Wide Web Consortium (W3C), fundado originalmente por Tim Berners-Lee?",
+    "o": [
+      "La asignación internacional de sistemas autónomos y bloques IPv4/IPv6",
+      "Desarrollar protocolos y directrices abiertas (como HTML, XML, CSS o DOM) que aseguren el crecimiento a largo plazo de la Web",
+      "Supervisar y aprobar con carácter exclusivo los estándares técnicos del IETF",
+      "Publicar y archivar los índices oficiales de documentos ASCII denominados RFC"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Dentro de la estructura de la Internet Society (ISOC), ¿qué grupo técnico especializado se encarga directamente de la especificación de estándares de Internet (RFCs)?",
+    "o": [
+      "IAB (Internet Architecture Board)",
+      "IETF (Internet Engineering Task Force)",
+      "IRTF (Internet Research Task Force)",
+      "IESG (Internet Engineering Steering Group)"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En relación con los documentos RFC (Request For Comments), ¿cuál de las siguientes opciones describe una regla estricta sobre su control numérico?",
+    "o": [
+      "Un número de RFC puede eliminarse si el estándar queda revocado por completo",
+      "Cada RFC tiene asignado un título y un número único que no puede repetirse ni eliminarse aunque quede obsoleto",
+      "Las RFC se publican exclusivamente en lenguaje XML estructurado bajo directrices del W3C",
+      "El estado de una RFC pasa directamente de experimental a protocolo histórico sin fases previas"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Sobre qué puertos y protocolos de la capa de transporte opera por defecto el sistema de nombres de dominio DNS tanto para consultas regulares como transacciones mayores?",
+    "o": [
+      "Puertos 67 y 68 UDP",
+      "Puerto 53 sobre datagramas UDP o paquetes TCP",
+      "Puerto 21 y 20 TCP",
+      "Puerto 80 y 443 TCP"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En la nomenclatura jerárquica de DNS, ¿cuál es la longitud máxima de caracteres permitida para una etiqueta individual y para un nombre FQDN completo, respectivamente?",
+    "o": [
+      "32 caracteres por etiqueta y 128 caracteres en total",
+      "63 caracteres por etiqueta y 255 caracteres en total incluyendo los puntos",
+      "64 caracteres por etiqueta y 256 caracteres en total",
+      "63 caracteres por etiqueta y 512 caracteres en total"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Según lo estipulado por el Plan Nacional de nombres de dominio bajo el código de país \".es\", ¿cuáles son los límites de caracteres para los dominios de segundo nivel?",
+    "o": [
+      "Un máximo de 255 y un mínimo de 3",
+      "Un máximo de 63 y un mínimo de 3",
+      "Un máximo de 63 y un mínimo de 2",
+      "Un máximo de 128 y un mínimo de 1"
+    ],
+    "a": 1
+  }
+]

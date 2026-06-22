@@ -1,0 +1,102 @@
+[
+  {
+    "q": "El protocolo FTP (File Transfer Protocol, RFC 959) requiere la apertura de dos canales de conexión sobre TCP. ¿Cuáles son sus puertos por defecto?",
+    "o": [
+      "Puerto 20 para comandos y puerto 21 para datos",
+      "Puerto 21 para la conexión de control (comandos) y puerto 20 para la transferencia real de datos",
+      "Puerto 80 para control de acceso y puerto 443 para transporte cifrado",
+      "Puerto 23 para control remoto de terminal y puerto 22 para túneles seguros"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué acción define el Modo Pasivo (PASV) en una arquitectura de transferencia de ficheros FTP?",
+    "o": [
+      "El servidor abre activamente la conexión de datos apuntando a un puerto aleatorio del cliente",
+      "El cliente envía un comando PORT indicando su IP y puerto abierto",
+      "El servidor proporciona un puerto aleatorio a través del canal de control y es el cliente el que inicia la conexión de datos",
+      "Se desactiva la conexión de control para optimizar el ancho de banda"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué características técnicas diferencian al protocolo TFTP (Trivial File Transfer Protocol, RFC 1350) del estándar FTP?",
+    "o": [
+      "Funciona sobre TCP, permite listar directorios de manera jerárquica y admite autenticación robusta",
+      "Tiene un límite de archivo de 16 Kb y corre sobre el puerto de control TCP 21",
+      "Es una versión reducida que corre sobre el puerto UDP 69, carece de mecanismos de autenticación o cifrado y limita los ficheros a 4GB",
+      "Utiliza criptografía asimétrica nativa de extremo a extremo sin control de flujo"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué puertos e identificadores de transporte utiliza el servicio DHCP para la asignación dinámica de direccionamiento de red en arquitecturas IPv4 de host?",
+    "o": [
+      "Puertos UDP 53 y TCP 53",
+      "Puertos TCP 20 y TCP 21",
+      "Puertos UDP 67 (servidor) y UDP 68 (cliente)",
+      "Puertos UDP 546 y UDP 547"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué método o verbo del protocolo HTTP/1.1 se define específicamente para solicitar metadatos de un recurso a través de una respuesta idéntica a GET pero omitiendo el cuerpo del mensaje?",
+    "o": [
+      "POST",
+      "OPTIONS",
+      "HEAD",
+      "TRACE"
+    ],
+    "a": 2
+  },
+  {
+    "q": "En el marco del protocolo de optimización de rendimiento HTTP/2 (RFC 7540), ¿qué es conceptualmente un \"stream\"?",
+    "o": [
+      "La trama binaria más pequeña provista de cabecera que viaja por el canal físico",
+      "Un flujo de comunicación bidireccional de frames dentro de una única conexión abierta",
+      "Un mecanismo de compresión de datos con pérdida que reduce el tamaño MIME",
+      "Una directiva que fuerza la conversión automática de HTTP plano a canales TLS"
+    ],
+    "a": 1
+  },
+  {
+    "q": "El protocolo de nueva generación HTTP/3 sustituye la tradicional capa de transporte basada en enlaces orientados a conexión TCP por cuál de los siguientes esquemas?",
+    "o": [
+      "QUIC (Quick UDP Internet Connections), un protocolo que opera sobre datagramas UDP",
+      "Un túnel asimétrico directo sobre el protocolo de nombres DNS",
+      "Flujos TLS puros nativos de la capa de red IPv6 sin control de flujo intermedio",
+      "Un sistema híbrido multiplexado basado en tramas SCTP"
+    ],
+    "a": 0
+  },
+  {
+    "q": "¿Qué función de seguridad crítica realiza la directriz \"preload\" combinada dentro de la cabecera HTTP Strict-Transport-Security (HSTS)?",
+    "o": [
+      "Descargar por adelantado todo el contenido estático pesado de la página web",
+      "Habilitar la comunicación cifrada de los subdominios de manera recursiva",
+      "Afrontar el riesgo de interceptación en la primera visita del usuario mediante el marcado previo del sitio en los navegadores",
+      "Forzar la retransmisión asíncrona de mensajes de alerta TLS de tipo fatal"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Cuál es el objetivo primordial del mecanismo criptográfico \"Forward Secrecy\" incorporado en los estándares de seguridad de capa de transporte SSL/TLS?",
+    "o": [
+      "Garantizar que las transmisiones futuras utilicen claves de cifrado simétrico idénticas",
+      "Asegurar que, en caso de descubrirse una clave en un momento dado, no sea posible utilizarla para descifrar datos transmitidos con anterioridad",
+      "Añadir números de secuencia adicionales para impedir ataques de denegación de servicio",
+      "Autenticar mutuamente al cliente y al servidor sin usar certificados X.509"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Dentro del protocolo de registro TLS (Record Protocol), ¿qué código numérico en el campo \"content_type\" identifica de manera inequívoca a una trama correspondiente al Handshake?",
+    "o": [
+      "Content_type = 20",
+      "Content_type = 21",
+      "Content_type = 22",
+      "Content_type = 23"
+    ],
+    "a": 2
+  }
+]

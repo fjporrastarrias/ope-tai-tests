@@ -1,0 +1,102 @@
+[
+  {
+    "q": "De acuerdo con las especificaciones de las RFC 2606 y RFC 6761, ¿cuál de los siguientes constituye un nombre de dominio de primer nivel (TLD) reservado?",
+    "o": [
+      "example.com",
+      ".invalid",
+      "example.net",
+      ".es"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué dominio de infraestructura técnica especial se utiliza en DNS para articular la resolución inversa de direcciones IPv4 a nombres de dominio (RFC 1035)?",
+    "o": [
+      "ip6.arpa",
+      "in-addr.arpa",
+      "reverse.dns",
+      "addr.arpa"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Al transmitir registros de recursos (RR) en mensajes DNS, ¿qué tamaño o longitud en bytes tienen asignada de forma fija los campos TTL y RDLENGTH en la cabecera del registro?",
+    "o": [
+      "2 bytes para TTL y 2 bytes para RDLENGTH",
+      "4 bytes para TTL y 4 bytes para RDLENGTH",
+      "4 bytes para TTL y 2 bytes para RDLENGTH",
+      "2 bytes para TTL y 4 bytes para RDLENGTH"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué tipo de registro de recurso (RR) DNS tiene como finalidad exclusiva el establecimiento de alias o nombres adicionales para un recurso central o canónico?",
+    "o": [
+      "Registro A",
+      "Registro NS",
+      "Registro CNAME",
+      "Registro MX"
+    ],
+    "a": 2
+  },
+  {
+    "q": "¿Qué propiedad singular define al registro SOA (Start Of Authority) con respecto a su almacenamiento en memoria intermedia?",
+    "o": [
+      "Su campo CLASS siempre está fijado con el valor Chaos (CH)",
+      "Su campo TTL está configurado de manera fija con un valor de 0, impidiendo que sea cacheado",
+      "Almacena directamente direcciones físicas IPv6 del host maestro",
+      "No forma parte de las secciones autoritativas de una zona"
+    ],
+    "a": 1
+  },
+  {
+    "q": "¿Qué flag o indicador binario en la sección HEADER de una respuesta DNS confirma al receptor que la información procede de un servidor con autoridad directa sobre la zona?",
+    "o": [
+      "RD (Recursion Desired)",
+      "RA (Recursion Available)",
+      "AA (Authoritative Answer)",
+      "TC (Truncation)"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Cuando una respuesta DNS sobrepasa el límite estándar de 512 bytes en UDP y no se puede usar el mecanismo EDNS0, ¿cómo reacciona el protocolo para asegurar la integridad de la transmisión?",
+    "o": [
+      "El servidor descarta el paquete en silencio",
+      "El servidor activa el flag de truncado (TC) y el cliente reintenta la transacción usando el protocolo TCP",
+      "Se fragmenta el datagrama UDP en la capa de red IP de manera indefinida",
+      "Se desvía la consulta de forma automática a los servidores raíz"
+    ],
+    "a": 1
+  },
+  {
+    "q": "En el contexto de transacciones DNS, ¿cuál es el comportamiento exacto de una consulta de naturaleza ITERATIVA realizada por un resolver?",
+    "o": [
+      "El servidor consultado asume la obligación de buscar recursivamente hasta dar una respuesta final",
+      "Si el servidor no posee la información en sus zonas o caché, devuelve un mensaje de error crítico",
+      "El servidor devuelve la mejor respuesta posible o un referral (puntero) al servidor autoritativo del nivel inferior aplicable",
+      "Se establece una transferencia de zona forzada de tipo AXFR"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Las extensiones de seguridad DNSSEC protegen al protocolo de ataques como el cache poisoning basándose en qué elementos tecnológicos?",
+    "o": [
+      "Un filtrado dinámico de puertos aleatorios a nivel de firewall corporativo",
+      "Criptografía de clave pública (PKI) y el uso de firmas digitales en registros especiales como RRSIG, DNSKEY y NSEC",
+      "La conversión obligatoria de todas las tramas UDP a flujos cifrados TLS de capa de aplicación",
+      "El almacenamiento de todas las zonas en motores de bases de datos relacionales MySQL"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Dentro del esquema operativo de DNSSEC, ¿para qué se emplea el par de claves denominado Zone Signing Key (ZSK)?",
+    "o": [
+      "Para realizar el firmado exclusivo de registros de clave DNSKEY",
+      "Para el firmado regular de los conjuntos de registros de recursos (RRsets) de la zona",
+      "Para actuar como el ancla de confianza (trust anchor) en el servidor raíz",
+      "Para validar la autenticidad del registro de localización geográfica (LOC)"
+    ],
+    "a": 1
+  }
+]

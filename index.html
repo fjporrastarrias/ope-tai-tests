@@ -1206,14 +1206,14 @@
 
                 html += `
                     <div class="${clases}">
-                        <button
+                        <button type="button"
                             style="background: none; border: none; cursor: pointer; padding: 0; text-align: left; flex: 1; font-size: 15px; ${seleccionada ? 'color: white;' : ''}"
                             onclick="seleccionarOpcion(${resp.idx})"
                         >
                             ${resp.texto}
                         </button>
                         <div class="opcion-botones">
-                            <button class="btn-opcion-reservar" onclick="event.stopPropagation(); reservarOpcion(${resp.idx})">
+                            <button type="button" class="btn-opcion-reservar" onclick="event.stopPropagation(); reservarOpcion(${resp.idx})">
                                 ${reservada ? 'Desreservar' : 'Reservar'}
                             </button>
                         </div>
