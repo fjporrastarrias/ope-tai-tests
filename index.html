@@ -1205,15 +1205,14 @@
                 }
 
                 html += `
-                    <div class="${clases}">
-                        <button type="button"
+                    <div class="${clases}" data-respuesta-idx="${resp.idx}">
+                        <button type="button" class="btn-seleccionar"
                             style="background: none; border: none; cursor: pointer; padding: 0; text-align: left; flex: 1; font-size: 15px; ${seleccionada ? 'color: white;' : ''}"
-                            onclick="seleccionarOpcion(${resp.idx})"
                         >
                             ${resp.texto}
                         </button>
                         <div class="opcion-botones">
-                            <button type="button" class="btn-opcion-reservar" onclick="event.stopPropagation(); reservarOpcion(${resp.idx})">
+                            <button type="button" class="btn-opcion-reservar">
                                 ${reservada ? 'Desreservar' : 'Reservar'}
                             </button>
                         </div>
@@ -1222,6 +1221,25 @@
             });
 
             document.getElementById('opciones-container').innerHTML = html;
+
+            // Agregar event listeners
+            document.querySelectorAll('.btn-seleccionar').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const idx = this.closest('[data-respuesta-idx]').dataset.respuestaIdx;
+                    seleccionarOpcion(parseInt(idx));
+                });
+            });
+
+            document.querySelectorAll('.btn-opcion-reservar').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const idx = this.closest('[data-respuesta-idx]').dataset.respuestaIdx;
+                    reservarOpcion(parseInt(idx));
+                });
+            });
 
             // Actualizar botones de navegación
             document.getElementById('btn-anterior').disabled = state.currentQuestion === 0;
