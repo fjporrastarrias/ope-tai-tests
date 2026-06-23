@@ -436,6 +436,136 @@
             font-size: 16px;
         }
 
+        /* MODAL HISTORIAL */
+        .modal-historial {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow: auto;
+        }
+
+        .modal-historial.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-historial-contenido {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .modal-historial-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 12px;
+        }
+
+        .modal-historial-header h2 {
+            margin: 0;
+            color: #333;
+            font-size: 20px;
+        }
+
+        .modal-cerrar {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #666;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-cerrar:hover {
+            color: #333;
+        }
+
+        .modal-historial-lista {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .historial-entrada {
+            padding: 14px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .historial-entrada-fecha {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 6px;
+        }
+
+        .historial-entrada-temas {
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .historial-entrada-stats {
+            font-size: 12px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .modal-historial-acciones {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .modal-historial-acciones button {
+            flex: 1;
+            min-width: 120px;
+        }
+
+        .historial-vacio {
+            text-align: center;
+            padding: 24px;
+            color: #999;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .modal-historial-contenido {
+                width: 95%;
+                max-height: 90vh;
+                max-width: none;
+            }
+
+            .modal-historial-acciones {
+                flex-direction: column;
+            }
+
+            .modal-historial-acciones button {
+                min-width: auto;
+            }
+        }
+
         /* VISTA REVISIÓN */
         .revision-container {
             max-width: 800px;
@@ -883,8 +1013,28 @@
 
                     <div class="controles-resultados">
                         <button id="btn-revisar" class="btn-primary">Revisar Respuestas</button>
+                        <button id="btn-ver-historial-resultados" class="btn-secondary">Ver Historial</button>
                         <button id="btn-volver-inicio" class="btn-secondary">Volver al Inicio</button>
                     </div>
+                </div>
+            </section>
+
+            <!-- MODAL HISTORIAL -->
+            <div id="modal-historial" class="modal-historial">
+                <div class="modal-historial-contenido">
+                    <div class="modal-historial-header">
+                        <h2>Historial de Intentos</h2>
+                        <button class="modal-cerrar" id="btn-cerrar-modal">✕</button>
+                    </div>
+                    <div id="modal-historial-lista" class="modal-historial-lista"></div>
+                    <div class="modal-historial-acciones">
+                        <button id="btn-descargar-historial" class="btn-primary">Descargar JSON</button>
+                        <button id="btn-importar-historial" class="btn-secondary">Importar JSON</button>
+                        <button id="btn-limpiar-historial" class="btn-danger">Limpiar Historial</button>
+                    </div>
+                    <input type="file" id="input-importar" accept=".json" style="display: none;">
+                </div>
+            </div>
                 </div>
             </section>
 
@@ -1621,27 +1771,23 @@
         }
 
         function renderizarHistorial() {
-            const container = document.getElementById('historial-lista');
+            const container = document.getElementById('modal-historial-lista');
 
             if (state.history.length === 0) {
-                container.innerHTML = '<p style="color: #666; font-size: 14px;">No hay intentos anteriores</p>';
+                container.innerHTML = '<div class="historial-vacio">No hay intentos registrados</div>';
                 return;
             }
 
             let html = '';
-            state.history.slice(0, 10).forEach((entrada, idx) => {
+            state.history.forEach((entrada) => {
                 html += `
-                    <div style="padding: 12px; background: #f9f9f9; border-radius: 6px; border-left: 4px solid #667eea;">
-                        <div style="font-size: 12px; color: #666; margin-bottom: 6px;">
-                            ${entrada.fecha} - ${entrada.hora}
-                        </div>
-                        <div style="font-size: 13px; margin-bottom: 4px;">
-                            <strong>${entrada.bloques}</strong>
-                        </div>
-                        <div style="font-size: 12px; color: #666;">
-                            ${entrada.correctas}/${entrada.total} correctas |
-                            Puntuación: <strong>${entrada.puntuacion.toFixed(3)}</strong> |
-                            Tiempo: ${entrada.tiempo}
+                    <div class="historial-entrada">
+                        <div class="historial-entrada-fecha">${entrada.fecha} - ${entrada.hora}</div>
+                        <div class="historial-entrada-temas">${entrada.temas}</div>
+                        <div class="historial-entrada-stats">
+                            <div>Correctas: ${entrada.correctas}/${entrada.total} | Incorrectas: ${entrada.incorrectas} | Sin contestar: ${entrada.noContestadas}</div>
+                            <div>Puntuación: <strong>${entrada.puntuacion.toFixed(3)}</strong></div>
+                            <div>Tiempo: ${entrada.tiempo}</div>
                         </div>
                     </div>
                 `;
@@ -1650,13 +1796,62 @@
             container.innerHTML = html;
         }
 
-        function toggleHistorial() {
-            const container = document.getElementById('historial-container');
-            if (container.style.display === 'none') {
-                container.style.display = 'block';
+        function abrirModalHistorial() {
+            renderizarHistorial();
+            document.getElementById('modal-historial').classList.add('active');
+        }
+
+        function cerrarModalHistorial() {
+            document.getElementById('modal-historial').classList.remove('active');
+        }
+
+        function descargarHistorial() {
+            const datos = JSON.stringify(state.history, null, 2);
+            const blob = new Blob([datos], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `historial-tests-${new Date().toISOString().slice(0, 10)}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function importarHistorial() {
+            document.getElementById('input-importar').click();
+        }
+
+        document.getElementById('input-importar').addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                try {
+                    const datos = JSON.parse(event.target.result);
+                    if (Array.isArray(datos)) {
+                        state.history = datos;
+                        localStorage.setItem('testHistory', JSON.stringify(state.history));
+                        renderizarHistorial();
+                        alert('Historial importado correctamente');
+                    } else {
+                        alert('El archivo debe contener un array de intentos');
+                    }
+                } catch (error) {
+                    alert('Error al importar el archivo: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+            e.target.value = '';
+        });
+
+        function limpiarHistorial() {
+            if (confirm('¿Estás seguro de que quieres eliminar todo el historial? Esta acción no se puede deshacer.')) {
+                state.history = [];
+                localStorage.setItem('testHistory', JSON.stringify(state.history));
                 renderizarHistorial();
-            } else {
-                container.style.display = 'none';
+                alert('Historial eliminado');
             }
         }
 
@@ -1672,7 +1867,18 @@
         document.getElementById('btn-revisar').addEventListener('click', irARevision);
         document.getElementById('btn-volver-inicio').addEventListener('click', volverAlInicio);
         document.getElementById('btn-volver-resultados').addEventListener('click', () => renderizarVista('resultados'));
-        document.getElementById('btn-ver-historial').addEventListener('click', toggleHistorial);
+        document.getElementById('btn-ver-historial-resultados').addEventListener('click', abrirModalHistorial);
+        document.getElementById('btn-cerrar-modal').addEventListener('click', cerrarModalHistorial);
+        document.getElementById('btn-descargar-historial').addEventListener('click', descargarHistorial);
+        document.getElementById('btn-importar-historial').addEventListener('click', importarHistorial);
+        document.getElementById('btn-limpiar-historial').addEventListener('click', limpiarHistorial);
+
+        // Cerrar modal al hacer clic fuera del contenido
+        document.getElementById('modal-historial').addEventListener('click', (e) => {
+            if (e.target.id === 'modal-historial') {
+                cerrarModalHistorial();
+            }
+        });
 
         // ============================================
         // INICIALIZACIÓN
