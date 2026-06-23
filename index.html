@@ -1249,7 +1249,7 @@
                     for (let bloque = 1; bloque <= bloquesPerTema; bloque++) {
                         const archivo = `TEST${String(tema).padStart(2, '0')}-${String(bloque).padStart(2, '0')}.json`;
                         try {
-                            const response = await fetch(`json/${archivo}`);
+                            const response = await fetch(`json/${archivo}?t=${Date.now()}`);
                             if (response.ok) {
                                 const preguntas = await response.json();
                                 todasLasPreguntas[tema].push(...preguntas);
@@ -1807,7 +1807,9 @@
             state.currentQuestion = 0;
             state.answers = {};
             state.reserved = {};
+            state.respuestasOrdenadas = {};
             state.selectedBlocks = [];
+            state.questions = [];
 
             // Mostrar selector de tipo de test
             document.getElementById('selector-tipo-test').style.display = 'flex';
