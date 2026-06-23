@@ -1235,25 +1235,106 @@
             cargarTestAleatorio();
         }
 
-        async function cargarTestAleatorio() {
+        async function generarTestAleatorioVerdadero() {
             try {
-                detenerTemporizador();
-                const response = await fetch('json/test-aleatorio.json');
-                if (!response.ok) {
-                    alert('Error: No se pudo cargar el test aleatorio.');
-                    volverAlInicio();
-                    return;
+                // Cargar todos los bloques disponibles
+                const todasLasPreguntas = {};
+                const temas = 39;
+                const bloquesPerTema = 4;
+
+                // Agrupar preguntas por tema
+                for (let tema = 1; tema <= temas; tema++) {
+                    todasLasPreguntas[tema] = [];
+
+                    for (let bloque = 1; bloque <= bloquesPerTema; bloque++) {
+                        const archivo = `TEST${String(tema).padStart(2, '0')}-${String(bloque).padStart(2, '0')}.json`;
+                        try {
+                            const response = await fetch(`json/${archivo}`);
+                            if (response.ok) {
+                                const preguntas = await response.json();
+                                todasLasPreguntas[tema].push(...preguntas);
+                            }
+                        } catch (e) {
+                            console.warn(`No se pudo cargar ${archivo}`);
+                        }
+                    }
                 }
 
-                const preguntas = await response.json();
+                // Generar selección aleatoria respetando reglas
+                const preguntasSeleccionadas = {};
+                let totalPreguntas = 0;
+                let temasConPreguntas = 0;
 
-                if (!Array.isArray(preguntas) || preguntas.length === 0) {
-                    alert('Error: El archivo del test aleatorio no contiene preguntas válidas.');
-                    volverAlInicio();
-                    return;
+                // Seleccionar aleatoriamente hasta 4 preguntas por tema
+                for (let tema = 1; tema <= temas; tema++) {
+                    if (todasLasPreguntas[tema].length === 0) continue;
+
+                    const maxPreguntasTema = Math.min(4, todasLasPreguntas[tema].length);
+                    const numPreguntasTema = Math.floor(Math.random() * (maxPreguntasTema + 1)); // 0 a maxPreguntasTema
+
+                    if (numPreguntasTema > 0) {
+                        preguntasSeleccionadas[tema] = aleatorizar(todasLasPreguntas[tema]).slice(0, numPreguntasTema);
+                        totalPreguntas += numPreguntasTema;
+                        temasConPreguntas++;
+                    }
                 }
 
-                state.questions = preguntas;
+                // Validar regla: máx 3 temas sin preguntas
+                const temasSinPreguntas = temas - temasConPreguntas;
+                if (temasSinPreguntas > 3) {
+                    // Si hay más de 3 temas sin preguntas, agregar preguntas a algunos
+                    const temasAgregar = temasSinPreguntas - 3;
+                    let agregados = 0;
+
+                    for (let tema = 1; tema <= temas && agregados < temasAgregar; tema++) {
+                        if (!preguntasSeleccionadas[tema] && todasLasPreguntas[tema].length > 0) {
+                            preguntasSeleccionadas[tema] = [aleatorizar(todasLasPreguntas[tema])[0]];
+                            totalPreguntas++;
+                            temasConPreguntas++;
+                            agregados++;
+                        }
+                    }
+                }
+
+                // Si tenemos menos de 80, agregar más preguntas
+                while (totalPreguntas < 80) {
+                    for (let tema = 1; tema <= temas && totalPreguntas < 80; tema++) {
+                        if (preguntasSeleccionadas[tema] && preguntasSeleccionadas[tema].length < 4 && todasLasPreguntas[tema].length > 0) {
+                            const preguntasDisponibles = todasLasPreguntas[tema].filter(p =>
+                                !preguntasSeleccionadas[tema].includes(p)
+                            );
+
+                            if (preguntasDisponibles.length > 0) {
+                                const nuevaPregunta = preguntasDisponibles[Math.floor(Math.random() * preguntasDisponibles.length)];
+                                preguntasSeleccionadas[tema].push(nuevaPregunta);
+                                totalPreguntas++;
+                            }
+                        }
+                    }
+                }
+
+                // Construir array final ordenado por tema
+                const preguntasFinales = [];
+                for (let tema = 1; tema <= temas; tema++) {
+                    if (preguntasSeleccionadas[tema]) {
+                        preguntasFinales.push(...preguntasSeleccionadas[tema]);
+                    }
+                }
+
+                // Si no llegamos a 80, tomar del test-aleatorio.json como fallback
+                if (preguntasFinales.length < 80) {
+                    const response = await fetch('json/test-aleatorio.json');
+                    if (response.ok) {
+                        const preguntasAleatorias = await response.json();
+                        while (preguntasFinales.length < 80 && preguntasAleatorias.length > 0) {
+                            const idx = Math.floor(Math.random() * preguntasAleatorias.length);
+                            preguntasFinales.push(preguntasAleatorias.splice(idx, 1)[0]);
+                        }
+                    }
+                }
+
+                // Tomar exactamente 80 preguntas
+                state.questions = preguntasFinales.slice(0, 80);
                 state.currentQuestion = 0;
                 state.answers = {};
                 state.reserved = {};
@@ -1262,11 +1343,17 @@
 
                 iniciarTemporizador();
                 renderizarVista('test');
+
             } catch (error) {
-                console.error('Error al cargar test aleatorio:', error);
-                alert('Error al cargar el test aleatorio: ' + error.message);
+                console.error('Error al generar test aleatorio:', error);
+                alert('Error al generar el test aleatorio: ' + error.message);
                 volverAlInicio();
             }
+        }
+
+        async function cargarTestAleatorio() {
+            detenerTemporizador();
+            await generarTestAleatorioVerdadero();
         }
 
         function calcularResultados() {
