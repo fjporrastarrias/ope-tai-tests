@@ -8846,9 +8846,9 @@
   {
     "q": "Respecto a Código Abierto, ¿cuál es el/la organización que gestiona el desarrollo activo de LibreOffice?",
     "o": [
+	  "The Document Foundation",
       "Microsoft Corp",
       "Oracle",
-      "The Document Foundation",
       "Apache Foundation"
     ],
     "a": 0,
@@ -9422,9 +9422,9 @@
   {
     "q": "Si los servicios en la nube son compartidos en una comunidad cerrada por varias organizaciones relacionadas con un propósito o política común, se trata de una:",
     "o": [
+	  "Nube comunitaria",
       "Nube pública",
       "Nube privada",
-      "Nube comunitaria",
       "Nube híbrida"
     ],
     "a": 0,
@@ -12170,7 +12170,7 @@
   {
     "q": "¿Qué define un 'Sitio' (Site) dentro de la arquitectura física de Active Directory?",
     "o": [
-      "Una colección lógicamente estructurada de cuentas y contraseñas de usuarios externos.",
+      "Un grupo de subredes y controladores de dominio que están cerca a nivel de red y tienen buena conectividad entre sí.",
       "Un objeto que representa una o más subredes IP conectadas mediante enlaces de alta velocidad y fiables, utilizado para optimizar la replicación física.",
       "La dirección URL interna de acceso web al portal de la administración local.",
       "Un subconjunto del esquema que define el formato de metadatos del directorio."
@@ -14270,8 +14270,8 @@
   {
     "q": "¿Qué procedimiento se exige obligatoriamente para determinar la conformidad de los sistemas de categoría MEDIA o ALTA?",
     "o": [
-      "Bastará con una autoevaluación firmada",
       "Una auditoría para la certificación de su conformidad realizada por entidades acreditadas",
+	  "Bastará con una autoevaluación firmada",
       "Un control trimestral mediante cuestionarios web",
       "Una inspección presencial del Ministerio"
     ],
@@ -14642,8 +14642,8 @@
   {
     "q": "Determinar perfiles de usuarios y grupos para impedir el abuso de privilegios se denomina:",
     "o": [
-      "Identificación biométrica",
       "Segregación de funciones y tareas",
+	  "Identificación biométrica",
       "Control perimetral seguro",
       "Trazabilidad asíncrona"
     ],
@@ -19027,7 +19027,7 @@
       "Compilando todo el modelo en un único archivo ejecutable binario de C++",
       "Sustituyendo los cálculos de punto flotante por operaciones aritméticas enteras de 2 bits"
     ],
-    "a": 2,
+    "a": 1,
     "tema": 40,
     "bloque": 3
   },
