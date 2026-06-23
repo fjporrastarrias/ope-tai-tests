@@ -1239,8 +1239,9 @@
             try {
                 // Cargar todos los bloques disponibles
                 const todasLasPreguntas = {};
-                const temas = 39;
+                const temas = 40;
                 const bloquesPerTema = 4;
+                let totalCargadas = 0;
 
                 // Agrupar preguntas por tema
                 for (let tema = 1; tema <= temas; tema++) {
@@ -1253,12 +1254,15 @@
                             if (response.ok) {
                                 const preguntas = await response.json();
                                 todasLasPreguntas[tema].push(...preguntas);
+                                totalCargadas += preguntas.length;
                             }
                         } catch (e) {
                             console.warn(`No se pudo cargar ${archivo}`);
                         }
                     }
                 }
+
+                console.log(`DEBUG: Total preguntas cargadas: ${totalCargadas}, Temas con preguntas: ${Object.keys(todasLasPreguntas).filter(t => todasLasPreguntas[t].length > 0).length}`);
 
                 // Generar selección aleatoria respetando reglas
                 const preguntasSeleccionadas = {};
@@ -1321,17 +1325,23 @@
                     }
                 }
 
+                console.log(`DEBUG: Preguntas seleccionadas antes de fallback: ${preguntasFinales.length}`);
+
                 // Si no llegamos a 80, tomar del test-aleatorio.json como fallback
                 if (preguntasFinales.length < 80) {
+                    console.log(`DEBUG: Usando fallback (test-aleatorio.json) porque solo hay ${preguntasFinales.length} preguntas`);
                     const response = await fetch('json/test-aleatorio.json');
                     if (response.ok) {
                         const preguntasAleatorias = await response.json();
+                        console.log(`DEBUG: Fallback tiene ${preguntasAleatorias.length} preguntas`);
                         while (preguntasFinales.length < 80 && preguntasAleatorias.length > 0) {
                             const idx = Math.floor(Math.random() * preguntasAleatorias.length);
                             preguntasFinales.push(preguntasAleatorias.splice(idx, 1)[0]);
                         }
                     }
                 }
+
+                console.log(`DEBUG: Preguntas finales: ${preguntasFinales.length}`);
 
                 // Tomar exactamente 80 preguntas
                 state.questions = preguntasFinales.slice(0, 80);
