@@ -374,6 +374,68 @@
             flex-direction: column;
         }
 
+        /* TABLA ESTADÍSTICAS */
+        .tabla-estadisticas {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .tabla-estadisticas thead {
+            background: #f5f5f5;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .tabla-estadisticas th {
+            padding: 16px;
+            text-align: left;
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        .tabla-estadisticas td {
+            padding: 16px;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+        }
+
+        .tabla-estadisticas tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .tabla-estadisticas .fila-correctas {
+            color: #22c55e;
+            font-weight: 600;
+        }
+
+        .tabla-estadisticas .fila-incorrectas {
+            color: #ef4444;
+            font-weight: 600;
+        }
+
+        .tabla-estadisticas .fila-blanco {
+            color: #f59e0b;
+            font-weight: 600;
+        }
+
+        .tabla-estadisticas .fila-total {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 700;
+        }
+
+        .tabla-estadisticas .fila-total td {
+            border-bottom: none;
+            padding: 20px 16px;
+            font-size: 16px;
+        }
+
         /* VISTA REVISIÓN */
         .revision-container {
             max-width: 800px;
@@ -773,7 +835,7 @@
                 <div class="resultados-container">
                     <div class="resultado-titulo">Resultados del Test</div>
 
-                    <div class="resultados-grid">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px;">
                         <div class="resultado-item">
                             <div class="resultado-item-label">Tiempo</div>
                             <div class="resultado-item-valor" id="resultado-tiempo">0:00</div>
@@ -782,24 +844,42 @@
                             <div class="resultado-item-label">Preguntas</div>
                             <div class="resultado-item-valor" id="resultado-preguntas">0</div>
                         </div>
-                        <div class="resultado-item">
-                            <div class="resultado-item-label">Correctas</div>
-                            <div class="resultado-item-valor" style="color: #22c55e;" id="resultado-correctas">0</div>
-                        </div>
-                        <div class="resultado-item">
-                            <div class="resultado-item-label">Incorrectas</div>
-                            <div class="resultado-item-valor" style="color: #ef4444;" id="resultado-incorrectas">0</div>
-                        </div>
-                        <div class="resultado-item">
-                            <div class="resultado-item-label">No Contestadas</div>
-                            <div class="resultado-item-valor" style="color: #f59e0b;" id="resultado-no-contestadas">0</div>
-                        </div>
                     </div>
 
-                    <div class="puntuacion-final">
-                        <div class="puntuacion-label">PUNTUACIÓN FINAL</div>
-                        <div class="puntuacion-valor" id="resultado-puntuacion">0.000</div>
-                    </div>
+                    <table class="tabla-estadisticas">
+                        <thead>
+                            <tr>
+                                <th>Tipo de Respuesta</th>
+                                <th>Cantidad</th>
+                                <th>Porcentaje</th>
+                                <th>Puntuación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fila-correctas">
+                                <td>Correctas</td>
+                                <td><span id="stat-correctas-cant">0</span> de 80</td>
+                                <td><span id="stat-correctas-pct">0</span>%</td>
+                                <td>+<span id="stat-correctas-pun">0.000</span></td>
+                            </tr>
+                            <tr class="fila-incorrectas">
+                                <td>Incorrectas</td>
+                                <td><span id="stat-incorrectas-cant">0</span> de 80</td>
+                                <td><span id="stat-incorrectas-pct">0</span>%</td>
+                                <td>-<span id="stat-incorrectas-pun">0.000</span></td>
+                            </tr>
+                            <tr class="fila-blanco">
+                                <td>Sin Contestar</td>
+                                <td><span id="stat-blanco-cant">0</span> de 80</td>
+                                <td><span id="stat-blanco-pct">0</span>%</td>
+                                <td>0.000</td>
+                            </tr>
+                            <tr class="fila-total">
+                                <td><strong>PUNTUACIÓN FINAL</strong></td>
+                                <td colspan="3" style="text-align: right;"><span id="stat-puntuacion-final">0.000</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
 
                     <div class="controles-resultados">
                         <button id="btn-revisar" class="btn-primary">Revisar Respuestas</button>
@@ -1054,17 +1134,18 @@
             const incorrectas = preguntasContestadas - correctas;
 
             // Fórmula: puntuación = correctas * 0.125 - incorrectas * 0.05
-            // Normalizar a escala 0-10 independientemente del número de preguntas
-            const puntuacionBruta = correctas * 0.125 - incorrectas * 0.05;
-            const maxPuntuacionBruta = preguntasContestadas * 0.125;
-            const puntuacion = (puntuacionBruta / maxPuntuacionBruta) * 10;
+            const puntuacionCorrectasAportada = correctas * 0.125;
+            const puntuacionIncorrectasAportada = incorrectas * 0.05;
+            const puntuacionBruta = puntuacionCorrectasAportada - puntuacionIncorrectasAportada;
 
             return {
                 preguntasContestadas,
                 correctas,
                 incorrectas,
                 noContestadas,
-                puntuacion: Math.round(puntuacion * 1000) / 1000
+                puntuacionCorrectasAportada: Math.round(puntuacionCorrectasAportada * 1000) / 1000,
+                puntuacionIncorrectasAportada: Math.round(puntuacionIncorrectasAportada * 1000) / 1000,
+                puntuacion: Math.round(puntuacionBruta * 1000) / 1000
             };
         }
 
@@ -1272,13 +1353,31 @@
         function renderizarResultados() {
             const resultados = calcularResultados();
             const tiempoTotal = calcularTiempoTranscurrido();
+            const totalPreguntas = state.questions.length;
 
+            // Llenar información general
             document.getElementById('resultado-tiempo').textContent = tiempoTotal;
-            document.getElementById('resultado-preguntas').textContent = state.questions.length;
-            document.getElementById('resultado-correctas').textContent = resultados.correctas;
-            document.getElementById('resultado-incorrectas').textContent = resultados.incorrectas;
-            document.getElementById('resultado-no-contestadas').textContent = resultados.noContestadas;
-            document.getElementById('resultado-puntuacion').textContent = resultados.puntuacion.toFixed(3);
+            document.getElementById('resultado-preguntas').textContent = totalPreguntas;
+
+            // Calcular porcentajes
+            const pctCorrectas = totalPreguntas > 0 ? Math.round((resultados.correctas / totalPreguntas) * 100) : 0;
+            const pctIncorrectas = totalPreguntas > 0 ? Math.round((resultados.incorrectas / totalPreguntas) * 100) : 0;
+            const pctBlanco = totalPreguntas > 0 ? Math.round((resultados.noContestadas / totalPreguntas) * 100) : 0;
+
+            // Llenar tabla de estadísticas
+            document.getElementById('stat-correctas-cant').textContent = resultados.correctas;
+            document.getElementById('stat-correctas-pct').textContent = pctCorrectas;
+            document.getElementById('stat-correctas-pun').textContent = resultados.puntuacionCorrectasAportada.toFixed(3);
+
+            document.getElementById('stat-incorrectas-cant').textContent = resultados.incorrectas;
+            document.getElementById('stat-incorrectas-pct').textContent = pctIncorrectas;
+            document.getElementById('stat-incorrectas-pun').textContent = resultados.puntuacionIncorrectasAportada.toFixed(3);
+
+            document.getElementById('stat-blanco-cant').textContent = resultados.noContestadas;
+            document.getElementById('stat-blanco-pct').textContent = pctBlanco;
+
+            // Puntuación final
+            document.getElementById('stat-puntuacion-final').textContent = resultados.puntuacion.toFixed(3);
 
             // Guardar en historial
             guardarEnHistorial(resultados, tiempoTotal);
@@ -1487,10 +1586,12 @@
             const entrada = {
                 fecha: new Date().toLocaleDateString('es-ES'),
                 hora: new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' }),
-                bloques: state.selectedBlocks.map(b => `T${String(b.tema).padStart(2, '0')}-B${b.bloque}`).join(', '),
+                temas: state.selectedBlocks && state.selectedBlocks.length > 0
+                    ? state.selectedBlocks.map(b => `T${String(b.tema).padStart(2, '0')}-B${b.bloque}`).join(', ')
+                    : 'Test Aleatorio (80 preguntas)',
                 correctas: resultados.correctas,
                 incorrectas: resultados.incorrectas,
-                contestadas: resultados.preguntasContestadas,
+                noContestadas: resultados.noContestadas,
                 total: state.questions.length,
                 puntuacion: resultados.puntuacion,
                 tiempo: tiempoTotal
@@ -1501,6 +1602,7 @@
 
             try {
                 localStorage.setItem('testHistory', JSON.stringify(state.history));
+                console.log('Historial guardado:', entrada);
             } catch (error) {
                 console.warn('No se pudo guardar historial en localStorage:', error.message);
             }
