@@ -1,103 +1,639 @@
 [
   {
-    "q": "Los miembros de las Fuerzas o Institutos Armados o de los Cuerpos sometidos a disciplina militar, respecto al derecho de petición:",
+    "q": "El derecho a la huelga de los trabajadores para la defensa de sus intereses colectivos se reconoce expresamente en el artículo:",
     "o": [
-      "Están totalmente privados del ejercicio de este derecho por su condición",
-      "Podrán ejercer este derecho sólo individualmente y con arreglo a lo dispuesto en su legislación específica",
-      "Pueden ejercerlo tanto de forma individual como colectiva sin limitación alguna",
-      "Lo tramitarán obligatoriamente a través del sindicato representativo"
+      "Artículo 28.2",
+      "Artículo 35.1",
+      "Artículo 37.2",
+      "Artículo 41"
     ],
-    "a": 1
+    "a": 0,
+    "tema": 1,
+    "bloque": 2
   },
   {
-    "q": "Los Sellos de Tiempo se utilizan específicamente para evitar el:",
+    "q": "¿Cuál es la rúbrica exacta del Capítulo I del Título I de la Constitución Española?",
     "o": [
-      "Cifrado asimétrico",
-      "Repudio futuro de la información",
-      "Acceso por fuerza bruta",
-      "Uso de contraseñas débiles"
+      "De los españoles y los extranjeros",
+      "Derechos y libertades",
+      "De los derechos fundamentales y de las libertades públicas",
+      "De los derechos y deberes de los ciudadanos"
     ],
-    "a": 0
+    "a": 0,
+    "tema": 1,
+    "bloque": 2
   },
   {
-    "q": "¿Qué tipo de redundancia en líneas de distribución caracteriza al Tier IV?",
+    "q": "El control económico y presupuestario de la actividad financiera de las Comunidades Autónomas se encomienda constitucionalmente a:",
     "o": [
-      "Redundancia simple N",
-      "Redundancia N+1",
-      "Redundancia 2(N+1) con múltiples líneas activas simultáneamente",
-      "Línea única dedicada"
+      "La Intervención General del Estado.",
+      "El Tribunal de Cuentas.",
+      "El Banco de España.",
+      "La Comisión Nacional del Mercado de Valores."
     ],
-    "a": 0
+    "a": 1,
+    "tema": 2,
+    "bloque": 3
   },
   {
-    "q": "¿Cuál de los siguientes requisitos mínimos sustituyó al antiguo concepto de 'Seguridad por defecto' del ENS de 2010?",
+    "q": "Las leyes por las cuales las Cortes Generales atribuyen a las Comunidades Autónomas la facultad de dictar normas legislativas en el marco de los principios fijados por una ley estatal son llamadas:",
     "o": [
-      "Profesionalidad",
-      "Mínimo privilegio",
-      "Mejora continua",
-      "Registro de actividad"
+      "Leyes de Armonización.",
+      "Leyes Marco.",
+      "Leyes de Transferencia y Control.",
+      "Leyes de Delegación Ejecutiva."
     ],
-    "a": 0
+    "a": 1,
+    "tema": 2,
+    "bloque": 2
   },
   {
-    "q": "¿A través de qué estructura específica el CCN articula la respuesta técnica a los incidentes de seguridad del sector público?",
+    "q": "¿Qué órgano colegiado ejerce la dirección política de la Comunidad Autónoma, la función ejecutiva y la potestad reglamentaria?",
     "o": [
-      "INCIBE-CERT",
-      "ESPDEF-CERT",
-      "CCN-CERT",
-      "Mando Conjunto del Ciberespacio"
+      "El Pleno del Parlamento de Andalucía",
+      "El Consejo de Gobierno",
+      "La Junta de Portavoces parlamentarios",
+      "La Mesa del Parlamento"
     ],
-    "a": 0
+    "a": 1,
+    "tema": 3,
+    "bloque": 4
   },
   {
-    "q": "¿En qué plazo máximo debe notificarse, como regla general, una brecha de seguridad de los datos a la autoridad de control (AEPD)?",
+    "q": "¿Cómo define el artículo 100 la naturaleza del Parlamento de Andalucía?",
     "o": [
-      "Inmediatamente, sin dilación indebida y en un máximo de 24 horas.",
-      "En un plazo máximo de 72 horas.",
-      "Dentro del plazo de 1 mes.",
-      "En el plazo de 15 días hábiles."
+      "Como un órgano administrativo jerarquizado bajo la Presidencia",
+      "Como la institución que representa al pueblo andaluz y que es inviolable",
+      "Como un tribunal de arbitraje legislativo para las administraciones locales",
+      "Como una delegación sectorial subordinada al Senado de España"
     ],
-    "a": 1
+    "a": 1,
+    "tema": 3,
+    "bloque": 2
   },
   {
-    "q": "El derecho a recibir los datos personales facilitados por un interesado a un responsable en un formato estructurado, de uso común y lectura mecánica, se denomina:",
+    "q": "5. ¿Cómo son elegidos los Concejales según el artículo 140 de la CE?",
     "o": [
-      "Derecho de transparencia.",
-      "Derecho a la portabilidad.",
-      "Derecho de acceso digital.",
-      "Derecho al olvido."
+      "Por los vecinos mediante sufragio universal, igual, libre, directo y secreto",
+      "Por el Alcalde de entre una terna propuesta por los partidos políticos",
+      "Por la Diputación Provincial correspondiente",
+      "Por sufragio indirecto de las asociaciones vecinales"
     ],
-    "a": 1
+    "a": 0,
+    "tema": 4,
+    "bloque": 1
   },
   {
-    "q": "Dentro de las medidas técnicas para el puesto de trabajo, los privilegios o permisos de administración deben:",
+    "q": "29. ¿Qué órgano municipal de existencia preceptiva tiene como función el examen, estudio e informe de las cuentas anuales antes del Pleno?",
     "o": [
-      "Otorgarse a todos los usuarios habituales para agilizar la instalación de parches.",
-      "Asignarse de forma temporal automáticamente mediante el sistema operativo.",
-      "Estar en posesión exclusiva del personal TIC, configurando a los usuarios habituales sin ellos.",
-      "Estar deshabilitados completamente tanto para el personal habitual como para el personal TIC."
+      "La Junta de Gobierno Local",
+      "El Consejo Económico y Social",
+      "La Intervención General del Estado",
+      "La Comisión Especial de Cuentas"
     ],
-    "a": 2
+    "a": 3,
+    "tema": 4,
+    "bloque": 3
   },
   {
-    "q": "¿Para qué tipo de labores SÍ se recomienda explícitamente el uso de escritorio remoto según el temario?",
+    "q": "¿Para cuál de los siguientes actos NO se exige obligatoriamente acreditar la representación del interesado de forma fidedigna?",
     "o": [
-      "Labores de mantenimiento técnico o uso de software específico en un equipo dedicado",
-      "Trabajo en remoto o teletrabajo diario de los usuarios generales de la organización",
-      "Copia de seguridad y backups masivos de bases de datos relacionales",
-      "Auditoría continua de cumplimiento del Esquema Nacional de Seguridad (ENS)"
+      "Para formular solicitudes en nombre de otra persona.",
+      "Para la realización de actos y gestiones de mero trámite.",
+      "Para interponer recursos administrativos.",
+      "Para desistir de acciones o renunciar a derechos."
     ],
-    "a": 0
+    "a": 1,
+    "tema": 5,
+    "bloque": 1
   },
   {
-    "q": "¿Qué ataque consiste en insertar líneas de código maliciosas en una aplicación web para obtener acceso, modificar o robar datos de la base de datos subyacente?",
+    "q": "Según el artículo 15 de la Ley 39/2015, si en un procedimiento tramitado en una Comunidad Autónoma con lengua cooficial concurren varios interesados y existe discrepancia sobre la lengua, ¿en qué idioma se tramitará el procedimiento?",
     "o": [
-      "Inyección SQL.",
-      "Envenenamiento de DNS.",
-      "Clickjacking.",
-      "SYN Flood."
+      "En la lengua cooficial en todo caso.",
+      "En castellano, si bien los documentos o testimonios que soliciten los interesados se expedirán en la lengua elegida por los mismos.",
+      "El procedimiento se dividirá en tantos expedientes independientes como lenguas se hayan solicitado.",
+      "Se tramitará obligatoriamente de forma bilingüe en formato a doble columna."
     ],
-    "a": 0
+    "a": 1,
+    "tema": 5,
+    "bloque": 2
+  },
+  {
+    "q": "Si un acto nulo o anulable contiene los elementos constitutivos de otro distinto, se produce el fenómeno de:",
+    "o": [
+      "Convalidación jerárquica.",
+      "Conversión del acto.",
+      "Transmisión de invalidez.",
+      "Caducidad por infracción."
+    ],
+    "a": 1,
+    "tema": 6,
+    "bloque": 3
+  },
+  {
+    "q": "Como regla general, ¿cuándo comenzará la eficacia de un acto administrativo?",
+    "o": [
+      "A los 20 días de su publicación en el Boletín Oficial de la Provincia.",
+      "Desde la fecha en que se dicte, salvo que en él se disponga otra cosa.",
+      "En el momento en que el interesado firme el acuse de recibo físico.",
+      "Al mes de su aprobación por la Junta de Gobierno Local."
+    ],
+    "a": 1,
+    "tema": 6,
+    "bloque": 2
+  },
+  {
+    "q": "El intercambio electrónico de datos en entornos cerrados de comunicación se encuentra regulado en el artículo:",
+    "o": [
+      "Artículo 41 de la Ley 40/2015",
+      "Artículo 44 de la Ley 40/2015",
+      "Artículo 46 de la Ley 40/2015",
+      "Artículo 48 de la Ley 40/2015"
+    ],
+    "a": 1,
+    "tema": 7,
+    "bloque": 3
+  },
+  {
+    "q": "¿Cuál de las siguientes propiedades NO es un requisito explícito exigido por el artículo 46 para la conservación en el archivo electrónico?",
+    "o": [
+      "Integridad y autenticidad",
+      "Indexación pública con fines comerciales de analítica",
+      "Confidencialidad y disponibilidad",
+      "Legibilidad y conservación"
+    ],
+    "a": 1,
+    "tema": 7,
+    "bloque": 3
+  },
+  {
+    "q": "Contra las resoluciones definitivas dictadas por el Consejo de Transparencia de Andalucía en materia de reclamaciones, cabe interponer:",
+    "o": [
+      "Recurso de alzada ordinario ante el Presidente de la Junta de Andalucía.",
+      "Recurso contencioso-administrativo ante el órgano jurisdiccional competente.",
+      "Recurso extraordinario de revisión ante el Alcalde del municipio de origen.",
+      "Ningún tipo de recurso, dado que sus resoluciones cierran toda vía jurídica posible."
+    ],
+    "a": 1,
+    "tema": 8,
+    "bloque": 3
+  },
+  {
+    "q": "Las infracciones de carácter grave en materia de buen gobierno reguladas por la LTAIBG prescriben a los:",
+    "o": [
+      "Seis meses hábiles.",
+      "Dos años.",
+      "Tres años completos.",
+      "Cinco años continuados."
+    ],
+    "a": 1,
+    "tema": 8,
+    "bloque": 3
+  },
+  {
+    "q": "¿En qué artículo del TREBEP se establece la enumeración general de los derechos individuales de los empleados públicos?",
+    "o": [
+      "Artículo 9.",
+      "Artículo 14.",
+      "Artículo 53.",
+      "Artículo 54."
+    ],
+    "a": 1,
+    "tema": 9,
+    "bloque": 2
+  },
+  {
+    "q": "Garantizar la constancia y permanencia de los documentos para su transmisión y entrega a los posteriores responsables es un ejemplo de:",
+    "o": [
+      "Principio ético.",
+      "Principio de conducta.",
+      "Derecho colectivo.",
+      "Competencia discrecional del Alcalde."
+    ],
+    "a": 1,
+    "tema": 9,
+    "bloque": 3
+  },
+  {
+    "q": "En el marco de las pruebas de acceso al empleo público, el artículo 55 de la L.O. 3/2007 mandata la incorporación de:",
+    "o": [
+      "Un baremo automático que otorgue cinco puntos adicionales por razón de sexo.",
+      "Un informe de impacto de género en las convocatorias de las pruebas selectivas.",
+      "Una exención total del pago de tasas para el sexo que se encuentre subrepresentado.",
+      "Un examen de contenido exclusivamente político e histórico de carácter eliminatorio."
+    ],
+    "a": 1,
+    "tema": 10,
+    "bloque": 1
+  },
+  {
+    "q": "¿Cuál es el objetivo primordial de la implantación de un Plan de Igualdad en el Ayuntamiento?",
+    "o": [
+      "Reducir los costes globales de la plantilla de personal.",
+      "Alcanzar la igualdad real y efectiva entre mujeres y hombres y eliminar la discriminación por razón de sexo.",
+      "Eliminar la negociación colectiva con las organizaciones sindicales.",
+      "Establecer la rotación semanal obligatoria en la jefatura de los servicios técnicos."
+    ],
+    "a": 1,
+    "tema": 10,
+    "bloque": 3
+  },
+  {
+    "q": "¿Quién debe asumir el coste de las medidas de seguridad y salud laboral según el artículo 14.5 de la ley?",
+    "o": [
+      "Se financiará al 50% entre el Ayuntamiento de Priego de Córdoba y el empleado.",
+      "Deberá ser cubierto por las aportaciones voluntarias de los sindicatos del centro.",
+      "El coste de las medidas en ningún caso podrá recaer sobre los trabajadores.",
+      "El trabajador lo abonará mensualmente mediante detracción directa de su complemento específico."
+    ],
+    "a": 2,
+    "tema": 11,
+    "bloque": 2
+  },
+  {
+    "q": "Respecto a los dispositivos de seguridad de las máquinas, herramientas o instalaciones, los trabajadores tienen la obligación de:",
+    "o": [
+      "Desconectarlos de la red si entorpecen la rapidez del servicio ordinario.",
+      "No ponerlos fuera de funcionamiento y utilizarlos correctamente de acuerdo con su fin.",
+      "Intercambiarlos entre distintas máquinas sin autorización previa.",
+      "Retirarlos de forma permanente para facilitar las tareas de limpieza profunda."
+    ],
+    "a": 1,
+    "tema": 11,
+    "bloque": 3
+  },
+  {
+    "q": "¿Qué componente de un Sistema de Información hace referencia explícita al factor humano compuesto por usuarios y técnicos?",
+    "o": [
+      "Hardware.",
+      "Software.",
+      "Peopleware o Humanware.",
+      "Firmware."
+    ],
+    "a": 2,
+    "tema": 12,
+    "bloque": 1
+  },
+  {
+    "q": "¿Cómo se conoce a la parte central o núcleo de un Sistema Operativo encargado de interactuar directamente con el hardware?",
+    "o": [
+      "Interfaz Gráfica de Usuario (GUI).",
+      "Kernel o Núcleo.",
+      "Sistema de Archivos jerárquico.",
+      "Intérprete de comandos o Shell."
+    ],
+    "a": 1,
+    "tema": 12,
+    "bloque": 4
+  },
+  {
+    "q": "¿Cuál de las siguientes características NO es propia de los ordenadores actuales englobados en las últimas evoluciones tecnológicas?",
+    "o": [
+      "Procesadores multinúcleo",
+      "Conectividad ubicua (Wi-Fi, 5G)",
+      "Almacenamiento exclusivo en tarjetas perforadas",
+      "Integración de arquitecturas de propósito específico (GPUs/NPUs)"
+    ],
+    "a": 2,
+    "tema": 13,
+    "bloque": 3
+  },
+  {
+    "q": "¿Qué innovación introdujo Joseph Marie Jacquard a principios del siglo XIX que influyó directamente en la informática?",
+    "o": [
+      "El uso de relés electromecánicos",
+      "Las tarjetas perforadas para el control de patrones",
+      "El sistema numérico binario",
+      "La rueda de engranajes dentados"
+    ],
+    "a": 1,
+    "tema": 13,
+    "bloque": 1
+  },
+  {
+    "q": "¿Cuál es el voltaje nominal estándar operativo de DDR5?",
+    "o": [
+      "1.35 V.",
+      "1.1 V.",
+      "1.5 V.",
+      "0.9 V."
+    ],
+    "a": 1,
+    "tema": 14,
+    "bloque": 4
+  },
+  {
+    "q": "En la jerarquía de memoria de un ordenador, ¿cuál es el principal objetivo de su diseño escalonado?",
+    "o": [
+      "Conseguir la máxima velocidad posible al coste por bit más bajo posible.",
+      "Eliminar por completo el uso de memorias volátiles.",
+      "Garantizar que todos los niveles tengan el mismo tiempo de acceso.",
+      "Reducir el tamaño físico de la placa base."
+    ],
+    "a": 0,
+    "tema": 14,
+    "bloque": 2
+  },
+  {
+    "q": "¿Cuál es la finalidad principal del Esquema Nacional de Interoperabilidad (ENI)?",
+    "o": [
+      "Garantizar la seguridad física y lógica de los centros de proceso de datos.",
+      "Crear las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad técnica, semántica y organizativa.",
+      "Regular exclusivamente la firma electrónica avanzada de los ciudadanos.",
+      "Establecer las sanciones por el incumplimiento de la protección de datos."
+    ],
+    "a": 1,
+    "tema": 15,
+    "bloque": 1
+  },
+  {
+    "q": "¿Qué norma establece los formatos específicos que deben aplicar las imágenes electrónicas?",
+    "o": [
+      "La Norma Técnica de Interoperabilidad de Catálogo de Estándares.",
+      "La Ley Orgánica de Protección de Datos.",
+      "El Esquema Nacional de Seguridad directamente.",
+      "Las bases específicas de la convocatoria de Priego de Córdoba."
+    ],
+    "a": 0,
+    "tema": 15,
+    "bloque": 2
+  },
+  {
+    "q": "Bajo el Plan Nacional de nombres de dominio '.es', ¿cuáles son los límites máximos y mínimos de caracteres para los dominios de segundo nivel?",
+    "o": [
+      "Mínimo 2 y máximo 63 caracteres.",
+      "Mínimo 3 y máximo 63 caracteres.",
+      "Mínimo 3 y máximo 255 caracteres.",
+      "Mínimo 2 y máximo 32 caracteres."
+    ],
+    "a": 1,
+    "tema": 16,
+    "bloque": 1
+  },
+  {
+    "q": "A nivel de arquitectura de red en una Entidad Local, ¿cuál es la diferencia conceptual entre Intranet y Extranet?",
+    "o": [
+      "La Intranet opera con tecnología IP y la Extranet funciona exclusivamente sobre redes de telefonía analógica.",
+      "La Intranet es una red privada interna para los empleados públicos, mientras que la Extranet extiende esa red privada de forma controlada a usuarios externos autorizados.",
+      "La Intranet requiere servidores en la nube y la Extranet funciona mediante redes Mesh locales.",
+      "No existe diferencia alguna, son términos comerciales sin trasfondo técnico diferencial."
+    ],
+    "a": 1,
+    "tema": 16,
+    "bloque": 3
+  },
+  {
+    "q": "20. Siguiendo el criterio jerárquico del DNS, ¿en qué dominio se localizaría la información inversa de la dirección IPv4 213.4.108.69?",
+    "o": [
+      "213.4.108.69.in-addr.arpa",
+      "69.108.4.213.in-addr.arpa",
+      "arpa.in-addr.213.4.108.69",
+      "69-108-4-213.dns.reverse"
+    ],
+    "a": 1,
+    "tema": 17,
+    "bloque": 2
+  },
+  {
+    "q": "37. ¿Qué describe la cabecera de RESPUESTA de HTTP denominada 'Content-Security-Policy'?",
+    "o": [
+      "Las credenciales de autorización básicas del cliente.",
+      "Las políticas de seguridad del servidor.",
+      "El tamaño del contenido devuelto medido en bytes.",
+      "El idioma del contenido de la información de retorno."
+    ],
+    "a": 1,
+    "tema": 17,
+    "bloque": 4
+  },
+  {
+    "q": "¿Qué combinación de teclas permite forzar un salto de línea interno dentro de la misma celda de LibreOffice Calc?",
+    "o": [
+      "Ctrl + Enter",
+      "Alt + Enter",
+      "Shift + Enter",
+      "Tab + Enter"
+    ],
+    "a": 0,
+    "tema": 18,
+    "bloque": 2
+  },
+  {
+    "q": "¿Cuál es el número máximo de filas y columnas que admite una hoja de cálculo en las versiones recientes de LibreOffice Calc?",
+    "o": [
+      "65.536 filas y 256 columnas",
+      "1.048.576 filas y 1.024 columnas",
+      "1.048.576 filas y 16.384 columnas",
+      "Un millón de filas y diez mil columnas"
+    ],
+    "a": 2,
+    "tema": 18,
+    "bloque": 2
+  },
+  {
+    "q": "Respecto a Base, ¿cuál es el/la extensión nativa de los archivos de base de datos creados en Base?",
+    "o": [
+      ".sql",
+      ".odb",
+      ".db",
+      ".accdb"
+    ],
+    "a": 0,
+    "tema": 19,
+    "bloque": 4
+  },
+  {
+    "q": "Respecto a Base, ¿cuál es el/la motor relacional clásico escrito en Java integrado por defecto?",
+    "o": [
+      "Firebird",
+      "SQLite",
+      "PostgreSQL",
+      "HSQLDB"
+    ],
+    "a": 0,
+    "tema": 19,
+    "bloque": 4
+  },
+  {
+    "q": "¿En qué consiste la carga de páginas ANTICIPADA en memoria virtual?",
+    "o": [
+      "Llevar las páginas a memoria solo si se referencian explícitamente",
+      "Tratar de adivinar qué páginas serán solicitadas en el futuro inmediato aprovechando la localidad",
+      "Cargar todo el código del programa antes de iniciar el primer hilo",
+      "Reservar la totalidad de la memoria real para un único proceso interactivo"
+    ],
+    "a": 0,
+    "tema": 20,
+    "bloque": 2
+  },
+  {
+    "q": "En la estructura física de un disco, ¿cómo se denomina a la unión lógica de varias pistas paralelas?",
+    "o": [
+      "Sector",
+      "Cilindro",
+      "Bloque",
+      "Pista concéntrica"
+    ],
+    "a": 0,
+    "tema": 20,
+    "bloque": 2
+  },
+  {
+    "q": "¿En qué lenguajes de programación está desarrollado principalmente el gestor de entornos virtuales Chef?",
+    "o": [
+      "Python y C++",
+      "Erlang y Ruby",
+      "Go y Java",
+      "JavaScript y PHP"
+    ],
+    "a": 0,
+    "tema": 21,
+    "bloque": 4
+  },
+  {
+    "q": "En el gestor de paquetes pacman de Arch Linux, ¿qué parámetro se utiliza para eliminar un paquete junto con sus dependencias y todos los paquetes que dependan de esas dependencias?",
+    "o": [
+      "-R",
+      "-Rs",
+      "-Rsc",
+      "-Syu"
+    ],
+    "a": 0,
+    "tema": 21,
+    "bloque": 2
+  },
+  {
+    "q": "¿Qué comando se emplea en POP3 para validar las credenciales de un usuario de forma secuencial simple antes de pasar a la fase de transacción?",
+    "o": [
+      "LOGIN / PASSWD",
+      "USER / PASS",
+      "AUTH / SECRET",
+      "CONNECT / KEY"
+    ],
+    "a": 1,
+    "tema": 22,
+    "bloque": 2
+  },
+  {
+    "q": "¿Qué comando IMAP4 se utiliza para eliminar físicamente del servidor los mensajes que tienen activo el flag '\\Deleted'?",
+    "o": [
+      "EXPUNGE",
+      "PURGE",
+      "DELETE",
+      "REMOVE"
+    ],
+    "a": 0,
+    "tema": 22,
+    "bloque": 3
+  },
+  {
+    "q": "En el encaminamiento dinámico por Vectores de Distancia, ¿qué algoritmo se utiliza de forma iterativa para converger a los caminos óptimos?",
+    "o": [
+      "Algoritmo de Dijkstra",
+      "Algoritmo de Bellman-Ford",
+      "Algoritmo de conmutación por corte",
+      "Algoritmo Token Passing"
+    ],
+    "a": 1,
+    "tema": 23,
+    "bloque": 4
+  },
+  {
+    "q": "¿Qué nivel máximo de alimentación eléctrica por puerto proporciona el estándar IEEE 802.3af (PoE)?",
+    "o": [
+      "Hasta 15,4 W",
+      "Hasta 30 W",
+      "Hasta 60 W",
+      "Hasta 100 W"
+    ],
+    "a": 0,
+    "tema": 23,
+    "bloque": 3
+  },
+  {
+    "q": "¿Cuál es la capa más baja del modelo OSI?",
+    "o": [
+      "Capa de Enlace de Datos",
+      "Capa Física",
+      "Capa de Red",
+      "Capa de Transporte"
+    ],
+    "a": 1,
+    "tema": 24,
+    "bloque": 1
+  },
+  {
+    "q": "¿Cuántas capas tiene el modelo TCP/IP?",
+    "o": [
+      "7 capas",
+      "5 capas",
+      "4 capas",
+      "6 capas"
+    ],
+    "a": 1,
+    "tema": 24,
+    "bloque": 2
+  },
+  {
+    "q": "28. ¿A qué fabricante del sector pertenece originalmente la conocida solución de gestión de movilidad empresarial 'AirWatch'?",
+    "o": [
+      "Microsoft",
+      "Cisco",
+      "VMware",
+      "SAP"
+    ],
+    "a": 2,
+    "tema": 25,
+    "bloque": 3
+  },
+  {
+    "q": "2. En el comando route de Linux, ¿qué parámetro se utiliza para mostrar el contenido de la tabla de enrutamiento en formato numérico?",
+    "o": [
+      "-e",
+      "-n",
+      "-p",
+      "-s"
+    ],
+    "a": 1,
+    "tema": 25,
+    "bloque": 1
+  },
+  {
+    "q": "¿Cuáles son los dos roles FSMO que tienen un alcance exclusivo a nivel de TODO el Bosque (únicos por bosque)?",
+    "o": [
+      "RID Master y PDC Emulator",
+      "Schema Master y Domain Naming Master",
+      "Infrastructure Master y Schema Master",
+      "Domain Naming Master y RID Master"
+    ],
+    "a": 0,
+    "tema": 26,
+    "bloque": 3
+  },
+  {
+    "q": "¿Qué rol FSMO es el responsable directo de regular y autorizar la adición, eliminación o renombrado de dominios dentro del bosque corporativo?",
+    "o": [
+      "Schema Master",
+      "PDC Emulator",
+      "Domain Naming Master",
+      "RID Master"
+    ],
+    "a": 0,
+    "tema": 26,
+    "bloque": 3
+  },
+  {
+    "q": "¿Qué es el registro de acceso (audit log)?",
+    "o": [
+      "Un archivo de datos de usuario",
+      "Un registro de quién accedió a qué y cuándo",
+      "Una contraseña",
+      "Un tipo de firewall"
+    ],
+    "a": 1,
+    "tema": 27,
+    "bloque": 3
   },
   {
     "q": "¿Qué es la auditoría de seguridad?",
@@ -107,177 +643,141 @@
       "Instalar antivirus",
       "Hacer copias de seguridad diarias"
     ],
-    "a": 1
+    "a": 1,
+    "tema": 27,
+    "bloque": 3
   },
   {
-    "q": "¿Qué define un 'Sitio' (Site) dentro de la arquitectura física de Active Directory?",
+    "q": "¿Qué herramienta integrada en ADA del CCN-CERT se encarga específicamente de realizar análisis dinámicos avanzados de código dañino (multi-sandboxing)?",
     "o": [
-      "Una colección lógicamente estructurada de cuentas y contraseñas de usuarios externos.",
-      "Un objeto que representa una o más subredes IP conectadas mediante enlaces de alta velocidad y fiables, utilizado para optimizar la replicación física.",
-      "La dirección URL interna de acceso web al portal de la administración local.",
-      "Un subconjunto del esquema que define el formato de metadatos del directorio."
-    ],
-    "a": 0
-  },
-  {
-    "q": "¿Qué protocolo de autenticación es el predeterminado y principal dentro de un dominio de Active Directory de Microsoft?",
-    "o": [
-      "NTLMv2",
-      "Kerberos v5",
-      "RADIUS",
-      "SAML 2.0"
-    ],
-    "a": 0
-  },
-  {
-    "q": "39. ¿En qué consiste configurar una tarjeta de interfaz de red (NIC) en el denominado 'modo promiscuo'?",
-    "o": [
-      "En desactivar el filtro de verificación de direcciones físicas para capturar todo el tráfico que circule por el medio",
-      "En cifrar de forma automática todo el tráfico saliente",
-      "En bloquear selectivamente todas las conexiones UDP de la LAN",
-      "En duplicar el ancho de banda simétrico de la interfaz"
-    ],
-    "a": 0
-  },
-  {
-    "q": "15. ¿Qué comando de la línea de comandos clásica de Windows se utiliza para administrar y crear cuentas de usuario?",
-    "o": [
-      "net localgroup",
-      "net user",
-      "Get-LocalUser",
-      "djoin"
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Cuál es la capa más alta del modelo OSI?",
-    "o": [
-      "Capa de Presentación",
-      "Capa de Transporte",
-      "Capa de Aplicación",
-      "Capa de Sesión"
-    ],
-    "a": 2
-  },
-  {
-    "q": "¿Qué tipo de datos se transmiten a nivel de la capa física?",
-    "o": [
-      "Paquetes de datos",
-      "Tramas de enlace",
-      "Señales eléctricas, ópticas o radiofónicas",
-      "Mensajes de aplicación"
-    ],
-    "a": 2
-  },
-  {
-    "q": "¿Qué es un plan de recuperación ante desastres?",
-    "o": [
-      "Un documento de contraseñas",
-      "Un plan para recuperar datos y servicios tras un incidente crítico",
-      "Un tipo de firewall",
-      "Una política de contraseñas"
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Qué subcapa del modelo OSI se encarga de la encapsulación de datos (delimitación de tramas, direccionamiento y detección de errores) y depende directamente de la tecnología de red concreta?",
-    "o": [
-      "Subnivel LLC",
-      "Subnivel MAC",
-      "Capa de Red",
-      "Capa Física"
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Qué elemento actúa como una 'regleta mejorada' para distribuir energía en los racks y permite monitorización?",
-    "o": [
-      "PDU (Power Distribution Unit)",
-      "SAI",
-      "Grupo electrógeno",
-      "Cuadro eléctrico"
-    ],
-    "a": 0
-  },
-  {
-    "q": "10. ¿Qué se considera virtualización de aplicaciones según el texto?",
-    "o": [
-      "La instalación física de un SGBD en el puesto de usuario.",
-      "Tecnologías que permiten encapsular en un entorno aislado o sandbox (contenedor) los ejecutables, ficheros, servicios y registro de las aplicaciones.",
-      "El uso de emuladores para ejecutar sistemas Linux completos con kernels separados.",
-      "La migración automática de datos estructurados hacia una nube pública sin cifrar."
-    ],
-    "a": 1
-  },
-  {
-    "q": "15. La herramienta de seguridad desarrollada por el CCN encargada de la automatización de auditorías de configuración de routers, switches y firewalls es:",
-    "o": [
-      "ROCIO",
-      "EMMA",
+      "MARÍA",
+      "MARTA",
       "GLORIA",
-      "ANA"
+      "LUCIA"
     ],
-    "a": 0
+    "a": 1,
+    "tema": 28,
+    "bloque": 2
   },
   {
-    "q": "32. Un CPD diseñado bajo criterios de nivel Tier II (Componentes Redundantes) se caracteriza por disponer de una redundancia de tipo:",
+    "q": "Entre las medidas organizativas en el puesto de usuario, la política de 'mesas limpias' implica:",
     "o": [
-      "Redundancia N.",
-      "Redundancia N+1.",
-      "Redundancia 2N.",
-      "Redundancia 2(N+1)."
+      "Mantener limpio el hardware utilizando productos específicos.",
+      "La obligación de guardar la documentación de trabajo al ausentarse del puesto y al terminar la jornada laboral.",
+      "Eliminar de la mesa los dispositivos extraíbles USB no autorizados permanentemente.",
+      "Tener un escritorio virtual ordenado y sin accesos directos innecesarios."
     ],
-    "a": 1
+    "a": 1,
+    "tema": 28,
+    "bloque": 1
   },
   {
-    "q": "¿Qué es la plataforma @firma del Ministerio de Asuntos Económicos y Transformación Digital?",
+    "q": "¿Cuál es la duración del mandato del Presidente de la Agencia Española de Protección de Datos (AEPD)?",
     "o": [
-      "Una base de datos de ciudadanos con firma electrónica.",
-      "Una plataforma de servicios de validación y firma electrónica multi-PKI desacoplada de las aplicaciones.",
-      "Un programa que se instala obligatoriamente en los ordenadores de los ciudadanos.",
-      "El registro civil electrónico de España."
+      "3 años.",
+      "4 años.",
+      "5 años.",
+      "Carácter vitalicio hasta jubilación."
     ],
-    "a": 1
+    "a": 2,
+    "tema": 29,
+    "bloque": 3
   },
   {
-    "q": "¿A qué política de la Administración General del Estado (AGE) se ha preparado la adaptación global de la suite @firma en su versión 6.4?",
+    "q": "¿Están sujetos a la LOPDGDD los tratamientos de datos con fines de prevención, investigación y enjuiciamiento de infracciones penales?",
     "o": [
-      "Política de la AGE 1.0",
-      "Política de la AGE 2.0",
-      "Política de Seguridad Nacional 3.0",
-      "Plan Nacional de Recuperación Transformación y Resiliencia."
+      "Sí, plenamente.",
+      "No, se rigen por la Ley Orgánica 7/2021 y la Directiva correspondiente.",
+      "Sí, pero solo para datos biométricos.",
+      "No, se rigen por el Código Civil."
     ],
-    "a": 1
+    "a": 1,
+    "tema": 29,
+    "bloque": 1
   },
   {
-    "q": "¿Cuál de las siguientes NO es una de las tres funciones básicas de la firma electrónica según la documentación oficial?",
+    "q": "El principio básico incorporado en el RD 311/2022 que permite la detección de actividades o comportamientos anómalos es:",
     "o": [
-      "Identificar al firmante de manera inequívoca.",
-      "Asegurar la integridad del documento firmado.",
-      "Asegurar el no repudio del documento firmado.",
-      "Garantizar la confidencialidad y el cifrado del documento para que nadie más pueda leerlo."
+      "Gestión basada en riesgos",
+      "Vigilancia continua",
+      "Diferenciación de responsabilidades",
+      "Prevención y conservación"
     ],
-    "a": 3
+    "a": 0,
+    "tema": 30,
+    "bloque": 2
   },
   {
-    "q": "¿Qué significa el concepto de 'no repudio' en la firma electrónica?",
+    "q": "¿Cuántos principios básicos establece el ENS en su capítulo II (artículo 4)?",
     "o": [
-      "Que el documento no puede ser rechazado por las Administraciones Públicas bajo ningún concepto.",
-      "Que los datos de la firma son únicos y exclusivos, por lo que el firmante no puede negar haber firmado el documento.",
-      "Que el certificado electrónico no puede ser revocado una vez emitido.",
-      "Que la firma electrónica caduca automáticamente si el documento es modificado."
+      "5",
+      "7",
+      "15",
+      "12"
     ],
-    "a": 1
+    "a": 0,
+    "tema": 30,
+    "bloque": 1
   },
   {
-    "q": "¿Qué es el CMS (Certificado de Medico)",
+    "q": "¿Qué significan las siglas HVAC en climatización de CPDs?",
     "o": [
-      "Certificate Management System",
-      "Un certificado para profesionales sanitarios",
-      "Un software de gestión",
-      "Un protocolo de red"
+      "High Voltage Air Conditioning",
+      "Heating, Ventilation, and Air Conditioning",
+      "Hardware Virtualization Access Control",
+      "High Volume Automatic Cooling"
     ],
-    "a": 1
+    "a": 0,
+    "tema": 31,
+    "bloque": 2
+  },
+  {
+    "q": "¿A qué dimensión afecta directamente una amenaza de Interrupción?",
+    "o": [
+      "Confidencialidad",
+      "Disponibilidad",
+      "Trazabilidad",
+      "Integridad"
+    ],
+    "a": 0,
+    "tema": 31,
+    "bloque": 1
+  },
+  {
+    "q": "¿Cuál es la denominación operativa del Tier III según el Uptime Institute?",
+    "o": [
+      "Concurrentemente mantenible",
+      "Tolerante a fallos",
+      "Componentes redundantes",
+      "Básico"
+    ],
+    "a": 0,
+    "tema": 32,
+    "bloque": 2
+  },
+  {
+    "q": "¿Cómo define el texto una incidencia en la explotación de los sistemas?",
+    "o": [
+      "Toda interrupción o reducción de la calidad no planificada del servicio",
+      "Cualquier consulta rutinaria del usuario sobre software de oficina",
+      "Un mantenimiento programado fuera del horario laboral",
+      "La instalación autorizada de un nuevo periférico de red"
+    ],
+    "a": 0,
+    "tema": 32,
+    "bloque": 3
+  },
+  {
+    "q": "24. En el modo Docker Swarm, ¿qué tipo de nodo distribuye unidades de trabajo y realiza funciones de orquestación y administración del clúster?",
+    "o": [
+      "Nodo trabajador",
+      "Nodo agente",
+      "Nodo administrador",
+      "Nodo maestro de etcd"
+    ],
+    "a": 2,
+    "tema": 33,
+    "bloque": 3
   },
   {
     "q": "40. ¿Cuál de los siguientes controladores es ejecutado por el 'kube-controller-manager' de Kubernetes según la lista explícita del texto?",
@@ -287,516 +787,176 @@
       "Controlador de procesos en segundo plano PMON y SMON.",
       "Controlador de vistas materializadas y consultas indexadas."
     ],
-    "a": 0
+    "a": 0,
+    "tema": 33,
+    "bloque": 4
   },
   {
-    "q": "¿Cuál es la ventaja del expediente electrónico?",
+    "q": "¿Qué es VirtualBox?",
     "o": [
-      "Ocupa más espacio",
-      "Reducción de papel, acceso más rápido y mayor seguridad",
-      "Es más difícil de consultar",
-      "Requiere más personal"
+      "Un hipervisor Tipo 1",
+      "Un hipervisor Tipo 2 de código abierto y gratuito",
+      "Un servicio en la nube",
+      "Un sistema operativo"
     ],
-    "a": 1
+    "a": 1,
+    "tema": 34,
+    "bloque": 3
   },
   {
-    "q": "¿Qué es el Registro Telemático?",
+    "q": "¿Cuál es una limitación de la virtualización?",
     "o": [
-      "Un blog oficial",
-      "Sistema para registrar documentos en procedimientos administrativos electrónicamente",
-      "Un almacenamiento en la nube",
-      "Una base de datos de usuarios"
+      "No usa más recursos que físico",
+      "Puede añadir latencia y consumo de recursos",
+      "No permite múltiples sistemas operativos",
+      "Solo funciona con Linux"
     ],
-    "a": 1
+    "a": 1,
+    "tema": 34,
+    "bloque": 2
   },
   {
-    "q": "¿Cómo se denominan las librerías proporcionadas para facilitar la integración con el servicio @firma y permitir la firma en servidor?",
+    "q": "¿Qué preferencia de accesibilidad global para todo el sistema se incorporó textualmente en Android 13?",
     "o": [
-      "Librerías 'Integr@'",
-      "Módulo 'VALIDe'",
-      "Conector 'NAOS'",
-      "Librerías 'SICRES'"
+      "Habilitar subtítulos dinámicos basados en hardware externo",
+      "Permitir a los usuarios habilitar audiodescripciones en todas las apps",
+      "Control mediante gestos oculares con cámara infrarroja",
+      "Ampliación háptica para terminales corporativos de bajo coste"
     ],
-    "a": 0
+    "a": 1,
+    "tema": 35,
+    "bloque": 4
   },
   {
-    "q": "De acuerdo con las recomendaciones de la CSCDA (Recomendación 7), ¿cuál es el proceder correcto respecto a la aplicación de registro de entrada y sala?",
+    "q": "¿De qué servicios base del sistema se encarga el núcleo de Linux en la arquitectura Android?",
     "o": [
-      "Utilizarla como el repositorio digital permanente de la entidad",
-      "Proceder a la descarga y almacenamiento seguro en sistemas de gestión integral y NO usar la aplicación de registro como repositorio digital o archivo permanente",
-      "Duplicar todos los anexos firmados en soportes locales extraíbles semanalmente",
-      "Eliminar los metadatos de validación inmediatamente tras el asiento registral"
+      "Renderización de iconos temáticos y fuentes COLR",
+      "Seguridad, gestión de memoria, gestión de procesos, pila de red y modelo de controladores",
+      "Autenticación exclusiva en Google Play Store",
+      "Gestión de intents web y almacenamiento en caché de cookies de navegador"
     ],
-    "a": 1
+    "a": 1,
+    "tema": 35,
+    "bloque": 3
   },
   {
-    "q": "¿Qué guía CCN-STIC está dedicada específicamente a 'Sistemas de comunicaciones móviles seguras'?",
+    "q": "¿Qué número de clasificación corresponde a un 'Certificado de Sede' electrónico?",
     "o": [
-      "CCN-STIC 496",
-      "CCN-STIC 827",
-      "CCN-STIC 105",
-      "CCN-STIC 440"
+      "Clasificación = 3",
+      "Clasificación = 6",
+      "Clasificación = 7",
+      "Clasificación = 10"
     ],
-    "a": 0
+    "a": 0,
+    "tema": 36,
+    "bloque": 3
   },
   {
-    "q": "¿Cuál es una de las grandes ventajas de diseño que ofrece la arquitectura del Framework de aplicaciones de Android?",
+    "q": "En el ámbito de las notificaciones, ¿qué control automatizado se efectúa según los parámetros de configuración del envío?",
     "o": [
-      "Eliminar por completo el uso de la memoria RAM",
-      "Simplificar la reutilización de componentes, permitiendo que cualquier app publique sus capacidades",
-      "Impedir la instalación de software de terceros no aprobado por el kernel",
-      "Traducir automáticamente código Swift a Objective-C en tiempo real"
+      "El control de plazos según los parámetros del envío y expiración de los envíos",
+      "La alteración de la validez jurídica del documento original",
+      "El cambio inmediato de la bandeja gestora de GEX",
+      "La fiscalización contable automática de las tasas de ensobrado"
     ],
-    "a": 1
+    "a": 0,
+    "tema": 36,
+    "bloque": 4
   },
   {
-    "q": "¿Cuál es la ventaja principal de la computación en la nube?",
+    "q": "¿Qué es la administración electrónica (e-administration)?",
     "o": [
-      "Menor costo inicial pero más compleja",
-      "Escalabilidad, flexibilidad y pago por uso",
-      "Mejor rendimiento que sistemas locales siempre",
-      "Mayor privacidad de datos"
+      "Una tienda online del gobierno",
+      "El uso de tecnologías digitales para modernizar servicios administrativos públicos",
+      "Un correo electrónico oficial",
+      "Un sitio web gubernamental"
     ],
-    "a": 1
+    "a": 1,
+    "tema": 37,
+    "bloque": 1
   },
   {
-    "q": "¿Cuál es una ventaja importante de VDI para administradores?",
+    "q": "¿Cuál es un servicio importante del CERES?",
     "o": [
-      "Dificulta la administración central",
-      "Permite gestión centralizada y actualizaciones más sencillas",
-      "Requiere más hardware en cada puesto",
-      "Aumenta los costos de operación"
+      "Solo información",
+      "Expedición de certificados digitales para empresas",
+      "Venta de productos",
+      "Red social empresarial"
     ],
-    "a": 1
+    "a": 1,
+    "tema": 37,
+    "bloque": 2
   },
   {
-    "q": "¿Qué proyecto europeo promueve la interoperabilidad?",
+    "q": "¿Qué propiedad de la firma electrónica asegura que el documento firmado es exactamente el mismo que el original y no ha sufrido alteración o manipulación?",
     "o": [
-      "GDPR",
-      "eIDAS",
-      "HTTP",
-      "IPv6"
+      "Identificación.",
+      "Integridad.",
+      "No repudio.",
+      "Confidencialidad."
     ],
-    "a": 1
+    "a": 1,
+    "tema": 38,
+    "bloque": 1
   },
   {
-    "q": "¿Cómo funciona un conmutador con técnica híbrida (Adaptive Cut-through)?",
+    "q": "¿Qué verificación de configuración a nivel estricto se incluye en el backend de administración de @firma 6.4?",
     "o": [
-      "Opera siempre en modo Store and Forward y solo pasa a Cut-through en horarios de bajo tráfico.",
-      "Combina enrutamiento por vectores de distancia con estado de enlace a nivel de hardware.",
-      "Opera normalmente como Cut-through, pero si la frecuencia de tramas inválidas supera un umbral, se comporta como Store and forward.",
-      "Divide de forma fija los puertos entre baja latencia y alta verificación de errores."
+      "Verificación de la configuración del Directorio Activo corporativo.",
+      "Verificación de configuración DIR3 (Directorio Común de Unidades Orgánicas y Oficinas).",
+      "Verificación de compatibilidad con sistemas operativos Mac OS exclusivamente.",
+      "Verificación de cortafuegos perimetrales automáticos."
     ],
-    "a": 2
+    "a": 1,
+    "tema": 38,
+    "bloque": 4
   },
   {
-    "q": "¿Cuál es el puerto estándar asignado por la IANA para la transferencia de correo entre servidores de correo (MTA a MTA) mediante SMTP?",
+    "q": "24. En la taxonomía básica de amenazas a la seguridad de la información (ACIDT), ¿qué tipo de amenaza ataca directamente a la DISPONIBILIDAD?",
     "o": [
-      "23",
-      "25",
-      "110",
-      "143"
+      "Interceptación",
+      "Modificación",
+      "Interrupción",
+      "Fabricación"
     ],
-    "a": 1
+    "a": 2,
+    "tema": 39,
+    "bloque": 3
   },
   {
-    "q": "¿Qué elemento del correo electrónico se utiliza para indicar la presencia de archivos adjuntos, contenido multimedia o texto con codificaciones especiales dentro de los mensajes?",
+    "q": "16. ¿Qué entorno o protocolo de red (Preboot Execution Environment) permite arrancar e instalar de forma centralizada un sistema operativo a través de la red?",
     "o": [
-      "SMTP Auth",
-      "Extensiones MIME",
-      "STARTTLS",
-      "Buzón IMAP"
+      "VDI",
+      "SSH",
+      "PXE",
+      "SFTP"
     ],
-    "a": 1
+    "a": 2,
+    "tema": 39,
+    "bloque": 2
   },
   {
-    "q": "¿Qué órgano paritario tiene la competencia de conocer directamente los planos, memorias y la situación preventiva del centro, así como proponer mejoras en las condiciones?",
+    "q": "Si se desea integrar almacenamiento y búsqueda vectorial nativa dentro de un motor de base de datos relacional tradicional de código abierto, ¿cuál es la extensión de referencia?",
     "o": [
-      "El Pleno de la Corporación Local de forma exclusiva.",
-      "El Comité de Seguridad y Salud.",
-      "La Junta de Gobierno Local actuando de manera unilateral.",
-      "El Consejo Andaluz de Relaciones Laborales de forma directa."
+      "pgvector en PostgreSQL",
+      "plpython en MySQL",
+      "VectorIndex en Oracle Enterprise",
+      "spatial_ref en MariaDB"
     ],
-    "a": 1
+    "a": 0,
+    "tema": 40,
+    "bloque": 2
   },
   {
-    "q": "¿Qué calificación jurídica reciben las disposiciones o actos administrativos del Ayuntamiento que constituyan una discriminación por razón de sexo?",
+    "q": "¿Qué ventaja operativa aporta el índice vectorial HNSW (Hierarchical Navigable Small World) frente a una búsqueda exhaustiva KNN?",
     "o": [
-      "Son plenamente válidos si cuentan con informe favorable de Intervención.",
-      "Son nulos de pleno derecho.",
-      "Son anulables, disponiendo la Administración de cuatro años para convalidarlos.",
-      "Dan lugar únicamente a una corrección disciplinaria de carácter leve."
+      "Permite realizar búsquedas aproximadas de vecinos más próximos con eficiencia de tiempo logarítmico O(log N) mediante grafos jerárquicos",
+      "Garantiza un resultado exacto y exhaustivo recorriendo todos los registros secuencialmente",
+      "Reduce el tamaño físico de los vectores a cero mediante técnicas hash",
+      "Elimina de forma nativa la necesidad de usar memoria RAM en el servidor"
     ],
-    "a": 1
-  },
-  {
-    "q": "Una vez negociado y aprobado un Plan de Igualdad en una corporación local, su periodo máximo general de vigencia aplicable antes de su evaluación y renovación es de:",
-    "o": [
-      "10 años.",
-      "4 años.",
-      "1 año.",
-      "Indefinido, sin requerir ningún tipo de revisión posterior."
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Es necesario motivar una solicitud de acceso a la información pública según la legislación básica estatal?",
-    "o": [
-      "Sí, es un requisito formal de obligado cumplimiento.",
-      "No es necesario motivar la solicitud, aunque el solicitante puede exponer las razones que justifican su petición.",
-      "Sí, pero únicamente si la información solicitada pertenece al ámbito económico o fiscal.",
-      "No, pero si no se motiva, la Administración está facultada para cobrar una tasa de penalización."
-    ],
-    "a": 1
-  },
-  {
-    "q": "En el marco del régimen de Buen Gobierno regulado en la Ley 19/2013, las infracciones tipificadas como muy graves prescriben a los:",
-    "o": [
-      "Seis meses ordinarios.",
-      "Doce meses naturales.",
-      "Tres años.",
-      "Cinco años ininterrumpidos."
-    ],
-    "a": 2
-  },
-  {
-    "q": "A diferencia de una sede electrónica, un portal de internet de una Administración Pública posee de manera principal una función de:",
-    "o": [
-      "Tramitación oficial con plena validez jurídica directa.",
-      "Acceso a información corporativa y difusión de carácter general.",
-      "Fe pública y custodia estricta de documentos confidenciales.",
-      "Identificación forzosa de los habilitados estatales."
-    ],
-    "a": 1
-  },
-  {
-    "q": "Para su identificación electrónica, ¿cuáles son los sistemas que pueden utilizar las Administraciones Públicas según el artículo 40?",
-    "o": [
-      "Únicamente firma electrónica con certificado de persona física.",
-      "Sello electrónico basado en certificado cualificado y sistemas de Código Seguro de Verificación.",
-      "Usuario, contraseña avanzada y biometría facial.",
-      "Cualquier sistema criptográfico simétrico acordado por el Pleno."
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Cómo define el artículo 31 de la LPRL a los 'Servicios de Prevención'?",
-    "o": [
-      "Unidades externas destinadas a abonar las prestaciones económicas de incapacidad.",
-      "El conjunto de medios humanos y materiales necesarios para realizar las actividades preventivas a fin de garantizar la adecuada protección.",
-      "Comisiones de concejales destinadas a tramitar las bajas por enfermedad del personal.",
-      "Un cuerpo policial autonómico con funciones sancionadoras directas en los centros."
-    ],
-    "a": 1
-  },
-  {
-    "q": "La realización de actuaciones administrativas fuera del tiempo establecido para ellas:",
-    "o": [
-      "Implica siempre la nulidad de pleno derecho de todo el expediente.",
-      "Sólo implicará la anulabilidad del acto cuando así lo imponga la naturaleza del término o plazo.",
-      "No produce ningún efecto ni responsabilidad administrativa.",
-      "Conlleva la convalidación automática de las actuaciones anteriores."
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Están obligados los empleados de las Administraciones Públicas a relacionarse electrónicamente con ellas?",
-    "o": [
-      "No, disfrutan del derecho de opción al igual que cualquier persona física.",
-      "Sí, de forma absoluta para cualquier trámite personal o profesional de su vida privada.",
-      "Sí, para los trámites y actuaciones que realicen con ellas por razón de su condición de empleado público.",
-      "Únicamente si pertenecen al cuerpo de Técnicos Auxiliares de Informática (TAI)."
-    ],
-    "a": 2
-  },
-  {
-    "q": "En el marco de una tramitación de urgencia acordada bajo el artículo 33, ¿qué plazos quedan excluidos por ley de la reducción a la mitad?",
-    "o": [
-      "Los plazos para emitir informes técnicos sectoriales.",
-      "Los relativos a la presentación de solicitudes y de recursos.",
-      "Los plazos de subsanación de errores materiales de la Administración.",
-      "Los plazos de notificación por medios electrónicos cualificados."
-    ],
-    "a": 1
-  },
-  {
-    "q": "20. El Padrón Municipal es un documento de naturaleza:",
-    "o": [
-      "Privada y confidencial",
-      "Pública y fehaciente",
-      "Estadística y no vinculante",
-      "Judicial y sujeta a secreto de sumario"
-    ],
-    "a": 1
-  },
-  {
-    "q": "16. ¿Cuándo se adquiere formalmente la condición de vecino de un municipio?",
-    "o": [
-      "En el mismo momento de la inscripción en el Padrón municipal",
-      "Tras un año de residencia continuada y acreditada",
-      "Al adquirir una vivienda en el término municipal",
-      "Al cumplir la mayoría de edad y estar empadronado"
-    ],
-    "a": 0
-  },
-  {
-    "q": "¿Qué órgano del Estado y con qué mayoría debe apreciar la necesidad de dictar una Ley de Armonización?",
-    "o": [
-      "El Gobierno de la Nación por mayoría de dos tercios.",
-      "El Tribunal Constitucional por unanimidad de sus miembros.",
-      "Las Cortes Generales, por mayoría absoluta de cada Cámara.",
-      "El Senado por mayoría simple a propuesta autonómica."
-    ],
-    "a": 2
-  },
-  {
-    "q": "La legislación sobre pesas y medidas, y la determinación de la hora oficial, son competencias exclusivas de:",
-    "o": [
-      "Las Comunidades Autónomas que posean laboratorios de metrología.",
-      "El Estado.",
-      "El Instituto Geográfico Autonómico de forma compartida.",
-      "Los Ayuntamientos según su posición astronómica."
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Qué subdivisión concreta del Título I aglutina los derechos que disfrutan del máximo nivel de protección constitucional y garantía de amparo?",
-    "o": [
-      "El Capítulo I en su totalidad",
-      "La Sección 1ª del Capítulo II",
-      "La Sección 2ª del Capítulo II",
-      "El Capítulo III completo"
-    ],
-    "a": 1
-  },
-  {
-    "q": "Si una serie de actos administrativos de la misma naturaleza se derivan de la motivación de un acto originario, la Ley 39/2015 permite:",
-    "o": [
-      "Omitir cualquier tipo de motivación en los actos sucesivos.",
-      "La motivación conjunta mediante una única resolución genérica sin individualizar.",
-      "Refundir la motivación, bastando con que consten las circunstancias genéricas y las individuales de cada caso.",
-      "No se pueden dictar actos en serie bajo ninguna circunstancia."
-    ],
-    "a": 2
-  },
-  {
-    "q": "A diferencia de un compilador, un software intérprete se caracteriza por:",
-    "o": [
-      "Traducir y ejecutar el código fuente línea por línea o instrucción por instrucción directamente en tiempo de ejecución.",
-      "Generar siempre un archivo binario independiente con extensión .exe.",
-      "Trabajar exclusivamente con componentes tangibles del hardware.",
-      "No requerir memoria RAM para realizar sus funciones de traducción."
-    ],
-    "a": 0
-  },
-  {
-    "q": "¿Cuál de los siguientes elementos del hardware se clasifica estrictamente como un periférico de Entrada/Salida simultáneo?",
-    "o": [
-      "Un teclado estándar por cable USB.",
-      "Una pantalla táctil.",
-      "Un ratón óptico inalámbrico.",
-      "Un altavoz multimedia."
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Qué modelo teórico propuesto en 1945 define la estructura interna de la mayoría de los ordenadores modernos con CPU, memoria y E/S?",
-    "o": [
-      "La arquitectura Harvard",
-      "La arquitectura Von Neumann",
-      "La máquina de Turing cuántica",
-      "El modelo OSI"
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Qué comando de APT se utiliza exclusivamente para el análisis del sistema de paquetes (como buscar, mostrar dependencias o ver información) y es accesible por todos los usuarios sin privilegios de root?",
-    "o": [
-      "apt-get",
-      "dpkg",
-      "apt-cache",
-      "aptitude-run"
-    ],
-    "a": 0
-  },
-  {
-    "q": "Si utilizamos el gestor de paquetes de RedHat (RPM), ¿qué comando nos permite verificar la integridad de un paquete?",
-    "o": [
-      "rpm -qa",
-      "rpm -checksig package.rpm",
-      "rpm -qi package.rpm",
-      "rpm -F package.rpm"
-    ],
-    "a": 0
-  },
-  {
-    "q": "El problema de concurrencia que ocurre cuando un proceso tiene asignado un recurso y, sin liberarlo, solicita la asignación de otro, se llama:",
-    "o": [
-      "Condición de ocupar y esperar un recurso",
-      "Exclusión mutua incompleta",
-      "Inanición por prioridad",
-      "Interbloqueo destructivo"
-    ],
-    "a": 0
-  },
-  {
-    "q": "Dentro de la arquitectura de Active Directory de Windows, ¿qué elemento representa el límite de seguridad y el nivel más alto de la estructura lógica?",
-    "o": [
-      "Dominio",
-      "Bosque",
-      "Unidad Organizativa",
-      "Sitio de Red"
-    ],
-    "a": 0
-  },
-  {
-    "q": "Respecto a Código Abierto, ¿cuál es el/la estándar ISO/IEC 26300 para documentos de oficina?",
-    "o": [
-      "OOXML",
-      "PDF/A",
-      "XHTML",
-      "ODF"
-    ],
-    "a": 0
-  },
-  {
-    "q": "Respecto a Impress, ¿cuál es el/la vista orientada a la ordenación y organización secuencial rápida de diapositivas?",
-    "o": [
-      "Clasificador de diapositivas",
-      "Vista Normal",
-      "Vista Esquema",
-      "Vista Notas"
-    ],
-    "a": 0
-  },
-  {
-    "q": "Si en una celda de LibreOffice Calc aparece el error '###', ¿qué significa?",
-    "o": [
-      "Que la fórmula tiene una división por cero.",
-      "Que el nombre de la función está mal escrito.",
-      "Que el ancho de la columna es insuficiente para mostrar el contenido numérico o de fecha.",
-      "Que hay una referencia circular interna."
-    ],
-    "a": 2
-  },
-  {
-    "q": "Al configurar la 'Validación de datos' en una celda de LibreOffice Calc, el administrador puede conseguir:",
-    "o": [
-      "Cifrar los datos con clave pública.",
-      "Restringir los tipos de datos o valores que los usuarios pueden introducir en dicha celda.",
-      "Formatear de forma automática la celda según una condición.",
-      "Calcular el resultado de manera externa."
-    ],
-    "a": 1
-  },
-  {
-    "q": "40. Respecto a los protocolos HTTPS y SSL/TLS, basándose estrictamente en las fuentes proporcionadas del temario, ¿cuál es su estado actual?",
-    "o": [
-      "Están desarrollados de forma extensa detallando algoritmos y cifrados asimétricos en las páginas finales.",
-      "Figuran en el título e índice del tema, pero su desarrollo de especificaciones extensas está ausente del extracto de la fuente, mencionándose el uso de túneles SSL vía el método CONNECT de HTTP.",
-      "Se gestionan bajo las directrices del Plan Nacional de nombres de dominio '.es'.",
-      "Son utilizados exclusivamente en las actualizaciones dinámicas descritas en el RFC 2136."
-    ],
-    "a": 1
-  },
-  {
-    "q": "14. ¿Qué es un FQDN (Fully Qualified Domain Name)?",
-    "o": [
-      "Un nombre de dominio geográfico de dos letras.",
-      "El nombre formado por toda la cadena jerárquica que representa un recurso, terminando en el punto de la zona raíz.",
-      "Un formato de actualización dinámica restringido.",
-      "Un tipo de registro TXT empleado para combatir el spam."
-    ],
-    "a": 1
-  },
-  {
-    "q": "En el contexto del diseño de contenidos orientados al sector público local, ¿cuál es el objetivo primordial de la 'Usabilidad'?",
-    "o": [
-      "Garantizar que el portal web sea estéticamente complejo e incorpore animaciones.",
-      "Lograr que los usuarios del portal web alcancen sus objetivos con efectividad, eficiencia y satisfacción.",
-      "Impedir que personas ajenas al municipio visualicen la información.",
-      "Garantizar la encriptación mediante algoritmos asimétricos TLS 1.3."
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Qué tipo de servidor DNS almacena conjuntos de registros obtenidos mediante búsquedas recursivas a servidores autoritativos de forma temporal?",
-    "o": [
-      "Servidor DNS Primario o Maestro.",
-      "Servidor DNS Esclavo o Secundario.",
-      "Servidor Caché o Resolver.",
-      "Servidor Raíz (Root Server)."
-    ],
-    "a": 2
-  },
-  {
-    "q": "Según la definición técnica, ¿qué es la digitalización?",
-    "o": [
-      "El almacenamiento de ficheros en un servidor en la nube sin importar su formato.",
-      "El proceso tecnológico que permite convertir un documento en soporte papel o no electrónico en ficheros electrónicos con la imagen codificada, fiel e íntegra.",
-      "La transcripción manual de un texto impreso a un procesador de textos.",
-      "El envío de un correo electrónico con un documento adjunto."
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Qué tipo de metadatos asociados a la digitalización pueden incluirse de forma opcional y complementaria?",
-    "o": [
-      "Metadatos que reflejan las características técnicas de la imagen electrónica capturada.",
-      "Metadatos relativos al sueldo del operador del escáner.",
-      "Metadatos con el histórico de copias impresas posteriores.",
-      "Metadatos de geolocalización física del ciudadano."
-    ],
-    "a": 0
-  },
-  {
-    "q": "Mecanismo por el cual un periférico transfiere datos directamente a la memoria principal sin intervención continua de la CPU:",
-    "o": [
-      "E/S programada.",
-      "Interrupción por hardware (IRQ).",
-      "Acceso Directo a Memoria (DMA).",
-      "Polling o consulta continua."
-    ],
-    "a": 2
-  },
-  {
-    "q": "¿A qué se denomina 'cuello de botella de Von Neumann'?",
-    "o": [
-      "A la diferencia de velocidad entre los registros internos y la ALU.",
-      "A la limitación de rendimiento debida a que los datos y las instrucciones comparten el mismo bus de datos y memoria física.",
-      "A la incapacidad de los periféricos de entrada para enviar datos sincrónicamente.",
-      "Al calentamiento excesivo de los condensadores de la memoria RAM dinámica."
-    ],
-    "a": 1
-  },
-  {
-    "q": "¿Qué máquina electromecánica construida por Konrad Zuse entre 1938 y 1941 en Alemania es considerada una de las primeras máquinas de computación programables automáticas?",
-    "o": [
-      "Z3",
-      "Colossus",
-      "Harvard Mark I",
-      "Pascalina"
-    ],
-    "a": 0
-  },
-  {
-    "q": "34. ¿Qué solución técnica del catálogo CCN realiza tareas de sobreescritura y borrado seguro sobre sistemas de archivos, carpetas y espacio libre de disco?",
-    "o": [
-      "OLVIDO",
-      "CARLA",
-      "LORETO",
-      "CCNDroid Crypter"
-    ],
-    "a": 0
-  },
-  {
-    "q": "25. El ataque DoS que consiste en inundar de peticiones de conexión TCP (SYN) a un servidor sin llegar a completarlas hasta su saturación se denomina:",
-    "o": [
-      "Ping mortal",
-      "Inyección SQL",
-      "SYN Flood / TCP SYN attack",
-      "Ataque Smurf"
-    ],
-    "a": 2
+    "a": 0,
+    "tema": 40,
+    "bloque": 2
   }
 ]

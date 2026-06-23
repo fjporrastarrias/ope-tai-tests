@@ -451,6 +451,18 @@
             color: #164e63;
         }
 
+        .revision-opcion.reservada-incorrecta {
+            background: linear-gradient(to right, #cffafe 50%, #fee2e2 50%);
+            border-left-color: #06b6d4;
+            color: #164e63;
+        }
+
+        .revision-opcion.no-contestada-correcta {
+            background: #dbeafe;
+            border-left-color: #0ea5e9;
+            color: #0c4a6e;
+        }
+
         .revision-opcion.no-elegida {
             opacity: 0.6;
         }
@@ -1278,46 +1290,74 @@
             state.questions.forEach((pregunta, idx) => {
                 const respuestaUsuario = state.answers[idx];
                 const respuestaReservada = state.reserved[idx];
-                const noContestada = respuestaUsuario === undefined;
-                const esCorrecta = respuestaUsuario === pregunta.a;
+                const hayRespuestaSeleccionada = respuestaUsuario !== undefined;
+                const hayRespuestaReservada = respuestaReservada !== undefined;
+                const esRespuestaCorrecta = respuestaUsuario === pregunta.a;
 
                 let htmlOpciones = '';
                 pregunta.o.forEach((opcion, idxOpcion) => {
                     let clases = 'revision-opcion';
                     let indicador = '';
 
-                    const esRespuestaCorrecta = idxOpcion === pregunta.a;
+                    const esRespuestaCorrecta_opcion = idxOpcion === pregunta.a;
                     const esRespuestaUsuario = idxOpcion === respuestaUsuario;
                     const esRespuestaReservada = idxOpcion === respuestaReservada;
 
-                    // Caso 1: Es la respuesta correcta del usuario
-                    if (esRespuestaCorrecta && esRespuestaUsuario && !noContestada) {
-                        clases = 'revision-opcion elegida-correcta';
-                        indicador = '✓ Tu respuesta (Correcta)';
+                    // REGLA A: Si hay respuesta seleccionada (sea correcta o incorrecta)
+                    if (hayRespuestaSeleccionada) {
+                        // A1: Seleccionada y correcta → VERDE
+                        if (esRespuestaUsuario && esRespuestaCorrecta_opcion) {
+                            clases = 'revision-opcion elegida-correcta';
+                            indicador = '✓ Tu respuesta (Correcta)';
+                        }
+                        // A2: Seleccionada e incorrecta → ROJO
+                        else if (esRespuestaUsuario && !esRespuestaCorrecta_opcion) {
+                            clases = 'revision-opcion elegida-incorrecta';
+                            indicador = '✗ Tu respuesta (Incorrecta)';
+                        }
+                        // A3: Es la correcta (pero no fue seleccionada) → VERDE
+                        else if (esRespuestaCorrecta_opcion) {
+                            clases = 'revision-opcion correcta';
+                            indicador = '✓ Respuesta correcta';
+                        }
+                        // A4: No es la seleccionada ni la correcta
+                        else {
+                            clases = 'revision-opcion no-elegida';
+                        }
                     }
-                    // Caso 2: Es respuesta incorrecta del usuario
-                    else if (esRespuestaUsuario && !noContestada) {
-                        clases = 'revision-opcion elegida-incorrecta';
-                        indicador = '✗ Tu respuesta (Incorrecta)';
+                    // REGLA C: Si hay respuesta reservada (pero no seleccionada)
+                    else if (hayRespuestaReservada) {
+                        // C1: Reservada y correcta → AZUL + VERDE
+                        if (esRespuestaReservada && esRespuestaCorrecta_opcion) {
+                            clases = 'revision-opcion reservada-correcta';
+                            indicador = '✓ Respuesta correcta (Reservada)';
+                        }
+                        // C2: Reservada e incorrecta → AZUL + ROJO
+                        else if (esRespuestaReservada && !esRespuestaCorrecta_opcion) {
+                            clases = 'revision-opcion reservada-incorrecta';
+                            indicador = '✗ Reservada (Incorrecta)';
+                        }
+                        // C3: Es la correcta (pero no fue reservada) → VERDE
+                        else if (esRespuestaCorrecta_opcion) {
+                            clases = 'revision-opcion correcta';
+                            indicador = '✓ Respuesta correcta';
+                        }
+                        // C4: No es la reservada ni la correcta
+                        else {
+                            clases = 'revision-opcion no-elegida';
+                        }
                     }
-                    // Caso 3: Es respuesta correcta y reservada (mitad y mitad)
-                    else if (esRespuestaCorrecta && esRespuestaReservada && noContestada) {
-                        clases = 'revision-opcion reservada-correcta';
-                        indicador = '✓ Respuesta correcta (Reservada)';
-                    }
-                    // Caso 4: Es respuesta correcta (sin contestar)
-                    else if (esRespuestaCorrecta && noContestada) {
-                        clases = 'revision-opcion correcta';
-                        indicador = '✓ Respuesta correcta';
-                    }
-                    // Caso 5: Es respuesta reservada (sin contestar)
-                    else if (esRespuestaReservada && noContestada) {
-                        clases = 'revision-opcion reservada';
-                        indicador = '✓ Reservada';
-                    }
-                    // Caso 6: No elegida, no reservada
+                    // REGLA D: Si nada está seleccionado ni reservado
                     else {
-                        clases = 'revision-opcion no-elegida';
+                        // D1: Es la correcta → AZUL
+                        if (esRespuestaCorrecta_opcion) {
+                            clases = 'revision-opcion no-contestada-correcta';
+                            indicador = '✓ Respuesta correcta';
+                        }
+                        // D2: No es la correcta → opacidad baja
+                        else {
+                            clases = 'revision-opcion no-elegida';
+                        }
                     }
 
                     htmlOpciones += `
@@ -1329,7 +1369,7 @@
                 });
 
                 let estadoPregunta = '';
-                if (noContestada) {
+                if (!hayRespuestaSeleccionada && !hayRespuestaReservada) {
                     estadoPregunta = ' <span style="color: #f59e0b; font-weight: 600;">(No contestada)</span>';
                 }
 
