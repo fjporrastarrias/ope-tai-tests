@@ -1237,62 +1237,56 @@
 
         async function generarTestAleatorioVerdadero() {
             try {
-                // Cargar todos los bloques disponibles
-                const todasLasPreguntas = {};
-                const temas = 40;
-                const bloquesPerTema = 4;
-                let totalCargadas = 0;
-
-                // Agrupar preguntas por tema
-                for (let tema = 1; tema <= temas; tema++) {
-                    todasLasPreguntas[tema] = [];
-
-                    for (let bloque = 1; bloque <= bloquesPerTema; bloque++) {
-                        const archivo = `TEST${String(tema).padStart(2, '0')}-${String(bloque).padStart(2, '0')}.json`;
-                        try {
-                            const response = await fetch(`json/${archivo}?t=${Date.now()}`);
-                            if (response.ok) {
-                                const preguntas = await response.json();
-                                todasLasPreguntas[tema].push(...preguntas);
-                                totalCargadas += preguntas.length;
-                            }
-                        } catch (e) {
-                            console.warn(`No se pudo cargar ${archivo}`);
-                        }
-                    }
+                // 1. Cargar todas-preguntas.json
+                const response = await fetch(`json/todas-preguntas.json?t=${Date.now()}`);
+                if (!response.ok) {
+                    alert('Error: No se pudo cargar todas-preguntas.json');
+                    volverAlInicio();
+                    return;
                 }
 
-                console.log(`DEBUG: Total preguntas cargadas: ${totalCargadas}, Temas con preguntas: ${Object.keys(todasLasPreguntas).filter(t => todasLasPreguntas[t].length > 0).length}`);
+                const todasPreguntas = await response.json();
+                console.log(`DEBUG: Total preguntas disponibles: ${todasPreguntas.length}`);
 
-                // Generar selección aleatoria respetando reglas
+                // 2. Agrupar preguntas por tema
+                const preguntasPorTema = {};
+                for (let i = 1; i <= 40; i++) {
+                    preguntasPorTema[i] = [];
+                }
+
+                todasPreguntas.forEach(p => {
+                    if (preguntasPorTema[p.tema]) {
+                        preguntasPorTema[p.tema].push(p);
+                    }
+                });
+
+                // 3. Seleccionar 80 preguntas respetando reglas
                 const preguntasSeleccionadas = {};
                 let totalPreguntas = 0;
                 let temasConPreguntas = 0;
 
-                // Seleccionar aleatoriamente hasta 4 preguntas por tema
-                for (let tema = 1; tema <= temas; tema++) {
-                    if (todasLasPreguntas[tema].length === 0) continue;
+                // Seleccionar aleatoriamente 0-4 preguntas por tema
+                for (let tema = 1; tema <= 40; tema++) {
+                    if (preguntasPorTema[tema].length === 0) continue;
 
-                    const maxPreguntasTema = Math.min(4, todasLasPreguntas[tema].length);
-                    const numPreguntasTema = Math.floor(Math.random() * (maxPreguntasTema + 1)); // 0 a maxPreguntasTema
+                    const maxPreguntasTema = Math.min(4, preguntasPorTema[tema].length);
+                    const numPreguntasTema = Math.floor(Math.random() * (maxPreguntasTema + 1));
 
                     if (numPreguntasTema > 0) {
-                        preguntasSeleccionadas[tema] = aleatorizar(todasLasPreguntas[tema]).slice(0, numPreguntasTema);
+                        preguntasSeleccionadas[tema] = aleatorizar(preguntasPorTema[tema]).slice(0, numPreguntasTema);
                         totalPreguntas += numPreguntasTema;
                         temasConPreguntas++;
                     }
                 }
 
                 // Validar regla: máx 3 temas sin preguntas
-                const temasSinPreguntas = temas - temasConPreguntas;
-                if (temasSinPreguntas > 3) {
-                    // Si hay más de 3 temas sin preguntas, agregar preguntas a algunos
-                    const temasAgregar = temasSinPreguntas - 3;
+                if ((40 - temasConPreguntas) > 3) {
+                    const temasAgregar = (40 - temasConPreguntas) - 3;
                     let agregados = 0;
 
-                    for (let tema = 1; tema <= temas && agregados < temasAgregar; tema++) {
-                        if (!preguntasSeleccionadas[tema] && todasLasPreguntas[tema].length > 0) {
-                            preguntasSeleccionadas[tema] = [aleatorizar(todasLasPreguntas[tema])[0]];
+                    for (let tema = 1; tema <= 40 && agregados < temasAgregar; tema++) {
+                        if (!preguntasSeleccionadas[tema] && preguntasPorTema[tema].length > 0) {
+                            preguntasSeleccionadas[tema] = [aleatorizar(preguntasPorTema[tema])[0]];
                             totalPreguntas++;
                             temasConPreguntas++;
                             agregados++;
@@ -1300,56 +1294,39 @@
                     }
                 }
 
-                // Si tenemos menos de 80, agregar más preguntas
+                // Completar hasta 80 preguntas
                 while (totalPreguntas < 80) {
-                    for (let tema = 1; tema <= temas && totalPreguntas < 80; tema++) {
-                        if (preguntasSeleccionadas[tema] && preguntasSeleccionadas[tema].length < 4 && todasLasPreguntas[tema].length > 0) {
-                            const preguntasDisponibles = todasLasPreguntas[tema].filter(p =>
-                                !preguntasSeleccionadas[tema].includes(p)
-                            );
+                    for (let tema = 1; tema <= 40 && totalPreguntas < 80; tema++) {
+                        if (preguntasSeleccionadas[tema] && preguntasSeleccionadas[tema].length < 4) {
+                            const usadas = new Set(preguntasSeleccionadas[tema].map(p => p.q));
+                            const disponibles = preguntasPorTema[tema].filter(p => !usadas.has(p.q));
 
-                            if (preguntasDisponibles.length > 0) {
-                                const nuevaPregunta = preguntasDisponibles[Math.floor(Math.random() * preguntasDisponibles.length)];
-                                preguntasSeleccionadas[tema].push(nuevaPregunta);
+                            if (disponibles.length > 0) {
+                                const idx = Math.floor(Math.random() * disponibles.length);
+                                preguntasSeleccionadas[tema].push(disponibles[idx]);
                                 totalPreguntas++;
                             }
                         }
                     }
                 }
 
-                // Construir array final ordenado por tema
-                const preguntasFinales = [];
-                for (let tema = 1; tema <= temas; tema++) {
+                // 4. Construir array final ordenado por tema
+                const testAleatorio = [];
+                for (let tema = 1; tema <= 40; tema++) {
                     if (preguntasSeleccionadas[tema]) {
-                        preguntasFinales.push(...preguntasSeleccionadas[tema]);
+                        testAleatorio.push(...preguntasSeleccionadas[tema]);
                     }
                 }
-
-                console.log(`DEBUG: Preguntas seleccionadas antes de fallback: ${preguntasFinales.length}`);
-
-                // Si no llegamos a 80, tomar del test-aleatorio.json como fallback
-                if (preguntasFinales.length < 80) {
-                    console.log(`DEBUG: Usando fallback (test-aleatorio.json) porque solo hay ${preguntasFinales.length} preguntas`);
-                    const response = await fetch('json/test-aleatorio.json');
-                    if (response.ok) {
-                        const preguntasAleatorias = await response.json();
-                        console.log(`DEBUG: Fallback tiene ${preguntasAleatorias.length} preguntas`);
-                        while (preguntasFinales.length < 80 && preguntasAleatorias.length > 0) {
-                            const idx = Math.floor(Math.random() * preguntasAleatorias.length);
-                            preguntasFinales.push(preguntasAleatorias.splice(idx, 1)[0]);
-                        }
-                    }
-                }
-
-                console.log(`DEBUG: Preguntas finales: ${preguntasFinales.length}`);
 
                 // Tomar exactamente 80 preguntas
-                state.questions = preguntasFinales.slice(0, 80);
+                state.questions = testAleatorio.slice(0, 80);
                 state.currentQuestion = 0;
                 state.answers = {};
                 state.reserved = {};
                 state.respuestasOrdenadas = {};
                 state.selectedBlocks = [];
+
+                console.log(`DEBUG: Test aleatorio generado con ${state.questions.length} preguntas`);
 
                 iniciarTemporizador();
                 renderizarVista('test');
